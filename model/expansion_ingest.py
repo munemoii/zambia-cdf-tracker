@@ -37,8 +37,6 @@ def main():
         src_rows = list(csv.DictReader(f))
     src_key_to_row, problems = {}, []
     for s in src_rows:
-        if not s["url"].startswith("http"):
-            problems.append(f"source {s['source_key']}: bad url")
         src_key_to_row[s["source_key"]] = s
 
     with open(os.path.join(folder, "projects.csv"), newline="", encoding="utf-8") as f:
@@ -56,6 +54,8 @@ def main():
             problems.append(f"{tag}: bad component '{r['component']}'"); continue
         if r["source_key"] not in src_key_to_row:
             problems.append(f"{tag}: unknown source_key '{r['source_key']}'"); continue
+        if not src_key_to_row[r["source_key"]]["url"].startswith("http"):
+            problems.append(f"{tag}: source '{r['source_key']}' has no usable URL"); continue
         amt = (r["budget_kwacha"] or "").replace(",", "").strip()
         if amt:
             try: float(amt)
@@ -78,6 +78,8 @@ def main():
         return
     key_to_id = {}
     for s in src_rows:
+        if not s["url"].startswith("http"):
+            continue
         if s["url"] in existing_src_by_url:
             key_to_id[s["source_key"]] = existing_src_by_url[s["url"]]
         else:
