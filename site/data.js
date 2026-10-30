@@ -151,6 +151,12 @@ window.CDF_DATA = {
   "pilot": {
     "province": "Lusaka",
     "totalProjects": 166,
+    "fundingYears": {
+      "2022": 44,
+      "2023": 19,
+      "2025": 53
+    },
+    "fundingYearKnown": 116,
     "constituencies": [
       {
         "name": "Chawama",
@@ -179,7 +185,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC completes Chifundo Road drainage system, near completion of Lilayi Close Road project",
               "url": "https://www.lcc.gov.zm/lcc-completes-chifundo-road-drainage-system-near-compleetion-of-lilayi-close-road-project/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 28,
@@ -198,7 +205,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC completes Chifundo Road drainage system, near completion of Lilayi Close Road project",
               "url": "https://www.lcc.gov.zm/lcc-completes-chifundo-road-drainage-system-near-compleetion-of-lilayi-close-road-project/"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -230,7 +238,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Minutes of the Chilanga CDFC meeting held 14 April 2023 (incl. 2023 project appraisal table and incomplete-projects report)",
               "url": "http://www.chilangacouncil.gov.zm/wp-content/uploads/2025/11/CDFC-14TH-APRIL-2023-MINUTES-FINAL-pdf.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 100,
@@ -249,7 +258,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Minutes of the Chilanga CDFC meeting held 14 April 2023 (incl. 2023 project appraisal table and incomplete-projects report)",
               "url": "http://www.chilangacouncil.gov.zm/wp-content/uploads/2025/11/CDFC-14TH-APRIL-2023-MINUTES-FINAL-pdf.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 165,
@@ -271,7 +281,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
               "url": "https://www.chilangacouncil.gov.zm/?p=5824"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 161,
@@ -293,7 +304,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Newly constructed Mwembeshi Clinic in Chilanga District under CDF",
               "url": "https://www.chilangacouncil.gov.zm/?p=5844"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 160,
@@ -315,7 +327,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
               "url": "https://www.chilangacouncil.gov.zm/?p=5824"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 102,
@@ -334,7 +347,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Minutes of the Chilanga CDFC meeting held 14 April 2023 (incl. 2023 project appraisal table and incomplete-projects report)",
               "url": "http://www.chilangacouncil.gov.zm/wp-content/uploads/2025/11/CDFC-14TH-APRIL-2023-MINUTES-FINAL-pdf.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 99,
@@ -353,7 +367,8 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "CDF lights up Chilanga Game Clinic (12KVA solar backup installed, Disaster Component of 2025 CDF)",
               "url": "https://www.chilangacouncil.gov.zm/?p=3780"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -384,7 +399,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 47,
@@ -403,7 +419,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 34,
@@ -422,7 +439,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 29,
@@ -444,7 +462,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 49,
@@ -463,7 +482,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 44,
@@ -482,7 +502,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 54,
@@ -501,7 +522,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 42,
@@ -520,7 +542,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 63,
@@ -539,7 +562,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "The impact of CDF on education in Chongwe (classroom blocks at Chalimbana Primary/Secondary, Chongwe Secondary, Lubansa, Kalimasenga)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6946"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 64,
@@ -558,7 +582,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "The impact of CDF on education in Chongwe (classroom blocks at Chalimbana Primary/Secondary, Chongwe Secondary, Lubansa, Kalimasenga)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6946"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 65,
@@ -577,7 +602,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "The impact of CDF on education in Chongwe (classroom blocks at Chalimbana Primary/Secondary, Chongwe Secondary, Lubansa, Kalimasenga)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6946"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 66,
@@ -596,7 +622,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "The impact of CDF on education in Chongwe (classroom blocks at Chalimbana Primary/Secondary, Chongwe Secondary, Lubansa, Kalimasenga)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6946"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 57,
@@ -615,7 +642,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 164,
@@ -637,7 +665,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe District celebrates launch of a fully furnished maternity annex at Mulalika Health Post",
               "url": "https://www.chongwecouncil.gov.zm/?p=6274"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 51,
@@ -656,7 +685,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 43,
@@ -675,7 +705,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 50,
@@ -694,7 +725,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 36,
@@ -713,7 +745,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 30,
@@ -732,7 +765,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 60,
@@ -751,7 +785,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 59,
@@ -770,7 +805,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 163,
@@ -792,7 +828,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Maternity annex sparks new life in Mwalumina",
               "url": "https://www.chongwecouncil.gov.zm/?p=9123"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 33,
@@ -811,7 +848,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 56,
@@ -830,7 +868,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 31,
@@ -849,7 +888,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 46,
@@ -868,7 +908,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 52,
@@ -887,7 +928,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 53,
@@ -906,7 +948,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 61,
@@ -925,7 +968,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 35,
@@ -944,7 +988,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 48,
@@ -963,7 +1008,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 38,
@@ -982,7 +1028,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 37,
@@ -1001,7 +1048,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 62,
@@ -1020,7 +1068,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 58,
@@ -1039,7 +1088,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 41,
@@ -1058,7 +1108,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 39,
@@ -1077,7 +1128,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 32,
@@ -1096,7 +1148,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 45,
@@ -1115,7 +1168,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 55,
@@ -1134,7 +1188,8 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
-            }
+            },
+            "fundingYear": 2025
           }
         ]
       },
@@ -1168,7 +1223,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 149,
@@ -1187,7 +1243,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 133,
@@ -1206,7 +1263,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 119,
@@ -1225,7 +1283,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 117,
@@ -1244,7 +1303,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 158,
@@ -1263,7 +1323,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 122,
@@ -1282,7 +1343,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 137,
@@ -1301,7 +1363,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 159,
@@ -1320,7 +1383,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 121,
@@ -1339,7 +1403,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 130,
@@ -1358,7 +1423,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 144,
@@ -1377,7 +1443,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 138,
@@ -1396,7 +1463,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 156,
@@ -1415,7 +1483,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 124,
@@ -1434,7 +1503,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 136,
@@ -1453,7 +1523,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 157,
@@ -1472,7 +1543,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 128,
@@ -1491,7 +1563,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 125,
@@ -1510,7 +1583,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 126,
@@ -1529,7 +1603,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 155,
@@ -1548,7 +1623,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 139,
@@ -1567,7 +1643,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 135,
@@ -1586,7 +1663,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 154,
@@ -1605,7 +1683,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 151,
@@ -1624,7 +1703,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 123,
@@ -1643,7 +1723,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 131,
@@ -1662,7 +1743,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 134,
@@ -1681,7 +1763,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 147,
@@ -1700,7 +1783,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 129,
@@ -1719,7 +1803,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 153,
@@ -1738,7 +1823,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Luangwa Town Council hands over seven contracts under 2025 CDF allocation",
               "url": "https://www.luangwacouncil.gov.zm/?p=4359"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 116,
@@ -1757,7 +1843,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 115,
@@ -1776,7 +1863,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 145,
@@ -1795,7 +1883,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 143,
@@ -1814,7 +1903,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 146,
@@ -1833,7 +1923,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 120,
@@ -1852,7 +1943,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 150,
@@ -1871,7 +1963,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 118,
@@ -1890,7 +1983,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 127,
@@ -1909,7 +2003,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 140,
@@ -1928,7 +2023,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 132,
@@ -1947,7 +2043,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
               "url": "https://www.luangwacouncil.gov.zm/wp-content/uploads/2023/12/COMMUNITY-PROJET-2022-1.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 142,
@@ -1966,7 +2063,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 152,
@@ -1985,7 +2083,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 148,
@@ -2004,7 +2103,8 @@ window.CDF_DATA = {
               "publisher": "Luangwa Town Council",
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -2035,7 +2135,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 16,
@@ -2054,7 +2155,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 20,
@@ -2073,7 +2175,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "Construction of the new maternity annex at Kabwata Clinic has reached 90% completion",
               "url": "https://www.lcc.gov.zm/the-construction-of-the-new-maternity-annex-at-kabwata-clinic-in-kabwata-constituency-has-reached-90-completion/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 21,
@@ -2092,7 +2195,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "Science laboratory under construction at Mkandawire Secondary School, Kabwata (CDF)",
               "url": "https://www.lcc.gov.zm/to-promote-hands-on-learning-for-pupils-a-state-of-the-art-science-laboratory-is-under-construction-at-mkandawire-secondary-school-in-kabwata-constituency/"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -2124,7 +2228,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 82,
@@ -2143,7 +2248,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 83,
@@ -2162,7 +2268,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 72,
@@ -2181,7 +2288,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 86,
@@ -2200,7 +2308,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 73,
@@ -2219,7 +2328,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 162,
@@ -2241,7 +2351,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Constituency Development Fund awards Mwando Community a health post (Chipapa)",
               "url": "https://www.kafuecouncil.gov.zm/?p=790"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 74,
@@ -2263,7 +2374,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 70,
@@ -2282,7 +2394,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 87,
@@ -2301,7 +2414,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 85,
@@ -2320,7 +2434,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 88,
@@ -2339,7 +2454,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 75,
@@ -2358,7 +2474,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 91,
@@ -2377,7 +2494,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 68,
@@ -2396,7 +2514,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 69,
@@ -2415,7 +2534,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 98,
@@ -2434,7 +2554,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 89,
@@ -2453,7 +2574,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 92,
@@ -2472,7 +2594,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 90,
@@ -2491,7 +2614,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 78,
@@ -2510,7 +2634,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 76,
@@ -2529,7 +2654,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 77,
@@ -2548,7 +2674,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 84,
@@ -2567,7 +2694,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 79,
@@ -2586,7 +2714,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 67,
@@ -2605,7 +2734,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 80,
@@ -2624,7 +2754,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           },
           {
             "id": 93,
@@ -2643,7 +2774,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 94,
@@ -2662,7 +2794,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 96,
@@ -2681,7 +2814,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 95,
@@ -2700,7 +2834,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 97,
@@ -2719,7 +2854,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 71,
@@ -2738,7 +2874,8 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
-            }
+            },
+            "fundingYear": 2022
           }
         ]
       },
@@ -2768,7 +2905,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 13,
@@ -2787,7 +2925,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 14,
@@ -2806,7 +2945,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -2837,7 +2977,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "Bauleni to get maternity annex and mortuary through CDF (2022/2023 CDF, combined K3,000,000)",
               "url": "https://www.lcc.gov.zm/bauleni-to-get-maternity-annex-and-mortuary-through-cdf/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 23,
@@ -2856,7 +2997,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka Provincial Administration",
               "title": "Bauleni Mini Hospital to get CDF mortuary (wall fence handed over)",
               "url": "https://www.lsk.gov.zm/?p=2849"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -2886,7 +3028,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -2917,7 +3060,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 10,
@@ -2936,7 +3080,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 9,
@@ -2955,7 +3100,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 166,
@@ -2974,7 +3120,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "Lusaka Province Minister unveils CDF-funded Chunga Police Post (official Facebook post)",
               "url": "https://www.facebook.com/citycouncil1/posts/1282664940558772"
-            }
+            },
+            "fundingYear": 2023
           },
           {
             "id": 2,
@@ -2993,7 +3140,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 11,
@@ -3012,7 +3160,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 4,
@@ -3031,7 +3180,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 6,
@@ -3050,7 +3200,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 1,
@@ -3069,7 +3220,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 3,
@@ -3088,7 +3240,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 8,
@@ -3107,7 +3260,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 12,
@@ -3126,7 +3280,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           },
           {
             "id": 5,
@@ -3145,7 +3300,8 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
-            }
+            },
+            "fundingYear": 2025
           }
         ]
       },
@@ -3176,7 +3332,8 @@ window.CDF_DATA = {
               "publisher": "Munali Parliamentary Constituency Office (National Assembly constituency office page, mirrored on govserv.org)",
               "title": "Munali constituency office posts: Chainda Open School ablution block handover; Kaunda Square and Kalingalinga classroom construction",
               "url": "https://www.govserv.org/ZM/Unknown/2066947786880665/Munali-Parliamentary-Constituency-Office---National-Assembly-of-Zambia"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 19,
@@ -3195,7 +3352,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 24,
@@ -3214,7 +3372,8 @@ window.CDF_DATA = {
               "publisher": "Munali Parliamentary Constituency Office (National Assembly constituency office page, mirrored on govserv.org)",
               "title": "Munali constituency office posts: Chainda Open School ablution block handover; Kaunda Square and Kalingalinga classroom construction",
               "url": "https://www.govserv.org/ZM/Unknown/2066947786880665/Munali-Parliamentary-Constituency-Office---National-Assembly-of-Zambia"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 25,
@@ -3233,7 +3392,8 @@ window.CDF_DATA = {
               "publisher": "Munali Parliamentary Constituency Office (National Assembly constituency office page, mirrored on govserv.org)",
               "title": "Munali constituency office posts: Chainda Open School ablution block handover; Kaunda Square and Kalingalinga classroom construction",
               "url": "https://www.govserv.org/ZM/Unknown/2066947786880665/Munali-Parliamentary-Constituency-Office---National-Assembly-of-Zambia"
-            }
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -3264,7 +3424,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka Provincial Administration",
               "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
               "url": "https://www.lsk.gov.zm/?p=3578"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 105,
@@ -3283,7 +3444,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka Provincial Administration",
               "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
               "url": "https://www.lsk.gov.zm/?p=3578"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 106,
@@ -3302,7 +3464,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka Provincial Administration",
               "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
               "url": "https://www.lsk.gov.zm/?p=3578"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 114,
@@ -3321,7 +3484,8 @@ window.CDF_DATA = {
               "publisher": "Lusaka Provincial Administration",
               "title": "Lusaka Province Minister happy with road project in Rufunsa (Sinjela feeder road; health staff house handed over, over K935,000)",
               "url": "https://www.lsk.gov.zm/?p=3194"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 112,
@@ -3340,7 +3504,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 113,
@@ -3359,7 +3524,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 110,
@@ -3378,7 +3544,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 111,
@@ -3397,7 +3564,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 107,
@@ -3416,7 +3584,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 109,
@@ -3435,7 +3604,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 108,
@@ -3454,7 +3624,8 @@ window.CDF_DATA = {
               "publisher": "Rufunsa Town Council",
               "title": "Rufunsa District breaks ground: major feeder road project (seven roads, over K3 million CDF)",
               "url": "https://www.rufunsacouncil.gov.zm/?p=3608"
-            }
+            },
+            "fundingYear": null
           },
           {
             "id": 103,
@@ -3473,7 +3644,8 @@ window.CDF_DATA = {
               "publisher": "National Assembly of Zambia (Parliament)",
               "title": "CDF boosts infrastructure development in Rufunsa (low-bed truck K2,861,082.00, 2024 CDF, handed over 23 Dec 2025)",
               "url": "https://www.parliament.gov.zm/node/12266"
-            }
+            },
+            "fundingYear": null
           }
         ]
       }

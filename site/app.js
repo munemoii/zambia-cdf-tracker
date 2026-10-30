@@ -365,14 +365,20 @@
         showProject(pr);
       });
     });
+    var fyTxt = '';
+    if (P.fundingYears && P.fundingYearKnown) {
+      var parts = Object.keys(P.fundingYears).sort().map(function(y){ return y + ': ' + P.fundingYears[y]; }).join(' · ');
+      fyTxt = ' Funding year is published for ' + P.fundingYearKnown + ' of ' + P.totalProjects + ' projects (' + parts + '); the rest are published without one.';
+    }
     document.getElementById('pilotNote').textContent =
       P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' Lusaka constituencies. ' +
-      'Every project links to its published source; amounts are shown only where the source published them.';
+      'Every project links to its published source; amounts are shown only where the source published them.' + fyTxt;
   }
   function showProject(pr){
     var rows = [
       ['Status', (STATUS[pr.status] || STATUS.unknown).label + (pr.completionPct ? ' · ' + pr.completionPct + '% complete' : '')],
       ['Budget', fmtKwacha(pr.budgetM)],
+      ['Funding year', pr.fundingYear ? String(pr.fundingYear) : 'Not published'],
       ['Ward', pr.ward || '—'], ['Category', pr.category || '—'],
       ['Contractor', pr.contractor || '—']
     ];

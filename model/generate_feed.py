@@ -93,7 +93,7 @@ def main():
     proj_rows = c.execute("""SELECT pr.id, pr.name, k.name, pr.ward, pr.component, pr.category,
                                     pr.contractor, pr.budget_m, pr.status, pr.completion_pct,
                                     pr.photo_url, pr.photo_credit, pr.note,
-                                    s.publisher, s.title, s.url
+                                    s.publisher, s.title, s.url, pr.funding_year
                              FROM projects pr
                              JOIN constituencies k ON k.id = pr.constituency_id
                              LEFT JOIN sources s ON s.id = pr.source_id
@@ -113,6 +113,7 @@ def main():
                 "photo": ({"url": r[10], "credit": r[11]} if r[10] else None),
                 "note": r[12],
                 "source": {"publisher": r[13], "title": r[14], "url": r[15]},
+                "fundingYear": r[16],
             })
         consts = []
         for nm in sorted(by_const):
@@ -121,7 +122,10 @@ def main():
                            "budgetM": round(sum(i["budgetM"] or 0 for i in items), 2),
                            "statusCounts": dict(Counter(i["status"] for i in items)),
                            "projects": items})
+        fy_counts = Counter(r[16] for r in proj_rows if r[16])
         pilot = {"province": "Lusaka", "totalProjects": len(proj_rows),
+                 "fundingYears": {str(y): fy_counts[y] for y in sorted(fy_counts)},
+                 "fundingYearKnown": sum(fy_counts.values()),
                  "constituencies": consts}
 
     data = {

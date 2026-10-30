@@ -166,7 +166,7 @@ def main():
     projects = c.execute("""
         SELECT pr.id, pr.name, pr.ward, pr.component, pr.category, pr.contractor,
                pr.budget_m, pr.status, pr.completion_pct, pr.photo_url, pr.photo_credit,
-               pr.note, k.name, k.id, pv.name, s.publisher, s.title, s.url
+               pr.note, k.name, k.id, pv.name, s.publisher, s.title, s.url, pr.funding_year
         FROM projects pr
         JOIN constituencies k ON k.id = pr.constituency_id
         JOIN provinces pv ON pv.id = k.province_id
@@ -263,6 +263,8 @@ def main():
     for pname, consts in by_province_const.items():
         for cname, items in consts.items():
             known = [i for i in items if i[6] is not None]
+            fy_known = sum(1 for i in items if i[18])
+            fy_txt = f" Funding year is published for {fy_known} of {len(items)}." if fy_known else ""
             total_b = sum(i[6] for i in items if i[6] is not None)
             from collections import Counter
             sc = Counter(i[7] for i in items)
@@ -276,7 +278,7 @@ def main():
                   <p>{html.escape(pr[2] or '')}{' · ' if pr[2] else ''}{html.escape(pr[4] or '')}</p>
                   <p class="pcard-sub">{fmt_kwacha(pr[6])} · {STATUS.get(pr[7], STATUS['unknown'])[0]}</p>
                 </a>""")
-            body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked across all published years · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
+            body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked across all published years · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts).{fy_txt}</p>
 <p class="plede">{html.escape(status_line)}</p>
 <div class="pgrid">{''.join(cards)}</div>"""
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
@@ -287,10 +289,11 @@ def main():
             for pr in items:
                 (pid_, name, ward, comp, cat, contractor, budget_m, status, pct,
                  photo_url, photo_credit, note, cname2, _kid, pvname,
-                 spub, stitle, surl) = pr
+                 spub, stitle, surl, fy) = pr
                 facts = [
                     ("Status", STATUS.get(status, STATUS["unknown"])[0] + (f" · {pct:g}% complete" if pct else "")),
                     ("Budget", fmt_kwacha(budget_m)),
+                    ("Funding year", str(fy) if fy else "Not published"),
                     ("Ward", ward or "—"), ("Category", cat or "—"),
                     ("Component", (comp or "—").title()), ("Contractor", contractor or "—"),
                     ("Constituency", cname2), ("Province", pvname),
