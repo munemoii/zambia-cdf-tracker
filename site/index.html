@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:," />
+<title>CDF Dashboard — Zambia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f3f5f1; --surface:#ffffff; --surface-2:#eaf0ea; --ink:#17211a; --muted:#5c6b60;
+    --line:#d9e0d8; --green:#167347; --green-deep:#0e4d30; --green-soft:#dcefe2;
+    --orange:#e87511; --red:#c62f1f; --gold:#f2b01e; --black:#1a1a1a;
+    --bar-track:#e3e9e3; --shadow:0 1px 2px rgba(18,32,22,.06),0 8px 24px rgba(18,32,22,.06);
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0f1511; --surface:#18211a; --surface-2:#1f2b21; --ink:#edf3ee; --muted:#a7b8ab;
+      --line:#2c3b2f; --green:#3fb27f; --green-deep:#7fd1a6; --green-soft:#22392b;
+      --bar-track:#263329; --shadow:0 1px 2px rgba(0,0,0,.35),0 8px 24px rgba(0,0,0,.25);
+      color-scheme:dark;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Barlow",system-ui,-apple-system,Segoe UI,sans-serif;font-size:16px;line-height:1.5}
+  a{color:var(--green);text-underline-offset:2px}
+  .wrap{max-width:1180px;margin:0 auto;padding:20px 18px 56px}
+  .flagstripe{display:flex;height:6px;border-radius:99px;overflow:hidden;margin-bottom:22px}
+  .flagstripe span{flex:1}.flagstripe .g{background:#198a00}.flagstripe .r{background:#de2010}.flagstripe .k{background:#222}.flagstripe .o{background:#ef7d00}
+  @media (prefers-color-scheme: dark){.flagstripe .k{background:#e8e8e8}}
+
+  header.top{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between;margin-bottom:8px}
+  h1{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:clamp(2.3rem,6vw,3.9rem);line-height:.95;letter-spacing:.01em;margin:0;text-transform:uppercase}
+  h1 em{font-style:normal;color:var(--green)}
+  .lede{max-width:640px;color:var(--muted);font-size:1.06rem;margin:10px 0 0}
+  .snapshot{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);min-width:230px}
+  .snapshot .k{font-size:.78rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .snapshot .v{font-family:"Barlow Condensed",sans-serif;font-size:1.45rem;font-weight:600;line-height:1.1}
+  .snapshot .s{font-size:.86rem;color:var(--muted)}
+
+  .years{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:22px 0 16px}
+  .years .label{font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+  .ypill{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-weight:600;padding:8px 16px;border-radius:99px;cursor:pointer}
+  .ypill:hover{border-color:var(--green)}
+  .ypill[aria-pressed="true"]{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+  @media (prefers-color-scheme: dark){.ypill[aria-pressed="true"]{color:#0d1a12}}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .kpi{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+  .kpi .k{font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .kpi .v{font-family:"Barlow Condensed",sans-serif;font-size:clamp(1.9rem,4vw,2.6rem);font-weight:700;line-height:1.05;margin-top:4px}
+  .kpi .s{font-size:.88rem;color:var(--muted);margin-top:2px}
+  .kpi .s b{color:var(--orange);font-weight:700}
+
+  section{margin-top:28px}
+  .sec-head{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between;margin-bottom:12px}
+  h2{font-family:"Barlow Condensed",sans-serif;font-size:1.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.02em;margin:0;line-height:1}
+  .sec-head p{margin:0;color:var(--muted);max-width:560px;font-size:.95rem}
+  .grid2{display:grid;grid-template-columns:1.35fr 1fr;gap:12px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:var(--shadow)}
+  .card h3{margin:0 0 4px;font-size:1rem;font-weight:700}
+  .card .sub{color:var(--muted);font-size:.9rem;margin:0 0 14px}
+
+  .bars{display:flex;align-items:flex-end;gap:6px;height:210px;padding-top:10px}
+  .barcol{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end;background:none;border:0;cursor:pointer;font:inherit;color:inherit;padding:0}
+  .barcol .amt{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:.95rem}
+  .barcol .bar{width:100%;max-width:54px;border-radius:6px 6px 3px 3px;background:var(--green-soft);border:1px solid var(--green);min-height:4px;transition:height .35s ease}
+  .barcol.sel .bar{background:var(--green)}
+  .barcol .yr{font-size:.85rem;color:var(--muted);font-weight:600}
+  .barcol.sel .yr{color:var(--ink)}
+  .chart-note{font-size:.86rem;color:var(--muted);margin-top:10px}
+
+  .donut-row{display:flex;gap:14px;align-items:center;flex-wrap:nowrap}
+  .donut-row svg{flex:none;width:148px;height:148px}
+  .legend{flex:1;min-width:0;display:grid;gap:10px}
+  .leg{display:flex;gap:8px;align-items:flex-start}
+  .leg>span:nth-child(2){flex:1;min-width:0}
+  .sw{width:14px;height:14px;border-radius:4px;margin-top:4px;flex:none}
+  .leg .t{font-weight:600;line-height:1.25}
+  .leg .d{color:var(--muted);font-size:.88rem;line-height:1.3}
+  .leg .a{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.08rem;white-space:nowrap;padding-left:6px}
+
+  .flow{display:grid;gap:12px}
+  .frow{display:grid;grid-template-columns:170px 1fr 118px;gap:12px;align-items:center}
+  .frow .fl{font-weight:600}
+  .frow .fl small{display:block;color:var(--muted);font-weight:400;font-size:.85rem}
+  .track{background:var(--bar-track);border-radius:99px;height:22px;overflow:hidden}
+  .fill{height:100%;border-radius:99px;background:var(--green)}
+  .fill.o{background:var(--orange)} .fill.r{background:var(--red)}
+  .frow .fv{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.3rem;text-align:right}
+  .frow .fv small{display:block;font-family:"Barlow",sans-serif;font-weight:400;font-size:.8rem;color:var(--muted)}
+  .np{font-family:"Barlow",sans-serif;font-size:.92rem;font-weight:600;color:var(--muted);white-space:nowrap}
+  .np2{font-family:"Barlow",sans-serif;font-size:.88rem;font-weight:500;color:var(--muted)}
+  .mhead,.mrow{display:grid;grid-template-columns:64px 1fr 1fr 110px;gap:12px;align-items:center}
+  .mhead{font-size:.75rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);padding:0 6px 8px}
+  .mhead span:not(:first-child){text-align:right}
+  .mrow{width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--line);padding:11px 6px;font:inherit;color:inherit;cursor:pointer}
+  .mrow:hover{background:var(--surface-2);border-radius:8px}
+  .mrow.sel{background:var(--green-soft);border-radius:8px}
+  .mrow .myr{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.25rem}
+  .mrow .mnum{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:1.12rem;text-align:right}
+  .mrow .mnum small{display:block;font-family:"Barlow",sans-serif;font-size:.74rem;color:var(--muted);font-weight:400}
+  @media (max-width:560px){
+    .mhead{display:none}
+    .mrow{grid-template-columns:52px 1fr 1fr}
+    .mrow .mutil{display:none}
+  }
+
+  .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .tile{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+  .tile .v{font-family:"Barlow Condensed",sans-serif;font-size:2.1rem;font-weight:700;line-height:1;color:var(--green-deep)}
+  .tile .t{font-weight:600;margin-top:6px;line-height:1.25}
+  .tile .d{color:var(--muted);font-size:.88rem;margin-top:2px}
+
+  .types{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:7px 13px;font-weight:500;font-size:.93rem}
+
+  .explorer{display:grid;grid-template-columns:1.5fr 1fr;gap:12px;align-items:start}
+  .search{width:100%;font:inherit;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);margin-bottom:12px}
+  .search:focus{outline:2px solid var(--green);outline-offset:1px}
+  .prow{display:grid;grid-template-columns:1fr 74px 104px 62px;gap:10px;align-items:center;width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--line);padding:11px 6px;font:inherit;color:inherit;cursor:pointer}
+  .prow:first-of-type{border-top:0}
+  .prow:hover{background:var(--surface-2);border-radius:8px}
+  .prow.sel{background:var(--green-soft);border-radius:8px}
+  .prow .pn{font-weight:600}
+  .prow .num{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:1.08rem;text-align:right}
+  .prow .num span{display:block;font-family:"Barlow",sans-serif;font-size:.72rem;color:var(--muted);font-weight:400}
+  .phead{display:grid;grid-template-columns:1fr 74px 104px 62px;gap:10px;padding:0 6px 8px;font-size:.75rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+  .phead span:not(:first-child){text-align:right}
+  .detail{position:sticky;top:14px}
+  .detail .big{font-family:"Barlow Condensed",sans-serif;font-size:2rem;font-weight:700;line-height:1.05}
+  .split{display:grid;gap:9px;margin-top:14px}
+  .srow{display:flex;justify-content:space-between;gap:10px;border-top:1px dashed var(--line);padding-top:9px}
+  .srow .st{font-weight:600}.srow .st small{display:block;font-weight:400;color:var(--muted);font-size:.83rem}
+  .srow .sa{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.15rem;white-space:nowrap}
+  .empty{color:var(--muted);padding:14px 6px}
+
+  footer{margin-top:36px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:.9rem}
+  footer h3{color:var(--ink);font-size:.95rem;margin:0 0 8px}
+  footer ul{margin:0 0 12px;padding-left:18px}
+  footer li{margin-bottom:4px}
+
+  @media (max-width:900px){
+    .kpis{grid-template-columns:repeat(2,1fr)}
+    .grid2,.explorer{grid-template-columns:1fr}
+    .tiles{grid-template-columns:repeat(2,1fr)}
+    .detail{position:static}
+  }
+  @media (max-width:560px){
+    .tiles{grid-template-columns:1fr 1fr}
+    .tile .v{font-size:1.7rem}
+    .frow{grid-template-columns:1fr;gap:4px}
+    .frow .fv{text-align:left}
+    .prow,.phead{grid-template-columns:1fr 52px 84px}
+    .prow .share,.phead .share{display:none}
+    .bars{height:170px}
+    .donut-row{flex-direction:column;align-items:flex-start}
+    .legend{width:100%}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
+
+  <header class="top">
+    <div>
+      <h1>Zambia <em>CDF</em> Tracker</h1>
+      <p class="lede">How the Constituency Development Fund is allocated, split, and delivered — from the national budget down to province level, across 10 provinces and 156 constituencies.</p>
+    </div>
+    <div class="snapshot" aria-label="Data snapshot">
+      <div class="k">Data snapshot</div>
+      <div class="v" id="snapDate">28 October 2026</div>
+      <div class="s">Budget &amp; ministry figures published to date. Sources listed at the bottom of this page.</div>
+    </div>
+  </header>
+
+  <div class="years" role="group" aria-label="Choose budget year">
+    <span class="label">Budget year</span>
+    <span id="yearPills"></span>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="k">Per constituency</div><div class="v" id="kPer">K40.0m</div><div class="s" id="kPerSub">Equal allocation to every constituency</div></div>
+    <div class="kpi"><div class="k">National CDF total</div><div class="v" id="kTotal">K6.24bn</div><div class="s" id="kTotalSub">156 constituencies × K40.0m</div></div>
+    <div class="kpi"><div class="k">Change vs previous year</div><div class="v" id="kChange">+10.8%</div><div class="s" id="kChangeSub">Up from K36.1m in 2025</div></div>
+    <div class="kpi"><div class="k">Growth since 2021</div><div class="v" id="kGrowth">25×</div><div class="s">From K1.6m per constituency in 2021</div></div>
+  </div>
+
+  <section>
+    <div class="grid2">
+      <div class="card">
+        <h3>Allocation per constituency, 2021–2026</h3>
+        <p class="sub">Kwacha millions per constituency, by budget year. Tap a bar to explore that year.</p>
+        <div class="bars" id="bars" role="group" aria-label="Allocation by year chart"></div>
+        <p class="chart-note">The jump in 2022 — from K1.6m to K25.7m — is what turned CDF from a small grant into the main driver of local development spending.</p>
+      </div>
+
+      <div class="card">
+        <h3>How one constituency's money is split</h3>
+        <p class="sub" id="splitSub">For a K40.0m allocation (2026), under the CDF Guidelines.</p>
+        <div class="donut-row">
+          <svg id="donut" width="168" height="168" viewBox="0 0 168 168" role="img" aria-label="Donut chart of CDF component split"></svg>
+          <div class="legend" id="legend"></div>
+        </div>
+        <p class="chart-note">Up to 5% covers administration. The remaining 95% is divided 60 / 20 / 20. Inside empowerment, 40% is grants and 60% is soft loans.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Did the money move?</h2>
+      <p>Allocation is only the first step. This follows the budget year selected above — release and utilisation are shown for every year they have been published.</p>
+    </div>
+    <div class="card flow" id="flowCard" aria-live="polite"></div>
+    <div class="card" style="margin-top:12px">
+      <h3>All years at a glance</h3>
+      <p class="sub">National allocation for each budget year, with the movement figures published so far. Tap a year to load it across the dashboard.</p>
+      <div id="moveTable"></div>
+      <p class="chart-note">So far, national release and utilisation figures have been published for 2025 only.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>What CDF has delivered</h2>
+      <p>Cumulative results reported by the Ministry of Local Government and Rural Development since the fund's expansion in 2022.</p>
+    </div>
+    <div class="tiles" id="deliveredTiles"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Explore by province</h2>
+      <p>Every constituency receives the same allocation, so a province's total is its constituency count × the per-constituency amount for the selected year.</p>
+    </div>
+    <div class="explorer">
+      <div class="card">
+        <input class="search" id="provSearch" type="search" placeholder="Search provinces — e.g. Copperbelt, Southern, Lusaka…" aria-label="Search provinces">
+        <div class="phead"><span>Province</span><span>Seats</span><span id="pAllocHead">2026 allocation</span><span class="share">Share</span></div>
+        <div id="provList"></div>
+        <p class="chart-note" id="provNote"></p>
+      </div>
+      <div class="card detail" id="detailCard" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>What the money pays for</h2>
+      <p>Project and support types funded under CDF's three components.</p>
+    </div>
+    <div class="types">
+      <span class="chip">Classroom blocks</span><span class="chip">School desks</span><span class="chip">Health posts &amp; facilities</span>
+      <span class="chip">Maternity annexes</span><span class="chip">Boreholes &amp; water schemes</span><span class="chip">Feeder roads &amp; fuel</span>
+      <span class="chip">Ambulances &amp; security support</span><span class="chip">Secondary boarding bursaries</span>
+      <span class="chip">Skills development bursaries</span><span class="chip">Women &amp; youth empowerment grants</span>
+      <span class="chip">Empowerment soft loans</span><span class="chip">Disaster contingency</span>
+    </div>
+  </section>
+
+  <section id="newsSection">
+    <div class="sec-head">
+      <h2>Recent developments</h2>
+      <p>New CDF releases and reports as they are published, picked up by the weekly source check. Each item carries its source and date.</p>
+    </div>
+    <div class="card" id="newsList"></div>
+  </section>
+
+  <footer>
+    <p id="lastChecked" style="margin:0 0 12px"></p>
+    <h3>Sources</h3>
+    <ul>
+      <li>Allocation growth 2021–2026 and delivered results — Ministry of Local Government and Rural Development, <a href="https://www.mlgrd.gov.zm/?p=34032" target="_blank" rel="noopener">“CDF increase to K40 million: what it means for Zambia's communities”</a>, and national budget reporting of the 2026 budget (K40m per constituency, ≈K6.24bn total).</li>
+      <li>Component split — up to 5% administration is taken first; the remaining 95% is split 60% community projects / 20% empowerment (40% grants, 60% loans) / 20% bursaries, which works out to 57% / 19% / 19% of the total allocation — <a href="http://www.lumezicouncil.gov.zm/wp-content/uploads/2026/09/CDF-Guidelines.pdf" target="_blank" rel="noopener">CDF Guidelines, Ministry of Local Government and Rural Development</a>.</li>
+      <li>Province constituency counts (156 total, before the 2026 delimitation) — Electoral Commission of Zambia, <a href="https://www.elections.org.zm/wp-content/uploads/20260416-Provincial-Summaries.pdf" target="_blank" rel="noopener">2026 Delimitation of Constituencies — Province Summary</a>.</li>
+      <li>2025 release and utilisation figures (K5.26bn released, ≈94%; 86% utilisation; 2,985 community projects worth K2.9bn) — as reported nationally for the 2025 CDF; treat as reported figures, not audited project-level records.</li>
+    </ul>
+    <p>This dashboard is a snapshot built from published figures. Project-level tracking — individual projects, contractors, costs, and completion status by constituency and ward — is the next layer to add as council project lists are loaded in.</p>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  // All figures live in data.js (window.CDF_DATA) so the weekly source check
+  // can refresh the dashboard by updating that one file.
+  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},delivered:[],news:[]};
+  var YEARS=D.years;
+  var SEATS=D.seats;
+  var PROVINCES=D.provinces;
+  var state={year:2026,province:"Copperbelt",query:""};
+  // Reported release / utilisation figures, amounts in K millions.
+  var MOVEMENT=D.movement;
+
+  function fmtM(v){ // millions
+    if(v>=1000) return "K"+(v/1000).toFixed(2).replace(/\.?0+$/,"")+"bn";
+    return "K"+(v%1===0?v.toFixed(0):v.toFixed(1))+"m";
+  }
+  function fmtFull(v){ return "K"+v.toFixed(2)+"m"; }
+  function perOf(y){ for(var i=0;i<YEARS.length;i++) if(YEARS[i].year===y) return YEARS[i].per; return 40; }
+  function components(totalM){
+    var admin=totalM*0.05, rest=totalM-admin;
+    return [
+      {key:"community",label:"Community projects",desc:"Infrastructure, water, roads — incl. 5% disaster contingency within this share",pct:57,color:"#167347",amount:rest*0.60},
+      {key:"empower",label:"Youth & women empowerment",desc:"40% grants · 60% soft loans",pct:19,color:"#e87511",amount:rest*0.20},
+      {key:"bursary",label:"Bursaries",desc:"Secondary boarding & skills development",pct:19,color:"#b78a12",amount:rest*0.20},
+      {key:"admin",label:"Administration",desc:"Capped at 5% of the fund",pct:5,color:"#5c6b60",amount:admin}
+    ];
+  }
+
+  var pills=document.getElementById("yearPills");
+  YEARS.forEach(function(y){
+    var b=document.createElement("button");
+    b.className="ypill"; b.type="button"; b.textContent=y.year;
+    b.setAttribute("aria-pressed", y.year===state.year?"true":"false");
+    b.addEventListener("click",function(){ setYear(y.year); });
+    pills.appendChild(b); pills.appendChild(document.createTextNode(" "));
+  });
+
+  var barsEl=document.getElementById("bars");
+  var maxPer=40;
+  YEARS.forEach(function(y){
+    var c=document.createElement("button");
+    c.className="barcol"+(y.year===state.year?" sel":""); c.type="button";
+    c.setAttribute("aria-label", y.year+": K"+y.per+" million per constituency");
+    c.innerHTML='<span class="amt">K'+y.per+'</span><span class="bar" style="height:'+Math.max(3,(y.per/maxPer)*72)+'%"></span><span class="yr">'+y.year+'</span>';
+    c.addEventListener("click",function(){ setYear(y.year); });
+    barsEl.appendChild(c);
+  });
+
+  function renderDonut(totalM){
+    var comps=components(totalM), svg=document.getElementById("donut");
+    var cx=84,cy=84,r=62,sw=22,circ=2*Math.PI*r,off=0,parts="";
+    comps.forEach(function(c){
+      var frac=c.amount/totalM, len=frac*circ;
+      parts+='<circle cx="'+cx+'" cy="'+cy+'" r="'+r+'" fill="none" stroke="'+c.color+'" stroke-width="'+sw+'" stroke-dasharray="'+Math.max(0,len-2)+' '+circ+'" stroke-dashoffset="'+(-off)+'" transform="rotate(-90 '+cx+' '+cy+')"/>';
+      off+=len;
+    });
+    parts+='<text x="'+cx+'" y="'+(cy-4)+'" text-anchor="middle" font-family="Barlow Condensed" font-weight="700" font-size="26" fill="currentColor">'+fmtM(totalM)+'</text>';
+    parts+='<text x="'+cx+'" y="'+(cy+16)+'" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.65">per constituency</text>';
+    svg.innerHTML=parts;
+    var leg=document.getElementById("legend"); leg.innerHTML="";
+    comps.forEach(function(c){
+      var d=document.createElement("div"); d.className="leg";
+      d.innerHTML='<span class="sw" style="background:'+c.color+'"></span><span><span class="t">'+c.label+' ('+c.pct+'%)</span><br><span class="d">'+c.desc+'</span></span><span class="a">'+fmtFull(c.amount)+'</span>';
+      leg.appendChild(d);
+    });
+    document.getElementById("splitSub").textContent="For a "+fmtM(totalM)+" allocation ("+state.year+"), under the CDF Guidelines.";
+  }
+
+  function renderProvinces(){
+    var per=perOf(state.year);
+    document.getElementById("pAllocHead").textContent=state.year+" allocation";
+    var list=document.getElementById("provList"); list.innerHTML="";
+    var shown=0;
+    PROVINCES.forEach(function(p){
+      if(state.query && p.name.toLowerCase().indexOf(state.query.toLowerCase())===-1) return;
+      shown++;
+      var total=p.seats*per, share=(p.seats/SEATS*100);
+      var b=document.createElement("button"); b.type="button";
+      b.className="prow"+(p.name===state.province?" sel":"");
+      b.innerHTML='<span class="pn">'+p.name+'</span><span class="num">'+p.seats+'<span>seats</span></span><span class="num">'+fmtM(total)+'<span>in '+state.year+'</span></span><span class="num share">'+share.toFixed(1)+'%<span>of fund</span></span>';
+      b.addEventListener("click",function(){ state.province=p.name; renderProvinces(); renderDetail(); });
+      list.appendChild(b);
+    });
+    if(!shown) list.innerHTML='<p class="empty">No province matches that search.</p>';
+    document.getElementById("provNote").textContent="Province totals are constituency count × "+fmtM(per)+" for "+state.year+" — CDF allocates equally per constituency, not by population.";
+  }
+
+  function renderDetail(){
+    var per=perOf(state.year);
+    var p=null; PROVINCES.forEach(function(x){ if(x.name===state.province) p=x; });
+    if(!p) p=PROVINCES[0];
+    var total=p.seats*per, comps=components(total);
+    var html='<h3>'+p.name+' Province</h3><p class="sub">'+p.seats+' constituencies · '+fmtM(per)+' each in '+state.year+'</p>';
+    html+='<div class="big">'+fmtM(total)+'</div><p class="sub" style="margin:2px 0 0">total CDF allocation for '+state.year+'</p><div class="split">';
+    comps.forEach(function(c){
+      html+='<div class="srow"><span class="st">'+c.label+'<small>'+c.pct+'% of province total</small></span><span class="sa">'+fmtM(c.amount)+'</span></div>';
+    });
+    html+='</div><p class="chart-note">That works out to about '+fmtM(total/ (p.seats))+' per constituency in this province — the same as everywhere else in Zambia, by design.</p>';
+    document.getElementById("detailCard").innerHTML=html;
+  }
+
+  function flowRow(label,sub,fillCls,widthPct,valueHtml){
+    return '<div class="frow"><div class="fl">'+label+'<small>'+sub+'</small></div><div class="track"><div class="fill '+fillCls+'" style="width:'+widthPct+'%"></div></div><div class="fv">'+valueHtml+'</div></div>';
+  }
+
+  function renderFlow(){
+    var per=perOf(state.year), total=per*SEATS, mv=MOVEMENT[state.year];
+    var html='<h3 style="margin-bottom:14px">'+state.year+' — from allocation to use</h3>';
+    html+=flowRow("Allocated", state.year+" budget — 156 × K"+per.toFixed(1)+"m", "", 100, fmtM(total)+"<small>100%</small>");
+    if(mv){
+      html+=flowRow("Released","Reported disbursed to constituencies","o", mv.releasedPct, fmtM(mv.released)+"<small>≈"+mv.releasedPct+"% of allocation</small>");
+      html+=flowRow("Utilisation","Reported share of funds put to use","r", mv.util, mv.util+"%<small>reported rate</small>");
+      html+=flowRow("Community projects approved", mv.projCount.toLocaleString("en-GB")+" projects approved nationally in "+state.year, "", mv.projPct, fmtM(mv.projAmt)+"<small>"+mv.projPct+"% of "+state.year+" allocation</small>");
+    }else if(state.year===2026){
+      html+=flowRow("Released","Releases are reported as the budget year runs","o",0,'<span class="np">Not yet reported</span>');
+      html+=flowRow("Utilisation","Reported once constituencies spend released funds","r",0,'<span class="np">Not yet reported</span>');
+      html+=flowRow("Community projects approved","Approvals are published as councils submit project lists","",0,'<span class="np">Not yet reported</span>');
+    }else{
+      html+=flowRow("Released","No national release figure published for "+state.year+" in this snapshot","o",0,'<span class="np">Not published</span>');
+      html+=flowRow("Utilisation","No national utilisation figure published for "+state.year+" in this snapshot","r",0,'<span class="np">Not published</span>');
+      html+=flowRow("Community projects approved","No national approvals total published for "+state.year+" in this snapshot","",0,'<span class="np">Not published</span>');
+    }
+    document.getElementById("flowCard").innerHTML=html;
+  }
+
+  function renderMoveTable(){
+    var el=document.getElementById("moveTable"); el.innerHTML="";
+    var head=document.createElement("div"); head.className="mhead";
+    head.innerHTML="<span>Year</span><span>Allocated</span><span>Released</span><span>Utilisation</span>";
+    el.appendChild(head);
+    YEARS.forEach(function(y){
+      var total=y.per*SEATS, mv=MOVEMENT[y.year];
+      var relHtml, utilHtml;
+      if(mv){
+        relHtml=fmtM(mv.released)+"<small>≈"+mv.releasedPct+"% of allocation</small>";
+        utilHtml=mv.util+"%<small>reported rate</small>";
+      }else if(y.year===2026){
+        relHtml='<span class="np2">Not yet reported</span>';
+        utilHtml='<span class="np2">—</span>';
+      }else{
+        relHtml='<span class="np2">Not published</span>';
+        utilHtml='<span class="np2">—</span>';
+      }
+      var b=document.createElement("button"); b.type="button";
+      b.className="mrow"+(y.year===state.year?" sel":"");
+      b.setAttribute("aria-label", y.year+": "+fmtM(total)+" allocated. Tap to view "+y.year+" across the dashboard.");
+      b.innerHTML='<span class="myr">'+y.year+'</span><span class="mnum">'+fmtM(total)+'<small>K'+y.per.toFixed(1)+'m × 156</small></span><span class="mnum">'+relHtml+'</span><span class="mnum mutil">'+utilHtml+'</span>';
+      b.addEventListener("click",function(){ setYear(y.year); });
+      el.appendChild(b);
+    });
+  }
+
+  function setYear(y){
+    state.year=y;
+    var per=perOf(y), idx=0;
+    YEARS.forEach(function(yy,i){ if(yy.year===y) idx=i; });
+    document.getElementById("kPer").textContent="K"+per.toFixed(1)+"m";
+    document.getElementById("kPerSub").textContent="Equal allocation to every constituency";
+    var total=per*SEATS;
+    document.getElementById("kTotal").textContent=fmtM(total);
+    document.getElementById("kTotalSub").textContent="156 constituencies × K"+per.toFixed(1)+"m";
+    if(idx>0){
+      var prev=YEARS[idx-1].per, ch=((per-prev)/prev*100);
+      document.getElementById("kChange").textContent=(ch>=0?"+":"")+ch.toFixed(1)+"%";
+      document.getElementById("kChangeSub").textContent="Up from K"+prev.toFixed(1)+"m in "+YEARS[idx-1].year;
+    }else{
+      document.getElementById("kChange").textContent="—";
+      document.getElementById("kChangeSub").textContent="Baseline year in this series";
+    }
+    var growth=per/1.6;
+    document.getElementById("kGrowth").textContent=(growth%1===0?growth.toFixed(0):growth.toFixed(1))+"×";
+    var pillBtns=pills.querySelectorAll(".ypill");
+    YEARS.forEach(function(yy,i){ pillBtns[i].setAttribute("aria-pressed", yy.year===y?"true":"false"); });
+    var cols=barsEl.querySelectorAll(".barcol");
+    YEARS.forEach(function(yy,i){ cols[i].className="barcol"+(yy.year===y?" sel":""); });
+    renderDonut(per); renderFlow(); renderMoveTable(); renderProvinces(); renderDetail();
+  }
+
+  function renderDelivered(){
+    var el=document.getElementById("deliveredTiles"); if(!el) return;
+    el.innerHTML="";
+    (D.delivered||[]).forEach(function(t){
+      var d=document.createElement("div"); d.className="tile";
+      d.innerHTML='<div class="v">'+t.value+'</div><div class="t">'+t.title+'</div><div class="d">'+t.desc+'</div>';
+      el.appendChild(d);
+    });
+  }
+
+  function renderNews(){
+    var sec=document.getElementById("newsSection"), el=document.getElementById("newsList");
+    if(!sec||!el) return;
+    var items=D.news||[];
+    if(!items.length){ sec.style.display="none"; return; }
+    el.innerHTML="";
+    items.forEach(function(n,i){
+      var d=document.createElement("div");
+      if(i>0) d.style.cssText="border-top:1px solid var(--line);margin-top:14px;padding-top:14px";
+      d.innerHTML='<div style="font-weight:700">'+n.title+'</div><div class="sub" style="margin:2px 0 4px">'+n.date+' · '+n.source+'</div><p style="margin:0">'+n.text+'</p>';
+      el.appendChild(d);
+    });
+  }
+
+  if(D.meta){
+    var sd=document.getElementById("snapDate");
+    if(sd&&D.meta.snapshotDate) sd.textContent=D.meta.snapshotDate;
+    var lc=document.getElementById("lastChecked");
+    if(lc&&D.meta.lastChecked) lc.textContent="Data last checked: "+D.meta.lastChecked+" — refreshed by a weekly source check of ministry, council and news publications.";
+  }
+  renderDelivered();
+  renderNews();
+
+  document.getElementById("provSearch").addEventListener("input",function(e){ state.query=e.target.value; renderProvinces(); });
+  setYear(2026);
+})();
+</script>
+</body>
+</html>
