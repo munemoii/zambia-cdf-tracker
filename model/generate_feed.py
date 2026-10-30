@@ -137,6 +137,40 @@ def main():
         people["loans"] = {"year": bl[0], "dueM": bl[1], "recoveredM": bl[2], "recoveryPct": bl[3],
                            "series": rec, "since2021Pct": (s21[0] if s21 else None)}
 
+    # --- utilisation & the rural lens ---
+    def _mval(name):
+        r = _mrow(name)
+        return r[0] if r else None
+    _y2025 = next((y for y in years if y["year"] == 2025), None)
+    util = {
+        "cascade": {"year": 2025,
+                    "allocatedM": (round(_y2025["per"] * 156, 1) if _y2025 else None),
+                    "releasedM": movement.get(2025, {}).get("released"),
+                    "releasedPct": movement.get(2025, {}).get("releasedPct"),
+                    "utilisedPct": movement.get(2025, {}).get("util")},
+        "ag": {"audited": _mval("projects_total_audited"), "completed": _mval("projects_completed"),
+               "notStarted": _mval("projects_not_started"), "unspentM": _mval("unspent_amount"),
+               "availableM": 5120},
+        "provinces": [],
+    }
+    for _pid, _pname in c.execute("SELECT id, name FROM provinces ORDER BY name").fetchall():
+        _rows = dict(c.execute(
+            "SELECT p.status, COUNT(*) FROM projects p JOIN constituencies cc ON cc.id = p.constituency_id "
+            "WHERE cc.province_id = ? GROUP BY p.status", (_pid,)).fetchall())
+        _total = sum(_rows.values())
+        if not _total:
+            continue
+        _comp = _rows.get("completed", 0)
+        _under = _rows.get("ongoing", 0) + _rows.get("in_progress", 0)
+        _appr = _rows.get("approved", 0) + _rows.get("funded", 0)
+        _ctx = c.execute("SELECT rural_pct, urban_pct FROM province_context WHERE province_id = ?", (_pid,)).fetchone()
+        util["provinces"].append({
+            "name": _pname, "tracked": _total, "completed": _comp, "underway": _under,
+            "approved": _appr, "other": _total - _comp - _under - _appr,
+            "completedPct": round(_comp / _total * 100, 1),
+            "ruralPct": (_ctx[0] if _ctx else None), "urbanPct": (_ctx[1] if _ctx else None)})
+    util["provinces"].sort(key=lambda x: (x["ruralPct"] is None, -(x["ruralPct"] or 0)))
+
     # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---
     projects_block = None
     pilot = None
@@ -195,7 +229,7 @@ def main():
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people,
+        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"

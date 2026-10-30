@@ -249,6 +249,38 @@
     });
   }
 
+  function renderUtilisation(){
+    var U = D.utilisation; if (!U) return;
+    function row(label, pct, val, cls){
+      return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"><span class="vf ' + (cls || '') + '" style="width:' + pct + '%"></span></span><span class="vv">' + val + '</span></div>';
+    }
+    var C = U.cascade, cb = document.getElementById("cascadeBars");
+    if (cb && C && C.allocatedM) {
+      cb.innerHTML =
+        row("Allocated (" + C.year + ")", 100, "K" + (C.allocatedM / 1000).toFixed(2) + "bn", "") +
+        row("Released", C.releasedPct, "K" + (C.releasedM / 1000).toFixed(2) + "bn · " + C.releasedPct + "%", "") +
+        row("Utilised", C.utilisedPct, C.utilisedPct + "% used", "gold");
+    }
+    var AG = U.ag, agEl = document.getElementById("agStack");
+    if (agEl && AG && AG.audited) {
+      var done = AG.completed, never = AG.notStarted, mid = AG.audited - done - never;
+      var p1 = Math.round(done / AG.audited * 100), p3 = Math.round(never / AG.audited * 100), p2 = 100 - p1 - p3;
+      agEl.innerHTML = '<div class="stack" role="img" aria-label="Of ' + AG.audited + ' audited projects, ' + done + ' were completed and ' + never + ' never started">' +
+        '<span class="seg green" style="width:' + p1 + '%"></span><span class="seg gold" style="width:' + p2 + '%"></span><span class="seg red" style="width:' + p3 + '%"></span></div>' +
+        '<div class="stackleg"><span><i class="dot green"></i>Completed — ' + done.toLocaleString("en-GB") + '</span><span><i class="dot gold"></i>Started, not finished — ' + mid.toLocaleString("en-GB") + '</span><span><i class="dot red"></i>Never started — ' + never.toLocaleString("en-GB") + '</span></div>';
+      var note = document.getElementById("agNote");
+      if (note) note.textContent = "And of the K" + (AG.availableM / 1000).toFixed(2) + "bn available to those projects, K" + AG.unspentM + "m (" + Math.round(AG.unspentM / AG.availableM * 100) + "%) was still unspent — Auditor-General's 2024 CDF report.";
+    }
+    var rr = document.getElementById("ruralRows");
+    if (rr && U.provinces) {
+      rr.innerHTML = U.provinces.map(function(p){
+        return '<div class="rprov"><div class="rph"><b>' + p.name + '</b><span>' + p.tracked + ' projects tracked</span></div>' +
+          '<div class="vbar slim"><span class="vl">Rural</span><span class="vt"><span class="vf gold" style="width:' + p.ruralPct + '%"></span></span><span class="vv">' + p.ruralPct + '%</span></div>' +
+          '<div class="vbar slim"><span class="vl">Completed</span><span class="vt"><span class="vf" style="width:' + p.completedPct + '%"></span></span><span class="vv">' + p.completedPct + '%</span></div></div>';
+      }).join("");
+    }
+  }
+
   function renderPeople(){
     var P = D.people || {};
     function fill(id, tiles){
@@ -585,6 +617,7 @@
     if (sum) sum.textContent = total;
   }
   var _ps=document.getElementById('projSearch'); if(_ps) _ps.addEventListener('input', renderProjects);
+  renderUtilisation();
   renderScenario();
   renderProjects();
   renderGallery();

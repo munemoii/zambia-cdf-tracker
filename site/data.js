@@ -35172,5 +35172,133 @@ window.CDF_DATA = {
         "value": 198559.0
       }
     ]
+  },
+  "utilisation": {
+    "cascade": {
+      "year": 2025,
+      "allocatedM": 5631.6,
+      "releasedM": 5260,
+      "releasedPct": 94,
+      "utilisedPct": 86
+    },
+    "ag": {
+      "audited": 4879.0,
+      "completed": 3060.0,
+      "notStarted": 526.0,
+      "unspentM": 771.4,
+      "availableM": 5120
+    },
+    "provinces": [
+      {
+        "name": "Muchinga",
+        "tracked": 114,
+        "completed": 17,
+        "underway": 13,
+        "approved": 84,
+        "other": 0,
+        "completedPct": 14.9,
+        "ruralPct": 87.0,
+        "urbanPct": 13.0
+      },
+      {
+        "name": "Luapula",
+        "tracked": 129,
+        "completed": 75,
+        "underway": 4,
+        "approved": 50,
+        "other": 0,
+        "completedPct": 58.1,
+        "ruralPct": 84.9,
+        "urbanPct": 15.1
+      },
+      {
+        "name": "Eastern",
+        "tracked": 214,
+        "completed": 40,
+        "underway": 34,
+        "approved": 140,
+        "other": 0,
+        "completedPct": 18.7,
+        "ruralPct": 83.2,
+        "urbanPct": 16.8
+      },
+      {
+        "name": "Western",
+        "tracked": 135,
+        "completed": 74,
+        "underway": 13,
+        "approved": 48,
+        "other": 0,
+        "completedPct": 54.8,
+        "ruralPct": 80.6,
+        "urbanPct": 19.4
+      },
+      {
+        "name": "Northern",
+        "tracked": 103,
+        "completed": 36,
+        "underway": 7,
+        "approved": 60,
+        "other": 0,
+        "completedPct": 35.0,
+        "ruralPct": 77.7,
+        "urbanPct": 22.3
+      },
+      {
+        "name": "Central",
+        "tracked": 91,
+        "completed": 29,
+        "underway": 0,
+        "approved": 62,
+        "other": 0,
+        "completedPct": 31.9,
+        "ruralPct": 76.6,
+        "urbanPct": 23.4
+      },
+      {
+        "name": "Southern",
+        "tracked": 317,
+        "completed": 145,
+        "underway": 24,
+        "approved": 146,
+        "other": 2,
+        "completedPct": 45.7,
+        "ruralPct": 74.3,
+        "urbanPct": 25.7
+      },
+      {
+        "name": "North-Western",
+        "tracked": 130,
+        "completed": 42,
+        "underway": 6,
+        "approved": 82,
+        "other": 0,
+        "completedPct": 32.3,
+        "ruralPct": 58.3,
+        "urbanPct": 41.7
+      },
+      {
+        "name": "Lusaka",
+        "tracked": 166,
+        "completed": 56,
+        "underway": 34,
+        "approved": 74,
+        "other": 2,
+        "completedPct": 33.7,
+        "ruralPct": 18.5,
+        "urbanPct": 81.5
+      },
+      {
+        "name": "Copperbelt",
+        "tracked": 93,
+        "completed": 23,
+        "underway": 20,
+        "approved": 50,
+        "other": 0,
+        "completedPct": 24.7,
+        "ruralPct": 17.3,
+        "urbanPct": 82.7
+      }
+    ]
   }
 };

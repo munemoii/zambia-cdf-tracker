@@ -461,9 +461,22 @@ h3.ghead{font-size:1.05rem}
 .vbar .vv{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.05rem;text-align:right}
 .stack{display:flex;height:26px;border-radius:8px;overflow:hidden}
 .stack .seg.green{background:var(--green)}
+.stack .seg.gold{background:#d4a017}
 .stack .seg.red{background:#bf3b26}
 .stackleg{display:flex;gap:8px 22px;flex-wrap:wrap;margin-top:9px;font-size:.9rem}
 .stackleg .dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
 .stackleg .dot.green{background:var(--green)}
+.stackleg .dot.gold{background:#d4a017}
 .stackleg .dot.red{background:#bf3b26}
 @media (max-width:560px){.vbar{grid-template-columns:104px 1fr 62px;gap:8px}.vbar .vl{font-size:.85rem}}
+
+/* ===== rural lens rows ===== */
+.rprov{padding:11px 0 12px;border-top:1px dashed var(--line)}
+.rprov:first-child{border-top:none;padding-top:2px}
+.rph{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:6px}
+.rph b{font-size:1.02rem}
+.rph span{font-size:.83rem;color:var(--muted)}
+.vbar.slim{grid-template-columns:76px 1fr 48px;margin:4px 0}
+.vbar.slim .vt{height:9px}
+.vbar.slim .vl{font-size:.85rem}
+.vbar.slim .vv{font-size:.95rem}
