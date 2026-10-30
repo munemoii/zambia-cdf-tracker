@@ -150,7 +150,7 @@ window.CDF_DATA = {
   ],
   "pilot": {
     "province": "Lusaka",
-    "totalProjects": 159,
+    "totalProjects": 164,
     "constituencies": [
       {
         "name": "Chawama",
@@ -205,12 +205,12 @@ window.CDF_DATA = {
       {
         "name": "Chilanga",
         "url": "constituencies/chilanga.html",
-        "count": 4,
-        "budgetM": 2.76,
+        "count": 6,
+        "budgetM": 5.74,
         "statusCounts": {
           "stalled": 1,
           "approved": 2,
-          "completed": 1
+          "completed": 3
         },
         "projects": [
           {
@@ -249,6 +249,50 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Minutes of the Chilanga CDFC meeting held 14 April 2023 (incl. 2023 project appraisal table and incomplete-projects report)",
               "url": "http://www.chilangacouncil.gov.zm/wp-content/uploads/2025/11/CDFC-14TH-APRIL-2023-MINUTES-FINAL-pdf.pdf"
+            }
+          },
+          {
+            "id": 161,
+            "url": "projects/161-construction-of-mwembeshi-clinic-mwembeshi-correctional-centre.html",
+            "name": "Construction of Mwembeshi Clinic (Mwembeshi Correctional Centre)",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.5,
+            "status": "completed",
+            "completionPct": null,
+            "photo": {
+              "url": "https://www.chilangacouncil.gov.zm/wp-content/uploads/2026/05/692017039_1397835685706152_3986089962167086263_n.jpg",
+              "credit": "Chilanga Town Council"
+            },
+            "note": "Council post gives an approximate cost of K1.5 million. Photo shows the clinic's CDF signboard.",
+            "source": {
+              "publisher": "Chilanga Town Council",
+              "title": "Newly constructed Mwembeshi Clinic in Chilanga District under CDF",
+              "url": "https://www.chilangacouncil.gov.zm/?p=5844"
+            }
+          },
+          {
+            "id": 160,
+            "url": "projects/160-construction-of-tubalange-police-post.html",
+            "name": "Construction of Tubalange Police Post",
+            "ward": "Kasupe Ward",
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": 1.4863,
+            "status": "completed",
+            "completionPct": null,
+            "photo": {
+              "url": "https://www.chilangacouncil.gov.zm/wp-content/uploads/2026/04/21.jpg",
+              "credit": "Chilanga Town Council"
+            },
+            "note": "Commissioned 22 April 2026 per Chilanga Town Council; the amount matches the figure first collected from news coverage. Photo shows the completed post.",
+            "source": {
+              "publisher": "Chilanga Town Council",
+              "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
+              "url": "https://www.chilangacouncil.gov.zm/?p=5824"
             }
           },
           {
@@ -294,11 +338,11 @@ window.CDF_DATA = {
       {
         "name": "Chongwe",
         "url": "constituencies/chongwe.html",
-        "count": 38,
+        "count": 40,
         "budgetM": 0,
         "statusCounts": {
-          "approved": 34,
-          "completed": 4
+          "approved": 33,
+          "completed": 7
         },
         "projects": [
           {
@@ -367,10 +411,13 @@ window.CDF_DATA = {
             "category": "education",
             "contractor": null,
             "budgetM": null,
-            "status": "approved",
+            "status": "completed",
             "completionPct": null,
-            "photo": null,
-            "note": null,
+            "photo": {
+              "url": "https://www.chongwecouncil.gov.zm/wp-content/uploads/2026/06/chainda11.jpg",
+              "credit": "Chongwe Municipal Council"
+            },
+            "note": " Handed over on 3 June 2026 per Chongwe Municipal Council (photo: the new classroom interior).",
             "source": {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
@@ -549,6 +596,28 @@ window.CDF_DATA = {
             }
           },
           {
+            "id": 164,
+            "url": "projects/164-construction-of-fully-furnished-maternity-annex-at-mulalika-health-post.html",
+            "name": "Construction of fully furnished maternity annex at Mulalika Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": {
+              "url": "https://www.chongwecouncil.gov.zm/wp-content/uploads/2025/06/MA.jpg",
+              "credit": "Chongwe Municipal Council"
+            },
+            "note": null,
+            "source": {
+              "publisher": "Chongwe Municipal Council",
+              "title": "Chongwe District celebrates launch of a fully furnished maternity annex at Mulalika Health Post",
+              "url": "https://www.chongwecouncil.gov.zm/?p=6274"
+            }
+          },
+          {
             "id": 51,
             "url": "projects/51-construction-of-health-post-at-mwanawasa-resettlement-scheme-phase-1.html",
             "name": "Construction of health post at Mwanawasa Resettlement Scheme (phase 1)",
@@ -679,6 +748,28 @@ window.CDF_DATA = {
               "publisher": "Chongwe Municipal Council",
               "title": "Chongwe Municipal Council approves 38 community projects under 2025 CDF (total K20,864,557.40)",
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
+            }
+          },
+          {
+            "id": 163,
+            "url": "projects/163-construction-of-maternity-annex-at-mwalumina-rural-health-post.html",
+            "name": "Construction of maternity annex at Mwalumina Rural Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": {
+              "url": "https://www.chongwecouncil.gov.zm/wp-content/uploads/2026/03/mwa.jpg",
+              "credit": "Chongwe Municipal Council"
+            },
+            "note": "Chongwe Municipal Council reports the annex has recorded zero maternal deaths since completion.",
+            "source": {
+              "publisher": "Chongwe Municipal Council",
+              "title": "Maternity annex sparks new life in Mwalumina",
+              "url": "https://www.chongwecouncil.gov.zm/?p=9123"
             }
           },
           {
@@ -1986,10 +2077,10 @@ window.CDF_DATA = {
       {
         "name": "Kafue",
         "url": "constituencies/kafue.html",
-        "count": 32,
-        "budgetM": 2.4,
+        "count": 33,
+        "budgetM": 2.75,
         "statusCounts": {
-          "completed": 19,
+          "completed": 20,
           "approved": 5,
           "in_progress": 8
         },
@@ -2106,6 +2197,28 @@ window.CDF_DATA = {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
               "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/Kafue-Town-Council-CDF-Newsletter-2024-4.pdf"
+            }
+          },
+          {
+            "id": 162,
+            "url": "projects/162-construction-of-chipapa-health-post-at-mwando-village.html",
+            "name": "Construction of Chipapa Health Post at Mwando Village",
+            "ward": "Malundu Ward",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.3506,
+            "status": "completed",
+            "completionPct": null,
+            "photo": {
+              "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/IMG-20240829-WA0027.jpg",
+              "credit": "Kafue Town Council"
+            },
+            "note": "Completed under the 2023 CDF, including a maternity ward, water reticulation system and flushable toilets, per Kafue Town Council.",
+            "source": {
+              "publisher": "Kafue Town Council",
+              "title": "Constituency Development Fund awards Mwando Community a health post (Chipapa)",
+              "url": "https://www.kafuecouncil.gov.zm/?p=790"
             }
           },
           {

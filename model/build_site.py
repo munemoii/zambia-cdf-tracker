@@ -109,6 +109,35 @@ def crumbs(prefix, items):
     return '<nav class="crumbs">' + " › ".join(parts) + "</nav>"
 
 
+# Freely licensed place imagery (Wikimedia Commons, CC BY-SA 4.0) — atmosphere,
+# clearly captioned as the place, never presented as a project photo.
+PLACE_MEDIA = {
+    ("province", "Lusaka"): {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Downtown_Lusaka.JPG",
+        "caption": "Downtown Lusaka",
+        "credit": "Photo: Matthew Grollnek — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("constituency", "Kafue"): {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Kafue_River_View_From_Kafue_River_Bridge_-_July_2025.jpg",
+        "caption": "The Kafue River, seen from the Kafue River Bridge",
+        "credit": "Photo: Munahampondela — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("constituency", "Chongwe"): {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nkwashi_Dam%2C_Chongwe%2C_Lusaka.jpg",
+        "caption": "Nkwashi Dam, Chongwe",
+        "credit": "Photo: Daka Eric — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+}
+
+
+def place_media_html(kind, name):
+    m = PLACE_MEDIA.get((kind, name))
+    if not m:
+        return ""
+    return (f'<figure class="place-media"><img src="{html.escape(m["url"])}" alt="{html.escape(m["caption"])}" loading="lazy">'
+            f'<figcaption>{html.escape(m["caption"])} · {html.escape(m["credit"])}</figcaption></figure>')
+
+
 def main():
     con = sqlite3.connect(HERE / "cdf.db")
     c = con.cursor()
@@ -181,7 +210,7 @@ def main():
             pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency.</p>'
         else:
             pilot_note = '<p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>'
-        body = f"""<div class="statrow">
+        body = place_media_html("province", pname) + f"""<div class="statrow">
   <div class="stat"><b>{seats}</b><span>constituencies</span></div>
   <div class="stat"><b>{fmt_m(seats * rate[latest_year])}</b><span>{latest_year} allocation</span></div>
   <div class="stat"><b>{fmt_m(rate[latest_year])}</b><span>per constituency</span></div>
@@ -214,7 +243,7 @@ def main():
                   <p>{html.escape(pr[2] or '')}{' · ' if pr[2] else ''}{html.escape(pr[4] or '')}</p>
                   <p class="pcard-sub">{fmt_kwacha(pr[6])} · {STATUS.get(pr[7], STATUS['unknown'])[0]}</p>
                 </a>""")
-            body = f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
+            body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
 <p class="plede">{html.escape(status_line)}</p>
 <div class="pgrid">{''.join(cards)}</div>"""
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(

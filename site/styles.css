@@ -280,3 +280,6 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 .slides-head{margin-bottom:8px}
 .slides-head .slides-sub{color:var(--muted);margin:0;font-size:.95rem}
 .proofwrap .slides{margin:0}
+.place-media{margin:0 0 16px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.place-media img{width:100%;max-height:300px;object-fit:cover;display:block}
+.place-media figcaption{background:var(--card);color:var(--muted);font-size:.82rem;padding:8px 12px}
