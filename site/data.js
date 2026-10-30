@@ -150,7 +150,7 @@ window.CDF_DATA = {
   ],
   "pilot": {
     "province": "Lusaka",
-    "totalProjects": 164,
+    "totalProjects": 166,
     "constituencies": [
       {
         "name": "Chawama",
@@ -205,12 +205,12 @@ window.CDF_DATA = {
       {
         "name": "Chilanga",
         "url": "constituencies/chilanga.html",
-        "count": 6,
+        "count": 7,
         "budgetM": 5.74,
         "statusCounts": {
           "stalled": 1,
           "approved": 2,
-          "completed": 3
+          "completed": 4
         },
         "projects": [
           {
@@ -249,6 +249,28 @@ window.CDF_DATA = {
               "publisher": "Chilanga Town Council",
               "title": "Minutes of the Chilanga CDFC meeting held 14 April 2023 (incl. 2023 project appraisal table and incomplete-projects report)",
               "url": "http://www.chilangacouncil.gov.zm/wp-content/uploads/2025/11/CDFC-14TH-APRIL-2023-MINUTES-FINAL-pdf.pdf"
+            }
+          },
+          {
+            "id": 165,
+            "url": "projects/165-construction-of-makeni-grz-clinic-laboratory.html",
+            "name": "Construction of Makeni GRZ Clinic Laboratory",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": {
+              "url": "/photos/makeni-clinic-laboratory.jpg",
+              "credit": "Chilanga Town Council"
+            },
+            "note": "Commissioned 22 April 2026 together with Tubalange Police Post, per Chilanga Town Council. Photo identified as the laboratory building within the council's commissioning gallery (the post's other building is the police post, confirmed by its signage).",
+            "source": {
+              "publisher": "Chilanga Town Council",
+              "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
+              "url": "https://www.chilangacouncil.gov.zm/?p=5824"
             }
           },
           {
@@ -1124,9 +1146,9 @@ window.CDF_DATA = {
         "statusCounts": {
           "approved": 12,
           "funded": 10,
-          "completed": 8,
+          "completed": 9,
           "in_progress": 13,
-          "unknown": 2
+          "unknown": 1
         },
         "projects": [
           {
@@ -1307,12 +1329,12 @@ window.CDF_DATA = {
             "ward": "Kabowo",
             "component": "community",
             "category": "infrastructure",
-            "contractor": null,
+            "contractor": "WEGOS General Dealers",
             "budgetM": 0.4123,
-            "status": "unknown",
+            "status": "completed",
             "completionPct": null,
             "photo": null,
-            "note": "Parliament reports this bridge handed over 2 Feb 2025 by WEGOS General Dealers at K653,775.89 — a ~K241k variance on the council database figure kept here.",
+            "note": "Parliament reports this bridge handed over 2 Feb 2025 by WEGOS General Dealers at K653,775.89 — a ~K241k variance on the council database figure kept here. Formally the Rufunsa Foot Bridge at Janeiro Village: handed over on 2 February 2025 (National Assembly). Parliament and the Zambia Daily Mail both give the cost as K653,775.89, against the K412,300.50 carried in the Luangwa Town Council list — both figures are kept on record.",
             "source": {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
@@ -1331,7 +1353,7 @@ window.CDF_DATA = {
             "status": "in_progress",
             "completionPct": null,
             "photo": null,
-            "note": null,
+            "note": " Zambia Daily Mail (6 July 2025) reports two dormitories at Kakaro completed at a combined K1,351,613, housing 60 pupils (30 girls and 30 boys).",
             "source": {
               "publisher": "Luangwa Town Council",
               "title": "Feira Constituency CDF community projects database 2022 (26 projects, total K13,916,144.81)",
@@ -2232,8 +2254,11 @@ window.CDF_DATA = {
             "budgetM": 2.4,
             "status": "completed",
             "completionPct": 100.0,
-            "photo": null,
-            "note": null,
+            "photo": {
+              "url": "/photos/kafue-police-station.jpg",
+              "credit": "News Invasion 24 (image: Facebook)"
+            },
+            "note": " Photo: the station frontage with signage legible, via News Invasion 24. Kafue Town Council's CDF Newsletter 2024 confirms the station was constructed using the 2022 CDF.",
             "source": {
               "publisher": "Kafue Town Council",
               "title": "Kafue Town Council Constituency Development Fund Newsletter, May 2024 (2022 and 2023 CDF project update tables)",
@@ -2868,10 +2893,11 @@ window.CDF_DATA = {
       {
         "name": "Matero",
         "url": "constituencies/matero.html",
-        "count": 12,
-        "budgetM": 16.75,
+        "count": 13,
+        "budgetM": 17.64,
         "statusCounts": {
-          "approved": 12
+          "approved": 12,
+          "completed": 1
         },
         "projects": [
           {
@@ -2929,6 +2955,25 @@ window.CDF_DATA = {
               "publisher": "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)",
               "title": "K17.6 million in CDF projects approved in Matero Constituency (13 community projects, 2025 CDF)",
               "url": "https://www.zambiamonitor.com/matero-constituency-reportedly-secures-k17-6-million-for-2025-cdf-community-projects/"
+            }
+          },
+          {
+            "id": 166,
+            "url": "projects/166-construction-of-chunga-police-post.html",
+            "name": "Construction of Chunga Police Post",
+            "ward": "Mwembeshi Ward",
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": 0.89,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": "Handed over on 20 December 2025 per Lusaka City Council; the K890,000 construction cost is as reported by the Zambia Daily Mail. The council also delivered office equipment worth K150,000 and a borehole at the post. No verified photograph could be extracted yet — the council's photos sit behind Facebook's login gate.",
+            "source": {
+              "publisher": "Lusaka City Council",
+              "title": "Lusaka Province Minister unveils CDF-funded Chunga Police Post (official Facebook post)",
+              "url": "https://www.facebook.com/citycouncil1/posts/1282664940558772"
             }
           },
           {
