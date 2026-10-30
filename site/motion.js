@@ -132,17 +132,6 @@
       }).join('');
       wrap.appendChild(slidesBox);
       if (board2) board2.parentNode.insertBefore(wrap, board2.nextSibling);
-      if (photos.length >= 4) {
-        var strip = document.createElement('section');
-        strip.className = 'photostrip';
-        strip.setAttribute('aria-label', 'Photographed CDF projects');
-        strip.innerHTML = '<div class="ps-head"><p class="eyebrow">Proof of Delivery, standing still</p><a class="ps-all" href="photos.html">Browse all ' + photos.length + ' photos →</a></div>' +
-          '<div class="pstrip">' + photos.slice(0, 8).map(function (x) {
-            return '<a class="pscard" href="' + x.url + '"><img src="' + x.img + '" alt="Photo: ' + x.name.replace(/"/g, '') + '" loading="lazy"><span class="psb"><b>' + x.name + '</b><span>' + x.cc + ' · ' + x.pv + '</span></span></a>';
-          }).join('') +
-          '<a class="pscard more" href="photos.html"><b>See all ' + photos.length + ' photographed projects →</b></a></div>';
-        wrap.parentNode.insertBefore(strip, wrap.nextSibling);
-      }
       if (all.length > 1 && !reduced) {
         var cur = 0, slides = slidesBox.querySelectorAll('.slide');
         setInterval(function () {
