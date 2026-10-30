@@ -249,6 +249,36 @@
     });
   }
 
+  function renderPeople(){
+    var P = D.people || {};
+    function fill(id, tiles){
+      var el = document.getElementById(id); if (!el || !tiles) return;
+      el.innerHTML = "";
+      tiles.forEach(function(t){
+        var d = document.createElement("div"); d.className = "tile";
+        d.innerHTML = '<div class="v">' + t.value + '</div><div class="t">' + t.title + '</div><div class="d">' + t.desc + '</div>';
+        el.appendChild(d);
+      });
+    }
+    fill("bursaryTiles", P.bursaries);
+    fill("boardingTiles", P.boarding);
+    var L = P.loans, le = document.getElementById("loanTiles");
+    if (L && le) {
+      var tiles = [
+        {value: "K" + L.dueM.toFixed(1) + "m", title: "Loans due (" + L.year + ")", desc: "CDF loans called due in the Auditor General's " + L.year + " report"},
+        {value: "K" + L.recoveredM.toFixed(1) + "m", title: "Recovered", desc: "Actually collected by the report date"},
+        {value: L.recoveryPct.toFixed(0) + "%", title: "Recovery rate, " + L.year, desc: "Up from " + (L.series.length > 1 ? L.series[0].pct + "% in " + L.series[0].year : "earlier years")},
+        {value: (L.since2021Pct != null ? L.since2021Pct.toFixed(0) + "%" : "—"), title: "Recovered since 2021", desc: "Across all loans issued since 2021 — the figure behind the 2026 suspension"}
+      ];
+      le.innerHTML = "";
+      tiles.forEach(function(t){
+        var d = document.createElement("div"); d.className = "tile";
+        d.innerHTML = '<div class="v">' + t.value + '</div><div class="t">' + t.title + '</div><div class="d">' + t.desc + '</div>';
+        le.appendChild(d);
+      });
+    }
+  }
+
   function renderNews(){
     var sec=document.getElementById("newsSection"), el=document.getElementById("newsList");
     if(!sec||!el) return;
@@ -536,6 +566,7 @@
   renderScenario();
   renderProjects();
   renderGallery();
+  renderPeople();
 
   var _pv=document.getElementById("provSearch"); if(_pv) _pv.addEventListener("input",function(e){ state.query=e.target.value; renderProvinces(); });
   setYear(2026);

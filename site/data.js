@@ -164,6 +164,14 @@ window.CDF_DATA = {
       "text": "The first 2026 CDF bursary tranche released K100 million to constituencies — K641,025 for each of the 156 constituencies, the same amount for every constituency in the country.\n\nThe bursary component pays secondary-school boarding fees and skills-training bursaries for vulnerable learners in each constituency. It is the part of the fund most families meet directly, and it moves on its own calendar: school terms do not wait for the community-projects pipeline.\n\nThe equal per-constituency figure is the CDF's design in miniature — every constituency, whatever its population, receives the same share. Whether that equality is the fund's fairness or its flaw is the argument the 226-constituency expansion has now sharpened.",
       "url": "https://www.openzambia.com/lifestyle/2026/2/3/government-disburses-k100-million-in-cdf-bursaries",
       "page": "developments/first-2026-bursary-tranche-released.html"
+    },
+    {
+      "date": "17 December 2025",
+      "source": "Cash for Work · Zambia Monitor; ZNBC via Zambia 24; Open Zambia",
+      "title": "Cash for Work, revised: 1.5 million targeted as the programme goes nationwide",
+      "text": "Zambia's other big local fund has gone nationwide in revised form. The Revised Cash for Work programme — run, like the CDF, by the Ministry of Local Government and Rural Development through local councils — was launched in December 2025 and rolled out from January 2026 to all 116 districts, targeting 1,548,277 beneficiaries over six months. Participants work up to ten days a month on community works for K60 a day, K600 a month.\n\nCash for Work began as drought relief: Phase I ran from August 2024 into 2025 in 87 districts, funded with K2 billion from the 2024 supplementary budget, of which K1.8 billion was for beneficiary pay. The revised phase keeps the K600 payment, tightens targeting and verification through a digital Cash for Work application, and shifts the works themselves — away from simple sweeping toward drainage, rural bridges, dams and other climate-resilient assets. It is aimed at adults aged 18 to 59 who are not on other social cash transfer schemes.\n\nIt also carries the same weakness this tracker watches in the CDF: the gap between promise and payment. When Phase II launched, K174 million was still owed to Phase I participants; in January 2026 the ministry paid K28 million toward Lusaka's share of a K119 million arrears bill covering 200,000 beneficiaries. Cash for Work is a separate fund from the CDF — its money never enters the CDF figures on this site — but it flows through the same councils to the same communities, so major developments in the programme will be followed in this feed and labelled as Cash for Work.",
+      "url": "https://www.zambiamonitor.com/cash-for-work-programme-revised-for-2026-govt-targets-1-5-million-beneficiaries/",
+      "page": "developments/cash-for-work-revised-1-5-million-targeted-as-the-programme-goes-nationwide.html"
     }
   ],
   "pilot": {
@@ -35111,5 +35119,48 @@ window.CDF_DATA = {
       "2026": 37
     },
     "fundingYearKnown": 845
+  },
+  "people": {
+    "bursaries": [
+      {
+        "value": "131,640",
+        "title": "Secondary bursary beneficiaries",
+        "desc": "All secondary bursaries since 2022 — figure as of 3 February 2026"
+      },
+      {
+        "value": "198,559",
+        "title": "Skills bursary beneficiaries",
+        "desc": "All skills development beneficiaries since 2022 — as of 3 February 2026"
+      }
+    ],
+    "boarding": [
+      {
+        "value": "82,652",
+        "title": "Secondary boarding bursaries",
+        "desc": "Boarding only — MLGRD, September 2025"
+      },
+      {
+        "value": "151,518",
+        "title": "Skills development bursaries",
+        "desc": "MLGRD, September 2025"
+      }
+    ],
+    "loans": {
+      "year": 2024,
+      "dueM": 375.3,
+      "recoveredM": 63.8,
+      "recoveryPct": 17.0,
+      "series": [
+        {
+          "year": 2023,
+          "pct": 10.6
+        },
+        {
+          "year": 2024,
+          "pct": 17.0
+        }
+      ],
+      "since2021Pct": 35.0
+    }
   }
 };

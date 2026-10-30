@@ -99,6 +99,40 @@ def main():
                      "page": f"developments/{slug}.html"})
 
 
+    # --- loans & bursaries (the people-facing CDF components) ---
+    def _mrow(name):
+        return c.execute("SELECT value, unit, as_of, definition_note FROM reported_metrics "
+                         "WHERE metric = ? AND status = 'current' ORDER BY as_of DESC LIMIT 1", (name,)).fetchone()
+    def _tile(name, title, desc_fmt):
+        r = _mrow(name)
+        if not r:
+            return None
+        v, unit, as_of, note = r
+        return {"value": f"{v:,.0f}", "title": title, "desc": desc_fmt(as_of)}
+    people = {
+        "bursaries": [t for t in [
+            _tile("secondary_bursary_beneficiaries_cumulative", "Secondary bursary beneficiaries",
+                  lambda a: f"All secondary bursaries since 2022 — figure as of {fmt_date_long(a) if a else '2026'}"),
+            _tile("skills_beneficiaries_cumulative", "Skills bursary beneficiaries",
+                  lambda a: f"All skills development beneficiaries since 2022 — as of {fmt_date_long(a) if a else '2026'}"),
+        ] if t],
+        "boarding": [t for t in [
+            _tile("secondary_boarding_bursaries", "Secondary boarding bursaries",
+                  lambda a: "Boarding only — MLGRD, September 2025"),
+            _tile("skills_bursaries", "Skills development bursaries",
+                  lambda a: "MLGRD, September 2025"),
+        ] if t],
+        "loans": None,
+    }
+    bl = c.execute("SELECT budget_year, loans_due_m, loans_recovered_m, recovery_pct FROM bursaries_loans "
+                   "ORDER BY budget_year DESC LIMIT 1").fetchone()
+    rec = [{"year": y, "pct": p} for y, p in c.execute(
+        "SELECT budget_year, value FROM reported_metrics WHERE metric = 'loan_recovery_pct' AND status = 'current' ORDER BY budget_year")]
+    s21 = _mrow("loan_recovery_pct_since_2021")
+    if bl:
+        people["loans"] = {"year": bl[0], "dueM": bl[1], "recoveredM": bl[2], "recoveryPct": bl[3],
+                           "series": rec, "since2021Pct": (s21[0] if s21 else None)}
+
     # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---
     projects_block = None
     pilot = None
@@ -157,7 +191,7 @@ def main():
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block,
+        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"
