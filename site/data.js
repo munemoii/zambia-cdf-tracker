@@ -150,15 +150,15 @@ window.CDF_DATA = {
   ],
   "pilot": {
     "province": "Lusaka",
-    "totalProjects": 423,
+    "totalProjects": 558,
     "fundingYears": {
-      "2022": 44,
-      "2023": 38,
-      "2024": 26,
-      "2025": 137,
+      "2022": 45,
+      "2023": 42,
+      "2024": 58,
+      "2025": 144,
       "2026": 10
     },
-    "fundingYearKnown": 255,
+    "fundingYearKnown": 299,
     "constituencies": [
       {
         "name": "Bangweulu",
@@ -4086,6 +4086,237 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Kalabo Central",
+        "url": "constituencies/kalabo-central.html",
+        "count": 11,
+        "budgetM": 4.92,
+        "statusCounts": {
+          "completed": 11
+        },
+        "projects": [
+          {
+            "id": 492,
+            "url": "projects/492-construction-of-1x2-classroom-block-at-chauluti-community-school.html",
+            "name": "Construction of 1x2 classroom block at Chauluti Community School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.3618,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 491,
+            "url": "projects/491-construction-of-1x2-classroom-block-at-malasha-primary-school.html",
+            "name": "Construction of 1x2 classroom block at Malasha Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.3421,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 494,
+            "url": "projects/494-construction-of-1x3-classroom-block-at-nalionwa-primary-school.html",
+            "name": "Construction of 1x3 classroom block at Nalionwa Primary School",
+            "ward": "Muchatanga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.5496,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 493,
+            "url": "projects/493-construction-of-1x3-classroom-block-at-sihole-secondary-school.html",
+            "name": "Construction of 1x3 classroom block at Sihole Secondary School",
+            "ward": "Kandambo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.5498,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 496,
+            "url": "projects/496-construction-of-staff-house-at-lilambo-primary-school.html",
+            "name": "Construction of staff house at Lilambo Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.3261,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 495,
+            "url": "projects/495-construction-of-staff-house-at-mbunde-primary-school.html",
+            "name": "Construction of staff house at Mbunde Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.3225,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 497,
+            "url": "projects/497-construction-of-staff-house-at-ndoka-health-post.html",
+            "name": "Construction of staff house at Ndoka Health Post",
+            "ward": "Ndoka",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.3204,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 501,
+            "url": "projects/501-construction-of-staff-house-for-the-extension-officer.html",
+            "name": "Construction of staff house for the Extension Officer",
+            "ward": "Chilele",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 0.4549,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 499,
+            "url": "projects/499-drilling-of-five-boreholes-in-namulilo-ward-malombe-nakako-kangumu-mambalange-and-shuku-villages.html",
+            "name": "Drilling of five boreholes in Namulilo Ward (Malombe, Nakako, Kangumu, Mambalange and Shuku villages)",
+            "ward": "Namulilo",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.6384,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 500,
+            "url": "projects/500-installation-of-water-reticulation-systems-at-ituya-primary-school-ng-uma-primary-school-lyapepa-primary-school-and-liumba-rural-health-centre.html",
+            "name": "Installation of water reticulation systems at Ituya Primary School, Ng'uma Primary School, Lyapepa Primary School and Liumba Rural Health Centre",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.6973,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 498,
+            "url": "projects/498-rehabilitation-of-the-female-ward-at-kalabo-general-hospital.html",
+            "name": "Rehabilitation of the female ward at Kalabo General Hospital",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.3569,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kalabo Town Council",
+              "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
+              "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
         "name": "Kanyama",
         "url": "constituencies/kanyama.html",
         "count": 3,
@@ -4151,6 +4382,77 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC enhances security with eight police posts in Lusaka (CDF 2022-2024, total K5,515,468.48)",
               "url": "https://www.lcc.gov.zm/lcc-enhances-security-with-eight-police-posts-in-lusaka/"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Kaoma Central",
+        "url": "constituencies/kaoma-central.html",
+        "count": 3,
+        "budgetM": 0.6,
+        "statusCounts": {
+          "completed": 3
+        },
+        "projects": [
+          {
+            "id": 536,
+            "url": "projects/536-construction-of-health-post-at-chilombo.html",
+            "name": "Construction of health post at Chilombo",
+            "ward": "Chilombo",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.208,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Africa Press (ZANIS report)",
+              "title": "Two health posts in Kaoma constructed with CDF funds completed (Kaoma Central Constituency, 2020/2021 CDF)",
+              "url": "https://www.africa-press.net/zambia/all-news/two-health-posts-in-kaoma-constructed-with-cdf-funds-completed"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 535,
+            "url": "projects/535-construction-of-health-post-at-namimbwe.html",
+            "name": "Construction of health post at Namimbwe",
+            "ward": "Namaloba",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.203,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Africa Press (ZANIS report)",
+              "title": "Two health posts in Kaoma constructed with CDF funds completed (Kaoma Central Constituency, 2020/2021 CDF)",
+              "url": "https://www.africa-press.net/zambia/all-news/two-health-posts-in-kaoma-constructed-with-cdf-funds-completed"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 537,
+            "url": "projects/537-construction-of-market-shelter-at-chilombo.html",
+            "name": "Construction of market shelter at Chilombo",
+            "ward": "Chilombo",
+            "component": "community",
+            "category": "markets",
+            "contractor": null,
+            "budgetM": 0.187,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Africa Press (ZANIS report)",
+              "title": "Two health posts in Kaoma constructed with CDF funds completed (Kaoma Central Constituency, 2020/2021 CDF)",
+              "url": "https://www.africa-press.net/zambia/all-news/two-health-posts-in-kaoma-constructed-with-cdf-funds-completed"
             },
             "fundingYear": null
           }
@@ -4695,6 +4997,248 @@ window.CDF_DATA = {
               "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
             },
             "fundingYear": 2025
+          }
+        ]
+      },
+      {
+        "name": "Luampa",
+        "url": "constituencies/luampa.html",
+        "count": 10,
+        "budgetM": 16.59,
+        "statusCounts": {
+          "approved": 10
+        },
+        "projects": [
+          {
+            "id": 444,
+            "url": "projects/444-construction-of-afumba-rhc-maternity-annex.html",
+            "name": "Construction of Afumba RHC maternity annex",
+            "ward": "Inkunikila",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.75,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 451,
+            "url": "projects/451-furnishing-of-lui-rhc-maternity-annex.html",
+            "name": "Furnishing of Lui RHC maternity annex",
+            "ward": "Lui",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.1397,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 452,
+            "url": "projects/452-furnishing-of-nkenga-rhc-maternity-annex.html",
+            "name": "Furnishing of Nkenga RHC maternity annex",
+            "ward": "Nkenga",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.1397,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 453,
+            "url": "projects/453-installation-of-mwandansengo-rhc-solar-power-system.html",
+            "name": "Installation of Mwandansengo RHC solar power system",
+            "ward": "Mwanawasa",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.055,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 445,
+            "url": "projects/445-procurement-of-a-chief-retainers-motorbike.html",
+            "name": "Procurement of a Chief Retainers' motorbike",
+            "ward": "District Project",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 0.025,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 449,
+            "url": "projects/449-procurement-of-a-grader.html",
+            "name": "Procurement of a grader",
+            "ward": "District Project",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 4.5,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 448,
+            "url": "projects/448-procurement-of-a-tipper-truck.html",
+            "name": "Procurement of a tipper truck",
+            "ward": "District Project",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 2.0,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 447,
+            "url": "projects/447-procurement-of-an-ambulance.html",
+            "name": "Procurement of an ambulance",
+            "ward": "District Project",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 2.7,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 446,
+            "url": "projects/446-procurement-of-school-desks-3845.html",
+            "name": "Procurement of school desks (3845)",
+            "ward": "District Project",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 5.9798,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 450,
+            "url": "projects/450-rehabilitation-of-nkenga-rural-health-centre.html",
+            "name": "Rehabilitation of Nkenga Rural Health Centre",
+            "ward": "Nkenga",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.3,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Luampa Town Council",
+              "title": "Luampa Constituency Development Fund (CDF) 2024 Approved Projects (community projects, total K16,589,200)",
+              "url": "https://www.luampacouncil.gov.zm/wp-content/uploads/2024/09/CDF-2024-Approved-Projects1.pdf"
+            },
+            "fundingYear": 2024
+          }
+        ]
+      },
+      {
+        "name": "Lukulu East",
+        "url": "constituencies/lukulu-east.html",
+        "count": 1,
+        "budgetM": 0.37,
+        "statusCounts": {
+          "completed": 1
+        },
+        "projects": [
+          {
+            "id": 534,
+            "url": "projects/534-construction-of-1x3-classroom-block-at-kashongo-primary-school.html",
+            "name": "Construction of 1x3 classroom block at Kashongo Primary School",
+            "ward": "Kangoti",
+            "component": "community",
+            "category": "education",
+            "contractor": "MC Kangunge",
+            "budgetM": 0.3711,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Ministry of Local Government and Rural Development",
+              "title": "Lukulu Town Council hands over a 1x3 classroom block at Kashongo Primary School in Kangoti Ward (K371,059.25, contractor MC Kangunge)",
+              "url": "https://www.mlgrd.gov.zm/?p=3483"
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -5777,6 +6321,57 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Mongu Central",
+        "url": "constituencies/mongu-central.html",
+        "count": 2,
+        "budgetM": 0,
+        "statusCounts": {
+          "completed": 2
+        },
+        "projects": [
+          {
+            "id": 438,
+            "url": "projects/438-construction-of-staff-house-at-kaande-health-post.html",
+            "name": "Construction of staff house at Kaande Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Older News Items - CDF PROJECT UPDATE: MONGU CENTRAL (Mabumbu staff house 100% complete); KAANDE STAFF HOUSE COMPLETED; LUKWETA MATERNITY ANNEX NEARS COMPLETION (Nalikwanda)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=10822"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 437,
+            "url": "projects/437-construction-of-staff-house-at-mabumbu-rural-health-post.html",
+            "name": "Construction of staff house at Mabumbu Rural Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": 100.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Older News Items - CDF PROJECT UPDATE: MONGU CENTRAL (Mabumbu staff house 100% complete); KAANDE STAFF HOUSE COMPLETED; LUKWETA MATERNITY ANNEX NEARS COMPLETION (Nalikwanda)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=10822"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
         "name": "Mufumbwe",
         "url": "constituencies/mufumbwe.html",
         "count": 26,
@@ -6394,6 +6989,77 @@ window.CDF_DATA = {
               "publisher": "Munali Parliamentary Constituency Office (National Assembly constituency office page, mirrored on govserv.org)",
               "title": "Munali constituency office posts: Chainda Open School ablution block handover; Kaunda Square and Kalingalinga classroom construction",
               "url": "https://www.govserv.org/ZM/Unknown/2066947786880665/Munali-Parliamentary-Constituency-Office---National-Assembly-of-Zambia"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Mwandi",
+        "url": "constituencies/mwandi.html",
+        "count": 3,
+        "budgetM": 0,
+        "statusCounts": {
+          "completed": 3
+        },
+        "projects": [
+          {
+            "id": 532,
+            "url": "projects/532-construction-of-1x3-classroom-block-at-aibelilwe.html",
+            "name": "Construction of 1x3 classroom block at Aibelilwe",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": 100.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwandi Town Council",
+              "title": "News Updates: Mushukula Ward receives new clinic (CDF, 25 Nov 2025); 100% complete 1x3 Aibelilwe classroom block (19 Mar 2025); staff house at Lwazamba Primary School 100% complete (20 Dec 2024)",
+              "url": "https://www.mwandicouncil.gov.zm/?page_id=187"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 531,
+            "url": "projects/531-construction-of-a-clinic-in-mushukula-ward.html",
+            "name": "Construction of a clinic in Mushukula Ward",
+            "ward": "Mushukula",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwandi Town Council",
+              "title": "News Updates: Mushukula Ward receives new clinic (CDF, 25 Nov 2025); 100% complete 1x3 Aibelilwe classroom block (19 Mar 2025); staff house at Lwazamba Primary School 100% complete (20 Dec 2024)",
+              "url": "https://www.mwandicouncil.gov.zm/?page_id=187"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 533,
+            "url": "projects/533-construction-of-a-staff-house-at-lwazamba-primary-school.html",
+            "name": "Construction of a staff house at Lwazamba Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": 100.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwandi Town Council",
+              "title": "News Updates: Mushukula Ward receives new clinic (CDF, 25 Nov 2025); 100% complete 1x3 Aibelilwe classroom block (19 Mar 2025); staff house at Lwazamba Primary School 100% complete (20 Dec 2024)",
+              "url": "https://www.mwandicouncil.gov.zm/?page_id=187"
             },
             "fundingYear": null
           }
@@ -7294,6 +7960,1130 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Nalikwanda",
+        "url": "constituencies/nalikwanda.html",
+        "count": 18,
+        "budgetM": 16.59,
+        "statusCounts": {
+          "approved": 13,
+          "completed": 4,
+          "ongoing": 1
+        },
+        "projects": [
+          {
+            "id": 434,
+            "url": "projects/434-construction-of-a-maternity-annex-and-a-water-scheme-at-nasange-health-post.html",
+            "name": "Construction of a maternity annex and a water scheme at Nasange Health Post",
+            "ward": "Siyowe",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.07,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 436,
+            "url": "projects/436-construction-of-a-maternity-annex-and-a-water-scheme-at-sibongo-health-post.html",
+            "name": "Construction of a maternity annex and a water scheme at Sibongo Health Post",
+            "ward": "Mutondo",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.075,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 435,
+            "url": "projects/435-construction-of-a-maternity-annex-at-natonga-health-post.html",
+            "name": "Construction of a maternity annex at Natonga Health Post",
+            "ward": "Imalyo",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.8,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 424,
+            "url": "projects/424-construction-of-a-rural-health-post-1-no-low-cost-staff-house-and-a-water-scheme.html",
+            "name": "Construction of a rural health post, 1 no. low cost staff house and a water scheme",
+            "ward": "Nanjeko",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 2.4,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 426,
+            "url": "projects/426-construction-of-a-water-scheme-and-ambulance-bay-at-imalyo-clinic.html",
+            "name": "Construction of a water scheme and ambulance bay at Imalyo Clinic",
+            "ward": "Imalyo",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 443,
+            "url": "projects/443-construction-of-health-facility-at-simulima-health-post-maternity-annex-staff-house-ablution-block-and-solar-powered-water-reticulation-system.html",
+            "name": "Construction of health facility at Simulima (health post, maternity annex, staff house, ablution block and solar-powered water reticulation system)",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Mushitala School Gets New Double Storey Classroom Block Built Using CDF (Constituency News)",
+              "url": "https://www.parliament.gov.zm/constituency-news-list"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 428,
+            "url": "projects/428-construction-of-low-cost-staff-house-flat-ablution-block-and-water-scheme-at-kaamba-community-school.html",
+            "name": "Construction of low cost staff house flat, ablution block and water scheme at Kaamba Community School",
+            "ward": "Nalwei",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.47,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 430,
+            "url": "projects/430-construction-of-low-cost-staff-house-flat-ablution-block-and-water-scheme-at-kaluwawa-community-school.html",
+            "name": "Construction of low cost staff house flat, ablution block and water scheme at Kaluwawa Community School",
+            "ward": "Mutondo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.58,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 429,
+            "url": "projects/429-construction-of-low-cost-staff-house-flat-ablution-block-and-water-scheme-at-lulomwe-community-school.html",
+            "name": "Construction of low cost staff house flat, ablution block and water scheme at Lulomwe Community School",
+            "ward": "Looma",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.33,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 439,
+            "url": "projects/439-construction-of-maternity-annex-at-lukweta-rural-health-centre.html",
+            "name": "Construction of maternity annex at Lukweta Rural Health Centre",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Older News Items - CDF PROJECT UPDATE: MONGU CENTRAL (Mabumbu staff house 100% complete); KAANDE STAFF HOUSE COMPLETED; LUKWETA MATERNITY ANNEX NEARS COMPLETION (Nalikwanda)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=10822"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 440,
+            "url": "projects/440-construction-of-water-reticulation-system-at-lukalanya-primary-school.html",
+            "name": "Construction of water reticulation system at Lukalanya Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "CDF UPDATE: Water schemes in Mongu Central and Nalikwanda (Lukalanya Primary School, Natonga and Liande Rural Health Posts completed; 2022/2023 CDF)",
+              "url": "https://www.mongucouncil.gov.zm/?p=6207"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 442,
+            "url": "projects/442-construction-of-water-scheme-at-liande-rural-health-post.html",
+            "name": "Construction of water scheme at Liande Rural Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "CDF UPDATE: Water schemes in Mongu Central and Nalikwanda (Lukalanya Primary School, Natonga and Liande Rural Health Posts completed; 2022/2023 CDF)",
+              "url": "https://www.mongucouncil.gov.zm/?p=6207"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 441,
+            "url": "projects/441-construction-of-water-scheme-at-natonga-rural-health-post.html",
+            "name": "Construction of water scheme at Natonga Rural Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "CDF UPDATE: Water schemes in Mongu Central and Nalikwanda (Lukalanya Primary School, Natonga and Liande Rural Health Posts completed; 2022/2023 CDF)",
+              "url": "https://www.mongucouncil.gov.zm/?p=6207"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 431,
+            "url": "projects/431-procurement-of-1300-desks.html",
+            "name": "Procurement of 1300 desks",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 2.34,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 427,
+            "url": "projects/427-procurement-of-an-ambulance.html",
+            "name": "Procurement of an ambulance",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 3.0,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 432,
+            "url": "projects/432-procurement-of-health-facility-equipment.html",
+            "name": "Procurement of health facility equipment",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 0.7522,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 433,
+            "url": "projects/433-radio-programs.html",
+            "name": "Radio programs",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": 0.048,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 425,
+            "url": "projects/425-rehabilitation-of-a-staff-house-at-nanjeko-rural-health-post.html",
+            "name": "Rehabilitation of a staff house at Nanjeko Rural Health Post",
+            "ward": "Nanjeko",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.27,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mongu Municipal Council",
+              "title": "Approved Projects - Nalikwanda Constituency community projects table (13 projects, estimated budgets, grand total K16,585,205)",
+              "url": "https://www.mongucouncil.gov.zm/?page_id=8007"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Nalolo",
+        "url": "constituencies/nalolo.html",
+        "count": 37,
+        "budgetM": 13.34,
+        "statusCounts": {
+          "completed": 37
+        },
+        "projects": [
+          {
+            "id": 469,
+            "url": "projects/469-completion-of-1x2-classroom-block-at-muoyo-primary-school.html",
+            "name": "Completion of 1x2 classroom block at Muoyo Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.35,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 470,
+            "url": "projects/470-construction-of-1x3-classroom-block-at-kataba-primary-school.html",
+            "name": "Construction of 1x3 classroom block at Kataba Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.8212,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 471,
+            "url": "projects/471-construction-of-1x3-classroom-block-at-likulwe-primary-school.html",
+            "name": "Construction of 1x3 classroom block at Likulwe Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.8312,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 468,
+            "url": "projects/468-construction-of-1x3-classroom-block-at-lunga-combined-school.html",
+            "name": "Construction of 1x3 classroom block at Lunga Combined School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.7942,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 472,
+            "url": "projects/472-construction-of-lyande-health-post-and-staff-house.html",
+            "name": "Construction of Lyande Health Post and staff house",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.8405,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 476,
+            "url": "projects/476-construction-of-flushable-toilet-at-kaanda-primary-school.html",
+            "name": "Construction of flushable toilet at Kaanda Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.195,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 466,
+            "url": "projects/466-construction-of-flushable-toilet-at-kataba-primary-school.html",
+            "name": "Construction of flushable toilet at Kataba Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.4368,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 456,
+            "url": "projects/456-construction-of-flushable-toilet-at-lipaa-primary-school.html",
+            "name": "Construction of flushable toilet at Lipaa Primary School",
+            "ward": "Kataba",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.2701,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 467,
+            "url": "projects/467-construction-of-flushable-toilet-at-lwambi-primary-school.html",
+            "name": "Construction of flushable toilet at Lwambi Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 474,
+            "url": "projects/474-construction-of-flushable-toilet-at-lyande-health-post.html",
+            "name": "Construction of flushable toilet at Lyande Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.2845,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 457,
+            "url": "projects/457-construction-of-flushable-toilet-at-makwibi-primary-school.html",
+            "name": "Construction of flushable toilet at Makwibi Primary School",
+            "ward": "Muoyo",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.2701,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 463,
+            "url": "projects/463-construction-of-flushable-toilet-at-matongo-primary-school.html",
+            "name": "Construction of flushable toilet at Matongo Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.3001,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 465,
+            "url": "projects/465-construction-of-flushable-toilet-at-nanjucha-primary-school.html",
+            "name": "Construction of flushable toilet at Nanjucha Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.318,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 485,
+            "url": "projects/485-construction-of-flushable-toilet-at-nyanye-primary-school.html",
+            "name": "Construction of flushable toilet at Nyanye Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.3288,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 481,
+            "url": "projects/481-construction-of-flushable-toilet-at-shekela-primary-school.html",
+            "name": "Construction of flushable toilet at Shekela Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.326,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 479,
+            "url": "projects/479-construction-of-flushable-toilet-at-sinungu-primary-school.html",
+            "name": "Construction of flushable toilet at Sinungu Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.3003,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 484,
+            "url": "projects/484-construction-of-flushable-toilet-at-sipungu-primary-school.html",
+            "name": "Construction of flushable toilet at Sipungu Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.3001,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 455,
+            "url": "projects/455-construction-of-maternity-annex-at-muoyo-rhc.html",
+            "name": "Construction of maternity annex at Muoyo RHC",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.1959,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 454,
+            "url": "projects/454-construction-of-royal-house.html",
+            "name": "Construction of royal house",
+            "ward": "Muoyo",
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": 0.848,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 460,
+            "url": "projects/460-construction-of-staff-house-at-nalolo-royal-health-clinic.html",
+            "name": "Construction of staff house at Nalolo Royal Health Clinic",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.4543,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 462,
+            "url": "projects/462-solar-water-reticulation-at-kataba-primary-school-and-health-post.html",
+            "name": "Solar water reticulation at Kataba Primary School and Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.35,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 459,
+            "url": "projects/459-solar-water-reticulation-at-lunga-primary-school.html",
+            "name": "Solar water reticulation at Lunga Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1953,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 461,
+            "url": "projects/461-solar-water-reticulation-at-lwambi-primary-school.html",
+            "name": "Solar water reticulation at Lwambi Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.2,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 458,
+            "url": "projects/458-solar-water-reticulation-at-maande-primary-school.html",
+            "name": "Solar water reticulation at Maande Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1943,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 464,
+            "url": "projects/464-solar-water-reticulation-at-nalolo-primary-school.html",
+            "name": "Solar water reticulation at Nalolo Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.246,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 477,
+            "url": "projects/477-solar-water-system-at-kaanda-primary-school.html",
+            "name": "Solar water system at Kaanda Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.2919,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 490,
+            "url": "projects/490-solar-water-system-at-likulwe-primary-school.html",
+            "name": "Solar water system at Likulwe Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.245,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 473,
+            "url": "projects/473-solar-water-system-at-lyande-health-post.html",
+            "name": "Solar water system at Lyande Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1933,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 478,
+            "url": "projects/478-solar-water-system-at-mande-primary-school.html",
+            "name": "Solar water system at Mande Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1933,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 475,
+            "url": "projects/475-solar-water-system-at-nambwea-secondary-school.html",
+            "name": "Solar water system at Nambwea Secondary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.2703,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 486,
+            "url": "projects/486-solar-water-system-at-nyanye-primary-school.html",
+            "name": "Solar water system at Nyanye Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1943,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 482,
+            "url": "projects/482-solar-water-system-at-shekela-primary-school.html",
+            "name": "Solar water system at Shekela Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1945,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 488,
+            "url": "projects/488-solar-water-system-at-siloloti-primary-school.html",
+            "name": "Solar water system at Siloloti Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.2263,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 483,
+            "url": "projects/483-solar-water-system-at-sinungu-health-post.html",
+            "name": "Solar water system at Sinungu Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1964,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 480,
+            "url": "projects/480-solar-water-system-at-sinungu-primary-school.html",
+            "name": "Solar water system at Sinungu Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1964,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 487,
+            "url": "projects/487-solar-water-system-at-sumi-primary-school.html",
+            "name": "Solar water system at Sumi Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.245,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 489,
+            "url": "projects/489-water-reticulation-at-imafuwa-community-school.html",
+            "name": "Water reticulation at Imafuwa Community School",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.245,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Zambian Observer (press statement by Imanga Wamunyima, MP for Nalolo)",
+              "title": "Press Statement: Commissioning of 38 CDF Projects in Nalolo Constituency (17 East Bank, 21 West Bank, total K13 million)",
+              "url": "https://zambianobserver.com/press-statementcommissioning-of-38-cdf-projects-in-nalolo-constituency/"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
         "name": "Nchelenge",
         "url": "constituencies/nchelenge.html",
         "count": 10,
@@ -7501,6 +9291,218 @@ window.CDF_DATA = {
               "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
             },
             "fundingYear": 2026
+          }
+        ]
+      },
+      {
+        "name": "Nkeyema",
+        "url": "constituencies/nkeyema.html",
+        "count": 10,
+        "budgetM": 7.67,
+        "statusCounts": {
+          "completed": 5,
+          "ongoing": 5
+        },
+        "projects": [
+          {
+            "id": 530,
+            "url": "projects/530-construction-of-1x2-classroom-block-at-namamono-primary-school.html",
+            "name": "Construction of 1x2 classroom block at Namamono Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.662,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "CDF delivers first-ever permanent structures at Ntuba and Namamono (1x3 block K425,000; 1x2 block K662,000)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=1951"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 527,
+            "url": "projects/527-construction-of-1x3-classroom-block-at-kanatebe-primary-school.html",
+            "name": "Construction of 1x3 classroom block at Kanatebe Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.6453,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Kanatebe and Shishamba CDF 1x3 classroom blocks handover (K645,300 and K560,000; 2022 and 2023 CDF)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2596"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 529,
+            "url": "projects/529-construction-of-1x3-classroom-block-at-ntuba-community-school.html",
+            "name": "Construction of 1x3 classroom block at Ntuba Community School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.425,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "CDF delivers first-ever permanent structures at Ntuba and Namamono (1x3 block K425,000; 1x2 block K662,000)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=1951"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 528,
+            "url": "projects/528-construction-of-1x3-classroom-block-at-shishamba-primary-school.html",
+            "name": "Construction of 1x3 classroom block at Shishamba Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.56,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Kanatebe and Shishamba CDF 1x3 classroom blocks handover (K645,300 and K560,000; 2022 and 2023 CDF)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2596"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 523,
+            "url": "projects/523-construction-of-chikamba-bridge.html",
+            "name": "Construction of Chikamba Bridge",
+            "ward": "Litoya",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 1.2,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Presidential directive on construction of maternity annexes on the right track in Nkeyema District (2024 CDF: Mimpongo and Nkeyema Mini Hospital annex contracts, Chikamba Bridge; Kapa Clinic and Munkuye Police Post under construction)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2548"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 524,
+            "url": "projects/524-construction-of-kapa-clinic.html",
+            "name": "Construction of Kapa Clinic",
+            "ward": "Shimano",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.65,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Presidential directive on construction of maternity annexes on the right track in Nkeyema District (2024 CDF: Mimpongo and Nkeyema Mini Hospital annex contracts, Chikamba Bridge; Kapa Clinic and Munkuye Police Post under construction)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2548"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 525,
+            "url": "projects/525-construction-of-munkuye-police-post.html",
+            "name": "Construction of Munkuye Police Post",
+            "ward": "Munkuye",
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": 0.75,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Presidential directive on construction of maternity annexes on the right track in Nkeyema District (2024 CDF: Mimpongo and Nkeyema Mini Hospital annex contracts, Chikamba Bridge; Kapa Clinic and Munkuye Police Post under construction)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2548"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 526,
+            "url": "projects/526-construction-of-maternity-annex-at-kandende-rural-health-centre.html",
+            "name": "Construction of maternity annex at Kandende Rural Health Centre",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": "Integrity Construction",
+            "budgetM": 0.48,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Nkeyema Town Council hands over maternity annex at Kandende RHC (K480,000, CDF, contractor Integrity Construction)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=1634"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 521,
+            "url": "projects/521-construction-of-maternity-annex-at-mimpongo-rural-health-centre.html",
+            "name": "Construction of maternity annex at Mimpongo Rural Health Centre",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.2,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Presidential directive on construction of maternity annexes on the right track in Nkeyema District (2024 CDF: Mimpongo and Nkeyema Mini Hospital annex contracts, Chikamba Bridge; Kapa Clinic and Munkuye Police Post under construction)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2548"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 522,
+            "url": "projects/522-construction-of-maternity-annex-at-nkeyema-mini-hospital.html",
+            "name": "Construction of maternity annex at Nkeyema Mini Hospital",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.1,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nkeyema Town Council",
+              "title": "Presidential directive on construction of maternity annexes on the right track in Nkeyema District (2024 CDF: Mimpongo and Nkeyema Mini Hospital annex contracts, Chikamba Bridge; Kapa Clinic and Munkuye Police Post under construction)",
+              "url": "https://www.nkeyemacouncil.gov.zm/?p=2548"
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -7984,6 +9986,841 @@ window.CDF_DATA = {
               "url": "https://www.parliament.gov.zm/node/12266"
             },
             "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Senanga",
+        "url": "constituencies/senanga.html",
+        "count": 5,
+        "budgetM": 9.9,
+        "statusCounts": {
+          "completed": 1,
+          "approved": 4
+        },
+        "projects": [
+          {
+            "id": 520,
+            "url": "projects/520-procurement-of-basic-medical-equipment-for-maternity-annexes-at-mata-sibukali-and-mwanamwalye.html",
+            "name": "Procurement of basic medical equipment for maternity annexes at Mata, Sibukali and Mwanamwalye",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 0.8963,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Senanga Town Council",
+              "title": "Senanga Town Council procures basic medical equipment for three maternity annexes constructed under the 2022 CDF (Mata, Sibukali and Mwanamwalye), K896,293.59",
+              "url": "https://www.senangacouncil.gov.zm/?cat=1"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 516,
+            "url": "projects/516-supply-and-delivery-of-a-motor-grader.html",
+            "name": "Supply and delivery of a motor grader",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 3.3,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Senanga Town Council",
+              "title": "Procurement Unit tender evaluation report to the Procurement Committee, 29 December 2023: supply and delivery of earth moving equipment under CDF 2023 (approved budget K9,000,000)",
+              "url": "https://www.senangacouncil.gov.zm/wp-content/uploads/2024/03/EVALUATION-REPORT-SUPPLY-AND-DELIVERY-OF-EARTH-MOVING-EQUIPMENT-.pdf"
+            },
+            "fundingYear": 2023
+          },
+          {
+            "id": 519,
+            "url": "projects/519-supply-and-delivery-of-a-roller.html",
+            "name": "Supply and delivery of a roller",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 1.9,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Senanga Town Council",
+              "title": "Procurement Unit tender evaluation report to the Procurement Committee, 29 December 2023: supply and delivery of earth moving equipment under CDF 2023 (approved budget K9,000,000)",
+              "url": "https://www.senangacouncil.gov.zm/wp-content/uploads/2024/03/EVALUATION-REPORT-SUPPLY-AND-DELIVERY-OF-EARTH-MOVING-EQUIPMENT-.pdf"
+            },
+            "fundingYear": 2023
+          },
+          {
+            "id": 518,
+            "url": "projects/518-supply-and-delivery-of-a-tractor-loader-backhoe.html",
+            "name": "Supply and delivery of a tractor loader backhoe",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 1.9,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Senanga Town Council",
+              "title": "Procurement Unit tender evaluation report to the Procurement Committee, 29 December 2023: supply and delivery of earth moving equipment under CDF 2023 (approved budget K9,000,000)",
+              "url": "https://www.senangacouncil.gov.zm/wp-content/uploads/2024/03/EVALUATION-REPORT-SUPPLY-AND-DELIVERY-OF-EARTH-MOVING-EQUIPMENT-.pdf"
+            },
+            "fundingYear": 2023
+          },
+          {
+            "id": 517,
+            "url": "projects/517-supply-and-delivery-of-a-water-bowser.html",
+            "name": "Supply and delivery of a water bowser",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 1.9,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Senanga Town Council",
+              "title": "Procurement Unit tender evaluation report to the Procurement Committee, 29 December 2023: supply and delivery of earth moving equipment under CDF 2023 (approved budget K9,000,000)",
+              "url": "https://www.senangacouncil.gov.zm/wp-content/uploads/2024/03/EVALUATION-REPORT-SUPPLY-AND-DELIVERY-OF-EARTH-MOVING-EQUIPMENT-.pdf"
+            },
+            "fundingYear": 2023
+          }
+        ]
+      },
+      {
+        "name": "Sesheke",
+        "url": "constituencies/sesheke.html",
+        "count": 14,
+        "budgetM": 5.57,
+        "statusCounts": {
+          "completed": 7,
+          "ongoing": 7
+        },
+        "projects": [
+          {
+            "id": 502,
+            "url": "projects/502-construction-of-nakatindi-market.html",
+            "name": "Construction of Nakatindi Market",
+            "ward": "Nakatindi",
+            "component": "community",
+            "category": "markets",
+            "contractor": null,
+            "budgetM": 0.7,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "CDF Tracker (Sesheke Constituency, 2022, Quarter 1)",
+              "url": "https://www.seshekecouncil.gov.zm/?page_id=935"
+            },
+            "fundingYear": 2022
+          },
+          {
+            "id": 514,
+            "url": "projects/514-construction-of-a-1x2-classroom-block-at-neyanda-primary-school.html",
+            "name": "Construction of a 1x2 classroom block at Neyanda Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.4005,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2159"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 512,
+            "url": "projects/512-construction-of-a-1x3-classroom-block-at-kande-primary-school.html",
+            "name": "Construction of a 1x3 classroom block at Kande Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.9108,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2159"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 506,
+            "url": "projects/506-construction-of-a-1x3-classroom-block-at-katima-mulilo-secondary-school.html",
+            "name": "Construction of a 1x3 classroom block at Katima Mulilo Secondary School",
+            "ward": "Katima Mulilo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 510,
+            "url": "projects/510-construction-of-a-1x3-classroom-block-at-maondo-secondary-school.html",
+            "name": "Construction of a 1x3 classroom block at Maondo Secondary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.4159,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2159"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 507,
+            "url": "projects/507-construction-of-a-1x3-classroom-block-at-nakatindi-day-secondary-school.html",
+            "name": "Construction of a 1x3 classroom block at Nakatindi Day Secondary School",
+            "ward": "Nakatindi",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 513,
+            "url": "projects/513-construction-of-a-1x3-classroom-block-at-neyanda-primary-school.html",
+            "name": "Construction of a 1x3 classroom block at Neyanda Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.7149,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2159"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 508,
+            "url": "projects/508-construction-of-a-1x3-classroom-block-at-silolo-secondary-school.html",
+            "name": "Construction of a 1x3 classroom block at Silolo Secondary School",
+            "ward": "Katima Mulilo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 503,
+            "url": "projects/503-construction-of-a-staff-house-at-lusu-east-health-post.html",
+            "name": "Construction of a staff house at Lusu East Health Post",
+            "ward": "Luse",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 505,
+            "url": "projects/505-construction-of-a-staff-house-with-water-reticulation-and-solar-power-system-at-chivula-health-post.html",
+            "name": "Construction of a staff house with water reticulation and solar power system at Chivula Health Post",
+            "ward": "Imusho",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 509,
+            "url": "projects/509-construction-of-a-staff-house-with-water-reticulation-and-solar-power-system-at-sonso-health-post.html",
+            "name": "Construction of a staff house with water reticulation and solar power system at Sonso Health Post",
+            "ward": "Luampungu",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 504,
+            "url": "projects/504-construction-of-an-urban-clinic-in-liamango-area.html",
+            "name": "Construction of an urban clinic in Liamango area",
+            "ward": "Mulimambango",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council signs seven contracts under 2025 CDF allocation",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2545"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 515,
+            "url": "projects/515-procurement-of-a-water-bowser.html",
+            "name": "Procurement of a water bowser",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 2.187,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2159"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 511,
+            "url": "projects/511-rehabilitation-of-the-fish-market.html",
+            "name": "Rehabilitation of the Fish Market",
+            "ward": null,
+            "component": "community",
+            "category": "markets",
+            "contractor": null,
+            "budgetM": 0.2392,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sesheke Town Council",
+              "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
+              "url": "https://www.seshekecouncil.gov.zm/?p=2159"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Sikongo",
+        "url": "constituencies/sikongo.html",
+        "count": 21,
+        "budgetM": 16.59,
+        "statusCounts": {
+          "approved": 21
+        },
+        "projects": [
+          {
+            "id": 558,
+            "url": "projects/558-cdf-hour-radio-show.html",
+            "name": "CDF Hour Radio Show",
+            "ward": "Sikongo",
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": 0.1,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 541,
+            "url": "projects/541-construction-of-10-boreholes.html",
+            "name": "Construction of 10 boreholes",
+            "ward": "Liumena",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.715,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 545,
+            "url": "projects/545-construction-of-a-1x2-classroom-block-at-lundu-community-school.html",
+            "name": "Construction of a 1x2 classroom block at Lundu Community School",
+            "ward": "Tuuwa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.759,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 544,
+            "url": "projects/544-construction-of-a-1x2-classroom-block-at-mumbo-community-school.html",
+            "name": "Construction of a 1x2 classroom block at Mumbo Community School",
+            "ward": "Malamo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.759,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 540,
+            "url": "projects/540-construction-of-a-1x2-classroom-block-at-mutala-primary-school.html",
+            "name": "Construction of a 1x2 classroom block at Mutala Primary School",
+            "ward": "Mutala",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.759,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 538,
+            "url": "projects/538-construction-of-a-1x2-classroom-block-at-shamalumba-community-school.html",
+            "name": "Construction of a 1x2 classroom block at Shamalumba Community School",
+            "ward": "Lumbamba",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.759,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 552,
+            "url": "projects/552-construction-of-a-health-post-at-katondwana.html",
+            "name": "Construction of a health post at Katondwana",
+            "ward": "Nengu",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.935,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 549,
+            "url": "projects/549-construction-of-a-health-post-at-likuyu.html",
+            "name": "Construction of a health post at Likuyu",
+            "ward": "Lwambi",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.858,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 548,
+            "url": "projects/548-construction-of-a-health-post-at-malondo.html",
+            "name": "Construction of a health post at Malondo",
+            "ward": "Maala",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.825,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 547,
+            "url": "projects/547-construction-of-a-health-post-at-ngulumani.html",
+            "name": "Construction of a health post at Ngulumani",
+            "ward": "Licha",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.825,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 543,
+            "url": "projects/543-construction-of-a-health-post-at-simbuu.html",
+            "name": "Construction of a health post at Simbuu",
+            "ward": "Lueti",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.913,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 539,
+            "url": "projects/539-construction-of-a-health-post-at-welwa.html",
+            "name": "Construction of a health post at Welwa",
+            "ward": "Ng'umbele",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.935,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 542,
+            "url": "projects/542-construction-of-a-maternity-wing-at-lubuta-health-post.html",
+            "name": "Construction of a maternity wing at Lubuta Health Post",
+            "ward": "Lubuta",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.913,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 550,
+            "url": "projects/550-construction-of-a-maternity-wing-at-luoke-west.html",
+            "name": "Construction of a maternity wing at Luoke West",
+            "ward": "Mwenyi",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.935,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 546,
+            "url": "projects/546-construction-of-boreholes.html",
+            "name": "Construction of boreholes",
+            "ward": "Natalui",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.715,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 551,
+            "url": "projects/551-construction-of-boreholes-at-mwandi.html",
+            "name": "Construction of boreholes at Mwandi",
+            "ward": "Mwenyi",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.11,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 553,
+            "url": "projects/553-dredging-of-the-makoma-canal.html",
+            "name": "Dredging of the Makoma Canal",
+            "ward": "Mwenyi, Mutala and Nengu",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 0.2,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 555,
+            "url": "projects/555-procurement-of-an-ambulance.html",
+            "name": "Procurement of an ambulance",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 2.7,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 557,
+            "url": "projects/557-procurement-of-desks.html",
+            "name": "Procurement of desks",
+            "ward": "Sikongo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.7492,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 556,
+            "url": "projects/556-procurement-of-the-motor-bike-chief-s-retainer.html",
+            "name": "Procurement of the motor bike (Chief's Retainer)",
+            "ward": "Sikongo",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 0.025,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 554,
+            "url": "projects/554-transportation-of-desks-to-all-schools.html",
+            "name": "Transportation of desks to all schools",
+            "ward": "Sikongo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.1,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Sikongo Town Council",
+              "title": "Extract minutes of the Fourth Quarter Constituency Development Fund Committee meeting (selection/approval of 21 community projects for the 2024 implementation year, total K16,589,200.12)",
+              "url": "https://www.sikongocouncil.gov.zm/wp-content/uploads/2024/09/28th-December-2023-Community-Projects-Approval-Meeting-2024.pdf"
+            },
+            "fundingYear": 2024
           }
         ]
       },
