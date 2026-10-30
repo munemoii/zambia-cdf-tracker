@@ -392,7 +392,16 @@
       });
       document.getElementById('pdName').textContent = 'All provinces';
       document.getElementById('pdMeta').textContent = X.totalProjects + ' projects tracked across ' + X.provinces.length + ' provinces';
-      document.getElementById('pdBody').innerHTML = '<div id="projDetailSlot"></div>' + X.provinces.map(function(p){
+      var _bud = 0, _mix = {}, _cats = {};
+      X.provinces.forEach(function(p){ p.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){
+        _bud += pr.budgetM || 0; _mix[pr.status] = (_mix[pr.status] || 0) + 1; _cats[pr.category] = (_cats[pr.category] || 0) + 1;
+      }); }); });
+      var _mixTxt = Object.keys(_mix).sort(function(a, b){ return _mix[b] - _mix[a]; }).map(function(k){ return (STATUS[k] ? STATUS[k].label : k) + ' ' + _mix[k]; }).join(' · ');
+      var _topCats = Object.keys(_cats).sort(function(a, b){ return _cats[b] - _cats[a]; }).slice(0, 5).map(function(k){ return k.charAt(0).toUpperCase() + k.slice(1) + ' ' + _cats[k]; }).join(' · ');
+      var _summary = '<p class="chart-note"><b>' + X.totalProjects + ' projects · ' + fmtKwacha(Math.round(_bud * 100) / 100) + ' in published budgets</b></p>' +
+        '<p class="chart-note">' + _mixTxt + '</p>' +
+        '<p class="chart-note">Most tracked categories — ' + _topCats + '</p>';
+      document.getElementById('pdBody').innerHTML = '<div id="projDetailSlot"></div>' + _summary + X.provinces.map(function(p){
         return '<div class="prow jrow" data-pv="' + p.name + '"><span class="pname">' + p.name + '</span>' +
           '<span class="pdetail-x">' + p.totalProjects + ' projects' + (p.fundingYearKnown ? ' · funding year published for ' + p.fundingYearKnown : '') + '</span></div>';
       }).join('');
@@ -439,7 +448,21 @@
     order.sort(function(a, b){ if (a === '') return 1; if (b === '') return -1; return b - a; });
     var grouped = order.length > 1;
     var flat = [];
-    var html = '<div id="projDetailSlot"></div>';
+    var _titles = cc.projects.map(function(pr){ return (pr.source && pr.source.title) || ''; });
+    function _hasT(ws){ return _titles.some(function(t){ var L = t.toLowerCase(); return ws.some(function(w){ return L.indexOf(w) > -1; }); }); }
+    var _kinds = [];
+    if (_hasT(['approved', 'approval'])) _kinds.push('approval lists');
+    if (_hasT(['commission', 'handover', 'handed over'])) _kinds.push('commissioning / handover reports');
+    if (_hasT(['minutes'])) _kinds.push('CDFC minutes');
+    if (_hasT(['newsletter'])) _kinds.push('council newsletters');
+    if (_hasT(['catalogue', 'database', 'project list', 'projects list', 'list of'])) _kinds.push('published project lists');
+    if (_hasT(['tender', 'zppa', 'e-gp', 'invitation for bids'])) _kinds.push('tender notices');
+    if (!_kinds.length) _kinds.push('council and news reports');
+    var _rec = 'Record: based on ' + _kinds.join(', ') + '.';
+    var _st = {}; cc.projects.forEach(function(pr){ _st[pr.status] = 1; });
+    if (_kinds.indexOf('approval lists') === -1 && _st.completed && !_st.approved)
+      _rec += ' No approval list has been published for this constituency — the public record here starts at handover.';
+    var html = '<div id="projDetailSlot"></div><p class="chart-note">' + _rec + '</p>';
     order.forEach(function(k){
       if (grouped) html += '<div class="ghead">' + (k ? k + ' CDF' : 'Funding year not published') + ' — ' + groups[k].length + ' projects</div>';
       groups[k].forEach(function(pr){

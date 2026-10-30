@@ -193,8 +193,26 @@ def main():
           <p>{seats} constituencies · {fmt_m(seats * rate[latest_year])} in {latest_year}</p>
           <p class="pcard-sub">{sub}</p>
         </a>""")
+    sc_rows = []
+    for pid, pname, seats in provinces:
+        _items = [pr for v in by_province_const.get(pname, {}).values() for pr in v]
+        _covered = sum(1 for v in by_province_const.get(pname, {}).values() if v)
+        _n = len(_items)
+        if not _n:
+            continue
+        _amt = round(100 * sum(1 for pr in _items if pr[6] is not None) / _n)
+        _fy = round(100 * sum(1 for pr in _items if pr[18]) / _n)
+        _comp = round(100 * sum(1 for pr in _items if pr[7] == "completed") / _n)
+        sc_rows.append((_covered / seats, pname, seats, _covered, _n, _amt, _fy, _comp))
+    sc_rows.sort(reverse=True)
+    sc_html = "".join(
+        f'<tr><td>{html.escape(pn)}</td><td>{cov} of {st}</td><td>{n}</td><td>{amt}%</td><td>{fy}%</td><td>{comp}%</td></tr>'
+        for _r, pn, st, cov, n, amt, fy, comp in sc_rows)
     body = f"""<p class="plede">CDF allocates equally per constituency — a province's share is its constituency count times the national rate ({fmt_m(rate[latest_year])} per constituency in {latest_year}).</p>
-<div class="pgrid">{''.join(cards)}</div>"""
+<div class="pgrid">{''.join(cards)}</div>
+<h2 class="phead" style="margin-top:34px">The publishing scorecard</h2>
+<p class="plede">How much of each province's CDF record is actually public. This measures the <b>record</b>, not delivery: a low score means the councils publish little, not that nothing was built. It is the gap this tracker exists to close.</p>
+<div class="card"><table class="mtable"><thead><tr><th>Province</th><th>Constituencies with published projects</th><th>Projects tracked</th><th>With amounts</th><th>With funding year</th><th>Shown completed</th></tr></thead><tbody>{sc_html}</tbody></table></div>"""
     (SITE / "provinces.html").write_text(
         shell("Provinces", "CDF allocations and project tracking for all ten Zambian provinces.", "", body))
     urls.append(f"{BASE}/provinces.html")
@@ -320,8 +338,24 @@ def main():
                     for y in _order)
             else:
                 cards_html = f'<div class="pgrid">{"".join(_card(pr) for pr in items)}</div>'
+            _pairs = {(pr[15], pr[16]) for pr in items}
+            _tl = [(t or "") for _p, t in _pairs]
+            def _has(*ws):
+                return any(any(w in t.lower() for w in ws) for t in _tl)
+            _kinds = []
+            if _has("approved", "approval"): _kinds.append("approval lists")
+            if _has("commission", "handover", "handed over"): _kinds.append("commissioning / handover reports")
+            if _has("minutes"): _kinds.append("CDFC minutes")
+            if _has("newsletter"): _kinds.append("council newsletters")
+            if _has("catalogue", "database", "project list", "projects list", "list of"): _kinds.append("published project lists")
+            if _has("tender", "zppa", "e-gp", "invitation for bids"): _kinds.append("tender notices")
+            if not _kinds: _kinds.append("council and news reports")
+            record_line = f"Record: based on {', '.join(_kinds)}."
+            if "approval lists" not in _kinds and sc.get("completed") and not sc.get("approved"):
+                record_line += " No approval list has been published for this constituency — the public record here starts at handover."
             body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked across all published years · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts).{fy_txt}</p>
 <p class="plede">{html.escape(status_line)}</p>
+<p class="plede">{html.escape(record_line)}</p>
 {cards_html}"""
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
                 f"{cname} constituency", f"{len(items)} CDF projects tracked in {cname}, {pname}: budgets, status, contractors and sources.",

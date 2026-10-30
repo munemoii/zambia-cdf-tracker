@@ -97,14 +97,25 @@
   }
 
   /* ---------- photo slideshow (activates when photos exist) ---------- */
-  if (D && D.pilot) {
+  if (D && D.projects) {
     var photos = [];
-    D.pilot.constituencies.forEach(function (cc) {
-      cc.projects.forEach(function (pr) {
-        if (pr.photo) photos.push({ pr: pr, cc: cc.name });
+    D.projects.provinces.forEach(function (p) {
+      p.constituencies.forEach(function (cc) {
+        cc.projects.forEach(function (pr) {
+          if (pr.photo) photos.push({ img: pr.photo.url, name: pr.name, meta: cc.name + ' constituency, ' + p.name + ' · ' + (pr.photo.credit || '') });
+        });
       });
     });
-    if (photos.length) {
+    /* Place and group-event images, captioned as exactly what they are — never as single projects. */
+    var extras = [
+      { img: '/photos/rufunsa-classrooms-opening.jpg', name: 'Classroom blocks opening — Rufunsa', meta: 'Group handover event · Lusaka Province · Chongwe Municipal Council' },
+      { img: '/photos/chilanga-classrooms-handover.jpg', name: 'Classroom blocks handover — Chilanga', meta: 'Group handover event · Lusaka Province · Chilanga Town Council' },
+      { img: '/photos/downtown-lusaka.jpg', name: 'Downtown Lusaka', meta: 'Lusaka Province · Photo: Matthew Grollnek (CC BY-SA 4.0)' },
+      { img: '/photos/kafue-river.jpg', name: 'The Kafue River at Kafue', meta: 'Lusaka Province · Photo: Munahampondela (CC BY-SA 4.0)' },
+      { img: '/photos/nkwashi-dam.jpg', name: 'Nkwashi Dam, Chongwe', meta: 'Lusaka Province · Photo: Daka Eric (CC BY-SA 4.0)' }
+    ];
+    var all = photos.concat(extras);
+    if (all.length) {
       var board2 = document.querySelector('header.top') || document.querySelector('.ticker') || document.querySelector('.board');
       var wrap = document.createElement('div');
       wrap.className = 'proofwrap';
@@ -114,15 +125,14 @@
       slidesBox.className = 'slides';
       slidesBox.setAttribute('role', 'region');
       slidesBox.setAttribute('aria-label', 'Proof of Delivery — CDF project photos');
-      slidesBox.innerHTML = photos.map(function (x, i) {
+      slidesBox.innerHTML = all.map(function (x, i) {
         return '<figure class="slide' + (i === 0 ? ' on' : '') + '">' +
-          '<img src="' + x.pr.photo.url + '" alt="Photo: ' + x.pr.name.replace(/"/g, '') + '" loading="lazy">' +
-          '<figcaption class="cap"><b>' + x.pr.name + '</b><span>' + x.cc + ' constituency · ' +
-          (x.pr.photo.credit || '') + '</span></figcaption></figure>';
+          '<img src="' + x.img + '" alt="Photo: ' + x.name.replace(/"/g, '') + '" loading="lazy">' +
+          '<figcaption class="cap"><b>' + x.name + '</b><span>' + x.meta + '</span></figcaption></figure>';
       }).join('');
       wrap.appendChild(slidesBox);
       if (board2) board2.parentNode.insertBefore(wrap, board2.nextSibling);
-      if (photos.length > 1 && !reduced) {
+      if (all.length > 1 && !reduced) {
         var cur = 0, slides = slidesBox.querySelectorAll('.slide');
         setInterval(function () {
           slides[cur].classList.remove('on');
