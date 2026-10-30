@@ -373,6 +373,15 @@
     document.getElementById('pilotNote').textContent =
       P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' Lusaka constituencies. ' +
       'Every project links to its published source; amounts are shown only where the source published them.' + fyTxt;
+    var strip = document.getElementById('fyStrip');
+    if (strip && P.fundingYears) {
+      var chips = Object.keys(P.fundingYears).sort().map(function(y){
+        return '<span class="fychip"><b>' + y + '</b>' + P.fundingYears[y] + ' projects</span>';
+      }).join('');
+      var unknown = P.totalProjects - (P.fundingYearKnown || 0);
+      if (unknown > 0) chips += '<span class="fychip dim"><b>Not published</b>' + unknown + ' projects</span>';
+      strip.innerHTML = chips;
+    }
   }
   function showProject(pr){
     var rows = [
