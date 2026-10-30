@@ -24,7 +24,11 @@
   .flagstripe span{flex:1}.flagstripe .g{background:#198a00}.flagstripe .r{background:#de2010}.flagstripe .k{background:#222}.flagstripe .o{background:#ef7d00}
   @media (prefers-color-scheme: dark){.flagstripe .k{background:#e8e8e8}}
 
-  header.top{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px;align-items:end;margin-bottom:8px}
+  header.top{margin-bottom:8px}
+  .snapstrip{display:flex;align-items:baseline;gap:10px 14px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:11px;margin-top:20px}
+  .snapstrip .k{font-size:.74rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--gold)}
+  .snapstrip .v{font-family:"Barlow Condensed",sans-serif;font-size:1.3rem;font-weight:600;line-height:1}
+  .snapstrip .s{font-size:.88rem;color:var(--muted)}
   h1{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:clamp(2.3rem,6vw,3.9rem);line-height:.95;letter-spacing:.01em;margin:0;text-transform:uppercase}
   h1 em{font-style:normal;color:var(--green)}
   .lede{max-width:640px;color:var(--muted);font-size:1.06rem;margin:10px 0 0}
