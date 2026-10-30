@@ -286,6 +286,14 @@
           '<div class="vbar slim"><span class="vl">Completed</span><span class="vt"><span class="vf" style="width:' + p.completedPct + '%"></span></span><span class="vv">' + p.completedPct + '%</span></div></div>';
       }).join("");
     }
+    var tm = document.getElementById("typeMix");
+    if (tm && U.typeMix) {
+      tm.innerHTML = U.typeMix.map(function(t){
+        return '<div class="tmix"><p class="tmix-h">' + t.cat + '</p>' +
+          '<div class="vbar slim"><span class="vl">Rural</span><span class="vt"><span class="vf" style="width:' + t.ruralPct + '%"></span></span><span class="vv">' + t.ruralPct + '%</span></div>' +
+          '<div class="vbar slim"><span class="vl">Urban</span><span class="vt"><span class="vf urban" style="width:' + t.urbanPct + '%"></span></span><span class="vv">' + t.urbanPct + '%</span></div></div>';
+      }).join("");
+    }
   }
 
   function renderPeople(){

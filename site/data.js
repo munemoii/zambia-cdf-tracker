@@ -35322,6 +35322,50 @@ window.CDF_DATA = {
         "completed": 42,
         "pct": 32.3
       }
+    ],
+    "typeMix": [
+      {
+        "cat": "Education",
+        "ruralN": 347,
+        "urbanN": 64,
+        "ruralPct": 31.5,
+        "urbanPct": 24.7
+      },
+      {
+        "cat": "Water & sanitation",
+        "ruralN": 273,
+        "urbanN": 43,
+        "ruralPct": 24.8,
+        "urbanPct": 16.6
+      },
+      {
+        "cat": "Other community works",
+        "ruralN": 213,
+        "urbanN": 41,
+        "ruralPct": 19.3,
+        "urbanPct": 15.8
+      },
+      {
+        "cat": "Health",
+        "ruralN": 200,
+        "urbanN": 54,
+        "ruralPct": 18.1,
+        "urbanPct": 20.8
+      },
+      {
+        "cat": "Roads & bridges",
+        "ruralN": 55,
+        "urbanN": 41,
+        "ruralPct": 5.0,
+        "urbanPct": 15.8
+      },
+      {
+        "cat": "Police & security",
+        "ruralN": 15,
+        "urbanN": 16,
+        "ruralPct": 1.4,
+        "urbanPct": 6.2
+      }
     ]
   }
 };

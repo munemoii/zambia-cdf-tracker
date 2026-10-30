@@ -178,6 +178,30 @@ def main():
         _tp = sum(p["tracked"] for p in _mem); _cp = sum(p["completed"] for p in _mem)
         util["groups"].append({"label": _label, "provinces": len(_mem), "projects": _tp,
                                "completed": _cp, "pct": round(_cp / _tp * 100, 1) if _tp else 0})
+    import re as _re
+    _CATS = [("Water & sanitation", r"water|borehole|reticulation|ablution|toilet|sanitation|hand ?pump|kiosk"),
+             ("Health", r"clinic|health|maternity|hospital|mortuary|medical|laborator"),
+             ("Education", r"classroom|school|crb|dormitor|desk|teacher|student|library|college|skills centre|textbook"),
+             ("Roads & bridges", r"road|bridge|culvert|drainage|footbridge|grading|streetlight|street light"),
+             ("Police & security", r"police|security|prison")]
+    def _cat(n):
+        n = n.lower()
+        for _l, _p in _CATS:
+            if _re.search(_p, n):
+                return _l
+        return "Other community works"
+    _mix = {}
+    for _name, _rural in c.execute(
+            "SELECT p.name, pc.rural_pct FROM projects p JOIN constituencies k ON k.id = p.constituency_id "
+            "JOIN province_context pc ON pc.province_id = k.province_id").fetchall():
+        _grp = "rural" if _rural >= 70 else ("urban" if _rural <= 25 else None)
+        if not _grp:
+            continue
+        _mix.setdefault(_cat(_name), {"rural": 0, "urban": 0})[_grp] += 1
+    _rt = sum(v["rural"] for v in _mix.values()); _ut = sum(v["urban"] for v in _mix.values())
+    util["typeMix"] = [{"cat": k, "ruralN": v["rural"], "urbanN": v["urban"],
+                        "ruralPct": round(v["rural"] / _rt * 100, 1), "urbanPct": round(v["urban"] / _ut * 100, 1)}
+                       for k, v in sorted(_mix.items(), key=lambda kv: -(kv[1]["rural"] + kv[1]["urban"]))]
 
     # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---
     projects_block = None
