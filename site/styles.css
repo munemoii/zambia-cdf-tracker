@@ -283,3 +283,13 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 .place-media{margin:0 0 16px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
 .place-media img{width:100%;max-height:300px;object-fit:cover;display:block}
 .place-media figcaption{background:var(--card);color:var(--muted);font-size:.82rem;padding:8px 12px}
+
+/* ===== Proof of Delivery: cinematic animated band ===== */
+.proofwrap .slides{aspect-ratio:16/6.8;min-height:320px}
+.slides .slide{overflow:hidden}
+.slides .slide img{will-change:transform}
+.slides .slide.on img{animation:kenburns 6.8s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1.03) translate(0,0)}to{transform:scale(1.13) translate(-1.6%,-2.2%)}}
+@media (prefers-reduced-motion: reduce){
+  .slides .slide.on img{animation:none}
+}

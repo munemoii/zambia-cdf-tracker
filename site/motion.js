@@ -105,7 +105,7 @@
       });
     });
     if (photos.length) {
-      var board2 = document.querySelector('.ticker') || document.querySelector('.board');
+      var board2 = document.querySelector('header.top') || document.querySelector('.ticker') || document.querySelector('.board');
       var wrap = document.createElement('div');
       wrap.className = 'proofwrap';
       wrap.innerHTML = '<div class="slides-head"><p class="eyebrow">Proof of Delivery</p>' +

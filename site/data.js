@@ -263,7 +263,7 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.chilangacouncil.gov.zm/wp-content/uploads/2026/05/692017039_1397835685706152_3986089962167086263_n.jpg",
+              "url": "/photos/mwembeshi-clinic.jpg",
               "credit": "Chilanga Town Council"
             },
             "note": "Council post gives an approximate cost of K1.5 million. Photo shows the clinic's CDF signboard.",
@@ -285,7 +285,7 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.chilangacouncil.gov.zm/wp-content/uploads/2026/04/21.jpg",
+              "url": "/photos/tubalange-police-post.jpg",
               "credit": "Chilanga Town Council"
             },
             "note": "Commissioned 22 April 2026 per Chilanga Town Council; the amount matches the figure first collected from news coverage. Photo shows the completed post.",
@@ -414,7 +414,7 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.chongwecouncil.gov.zm/wp-content/uploads/2026/06/chainda11.jpg",
+              "url": "/photos/chainda-classroom.jpg",
               "credit": "Chongwe Municipal Council"
             },
             "note": " Handed over on 3 June 2026 per Chongwe Municipal Council (photo: the new classroom interior).",
@@ -607,7 +607,7 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.chongwecouncil.gov.zm/wp-content/uploads/2025/06/MA.jpg",
+              "url": "/photos/mulalika-maternity-annex.jpg",
               "credit": "Chongwe Municipal Council"
             },
             "note": null,
@@ -762,7 +762,7 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.chongwecouncil.gov.zm/wp-content/uploads/2026/03/mwa.jpg",
+              "url": "/photos/mwalumina-maternity-annex.jpg",
               "credit": "Chongwe Municipal Council"
             },
             "note": "Chongwe Municipal Council reports the annex has recorded zero maternal deaths since completion.",
@@ -2211,7 +2211,7 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.kafuecouncil.gov.zm/wp-content/uploads/2024/09/IMG-20240829-WA0027.jpg",
+              "url": "/photos/chipapa-health-post.jpg",
               "credit": "Kafue Town Council"
             },
             "note": "Completed under the 2023 CDF, including a maternity ward, water reticulation system and flushable toilets, per Kafue Town Council.",

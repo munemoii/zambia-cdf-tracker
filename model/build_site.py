@@ -113,17 +113,17 @@ def crumbs(prefix, items):
 # clearly captioned as the place, never presented as a project photo.
 PLACE_MEDIA = {
     ("province", "Lusaka"): {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Downtown_Lusaka.JPG",
+        "url": "/photos/downtown-lusaka.jpg",
         "caption": "Downtown Lusaka",
         "credit": "Photo: Matthew Grollnek — CC BY-SA 4.0, via Wikimedia Commons",
     },
     ("constituency", "Kafue"): {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Kafue_River_View_From_Kafue_River_Bridge_-_July_2025.jpg",
+        "url": "/photos/kafue-river.jpg",
         "caption": "The Kafue River, seen from the Kafue River Bridge",
         "credit": "Photo: Munahampondela — CC BY-SA 4.0, via Wikimedia Commons",
     },
     ("constituency", "Chongwe"): {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nkwashi_Dam%2C_Chongwe%2C_Lusaka.jpg",
+        "url": "/photos/nkwashi-dam.jpg",
         "caption": "Nkwashi Dam, Chongwe",
         "credit": "Photo: Daka Eric — CC BY-SA 4.0, via Wikimedia Commons",
     },
