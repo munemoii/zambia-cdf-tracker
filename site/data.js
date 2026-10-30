@@ -118,6 +118,12 @@ window.CDF_DATA = {
   ],
   "news": [
     {
+      "date": "29 October 2026",
+      "source": "Lusaka Brief, reporting News Diggers",
+      "title": "2027 budget moved to 6 November — the CDF rate lands then",
+      "text": "The 2027 national budget, which will set the 2027 CDF rate, will now be presented on Friday 6 November instead of 30 October. Vice-President Mutale Nalumango told the National Assembly on 27 October that the government was 'still working on it', days before a new Cabinet was sworn in. At the Treasury's budget hearings earlier in October, Secretary to the Treasury Felix Nkulukusa projected CDF rising by K2.8 billion to about K9.0 billion in 2027 — the arithmetic of holding the K40 million rate across all 226 constituencies — but that was a hearings projection, not a budget decision. The rate is confirmed only when the budget is read on 6 November."
+    },
+    {
       "date": "26 October 2026",
       "source": "Auditor General's 2024 CDF report, via Zambian Economist",
       "title": "Auditor General: most 2024 projects finished, but funds left idle",
