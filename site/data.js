@@ -150,15 +150,15 @@ window.CDF_DATA = {
   ],
   "pilot": {
     "province": "Lusaka",
-    "totalProjects": 752,
+    "totalProjects": 866,
     "fundingYears": {
-      "2022": 51,
-      "2023": 64,
-      "2024": 83,
-      "2025": 199,
-      "2026": 15
+      "2022": 52,
+      "2023": 66,
+      "2024": 118,
+      "2025": 216,
+      "2026": 23
     },
-    "fundingYearKnown": 412,
+    "fundingYearKnown": 475,
     "constituencies": [
       {
         "name": "Bangweulu",
@@ -2348,6 +2348,359 @@ window.CDF_DATA = {
               "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
             },
             "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Chinsali",
+        "url": "constituencies/chinsali.html",
+        "count": 17,
+        "budgetM": 0.72,
+        "statusCounts": {
+          "approved": 15,
+          "completed": 1,
+          "ongoing": 1
+        },
+        "projects": [
+          {
+            "id": 813,
+            "url": "projects/813-3-chief-retainers-motorbikes.html",
+            "name": "3 Chief Retainers Motorbikes",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 812,
+            "url": "projects/812-ambulance.html",
+            "name": "Ambulance",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 819,
+            "url": "projects/819-completion-of-a-market-shelter-at-kabuta-market.html",
+            "name": "Completion of a Market Shelter at Kabuta Market",
+            "ward": "Ichinga",
+            "component": "community",
+            "category": "markets",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 821,
+            "url": "projects/821-construction-of-a-1x2-classroom-block-at-kasanshi-primary-school.html",
+            "name": "Construction of a 1x2 Classroom Block at Kasanshi Primary School",
+            "ward": "Chilinda",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 820,
+            "url": "projects/820-construction-of-a-1x3-classroom-block-at-munwe-secondary-school.html",
+            "name": "Construction of a 1x3 Classroom Block at Munwe Secondary School",
+            "ward": "Munwakubili",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 825,
+            "url": "projects/825-construction-of-a-mother-s-shelter-at-chinsali-district-hospital.html",
+            "name": "Construction of a Mother's Shelter at Chinsali District Hospital",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.312,
+            "status": "completed",
+            "completionPct": 100.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "New Mother's Shelter and Ablution Block at Chinsali District Hospital Set to Transform Community Health",
+              "url": "https://www.chinsalicouncil.gov.zm/?p=1791"
+            },
+            "fundingYear": 2023
+          },
+          {
+            "id": 826,
+            "url": "projects/826-construction-of-an-ablution-block-at-chinsali-district-hospital.html",
+            "name": "Construction of an Ablution Block at Chinsali District Hospital",
+            "ward": null,
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.406,
+            "status": "ongoing",
+            "completionPct": 90.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "New Mother's Shelter and Ablution Block at Chinsali District Hospital Set to Transform Community Health",
+              "url": "https://www.chinsalicouncil.gov.zm/?p=1791"
+            },
+            "fundingYear": 2023
+          },
+          {
+            "id": 823,
+            "url": "projects/823-construction-of-an-ablution-at-nashinga-health-post.html",
+            "name": "Construction of an Ablution at Nashinga Health Post",
+            "ward": "Lubwa",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 815,
+            "url": "projects/815-construction-of-an-embankment-along-the-100-metre-marsh-at-chitete.html",
+            "name": "Construction of an Embankment Along the 100 Metre Marsh at Chitete",
+            "ward": "Chilunda",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 816,
+            "url": "projects/816-construction-of-an-embankment-at-kasanta.html",
+            "name": "Construction of an Embankment at Kasanta",
+            "ward": "Chilinda",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 818,
+            "url": "projects/818-construction-of-an-embankment-at-luko.html",
+            "name": "Construction of an Embankment at Luko",
+            "ward": "Chipanga",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 817,
+            "url": "projects/817-construction-of-an-embankment-at-mishishi-stream-crossing-zesco-to-chinsali-day-secondary-school.html",
+            "name": "Construction of an Embankment at Mishishi Stream Crossing (Zesco to Chinsali Day Secondary School)",
+            "ward": "Nkakula",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 811,
+            "url": "projects/811-procurement-of-desks-2160-double-seater.html",
+            "name": "Procurement of Desks (2160 Double Seater)",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 810,
+            "url": "projects/810-procurement-of-desks-2740-single-seater.html",
+            "name": "Procurement of Desks (2740 Single Seater)",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 814,
+            "url": "projects/814-road-maintenance.html",
+            "name": "Road Maintenance",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 824,
+            "url": "projects/824-sewer-connection-at-town-centre.html",
+            "name": "Sewer Connection at Town Centre",
+            "ward": "Chinsali",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 822,
+            "url": "projects/822-water-connection-at-nkula-primary-school.html",
+            "name": "Water Connection at Nkula Primary School",
+            "ward": "Lubwa",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chinsali Municipal Council",
+              "title": "2024 Constituency Development Fund (CDF) Community Projects under Chinsali Central Constituency as at 30th June 2024",
+              "url": "https://www.chinsalicouncil.gov.zm/wp-content/uploads/2024/09/CHINSALI-APPROVED-COMMUNITY-PROJECTS-2024.pdf"
+            },
+            "fundingYear": 2024
           }
         ]
       },
@@ -4842,6 +5195,157 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Isoka",
+        "url": "constituencies/isoka.html",
+        "count": 7,
+        "budgetM": 0,
+        "statusCounts": {
+          "approved": 7
+        },
+        "projects": [
+          {
+            "id": 864,
+            "url": "projects/864-construction-of-health-post-in-kabandama-village.html",
+            "name": "Construction of Health Post in Kabandama Village",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 860,
+            "url": "projects/860-construction-of-kasoka-mini-hospital-phase-2.html",
+            "name": "Construction of Kasoka Mini Hospital Phase 2",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 865,
+            "url": "projects/865-construction-of-staff-house-at-nansala-primary-school.html",
+            "name": "Construction of Staff House at Nansala Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 861,
+            "url": "projects/861-procurement-of-motorbikes-for-chief-retainers-for-chief-kafwimbi-and-chief-katyetye.html",
+            "name": "Procurement of Motorbikes for Chief Retainers for Chief Kafwimbi and Chief Katyetye",
+            "ward": null,
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 862,
+            "url": "projects/862-procurement-of-an-ambulance.html",
+            "name": "Procurement of an Ambulance",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 863,
+            "url": "projects/863-repair-of-the-grader.html",
+            "name": "Repair of the Grader",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 866,
+            "url": "projects/866-rural-electrification.html",
+            "name": "Rural Electrification",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Isoka Town Council",
+              "title": "Government Approves Eight Community Projects for Isoka under 2024 CDF",
+              "url": "https://www.isokacouncil.gov.zm/?p=2412"
+            },
+            "fundingYear": 2024
+          }
+        ]
+      },
+      {
         "name": "Kabwata",
         "url": "constituencies/kabwata.html",
         "count": 4,
@@ -5838,6 +6342,659 @@ window.CDF_DATA = {
               "publisher": "Kalabo Town Council",
               "title": "Govt commissions 14 Kalabo CDF projects worth K4.9m (Kalabo Central Constituency, total K4,919,858.23)",
               "url": "https://www.kalabocouncil.gov.zm/?p=2081"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Kanchibiya",
+        "url": "constituencies/kanchibiya.html",
+        "count": 32,
+        "budgetM": 30.55,
+        "statusCounts": {
+          "ongoing": 12,
+          "approved": 18,
+          "completed": 2
+        },
+        "projects": [
+          {
+            "id": 780,
+            "url": "projects/780-chendapashi-1x3-crb.html",
+            "name": "Chendapashi 1x3 CRB",
+            "ward": "Chambeshi",
+            "component": "community",
+            "category": "education",
+            "contractor": "Searchland Property Investment",
+            "budgetM": 0.9744,
+            "status": "ongoing",
+            "completionPct": 75.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 781,
+            "url": "projects/781-chinkobo-maternity-annex.html",
+            "name": "Chinkobo Maternity Annex",
+            "ward": "Mbati",
+            "component": "community",
+            "category": "health",
+            "contractor": "Tuvali Engineering Limited",
+            "budgetM": 0.9699,
+            "status": "ongoing",
+            "completionPct": 52.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 783,
+            "url": "projects/783-civic-centre.html",
+            "name": "Civic Centre",
+            "ward": "Lubaleshi",
+            "component": "community",
+            "category": "administration",
+            "contractor": "Harryden Company Limited",
+            "budgetM": 1.6991,
+            "status": "ongoing",
+            "completionPct": 70.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 795,
+            "url": "projects/795-completion-of-1x2-crb-at-chipi.html",
+            "name": "Completion of 1x2 CRB at Chipi",
+            "ward": "Chinama",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.8996,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 802,
+            "url": "projects/802-completion-of-namusulwa-health-post.html",
+            "name": "Completion of Namusulwa Health Post",
+            "ward": "Munikashi",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.7138,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 796,
+            "url": "projects/796-construction-of-1x2-crb-at-chinkobo-primary-school.html",
+            "name": "Construction of 1x2 CRB at Chinkobo Primary School",
+            "ward": "Mbati",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.2857,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 792,
+            "url": "projects/792-construction-of-1x2-crb-at-kawama-primary-school.html",
+            "name": "Construction of 1x2 CRB at Kawama Primary School",
+            "ward": "Lulingila",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.2083,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 797,
+            "url": "projects/797-construction-of-1x2-crb-at-mubenshi-primary-school.html",
+            "name": "Construction of 1x2 CRB at Mubenshi Primary School",
+            "ward": "Cheweshimfwamba",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.2857,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 801,
+            "url": "projects/801-construction-of-1x2-crb-at-mumbubu-kamanamwelwa-primary-school.html",
+            "name": "Construction of 1x2 CRB at Mumbubu Kamanamwelwa Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.2083,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 798,
+            "url": "projects/798-construction-of-1x2-crb-at-mwina-primary-school.html",
+            "name": "Construction of 1x2 CRB at Mwina Primary School",
+            "ward": "Mansha",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.9937,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 806,
+            "url": "projects/806-construction-of-chiefs-palace.html",
+            "name": "Construction of Chiefs Palace",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 1.0,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 799,
+            "url": "projects/799-construction-of-maternity-annex-at-kabulamwiko.html",
+            "name": "Construction of Maternity Annex at Kabulamwiko",
+            "ward": "Mansha",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.0686,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 807,
+            "url": "projects/807-construction-of-office-of-the-community-president-phase-one.html",
+            "name": "Construction of Office of the Community President Phase One",
+            "ward": null,
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": 0.8,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 804,
+            "url": "projects/804-construction-of-semi-detached-staff-house-police-in-chalabesa.html",
+            "name": "Construction of Semi-Detached Staff House Police in Chalabesa",
+            "ward": "Lubaleshi",
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": 0.9501,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 800,
+            "url": "projects/800-construction-of-a-mortuary-at-chambeshi-mpepo-mini-hospital-plus-installation-of-fridges.html",
+            "name": "Construction of a Mortuary at Chambeshi Mpepo Mini Hospital (Plus Installation of Fridges)",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.8603,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 785,
+            "url": "projects/785-kaleka-1x3-crb.html",
+            "name": "Kaleka 1x3 CRB",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": "Demos Company Limited",
+            "budgetM": 0.9213,
+            "status": "ongoing",
+            "completionPct": 60.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 778,
+            "url": "projects/778-kapumfi-staff-house.html",
+            "name": "Kapumfi Staff House",
+            "ward": "Munikashi",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": "Rackthan Construction and Suppliers Ltd",
+            "budgetM": 0.8712,
+            "status": "completed",
+            "completionPct": 100.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 787,
+            "url": "projects/787-macheleta-1x2-crb.html",
+            "name": "Macheleta 1x2 CRB",
+            "ward": "Munikashi",
+            "component": "community",
+            "category": "education",
+            "contractor": "Chinjonse General Dealers",
+            "budgetM": 0.4355,
+            "status": "ongoing",
+            "completionPct": 80.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 779,
+            "url": "projects/779-mala-kanchibiya-staff-house.html",
+            "name": "Mala Kanchibiya Staff House",
+            "ward": "Chibwa",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": "Polo Technologies Import & Exports Ltd",
+            "budgetM": 0.9084,
+            "status": "completed",
+            "completionPct": 100.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 789,
+            "url": "projects/789-mothers-shelter.html",
+            "name": "Mothers Shelter",
+            "ward": "Lubaleshi",
+            "component": "community",
+            "category": "health",
+            "contractor": "Evacle Construction Company Ltd",
+            "budgetM": 0.8572,
+            "status": "ongoing",
+            "completionPct": 80.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 791,
+            "url": "projects/791-mulonga-1x2-crb.html",
+            "name": "Mulonga 1x2 CRB",
+            "ward": "Lubaleshi",
+            "component": "community",
+            "category": "education",
+            "contractor": "Joaptlc",
+            "budgetM": 0.1858,
+            "status": "ongoing",
+            "completionPct": 95.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 788,
+            "url": "projects/788-munkunta-maternity-annex.html",
+            "name": "Munkunta Maternity Annex",
+            "ward": "Lulingila",
+            "component": "community",
+            "category": "health",
+            "contractor": "Warm Zee Investment Ltd",
+            "budgetM": 1.1523,
+            "status": "ongoing",
+            "completionPct": 85.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 784,
+            "url": "projects/784-mushilashi-1x3-crb.html",
+            "name": "Mushilashi 1x3 CRB",
+            "ward": "Chambeshi",
+            "component": "community",
+            "category": "education",
+            "contractor": "Hillcrest Trust Trading Limited",
+            "budgetM": 0.9364,
+            "status": "ongoing",
+            "completionPct": 90.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 782,
+            "url": "projects/782-national-assembly-office.html",
+            "name": "National Assembly Office",
+            "ward": "Lubaleshi",
+            "component": "community",
+            "category": "administration",
+            "contractor": "Foel Builders",
+            "budgetM": 0.74,
+            "status": "ongoing",
+            "completionPct": 75.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 786,
+            "url": "projects/786-nchubula-1x2-crb.html",
+            "name": "Nchubula 1x2 CRB",
+            "ward": "Munikashi",
+            "component": "community",
+            "category": "education",
+            "contractor": "Kaindu Quarry & Construction Ltd",
+            "budgetM": 0.7599,
+            "status": "ongoing",
+            "completionPct": 90.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 805,
+            "url": "projects/805-procurement-of-equipment-for-five-health-posts.html",
+            "name": "Procurement of Equipment for Five Health Posts",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.3765,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 809,
+            "url": "projects/809-servicing-of-the-cdf-monitoring-vehicle.html",
+            "name": "Servicing of the CDF Monitoring Vehicle",
+            "ward": null,
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": 0.3,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 794,
+            "url": "projects/794-solar-and-water-at-mwansabamba-primary-school.html",
+            "name": "Solar and Water at Mwansabamba Primary School",
+            "ward": "Chinama",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 790,
+            "url": "projects/790-upgrade-mechanization-of-7-hand-pumps-to-water-schemes.html",
+            "name": "Upgrade/Mechanization of 7 Hand Pumps to Water Schemes",
+            "ward": "Kanchibiya",
+            "component": "community",
+            "category": "water",
+            "contractor": "Galaxy Agro",
+            "budgetM": 1.3844,
+            "status": "ongoing",
+            "completionPct": 85.0,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 803,
+            "url": "projects/803-water-scheme-in-luchembe-central.html",
+            "name": "Water Scheme in Luchembe Central",
+            "ward": "Chibwa",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 793,
+            "url": "projects/793-water-scheme-in-lulingila.html",
+            "name": "Water Scheme in Lulingila",
+            "ward": "Lulingila",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 1.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 808,
+            "url": "projects/808-water-schemes-in-five-public-places.html",
+            "name": "Water Schemes in Five Public Places",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 1.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kanchibiya Town Council",
+              "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
+              "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
             },
             "fundingYear": null
           }
@@ -7495,6 +8652,398 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Mafinga",
+        "url": "constituencies/mafinga.html",
+        "count": 19,
+        "budgetM": 11.64,
+        "statusCounts": {
+          "completed": 14,
+          "approved": 5
+        },
+        "projects": [
+          {
+            "id": 844,
+            "url": "projects/844-1x2-crb-at-itontela-primary-school.html",
+            "name": "1x2 CRB at Itontela Primary School",
+            "ward": "Ntonga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.6611,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 850,
+            "url": "projects/850-1x2-crb-at-kakoma-kachina-primary-school.html",
+            "name": "1x2 CRB at Kakoma Kachina Primary School",
+            "ward": "Kakoma",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.55,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 848,
+            "url": "projects/848-1x3-crb-at-kalanga-muyombe-day-secondary-school.html",
+            "name": "1x3 CRB at Kalanga Muyombe Day Secondary School",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.7486,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 847,
+            "url": "projects/847-1x3-crb-at-luhoka-zumbe-primary-school.html",
+            "name": "1x3 CRB at Luhoka Zumbe Primary School",
+            "ward": "Luhoka",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 1.0401,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 846,
+            "url": "projects/846-1x3-crb-at-mukutu-chanama-secondary-school.html",
+            "name": "1x3 CRB at Mukutu Chanama Secondary School",
+            "ward": "Mukutu",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.948,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 853,
+            "url": "projects/853-1x3-crb-at-musipizi-mwenempangala-day-secondary-school.html",
+            "name": "1x3 CRB at Musipizi Mwenempangala Day Secondary School",
+            "ward": "Musipizi",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.8092,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 852,
+            "url": "projects/852-1x3-crb-at-thendele-kachindu-primary-school.html",
+            "name": "1x3 CRB at Thendele Kachindu Primary School",
+            "ward": "Thendele",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.9471,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 849,
+            "url": "projects/849-1x3-crb-at-vumbo-temwani-primary-school.html",
+            "name": "1x3 CRB at Vumbo Temwani Primary School",
+            "ward": "Vumbo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.7901,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 843,
+            "url": "projects/843-construction-of-1x2-crb-at-chibona-primary-school.html",
+            "name": "Construction of 1x2 CRB at Chibona Primary School",
+            "ward": "Ntonga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "CDF - Community Projects (Mafinga Town Council website)",
+              "url": "https://www.mafingacouncil.gov.zm/?page_id=1757"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 841,
+            "url": "projects/841-construction-of-1x3-crb-at-chiswe-primary-school.html",
+            "name": "Construction of 1x3 CRB at Chiswe Primary School",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "CDF - Community Projects (Mafinga Town Council website)",
+              "url": "https://www.mafingacouncil.gov.zm/?page_id=1757"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 842,
+            "url": "projects/842-construction-of-maternity-annex-at-zumbe-rural-health-post.html",
+            "name": "Construction of Maternity Annex at Zumbe Rural Health Post",
+            "ward": "Luhoka",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "CDF - Community Projects (Mafinga Town Council website)",
+              "url": "https://www.mafingacouncil.gov.zm/?page_id=1757"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 845,
+            "url": "projects/845-magistrate-local-court.html",
+            "name": "Magistrate/Local Court",
+            "ward": "Thendele",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 1.4985,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 855,
+            "url": "projects/855-procurement-of-ambulance.html",
+            "name": "Procurement of Ambulance",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 2.5529,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 858,
+            "url": "projects/858-procurement-of-excavator.html",
+            "name": "Procurement of Excavator",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 859,
+            "url": "projects/859-procurement-of-lowbed.html",
+            "name": "Procurement of Lowbed",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 856,
+            "url": "projects/856-procurement-of-tipper-truck.html",
+            "name": "Procurement of Tipper Truck",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 857,
+            "url": "projects/857-procurement-of-water-bowser.html",
+            "name": "Procurement of Water Bowser",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 854,
+            "url": "projects/854-water-borne-toilet-at-mulekatembo-primary-school.html",
+            "name": "Water Borne Toilet at Mulekatembo Primary School",
+            "ward": "Ntonga",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.5673,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 851,
+            "url": "projects/851-water-scheme-and-ablution-at-chanama.html",
+            "name": "Water Scheme and Ablution at Chanama",
+            "ward": "Mukutu",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.5225,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mafinga Town Council",
+              "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
+              "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
         "name": "Mambilima",
         "url": "constituencies/mambilima.html",
         "count": 26,
@@ -8421,6 +9970,357 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Mfuwe",
+        "url": "constituencies/mfuwe.html",
+        "count": 17,
+        "budgetM": 19.62,
+        "statusCounts": {
+          "approved": 17
+        },
+        "projects": [
+          {
+            "id": 770,
+            "url": "projects/770-construction-of-1x3-classroom-block-crb-at-chilebela-primary-school.html",
+            "name": "Construction of 1x3 Classroom Block (CRB) at Chilebela Primary School",
+            "ward": "Mupamadzi",
+            "component": "community",
+            "category": "education",
+            "contractor": "Sandwaves Hardware and General Supplies Limited",
+            "budgetM": 1.2954,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 769,
+            "url": "projects/769-construction-of-chifinshi-opd-clinic.html",
+            "name": "Construction of Chifinshi OPD Clinic",
+            "ward": "Lupembashi",
+            "component": "community",
+            "category": "health",
+            "contractor": "Winners Business Solution",
+            "budgetM": 0.7993,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 767,
+            "url": "projects/767-construction-of-lulimala-opd-clinic.html",
+            "name": "Construction of Lulimala OPD Clinic",
+            "ward": "Lulimala",
+            "component": "community",
+            "category": "health",
+            "contractor": "Chimwezwe Logistics Company Limited",
+            "budgetM": 0.9003,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 761,
+            "url": "projects/761-construction-of-muchelenje-opd-clinic.html",
+            "name": "Construction of Muchelenje OPD Clinic",
+            "ward": "Mutinondo",
+            "component": "community",
+            "category": "health",
+            "contractor": "Urban Edge Limited",
+            "budgetM": 0.8251,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 771,
+            "url": "projects/771-construction-of-muwele-rural-health-centre.html",
+            "name": "Construction of Muwele Rural Health Centre",
+            "ward": "Lukulu",
+            "component": "community",
+            "category": "health",
+            "contractor": "Grawell Genral Dealers Limited",
+            "budgetM": 1.8888,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 762,
+            "url": "projects/762-construction-of-a-dormitory-at-red-rhino-secondary-school.html",
+            "name": "Construction of a Dormitory at Red Rhino Secondary School",
+            "ward": "Mutinondo",
+            "component": "community",
+            "category": "education",
+            "contractor": "Kayi Mineral and General Dealers",
+            "budgetM": 0.9404,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 763,
+            "url": "projects/763-construction-of-an-ablution-block-and-water-reticulation-system-at-kapwanya-primary-school.html",
+            "name": "Construction of an Ablution Block and Water Reticulation System at Kapwanya Primary School",
+            "ward": "Chikanda",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": "Lehi Construction Company Limited",
+            "budgetM": 0.7105,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 766,
+            "url": "projects/766-construction-of-an-ablution-block-at-chifinshi-opd-clinic.html",
+            "name": "Construction of an Ablution Block at Chifinshi OPD Clinic",
+            "ward": "Lupembashi",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": "Frandwe Enterprise Limited",
+            "budgetM": 0.4312,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 765,
+            "url": "projects/765-construction-of-an-ablution-block-at-lulimala-opd-clinic.html",
+            "name": "Construction of an Ablution Block at Lulimala OPD Clinic",
+            "ward": "Lulimala",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": "Hegicho General Dealers",
+            "budgetM": 0.4419,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 768,
+            "url": "projects/768-construction-of-an-ablution-block-at-muchelenje-opd-clinic.html",
+            "name": "Construction of an Ablution Block at Muchelenje OPD Clinic",
+            "ward": "Mutinondo",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": "Tendila General Dealers",
+            "budgetM": 0.4064,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 764,
+            "url": "projects/764-construction-of-an-ablution-block-at-red-rhino-secondary-school.html",
+            "name": "Construction of an Ablution Block at Red Rhino Secondary School",
+            "ward": "Mutinondo",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": "Blecra Investiments Limited",
+            "budgetM": 0.5106,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 772,
+            "url": "projects/772-drilling-of-boreholes-and-construction-of-water-reticulation-system.html",
+            "name": "Drilling of Boreholes and Construction of Water Reticulation System",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": "Amorgans Suppliers and Constractors Limited",
+            "budgetM": 2.8993,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 777,
+            "url": "projects/777-electrification-of-mununga-kapanda-village.html",
+            "name": "Electrification of Mununga Kapanda Village",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": "ZESCO Limited",
+            "budgetM": 0.3551,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 776,
+            "url": "projects/776-extension-of-electricity-network-mununga-rail-station-area.html",
+            "name": "Extension of Electricity Network - Mununga Rail Station Area",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": "ZESCO Limited",
+            "budgetM": 0.2436,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 774,
+            "url": "projects/774-supply-and-delivery-of-low-bed-truck-and-trailer.html",
+            "name": "Supply and Delivery of Low Bed Truck and Trailer",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": "SDLG Investments",
+            "budgetM": 3.2,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 773,
+            "url": "projects/773-supply-and-delivery-of-tipper-truck.html",
+            "name": "Supply and Delivery of Tipper Truck",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": "CAMCO Equipment Zambia Limited",
+            "budgetM": 2.4,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 775,
+            "url": "projects/775-supply-and-delivery-of-a-5000-litres-water-bowser-and-a-tractor.html",
+            "name": "Supply and Delivery of a 5000 Litres Water Bowser and a Tractor",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": "Saro Agro Industrial Limited",
+            "budgetM": 1.3696,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Lavushimanda Town Council",
+              "title": "Over K18 Million Awarded to 17 Contracts under 2025 CDF Projects",
+              "url": "https://www.lavushimandacouncil.gov.zm/?p=2676"
+            },
+            "fundingYear": 2025
+          }
+        ]
+      },
+      {
         "name": "Milenge",
         "url": "constituencies/milenge.html",
         "count": 9,
@@ -8730,6 +10630,177 @@ window.CDF_DATA = {
               "url": "https://www.mongucouncil.gov.zm/?page_id=10822"
             },
             "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Mpika Central",
+        "url": "constituencies/mpika-central.html",
+        "count": 8,
+        "budgetM": 2.42,
+        "statusCounts": {
+          "approved": 8
+        },
+        "projects": [
+          {
+            "id": 756,
+            "url": "projects/756-construction-of-metallic-bus-shelters.html",
+            "name": "Construction of Metallic Bus Shelters",
+            "ward": "Musakanya",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 0.84,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 757,
+            "url": "projects/757-construction-of-a-health-post-katongo-kapala.html",
+            "name": "Construction of a Health Post (Katongo Kapala)",
+            "ward": "Mutamba",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 759,
+            "url": "projects/759-equipping-of-katibunga-police-post.html",
+            "name": "Equipping of Katibunga Police Post",
+            "ward": null,
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 754,
+            "url": "projects/754-installation-of-ablution-block-at-mpika-boys-secondary-school.html",
+            "name": "Installation of Ablution Block at Mpika Boys Secondary School",
+            "ward": "Musakanya",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 1.3,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 753,
+            "url": "projects/753-presidential-constituency-energy-initiative.html",
+            "name": "Presidential Constituency Energy Initiative",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 755,
+            "url": "projects/755-procurement-and-installation-of-a-metallic-bus-shelter-at-chilonga-station.html",
+            "name": "Procurement and Installation of a Metallic Bus Shelter at Chilonga Station",
+            "ward": "Chilonga",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 0.28,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 758,
+            "url": "projects/758-procurement-of-a-drilling-machine-and-accessories.html",
+            "name": "Procurement of a Drilling Machine and Accessories",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 760,
+            "url": "projects/760-servicing-of-the-cdf-monitoring-vehicle.html",
+            "name": "Servicing of the CDF Monitoring Vehicle",
+            "ward": null,
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mpika Town Council",
+              "title": "Request for Authority to Approve Community Projects under the 2026 Constituency Development Fund (Mpika Constituency) - 2026 Approved Community Projects",
+              "url": "https://www.mpikacouncil.gov.zm/wp-content/uploads/2026/09/2026-APPROVED-COMMUNITY-PROJECTS.pdf"
+            },
+            "fundingYear": 2026
           }
         ]
       },
@@ -11802,6 +13873,297 @@ window.CDF_DATA = {
               "url": "https://www.mwinilungacouncil.gov.zm/wp-content/uploads/2025/11/CDF_2025_LIST_OF_PROPOSED_AND_APPOVED_PROJECTS.pdf"
             },
             "fundingYear": 2025
+          }
+        ]
+      },
+      {
+        "name": "Nakonde",
+        "url": "constituencies/nakonde.html",
+        "count": 14,
+        "budgetM": 16.82,
+        "statusCounts": {
+          "approved": 14
+        },
+        "projects": [
+          {
+            "id": 839,
+            "url": "projects/839-construction-of-stevenson-bridge-connecting-riverside-and-mukoma-areas.html",
+            "name": "Construction of Stevenson Bridge Connecting Riverside and Mukoma Areas",
+            "ward": "Ikumbi",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": 0.95,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 830,
+            "url": "projects/830-procurement-of-2775-school-desks.html",
+            "name": "Procurement of 2775 School Desks",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 4.1625,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 831,
+            "url": "projects/831-procurement-of-ambulance.html",
+            "name": "Procurement of Ambulance",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 2.9,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 833,
+            "url": "projects/833-procurement-of-borehole-drilling-machine.html",
+            "name": "Procurement of Borehole Drilling Machine",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 4.0,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 832,
+            "url": "projects/832-procurement-of-chief-retainers-motorbike.html",
+            "name": "Procurement of Chief Retainers Motorbike",
+            "ward": null,
+            "component": "community",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": 0.11,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 836,
+            "url": "projects/836-procurement-of-equipment-for-maternity-annex-at-nyela.html",
+            "name": "Procurement of Equipment for Maternity Annex at Nyela",
+            "ward": "Musele",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 837,
+            "url": "projects/837-procurement-of-furniture-for-nakonde-public-library.html",
+            "name": "Procurement of Furniture for Nakonde Public Library",
+            "ward": "Nakonde Central",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.33,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 828,
+            "url": "projects/828-procurement-of-furniture-for-ntatumbila-police-post.html",
+            "name": "Procurement of Furniture for Ntatumbila Police Post",
+            "ward": null,
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": 0.2,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 835,
+            "url": "projects/835-procurement-of-furniture-for-nteko-health-post.html",
+            "name": "Procurement of Furniture for Nteko Health Post",
+            "ward": "Ng'umba",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.45,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 834,
+            "url": "projects/834-procurement-of-furniture-for-the-mortuary-at-urban-clinic.html",
+            "name": "Procurement of Furniture for the Mortuary at Urban Clinic",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.5,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 827,
+            "url": "projects/827-procurement-of-somap-equipment-spare-parts-for-borehole-installations.html",
+            "name": "Procurement of SOMAP Equipment/Spare Parts for Borehole Installations",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 0.4,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 840,
+            "url": "projects/840-proposed-construction-of-1x2-classroom-block-at-ntindi-primary-school.html",
+            "name": "Proposed Construction of 1x2 Classroom Block at Ntindi Primary School",
+            "ward": "Ikumbi",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.87,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 838,
+            "url": "projects/838-rehabilitation-of-15km-of-selected-feeder-roads.html",
+            "name": "Rehabilitation of 15Km of Selected Feeder Roads",
+            "ward": "Isunda",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": 0.7,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2024
+          },
+          {
+            "id": 829,
+            "url": "projects/829-zambia-police-vehicle-reservation-reservation-for-2022-cdf.html",
+            "name": "Zambia Police Vehicle Reservation (Reservation for 2022 CDF)",
+            "ward": null,
+            "component": "community",
+            "category": "security",
+            "contractor": null,
+            "budgetM": 0.8,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nakonde Town Council",
+              "title": "Nakonde Constituency Constituency Development Fund - List of 2024 Approved Projects",
+              "url": "http://www.nakondecouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-APPROVED-PROJECTS.pdf"
+            },
+            "fundingYear": 2022
           }
         ]
       },
