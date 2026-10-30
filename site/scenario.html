@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>Model the 2027 Budget — Zambia CDF Tracker</title>
+<meta name="description" content="Model Zambia’s 2027 CDF: set the per-constituency rate and choose 156 or 226 constituencies to see the national total.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zambia CDF Tracker">
+<meta property="og:title" content="Model the 2027 Budget — Zambia CDF Tracker">
+<meta property="og:description" content="Model Zambia’s 2027 CDF: set the per-constituency rate and choose 156 or 226 constituencies to see the national total.">
+<meta property="og:url" content="https://sprightly-sunshine-f93b94.netlify.app/scenario.html">
+<meta property="og:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
+  <header class="sitehead">
+    <a class="wordmark" href="index.html">Zambia <em>CDF</em> Tracker</a>
+    <nav class="sitenav">
+      <a href="index.html">Home</a>
+      <a href="money.html">The Money</a>
+      <a href="provinces.html">Provinces</a>
+      <a href="pilot.html">Lusaka Pilot</a>
+      <a href="scenario.html">2027 Scenario</a>
+      <a href="developments.html">Developments</a>
+    </nav>
+  </header>
+  <div class="pageband"><div class="pageband-in">
+    <nav class="crumbs"><a href="index.html">Home</a> › Model the 2027 Budget</nav>
+    <h1>Model the 2027 Budget</h1>
+    <p class="bandsub">The 2027 rate is set in the national budget — and 226 delimited constituencies are waiting. Run the combinations.</p>
+  </div></div>
+<section id="scenarioSection">
+  <div class="sec-head">
+    <p class="eyebrow">The future</p>
+      <h2>Model the 2027 budget</h2>
+    <p>The 2027 rate is set in the national budget, and the delimitation question hangs over it: 156 constituencies today, 226 gazetted. Try the combinations and see what each one costs.</p>
+  </div>
+  <div class="card">
+    <div class="scen">
+      <div>
+        <label for="scRate">Per constituency (K million)</label>
+        <input type="number" id="scRate" value="40" min="0" step="0.5">
+      </div>
+      <div>
+        <label>Constituencies</label>
+        <div class="ybtns" id="scSeats">
+          <button type="button" class="ypill" data-seats="156">156 (current)</button>
+          <button type="button" class="ypill on" data-seats="226">226 (delimited)</button>
+        </div>
+      </div>
+      <div>
+        <label>National CDF total</label>
+        <div class="big" id="scTotal">—</div>
+        <div class="chart-note" id="scVs"></div>
+      </div>
+    </div>
+    <p class="chart-note" style="margin-top:12px">For reference: 2026 is K40 million &times; 156 = K6.24 billion. Holding the rate at K40m across 226 seats costs K9.04bn; holding the total at K6.24bn across 226 seats cuts the rate to about K27.6m each.</p>
+  </div>
+</section>
+  <footer>
+    <p id="lastChecked" style="margin:0 0 12px"></p>
+    <p><a href="index.html">← Back to the dashboard</a> · Figures are drawn from published sources — see the dashboard footer for the full source list.</p>
+  </footer>
+</div>
+<script src="data.js"></script>
+<script src="map.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

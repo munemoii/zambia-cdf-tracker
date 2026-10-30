@@ -78,9 +78,11 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
   <a class="wordmark" href="{prefix}index.html">Zambia <em>CDF</em> Tracker</a>
   <nav class="sitenav">
     <a href="{prefix}index.html">Home</a>
+    <a href="{prefix}money.html">The Money</a>
     <a href="{prefix}provinces.html">Provinces</a>
-    <a href="{prefix}index.html#pilotSection">Lusaka Pilot</a>
-    <a href="{prefix}index.html#scenarioSection">2027 Scenario</a>
+    <a href="{prefix}pilot.html">Lusaka Pilot</a>
+    <a href="{prefix}scenario.html">2027 Scenario</a>
+    <a href="{prefix}developments.html">Developments</a>
   </nav>
 </header>
 <div class="pageband"><div class="pageband-in">
@@ -140,7 +142,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/pilot.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
 
     # ---------- provinces index ----------
     cards = []

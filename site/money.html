@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>The Money — Zambia CDF Tracker</title>
+<meta name="description" content="How Zambia’s CDF allocations are released and used, what the fund has delivered, and the 57/19/19/5 split.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zambia CDF Tracker">
+<meta property="og:title" content="The Money — Zambia CDF Tracker">
+<meta property="og:description" content="How Zambia’s CDF allocations are released and used, what the fund has delivered, and the 57/19/19/5 split.">
+<meta property="og:url" content="https://sprightly-sunshine-f93b94.netlify.app/money.html">
+<meta property="og:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
+  <header class="sitehead">
+    <a class="wordmark" href="index.html">Zambia <em>CDF</em> Tracker</a>
+    <nav class="sitenav">
+      <a href="index.html">Home</a>
+      <a href="money.html">The Money</a>
+      <a href="provinces.html">Provinces</a>
+      <a href="pilot.html">Lusaka Pilot</a>
+      <a href="scenario.html">2027 Scenario</a>
+      <a href="developments.html">Developments</a>
+    </nav>
+  </header>
+  <div class="pageband"><div class="pageband-in">
+    <nav class="crumbs"><a href="index.html">Home</a> › The Money</nav>
+    <h1>The Money</h1>
+    <p class="bandsub">From allocation to use — releases, utilisation, delivered results and the split, year by year.</p>
+  </div></div>
+  <div class="ybtns" id="yearPills" style="margin:16px 0 4px"></div>
+<section>
+    <div class="sec-head">
+      <p class="eyebrow">The money</p>
+      <h2>Did the money move?</h2>
+      <p>Allocation is only the first step. This follows the budget year selected above — release and utilisation are shown for every year they have been published.</p>
+    </div>
+    <div class="card flow" id="flowCard" aria-live="polite"></div>
+    <div class="card" style="margin-top:12px">
+      <h3>All years at a glance</h3>
+      <p class="sub">National allocation for each budget year, with the movement figures published so far. Tap a year to load it across the dashboard.</p>
+      <div id="moveTable"></div>
+      <p class="chart-note">So far, national release and utilisation figures have been published for 2025 only.</p>
+    </div>
+  </section>
+<section>
+    <div class="sec-head">
+      <p class="eyebrow">The receipts</p>
+      <h2>What CDF has delivered</h2>
+      <p>Cumulative results reported by the Ministry of Local Government and Rural Development since the fund's expansion in 2022.</p>
+    </div>
+    <div class="tiles" id="deliveredTiles"></div>
+  </section>
+<section>
+    <div class="sec-head">
+      <p class="eyebrow">The split</p>
+      <h2>What the money pays for</h2>
+      <p>Project and support types funded under CDF's three components.</p>
+    </div>
+    <div class="types">
+      <span class="chip">Classroom blocks</span><span class="chip">School desks</span><span class="chip">Health posts &amp; facilities</span>
+      <span class="chip">Maternity annexes</span><span class="chip">Boreholes &amp; water schemes</span><span class="chip">Feeder roads &amp; fuel</span>
+      <span class="chip">Ambulances &amp; security support</span><span class="chip">Secondary boarding bursaries</span>
+      <span class="chip">Skills development bursaries</span><span class="chip">Women &amp; youth empowerment grants</span>
+      <span class="chip">Empowerment soft loans</span><span class="chip">Disaster contingency</span>
+    </div>
+  </section>
+  <footer>
+    <p id="lastChecked" style="margin:0 0 12px"></p>
+    <p><a href="index.html">← Back to the dashboard</a> · Figures are drawn from published sources — see the dashboard footer for the full source list.</p>
+  </footer>
+</div>
+<script src="data.js"></script>
+<script src="map.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
