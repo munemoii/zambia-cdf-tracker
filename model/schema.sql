@@ -93,6 +93,8 @@ CREATE TABLE IF NOT EXISTS projects (
   start_date      TEXT,
   target_date     TEXT,
   source_id       INTEGER REFERENCES sources(id),
+  photo_url       TEXT,                -- only when a source shows THIS project
+  photo_credit    TEXT,
   note            TEXT
 );
 

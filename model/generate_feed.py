@@ -16,7 +16,8 @@ import sqlite3, json, sys, pathlib, datetime
 
 HERE = pathlib.Path(__file__).parent
 DB = HERE / "cdf.db"
-DEFAULT_OUT = HERE.parent / "files" / "cdf-dashboard" / "data.js"
+DEFAULT_OUTS = [HERE.parent / "site" / "data.js",
+                HERE.parent.parent / "files" / "cdf-dashboard" / "data.js"]
 
 TILE_MAP = [  # (metric, title, desc, plus_suffix)
     ("classroom_blocks_built",       "Classroom blocks built",        "Plus hundreds rehabilitated across constituencies", True),
@@ -32,7 +33,7 @@ def fmt_date_long(iso):
     return f"{d.day} {d.strftime('%B %Y')}"
 
 def main():
-    outs = [pathlib.Path(p) for p in sys.argv[1:]] or [DEFAULT_OUT]
+    outs = [pathlib.Path(p) for p in sys.argv[1:]] or DEFAULT_OUTS
     con = sqlite3.connect(DB)
     c = con.cursor()
 
@@ -86,10 +87,43 @@ def main():
     news = [{"date": fmt_date_long(d), "source": s, "title": t, "text": x}
             for d, s, t, x in c.execute("SELECT item_date, source_label, title, text FROM news_items ORDER BY item_date DESC")]
 
+
+    # --- pilot project tracking ---
+    pilot = None
+    proj_rows = c.execute("""SELECT pr.name, k.name, pr.ward, pr.component, pr.category,
+                                    pr.contractor, pr.budget_m, pr.status, pr.completion_pct,
+                                    pr.photo_url, pr.photo_credit, pr.note,
+                                    s.publisher, s.title, s.url
+                             FROM projects pr
+                             JOIN constituencies k ON k.id = pr.constituency_id
+                             LEFT JOIN sources s ON s.id = pr.source_id
+                             ORDER BY k.name, pr.name""").fetchall()
+    if proj_rows:
+        from collections import Counter, defaultdict
+        by_const = defaultdict(list)
+        for r in proj_rows:
+            by_const[r[1]].append({
+                "name": r[0], "ward": r[2], "component": r[3], "category": r[4],
+                "contractor": r[5], "budgetM": round(r[6], 4) if r[6] is not None else None,
+                "status": r[7], "completionPct": r[8],
+                "photo": ({"url": r[9], "credit": r[10]} if r[9] else None),
+                "note": r[11],
+                "source": {"publisher": r[12], "title": r[13], "url": r[14]},
+            })
+        consts = []
+        for nm in sorted(by_const):
+            items = by_const[nm]
+            consts.append({"name": nm, "count": len(items),
+                           "budgetM": round(sum(i["budgetM"] or 0 for i in items), 2),
+                           "statusCounts": dict(Counter(i["status"] for i in items)),
+                           "projects": items})
+        pilot = {"province": "Lusaka", "totalProjects": len(proj_rows),
+                 "constituencies": consts}
+
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "delivered": delivered, "news": news,
+        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"

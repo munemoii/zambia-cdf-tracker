@@ -163,6 +163,25 @@
     .legend{width:100%}
   }
   @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+
+  .badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:700;color:#fff;white-space:nowrap}
+  .jrow{grid-template-columns:1fr auto auto}
+  .jrow .amt{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+  .filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+  .filters input[type=search]{flex:1;min-width:160px;padding:8px 12px;border:1.5px solid var(--line);border-radius:999px;font:inherit;font-size:13px;background:#fff}
+  .chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600;cursor:pointer;color:var(--ink)}
+  .chip.on{background:var(--gold);border-color:var(--gold);color:#231a00}
+  .pdetail{border:1.5px solid var(--gold);border-radius:12px;padding:14px 16px;margin-bottom:14px;background:#fffdf4}
+  .pdetail h3{margin:0 0 6px;font-size:17px;color:var(--green-d)}
+  .pdetail .meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 14px;font-size:13px;margin:8px 0}
+  .pdetail .meta b{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+  .pdetail figure{margin:10px 0 4px}
+  .pdetail figure img{width:100%;border-radius:10px;display:block}
+  .pdetail figcaption{font-size:12px;color:var(--muted);margin-top:4px}
+  .scen{display:flex;gap:22px;flex-wrap:wrap;align-items:flex-start}
+  .scen label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);display:block;margin-bottom:6px}
+  .scen input[type=number]{width:110px;padding:9px 12px;border:1.5px solid var(--line);border-radius:10px;font:inherit;font-size:16px;font-weight:700}
+  .scen .big{font-size:clamp(26px,4vw,38px);font-weight:800;color:var(--green-d);letter-spacing:-.5px}
 </style>
 </head>
 <body>
@@ -274,6 +293,56 @@
     <div class="card" id="newsList"></div>
   </section>
 
+<section id="pilotSection" hidden>
+  <div class="sec-head">
+    <h2>Project tracking — the Lusaka pilot</h2>
+    <p>Individual CDF projects, constituency by constituency, each traced to a published source. Lusaka Province is the pilot: coverage is deepest where councils publish lists, and thinnest where they don't — the counts below are what is published, not all that exists. Click a constituency, then a project.</p>
+  </div>
+  <div class="explorer">
+    <div class="card">
+      <div class="filters">
+        <input type="search" id="projSearch" placeholder="Search projects…">
+      </div>
+      <div class="filters" id="statusChips"></div>
+      <div id="pilotConsts"></div>
+      <p class="chart-note" id="pilotNote" style="margin-top:10px"></p>
+    </div>
+    <div class="card detail" id="pilotDetail">
+      <h3 id="pdName"></h3>
+      <p class="prov-meta" id="pdMeta"></p>
+      <div id="pdBody"></div>
+    </div>
+  </div>
+</section>
+
+<section id="scenarioSection">
+  <div class="sec-head">
+    <h2>Model the 2027 budget</h2>
+    <p>The 2027 rate is set in the national budget, and the delimitation question hangs over it: 156 constituencies today, 226 gazetted. Try the combinations and see what each one costs.</p>
+  </div>
+  <div class="card">
+    <div class="scen">
+      <div>
+        <label for="scRate">Per constituency (K million)</label>
+        <input type="number" id="scRate" value="40" min="0" step="0.5">
+      </div>
+      <div>
+        <label>Constituencies</label>
+        <div class="ybtns" id="scSeats">
+          <button type="button" class="ypill" data-seats="156">156 (current)</button>
+          <button type="button" class="ypill on" data-seats="226">226 (delimited)</button>
+        </div>
+      </div>
+      <div>
+        <label>National CDF total</label>
+        <div class="big" id="scTotal">—</div>
+        <div class="chart-note" id="scVs"></div>
+      </div>
+    </div>
+    <p class="chart-note" style="margin-top:12px">For reference: 2026 is K40 million &times; 156 = K6.24 billion. Holding the rate at K40m across 226 seats costs K9.04bn; holding the total at K6.24bn across 226 seats cuts the rate to about K27.6m each.</p>
+  </div>
+</section>
+
   <footer>
     <p id="lastChecked" style="margin:0 0 12px"></p>
     <h3>Sources</h3>
@@ -292,7 +361,7 @@
 (function(){
   // All figures live in data.js (window.CDF_DATA) so the weekly source check
   // can refresh the dashboard by updating that one file.
-  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},delivered:[],news:[]};
+  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},delivered:[],news:[],pilot:null};
   var YEARS=D.years;
   var SEATS=D.seats;
   var PROVINCES=D.provinces;
@@ -498,6 +567,114 @@
   }
   renderDelivered();
   renderNews();
+
+  /* ---------- scenario tool ---------- */
+  var scSeatsVal = 226;
+  function yearTotal(y){ return perOf(y) * (typeof SEATS !== 'undefined' ? SEATS : 156); }
+  function renderScenario(){
+    var rate = parseFloat(document.getElementById('scRate').value) || 0;
+    var total = rate * scSeatsVal;
+    document.getElementById('scTotal').textContent = fmtM(total);
+    var base = yearTotal(2026);
+    var diff = total - base, pct = base ? (diff/base*100) : 0;
+    document.getElementById('scVs').textContent =
+      (diff >= 0 ? '+' : '-') + fmtM(Math.abs(diff)) + ' (' + (diff>=0?'+':'') + pct.toFixed(1) + '%) vs 2026 actual (' + fmtM(base) + ')';
+    document.querySelectorAll('#scSeats .ypill').forEach(function(b){
+      b.classList.toggle('on', +b.dataset.seats === scSeatsVal);
+    });
+  }
+  document.getElementById('scRate').addEventListener('input', renderScenario);
+  document.querySelectorAll('#scSeats .ypill').forEach(function(b){
+    b.addEventListener('click', function(){ scSeatsVal = +b.dataset.seats; renderScenario(); });
+  });
+
+  /* ---------- Lusaka pilot explorer ---------- */
+  var STATUS = {
+    approved:{label:'Approved', color:'#8a6d1a'}, funded:{label:'Funded', color:'#33607e'},
+    in_progress:{label:'In progress', color:'#b35c12'}, completed:{label:'Completed', color:'#1c6b3c'},
+    stalled:{label:'Stalled', color:'#a12c2c'}, completed_unused:{label:'Completed, unused', color:'#6b4fa1'},
+    unknown:{label:'Status not stated', color:'#777'}
+  };
+  function fmtKwacha(m){
+    if (m === null || m === undefined) return 'not published';
+    var k = m * 1000000;
+    if (k >= 10000000) return 'K' + m.toFixed(2).replace(/\.00$/, '') + 'm';
+    return 'K' + Math.round(k).toLocaleString('en-GB');
+  }
+  function badge(st){
+    var d = STATUS[st] || STATUS.unknown;
+    return '<span class="badge" style="background:' + d.color + '">' + d.label + '</span>';
+  }
+  var pilotSel = null, pilotStatus = 'all';
+  function pilotFiltered(cc){
+    var q = (document.getElementById('projSearch').value || '').toLowerCase();
+    return cc.projects.filter(function(pr){
+      if (pilotStatus !== 'all' && pr.status !== pilotStatus) return false;
+      if (q && pr.name.toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+  }
+  function renderPilot(){
+    var P = D.pilot;
+    if (!P) return;
+    document.getElementById('pilotSection').hidden = false;
+    if (!pilotSel) pilotSel = P.constituencies.slice().sort(function(a,b){return b.count - a.count;})[0].name;
+    document.getElementById('pilotConsts').innerHTML = P.constituencies.map(function(cc){
+      var known = cc.projects.filter(function(x){return x.budgetM !== null;}).length;
+      return '<div class="prow' + (cc.name === pilotSel ? ' sel' : '') + '" data-c="' + cc.name + '">' +
+        '<span class="pname">' + cc.name + '</span>' +
+        '<span class="pdetail-x">' + cc.count + ' projects' + (known ? ' · ' + fmtKwacha(cc.budgetM) + ' published' : '') + '</span></div>';
+    }).join('');
+    document.querySelectorAll('#pilotConsts .prow').forEach(function(r){
+      r.addEventListener('click', function(){ pilotSel = r.dataset.c; renderPilot(); });
+    });
+    var seen = {};
+    P.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){ seen[pr.status] = 1; }); });
+    var chips = ['all'].concat(Object.keys(STATUS).filter(function(k){ return seen[k]; }));
+    document.getElementById('statusChips').innerHTML = chips.map(function(k){
+      return '<button type="button" class="chip' + (pilotStatus === k ? ' on' : '') + '" data-st="' + k + '">' +
+        (k === 'all' ? 'All statuses' : STATUS[k].label) + '</button>';
+    }).join('');
+    document.querySelectorAll('#statusChips .chip').forEach(function(b){
+      b.addEventListener('click', function(){ pilotStatus = b.dataset.st; renderPilot(); });
+    });
+    var cc = P.constituencies.filter(function(x){ return x.name === pilotSel; })[0];
+    var items = pilotFiltered(cc);
+    document.getElementById('pdName').textContent = cc.name + ' constituency';
+    document.getElementById('pdMeta').textContent = items.length + ' of ' + cc.count + ' published projects shown';
+    document.getElementById('pdBody').innerHTML =
+      '<div id="projDetailSlot"></div>' +
+      (items.length ? items.map(function(pr, i){
+        return '<div class="prow jrow" data-i="' + i + '"><span class="pname">' + pr.name + '</span>' +
+          '<span class="amt">' + fmtKwacha(pr.budgetM) + '</span>' + badge(pr.status) + '</div>';
+      }).join('') : '<p class="chart-note">No projects match this filter.</p>');
+    document.querySelectorAll('#pdBody .jrow').forEach(function(r){
+      r.addEventListener('click', function(){ showProject(items[+r.dataset.i]); });
+    });
+    document.getElementById('pilotNote').textContent =
+      P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' Lusaka constituencies. ' +
+      'Every project links to its published source; amounts are shown only where the source published them.';
+  }
+  function showProject(pr){
+    var rows = [
+      ['Status', (STATUS[pr.status] || STATUS.unknown).label + (pr.completionPct ? ' · ' + pr.completionPct + '% complete' : '')],
+      ['Budget', fmtKwacha(pr.budgetM)],
+      ['Ward', pr.ward || '—'], ['Category', pr.category || '—'],
+      ['Contractor', pr.contractor || '—']
+    ];
+    var html = '<div class="pdetail"><h3>' + pr.name + '</h3><div class="meta">' +
+      rows.map(function(r){ return '<div><b>' + r[0] + '</b>' + r[1] + '</div>'; }).join('') + '</div>';
+    if (pr.photo) html += '<figure><img src="' + pr.photo.url + '" alt="Project photo"><figcaption>Photo: ' + (pr.photo.credit || '') + '</figcaption></figure>';
+    if (pr.note) html += '<p class="chart-note">' + pr.note + '</p>';
+    if (pr.source) html += '<p class="chart-note">Source: ' + (pr.source.url ? '<a href="' + pr.source.url + '" target="_blank" rel="noopener">' + pr.source.publisher + '</a>' : pr.source.publisher) + (pr.source.title ? ' — ' + pr.source.title : '') + '</p>';
+    html += '</div>';
+    var slot = document.getElementById('projDetailSlot');
+    slot.innerHTML = html;
+    if (slot.scrollIntoView) slot.scrollIntoView({behavior:'smooth', block:'nearest'});
+  }
+  document.getElementById('projSearch').addEventListener('input', renderPilot);
+  renderScenario();
+  renderPilot();
 
   document.getElementById("provSearch").addEventListener("input",function(e){ state.query=e.target.value; renderProvinces(); });
   setYear(2026);
