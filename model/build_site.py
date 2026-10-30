@@ -81,7 +81,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
     <a href="{prefix}money.html">The Money</a>
     <a href="{prefix}provinces.html">Provinces</a>
     <a href="{prefix}projects.html">Projects</a>
-    <a href="{prefix}photos.html">Photos</a>
+    <a href="{prefix}photos.html">Proof of Delivery</a>
     <a href="{prefix}scenario.html">2027 Scenario</a>
     <a href="{prefix}developments.html">Developments</a>
   </nav>
