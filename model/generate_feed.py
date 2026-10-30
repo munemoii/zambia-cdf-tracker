@@ -170,6 +170,14 @@ def main():
             "completedPct": round(_comp / _total * 100, 1),
             "ruralPct": (_ctx[0] if _ctx else None), "urbanPct": (_ctx[1] if _ctx else None)})
     util["provinces"].sort(key=lambda x: (x["ruralPct"] is None, -(x["ruralPct"] or 0)))
+    util["groups"] = []
+    for _label, _test in (("Rural provinces", lambda r: r is not None and r >= 70),
+                          ("Urban provinces", lambda r: r is not None and r <= 25),
+                          ("In between", lambda r: r is not None and 25 < r < 70)):
+        _mem = [p for p in util["provinces"] if _test(p["ruralPct"])]
+        _tp = sum(p["tracked"] for p in _mem); _cp = sum(p["completed"] for p in _mem)
+        util["groups"].append({"label": _label, "provinces": len(_mem), "projects": _tp,
+                               "completed": _cp, "pct": round(_cp / _tp * 100, 1) if _tp else 0})
 
     # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---
     projects_block = None

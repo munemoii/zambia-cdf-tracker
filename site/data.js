@@ -35299,6 +35299,29 @@ window.CDF_DATA = {
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
+    ],
+    "groups": [
+      {
+        "label": "Rural provinces",
+        "provinces": 7,
+        "projects": 1103,
+        "completed": 416,
+        "pct": 37.7
+      },
+      {
+        "label": "Urban provinces",
+        "provinces": 2,
+        "projects": 259,
+        "completed": 79,
+        "pct": 30.5
+      },
+      {
+        "label": "In between",
+        "provinces": 1,
+        "projects": 130,
+        "completed": 42,
+        "pct": 32.3
+      }
     ]
   }
 };

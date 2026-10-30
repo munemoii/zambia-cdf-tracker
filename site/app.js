@@ -271,11 +271,18 @@
       var note = document.getElementById("agNote");
       if (note) note.textContent = "And of the K" + (AG.availableM / 1000).toFixed(2) + "bn available to those projects, K" + AG.unspentM + "m (" + Math.round(AG.unspentM / AG.availableM * 100) + "%) was still unspent — Auditor-General's 2024 CDF report.";
     }
+    var gs = document.getElementById("groupSum");
+    if (gs && U.groups) {
+      gs.innerHTML = U.groups.map(function(g){
+        return '<div class="gcard"><p class="gcard-l">' + g.label + ' &middot; ' + g.provinces + '</p><p class="gcard-v">' + g.pct + '%</p><p class="gcard-s">of ' + g.projects.toLocaleString('en-GB') + ' tracked projects completed</p></div>';
+      }).join("");
+    }
     var rr = document.getElementById("ruralRows");
     if (rr && U.provinces) {
       rr.innerHTML = U.provinces.map(function(p){
         return '<div class="rprov"><div class="rph"><b>' + p.name + '</b><span>' + p.tracked + ' projects tracked</span></div>' +
           '<div class="vbar slim"><span class="vl">Rural</span><span class="vt"><span class="vf gold" style="width:' + p.ruralPct + '%"></span></span><span class="vv">' + p.ruralPct + '%</span></div>' +
+          '<div class="vbar slim"><span class="vl">Urban</span><span class="vt"><span class="vf urban" style="width:' + p.urbanPct + '%"></span></span><span class="vv">' + p.urbanPct + '%</span></div>' +
           '<div class="vbar slim"><span class="vl">Completed</span><span class="vt"><span class="vf" style="width:' + p.completedPct + '%"></span></span><span class="vv">' + p.completedPct + '%</span></div></div>';
       }).join("");
     }
