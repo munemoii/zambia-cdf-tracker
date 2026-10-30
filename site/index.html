@@ -5,7 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
 <link rel="icon" href="data:," />
-<title>CDF Dashboard — Zambia</title>
+<title>Zambia CDF Tracker — Where does the CDF go?</title>
+<meta name="description" content="Zambia CDF Tracker — an independent, source-checked tracker of the Constituency Development Fund: K6.24 billion across 156 constituencies, project-level tracking for Lusaka, and the 2027 budget modelled.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zambia CDF Tracker">
+<meta property="og:title" content="Zambia CDF Tracker — Where does the CDF go?">
+<meta property="og:description" content="K6.24 billion tracked across 156 constituencies and 10 provinces. Project-level tracking for Lusaka. Every figure sourced.">
+<meta property="og:url" content="https://sprightly-sunshine-f93b94.netlify.app/">
+<meta property="og:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zambia CDF Tracker — Where does the CDF go?">
+<meta name="twitter:description" content="K6.24 billion tracked across 156 constituencies. Every figure sourced.">
+<meta name="twitter:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
@@ -187,6 +198,12 @@
   .sec-toggle .t{font-size:clamp(22px,3.4vw,30px);font-weight:800;letter-spacing:-.5px;color:var(--green-d);line-height:1.15}
   .sec-toggle .chev{color:#b3860e;font-size:20px;transition:transform .2s ease;flex:none}
   .sec-toggle:hover .t{text-decoration:underline;text-underline-offset:4px}
+
+  #zmMap{width:100%;height:auto;display:block}
+  #zmMap path{cursor:pointer;transition:opacity .15s ease}
+  #zmMap path:hover{opacity:.82}
+  ::selection{background:#f3d34a;color:#231a00}
+  :focus-visible{outline:2px solid #b3860e;outline-offset:2px}
 </style>
 </head>
 <body>
@@ -267,6 +284,8 @@
     </div>
     <div class="explorer">
       <div class="card">
+        <svg id="zmMap" viewBox="0 0 800 680" role="img" aria-label="Map of Zambia's ten provinces"></svg>
+        <p class="chart-note" style="margin:2px 0 12px">Shaded by allocation for the selected year — tap a province to explore it.</p>
         <input class="search" id="provSearch" type="search" placeholder="Search provinces — e.g. Copperbelt, Southern, Lusaka…" aria-label="Search provinces">
         <div class="phead"><span>Province</span><span>Seats</span><span id="pAllocHead">2026 allocation</span><span class="share">Share</span></div>
         <div id="provList"></div>
@@ -356,12 +375,14 @@
       <li>Component split — up to 5% administration is taken first; the remaining 95% is split 60% community projects / 20% empowerment (40% grants, 60% loans) / 20% bursaries, which works out to 57% / 19% / 19% of the total allocation — <a href="http://www.lumezicouncil.gov.zm/wp-content/uploads/2026/09/CDF-Guidelines.pdf" target="_blank" rel="noopener">CDF Guidelines, Ministry of Local Government and Rural Development</a>.</li>
       <li>Province constituency counts (156 total, before the 2026 delimitation) — Electoral Commission of Zambia, <a href="https://www.elections.org.zm/wp-content/uploads/20260416-Provincial-Summaries.pdf" target="_blank" rel="noopener">2026 Delimitation of Constituencies — Province Summary</a>.</li>
       <li>2025 release and utilisation figures (K5.26bn released, ≈94%; 86% utilisation; 2,985 community projects worth K2.9bn) — as reported nationally for the 2025 CDF; treat as reported figures, not audited project-level records.</li>
+      <li>Province boundaries — <a href="https://www.geoboundaries.org" target="_blank" rel="noopener">geoBoundaries</a> gbOpen ZMB ADM1 (CC BY 4.0), simplified for display.</li>
     </ul>
-    <p>This dashboard is a snapshot built from published figures. Project-level tracking — individual projects, contractors, costs, and completion status by constituency and ward — is the next layer to add as council project lists are loaded in.</p>
+    <p>Project-level tracking is live for the Lusaka pilot — individual projects with contractors, costs and status, each traced to its published source (see “Project tracking — the Lusaka pilot” above). Figures elsewhere on this page are drawn from the published sources listed here and refreshed by a weekly source check.</p>
   </footer>
 </div>
 
 <script src="data.js"></script>
+<script src="map.js"></script>
 <script>
 (function(){
   // All figures live in data.js (window.CDF_DATA) so the weekly source check
@@ -430,6 +451,48 @@
     document.getElementById("splitSub").textContent="For a "+fmtM(totalM)+" allocation ("+state.year+"), under the CDF Guidelines.";
   }
 
+
+  var mapBuilt = false;
+  function renderMap(){
+    var svg = document.getElementById('zmMap');
+    if (!svg || !window.ZM_PROVINCES) return;
+    var per = perOf(state.year);
+    var allocs = PROVINCES.map(function(pr){ return pr.seats * per; });
+    var mn = Math.min.apply(null, allocs), mx = Math.max.apply(null, allocs);
+    function shade(t){
+      var c1 = [231, 240, 231], c2 = [23, 92, 46];
+      var c = c1.map(function(v, i){ return Math.round(v + (c2[i] - v) * t); });
+      return 'rgb(' + c.join(',') + ')';
+    }
+    if (!mapBuilt) {
+      mapBuilt = true;
+      PROVINCES.forEach(function(pr){
+        var d = window.ZM_PROVINCES[pr.name];
+        if (!d) return;
+        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', d);
+        path.dataset.province = pr.name;
+        var title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = pr.name;
+        path.appendChild(title);
+        path.addEventListener('click', function(){
+          state.province = pr.name; renderProvinces(); renderDetail();
+        });
+        svg.appendChild(path);
+      });
+    }
+    svg.querySelectorAll('path').forEach(function(path){
+      var pr = null;
+      PROVINCES.forEach(function(x){ if (x.name === path.dataset.province) pr = x; });
+      if (!pr) return;
+      var t = (mx - mn) ? (pr.seats * per - mn) / (mx - mn) : 0.5;
+      var sel = pr.name === state.province;
+      path.setAttribute('fill', shade(0.2 + 0.8 * t));
+      path.setAttribute('stroke', sel ? '#d4a017' : '#ffffff');
+      path.setAttribute('stroke-width', sel ? '3' : '1.2');
+      path.querySelector('title').textContent = pr.name + ' — ' + pr.seats + ' constituencies · ' + fmtM(pr.seats * per) + ' in ' + state.year;
+    });
+  }
   function renderProvinces(){
     var per=perOf(state.year);
     document.getElementById("pAllocHead").textContent=state.year+" allocation";
@@ -447,6 +510,7 @@
     });
     if(!shown) list.innerHTML='<p class="empty">No province matches that search.</p>';
     document.getElementById("provNote").textContent="Province totals are constituency count × "+fmtM(per)+" for "+state.year+" — CDF allocates equally per constituency, not by population.";
+    renderMap();
   }
 
   function renderDetail(){
