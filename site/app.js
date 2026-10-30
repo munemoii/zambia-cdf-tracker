@@ -256,9 +256,13 @@
     if(!items.length){ sec.style.display="none"; return; }
     el.innerHTML="";
     items.forEach(function(n,i){
-      var d=document.createElement("div");
-      if(i>0) d.style.cssText="border-top:1px solid var(--line);margin-top:14px;padding-top:14px";
-      d.innerHTML='<div style="font-weight:700">'+n.title+'</div><div class="sub" style="margin:2px 0 4px">'+n.date+' · '+n.source+'</div><p style="margin:0">'+n.text+'</p>';
+      var d=document.createElement("article");
+      if(i>0) d.style.cssText="border-top:1px solid var(--line);margin-top:22px;padding-top:20px";
+      var paras=String(n.text||"").split(/\n\n+/).filter(function(p){return p.trim();});
+      var html='<h3 style="margin:0;font-size:1.22rem;line-height:1.3">'+n.title+'</h3><div class="sub" style="margin:3px 0 8px">'+n.date+' · '+n.source+'</div>';
+      html+=paras.map(function(p){ return '<p style="margin:0 0 10px;line-height:1.55">'+p+'</p>'; }).join("");
+      if(n.url) html+='<p style="margin:2px 0 0"><a href="'+n.url+'" target="_blank" rel="noopener">Read the source →</a></p>';
+      d.innerHTML=html;
       el.appendChild(d);
     });
   }

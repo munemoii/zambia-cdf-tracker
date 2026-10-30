@@ -84,8 +84,8 @@ def main():
         v = int(v)
         delivered.append({"value": f"{v:,}{'+' if plus else ''}", "title": title, "desc": desc})
 
-    news = [{"date": fmt_date_long(d), "source": s, "title": t, "text": x}
-            for d, s, t, x in c.execute("SELECT item_date, source_label, title, text FROM news_items ORDER BY item_date DESC")]
+    news = [{"date": fmt_date_long(d), "source": s, "title": t, "text": x, "url": u}
+            for d, s, t, x, u in c.execute("SELECT ni.item_date, ni.source_label, ni.title, ni.text, src.url FROM news_items ni LEFT JOIN sources src ON src.id = ni.source_id ORDER BY ni.item_date DESC")]
 
 
     # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---
