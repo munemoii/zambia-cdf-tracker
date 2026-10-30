@@ -235,7 +235,7 @@ def main():
                 chips.append(f'<a class="cchip" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)}<span class="arr" aria-hidden="true">›</span></a>')
         total_tracked = sum(len(v) for v in tracked_here.values())
         if total_tracked:
-            pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency.</p>'
+            pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency. Project counts cover <b>all published years so far</b>: councils publish mixed-year lists, so projects are not split by budget year — the money figures above are per year.</p>'
         else:
             pilot_note = '<p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>'
         body = place_media_html("province", pname) + f"""<div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
@@ -246,7 +246,7 @@ def main():
   <div class="stat"><b>{seats}</b><span>constituencies</span></div>
   <div class="stat"><b id="pvAlloc">{fmt_m(seats * rate[latest_year])}</b><span id="pvAllocYr">{latest_year} allocation</span></div>
   <div class="stat"><b id="pvPer">{fmt_m(rate[latest_year])}</b><span>per constituency</span></div>
-  <div class="stat"><b>{total_tracked}</b><span>projects tracked</span></div>
+  <div class="stat"><b>{total_tracked}</b><span>projects tracked · all years</span></div>
 </div>
 {pilot_note}
 <h2 class="phead">Constituencies</h2>
@@ -276,7 +276,7 @@ def main():
                   <p>{html.escape(pr[2] or '')}{' · ' if pr[2] else ''}{html.escape(pr[4] or '')}</p>
                   <p class="pcard-sub">{fmt_kwacha(pr[6])} · {STATUS.get(pr[7], STATUS['unknown'])[0]}</p>
                 </a>""")
-            body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
+            body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked across all published years · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
 <p class="plede">{html.escape(status_line)}</p>
 <div class="pgrid">{''.join(cards)}</div>"""
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
