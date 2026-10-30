@@ -185,7 +185,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
 
     # ---------- provinces index ----------
     cards = []
