@@ -83,8 +83,12 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
     <a href="{prefix}index.html#scenarioSection">2027 Scenario</a>
   </nav>
 </header>
-<main class="pagewrap">
+<div class="pageband"><div class="pageband-in">
 {crumb}
+<h1>{html.escape(title)}</h1>
+<p class="bandsub">{html.escape(desc)}</p>
+</div></div>
+<main class="pagewrap">
 {body}
 </main>
 <footer class="sitefoot">
@@ -148,8 +152,7 @@ def main():
           <p>{seats} constituencies · {fmt_m(seats * rate[latest_year])} in {latest_year}</p>
           <p class="pcard-sub">{sub}</p>
         </a>""")
-    body = f"""<h1 class="ptitle">Provinces</h1>
-<p class="plede">CDF allocates equally per constituency — a province's share is its constituency count times the national rate ({fmt_m(rate[latest_year])} per constituency in {latest_year}).</p>
+    body = f"""<p class="plede">CDF allocates equally per constituency — a province's share is its constituency count times the national rate ({fmt_m(rate[latest_year])} per constituency in {latest_year}).</p>
 <div class="pgrid">{''.join(cards)}</div>"""
     (SITE / "provinces.html").write_text(
         shell("Provinces", "CDF allocations and project tracking for all ten Zambian provinces.", "", body))
@@ -176,8 +179,7 @@ def main():
             pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency.</p>'
         else:
             pilot_note = '<p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>'
-        body = f"""<h1 class="ptitle">{html.escape(pname)} Province</h1>
-<div class="statrow">
+        body = f"""<div class="statrow">
   <div class="stat"><b>{seats}</b><span>constituencies</span></div>
   <div class="stat"><b>{fmt_m(seats * rate[latest_year])}</b><span>{latest_year} allocation</span></div>
   <div class="stat"><b>{fmt_m(rate[latest_year])}</b><span>per constituency</span></div>
@@ -210,8 +212,7 @@ def main():
                   <p>{html.escape(pr[2] or '')}{' · ' if pr[2] else ''}{html.escape(pr[4] or '')}</p>
                   <p class="pcard-sub">{fmt_kwacha(pr[6])} · {STATUS.get(pr[7], STATUS['unknown'])[0]}</p>
                 </a>""")
-            body = f"""<h1 class="ptitle">{html.escape(cname)}</h1>
-<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
+            body = f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts)</p>
 <p class="plede">{html.escape(status_line)}</p>
 <div class="pgrid">{''.join(cards)}</div>"""
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
@@ -238,8 +239,7 @@ def main():
                                + (f' — {html.escape(stitle)}' if stitle else "")
                                + (f'<br><a href="{html.escape(surl)}" target="_blank" rel="noopener">View the published source</a>' if surl else "")
                                + "</p></div>") if spub else ""
-                body = f"""<h1 class="ptitle">{html.escape(name)}</h1>
-<p class="plede">{badge(status)}&nbsp; {html.escape(cname2)}, {html.escape(pvname)} Province</p>
+                body = f"""<p class="plede">{badge(status)}&nbsp; {html.escape(cname2)}, {html.escape(pvname)} Province</p>
 {photo_html}
 <div class="card"><div class="factgrid">{fact_html}</div></div>
 {note_html}

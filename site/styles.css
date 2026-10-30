@@ -220,3 +220,33 @@ a.cchip:hover{border-color:#b3860e}
 .srccard{margin-top:16px}
 .sitefoot{max-width:1060px;margin:0 auto;padding:10px 20px 34px;color:var(--muted);font-size:.9rem}
 .sitefoot a{color:var(--green-d)}
+
+/* ===== DESIGN v2 — editorial system ===== */
+.eyebrow{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;color:#b3860e;margin:0 0 2px}
+.sec-head{margin-bottom:16px}
+.sec-head p{max-width:72ch}
+h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
+.card{border-radius:16px;box-shadow:0 1px 2px rgba(13,43,23,.05),0 10px 30px rgba(13,43,23,.06)}
+.kpi{position:relative;overflow:hidden}
+.kpi::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--green),#d4a017)}
+.board{margin:18px 0 6px;background:linear-gradient(135deg,#0d3b22,#14532d);border-radius:18px;padding:20px 22px;color:#eaf3ea;box-shadow:0 12px 32px rgba(13,43,23,.25)}
+.board .eyebrow{color:#f3d34a}
+.board h2{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.02em;font-size:1.5rem;margin:0 0 4px;color:#fff}
+.board .bgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:12px}
+.board .bstat b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:2.2rem;line-height:1;color:#fff}
+.board .bstat span{font-size:.85rem;color:#cfe0cf}
+.board .bstat.alert b{color:#ff9d8a}
+.board .bnote{margin:12px 0 0;font-size:.86rem;color:#b9d2b9}
+.prow{transition:background .15s ease,transform .15s ease}
+.prow:hover{background:rgba(20,83,45,.05)}
+.chip,.ypill{transition:all .15s ease}
+.tiles .tile{border-radius:16px}
+.mtable{border-collapse:collapse;width:100%}
+.mtable th{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:.85rem;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:2px solid var(--line)}
+.mtable td{padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.mtable tbody tr:nth-child(even){background:rgba(20,83,45,.04)}
+.pageband{background:linear-gradient(135deg,#0d3b22,#14532d);color:#eaf3ea;margin:0 -20px;padding:22px 20px 18px;border-radius:0 0 18px 18px}
+.pageband .crumbs{padding:0;margin:0 0 6px;color:#b9d2b9}
+.pageband .crumbs a{color:#f3d34a}
+.pageband h1{font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin:0}
+.pageband .bandsub{color:#cfe0cf;margin:6px 0 0;max-width:72ch}
