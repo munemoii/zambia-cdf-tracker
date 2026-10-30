@@ -33,17 +33,37 @@
 <p class="bandsub">CDF in Central: 15 constituencies, K600m in 2026, 0 projects tracked.</p>
 </div></div>
 <main class="pagewrap">
+<div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
+  <span class="label">Budget year</span>
+  <button type="button" class="ypill pyear" data-y="2021" data-r="1.6" aria-pressed="false">2021</button><button type="button" class="ypill pyear" data-y="2022" data-r="25.7" aria-pressed="false">2022</button><button type="button" class="ypill pyear" data-y="2023" data-r="28.3" aria-pressed="false">2023</button><button type="button" class="ypill pyear" data-y="2024" data-r="30.6" aria-pressed="false">2024</button><button type="button" class="ypill pyear" data-y="2025" data-r="36.1" aria-pressed="false">2025</button><button type="button" class="ypill pyear" data-y="2026" data-r="40.0" aria-pressed="true">2026</button>
+</div>
 <div class="statrow">
   <div class="stat"><b>15</b><span>constituencies</span></div>
-  <div class="stat"><b>K600m</b><span>2026 allocation</span></div>
-  <div class="stat"><b>K40m</b><span>per constituency</span></div>
+  <div class="stat"><b id="pvAlloc">K600m</b><span id="pvAllocYr">2026 allocation</span></div>
+  <div class="stat"><b id="pvPer">K40m</b><span>per constituency</span></div>
   <div class="stat"><b>0</b><span>projects tracked</span></div>
 </div>
 <p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>
 <h2 class="phead">Constituencies</h2>
 <div class="cchips"><a class="cchip" href="../constituencies/bwacha.html">Bwacha<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chisamba.html">Chisamba<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chitambo.html">Chitambo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kabwe-central.html">Kabwe Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kapiri-mposhi.html">Kapiri Mposhi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/katuba.html">Katuba<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/keembe.html">Keembe<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/lufubu.html">Lufubu<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mkushi-north.html">Mkushi North<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mkushi-south.html">Mkushi South<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/muchinga.html">Muchinga<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mumbwa.html">Mumbwa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mwembeshi.html">Mwembeshi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/nangoma.html">Nangoma<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/serenje.html">Serenje<span class="arr" aria-hidden="true">›</span></a></div>
 <h2 class="phead">Allocations by year</h2>
-<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr><td>2021</td><td>K1.6m</td><td>K24m</td></tr><tr><td>2022</td><td>K25.7m</td><td>K385.5m</td></tr><tr><td>2023</td><td>K28.3m</td><td>K424.5m</td></tr><tr><td>2024</td><td>K30.6m</td><td>K459m</td></tr><tr><td>2025</td><td>K36.1m</td><td>K541.5m</td></tr><tr><td>2026</td><td>K40m</td><td>K600m</td></tr></tbody></table></div>
+<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr data-year="2021"><td>2021</td><td>K1.6m</td><td>K24m</td></tr><tr data-year="2022"><td>2022</td><td>K25.7m</td><td>K385.5m</td></tr><tr data-year="2023"><td>2023</td><td>K28.3m</td><td>K424.5m</td></tr><tr data-year="2024"><td>2024</td><td>K30.6m</td><td>K459m</td></tr><tr data-year="2025"><td>2025</td><td>K36.1m</td><td>K541.5m</td></tr><tr data-year="2026"><td>2026</td><td>K40m</td><td>K600m</td></tr></tbody></table></div>
+<script>
+(function(){
+  var seats = 15;
+  function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
+  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer');
+  function setYear(y, r){
+    if(alloc) alloc.textContent = fm(seats*r);
+    if(allocYr) allocYr.textContent = y + ' allocation';
+    if(per) per.textContent = fm(r);
+    document.querySelectorAll('.pyear').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-y')==String(y) ? 'true' : 'false'); });
+    document.querySelectorAll('tr[data-year]').forEach(function(tr){ tr.classList.toggle('yr-on', tr.getAttribute('data-year')==String(y)); });
+  }
+  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r'))); }); });
+  setYear(2026, 40.0);
+})();
+</script>
 </main>
 <footer class="sitefoot">
   <p>Generated from the Zambia CDF Tracker database — every figure traces to a published source, listed on each page. Province boundaries: geoBoundaries (CC BY 4.0).</p>

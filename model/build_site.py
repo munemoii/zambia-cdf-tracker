@@ -207,7 +207,25 @@ def main():
             WHERE k.province_id = ? ORDER BY k.name""", (pid,)).fetchall()
         tracked_here = by_province_const.get(pname, {})
         rows = "".join(
-            f"<tr><td>{y}</td><td>{fmt_m(r)}</td><td>{fmt_m(r * seats)}</td></tr>" for y, r in years)
+            f"<tr data-year=\"{y}\"><td>{y}</td><td>{fmt_m(r)}</td><td>{fmt_m(r * seats)}</td></tr>" for y, r in years)
+        pills = "".join(
+            f'<button type="button" class="ypill pyear" data-y="{y}" data-r="{r}" aria-pressed="{"true" if y == latest_year else "false"}">{y}</button>' for y, r in years)
+        pv_script = """<script>
+(function(){
+  var seats = __SEATS__;
+  function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
+  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer');
+  function setYear(y, r){
+    if(alloc) alloc.textContent = fm(seats*r);
+    if(allocYr) allocYr.textContent = y + ' allocation';
+    if(per) per.textContent = fm(r);
+    document.querySelectorAll('.pyear').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-y')==String(y) ? 'true' : 'false'); });
+    document.querySelectorAll('tr[data-year]').forEach(function(tr){ tr.classList.toggle('yr-on', tr.getAttribute('data-year')==String(y)); });
+  }
+  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r'))); }); });
+  setYear(__LATEST__, __RATE__);
+})();
+</script>""".replace("__SEATS__", str(seats)).replace("__LATEST__", str(latest_year)).replace("__RATE__", str(rate[latest_year]))
         chips = []
         for (cname,) in consts:
             n = len(tracked_here.get(cname, []))
@@ -220,17 +238,22 @@ def main():
             pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency.</p>'
         else:
             pilot_note = '<p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>'
-        body = place_media_html("province", pname) + f"""<div class="statrow">
+        body = place_media_html("province", pname) + f"""<div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
+  <span class="label">Budget year</span>
+  {pills}
+</div>
+<div class="statrow">
   <div class="stat"><b>{seats}</b><span>constituencies</span></div>
-  <div class="stat"><b>{fmt_m(seats * rate[latest_year])}</b><span>{latest_year} allocation</span></div>
-  <div class="stat"><b>{fmt_m(rate[latest_year])}</b><span>per constituency</span></div>
+  <div class="stat"><b id="pvAlloc">{fmt_m(seats * rate[latest_year])}</b><span id="pvAllocYr">{latest_year} allocation</span></div>
+  <div class="stat"><b id="pvPer">{fmt_m(rate[latest_year])}</b><span>per constituency</span></div>
   <div class="stat"><b>{total_tracked}</b><span>projects tracked</span></div>
 </div>
 {pilot_note}
 <h2 class="phead">Constituencies</h2>
 <div class="cchips">{''.join(chips)}</div>
 <h2 class="phead">Allocations by year</h2>
-<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody>{rows}</tbody></table></div>"""
+<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody>{rows}</tbody></table></div>
+{pv_script}"""
         (SITE / "provinces" / f"{slugify(pname)}.html").write_text(shell(
             f"{pname} Province", f"CDF in {pname}: {seats} constituencies, {fmt_m(seats * rate[latest_year])} in {latest_year}, {total_tracked} projects tracked.",
             "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, None)])))

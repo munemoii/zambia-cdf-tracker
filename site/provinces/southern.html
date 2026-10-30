@@ -33,17 +33,37 @@
 <p class="bandsub">CDF in Southern: 20 constituencies, K800m in 2026, 0 projects tracked.</p>
 </div></div>
 <main class="pagewrap">
+<div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
+  <span class="label">Budget year</span>
+  <button type="button" class="ypill pyear" data-y="2021" data-r="1.6" aria-pressed="false">2021</button><button type="button" class="ypill pyear" data-y="2022" data-r="25.7" aria-pressed="false">2022</button><button type="button" class="ypill pyear" data-y="2023" data-r="28.3" aria-pressed="false">2023</button><button type="button" class="ypill pyear" data-y="2024" data-r="30.6" aria-pressed="false">2024</button><button type="button" class="ypill pyear" data-y="2025" data-r="36.1" aria-pressed="false">2025</button><button type="button" class="ypill pyear" data-y="2026" data-r="40.0" aria-pressed="true">2026</button>
+</div>
 <div class="statrow">
   <div class="stat"><b>20</b><span>constituencies</span></div>
-  <div class="stat"><b>K800m</b><span>2026 allocation</span></div>
-  <div class="stat"><b>K40m</b><span>per constituency</span></div>
+  <div class="stat"><b id="pvAlloc">K800m</b><span id="pvAllocYr">2026 allocation</span></div>
+  <div class="stat"><b id="pvPer">K40m</b><span>per constituency</span></div>
   <div class="stat"><b>0</b><span>projects tracked</span></div>
 </div>
 <p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>
 <h2 class="phead">Constituencies</h2>
 <div class="cchips"><a class="cchip" href="../constituencies/bweengwa.html">Bweengwa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chikankata.html">Chikankata<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chirundu.html">Chirundu<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/choma.html">Choma<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/dundumwenzi.html">Dundumwenzi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/gwembe.html">Gwembe<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/itezhi-tezhi.html">Itezhi-Tezhi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kalomo-central.html">Kalomo Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/katombola.html">Katombola<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/livingstone.html">Livingstone<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/magoye.html">Magoye<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mapatizya.html">Mapatizya<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mazabuka-central.html">Mazabuka Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mbabala.html">Mbabala<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/monze-central.html">Monze Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/moomba.html">Moomba<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/namwala.html">Namwala<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/pemba.html">Pemba<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/siavonga.html">Siavonga<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/sinazongwe.html">Sinazongwe<span class="arr" aria-hidden="true">›</span></a></div>
 <h2 class="phead">Allocations by year</h2>
-<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr><td>2021</td><td>K1.6m</td><td>K32m</td></tr><tr><td>2022</td><td>K25.7m</td><td>K514m</td></tr><tr><td>2023</td><td>K28.3m</td><td>K566m</td></tr><tr><td>2024</td><td>K30.6m</td><td>K612m</td></tr><tr><td>2025</td><td>K36.1m</td><td>K722m</td></tr><tr><td>2026</td><td>K40m</td><td>K800m</td></tr></tbody></table></div>
+<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr data-year="2021"><td>2021</td><td>K1.6m</td><td>K32m</td></tr><tr data-year="2022"><td>2022</td><td>K25.7m</td><td>K514m</td></tr><tr data-year="2023"><td>2023</td><td>K28.3m</td><td>K566m</td></tr><tr data-year="2024"><td>2024</td><td>K30.6m</td><td>K612m</td></tr><tr data-year="2025"><td>2025</td><td>K36.1m</td><td>K722m</td></tr><tr data-year="2026"><td>2026</td><td>K40m</td><td>K800m</td></tr></tbody></table></div>
+<script>
+(function(){
+  var seats = 20;
+  function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
+  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer');
+  function setYear(y, r){
+    if(alloc) alloc.textContent = fm(seats*r);
+    if(allocYr) allocYr.textContent = y + ' allocation';
+    if(per) per.textContent = fm(r);
+    document.querySelectorAll('.pyear').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-y')==String(y) ? 'true' : 'false'); });
+    document.querySelectorAll('tr[data-year]').forEach(function(tr){ tr.classList.toggle('yr-on', tr.getAttribute('data-year')==String(y)); });
+  }
+  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r'))); }); });
+  setYear(2026, 40.0);
+})();
+</script>
 </main>
 <footer class="sitefoot">
   <p>Generated from the Zambia CDF Tracker database — every figure traces to a published source, listed on each page. Province boundaries: geoBoundaries (CC BY 4.0).</p>

@@ -375,3 +375,9 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
   .kpi .v{font-size:1.6rem}
   .tiles{grid-template-columns:1fr}
 }
+
+/* ===== province page: year switcher highlight ===== */
+.mtable tr.yr-on td{background:#eef4ea;font-weight:700;color:var(--green-d)}
+@media (prefers-color-scheme: dark){
+  .mtable tr.yr-on td,.ytable tr.yr-on td{background:#22392b}
+}
