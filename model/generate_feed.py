@@ -170,6 +170,18 @@ def main():
             "completedPct": round(_comp / _total * 100, 1),
             "ruralPct": (_ctx[0] if _ctx else None), "urbanPct": (_ctx[1] if _ctx else None)})
     util["provinces"].sort(key=lambda x: (x["ruralPct"] is None, -(x["ruralPct"] or 0)))
+    _rel = {r[0]: r[1] for r in c.execute("SELECT budget_year, amount_m FROM disbursements WHERE component = 'all'")}
+    _cnotes = {2024: "Releases per the Auditor-General's 2024 report — barely half the allocation moved that year.",
+               2025: "The last complete year: the full chain is published.",
+               2026: "Cumulative releases reported by June 2026 — the year is still running."}
+    util["cascadeYears"] = []
+    for _y in years:
+        _yr = _y["year"]; _alloc = round(_y["per"] * 156, 1); _r = _rel.get(_yr)
+        util["cascadeYears"].append({
+            "year": _yr, "allocatedM": _alloc, "releasedM": _r,
+            "releasedPct": (movement.get(_yr, {}).get("releasedPct") or (round(_r / _alloc * 100) if _r else None)),
+            "utilisedPct": (movement.get(_yr, {}).get("util") if _yr == 2025 else None),
+            "note": _cnotes.get(_yr, "No release figure published for this year.")})
     util["groups"] = []
     for _label, _test in (("Rural provinces", lambda r: r is not None and r >= 70),
                           ("Urban provinces", lambda r: r is not None and r <= 25),

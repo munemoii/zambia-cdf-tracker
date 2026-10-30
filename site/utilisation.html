@@ -44,9 +44,10 @@
       <p>Allocation is automatic — every constituency gets the same. Using the money is the hard part: Treasury has to release it, councils have to spend it, and projects have to finish. Each step leaks.</p>
     </div>
     <div class="card">
-      <h3 style="margin-top:0">The cascade — 2025, the last complete year</h3>
+      <h3 style="margin-top:0">The cascade — pick a year</h3>
+      <div id="cascadePills" style="margin-bottom:12px"></div>
       <div id="cascadeBars" class="vbars"></div>
-      <p class="chart-note" style="margin-bottom:0">Allocated by the budget, released by the Treasury, utilised as reported by MLGRD. A national utilisation rate is published only for 2025; for the other years it simply is not — which is itself part of the picture.</p>
+      <p class="chart-note" style="margin-bottom:0"><span id="cascadeNote"></span> Allocated by the budget, released by the Treasury, utilised as reported by MLGRD — a national utilisation rate has been published for 2025 only, and where a stage is unpublished the bar says so rather than guessing.</p>
     </div>
   </section>
 
@@ -93,6 +94,6 @@
   </footer>
 </div>
 <script src="data.js?v=8"></script>
-<script src="app.js?v=19"></script>
+<script src="app.js?v=20"></script>
 </body>
 </html>

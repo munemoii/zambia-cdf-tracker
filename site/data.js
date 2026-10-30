@@ -35300,6 +35300,56 @@ window.CDF_DATA = {
         "urbanPct": 82.7
       }
     ],
+    "cascadeYears": [
+      {
+        "year": 2021,
+        "allocatedM": 249.6,
+        "releasedM": null,
+        "releasedPct": null,
+        "utilisedPct": null,
+        "note": "No release figure published for this year."
+      },
+      {
+        "year": 2022,
+        "allocatedM": 4009.2,
+        "releasedM": null,
+        "releasedPct": null,
+        "utilisedPct": null,
+        "note": "No release figure published for this year."
+      },
+      {
+        "year": 2023,
+        "allocatedM": 4414.8,
+        "releasedM": null,
+        "releasedPct": null,
+        "utilisedPct": null,
+        "note": "No release figure published for this year."
+      },
+      {
+        "year": 2024,
+        "allocatedM": 4773.6,
+        "releasedM": 2630.0,
+        "releasedPct": 55,
+        "utilisedPct": null,
+        "note": "Releases per the Auditor-General's 2024 report — barely half the allocation moved that year."
+      },
+      {
+        "year": 2025,
+        "allocatedM": 5631.6,
+        "releasedM": 5260.0,
+        "releasedPct": 94,
+        "utilisedPct": 86,
+        "note": "The last complete year: the full chain is published."
+      },
+      {
+        "year": 2026,
+        "allocatedM": 6240.0,
+        "releasedM": 2200.0,
+        "releasedPct": 35,
+        "utilisedPct": null,
+        "note": "Cumulative releases reported by June 2026 — the year is still running."
+      }
+    ],
     "groups": [
       {
         "label": "Rural provinces",

@@ -269,12 +269,26 @@
     function row(label, pct, val, cls){
       return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"><span class="vf ' + (cls || '') + '" style="width:' + pct + '%"></span></span><span class="vv">' + val + '</span></div>';
     }
-    var C = U.cascade, cb = document.getElementById("cascadeBars");
-    if (cb && C && C.allocatedM) {
-      cb.innerHTML =
-        row("Allocated (" + C.year + ")", 100, "K" + (C.allocatedM / 1000).toFixed(2) + "bn", "") +
-        row("Released", C.releasedPct, "K" + (C.releasedM / 1000).toFixed(2) + "bn · " + C.releasedPct + "%", "") +
-        row("Utilised", C.utilisedPct, C.utilisedPct + "% used", "gold");
+    var CY = U.cascadeYears, cp = document.getElementById("cascadePills"), cn = document.getElementById("cascadeNote"), cb = document.getElementById("cascadeBars");
+    if (cp && CY && cb) {
+      function drawCascade(y) {
+        var d = CY.filter(function (x) { return x.year === y; })[0]; if (!d) return;
+        var rel = d.releasedM ? row("Released", d.releasedPct, "K" + (d.releasedM / 1000).toFixed(2) + "bn · " + d.releasedPct + "%", "")
+                              : row("Released", 0, "Not published", "gold");
+        var use = d.utilisedPct ? row("Utilised", d.utilisedPct, d.utilisedPct + "% used", "gold")
+                                : row("Utilised", 0, "Not published", "gold");
+        cb.innerHTML = row("Allocated (" + d.year + ")", 100, "K" + (d.allocatedM / 1000).toFixed(2) + "bn", "") + rel + use;
+        if (cn) cn.textContent = d.note;
+        cp.querySelectorAll(".ypill").forEach(function (b) { b.setAttribute("aria-pressed", +b.getAttribute("data-y") === y ? "true" : "false"); });
+      }
+      CY.forEach(function (d) {
+        var b = document.createElement("button");
+        b.className = "ypill"; b.type = "button"; b.textContent = d.year; b.setAttribute("data-y", d.year);
+        b.setAttribute("aria-pressed", d.year === 2025 ? "true" : "false");
+        b.addEventListener("click", function () { drawCascade(d.year); });
+        cp.appendChild(b); cp.appendChild(document.createTextNode(" "));
+      });
+      drawCascade(2025);
     }
     var AG = U.ag, agEl = document.getElementById("agStack");
     if (agEl && AG && AG.audited) {
