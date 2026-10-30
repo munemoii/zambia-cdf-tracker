@@ -90,7 +90,7 @@ def main():
 
     # --- pilot project tracking ---
     pilot = None
-    proj_rows = c.execute("""SELECT pr.name, k.name, pr.ward, pr.component, pr.category,
+    proj_rows = c.execute("""SELECT pr.id, pr.name, k.name, pr.ward, pr.component, pr.category,
                                     pr.contractor, pr.budget_m, pr.status, pr.completion_pct,
                                     pr.photo_url, pr.photo_credit, pr.note,
                                     s.publisher, s.title, s.url
@@ -101,19 +101,23 @@ def main():
     if proj_rows:
         from collections import Counter, defaultdict
         by_const = defaultdict(list)
+        import re as _re
+        def _slug(nm):
+            return _re.sub(r"[^a-z0-9]+", "-", nm.lower().replace("&", "and")).strip("-")
         for r in proj_rows:
-            by_const[r[1]].append({
-                "name": r[0], "ward": r[2], "component": r[3], "category": r[4],
-                "contractor": r[5], "budgetM": round(r[6], 4) if r[6] is not None else None,
-                "status": r[7], "completionPct": r[8],
-                "photo": ({"url": r[9], "credit": r[10]} if r[9] else None),
-                "note": r[11],
-                "source": {"publisher": r[12], "title": r[13], "url": r[14]},
+            by_const[r[2]].append({
+                "id": r[0], "url": f"projects/{r[0]}-{_slug(r[1])}.html",
+                "name": r[1], "ward": r[3], "component": r[4], "category": r[5],
+                "contractor": r[6], "budgetM": round(r[7], 4) if r[7] is not None else None,
+                "status": r[8], "completionPct": r[9],
+                "photo": ({"url": r[10], "credit": r[11]} if r[10] else None),
+                "note": r[12],
+                "source": {"publisher": r[13], "title": r[14], "url": r[15]},
             })
         consts = []
         for nm in sorted(by_const):
             items = by_const[nm]
-            consts.append({"name": nm, "count": len(items),
+            consts.append({"name": nm, "url": f"constituencies/{_slug(nm)}.html", "count": len(items),
                            "budgetM": round(sum(i["budgetM"] or 0 for i in items), 2),
                            "statusCounts": dict(Counter(i["status"] for i in items)),
                            "projects": items})

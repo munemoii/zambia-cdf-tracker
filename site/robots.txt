@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sprightly-sunshine-f93b94.netlify.app/sitemap.xml
