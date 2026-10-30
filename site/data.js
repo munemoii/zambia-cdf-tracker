@@ -150,14 +150,426 @@ window.CDF_DATA = {
   ],
   "pilot": {
     "province": "Lusaka",
-    "totalProjects": 166,
+    "totalProjects": 295,
     "fundingYears": {
       "2022": 44,
       "2023": 19,
-      "2025": 53
+      "2025": 93,
+      "2026": 10
     },
-    "fundingYearKnown": 116,
+    "fundingYearKnown": 166,
     "constituencies": [
+      {
+        "name": "Bangweulu",
+        "url": "constituencies/bangweulu.html",
+        "count": 20,
+        "budgetM": 0,
+        "statusCounts": {
+          "approved": 20
+        },
+        "projects": [
+          {
+            "id": 181,
+            "url": "projects/181-chimana-wdc-bicycles.html",
+            "name": "Chimana WDC Bicycles",
+            "ward": "Chimana",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 182,
+            "url": "projects/182-isamba-wdc-bicycles.html",
+            "name": "Isamba WDC Bicycles",
+            "ward": "Isamba",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 183,
+            "url": "projects/183-kaishe-primary-1x3-classroom-block-and-ablution-block.html",
+            "name": "Kaishe Primary 1x3 Classroom Block and Ablution Block",
+            "ward": "Kapilibila",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 184,
+            "url": "projects/184-kansenga-health-post.html",
+            "name": "Kansenga Health Post",
+            "ward": "Kapata",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 180,
+            "url": "projects/180-kapata-bicycles-for-wdcs.html",
+            "name": "Kapata Bicycles for WDCs",
+            "ward": "Kapata",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 185,
+            "url": "projects/185-kapilibila-wdc-bicycles.html",
+            "name": "Kapilibila WDC Bicycles",
+            "ward": "Kapilibila",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 186,
+            "url": "projects/186-katanshya-wdc-bicycles.html",
+            "name": "Katanshya WDC Bicycles",
+            "ward": "Katanshya",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 194,
+            "url": "projects/194-lufwishi-wdc-bicycles.html",
+            "name": "Lufwishi WDC Bicycles",
+            "ward": "Lufwishi",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 188,
+            "url": "projects/188-lumamya-wdc-bicycles.html",
+            "name": "Lumamya WDC Bicycles",
+            "ward": "Lumamya",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 187,
+            "url": "projects/187-lumamya-ward-super-boat.html",
+            "name": "Lumamya Ward Super Boat",
+            "ward": "Lumamya",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 189,
+            "url": "projects/189-lupili-wdc-bicycles.html",
+            "name": "Lupili WDC Bicycles",
+            "ward": "Lupili",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 190,
+            "url": "projects/190-mano-rural-health-facility.html",
+            "name": "Mano Rural Health Facility",
+            "ward": "Mano",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 191,
+            "url": "projects/191-mano-wdc-bicycles.html",
+            "name": "Mano WDC Bicycles",
+            "ward": "Mano",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 192,
+            "url": "projects/192-mumpu-primary-1x3-classroom-block.html",
+            "name": "Mumpu Primary 1x3 Classroom Block",
+            "ward": "Katanshya",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 193,
+            "url": "projects/193-musaba-wdc-bicycles.html",
+            "name": "Musaba WDC Bicycles",
+            "ward": "Musaba",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 195,
+            "url": "projects/195-mwamfuli-market.html",
+            "name": "Mwamfuli Market",
+            "ward": "Lupili",
+            "component": "community",
+            "category": "markets",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 196,
+            "url": "projects/196-pwele-primary-1x3-classroom-block-and-ablution-block.html",
+            "name": "Pwele Primary 1x3 Classroom Block and Ablution Block",
+            "ward": "Lumamya",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 197,
+            "url": "projects/197-radio-bangwela-solar-kit.html",
+            "name": "Radio Bangwela Solar Kit",
+            "ward": "Lupili",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 198,
+            "url": "projects/198-veronica-chikonda-clinic-furniture-walk-lamps-and-walk-away.html",
+            "name": "Veronica Chikonda Clinic Furniture, Walk Lamps and Walk Away",
+            "ward": "Lupili",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 199,
+            "url": "projects/199-yamba-1x3-classroom-block-two-staff-houses-and-110-desks.html",
+            "name": "Yamba 1x3 Classroom Block, Two Staff Houses and 110 Desks",
+            "ward": "Musaba",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Samfya Town Council",
+              "title": "Bangweulu Constituency 2025 Community Projects - CDF (Approved)",
+              "url": "http://www.samfyacouncil.gov.zm/wp-content/uploads/2025/11/2025-COMMUNITY-PROJECTS-APPROVED.pdf"
+            },
+            "fundingYear": 2025
+          }
+        ]
+      },
       {
         "name": "Chawama",
         "url": "constituencies/chawama.html",
@@ -205,6 +617,277 @@ window.CDF_DATA = {
               "publisher": "Lusaka City Council",
               "title": "LCC completes Chifundo Road drainage system, near completion of Lilayi Close Road project",
               "url": "https://www.lcc.gov.zm/lcc-completes-chifundo-road-drainage-system-near-compleetion-of-lilayi-close-road-project/"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Chembe",
+        "url": "constituencies/chembe.html",
+        "count": 13,
+        "budgetM": 0,
+        "statusCounts": {
+          "completed": 13
+        },
+        "projects": [
+          {
+            "id": 178,
+            "url": "projects/178-completion-of-a-1x2-classroom-block-at-chembe-secondary-school.html",
+            "name": "Completion of a 1x2 Classroom Block at Chembe Secondary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 169,
+            "url": "projects/169-construction-of-a-1x3-classroom-block-at-filando-primary-school.html",
+            "name": "Construction of a 1x3 Classroom Block at Filando Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 170,
+            "url": "projects/170-construction-of-a-1x3-classroom-block-at-misamu-primary-school.html",
+            "name": "Construction of a 1x3 Classroom Block at Misamu Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 179,
+            "url": "projects/179-construction-of-a-2-bedroomed-semi-detached-staff-house-at-malenge-primary-school.html",
+            "name": "Construction of a 2-Bedroomed Semi-Detached Staff House at Malenge Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 173,
+            "url": "projects/173-construction-of-a-crossing-point-at-fikombo-along-chipete-road.html",
+            "name": "Construction of a Crossing Point at Fikombo along Chipete Road",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 172,
+            "url": "projects/172-construction-of-a-crossing-point-at-senkwe-along-chipete-road.html",
+            "name": "Construction of a Crossing Point at Senkwe along Chipete Road",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 174,
+            "url": "projects/174-construction-of-a-maternity-annex-at-fikombo.html",
+            "name": "Construction of a Maternity Annex at Fikombo",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 176,
+            "url": "projects/176-construction-of-a-rural-health-post-and-ablution-block-with-running-water-at-lwansa.html",
+            "name": "Construction of a Rural Health Post and Ablution Block with Running Water at Lwansa",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 177,
+            "url": "projects/177-construction-of-a-rural-health-post-and-ablution-block-with-running-water-at-muombe.html",
+            "name": "Construction of a Rural Health Post and Ablution Block with Running Water at Muombe",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 167,
+            "url": "projects/167-construction-of-a-rural-health-post-at-kapu.html",
+            "name": "Construction of a Rural Health Post at Kapu",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 175,
+            "url": "projects/175-procurement-of-a-20-tonne-roller-compactor.html",
+            "name": "Procurement of a 20-Tonne Roller Compactor",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 168,
+            "url": "projects/168-solar-water-scheme-at-kapu-health-post-2000-litres.html",
+            "name": "Solar Water Scheme at Kapu Health Post (2000 Litres)",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 171,
+            "url": "projects/171-solar-water-scheme-at-mwami-kalasakando-5000-litres.html",
+            "name": "Solar Water Scheme at Mwami (KalasaKando) (5000 Litres)",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Chembe Town Council",
+              "title": "Chembe District Celebrates Massive Infrastructure Development as Luapula PS Commissions 13 Projects",
+              "url": "https://www.chembecouncil.gov.zm/?p=3813"
             },
             "fundingYear": null
           }
@@ -2951,6 +3634,197 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Kawambwa",
+        "url": "constituencies/kawambwa.html",
+        "count": 9,
+        "budgetM": 0,
+        "statusCounts": {
+          "approved": 9
+        },
+        "projects": [
+          {
+            "id": 219,
+            "url": "projects/219-construction-of-2-bedroom-staff-house-at-kamfukeshi-primary-school.html",
+            "name": "Construction of 2 Bedroom Staff House at Kamfukeshi Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 218,
+            "url": "projects/218-construction-of-2-bedroom-staff-house-at-muchulila-health-post.html",
+            "name": "Construction of 2 Bedroom Staff House at Muchulila Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 217,
+            "url": "projects/217-construction-of-2-bedroom-staff-house-at-shikalaba.html",
+            "name": "Construction of 2 Bedroom Staff House at Shikalaba",
+            "ward": null,
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 211,
+            "url": "projects/211-procurement-of-25-tonnes-tipper-truck.html",
+            "name": "Procurement of 25 Tonnes Tipper Truck",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 213,
+            "url": "projects/213-procurement-of-front-end-loader.html",
+            "name": "Procurement of Front-End Loader",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 212,
+            "url": "projects/212-procurement-of-grader.html",
+            "name": "Procurement of Grader",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 216,
+            "url": "projects/216-procurement-of-server-and-office-equipment.html",
+            "name": "Procurement of Server and Office Equipment",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 215,
+            "url": "projects/215-procurement-of-solar-equipment.html",
+            "name": "Procurement of Solar Equipment",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 214,
+            "url": "projects/214-procurement-of-water-bowser.html",
+            "name": "Procurement of Water Bowser",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          }
+        ]
+      },
+      {
         "name": "Lusaka Central",
         "url": "constituencies/lusaka-central.html",
         "count": 2,
@@ -2997,6 +3871,538 @@ window.CDF_DATA = {
               "publisher": "Lusaka Provincial Administration",
               "title": "Bauleni Mini Hospital to get CDF mortuary (wall fence handed over)",
               "url": "https://www.lsk.gov.zm/?p=2849"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Mambilima",
+        "url": "constituencies/mambilima.html",
+        "count": 26,
+        "budgetM": 0,
+        "statusCounts": {
+          "completed": 22,
+          "ongoing": 4
+        },
+        "projects": [
+          {
+            "id": 229,
+            "url": "projects/229-completion-of-kanyemba-health-post.html",
+            "name": "Completion of Kanyemba Health Post",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 254,
+            "url": "projects/254-completion-of-a-1x2-at-chibumbu-primary.html",
+            "name": "Completion of a 1x2 at Chibumbu Primary",
+            "ward": "Lundashi",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 253,
+            "url": "projects/253-completion-of-a-1x3-at-musonda-secondary-school.html",
+            "name": "Completion of a 1x3 at Musonda Secondary School",
+            "ward": "Musonda",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 249,
+            "url": "projects/249-construction-1x3-crb-at-kashiba-secondary-school.html",
+            "name": "Construction 1x3 CRB at Kashiba Secondary School",
+            "ward": "Nsomfi",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 234,
+            "url": "projects/234-construction-and-equipping-of-mutima-science-laboratory.html",
+            "name": "Construction and Equipping of Mutima Science Laboratory",
+            "ward": "Munwa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 256,
+            "url": "projects/256-construction-of-michelo-water-scheme.html",
+            "name": "Construction of Michelo Water Scheme",
+            "ward": "Michelo",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 220,
+            "url": "projects/220-construction-of-sepe-rural-health-post-ablution-block.html",
+            "name": "Construction of Sepe Rural Health Post Ablution Block",
+            "ward": "Michelo",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 226,
+            "url": "projects/226-construction-of-sepe-rural-health-post-staff-houses-2.html",
+            "name": "Construction of Sepe Rural Health Post Staff Houses (2)",
+            "ward": "Michelo",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 221,
+            "url": "projects/221-construction-of-staff-houses-at-chebele-rhp.html",
+            "name": "Construction of Staff Houses at Chebele RHP",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 251,
+            "url": "projects/251-construction-of-a-1x3-crb-at-katuta.html",
+            "name": "Construction of a 1x3 CRB at Katuta",
+            "ward": "Mpasa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 236,
+            "url": "projects/236-construction-of-a-1x3-crb-at-mutima-primary-school.html",
+            "name": "Construction of a 1x3 CRB at Mutima Primary School",
+            "ward": "Munwa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 243,
+            "url": "projects/243-construction-of-a-1x3-crb-at-shichama-primary-school.html",
+            "name": "Construction of a 1x3 CRB at Shichama Primary School",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 250,
+            "url": "projects/250-construction-of-a-1x3-at-chibondo-secondary-school.html",
+            "name": "Construction of a 1x3 at Chibondo Secondary School",
+            "ward": "Mpasa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 269,
+            "url": "projects/269-construction-of-a-drainage-system-from-shichama-to-checkpoint.html",
+            "name": "Construction of a Drainage System from Shichama to Checkpoint",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 222,
+            "url": "projects/222-construction-of-a-mortuary-at-katuta-rhp.html",
+            "name": "Construction of a Mortuary at Katuta RHP",
+            "ward": "Mpasa",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 230,
+            "url": "projects/230-construction-of-a-rhp-at-chebele.html",
+            "name": "Construction of a RHP at Chebele",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 241,
+            "url": "projects/241-construction-of-a-staff-house-at-michelo-primary-school.html",
+            "name": "Construction of a Staff House at Michelo Primary School",
+            "ward": "Michelo",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 263,
+            "url": "projects/263-construction-of-a-water-scheme-at-chebele-rhp.html",
+            "name": "Construction of a Water Scheme at Chebele RHP",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 257,
+            "url": "projects/257-construction-of-a-water-scheme-at-chula-village.html",
+            "name": "Construction of a Water Scheme at Chula Village",
+            "ward": "Musonda",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 261,
+            "url": "projects/261-construction-of-a-water-scheme-at-mweshi-and-nkomba.html",
+            "name": "Construction of a Water Scheme at Mweshi and Nkomba",
+            "ward": "Kalanga",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 266,
+            "url": "projects/266-construction-of-a-water-scheme-in-musonda.html",
+            "name": "Construction of a Water Scheme in Musonda",
+            "ward": "Musonda",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 235,
+            "url": "projects/235-construction-of-an-ablution-block-and-upgrading-of-a-borehole-at-kabila-primary-school.html",
+            "name": "Construction of an Ablution Block and Upgrading of a Borehole at Kabila Primary School",
+            "ward": "Musonda",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "ongoing",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 270,
+            "url": "projects/270-construction-of-an-embankment-at-katuta.html",
+            "name": "Construction of an Embankment at Katuta",
+            "ward": "Mpasa",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 237,
+            "url": "projects/237-rehabilitation-of-mutima-1x2-crb.html",
+            "name": "Rehabilitation of Mutima 1x2 CRB",
+            "ward": "Munwa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 268,
+            "url": "projects/268-rehabilitation-of-mwendago-crossing-point.html",
+            "name": "Rehabilitation of Mwendago Crossing Point",
+            "ward": "Mwendango",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 252,
+            "url": "projects/252-rehabilitation-of-a-1x2-at-tangwa.html",
+            "name": "Rehabilitation of a 1x2 at Tangwa",
+            "ward": "Mpasa",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
             },
             "fundingYear": null
           }
@@ -3306,6 +4712,197 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Milenge",
+        "url": "constituencies/milenge.html",
+        "count": 9,
+        "budgetM": 7.75,
+        "statusCounts": {
+          "completed": 9
+        },
+        "projects": [
+          {
+            "id": 277,
+            "url": "projects/277-1x3-classroom-block-at-milenge-primary-school.html",
+            "name": "1x3 Classroom Block at Milenge Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.9669,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 271,
+            "url": "projects/271-chibende-maternity-annex.html",
+            "name": "Chibende Maternity Annex",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.9382,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 272,
+            "url": "projects/272-chipundu-maternity-annex.html",
+            "name": "Chipundu Maternity Annex",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.1069,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 279,
+            "url": "projects/279-classroom-block-at-kabange-primary-school.html",
+            "name": "Classroom Block at Kabange Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.5968,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 278,
+            "url": "projects/278-classroom-block-at-mununshi-primary-school.html",
+            "name": "Classroom Block at Mununshi Primary School",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.5733,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 274,
+            "url": "projects/274-flasikwa-health-post-and-staff-housing.html",
+            "name": "Flasikwa Health Post and Staff Housing",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 1.0679,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 276,
+            "url": "projects/276-lwela-boys-dormitory.html",
+            "name": "Lwela Boys Dormitory",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.7441,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 275,
+            "url": "projects/275-medical-equipment-for-milenge-district-hospital.html",
+            "name": "Medical Equipment for Milenge District Hospital",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 1.216,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 273,
+            "url": "projects/273-mulungushi-health-post.html",
+            "name": "Mulungushi Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.5441,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "National Assembly of Zambia",
+              "title": "Luapula PS Commissions Community Projects in Milenge District",
+              "url": "https://www.parliament.gov.zm/node/12362"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
         "name": "Munali",
         "url": "constituencies/munali.html",
         "count": 4,
@@ -3394,6 +4991,1090 @@ window.CDF_DATA = {
               "url": "https://www.govserv.org/ZM/Unknown/2066947786880665/Munali-Parliamentary-Constituency-Office---National-Assembly-of-Zambia"
             },
             "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Mwansabombwe",
+        "url": "constituencies/mwansabombwe.html",
+        "count": 6,
+        "budgetM": 6.34,
+        "statusCounts": {
+          "completed": 6
+        },
+        "projects": [
+          {
+            "id": 283,
+            "url": "projects/283-500-desks.html",
+            "name": "500 Desks",
+            "ward": null,
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwansabombwe Town Council",
+              "title": "Govt Hands Over Mwansabombwe CDF Projects (Press Statement)",
+              "url": "http://www.mwansabombwecouncil.gov.zm/wp-content/uploads/2023/12/Press-Statement-13-June-2023.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 281,
+            "url": "projects/281-chipita-rural-health-post.html",
+            "name": "Chipita Rural Health Post",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": 0.4113,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwansabombwe Town Council",
+              "title": "Govt Hands Over Mwansabombwe CDF Projects (Press Statement)",
+              "url": "http://www.mwansabombwecouncil.gov.zm/wp-content/uploads/2023/12/Press-Statement-13-June-2023.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 280,
+            "url": "projects/280-grader.html",
+            "name": "Grader",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": 4.6682,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwansabombwe Town Council",
+              "title": "Govt Hands Over Mwansabombwe CDF Projects (Press Statement)",
+              "url": "http://www.mwansabombwecouncil.gov.zm/wp-content/uploads/2023/12/Press-Statement-13-June-2023.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 284,
+            "url": "projects/284-mubanda-water-kiosk.html",
+            "name": "Mubanda Water Kiosk",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1496,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwansabombwe Town Council",
+              "title": "Govt Hands Over Mwansabombwe CDF Projects (Press Statement)",
+              "url": "http://www.mwansabombwecouncil.gov.zm/wp-content/uploads/2023/12/Press-Statement-13-June-2023.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 285,
+            "url": "projects/285-nachimpunu-water-kiosks.html",
+            "name": "Nachimpunu Water Kiosks",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.1404,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwansabombwe Town Council",
+              "title": "Govt Hands Over Mwansabombwe CDF Projects (Press Statement)",
+              "url": "http://www.mwansabombwecouncil.gov.zm/wp-content/uploads/2023/12/Press-Statement-13-June-2023.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 282,
+            "url": "projects/282-water-reticulation-system-at-mabel-shaw.html",
+            "name": "Water Reticulation System at Mabel Shaw",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.9738,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwansabombwe Town Council",
+              "title": "Govt Hands Over Mwansabombwe CDF Projects (Press Statement)",
+              "url": "http://www.mwansabombwecouncil.gov.zm/wp-content/uploads/2023/12/Press-Statement-13-June-2023.pdf"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Mwense",
+        "url": "constituencies/mwense.html",
+        "count": 25,
+        "budgetM": 0,
+        "statusCounts": {
+          "completed": 25
+        },
+        "projects": [
+          {
+            "id": 255,
+            "url": "projects/255-completion-of-a-staff-house-at-mwense-primary-school.html",
+            "name": "Completion of a Staff House at Mwense Primary School",
+            "ward": "Kasunge",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 223,
+            "url": "projects/223-construction-of-admissions-ward-at-mwense-stage-2-clinic.html",
+            "name": "Construction of Admissions Ward at Mwense Stage 2 Clinic",
+            "ward": "Mwense",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 225,
+            "url": "projects/225-construction-of-chilengwe-rural-health-post.html",
+            "name": "Construction of Chilengwe Rural Health Post",
+            "ward": "Chachacha",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 245,
+            "url": "projects/245-construction-of-science-laboratory-at-kawama-secondary-school.html",
+            "name": "Construction of Science Laboratory at Kawama Secondary School",
+            "ward": "Nkanga",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 227,
+            "url": "projects/227-construction-of-a-maternity-annex-at-lubunda-health-post.html",
+            "name": "Construction of a Maternity Annex at Lubunda Health Post",
+            "ward": "Katiti",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 260,
+            "url": "projects/260-construction-of-a-piped-water-scheme-at-tela-village.html",
+            "name": "Construction of a Piped Water Scheme at Tela Village",
+            "ward": "Nkanga",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 246,
+            "url": "projects/246-construction-of-a-science-laboratory-at-kapamba-secondary-school.html",
+            "name": "Construction of a Science Laboratory at Kapamba Secondary School",
+            "ward": "Kapamba",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 233,
+            "url": "projects/233-construction-of-a-staff-house-and-ablution-block-at-kasonge-hp.html",
+            "name": "Construction of a Staff House and Ablution Block at Kasonge HP",
+            "ward": "James Chiwasha",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 228,
+            "url": "projects/228-construction-of-a-staff-house-at-kapamba-rhp.html",
+            "name": "Construction of a Staff House at Kapamba RHP",
+            "ward": "Kapamba",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 231,
+            "url": "projects/231-construction-of-a-staff-house-ablution-block-and-piped-water-at-chilengwe-rhp.html",
+            "name": "Construction of a Staff House, Ablution Block and Piped Water at Chilengwe RHP",
+            "ward": "Chachacha",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 232,
+            "url": "projects/232-construction-of-a-staff-house-ablution-block-and-piped-water-at-tente-rhp.html",
+            "name": "Construction of a Staff House, Ablution Block and Piped Water at Tente RHP",
+            "ward": "Kapela",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 262,
+            "url": "projects/262-construction-of-a-water-scheme-at-malama-village.html",
+            "name": "Construction of a Water Scheme at Malama Village",
+            "ward": "Kapampa",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 264,
+            "url": "projects/264-construction-of-a-water-scheme-at-nkumbi.html",
+            "name": "Construction of a Water Scheme at Nkumbi",
+            "ward": "Katiti",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 259,
+            "url": "projects/259-construction-of-a-water-scheme-at-nsemba-village.html",
+            "name": "Construction of a Water Scheme at Nsemba Village",
+            "ward": "James Chiwasha",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 244,
+            "url": "projects/244-construction-of-an-ablution-block-and-piped-water-at-kapamba-secondary-school.html",
+            "name": "Construction of an Ablution Block and Piped Water at Kapamba Secondary School",
+            "ward": "Kapamba",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 265,
+            "url": "projects/265-piped-water-scheme-at-chilolo-village.html",
+            "name": "Piped Water Scheme at Chilolo Village",
+            "ward": "Chilolo",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 242,
+            "url": "projects/242-procure-of-desks.html",
+            "name": "Procure of Desks",
+            "ward": "Mwense",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 267,
+            "url": "projects/267-rehabilitation-of-feeder-roads-lubunda-mubende-lotto-school-and-shichama-graveyard.html",
+            "name": "Rehabilitation of Feeder Roads - Lubunda, Mubende, Lotto School, and Shichama Graveyard",
+            "ward": "Chachacha",
+            "component": "community",
+            "category": "roads",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 239,
+            "url": "projects/239-rehabilitation-of-mulonga-1x2-crb-classroom-block.html",
+            "name": "Rehabilitation of Mulonga 1x2 CRB Classroom Block",
+            "ward": "Chachacha",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 224,
+            "url": "projects/224-rehabilitation-of-mwense-stage-2-clinic.html",
+            "name": "Rehabilitation of Mwense Stage 2 Clinic",
+            "ward": "Mwense",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 238,
+            "url": "projects/238-rehabilitation-of-nchilamundi-1x3-crb.html",
+            "name": "Rehabilitation of Nchilamundi 1x3 CRB",
+            "ward": "Kapamba",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 240,
+            "url": "projects/240-rehabilitation-of-a-1x1-crb-at-kawama-primary-school.html",
+            "name": "Rehabilitation of a 1x1 CRB at Kawama Primary School",
+            "ward": "Katiti",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 247,
+            "url": "projects/247-rehabilitation-of-a-1x3-at-koweni-primary-school.html",
+            "name": "Rehabilitation of a 1x3 at Koweni Primary School",
+            "ward": "Kapela",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 248,
+            "url": "projects/248-rehabilitation-of-a-1x3-at-musangu-primary-school.html",
+            "name": "Rehabilitation of a 1x3 at Musangu Primary School",
+            "ward": "Kapela",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 258,
+            "url": "projects/258-upgrading-of-water-scheme-at-kawama-secondary-school.html",
+            "name": "Upgrading of Water Scheme at Kawama Secondary School",
+            "ward": "Nkanga",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Mwense Town Council",
+              "title": "Community Development Fund (CDF) Projects Catalogue",
+              "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
+            },
+            "fundingYear": null
+          }
+        ]
+      },
+      {
+        "name": "Nchelenge",
+        "url": "constituencies/nchelenge.html",
+        "count": 10,
+        "budgetM": 0,
+        "statusCounts": {
+          "approved": 10
+        },
+        "projects": [
+          {
+            "id": 295,
+            "url": "projects/295-construction-of-2mw-solar-plant-under-the-presidential-solar-power-initiative.html",
+            "name": "Construction of 2MW Solar Plant under the Presidential Solar Power Initiative",
+            "ward": "Nchelenge",
+            "component": "community",
+            "category": "infrastructure",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 291,
+            "url": "projects/291-construction-of-ablution-block-at-nchelenge-primary-school.html",
+            "name": "Construction of Ablution Block at Nchelenge Primary School",
+            "ward": "Nchelenge",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 288,
+            "url": "projects/288-construction-of-maternity-annex-and-mechanizing-of-borehole-at-katofyo-rural-health-post-with-water-system.html",
+            "name": "Construction of Maternity Annex and Mechanizing of Borehole at Katofyo Rural Health Post with Water System",
+            "ward": "Katofyo",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 290,
+            "url": "projects/290-construction-of-maternity-annex-at-nchelenge-rural-health-centre.html",
+            "name": "Construction of Maternity Annex at Nchelenge Rural Health Centre",
+            "ward": "Nchelenge",
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 292,
+            "url": "projects/292-construction-of-water-scheme-and-ablution-block-at-katuna-health-post.html",
+            "name": "Construction of Water Scheme and Ablution Block at Katuna Health Post",
+            "ward": "Kashikishi",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 286,
+            "url": "projects/286-insurance-of-cdf-monitoring-vehicle-and-earth-moving-equipment.html",
+            "name": "Insurance of CDF Monitoring Vehicle and Earth Moving Equipment",
+            "ward": "All Wards",
+            "component": "administration",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 294,
+            "url": "projects/294-procurement-of-earth-moving-equipment-excavator-tipper-and-compactor.html",
+            "name": "Procurement of Earth Moving Equipment (Excavator, Tipper and Compactor)",
+            "ward": "All Wards",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 293,
+            "url": "projects/293-procurement-of-medical-equipment-for-katuna-rural-health-post.html",
+            "name": "Procurement of Medical Equipment for Katuna Rural Health Post",
+            "ward": "Kashikishi",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 289,
+            "url": "projects/289-procurement-of-medical-equipment-for-maternity-annex-at-katofyo-rural-health-post.html",
+            "name": "Procurement of Medical Equipment for Maternity Annex at Katofyo Rural Health Post",
+            "ward": "Katofyo",
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          },
+          {
+            "id": 287,
+            "url": "projects/287-servicing-of-cdf-monitoring-vehicle-and-earthmoving-equipment.html",
+            "name": "Servicing of CDF Monitoring Vehicle and Earthmoving Equipment",
+            "ward": "All Wards",
+            "component": "administration",
+            "category": "administration",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Nchelenge Town Council",
+              "title": "List of Approved Projects for the Year 2026 in Nchelenge Constituency",
+              "url": "http://www.nchelengecouncil.gov.zm/wp-content/uploads/2026/09/LIST-OF-APPROVED-PROJECTS-FOR-THE-2026-BUDGET-YEAR.pdf"
+            },
+            "fundingYear": 2026
+          }
+        ]
+      },
+      {
+        "name": "Pambashe",
+        "url": "constituencies/pambashe.html",
+        "count": 11,
+        "budgetM": 0,
+        "statusCounts": {
+          "approved": 11
+        },
+        "projects": [
+          {
+            "id": 208,
+            "url": "projects/208-construction-of-water-scheme-at-kuyumba.html",
+            "name": "Construction of Water Scheme at Kuyumba",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 206,
+            "url": "projects/206-construction-of-water-scheme-at-mawaya.html",
+            "name": "Construction of Water Scheme at Mawaya",
+            "ward": null,
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 207,
+            "url": "projects/207-construction-of-the-health-facility-at-kuyumba.html",
+            "name": "Construction of the Health Facility at Kuyumba",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 205,
+            "url": "projects/205-construction-of-the-health-facility-at-mawaya.html",
+            "name": "Construction of the Health Facility at Mawaya",
+            "ward": null,
+            "component": "community",
+            "category": "health",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 200,
+            "url": "projects/200-procurement-of-25-tonnes-tipper-truck.html",
+            "name": "Procurement of 25 Tonnes Tipper Truck",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 202,
+            "url": "projects/202-procurement-of-excavator.html",
+            "name": "Procurement of Excavator",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 201,
+            "url": "projects/201-procurement-of-grader.html",
+            "name": "Procurement of Grader",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 209,
+            "url": "projects/209-procurement-of-medical-equipment-at-mawaya.html",
+            "name": "Procurement of Medical Equipment at Mawaya",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 210,
+            "url": "projects/210-procurement-of-mortuary-solar-equipment-at-kawambwa-district-hospital.html",
+            "name": "Procurement of Mortuary Solar Equipment at Kawambwa District Hospital",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 204,
+            "url": "projects/204-procurement-of-server-and-office-equipment.html",
+            "name": "Procurement of Server and Office Equipment",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
+          },
+          {
+            "id": 203,
+            "url": "projects/203-procurement-of-solar-equipment.html",
+            "name": "Procurement of Solar Equipment",
+            "ward": null,
+            "component": "community",
+            "category": "equipment",
+            "contractor": null,
+            "budgetM": null,
+            "status": "approved",
+            "completionPct": null,
+            "photo": null,
+            "note": null,
+            "source": {
+              "publisher": "Kawambwa Town Council",
+              "title": "Government Approves K35.5 Million for 2025 CDF Projects in Pambashe and Kawambwa Central Constituencies",
+              "url": "https://www.kawambwacouncil.gov.zm/?p=2870"
+            },
+            "fundingYear": 2025
           }
         ]
       },
