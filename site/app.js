@@ -508,9 +508,32 @@
     slot.innerHTML = html;
     if (slot.scrollIntoView) slot.scrollIntoView({behavior:'smooth', block:'nearest'});
   }
+  function renderGallery(){
+    var grid = document.getElementById('photoGrid');
+    if (!grid || !D || !D.projects) return;
+    var total = 0, html = '';
+    D.projects.provinces.forEach(function(p){
+      var items = [];
+      p.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){ if (pr.photo) items.push({pr: pr, cc: cc.name}); }); });
+      if (!items.length) return;
+      total += items.length;
+      html += '<h3 class="ghead">' + p.name + ' — ' + items.length + ' photographed</h3><div class="ggrid">' +
+        items.map(function(x){
+          var st = STATUS[x.pr.status] ? STATUS[x.pr.status].label : x.pr.status;
+          return '<a class="gcard" href="' + x.pr.url + '"><img src="' + x.pr.photo.url + '" alt="Photo: ' + x.pr.name.replace(/"/g, '') + '" loading="lazy">' +
+            '<span class="gb"><b>' + x.pr.name + '</b>' +
+            '<span class="gm">' + x.cc + ' constituency · ' + st + '</span>' +
+            '<span class="gc">Photo: ' + (x.pr.photo.credit || '') + '</span></span></a>';
+        }).join('') + '</div>';
+    });
+    grid.innerHTML = html;
+    var sum = document.getElementById('photoCount');
+    if (sum) sum.textContent = total;
+  }
   var _ps=document.getElementById('projSearch'); if(_ps) _ps.addEventListener('input', renderProjects);
   renderScenario();
   renderProjects();
+  renderGallery();
 
   var _pv=document.getElementById("provSearch"); if(_pv) _pv.addEventListener("input",function(e){ state.query=e.target.value; renderProvinces(); });
   setYear(2026);

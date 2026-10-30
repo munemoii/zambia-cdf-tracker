@@ -70,7 +70,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css">
+<link rel="stylesheet" href="{prefix}styles.css?v=13">
 </head>
 <body>
 <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
@@ -81,6 +81,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
     <a href="{prefix}money.html">The Money</a>
     <a href="{prefix}provinces.html">Provinces</a>
     <a href="{prefix}projects.html">Projects</a>
+    <a href="{prefix}photos.html">Photos</a>
     <a href="{prefix}scenario.html">2027 Scenario</a>
     <a href="{prefix}developments.html">Developments</a>
   </nav>
@@ -181,7 +182,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/projects.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/projects.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
 
     # ---------- provinces index ----------
     cards = []

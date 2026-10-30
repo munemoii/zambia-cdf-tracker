@@ -402,3 +402,26 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
 .ghead{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.92rem;color:var(--green-deep);margin:16px 0 6px;padding-bottom:4px;border-bottom:2px solid var(--gold,#c9a227)}
 .ghead:first-child{margin-top:2px}
 h3.ghead{font-size:1.05rem}
+
+/* ===== photo strip (home) + gallery page ===== */
+.photostrip{margin:14px 0 6px}
+.photostrip .ps-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px}
+.photostrip .ps-all{font-weight:700;color:var(--green-deep);text-decoration:none;white-space:nowrap}
+.photostrip .ps-all:hover{text-decoration:underline}
+.pstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.pscard{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 1px 2px rgba(13,43,23,.05)}
+.pscard img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.pscard .psb{display:block;padding:8px 11px 10px}
+.pscard .psb b{display:block;font-size:.95rem;line-height:1.25}
+.pscard .psb span{font-size:.82rem;color:var(--muted)}
+.pscard.more{display:flex;align-items:center;justify-content:center;background:var(--green-soft);border-color:var(--green);min-height:120px}
+.pscard.more b{font-family:"Barlow Condensed",sans-serif;font-size:1.3rem;color:var(--green-deep);text-align:center;padding:18px;line-height:1.2}
+@media (max-width:760px){.pstrip{grid-template-columns:repeat(2,1fr)}}
+.ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-bottom:10px}
+.gcard{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 1px 3px rgba(13,43,23,.06);transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
+.gcard:hover{border-color:var(--green);box-shadow:0 8px 20px rgba(13,43,23,.10);transform:translateY(-2px)}
+.gcard img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.gcard .gb{display:block;padding:10px 13px 12px}
+.gcard .gb b{display:block;line-height:1.3}
+.gcard .gm{display:block;font-size:.85rem;color:var(--muted);margin-top:2px}
+.gcard .gc{display:block;font-size:.78rem;color:var(--muted);margin-top:4px}
