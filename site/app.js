@@ -181,6 +181,21 @@
     document.getElementById("flowCard").innerHTML=html;
   }
 
+  function renderSplitBar(){
+    var el=document.getElementById("splitBar"); if(!el) return;
+    var per=perOf(state.year), total=per*SEATS, comps=components(total), perComps=components(per);
+    var segs="", leg="";
+    comps.forEach(function(c,i){
+      segs+='<span class="seg" style="width:'+c.pct+'%;background:'+c.color+'"></span>';
+      leg+='<span><i class="dot" style="background:'+c.color+'"></i>'+c.label+' — '+c.pct+'% · '+fmtM(c.amount)+' <span style="opacity:.65">('+fmtFull(perComps[i].amount)+' per constituency)</span></span>';
+    });
+    el.innerHTML='<div class="stack" role="img" aria-label="In '+state.year+', of '+fmtM(total)+' allocated nationally: community projects 57%, youth and women empowerment 19%, bursaries 19%, administration 5%">'+segs+'</div><div class="stackleg">'+leg+'</div>';
+    var note=document.getElementById("splitNote");
+    if(note) note.textContent="Split under the CDF Guidelines: community projects 57% (including the 5% disaster contingency inside that share), empowerment 19% (40% grants / 60% soft loans), bursaries 19%, administration capped at 5%. Amounts are the "+state.year+" national allocation split between 156 constituencies — allocations, not reported spending.";
+    var title=document.getElementById("splitTitle");
+    if(title) title.textContent=state.year+" — where the year's CDF goes: the 57 / 19 / 19 / 5 split";
+  }
+
   function renderMoveTable(){
     if(!document.getElementById("moveTable")) return;
     var el=document.getElementById("moveTable"); el.innerHTML="";
@@ -236,7 +251,7 @@
     if(barsEl){ var cols=barsEl.querySelectorAll(".barcol");
     YEARS.forEach(function(yy,i){ cols[i].className="barcol"+(yy.year===y?" sel":""); });
     }
-    renderDonut(per); renderFlow(); renderMoveTable(); renderProvinces(); renderDetail();
+    renderDonut(per); renderFlow(); renderSplitBar(); renderMoveTable(); renderProvinces(); renderDetail();
   }
 
   function renderDelivered(){
