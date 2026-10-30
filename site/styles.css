@@ -250,3 +250,29 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 .pageband .crumbs a{color:#f3d34a}
 .pageband h1{font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin:0}
 .pageband .bandsub{color:#cfe0cf;margin:6px 0 0;max-width:72ch}
+
+/* ===== MOTION — ticker, pulse, slideshow ===== */
+#bars .bar{transition:height .9s cubic-bezier(.2,.7,.2,1)}
+.ticker{display:flex;align-items:center;gap:12px;margin:14px 0 4px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 8px 8px 14px;text-decoration:none;color:var(--ink);overflow:hidden}
+.tick-label{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#b3860e;flex:none}
+.tick-viewport{overflow:hidden;flex:1;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+.tick-track{display:inline-flex;gap:18px;white-space:nowrap;width:max-content;animation:tickmove 40s linear infinite}
+.ticker:hover .tick-track{animation-play-state:paused}
+.tick-item b{color:var(--green-d)}
+.tick-dot{color:#b3860e;font-size:.6rem;align-self:center}
+@keyframes tickmove{to{transform:translateX(-50%)}}
+.pulse-ring{fill:none;stroke:#d4a017;stroke-width:3;pointer-events:none;transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-out infinite}
+@keyframes pulse{0%{transform:scale(.3);opacity:.95}70%{opacity:.3}100%{transform:scale(1.5);opacity:0}}
+.slides{position:relative;border-radius:18px;overflow:hidden;margin:16px 0 6px;min-height:300px;background:#0d3b22;box-shadow:0 12px 32px rgba(13,43,23,.22)}
+.slides .slide{position:absolute;inset:0;margin:0;opacity:0;transition:opacity 1.2s ease}
+.slides .slide.on{opacity:1}
+.slides .slide img{width:100%;height:100%;object-fit:cover;display:block}
+.slides .cap{position:absolute;left:0;right:0;bottom:0;padding:30px 20px 14px;background:linear-gradient(transparent,rgba(6,26,14,.88));color:#fff;display:flex;flex-direction:column;gap:2px}
+.slides .cap b{font-size:1.05rem}
+.slides .cap span{font-size:.85rem;color:#cfe0cf}
+@media (prefers-reduced-motion: reduce){
+  .tick-track{animation:none}
+  .pulse-ring{animation:none;opacity:.45}
+  .slides .slide{transition:none}
+  #bars .bar{transition:none}
+}
