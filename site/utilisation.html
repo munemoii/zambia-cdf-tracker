@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
 <title>Utilisation — Zambia CDF Tracker</title>
-<meta name="description" content="Where CDF money slows down: the cascade from allocation to release to use, the Auditor-General's audit of 4,879 projects, and the rural lens — rural share versus completion for all ten provinces.">
+<meta name="description" content="Where CDF money slows down: the cascade from allocation to release to use, year by year, and the Auditor-General's audit of 4,879 projects.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Zambia CDF Tracker">
 <meta property="og:title" content="Utilisation — Zambia CDF Tracker">
-<meta property="og:description" content="Allocated is not the same as used. CDF utilisation, the audit record, and the rural lens — from published figures only.">
+<meta property="og:description" content="Allocated is not the same as used. CDF utilisation and the audit record — from published figures only.">
 <meta property="og:url" content="https://sprightly-sunshine-f93b94.netlify.app/utilisation.html">
 <meta property="og:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="styles.css?v=25">
+<link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
 <div class="wrap">
@@ -34,8 +34,13 @@
   <div class="pageband"><div class="pageband-in">
     <nav class="crumbs"><a href="index.html">Home</a> › <a href="money.html">The Money</a> › Utilisation</nav>
     <h1>Utilisation</h1>
-    <p class="bandsub">Where the money slows down — the journey from budget line to finished project, and how it looks through a rural lens.</p>
+    <p class="bandsub">Where the money slows down — the journey from budget line to finished project.</p>
   </div></div>
+
+  <nav class="subnav" aria-label="Utilisation and the rural lens">
+    <a href="utilisation.html" aria-current="page">Utilisation</a>
+    <a href="rural.html">The Rural Lens</a>
+  </nav>
 
   <section>
     <div class="sec-head">
@@ -64,33 +69,14 @@
   </section>
 
   <section>
-    <div class="sec-head">
-      <p class="eyebrow">The rural lens</p>
-      <h2>Who finishes what they start?</h2>
-      <p>Rural provinces against urban ones, head to head: every province shows its rural share, its urban share, and the completed share of its tracked projects. The groups: rural means at least 70% rural, urban means at most 25% rural — North-Western (58%) sits in between. Same K40 million per constituency — very different terrain.</p>
-    </div>
-    <div class="card">
-      <div id="groupSum" class="groupsum"></div>
-      <div id="ruralRows"></div>
-      <p class="chart-note">Read it carefully: the completed share measures the <b>published record</b> — where councils publish handovers and commissionings, completion shows; where they publish only approval lists, the trail stops at approval. Rurality: ZamStats, 2022 Census Preliminary Report, Figure 3.7 (the final census report puts the national rural share at 55.3%).</p>
-      <p style="margin-bottom:0"><b>The honest pattern:</b> it is not the expected one. Luapula (85% rural) and Western (81% rural) show the highest completion shares in the record, while the urban Copperbelt sits near the bottom. What separates provinces today is less geography than the kind of record their councils publish — the rural question closes only when every province publishes delivery, not just approvals.</p>
-    </div>
-  </section>
-
-  <section>
-    <div class="sec-head">
-      <p class="eyebrow">What gets built where</p>
-      <h2>Delivery looks different in rural areas</h2>
-      <p>In the rural provinces, three things dominate the tracked record — classrooms and desks, water points, clinics. That is the delivery a rural voter can see and touch. Urban delivery spreads wider, with far more spent on roads, drainage and police posts. Project types are read from the names in the published lists — a guide, not an audit.</p>
-    </div>
-    <div class="card">
-      <div id="typeMix"></div>
-      <p class="chart-note" style="margin-bottom:0"><b>The pattern to watch:</b> rural delivery is concentrated in exactly the basics — education, water, health — that were scarce before CDF. Constituency-level election results belong on the record too — as plain baseline data, recorded the same way as the money, with no politics attached. A baseline like that is what lets a delivery record like this one be used by anyone: to understand a place, and to project outcomes in future. For now the tracker records the delivery.</p>
-    </div>
+    <a class="pcard" href="rural.html" style="display:block">
+      <h3>Continue: The Rural Lens<span class="parr" aria-hidden="true">→</span></h3>
+      <p class="pcard-sub">Rural share versus completion for all ten provinces — and what gets built where. The same money, very different terrain.</p>
+    </a>
   </section>
 
   <footer>
-    <p><a href="money.html">← Back to The Money</a> · <a href="provinces.html">Provinces</a> · <a href="projects.html">Projects</a></p>
+    <p><a href="rural.html">The Rural Lens</a> · <a href="money.html">← Back to The Money</a> · <a href="provinces.html">Provinces</a> · <a href="projects.html">Projects</a></p>
   </footer>
 </div>
 <script src="data.js?v=9"></script>

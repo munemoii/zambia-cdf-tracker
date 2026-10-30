@@ -538,3 +538,10 @@ footer:not(.sitefoot) li{color:#cfe0cf}
   footer:not(.sitefoot){padding:20px}
   .stack.tall{height:30px}
 }
+
+/* ===== section sub-navigation (Utilisation / Rural Lens) ===== */
+.subnav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 2px}
+.subnav a{padding:9px 18px;border-radius:99px;border:1px solid var(--line);background:var(--surface);font-weight:700;color:var(--ink);text-decoration:none;transition:border-color .15s ease,background .15s ease}
+.subnav a:hover{border-color:var(--green)}
+.subnav a[aria-current="page"]{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+@media (prefers-color-scheme: dark){.subnav a[aria-current="page"]{color:#0d1a12}}

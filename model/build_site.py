@@ -70,7 +70,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=25">
+<link rel="stylesheet" href="{prefix}styles.css?v=26">
 </head>
 <body>
 <div class="wrap">
@@ -185,7 +185,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/rural.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
 
     # ---------- provinces index ----------
     cards = []
