@@ -195,14 +195,14 @@
   :focus-visible{outline:2px solid #b3860e;outline-offset:2px}
 
 /* ===== generated pages (province / constituency / project) ===== */
-.pagewrap{max-width:1060px;margin:0 auto;padding:8px 20px 30px}
+.pagewrap{max-width:1060px;margin:0 auto;padding:8px 18px 30px}
 .sitehead{margin:0;padding:16px 0 8px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
 .wordmark{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.5rem;text-transform:uppercase;letter-spacing:.02em;color:var(--green-d);text-decoration:none}
 .wordmark em{font-style:normal;color:#b3860e}
 .sitenav{display:flex;gap:2px;flex-wrap:wrap;width:calc(100% + 11px);margin-left:-11px;border-top:1px solid var(--line);padding-top:9px}
 .sitenav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:.95rem}
 .sitenav a:hover{color:var(--green-d);text-decoration:underline}
-.crumbs{max-width:1060px;margin:0 auto;padding:8px 20px 0;font-size:.88rem;color:var(--muted)}
+.crumbs{max-width:1060px;margin:0 auto;padding:8px 18px 0;font-size:.88rem;color:var(--muted)}
 .crumbs a{color:var(--green-d);text-decoration:none}
 .crumbs a:hover{text-decoration:underline}
 .ptitle{font-size:clamp(1.9rem,4.5vw,2.9rem);margin:10px 0 6px}
@@ -230,7 +230,7 @@ a.cchip:hover{border-color:#b3860e}
 .pfig img{width:100%;border-radius:14px;display:block}
 .pfig figcaption{font-size:.85rem;color:var(--muted);margin-top:5px}
 .srccard{margin-top:16px}
-.sitefoot{max-width:1060px;margin:0 auto;padding:10px 20px 34px;color:var(--muted);font-size:.9rem}
+.sitefoot{padding:10px 0 34px;color:var(--muted);font-size:.9rem}
 .sitefoot a{color:var(--green-d)}
 
 /* ===== DESIGN v2 — editorial system ===== */
@@ -258,7 +258,7 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 .mtable td{padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
 .mtable tbody tr:nth-child(even){background:rgba(20,83,45,.04)}
 .pageband{background:linear-gradient(135deg,#0d3b22,#14532d);color:#eaf3ea;margin:0;padding:22px 0 18px;border-radius:0 0 18px 18px}
-.pageband-in{max-width:1060px;margin:0 auto;padding:0 20px}
+.pageband-in{max-width:1060px;margin:0 auto;padding:0 18px}
 .pageband .crumbs{padding:0;margin:0 0 6px;color:#b9d2b9}
 .pageband .crumbs a{color:#f3d34a}
 .pageband h1{font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin:0}
@@ -339,8 +339,10 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
   .pageband-in{padding:0 14px}
   .pageband h1{font-size:1.95rem}
   .crumbs{padding:8px 14px 0;font-size:.84rem}
-  .sitefoot{padding:10px 14px 30px}
+  .sitefoot{padding:10px 0 30px}
   .lede{font-size:1rem}
+  header.top .eyebrow{font-size:.74rem;letter-spacing:.1em}
+  .ggrid{grid-template-columns:1fr 1fr;gap:10px}
   .snapshot{flex:1 1 100%;min-width:0}
   .years{margin:16px 0 12px}
   .ypill{padding:10px 15px}
@@ -388,7 +390,8 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
 @media (max-width:400px){
   .kpis{grid-template-columns:1fr 1fr}
   .kpi .v{font-size:1.6rem}
-  .tiles{grid-template-columns:1fr}
+  .tiles{grid-template-columns:1fr 1fr}
+  .tile .v{font-size:1.5rem}
 }
 
 /* ===== province page: year switcher highlight ===== */
