@@ -341,9 +341,9 @@
     var q = (document.getElementById('projSearch').value || '').toLowerCase();
     var pc = document.getElementById('provChips');
     if (pc) {
-      pc.innerHTML = '<button type="button" class="chip' + (!xpProv ? ' on' : '') + '" data-pv="">All provinces</button>' +
+      pc.innerHTML = '<button type="button" class="chip' + (!xpProv ? ' on' : '') + '" aria-pressed="' + (!xpProv) + '" data-pv="">All provinces</button>' +
         X.provinces.map(function(p){
-          return '<button type="button" class="chip' + (xpProv === p.name ? ' on' : '') + '" data-pv="' + p.name + '">' + p.name + ' · ' + p.totalProjects + '</button>';
+          return '<button type="button" class="chip' + (xpProv === p.name ? ' on' : '') + '" aria-pressed="' + (xpProv === p.name) + '" data-pv="' + p.name + '">' + p.name + ' · ' + p.totalProjects + '</button>';
         }).join('');
       pc.querySelectorAll('.chip').forEach(function(b){
         b.addEventListener('click', function(){ xpProv = b.dataset.pv || null; pilotSel = null; renderProjects(); });
@@ -353,7 +353,7 @@
     (P ? [P] : X.provinces).forEach(function(p){ p.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){ seen[pr.status] = 1; }); }); });
     var schips = ['all'].concat(Object.keys(STATUS).filter(function(k){ return seen[k]; }));
     document.getElementById('statusChips').innerHTML = schips.map(function(k){
-      return '<button type="button" class="chip' + (pilotStatus === k ? ' on' : '') + '" data-st="' + k + '">' +
+      return '<button type="button" class="chip' + (pilotStatus === k ? ' on' : '') + '" aria-pressed="' + (pilotStatus === k) + '" data-st="' + k + '">' +
         (k === 'all' ? 'All statuses' : STATUS[k].label) + '</button>';
     }).join('');
     document.querySelectorAll('#statusChips .chip').forEach(function(b){
