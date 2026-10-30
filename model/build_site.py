@@ -127,6 +127,16 @@ PLACE_MEDIA = {
         "caption": "Nkwashi Dam, Chongwe",
         "credit": "Photo: Daka Eric — CC BY-SA 4.0, via Wikimedia Commons",
     },
+    ("constituency", "Rufunsa"): {
+        "url": "/photos/rufunsa-classrooms-opening.jpg",
+        "caption": "New CDF classroom blocks opened in Rufunsa District — Mwachilele, Ebenezer and Chaola primary schools",
+        "credit": "Photo: Rufunsa Town Council",
+    },
+    ("constituency", "Chilanga"): {
+        "url": "/photos/chilanga-classrooms-handover.jpg",
+        "caption": "Classroom blocks handed over in Chilanga, May 2026 — Lusaka West Day Secondary, Sekelela Community and St Michael's Secondary schools",
+        "credit": "Photo: Chilanga Town Council",
+    },
 }
 
 
