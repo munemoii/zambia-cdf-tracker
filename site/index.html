@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=24">
+<link rel="stylesheet" href="styles.css?v=25">
 </head>
 <body>
 <div class="wrap">
@@ -40,7 +40,8 @@
   </header>
 
 
-  <header class="top">
+  <header class="top hero">
+    <img class="hero-map" src="img/zm-outline.png" alt="" aria-hidden="true">
     <div>
       <p class="eyebrow" style="margin-bottom:10px">Zambia · Constituency Development Fund</p>
       <h1>Follow every <em>kwacha</em>.</h1>
@@ -77,6 +78,20 @@
     </div>
     <p class="bnote">Auditor-General's report on the Constituency Development Fund (2024), published October 2026. This board exists so those numbers stay in public view until they improve.</p>
   </div>
+
+  <section>
+    <div class="sec-head">
+      <p class="eyebrow">The tracked record</p>
+      <h2>The record, project by project</h2>
+      <p>Every project this tracker follows — <b id="recordTotal">1,492</b> of them — sorted by the status its own published source gives it. Approvals are paper; completions are proof. The distance between the two is the story of CDF delivery.</p>
+    </div>
+    <div class="card">
+      <h3>All tracked projects, by status</h3>
+      <p class="sub">From the published record only — council lists, commissioning and handover reports, CDFC minutes and tender notices.</p>
+      <div id="statusMix"></div>
+    </div>
+    <div class="tiles" id="recordTiles" style="margin-top:12px"></div>
+  </section>
 
 <section>
     <div class="grid2">
@@ -172,15 +187,15 @@
   </footer>
 </div>
 
-<script src="data.js?v=8"></script>
+<script src="data.js?v=9"></script>
 <script src="map.js?v=3"></script>
-<script src="app.js?v=20"></script>
+<script src="app.js?v=21"></script>
 <script src="motion.js?v=7"></script>
 
 <script>
 /* Collapsible sections: every section becomes a dropdown; the money-movement story stays open. */
 (function(){
-  var OPEN_BY_DEFAULT = { 'Did the money move?': true };
+  var OPEN_BY_DEFAULT = { 'Did the money move?': true, 'The record, project by project': true };
   document.querySelectorAll('section').forEach(function(sec){
     var head = sec.querySelector('.sec-head');
     var h2 = head && head.querySelector('h2');

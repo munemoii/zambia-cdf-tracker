@@ -495,3 +495,46 @@ h3.ghead{font-size:1.05rem}
 .aud h3 { margin: 0 0 6px; font-size: 17px; }
 .aud p { margin: 0; font-size: 14px; color: var(--muted); }
 @media (max-width: 700px) { .audience { grid-template-columns: 1fr; } }
+
+/* ===== DESIGN v3 — grand hero, chart polish, the tracked record (2026-10-30) ===== */
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#0b3520,#14532d 62%,#17603a);border-radius:22px;padding:36px 34px 26px;margin-bottom:6px;box-shadow:0 18px 44px rgba(13,43,23,.28)}
+.hero .hero-map{position:absolute;right:-64px;top:50%;transform:translateY(-50%);width:620px;max-width:none;opacity:.5;pointer-events:none}
+.hero>div{position:relative;z-index:1}
+.hero .eyebrow{color:#f3d34a}
+.hero h1{color:#fff;font-size:clamp(3rem,8vw,5.4rem)}
+.hero h1 em{color:var(--gold)}
+.hero .lede{color:#cfe0cf;font-size:1.13rem;max-width:58ch}
+.hero .snapstrip{border-top:1px solid rgba(255,255,255,.20);margin-top:26px;padding-top:14px}
+.hero .snapstrip .k{color:#f3d34a}
+.hero .snapstrip .v{color:#fff}
+.hero .snapstrip .s{color:#b9d2b9}
+.kpi{border-top:3px solid var(--gold)}
+.kpi::after{display:none}
+section{margin-top:40px}
+.bars{border-bottom:2px solid var(--line)}
+.barcol .bar{background:linear-gradient(180deg,#2c8a5c,var(--green-deep));border:none;border-radius:8px 8px 3px 3px}
+.barcol.sel .bar{background:linear-gradient(180deg,#f6c445,#d4a017);box-shadow:0 8px 18px rgba(212,160,23,.35)}
+.barcol .amt{font-size:1.04rem}
+.barcol.sel .amt{color:#b3860e}
+.barcol.sel .yr{font-weight:700}
+.stack .seg{display:block;height:100%}
+.stack.tall{height:36px;border-radius:10px;box-shadow:inset 0 0 0 1px rgba(13,43,23,.08)}
+.reclegs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:6px 22px;margin-top:12px}
+.recleg{display:flex;align-items:center;gap:8px;font-size:.94rem}
+.recleg .dot{width:11px;height:11px;border-radius:3px;flex:none}
+.recleg .rl{flex:1;font-weight:600}
+.recleg .rn{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.08rem}
+.recleg .rp{color:var(--muted);min-width:52px;text-align:right;font-variant-numeric:tabular-nums}
+footer:not(.sitefoot){background:linear-gradient(135deg,#0b3520,#14532d);border-radius:18px;padding:26px 28px;color:#cfe0cf;margin-top:44px}
+footer:not(.sitefoot) h3{color:#fff;font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.05em;font-size:1.1rem}
+footer:not(.sitefoot) a{color:#f3d34a}
+footer:not(.sitefoot) li{color:#cfe0cf}
+.sitefoot{border-top:1px solid var(--line);margin-top:40px;padding-top:18px}
+.pageband{background-image:url("img/zm-outline.png"),linear-gradient(135deg,#0d3b22,#14532d);background-repeat:no-repeat;background-position:right -46px center,0 0;background-size:auto 175%,cover}
+@media (max-width:760px){
+  .hero{padding:26px 20px 20px;border-radius:18px}
+  .hero .hero-map{width:400px;right:-150px;opacity:.38}
+  .hero .lede{font-size:1.04rem}
+  footer:not(.sitefoot){padding:20px}
+  .stack.tall{height:30px}
+}

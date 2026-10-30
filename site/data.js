@@ -35417,5 +35417,22 @@ window.CDF_DATA = {
         "urbanPct": 6.2
       }
     ]
+  },
+  "record": {
+    "total": 1492,
+    "statuses": {
+      "approved": 786,
+      "completed": 537,
+      "funded": 10,
+      "in_progress": 37,
+      "ongoing": 118,
+      "stalled": 3,
+      "unknown": 1
+    },
+    "completedPct": 36.0,
+    "approvedPct": 53.4,
+    "withPhoto": 23,
+    "constituencies": 119,
+    "provinces": 10
   }
 };

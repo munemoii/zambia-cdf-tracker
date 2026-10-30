@@ -1,7 +1,7 @@
 (function(){
   // All figures live in data.js (window.CDF_DATA) so the weekly source check
   // can refresh the dashboard by updating that one file.
-  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},delivered:[],news:[],pilot:null};
+  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},delivered:[],news:[],pilot:null,record:null};
   var YEARS=D.years;
   var SEATS=D.seats;
   var PROVINCES=D.provinces;
@@ -661,6 +661,36 @@
     if (sum) sum.textContent = total;
   }
   var _ps=document.getElementById('projSearch'); if(_ps) _ps.addEventListener('input', renderProjects);
+  function renderRecord(){
+    var mount=document.getElementById("statusMix"); if(!mount||!D.record) return;
+    var R=D.record, total=R.total||0; if(!total) return;
+    var ORDER=[
+      {key:"completed",label:"Completed",color:"#167347"},
+      {key:"ongoing",label:"Ongoing",color:"#e87511"},
+      {key:"in_progress",label:"In progress",color:"#3fb27f"},
+      {key:"approved",label:"Approved",color:"#d4a017"},
+      {key:"funded",label:"Funded",color:"#8a6d1f"},
+      {key:"stalled",label:"Stalled",color:"#bf3b26"},
+      {key:"unknown",label:"Status not stated",color:"#9aa79d"}
+    ];
+    var segs="", leg="";
+    ORDER.forEach(function(o){
+      var n=(R.statuses&&R.statuses[o.key])||0; if(!n) return;
+      var pct=n/total*100;
+      segs+='<span class="seg" style="background:'+o.color+';width:'+pct+'%"></span>';
+      leg+='<div class="recleg"><span class="dot" style="background:'+o.color+'"></span><span class="rl">'+o.label+'</span><span class="rn">'+n.toLocaleString()+'</span><span class="rp">'+pct.toFixed(1)+'%</span></div>';
+    });
+    mount.innerHTML='<div class="stack tall" role="img" aria-label="Status mix of all tracked projects">'+segs+'</div><div class="reclegs">'+leg+'</div>';
+    var tiles=document.getElementById("recordTiles");
+    if(tiles){
+      tiles.innerHTML=
+      '<div class="tile"><div class="v">'+R.completedPct+'%</div><div class="t">Proven completed</div><div class="d">The share of the tracked record a published source shows finished — the ground-truth layer.</div></div>'+
+      '<div class="tile"><div class="v">'+R.approvedPct+'%</div><div class="t">Still at the paper stage</div><div class="d">Approved or funded on published lists, not yet shown delivered. This is the gap to watch.</div></div>'+
+      '<div class="tile"><div class="v">'+R.constituencies+'</div><div class="t">Constituencies with tracked projects</div><div class="d">Of 156, across all '+R.provinces+' provinces — and '+R.withPhoto+' projects carry a real photo.</div></div>';
+    }
+    var tt=document.getElementById("recordTotal"); if(tt) tt.textContent=total.toLocaleString();
+  }
+  renderRecord();
   renderUtilisation();
   renderScenario();
   renderProjects();

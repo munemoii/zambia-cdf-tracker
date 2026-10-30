@@ -270,10 +270,23 @@ def main():
                           "fundingYearKnown": sum(all_fy.values())}
         pilot = next((p for p in prov_objs if p["name"] == "Lusaka"), None)
 
+    # --- the tracked record (national status mix for the analytics sections) ---
+    _status_counts = dict(c.execute("SELECT status, COUNT(*) FROM projects GROUP BY status").fetchall())
+    _rec_total = sum(_status_counts.values())
+    record = {
+        "total": _rec_total,
+        "statuses": _status_counts,
+        "completedPct": round(_status_counts.get("completed", 0) / _rec_total * 100, 1) if _rec_total else 0,
+        "approvedPct": round((_status_counts.get("approved", 0) + _status_counts.get("funded", 0)) / _rec_total * 100, 1) if _rec_total else 0,
+        "withPhoto": c.execute("SELECT COUNT(*) FROM projects WHERE photo_url IS NOT NULL AND photo_url <> ''").fetchone()[0],
+        "constituencies": c.execute("SELECT COUNT(DISTINCT constituency_id) FROM projects").fetchone()[0],
+        "provinces": c.execute("SELECT COUNT(DISTINCT k.province_id) FROM projects pr JOIN constituencies k ON k.id = pr.constituency_id").fetchone()[0],
+    }
+
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util,
+        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util, "record": record,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"
