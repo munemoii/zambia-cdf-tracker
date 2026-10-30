@@ -480,3 +480,18 @@ h3.ghead{font-size:1.05rem}
 .vbar.slim .vt{height:9px}
 .vbar.slim .vl{font-size:.85rem}
 .vbar.slim .vv{font-size:.95rem}
+
+/* Utilisation comparison + audience rules (restored 2026-10-30; a parallel roadmap commit had rewritten styles.css without them) */
+.vf.urban { background: color-mix(in srgb, var(--ink) 24%, transparent); }
+.groupsum { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+.gcard-l { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.gcard-v { margin: 2px 0 0; font-family: var(--cond); font-size: 34px; font-weight: 700; color: var(--green-deep); line-height: 1; }
+.gcard-s { margin: 4px 0 0; font-size: 12.5px; color: var(--muted); }
+@media (max-width: 560px) { .groupsum { grid-template-columns: 1fr; } }
+.tmix { margin-bottom: 14px; }
+.tmix-h { margin: 0 0 4px; font-weight: 700; font-size: 14.5px; }
+.audience { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.aud { border: 1px solid var(--line); border-radius: 14px; padding: 16px; background: var(--panel); }
+.aud h3 { margin: 0 0 6px; font-size: 17px; }
+.aud p { margin: 0; font-size: 14px; color: var(--muted); }
+@media (max-width: 700px) { .audience { grid-template-columns: 1fr; } }
