@@ -54,7 +54,7 @@ def badge(st):
     return f'<span class="badge" style="background:{color}">{label}</span>'
 
 
-def shell(title, desc, prefix, body, og_image=None, crumb=""):
+def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None):
     og = og_image or f"{BASE}/og-card.png"
     return f"""<!doctype html>
 <html lang="en">
@@ -91,7 +91,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
 <div class="pageband"><div class="pageband-in">
 {crumb}
 <h1>{html.escape(title)}</h1>
-<p class="bandsub">{html.escape(desc)}</p>
+<p class="bandsub">{html.escape(deck if deck is not None else desc)}</p>
 </div></div>
 <main>
 {body}
@@ -435,15 +435,15 @@ def main():
             slug = f"{slug}-{nid}"
         _used_slugs.add(slug)
         paras = [p.strip() for p in ntext.split("\n\n") if p.strip()]
-        body = f"<p class=\"plede\">{_fmt_date_long(item_date)} · {html.escape(source_label)}</p>\n"
-        body += "\n".join(f"<p>{html.escape(p)}</p>" for p in paras)
+        body = "\n".join(f"<p>{html.escape(p)}</p>" for p in paras)
         if surl:
             body += f"\n<p class=\"chart-note\">Source: <a href=\"{html.escape(surl)}\" target=\"_blank\" rel=\"noopener\">{html.escape(spub or source_label)}</a>{' — ' + html.escape(stitle) if stitle else ''}</p>"
         body += "\n<p><a href=\"../developments.html\">← All developments</a></p>"
         short = ntitle if len(ntitle) <= 60 else ntitle[:57] + "…"
         (SITE / "developments" / f"{slug}.html").write_text(shell(
             ntitle, (paras[0][:155] if paras else ntitle), "../", body,
-            crumb=crumbs("../", [("Developments", "developments.html"), (short, None)])))
+            crumb=crumbs("../", [("Developments", "developments.html"), (short, None)]),
+            deck=f"{_fmt_date_long(item_date)} · {source_label}"))
         urls.append(f"{BASE}/developments/{slug}.html")
 
     # ---------- sitemap + robots ----------
