@@ -24,7 +24,7 @@
   .flagstripe span{flex:1}.flagstripe .g{background:#198a00}.flagstripe .r{background:#de2010}.flagstripe .k{background:#222}.flagstripe .o{background:#ef7d00}
   @media (prefers-color-scheme: dark){.flagstripe .k{background:#e8e8e8}}
 
-  header.top{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-end;justify-content:space-between;margin-bottom:8px}
+  header.top{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px;align-items:end;margin-bottom:8px}
   h1{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:clamp(2.3rem,6vw,3.9rem);line-height:.95;letter-spacing:.01em;margin:0;text-transform:uppercase}
   h1 em{font-style:normal;color:var(--green)}
   .lede{max-width:640px;color:var(--muted);font-size:1.06rem;margin:10px 0 0}
@@ -136,6 +136,8 @@
   footer li{margin-bottom:4px}
 
   @media (max-width:900px){
+  header.top{grid-template-columns:1fr}
+  .snapshot{min-width:0}
     .kpis{grid-template-columns:repeat(2,1fr)}
     .grid2,.explorer{grid-template-columns:1fr}
     .tiles{grid-template-columns:repeat(2,1fr)}
@@ -190,10 +192,10 @@
 
 /* ===== generated pages (province / constituency / project) ===== */
 .pagewrap{max-width:1060px;margin:0 auto;padding:8px 20px 30px}
-.sitehead{max-width:1060px;margin:0 auto;padding:16px 20px 6px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.sitehead{margin:0;padding:16px 0 8px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
 .wordmark{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.5rem;text-transform:uppercase;letter-spacing:.02em;color:var(--green-d);text-decoration:none}
 .wordmark em{font-style:normal;color:#b3860e}
-.sitenav{display:flex;gap:16px;flex-wrap:wrap}
+.sitenav{display:flex;gap:2px;flex-wrap:wrap;width:100%;border-top:1px solid var(--line);padding-top:9px}
 .sitenav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:.95rem}
 .sitenav a:hover{color:var(--green-d);text-decoration:underline}
 .crumbs{max-width:1060px;margin:0 auto;padding:8px 20px 0;font-size:.88rem;color:var(--muted)}
@@ -316,7 +318,7 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
 .cchip .cnt{background:var(--green-soft);color:var(--green-deep);border-radius:99px;padding:1px 9px;font-size:.78rem;font-weight:700;white-space:nowrap}
 .cchip .arr{color:#b3860e;font-weight:700;font-size:1.05rem;line-height:1}
 .sitenav{gap:6px}
-.sitenav a{padding:7px 13px;border-radius:99px;border:1px solid transparent;transition:background .15s ease,border-color .15s ease}
+.sitenav a{padding:6px 11px;border-radius:99px;border:1px solid transparent;transition:background .15s ease,border-color .15s ease}
 .sitenav a:hover{background:var(--green-soft);border-color:var(--line);color:var(--green-deep);text-decoration:none}
 .pcard{transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
 .pcard:hover{box-shadow:0 8px 20px rgba(13,43,23,.10);transform:translateY(-2px)}
@@ -324,7 +326,7 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
 /* ===== MOBILE PASS — phones get the full design, not a squeeze ===== */
 @media (max-width:760px){
   .wrap{padding:16px 14px 44px}
-  .sitehead{padding:12px 14px 4px;gap:10px}
+  .sitehead{padding:12px 0 4px;gap:8px}
   .wordmark{font-size:1.28rem}
   .sitenav{gap:4px}
   .sitenav a{padding:7px 10px;font-size:.9rem}
