@@ -144,6 +144,15 @@
       html+='<div class="srow"><span class="st">'+c.label+'<small>'+c.pct+'% of province total</small></span><span class="sa">'+fmtM(c.amount)+'</span></div>';
     });
     html+='</div><p class="chart-note">That works out to about '+fmtM(total/ (p.seats))+' per constituency in this province — the same as everywhere else in Zambia, by design.</p>';
+    var yrs=(D.years||[]).slice().sort(function(a,b){var av=(typeof a==='object')?a.year:a, bv=(typeof b==='object')?b.year:b; return av-bv;});
+    if(yrs.length>1){
+      html+='<h4 class="yt-head">'+p.name+' by year</h4><table class="ytable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody>';
+      yrs.forEach(function(y){
+        var yv=(typeof y==='object')?y.year:y, r=(typeof y==='object'&&y.per!=null)?y.per:perOf(yv);
+        html+='<tr'+(yv===state.year?' class="yr-on"':'')+'><td>'+yv+'</td><td>'+fmtM(r)+'</td><td>'+fmtM(p.seats*r)+'</td></tr>';
+      });
+      html+='</tbody></table><p class="chart-note">Every year for this province — the highlighted row is the year selected at the top of the page.</p>';
+    }
     document.getElementById("detailCard").innerHTML=html;
   }
 

@@ -293,3 +293,11 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 @media (prefers-reduced-motion: reduce){
   .slides .slide.on img{animation:none}
 }
+
+/* ===== province detail: by-year table ===== */
+.yt-head{font-family:"Barlow Condensed",sans-serif;letter-spacing:.06em;text-transform:uppercase;font-size:.95rem;margin:16px 0 6px;color:var(--green-d)}
+.ytable{width:100%;border-collapse:collapse;font-size:.93rem}
+.ytable th,.ytable td{padding:6px 8px;border-top:1px solid var(--line);text-align:right}
+.ytable th:first-child,.ytable td:first-child{text-align:left}
+.ytable thead th{border-top:none;color:var(--muted);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.05em}
+.ytable tr.yr-on td{background:#eef4ea;font-weight:700;color:var(--green-d)}
