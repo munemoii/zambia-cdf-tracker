@@ -212,9 +212,9 @@ def main():
         for (cname,) in consts:
             n = len(tracked_here.get(cname, []))
             if n:
-                chips.append(f'<a class="cchip" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)} <span>{n} projects</span></a>')
+                chips.append(f'<a class="cchip" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)} <span class="cnt">{n} projects</span><span class="arr" aria-hidden="true">›</span></a>')
             else:
-                chips.append(f'<span class="cchip dim">{html.escape(cname)}</span>')
+                chips.append(f'<a class="cchip" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)}<span class="arr" aria-hidden="true">›</span></a>')
         total_tracked = sum(len(v) for v in tracked_here.values())
         if total_tracked:
             pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency.</p>'
@@ -291,6 +291,25 @@ def main():
                     crumb=crumbs("../", [("Provinces", "provinces.html"), (pvname, f"provinces/{slugify(pvname)}.html"), (cname2, f"constituencies/{slugify(cname2)}.html"), (name, None)])))
                 urls.append(f"{BASE}/{project_url(pr[0], pr[1])}")
 
+    # ---------- constituency pages for constituencies with no tracked projects yet ----------
+    covered = {(pn, cn) for pn, cs in by_province_const.items() for cn in cs}
+    all_consts = c.execute("""
+        SELECT p.name, k.name FROM constituencies k
+        JOIN provinces p ON p.id = k.province_id
+        JOIN delimitation_sets s ON s.id = k.set_id AND s.label = 'current-156'
+        ORDER BY p.name, k.name""").fetchall()
+    for pname, cname in all_consts:
+        if (pname, cname) in covered:
+            continue
+        body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · project-level tracking has not reached this constituency yet.</p>
+<div class="card"><h2 class="phead" style="margin-top:0">The publishing gap is part of the record</h2>
+<p>{html.escape(cname)} receives the same CDF allocation as every constituency — {fmt_m(rate[latest_year])} in {latest_year}. What its council has not yet published, in any list we can verify, is which projects that money is funding. This page will fill in as soon as a publishable list exists; the weekly check watches for one.</p>
+<p><a href="../provinces/{slugify(pname)}.html">See {html.escape(pname)} Province — allocations by year and all its constituencies</a></p></div>"""
+        (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
+            f"{cname} constituency", f"CDF in {cname}, {pname}: {fmt_m(rate[latest_year])} allocated in {latest_year}; project-level tracking has not reached this constituency yet — the publishing gap is part of the record.",
+            "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))
+        urls.append(f"{BASE}/constituencies/{slugify(cname)}.html")
+
     # ---------- sitemap + robots ----------
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{u}</loc></url>" for u in dict.fromkeys(urls)]
@@ -298,8 +317,9 @@ def main():
     (SITE / "sitemap.xml").write_text("\n".join(sm))
     (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 
+    n_const = len(list((SITE / "constituencies").glob("*.html")))
     print(f"built: 1 provinces index, {len(provinces)} province pages, "
-          f"{sum(len(v) for v in by_province_const.values()) and len([1 for p in by_province_const.values() for _ in p])} constituency pages, "
+          f"{n_const} constituency pages, "
           f"{len(projects)} project pages, sitemap {len(set(urls))} urls")
     con.close()
 

@@ -245,7 +245,8 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 .mtable th{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:.85rem;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:2px solid var(--line)}
 .mtable td{padding:8px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
 .mtable tbody tr:nth-child(even){background:rgba(20,83,45,.04)}
-.pageband{background:linear-gradient(135deg,#0d3b22,#14532d);color:#eaf3ea;margin:0 -20px;padding:22px 20px 18px;border-radius:0 0 18px 18px}
+.pageband{background:linear-gradient(135deg,#0d3b22,#14532d);color:#eaf3ea;margin:0;padding:22px 0 18px;border-radius:0 0 18px 18px}
+.pageband-in{max-width:1060px;margin:0 auto;padding:0 20px}
 .pageband .crumbs{padding:0;margin:0 0 6px;color:#b9d2b9}
 .pageband .crumbs a{color:#f3d34a}
 .pageband h1{font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin:0}
@@ -301,3 +302,76 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 .ytable th:first-child,.ytable td:first-child{text-align:left}
 .ytable thead th{border-top:none;color:var(--muted);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.05em}
 .ytable tr.yr-on td{background:#eef4ea;font-weight:700;color:var(--green-d)}
+
+/* ===== CLICKABLES v2 + overflow guard ===== */
+html,body{overflow-x:clip}
+.cchip{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:0 1px 2px rgba(13,43,23,.06);font-weight:600;color:var(--ink);text-decoration:none;transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
+a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12);transform:translateY(-1px)}
+.cchip .cnt{background:var(--green-soft);color:var(--green-deep);border-radius:99px;padding:1px 9px;font-size:.78rem;font-weight:700;white-space:nowrap}
+.cchip .arr{color:#b3860e;font-weight:700;font-size:1.05rem;line-height:1}
+.sitenav{gap:6px}
+.sitenav a{padding:7px 13px;border-radius:99px;border:1px solid transparent;transition:background .15s ease,border-color .15s ease}
+.sitenav a:hover{background:var(--green-soft);border-color:var(--line);color:var(--green-deep);text-decoration:none}
+.pcard{transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
+.pcard:hover{box-shadow:0 8px 20px rgba(13,43,23,.10);transform:translateY(-2px)}
+
+/* ===== MOBILE PASS — phones get the full design, not a squeeze ===== */
+@media (max-width:760px){
+  .wrap{padding:16px 14px 44px}
+  .sitehead{padding:12px 14px 4px;gap:10px}
+  .wordmark{font-size:1.28rem}
+  .sitenav{gap:4px}
+  .sitenav a{padding:7px 10px;font-size:.9rem}
+  .pagewrap{padding:8px 14px 26px}
+  .pageband{padding:18px 0 14px;border-radius:0 0 14px 14px}
+  .pageband-in{padding:0 14px}
+  .pageband h1{font-size:1.95rem}
+  .crumbs{padding:8px 14px 0;font-size:.84rem}
+  .sitefoot{padding:10px 14px 30px}
+  .lede{font-size:1rem}
+  .snapshot{flex:1 1 100%;min-width:0}
+  .years{margin:16px 0 12px}
+  .ypill{padding:10px 15px}
+  .kpis{gap:10px}
+  .kpi{padding:13px 13px 15px}
+  .kpi .v{font-size:1.8rem}
+  .kpi .s{font-size:.84rem}
+  .proofwrap{margin:12px 0 4px}
+  .proofwrap .slides{aspect-ratio:4/3.1;min-height:290px;border-radius:14px}
+  .slides .cap{padding:26px 14px 12px}
+  .slides .cap b{font-size:1rem}
+  .slides .cap span{font-size:.8rem}
+  .slides-head .slides-sub{font-size:.9rem}
+  .ticker{gap:8px;padding:7px 7px 7px 12px}
+  .tick-item{font-size:.93rem}
+  .board{padding:16px 16px 14px;border-radius:14px}
+  .board h2{font-size:1.3rem}
+  .board .bstat b{font-size:1.75rem}
+  .board .bgrid{gap:12px}
+  .sec-head p{font-size:.92rem}
+  h2{font-size:1.45rem}
+  .card{padding:15px}
+  .bars{height:160px}
+  .barcol .amt{font-size:.85rem}
+  .statrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .stat{min-width:0;padding:10px 13px}
+  .pgrid{grid-template-columns:1fr;gap:12px}
+  .pcard img{height:170px}
+  .factgrid{grid-template-columns:1fr 1fr;gap:10px 14px}
+  .cchip{padding:11px 14px}
+  .place-media img{max-height:230px}
+  .mtable th,.mtable td{padding:7px 8px;font-size:.93rem}
+  .ytable{font-size:.88rem}
+  .ytable th,.ytable td{padding:6px 5px}
+  .search{font-size:16px;padding:12px 14px}
+  .filters input[type=search]{font-size:16px}
+  .scen input[type=number]{font-size:16px}
+  .pdetail{padding:13px 13px}
+  .donut-row svg{width:132px;height:132px}
+  footer{font-size:.88rem}
+}
+@media (max-width:400px){
+  .kpis{grid-template-columns:1fr 1fr}
+  .kpi .v{font-size:1.6rem}
+  .tiles{grid-template-columns:1fr}
+}
