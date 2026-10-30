@@ -30,8 +30,8 @@ def main():
     const_ids = {r[1]: r[0] for r in con.execute(
         "SELECT id, name FROM constituencies WHERE set_id=1 AND province_id=?", (pid,))}
     existing_src_by_url = {r[1]: r[0] for r in con.execute("SELECT id, url FROM sources")}
-    existing_proj = {(r[0].strip().lower(), r[1]) for r in con.execute(
-        "SELECT p.name, c.name FROM projects p JOIN constituencies c ON c.id=p.constituency_id")}
+    existing_proj = {(r[0].strip().lower(), r[1], (r[2] or "").strip().lower()) for r in con.execute(
+        "SELECT p.name, c.name, p.ward FROM projects p JOIN constituencies c ON c.id=p.constituency_id")}
 
     with open(os.path.join(folder, "sources.csv"), newline="", encoding="utf-8") as f:
         src_rows = list(csv.DictReader(f))
@@ -61,7 +61,7 @@ def main():
             try: float(amt)
             except ValueError:
                 problems.append(f"{tag}: non-numeric budget '{r['budget_kwacha']}'"); continue
-        key = (r["name"].strip().lower(), r["constituency"])
+        key = (r["name"].strip().lower(), r["constituency"], (r["ward"] or "").strip().lower())
         if key in existing_proj:
             problems.append(f"{tag}: already in DB (duplicate)"); continue
         if key in seen:
