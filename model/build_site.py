@@ -70,7 +70,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=13">
+<link rel="stylesheet" href="{prefix}styles.css?v=14">
 </head>
 <body>
 <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
@@ -412,6 +412,32 @@ def main():
             f"{cname} constituency", f"CDF in {cname}, {pname}: {fmt_m(rate[latest_year])} allocated in {latest_year}; project-level tracking has not reached this constituency yet — the publishing gap is part of the record.",
             "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))
         urls.append(f"{BASE}/constituencies/{slugify(cname)}.html")
+
+    # ---------- development articles ----------
+    import datetime as _dt
+    def _fmt_date_long(iso):
+        d = _dt.date.fromisoformat(iso)
+        return f"{d.day} {d.strftime('%B %Y')}"
+    (SITE / "developments").mkdir(exist_ok=True)
+    _used_slugs = set()
+    for item_date, source_label, ntitle, ntext, nid, spub, stitle, surl in c.execute(
+            "SELECT ni.item_date, ni.source_label, ni.title, ni.text, ni.id, src.publisher, src.title, src.url "
+            "FROM news_items ni LEFT JOIN sources src ON src.id = ni.source_id ORDER BY ni.item_date DESC, ni.id DESC"):
+        slug = slugify(ntitle)
+        if slug in _used_slugs:
+            slug = f"{slug}-{nid}"
+        _used_slugs.add(slug)
+        paras = [p.strip() for p in ntext.split("\n\n") if p.strip()]
+        body = f"<p class=\"plede\">{_fmt_date_long(item_date)} · {html.escape(source_label)}</p>\n"
+        body += "\n".join(f"<p>{html.escape(p)}</p>" for p in paras)
+        if surl:
+            body += f"\n<p class=\"chart-note\">Source: <a href=\"{html.escape(surl)}\" target=\"_blank\" rel=\"noopener\">{html.escape(spub or source_label)}</a>{' — ' + html.escape(stitle) if stitle else ''}</p>"
+        body += "\n<p><a href=\"../developments.html\">← All developments</a></p>"
+        short = ntitle if len(ntitle) <= 60 else ntitle[:57] + "…"
+        (SITE / "developments" / f"{slug}.html").write_text(shell(
+            ntitle, (paras[0][:155] if paras else ntitle), "../", body,
+            crumb=crumbs("../", [("Developments", "developments.html"), (short, None)])))
+        urls.append(f"{BASE}/developments/{slug}.html")
 
     # ---------- sitemap + robots ----------
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

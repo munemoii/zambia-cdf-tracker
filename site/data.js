@@ -122,42 +122,48 @@ window.CDF_DATA = {
       "source": "Lusaka Brief, reporting News Diggers",
       "title": "2027 budget moved to 6 November — the CDF rate lands then",
       "text": "The 2027 national budget will now be presented to the National Assembly on Friday 6 November, a week later than the 30 October date the government itself set. Vice-President Mutale Nalumango, who announced the original date in a business statement on 24 October, told the House on 27 October that the presentation had moved because the government was \"still working on it\".\n\nThe shift followed a rapid reshuffle. Citizens First had publicly asked for a postponement until a full Cabinet was in place, arguing that ministers appointed on a Wednesday could not defend a budget on the Friday, and 24 Cabinet ministers were sworn in on 28 October. The week's delay also pushes back the ten working days of sector budget analysis that were to follow the presentation.\n\nFor the CDF, the speech is the moment the 2027 rate is set — the first budget of the 226-constituency era. At the Treasury's budget hearings earlier in October, Secretary to the Treasury Felix Nkulukusa projected CDF rising by K2.8 billion to about K9.0 billion in 2027, the arithmetic of holding the K40 million rate across all 226 constituencies. That was a hearings projection, not a decision: the rate and the constituency basis are confirmed only when the budget is read on 6 November, and this tracker will record them from the budget documents, not from the speculation ahead of them.",
-      "url": "https://lusakabrief.com/news/2027-budget-moved-friday-6-november-nalumango-still-working-on-it-house-resumes-24-november-cf-zipar/"
+      "url": "https://lusakabrief.com/news/2027-budget-moved-friday-6-november-nalumango-still-working-on-it-house-resumes-24-november-cf-zipar/",
+      "page": "developments/2027-budget-moved-to-6-november-the-cdf-rate-lands-then.html"
     },
     {
       "date": "26 October 2026",
       "source": "Auditor General's 2024 CDF report, via Zambian Economist",
       "title": "Auditor General: most 2024 projects finished, but funds left idle",
       "text": "The Auditor General's report on the 2024 Constituency Development Fund — the annual independent audit of the fund — found that 3,060 of the 4,879 CDF projects recorded for 2024 were completed, while 526 had not started at all. About six in ten projects finished; roughly one in nine never began.\n\nThe money tells the sharper story. Of K5.12 billion available to constituencies in 2024, about K771 million was still unspent — funds allocated and released but sitting idle while projects waited. The audit also examined the fund's loan book: of K375.3 million in CDF loans due, only K63.8 million had been collected, a recovery of about 17%.\n\nThe findings frame the tracker's central question. Zambia's CDF problem is no longer the size of the allocation — it has risen every year since 2021 — but the distance between money announced and work delivered. The idle balances and unrecovered loans in this report are the same weaknesses behind the suspension of new CDF loans in September 2026.",
-      "url": "https://zambianeconomist.com/budget-2027-run-up-what-the-numbers-say/"
+      "url": "https://zambianeconomist.com/budget-2027-run-up-what-the-numbers-say/",
+      "page": "developments/auditor-general-most-2024-projects-finished-but-funds-left-idle.html"
     },
     {
       "date": "13 October 2026",
       "source": "Zambian Observer",
       "title": "2027 CDF rate in question ahead of the budget",
       "text": "The 2027 CDF rate became a public argument this month. On 9 October, Finance and National Planning Minister Situmbeko Musokotwane warned that next year's CDF allocation would be lower than initially budgeted, pointing to revenue pressure and this year's overspending, including heavier-than-planned maize purchases by the Food Reserve Agency. He said the Treasury would communicate revised allocations to councils so they did not commit to procurement they could not pay for.\n\nFour days later, State House pushed back. Chief Communications Specialist Clayson Hamasaka clarified that the CDF allocation had not been reduced and remained K40 million per constituency; what government had done, he said, was realign disbursement to each constituency's needs and rate of absorption — the pace at which councils actually spend.\n\nBoth statements can be true at once, because they describe different things: the allocation rate on paper, and the cash actually released. The stakes are larger than in any previous year. The Electoral Commission confirmed in April 2026 that Zambia now has 226 constituencies, up from 156, so holding K40 million for every constituency would cost K9.04 billion against K6.24 billion in 2026. The tracker's rate ladder shows the climb the argument is about: K1.6 million in 2021, K25.7 million in 2022, K28.3 million in 2023, K30.6 million in 2024, K36.1 million in 2025 and K40 million in 2026. The 2027 budget, now due on 6 November, settles which statement describes next year.",
-      "url": "https://zambianobserver.com/state-house-makes-clarifications-on-fra-and-cdf/"
+      "url": "https://zambianobserver.com/state-house-makes-clarifications-on-fra-and-cdf/",
+      "page": "developments/2027-cdf-rate-in-question-ahead-of-the-budget.html"
     },
     {
       "date": "29 September 2026",
       "source": "Zambian Observer",
       "title": "2026 CDF loan component suspended",
       "text": "The government suspended the 2026 CDF empowerment loan component — the soft loans constituencies lend to local groups and small businesses from their CDF allocations. The pause followed weak repayment: only about 35% of CDF loans issued since 2021 had been recovered.\n\nLoans are one half of the fund's empowerment component, alongside grants to women and youth groups. They are meant to revolve — repaid money funds the next borrower in the constituency — so a low recovery rate does not just lose money once; it steadily shrinks what the constituency can lend.\n\nThe suspension lands on a pattern the Auditor General had already documented for 2024, when only about 17% of loans due were collected. The two figures measure different things — recovery on all loans since 2021, against collections on one year's dues — but they point the same way: lending is the fund's weakest link, and it is lending, not the whole CDF, that has been paused.",
-      "url": "https://zambianobserver.com/govt-suspends-2026-cdf-loans-as-repayment-rate-falls-to-35-percent/"
+      "url": "https://zambianobserver.com/govt-suspends-2026-cdf-loans-as-repayment-rate-falls-to-35-percent/",
+      "page": "developments/2026-cdf-loan-component-suspended.html"
     },
     {
       "date": "5 June 2026",
       "source": "Open Zambia",
       "title": "Extra K500 million CDF release reported",
       "text": "An additional K500 million CDF release took total 2026 disbursements to K2.2 billion by early June, according to Open Zambia's reporting of the release. Against the year's K6.24 billion allocation — K40 million for each of 156 constituencies — about a third of the 2026 fund had actually been released at that point.\n\nThe gap between allocation and release is a standing feature of the CDF, not an exception. In 2024 the Treasury released about 55% of the CDF provided for that year, and councils began that year holding billions in unspent balances carried over from earlier years. A constituency's published rate is therefore a ceiling, not a bank balance.\n\nThis tracker records releases separately from allocations for exactly that reason: the rate announcement sets the promise, and releases like this one are the instalments against it.",
-      "url": "https://www.openzambia.com/politics/2026/6/5/government-releases-fresh-cdf-funds-for-local-projects"
+      "url": "https://www.openzambia.com/politics/2026/6/5/government-releases-fresh-cdf-funds-for-local-projects",
+      "page": "developments/extra-k500-million-cdf-release-reported.html"
     },
     {
       "date": "3 February 2026",
       "source": "Open Zambia",
       "title": "First 2026 bursary tranche released",
       "text": "The first 2026 CDF bursary tranche released K100 million to constituencies — K641,025 for each of the 156 constituencies, the same amount for every constituency in the country.\n\nThe bursary component pays secondary-school boarding fees and skills-training bursaries for vulnerable learners in each constituency. It is the part of the fund most families meet directly, and it moves on its own calendar: school terms do not wait for the community-projects pipeline.\n\nThe equal per-constituency figure is the CDF's design in miniature — every constituency, whatever its population, receives the same share. Whether that equality is the fund's fairness or its flaw is the argument the 226-constituency expansion has now sharpened.",
-      "url": "https://www.openzambia.com/lifestyle/2026/2/3/government-disburses-k100-million-in-cdf-bursaries"
+      "url": "https://www.openzambia.com/lifestyle/2026/2/3/government-disburses-k100-million-in-cdf-bursaries",
+      "page": "developments/first-2026-bursary-tranche-released.html"
     }
   ],
   "pilot": {

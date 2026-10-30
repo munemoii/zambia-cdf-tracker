@@ -84,8 +84,19 @@ def main():
         v = int(v)
         delivered.append({"value": f"{v:,}{'+' if plus else ''}", "title": title, "desc": desc})
 
-    news = [{"date": fmt_date_long(d), "source": s, "title": t, "text": x, "url": u}
-            for d, s, t, x, u in c.execute("SELECT ni.item_date, ni.source_label, ni.title, ni.text, src.url FROM news_items ni LEFT JOIN sources src ON src.id = ni.source_id ORDER BY ni.item_date DESC")]
+    import re as _re_news
+    def _slugify_news(name):
+        s = name.lower().replace("&", "and")
+        return _re_news.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    news = []
+    _used_slugs = set()
+    for d, s, t, x, u, nid in c.execute("SELECT ni.item_date, ni.source_label, ni.title, ni.text, src.url, ni.id FROM news_items ni LEFT JOIN sources src ON src.id = ni.source_id ORDER BY ni.item_date DESC, ni.id DESC"):
+        slug = _slugify_news(t)
+        if slug in _used_slugs:
+            slug = f"{slug}-{nid}"
+        _used_slugs.add(slug)
+        news.append({"date": fmt_date_long(d), "source": s, "title": t, "text": x, "url": u,
+                     "page": f"developments/{slug}.html"})
 
 
     # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---

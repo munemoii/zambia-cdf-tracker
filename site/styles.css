@@ -425,3 +425,13 @@ h3.ghead{font-size:1.05rem}
 .gcard .gb b{display:block;line-height:1.3}
 .gcard .gm{display:block;font-size:.85rem;color:var(--muted);margin-top:2px}
 .gcard .gc{display:block;font-size:.78rem;color:var(--muted);margin-top:4px}
+
+/* ===== developments list (compact, clickable) ===== */
+.devlink{display:block;text-decoration:none;color:var(--ink);padding:14px 10px;border-radius:10px}
+.devlink + .devlink{border-top:1px solid var(--line)}
+.devlink:hover{background:var(--surface-2)}
+.devlink .devt{font-weight:700;font-size:1.05rem;line-height:1.3}
+.devlink:hover .devt{color:var(--green-deep)}
+.devlink .sub{margin:2px 0 4px}
+.devlink p{margin:0}
+.devlink .devmore{display:inline-block;margin-top:6px;font-weight:700;font-size:.9rem;color:var(--green-deep)}
