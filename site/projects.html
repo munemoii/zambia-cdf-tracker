@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://sprightly-sunshine-f93b94.netlify.app/projects.html">
 <meta property="og:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
 <div class="wrap">
@@ -45,8 +45,10 @@
       <div class="filters">
         <input type="search" id="projSearch" placeholder="Search projects…">
       </div>
-      <div class="filters" id="provChips"></div>
-      <div class="filters" id="statusChips"></div>
+      <p class="filter-label" id="provinceFilterLabel">Province</p>
+      <div class="filters" id="provChips" aria-labelledby="provinceFilterLabel"></div>
+      <p class="filter-label" id="statusFilterLabel">Status</p>
+      <div class="filters" id="statusChips" aria-labelledby="statusFilterLabel"></div>
       <div id="pilotConsts"></div>
       <p class="chart-note" id="pilotNote" style="margin-top:10px"></p>
       <div id="fyStrip" class="fystrip" aria-label="Projects by funding year"></div>
