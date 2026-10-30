@@ -195,7 +195,7 @@
 .sitehead{margin:0;padding:16px 0 8px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
 .wordmark{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.5rem;text-transform:uppercase;letter-spacing:.02em;color:var(--green-d);text-decoration:none}
 .wordmark em{font-style:normal;color:#b3860e}
-.sitenav{display:flex;gap:2px;flex-wrap:wrap;width:100%;border-top:1px solid var(--line);padding-top:9px}
+.sitenav{display:flex;gap:2px;flex-wrap:wrap;width:calc(100% + 11px);margin-left:-11px;border-top:1px solid var(--line);padding-top:9px}
 .sitenav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:.95rem}
 .sitenav a:hover{color:var(--green-d);text-decoration:underline}
 .crumbs{max-width:1060px;margin:0 auto;padding:8px 20px 0;font-size:.88rem;color:var(--muted)}
@@ -328,7 +328,7 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
   .wrap{padding:16px 14px 44px}
   .sitehead{padding:12px 0 4px;gap:8px}
   .wordmark{font-size:1.28rem}
-  .sitenav{gap:4px}
+  .sitenav{gap:4px;margin-left:-10px;width:calc(100% + 10px)}
   .sitenav a{padding:7px 10px;font-size:.9rem}
   .pagewrap{padding:8px 14px 26px}
   .pageband{padding:18px 0 14px;border-radius:0 0 14px 14px}
