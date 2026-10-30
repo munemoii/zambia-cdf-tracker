@@ -35,33 +35,49 @@
 <main class="pagewrap">
 <div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
   <span class="label">Budget year</span>
-  <button type="button" class="ypill pyear" data-y="2021" data-r="1.6" aria-pressed="false">2021</button><button type="button" class="ypill pyear" data-y="2022" data-r="25.7" aria-pressed="false">2022</button><button type="button" class="ypill pyear" data-y="2023" data-r="28.3" aria-pressed="false">2023</button><button type="button" class="ypill pyear" data-y="2024" data-r="30.6" aria-pressed="false">2024</button><button type="button" class="ypill pyear" data-y="2025" data-r="36.1" aria-pressed="false">2025</button><button type="button" class="ypill pyear" data-y="2026" data-r="40.0" aria-pressed="true">2026</button>
+  <button type="button" class="ypill pyear" data-y="all" aria-pressed="true">All years</button><button type="button" class="ypill pyear" data-y="2021" data-r="1.6" aria-pressed="false">2021</button><button type="button" class="ypill pyear" data-y="2022" data-r="25.7" aria-pressed="false">2022</button><button type="button" class="ypill pyear" data-y="2023" data-r="28.3" aria-pressed="false">2023</button><button type="button" class="ypill pyear" data-y="2024" data-r="30.6" aria-pressed="false">2024</button><button type="button" class="ypill pyear" data-y="2025" data-r="36.1" aria-pressed="false">2025</button><button type="button" class="ypill pyear" data-y="2026" data-r="40.0" aria-pressed="false">2026</button>
 </div>
 <div class="statrow">
   <div class="stat"><b>20</b><span>constituencies</span></div>
-  <div class="stat"><b id="pvAlloc">K800m</b><span id="pvAllocYr">2026 allocation</span></div>
-  <div class="stat"><b id="pvPer">K40m</b><span>per constituency</span></div>
-  <div class="stat"><b>0</b><span>projects tracked · all years</span></div>
+  <div class="stat"><b id="pvAlloc">K3.25bn</b><span id="pvAllocYr">allocated 2021–2026</span></div>
+  <div class="stat"><b id="pvPer">K162.3m</b><span>per constituency</span></div>
+  <div class="stat"><b id="pvProj">0</b><span id="pvProjLbl">projects tracked · all years</span></div>
 </div>
+<p class="plede" id="pvProjNote"></p>
 <p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>
 <h2 class="phead">Constituencies</h2>
-<div class="cchips"><a class="cchip" href="../constituencies/chadiza.html">Chadiza<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chama-north.html">Chama North<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chama-south.html">Chama South<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chasefu.html">Chasefu<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chipangali.html">Chipangali<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/chipata-central.html">Chipata Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kapoche.html">Kapoche<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kasenengwa.html">Kasenengwa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kaumbwe.html">Kaumbwe<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/luangeni.html">Luangeni<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/lumezi.html">Lumezi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/lundazi.html">Lundazi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/malambo.html">Malambo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/milanzi.html">Milanzi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mkaika.html">Mkaika<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/msanzala.html">Msanzala<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/nyimba.html">Nyimba<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/petauke-central.html">Petauke Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/sinda.html">Sinda<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/vubwi.html">Vubwi<span class="arr" aria-hidden="true">›</span></a></div>
+<div class="cchips"><a class="cchip" data-const="Chadiza" href="../constituencies/chadiza.html">Chadiza<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Chama North" href="../constituencies/chama-north.html">Chama North<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Chama South" href="../constituencies/chama-south.html">Chama South<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Chasefu" href="../constituencies/chasefu.html">Chasefu<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Chipangali" href="../constituencies/chipangali.html">Chipangali<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Chipata Central" href="../constituencies/chipata-central.html">Chipata Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Kapoche" href="../constituencies/kapoche.html">Kapoche<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Kasenengwa" href="../constituencies/kasenengwa.html">Kasenengwa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Kaumbwe" href="../constituencies/kaumbwe.html">Kaumbwe<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Luangeni" href="../constituencies/luangeni.html">Luangeni<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Lumezi" href="../constituencies/lumezi.html">Lumezi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Lundazi" href="../constituencies/lundazi.html">Lundazi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Malambo" href="../constituencies/malambo.html">Malambo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Milanzi" href="../constituencies/milanzi.html">Milanzi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Mkaika" href="../constituencies/mkaika.html">Mkaika<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Msanzala" href="../constituencies/msanzala.html">Msanzala<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Nyimba" href="../constituencies/nyimba.html">Nyimba<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Petauke Central" href="../constituencies/petauke-central.html">Petauke Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Sinda" href="../constituencies/sinda.html">Sinda<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Vubwi" href="../constituencies/vubwi.html">Vubwi<span class="arr" aria-hidden="true">›</span></a></div>
 <h2 class="phead">Allocations by year</h2>
 <div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr data-year="2021"><td>2021</td><td>K1.6m</td><td>K32m</td></tr><tr data-year="2022"><td>2022</td><td>K25.7m</td><td>K514m</td></tr><tr data-year="2023"><td>2023</td><td>K28.3m</td><td>K566m</td></tr><tr data-year="2024"><td>2024</td><td>K30.6m</td><td>K612m</td></tr><tr data-year="2025"><td>2025</td><td>K36.1m</td><td>K722m</td></tr><tr data-year="2026"><td>2026</td><td>K40m</td><td>K800m</td></tr></tbody></table></div>
 <script>
 (function(){
-  var seats = 20;
+  var seats = 20, sumRate = 162.3, PV = {"totalAll": 0, "years": {}, "unknown": 0};
   function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
-  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer');
+  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer'),
+      proj=document.getElementById('pvProj'), projLbl=document.getElementById('pvProjLbl'), note=document.getElementById('pvProjNote');
+  function setChips(y, yd){
+    document.querySelectorAll('.cchip[data-const]').forEach(function(ch){
+      var badge = ch.querySelector('.cnt'); if(!badge) return;
+      var nm = ch.getAttribute('data-const');
+      var n = (y==='all') ? parseInt(badge.getAttribute('data-all')||'0',10) : ((yd && yd.byConst && yd.byConst[nm]) || 0);
+      badge.textContent = n + ' projects';
+      badge.style.display = n ? '' : 'none';
+    });
+  }
   function setYear(y, r){
-    if(alloc) alloc.textContent = fm(seats*r);
-    if(allocYr) allocYr.textContent = y + ' allocation';
-    if(per) per.textContent = fm(r);
+    var yd = (y==='all') ? null : (PV.years[String(y)] || {total:0, byConst:{}});
+    if(alloc) alloc.textContent = fm(seats * (y==='all' ? sumRate : r));
+    if(allocYr) allocYr.textContent = (y==='all') ? 'allocated 2021–2026' : (y + ' allocation');
+    if(per) per.textContent = fm(y==='all' ? sumRate : r);
+    if(proj) proj.textContent = (y==='all') ? PV.totalAll : yd.total;
+    if(projLbl) projLbl.textContent = (y==='all') ? 'projects tracked · all years' : ('projects · ' + y + ' funding year');
+    if(note) note.textContent = (y!=='all' && PV.unknown) ? ('A further ' + PV.unknown + ' tracked projects in this province have no published funding year, so they count under All years only.') : '';
+    setChips(y, yd);
     document.querySelectorAll('.pyear').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-y')==String(y) ? 'true' : 'false'); });
     document.querySelectorAll('tr[data-year]').forEach(function(tr){ tr.classList.toggle('yr-on', tr.getAttribute('data-year')==String(y)); });
   }
-  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r'))); }); });
-  setYear(2026, 40.0);
+  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r')||'0')); }); });
+  setYear('all', 0);
 })();
 </script>
 </main>

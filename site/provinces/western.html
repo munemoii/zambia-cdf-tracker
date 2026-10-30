@@ -35,33 +35,49 @@
 <main class="pagewrap">
 <div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
   <span class="label">Budget year</span>
-  <button type="button" class="ypill pyear" data-y="2021" data-r="1.6" aria-pressed="false">2021</button><button type="button" class="ypill pyear" data-y="2022" data-r="25.7" aria-pressed="false">2022</button><button type="button" class="ypill pyear" data-y="2023" data-r="28.3" aria-pressed="false">2023</button><button type="button" class="ypill pyear" data-y="2024" data-r="30.6" aria-pressed="false">2024</button><button type="button" class="ypill pyear" data-y="2025" data-r="36.1" aria-pressed="false">2025</button><button type="button" class="ypill pyear" data-y="2026" data-r="40.0" aria-pressed="true">2026</button>
+  <button type="button" class="ypill pyear" data-y="all" aria-pressed="true">All years</button><button type="button" class="ypill pyear" data-y="2021" data-r="1.6" aria-pressed="false">2021</button><button type="button" class="ypill pyear" data-y="2022" data-r="25.7" aria-pressed="false">2022</button><button type="button" class="ypill pyear" data-y="2023" data-r="28.3" aria-pressed="false">2023</button><button type="button" class="ypill pyear" data-y="2024" data-r="30.6" aria-pressed="false">2024</button><button type="button" class="ypill pyear" data-y="2025" data-r="36.1" aria-pressed="false">2025</button><button type="button" class="ypill pyear" data-y="2026" data-r="40.0" aria-pressed="false">2026</button>
 </div>
 <div class="statrow">
   <div class="stat"><b>19</b><span>constituencies</span></div>
-  <div class="stat"><b id="pvAlloc">K760m</b><span id="pvAllocYr">2026 allocation</span></div>
-  <div class="stat"><b id="pvPer">K40m</b><span>per constituency</span></div>
-  <div class="stat"><b>0</b><span>projects tracked · all years</span></div>
+  <div class="stat"><b id="pvAlloc">K3.08bn</b><span id="pvAllocYr">allocated 2021–2026</span></div>
+  <div class="stat"><b id="pvPer">K162.3m</b><span>per constituency</span></div>
+  <div class="stat"><b id="pvProj">0</b><span id="pvProjLbl">projects tracked · all years</span></div>
 </div>
+<p class="plede" id="pvProjNote"></p>
 <p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>
 <h2 class="phead">Constituencies</h2>
-<div class="cchips"><a class="cchip" href="../constituencies/kalabo-central.html">Kalabo Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/kaoma-central.html">Kaoma Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/liuwa.html">Liuwa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/luampa.html">Luampa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/luena.html">Luena<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/lukulu-east.html">Lukulu East<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mangango.html">Mangango<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mitete.html">Mitete<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mongu-central.html">Mongu Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mulobezi.html">Mulobezi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/mwandi.html">Mwandi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/nalikwanda.html">Nalikwanda<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/nalolo.html">Nalolo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/nkeyema.html">Nkeyema<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/senanga.html">Senanga<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/sesheke.html">Sesheke<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/shang-ombo.html">Shang&#x27;ombo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/sikongo.html">Sikongo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" href="../constituencies/sioma.html">Sioma<span class="arr" aria-hidden="true">›</span></a></div>
+<div class="cchips"><a class="cchip" data-const="Kalabo Central" href="../constituencies/kalabo-central.html">Kalabo Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Kaoma Central" href="../constituencies/kaoma-central.html">Kaoma Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Liuwa" href="../constituencies/liuwa.html">Liuwa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Luampa" href="../constituencies/luampa.html">Luampa<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Luena" href="../constituencies/luena.html">Luena<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Lukulu East" href="../constituencies/lukulu-east.html">Lukulu East<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Mangango" href="../constituencies/mangango.html">Mangango<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Mitete" href="../constituencies/mitete.html">Mitete<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Mongu Central" href="../constituencies/mongu-central.html">Mongu Central<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Mulobezi" href="../constituencies/mulobezi.html">Mulobezi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Mwandi" href="../constituencies/mwandi.html">Mwandi<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Nalikwanda" href="../constituencies/nalikwanda.html">Nalikwanda<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Nalolo" href="../constituencies/nalolo.html">Nalolo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Nkeyema" href="../constituencies/nkeyema.html">Nkeyema<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Senanga" href="../constituencies/senanga.html">Senanga<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Sesheke" href="../constituencies/sesheke.html">Sesheke<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Shang&#x27;ombo" href="../constituencies/shang-ombo.html">Shang&#x27;ombo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Sikongo" href="../constituencies/sikongo.html">Sikongo<span class="arr" aria-hidden="true">›</span></a><a class="cchip" data-const="Sioma" href="../constituencies/sioma.html">Sioma<span class="arr" aria-hidden="true">›</span></a></div>
 <h2 class="phead">Allocations by year</h2>
 <div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr data-year="2021"><td>2021</td><td>K1.6m</td><td>K30.4m</td></tr><tr data-year="2022"><td>2022</td><td>K25.7m</td><td>K488.3m</td></tr><tr data-year="2023"><td>2023</td><td>K28.3m</td><td>K537.7m</td></tr><tr data-year="2024"><td>2024</td><td>K30.6m</td><td>K581.4m</td></tr><tr data-year="2025"><td>2025</td><td>K36.1m</td><td>K685.9m</td></tr><tr data-year="2026"><td>2026</td><td>K40m</td><td>K760m</td></tr></tbody></table></div>
 <script>
 (function(){
-  var seats = 19;
+  var seats = 19, sumRate = 162.3, PV = {"totalAll": 0, "years": {}, "unknown": 0};
   function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
-  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer');
+  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer'),
+      proj=document.getElementById('pvProj'), projLbl=document.getElementById('pvProjLbl'), note=document.getElementById('pvProjNote');
+  function setChips(y, yd){
+    document.querySelectorAll('.cchip[data-const]').forEach(function(ch){
+      var badge = ch.querySelector('.cnt'); if(!badge) return;
+      var nm = ch.getAttribute('data-const');
+      var n = (y==='all') ? parseInt(badge.getAttribute('data-all')||'0',10) : ((yd && yd.byConst && yd.byConst[nm]) || 0);
+      badge.textContent = n + ' projects';
+      badge.style.display = n ? '' : 'none';
+    });
+  }
   function setYear(y, r){
-    if(alloc) alloc.textContent = fm(seats*r);
-    if(allocYr) allocYr.textContent = y + ' allocation';
-    if(per) per.textContent = fm(r);
+    var yd = (y==='all') ? null : (PV.years[String(y)] || {total:0, byConst:{}});
+    if(alloc) alloc.textContent = fm(seats * (y==='all' ? sumRate : r));
+    if(allocYr) allocYr.textContent = (y==='all') ? 'allocated 2021–2026' : (y + ' allocation');
+    if(per) per.textContent = fm(y==='all' ? sumRate : r);
+    if(proj) proj.textContent = (y==='all') ? PV.totalAll : yd.total;
+    if(projLbl) projLbl.textContent = (y==='all') ? 'projects tracked · all years' : ('projects · ' + y + ' funding year');
+    if(note) note.textContent = (y!=='all' && PV.unknown) ? ('A further ' + PV.unknown + ' tracked projects in this province have no published funding year, so they count under All years only.') : '';
+    setChips(y, yd);
     document.querySelectorAll('.pyear').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-y')==String(y) ? 'true' : 'false'); });
     document.querySelectorAll('tr[data-year]').forEach(function(tr){ tr.classList.toggle('yr-on', tr.getAttribute('data-year')==String(y)); });
   }
-  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r'))); }); });
-  setYear(2026, 40.0);
+  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r')||'0')); }); });
+  setYear('all', 0);
 })();
 </script>
 </main>

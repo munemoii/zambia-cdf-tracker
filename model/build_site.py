@@ -208,34 +208,65 @@ def main():
         tracked_here = by_province_const.get(pname, {})
         rows = "".join(
             f"<tr data-year=\"{y}\"><td>{y}</td><td>{fmt_m(r)}</td><td>{fmt_m(r * seats)}</td></tr>" for y, r in years)
-        pills = "".join(
-            f'<button type="button" class="ypill pyear" data-y="{y}" data-r="{r}" aria-pressed="{"true" if y == latest_year else "false"}">{y}</button>' for y, r in years)
+        pills = '<button type="button" class="ypill pyear" data-y="all" aria-pressed="true">All years</button>' + "".join(
+            f'<button type="button" class="ypill pyear" data-y="{y}" data-r="{r}" aria-pressed="false">{y}</button>' for y, r in years)
+        year_counts = {}
+        unknown_counts = {}
+        for _cs in tracked_here.values():
+            for _pr in _cs:
+                _cn, _fy = _pr[12], _pr[18]
+                if _fy:
+                    year_counts.setdefault(_fy, {}).setdefault(_cn, 0)
+                    year_counts[_fy][_cn] += 1
+                else:
+                    unknown_counts[_cn] = unknown_counts.get(_cn, 0) + 1
+        import json as _json
+        pv_data = {"totalAll": sum(len(v) for v in tracked_here.values()),
+                   "years": {str(y): {"total": sum(d.values()), "byConst": d} for y, d in sorted(year_counts.items())},
+                   "unknown": sum(unknown_counts.values())}
+        sum_rate = sum(r for _y, r in years)
+        yr_range = f"{years[0][0]}–{years[-1][0]}"
         pv_script = """<script>
 (function(){
-  var seats = __SEATS__;
+  var seats = __SEATS__, sumRate = __SUMRATE__, PV = __PVDATA__;
   function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
-  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer');
+  var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer'),
+      proj=document.getElementById('pvProj'), projLbl=document.getElementById('pvProjLbl'), note=document.getElementById('pvProjNote');
+  function setChips(y, yd){
+    document.querySelectorAll('.cchip[data-const]').forEach(function(ch){
+      var badge = ch.querySelector('.cnt'); if(!badge) return;
+      var nm = ch.getAttribute('data-const');
+      var n = (y==='all') ? parseInt(badge.getAttribute('data-all')||'0',10) : ((yd && yd.byConst && yd.byConst[nm]) || 0);
+      badge.textContent = n + ' projects';
+      badge.style.display = n ? '' : 'none';
+    });
+  }
   function setYear(y, r){
-    if(alloc) alloc.textContent = fm(seats*r);
-    if(allocYr) allocYr.textContent = y + ' allocation';
-    if(per) per.textContent = fm(r);
+    var yd = (y==='all') ? null : (PV.years[String(y)] || {total:0, byConst:{}});
+    if(alloc) alloc.textContent = fm(seats * (y==='all' ? sumRate : r));
+    if(allocYr) allocYr.textContent = (y==='all') ? 'allocated __YRRANGE__' : (y + ' allocation');
+    if(per) per.textContent = fm(y==='all' ? sumRate : r);
+    if(proj) proj.textContent = (y==='all') ? PV.totalAll : yd.total;
+    if(projLbl) projLbl.textContent = (y==='all') ? 'projects tracked · all years' : ('projects · ' + y + ' funding year');
+    if(note) note.textContent = (y!=='all' && PV.unknown) ? ('A further ' + PV.unknown + ' tracked projects in this province have no published funding year, so they count under All years only.') : '';
+    setChips(y, yd);
     document.querySelectorAll('.pyear').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-y')==String(y) ? 'true' : 'false'); });
     document.querySelectorAll('tr[data-year]').forEach(function(tr){ tr.classList.toggle('yr-on', tr.getAttribute('data-year')==String(y)); });
   }
-  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r'))); }); });
-  setYear(__LATEST__, __RATE__);
+  document.querySelectorAll('.pyear').forEach(function(b){ b.addEventListener('click', function(){ setYear(b.getAttribute('data-y'), parseFloat(b.getAttribute('data-r')||'0')); }); });
+  setYear('all', 0);
 })();
-</script>""".replace("__SEATS__", str(seats)).replace("__LATEST__", str(latest_year)).replace("__RATE__", str(rate[latest_year]))
+</script>""".replace("__SEATS__", str(seats)).replace("__SUMRATE__", str(sum_rate)).replace("__PVDATA__", _json.dumps(pv_data)).replace("__YRRANGE__", yr_range)
         chips = []
         for (cname,) in consts:
             n = len(tracked_here.get(cname, []))
             if n:
-                chips.append(f'<a class="cchip" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)} <span class="cnt">{n} projects</span><span class="arr" aria-hidden="true">›</span></a>')
+                chips.append(f'<a class="cchip" data-const="{html.escape(cname)}" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)} <span class="cnt" data-all="{n}">{n} projects</span><span class="arr" aria-hidden="true">›</span></a>')
             else:
-                chips.append(f'<a class="cchip" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)}<span class="arr" aria-hidden="true">›</span></a>')
+                chips.append(f'<a class="cchip" data-const="{html.escape(cname)}" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)}<span class="arr" aria-hidden="true">›</span></a>')
         total_tracked = sum(len(v) for v in tracked_here.values())
         if total_tracked:
-            pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency. Project counts cover <b>all published years so far</b>: councils publish mixed-year lists, so projects are not split by budget year — the money figures above are per year.</p>'
+            pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency. The year switcher above splits <b>both</b> the money and the project counts: pick a year to see that funding year alone, or All years for the full record.</p>'
         else:
             pilot_note = '<p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>'
         body = place_media_html("province", pname) + f"""<div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
@@ -244,10 +275,11 @@ def main():
 </div>
 <div class="statrow">
   <div class="stat"><b>{seats}</b><span>constituencies</span></div>
-  <div class="stat"><b id="pvAlloc">{fmt_m(seats * rate[latest_year])}</b><span id="pvAllocYr">{latest_year} allocation</span></div>
-  <div class="stat"><b id="pvPer">{fmt_m(rate[latest_year])}</b><span>per constituency</span></div>
-  <div class="stat"><b>{total_tracked}</b><span>projects tracked · all years</span></div>
+  <div class="stat"><b id="pvAlloc">{fmt_m(seats * sum_rate)}</b><span id="pvAllocYr">allocated {yr_range}</span></div>
+  <div class="stat"><b id="pvPer">{fmt_m(sum_rate)}</b><span>per constituency</span></div>
+  <div class="stat"><b id="pvProj">{total_tracked}</b><span id="pvProjLbl">projects tracked · all years</span></div>
 </div>
+<p class="plede" id="pvProjNote"></p>
 {pilot_note}
 <h2 class="phead">Constituencies</h2>
 <div class="cchips">{''.join(chips)}</div>
