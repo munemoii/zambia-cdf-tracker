@@ -80,7 +80,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
     <a href="{prefix}index.html">Home</a>
     <a href="{prefix}money.html">The Money</a>
     <a href="{prefix}provinces.html">Provinces</a>
-    <a href="{prefix}pilot.html">Lusaka Pilot</a>
+    <a href="{prefix}projects.html">Projects</a>
     <a href="{prefix}scenario.html">2027 Scenario</a>
     <a href="{prefix}developments.html">Developments</a>
   </nav>
@@ -181,7 +181,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/pilot.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/projects.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
 
     # ---------- provinces index ----------
     cards = []
@@ -266,9 +266,9 @@ def main():
                 chips.append(f'<a class="cchip" data-const="{html.escape(cname)}" href="../constituencies/{slugify(cname)}.html">{html.escape(cname)}<span class="arr" aria-hidden="true">›</span></a>')
         total_tracked = sum(len(v) for v in tracked_here.values())
         if total_tracked:
-            pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project in the pilot — tap a constituency. The year switcher above splits <b>both</b> the money and the project counts: pick a year to see that funding year alone, or All years for the full record.</p>'
+            pilot_note = f'<p class="plede">{total_tracked} CDF projects in this province are tracked project-by-project — tap a constituency. The year switcher above splits <b>both</b> the money and the project counts: pick a year to see that funding year alone, or All years for the full record.</p>'
         else:
-            pilot_note = '<p class="plede">Project-level tracking rolls out province by province; Lusaka is the pilot. Constituencies here light up as their project lists are loaded.</p>'
+            pilot_note = '<p class="plede">Project-level tracking is rolling out province by province. Constituencies here light up as the published council lists for them are loaded.</p>'
         body = place_media_html("province", pname) + f"""<div class="years" role="group" aria-label="Choose budget year" style="margin-top:4px">
   <span class="label">Budget year</span>
   {pills}

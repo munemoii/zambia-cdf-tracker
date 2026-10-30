@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>The Projects — Zambia CDF Tracker</title>
+<meta name="description" content="Every CDF project the tracker has traced to a published source, province by province — budgets, status, contractors and sources.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zambia CDF Tracker">
+<meta property="og:title" content="The Projects — Zambia CDF Tracker">
+<meta property="og:description" content="Every CDF project the tracker has traced to a published source, province by province — budgets, status, contractors and sources.">
+<meta property="og:url" content="https://sprightly-sunshine-f93b94.netlify.app/projects.html">
+<meta property="og:image" content="https://sprightly-sunshine-f93b94.netlify.app/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
+  <header class="sitehead">
+    <a class="wordmark" href="index.html">Zambia <em>CDF</em> Tracker</a>
+    <nav class="sitenav">
+      <a href="index.html">Home</a>
+      <a href="money.html">The Money</a>
+      <a href="provinces.html">Provinces</a>
+      <a href="projects.html">Projects</a>
+      <a href="scenario.html">2027 Scenario</a>
+      <a href="developments.html">Developments</a>
+    </nav>
+  </header>
+  <div class="pageband"><div class="pageband-in">
+    <nav class="crumbs"><a href="index.html">Home</a> › The Projects</nav>
+    <h1>The Projects</h1>
+    <p class="bandsub">Project-level tracking, province by province, constituency by constituency. Click through to each project’s own page.</p>
+  </div></div>
+<section id="pilotSection" hidden>
+  <div class="sec-head">
+    <p class="eyebrow">The projects</p>
+      <h2>Project tracking — every province</h2>
+    <p>Individual CDF projects, constituency by constituency, each traced to a published source. Tracking began with a Lusaka pilot and now covers every province where councils publish project lists. Coverage is deepest where councils publish, and thinnest where they don't — the counts below are what is published, not all that exists. Pick a province, then a constituency, then a project.</p>
+  </div>
+  <div class="explorer">
+    <div class="card">
+      <div class="filters">
+        <input type="search" id="projSearch" placeholder="Search projects…">
+      </div>
+      <div class="filters" id="provChips"></div>
+      <div class="filters" id="statusChips"></div>
+      <div id="pilotConsts"></div>
+      <p class="chart-note" id="pilotNote" style="margin-top:10px"></p>
+      <div id="fyStrip" class="fystrip" aria-label="Projects by funding year"></div>
+    </div>
+    <div class="card detail" id="pilotDetail">
+      <h3 id="pdName"></h3>
+      <p class="prov-meta" id="pdMeta"></p>
+      <div id="pdBody"></div>
+    </div>
+  </div>
+</section>
+  <footer>
+    <p id="lastChecked" style="margin:0 0 12px"></p>
+    <p><a href="index.html">← Back to the dashboard</a> · Figures are drawn from published sources — see the dashboard footer for the full source list.</p>
+  </footer>
+</div>
+<script src="data.js?v=6"></script>
+<script src="map.js?v=3"></script>
+<script src="app.js?v=7"></script>
+</body>
+</html>

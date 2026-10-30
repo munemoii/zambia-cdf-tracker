@@ -88,24 +88,26 @@ def main():
             for d, s, t, x in c.execute("SELECT item_date, source_label, title, text FROM news_items ORDER BY item_date DESC")]
 
 
-    # --- pilot project tracking ---
+    # --- project tracking (all provinces; "pilot" kept as the Lusaka slice) ---
+    projects_block = None
     pilot = None
     proj_rows = c.execute("""SELECT pr.id, pr.name, k.name, pr.ward, pr.component, pr.category,
                                     pr.contractor, pr.budget_m, pr.status, pr.completion_pct,
                                     pr.photo_url, pr.photo_credit, pr.note,
-                                    s.publisher, s.title, s.url, pr.funding_year
+                                    s.publisher, s.title, s.url, pr.funding_year, pv.name
                              FROM projects pr
                              JOIN constituencies k ON k.id = pr.constituency_id
+                             JOIN provinces pv ON pv.id = k.province_id
                              LEFT JOIN sources s ON s.id = pr.source_id
-                             ORDER BY k.name, pr.name""").fetchall()
+                             ORDER BY pv.name, k.name, pr.name""").fetchall()
     if proj_rows:
         from collections import Counter, defaultdict
-        by_const = defaultdict(list)
         import re as _re
         def _slug(nm):
             return _re.sub(r"[^a-z0-9]+", "-", nm.lower().replace("&", "and")).strip("-")
+        by_prov = defaultdict(lambda: defaultdict(list))
         for r in proj_rows:
-            by_const[r[2]].append({
+            by_prov[r[17]][r[2]].append({
                 "id": r[0], "url": f"projects/{r[0]}-{_slug(r[1])}.html",
                 "name": r[1], "ward": r[3], "component": r[4], "category": r[5],
                 "contractor": r[6], "budgetM": round(r[7], 4) if r[7] is not None else None,
@@ -115,23 +117,36 @@ def main():
                 "source": {"publisher": r[13], "title": r[14], "url": r[15]},
                 "fundingYear": r[16],
             })
-        consts = []
-        for nm in sorted(by_const):
-            items = by_const[nm]
-            consts.append({"name": nm, "url": f"constituencies/{_slug(nm)}.html", "count": len(items),
-                           "budgetM": round(sum(i["budgetM"] or 0 for i in items), 2),
-                           "statusCounts": dict(Counter(i["status"] for i in items)),
-                           "projects": items})
-        fy_counts = Counter(r[16] for r in proj_rows if r[16])
-        pilot = {"province": "Lusaka", "totalProjects": len(proj_rows),
-                 "fundingYears": {str(y): fy_counts[y] for y in sorted(fy_counts)},
-                 "fundingYearKnown": sum(fy_counts.values()),
-                 "constituencies": consts}
+        prov_objs = []
+        for pname in sorted(by_prov):
+            consts = []
+            total = 0
+            fy = Counter()
+            for nm in sorted(by_prov[pname]):
+                items = by_prov[pname][nm]
+                total += len(items)
+                for i in items:
+                    if i["fundingYear"]:
+                        fy[i["fundingYear"]] += 1
+                consts.append({"name": nm, "url": f"constituencies/{_slug(nm)}.html", "count": len(items),
+                               "budgetM": round(sum(i["budgetM"] or 0 for i in items), 2),
+                               "statusCounts": dict(Counter(i["status"] for i in items)),
+                               "projects": items})
+            prov_objs.append({"name": pname, "province": pname, "totalProjects": total,
+                              "fundingYears": {str(y): fy[y] for y in sorted(fy)},
+                              "fundingYearKnown": sum(fy.values()),
+                              "constituencies": consts})
+        prov_objs.sort(key=lambda p: -p["totalProjects"])
+        all_fy = Counter(r[16] for r in proj_rows if r[16])
+        projects_block = {"provinces": prov_objs, "totalProjects": len(proj_rows),
+                          "fundingYears": {str(y): all_fy[y] for y in sorted(all_fy)},
+                          "fundingYearKnown": sum(all_fy.values())}
+        pilot = next((p for p in prov_objs if p["name"] == "Lusaka"), None)
 
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot,
+        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"

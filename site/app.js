@@ -310,7 +310,12 @@
     var d = STATUS[st] || STATUS.unknown;
     return '<span class="badge" style="background:' + d.color + '">' + d.label + '</span>';
   }
-  var pilotSel = null, pilotStatus = 'all';
+  var pilotSel = null, pilotStatus = 'all', xpProv = null;
+  function xpData(){ return (D && D.projects) ? D.projects : null; }
+  function xpProvince(){
+    var X = xpData(); if (!X) return null;
+    return X.provinces.filter(function(p){ return p.name === xpProv; })[0] || null;
+  }
   function pilotFiltered(cc){
     var q = (document.getElementById('projSearch').value || '').toLowerCase();
     return cc.projects.filter(function(pr){
@@ -319,38 +324,103 @@
       return true;
     });
   }
-  function renderPilot(){
-    var P = D.pilot;
-    if (!P) return;
-    if (!document.getElementById('pilotSection')) return;
+  function fyStripFor(el, total, years, known){
+    if (!el) return;
+    var chips = Object.keys(years || {}).sort().map(function(y){
+      return '<span class="fychip"><b>' + y + '</b>' + years[y] + ' projects</span>';
+    }).join('');
+    var unknown = total - (known || 0);
+    if (unknown > 0) chips += '<span class="fychip dim"><b>Not published</b>' + unknown + ' projects</span>';
+    el.innerHTML = chips;
+  }
+  function renderProjects(){
+    var X = xpData();
+    if (!X || !document.getElementById('pilotSection')) return;
     document.getElementById('pilotSection').hidden = false;
-    if (!pilotSel) pilotSel = P.constituencies.slice().sort(function(a,b){return b.count - a.count;})[0].name;
-    document.getElementById('pilotConsts').innerHTML = P.constituencies.map(function(cc){
+    var P = xpProvince();
+    var q = (document.getElementById('projSearch').value || '').toLowerCase();
+    var pc = document.getElementById('provChips');
+    if (pc) {
+      pc.innerHTML = '<button type="button" class="chip' + (!xpProv ? ' on' : '') + '" data-pv="">All provinces</button>' +
+        X.provinces.map(function(p){
+          return '<button type="button" class="chip' + (xpProv === p.name ? ' on' : '') + '" data-pv="' + p.name + '">' + p.name + ' · ' + p.totalProjects + '</button>';
+        }).join('');
+      pc.querySelectorAll('.chip').forEach(function(b){
+        b.addEventListener('click', function(){ xpProv = b.dataset.pv || null; pilotSel = null; renderProjects(); });
+      });
+    }
+    var seen = {};
+    (P ? [P] : X.provinces).forEach(function(p){ p.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){ seen[pr.status] = 1; }); }); });
+    var schips = ['all'].concat(Object.keys(STATUS).filter(function(k){ return seen[k]; }));
+    document.getElementById('statusChips').innerHTML = schips.map(function(k){
+      return '<button type="button" class="chip' + (pilotStatus === k ? ' on' : '') + '" data-st="' + k + '">' +
+        (k === 'all' ? 'All statuses' : STATUS[k].label) + '</button>';
+    }).join('');
+    document.querySelectorAll('#statusChips .chip').forEach(function(b){
+      b.addEventListener('click', function(){ pilotStatus = b.dataset.st; renderProjects(); });
+    });
+    var listEl = document.getElementById('pilotConsts');
+    var note = document.getElementById('pilotNote');
+    if (q) {
+      var hits = [];
+      X.provinces.forEach(function(p){ p.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){
+        if (pilotStatus !== 'all' && pr.status !== pilotStatus) return;
+        if (pr.name.toLowerCase().indexOf(q) > -1) hits.push({p: p.name, c: cc.name, pr: pr});
+      }); }); });
+      listEl.innerHTML = '<div class="prow sel"><span class="pname">Search results</span><span class="pdetail-x">' + hits.length + ' projects match</span></div>';
+      document.getElementById('pdName').textContent = 'Search — all provinces';
+      document.getElementById('pdMeta').textContent = hits.length + ' projects match · showing up to 200';
+      var shown = hits.slice(0, 200);
+      document.getElementById('pdBody').innerHTML = '<div id="projDetailSlot"></div>' + (shown.length ? shown.map(function(h, i){
+        return '<div class="prow jrow" data-i="' + i + '"><span class="pname">' + h.pr.name + ' <span class="pdetail-x">' + h.c + ', ' + h.p + '</span></span>' +
+          '<span class="amt">' + fmtKwacha(h.pr.budgetM) + '</span>' + badge(h.pr.status) + '</div>';
+      }).join('') : '<p class="chart-note">No projects match this search.</p>');
+      document.querySelectorAll('#pdBody .jrow').forEach(function(r){
+        r.addEventListener('click', function(){ var h = shown[+r.dataset.i]; if (h && h.pr.url) window.location.href = h.pr.url; });
+      });
+      if (note) note.textContent = 'Searching all ' + X.totalProjects + ' tracked projects across ' + X.provinces.length + ' provinces. Clear the search to browse by province.';
+      fyStripFor(document.getElementById('fyStrip'), X.totalProjects, X.fundingYears, X.fundingYearKnown);
+      return;
+    }
+    if (!P) {
+      listEl.innerHTML = X.provinces.map(function(p){
+        return '<div class="prow" data-pv="' + p.name + '"><span class="pname">' + p.name + '</span>' +
+          '<span class="pdetail-x">' + p.totalProjects + ' projects · ' + p.constituencies.length + ' constituencies</span></div>';
+      }).join('');
+      listEl.querySelectorAll('.prow').forEach(function(r){
+        r.addEventListener('click', function(){ xpProv = r.dataset.pv; pilotSel = null; renderProjects(); });
+      });
+      document.getElementById('pdName').textContent = 'All provinces';
+      document.getElementById('pdMeta').textContent = X.totalProjects + ' projects tracked across ' + X.provinces.length + ' provinces';
+      document.getElementById('pdBody').innerHTML = '<div id="projDetailSlot"></div>' + X.provinces.map(function(p){
+        return '<div class="prow jrow" data-pv="' + p.name + '"><span class="pname">' + p.name + '</span>' +
+          '<span class="pdetail-x">' + p.totalProjects + ' projects' + (p.fundingYearKnown ? ' · funding year published for ' + p.fundingYearKnown : '') + '</span></div>';
+      }).join('');
+      document.querySelectorAll('#pdBody .jrow').forEach(function(r){
+        r.addEventListener('click', function(){ xpProv = r.dataset.pv; pilotSel = null; renderProjects(); });
+      });
+      if (note) note.textContent = X.totalProjects + ' projects tracked across ' + X.provinces.length + ' provinces. Pick a province to browse its constituencies. Every project links to its published source; amounts are shown only where the source published them.';
+      fyStripFor(document.getElementById('fyStrip'), X.totalProjects, X.fundingYears, X.fundingYearKnown);
+      return;
+    }
+    if (!pilotSel || !P.constituencies.some(function(x){ return x.name === pilotSel; }))
+      pilotSel = P.constituencies.slice().sort(function(a,b){return b.count - a.count;})[0].name;
+    listEl.innerHTML = P.constituencies.map(function(cc){
       var known = cc.projects.filter(function(x){return x.budgetM !== null;}).length;
       return '<div class="prow' + (cc.name === pilotSel ? ' sel' : '') + '" data-c="' + cc.name + '">' +
         '<span class="pname">' + cc.name + '</span>' +
         '<span class="pdetail-x">' + cc.count + ' projects' + (known ? ' · ' + fmtKwacha(cc.budgetM) + ' published' : '') + '</span></div>';
     }).join('');
-    document.querySelectorAll('#pilotConsts .prow').forEach(function(r){
+    listEl.querySelectorAll('.prow').forEach(function(r){
       r.addEventListener('click', function(){
         var ccObj = P.constituencies.filter(function(x){ return x.name === r.dataset.c; })[0];
         if (ccObj && ccObj.url) { window.location.href = ccObj.url; return; }
-        pilotSel = r.dataset.c; renderPilot();
+        pilotSel = r.dataset.c; renderProjects();
       });
-    });
-    var seen = {};
-    P.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){ seen[pr.status] = 1; }); });
-    var chips = ['all'].concat(Object.keys(STATUS).filter(function(k){ return seen[k]; }));
-    document.getElementById('statusChips').innerHTML = chips.map(function(k){
-      return '<button type="button" class="chip' + (pilotStatus === k ? ' on' : '') + '" data-st="' + k + '">' +
-        (k === 'all' ? 'All statuses' : STATUS[k].label) + '</button>';
-    }).join('');
-    document.querySelectorAll('#statusChips .chip').forEach(function(b){
-      b.addEventListener('click', function(){ pilotStatus = b.dataset.st; renderPilot(); });
     });
     var cc = P.constituencies.filter(function(x){ return x.name === pilotSel; })[0];
     var items = pilotFiltered(cc);
-    document.getElementById('pdName').textContent = cc.name + ' constituency';
+    document.getElementById('pdName').textContent = cc.name + ' constituency — ' + P.name;
     document.getElementById('pdMeta').textContent = items.length + ' of ' + cc.count + ' published projects shown';
     document.getElementById('pdBody').innerHTML =
       '<div id="projDetailSlot"></div>' +
@@ -370,18 +440,10 @@
       var parts = Object.keys(P.fundingYears).sort().map(function(y){ return y + ': ' + P.fundingYears[y]; }).join(' · ');
       fyTxt = ' Funding year is published for ' + P.fundingYearKnown + ' of ' + P.totalProjects + ' projects (' + parts + '); the rest are published without one.';
     }
-    document.getElementById('pilotNote').textContent =
-      P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' Lusaka constituencies. ' +
+    if (note) note.textContent =
+      P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' ' + P.name + ' constituencies. ' +
       'Every project links to its published source; amounts are shown only where the source published them.' + fyTxt;
-    var strip = document.getElementById('fyStrip');
-    if (strip && P.fundingYears) {
-      var chips = Object.keys(P.fundingYears).sort().map(function(y){
-        return '<span class="fychip"><b>' + y + '</b>' + P.fundingYears[y] + ' projects</span>';
-      }).join('');
-      var unknown = P.totalProjects - (P.fundingYearKnown || 0);
-      if (unknown > 0) chips += '<span class="fychip dim"><b>Not published</b>' + unknown + ' projects</span>';
-      strip.innerHTML = chips;
-    }
+    fyStripFor(document.getElementById('fyStrip'), P.totalProjects, P.fundingYears, P.fundingYearKnown);
   }
   function showProject(pr){
     var rows = [
@@ -401,9 +463,9 @@
     slot.innerHTML = html;
     if (slot.scrollIntoView) slot.scrollIntoView({behavior:'smooth', block:'nearest'});
   }
-  var _ps=document.getElementById('projSearch'); if(_ps) _ps.addEventListener('input', renderPilot);
+  var _ps=document.getElementById('projSearch'); if(_ps) _ps.addEventListener('input', renderProjects);
   renderScenario();
-  renderPilot();
+  renderProjects();
 
   var _pv=document.getElementById("provSearch"); if(_pv) _pv.addEventListener("input",function(e){ state.query=e.target.value; renderProvinces(); });
   setYear(2026);
