@@ -276,3 +276,7 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
   .slides .slide{transition:none}
   #bars .bar{transition:none}
 }
+.proofwrap{margin:16px 0 6px}
+.slides-head{margin-bottom:8px}
+.slides-head .slides-sub{color:var(--muted);margin:0;font-size:.95rem}
+.proofwrap .slides{margin:0}

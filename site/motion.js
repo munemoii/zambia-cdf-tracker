@@ -107,18 +107,23 @@
     if (photos.length) {
       var board2 = document.querySelector('.ticker') || document.querySelector('.board');
       var wrap = document.createElement('div');
-      wrap.className = 'slides';
-      wrap.setAttribute('role', 'region');
-      wrap.setAttribute('aria-label', 'CDF project photos');
-      wrap.innerHTML = photos.map(function (x, i) {
+      wrap.className = 'proofwrap';
+      wrap.innerHTML = '<div class="slides-head"><p class="eyebrow">Proof of Delivery</p>' +
+        '<p class="slides-sub">CDF projects, photographed where they stand — every image captioned with its project and source.</p></div>';
+      var slidesBox = document.createElement('div');
+      slidesBox.className = 'slides';
+      slidesBox.setAttribute('role', 'region');
+      slidesBox.setAttribute('aria-label', 'Proof of Delivery — CDF project photos');
+      slidesBox.innerHTML = photos.map(function (x, i) {
         return '<figure class="slide' + (i === 0 ? ' on' : '') + '">' +
           '<img src="' + x.pr.photo.url + '" alt="Photo: ' + x.pr.name.replace(/"/g, '') + '" loading="lazy">' +
           '<figcaption class="cap"><b>' + x.pr.name + '</b><span>' + x.cc + ' constituency · ' +
           (x.pr.photo.credit || '') + '</span></figcaption></figure>';
       }).join('');
+      wrap.appendChild(slidesBox);
       if (board2) board2.parentNode.insertBefore(wrap, board2.nextSibling);
       if (photos.length > 1 && !reduced) {
-        var cur = 0, slides = wrap.querySelectorAll('.slide');
+        var cur = 0, slides = slidesBox.querySelectorAll('.slide');
         setInterval(function () {
           slides[cur].classList.remove('on');
           cur = (cur + 1) % slides.length;
