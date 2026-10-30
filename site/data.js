@@ -35161,6 +35161,16 @@ window.CDF_DATA = {
         }
       ],
       "since2021Pct": 35.0
-    }
+    },
+    "bursaryBars": [
+      {
+        "label": "Secondary bursaries",
+        "value": 131640.0
+      },
+      {
+        "label": "Skills bursaries",
+        "value": 198559.0
+      }
+    ]
   }
 };

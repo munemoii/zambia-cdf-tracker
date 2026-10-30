@@ -450,3 +450,20 @@ h3.ghead{font-size:1.05rem}
 .parr{color:#b3860e;font-weight:700;font-size:1.25rem;line-height:1}
 .pbar{height:6px;border-radius:99px;background:var(--green-soft);overflow:hidden;margin:10px 0 9px}
 .pbar span{display:block;height:100%;background:linear-gradient(90deg,var(--green),#d4a017);border-radius:99px}
+
+/* ===== visual breakdowns (bars) ===== */
+.vbars{display:grid;gap:10px;margin:6px 0}
+.vbar{display:grid;grid-template-columns:150px 1fr 74px;gap:10px;align-items:center}
+.vbar .vl{font-weight:600;font-size:.92rem}
+.vbar .vt{display:block;height:12px;border-radius:99px;background:var(--green-soft);overflow:hidden}
+.vbar .vf{display:block;height:100%;background:var(--green);border-radius:99px}
+.vbar .vf.gold{background:#d4a017}
+.vbar .vv{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.05rem;text-align:right}
+.stack{display:flex;height:26px;border-radius:8px;overflow:hidden}
+.stack .seg.green{background:var(--green)}
+.stack .seg.red{background:#bf3b26}
+.stackleg{display:flex;gap:8px 22px;flex-wrap:wrap;margin-top:9px;font-size:.9rem}
+.stackleg .dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.stackleg .dot.green{background:var(--green)}
+.stackleg .dot.red{background:#bf3b26}
+@media (max-width:560px){.vbar{grid-template-columns:104px 1fr 62px;gap:8px}.vbar .vl{font-size:.85rem}}

@@ -261,6 +261,16 @@
       });
     }
     fill("bursaryTiles", P.bursaries);
+    function barRow(label, pct, valText, cls){
+      return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"><span class="vf ' + (cls || '') + '" style="width:' + pct + '%"></span></span><span class="vv">' + valText + '</span></div>';
+    }
+    var bb = document.getElementById("bursaryBars");
+    if (bb && P.bursaryBars && P.bursaryBars.length) {
+      var mx = Math.max.apply(null, P.bursaryBars.map(function(b){ return b.value; }));
+      bb.innerHTML = P.bursaryBars.map(function(b, i){
+        return barRow(b.label, Math.round(b.value / mx * 100), Number(b.value).toLocaleString("en-GB"), i ? "gold" : "");
+      }).join("");
+    }
     fill("boardingTiles", P.boarding);
     var L = P.loans, le = document.getElementById("loanTiles");
     if (L && le) {
@@ -276,6 +286,18 @@
         d.innerHTML = '<div class="v">' + t.value + '</div><div class="t">' + t.title + '</div><div class="d">' + t.desc + '</div>';
         le.appendChild(d);
       });
+      var lbEl = document.getElementById("loanBook");
+      if (lbEl) {
+        var out = L.dueM - L.recoveredM, rp = Math.round(L.recoveredM / L.dueM * 100);
+        lbEl.innerHTML = '<div class="stack" role="img" aria-label="Of K' + L.dueM + ' million due, K' + L.recoveredM + ' million recovered"><span class="seg green" style="width:' + rp + '%"></span><span class="seg red" style="width:' + (100 - rp) + '%"></span></div>' +
+          '<div class="stackleg"><span><i class="dot green"></i>Recovered — K' + L.recoveredM.toFixed(1) + 'm (' + rp + '%)</span><span><i class="dot red"></i>Still outstanding — K' + out.toFixed(1) + 'm</span></div>';
+      }
+      var rbEl = document.getElementById("recoveryBars");
+      if (rbEl) {
+        var rows = L.series.map(function(r){ return barRow(String(r.year), r.pct, r.pct + "%", ""); }).join("");
+        if (L.since2021Pct != null) rows += barRow("Since 2021 (all loans)", L.since2021Pct, L.since2021Pct + "%", "gold");
+        rbEl.innerHTML = rows;
+      }
     }
   }
 

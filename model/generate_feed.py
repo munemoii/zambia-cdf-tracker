@@ -124,6 +124,10 @@ def main():
         ] if t],
         "loans": None,
     }
+    _sb, _sk = _mrow("secondary_bursary_beneficiaries_cumulative"), _mrow("skills_beneficiaries_cumulative")
+    if _sb and _sk:
+        people["bursaryBars"] = [{"label": "Secondary bursaries", "value": _sb[0]},
+                                 {"label": "Skills bursaries", "value": _sk[0]}]
     bl = c.execute("SELECT budget_year, loans_due_m, loans_recovered_m, recovery_pct FROM bursaries_loans "
                    "ORDER BY budget_year DESC LIMIT 1").fetchone()
     rec = [{"year": y, "pct": p} for y, p in c.execute(
