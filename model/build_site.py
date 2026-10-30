@@ -301,18 +301,28 @@ def main():
             from collections import Counter
             sc = Counter(i[7] for i in items)
             status_line = " · ".join(f"{STATUS.get(k, STATUS['unknown'])[0]}: {v}" for k, v in sorted(sc.items()))
-            cards = []
-            for pr in items:
+            def _card(pr):
                 photo = f'<img loading="lazy" src="{html.escape(pr[9])}" alt="">' if pr[9] else ""
-                cards.append(f"""<a class="pcard proj" href="../{project_url(pr[0], pr[1])}">
+                return f"""<a class="pcard proj" href="../{project_url(pr[0], pr[1])}">
                   {photo}
                   <h3>{html.escape(pr[1])}</h3>
                   <p>{html.escape(pr[2] or '')}{' · ' if pr[2] else ''}{html.escape(pr[4] or '')}</p>
                   <p class="pcard-sub">{fmt_kwacha(pr[6])} · {STATUS.get(pr[7], STATUS['unknown'])[0]}</p>
-                </a>""")
+                </a>"""
+            from collections import defaultdict as _dd
+            _groups = _dd(list)
+            for _pr in items:
+                _groups[_pr[18]].append(_pr)
+            _order = sorted((y for y in _groups if y), reverse=True) + ([None] if None in _groups else [])
+            if len(_order) > 1:
+                cards_html = "".join(
+                    f'<h3 class="ghead">{"%d CDF" % y if y else "Funding year not published"} — {len(_groups[y])} projects</h3><div class="pgrid">{"".join(_card(pr) for pr in _groups[y])}</div>'
+                    for y in _order)
+            else:
+                cards_html = f'<div class="pgrid">{"".join(_card(pr) for pr in items)}</div>'
             body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked across all published years · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts).{fy_txt}</p>
 <p class="plede">{html.escape(status_line)}</p>
-<div class="pgrid">{''.join(cards)}</div>"""
+{cards_html}"""
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
                 f"{cname} constituency", f"{len(items)} CDF projects tracked in {cname}, {pname}: budgets, status, contractors and sources.",
                 "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))

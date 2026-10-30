@@ -403,8 +403,6 @@
       fyStripFor(document.getElementById('fyStrip'), X.totalProjects, X.fundingYears, X.fundingYearKnown);
       return;
     }
-    if (!pilotSel || !P.constituencies.some(function(x){ return x.name === pilotSel; }))
-      pilotSel = P.constituencies.slice().sort(function(a,b){return b.count - a.count;})[0].name;
     listEl.innerHTML = P.constituencies.map(function(cc){
       var known = cc.projects.filter(function(x){return x.budgetM !== null;}).length;
       return '<div class="prow' + (cc.name === pilotSel ? ' sel' : '') + '" data-c="' + cc.name + '">' +
@@ -412,25 +410,49 @@
         '<span class="pdetail-x">' + cc.count + ' projects' + (known ? ' · ' + fmtKwacha(cc.budgetM) + ' published' : '') + '</span></div>';
     }).join('');
     listEl.querySelectorAll('.prow').forEach(function(r){
-      r.addEventListener('click', function(){
-        var ccObj = P.constituencies.filter(function(x){ return x.name === r.dataset.c; })[0];
-        if (ccObj && ccObj.url) { window.location.href = ccObj.url; return; }
-        pilotSel = r.dataset.c; renderProjects();
-      });
+      r.addEventListener('click', function(){ pilotSel = r.dataset.c; renderProjects(); });
     });
+    if (!pilotSel || !P.constituencies.some(function(x){ return x.name === pilotSel; })) {
+      document.getElementById('pdName').textContent = P.name + ' province';
+      document.getElementById('pdMeta').textContent = P.totalProjects + ' projects · ' + P.constituencies.length + ' constituencies — pick one to browse its projects';
+      var mix = {};
+      P.constituencies.forEach(function(cc){ cc.projects.forEach(function(pr){ mix[pr.status] = (mix[pr.status] || 0) + 1; }); });
+      var mixTxt = Object.keys(mix).map(function(k){ return (STATUS[k] ? STATUS[k].label : k) + ': ' + mix[k]; }).join(' · ');
+      var top = P.constituencies.slice().sort(function(a,b){return b.count - a.count;}).slice(0, 5);
+      document.getElementById('pdBody').innerHTML = '<div id="projDetailSlot"></div>' +
+        '<p class="chart-note">' + mixTxt + '</p>' +
+        '<p class="chart-note">Projects arrive in per-year council lists — a constituency showing many projects is usually showing several funding years at once, not one big approval. Biggest in ' + P.name + ':</p>' +
+        top.map(function(cc){ return '<div class="prow jrow" data-sel="' + cc.name + '"><span class="pname">' + cc.name + '</span><span class="pdetail-x">' + cc.count + ' projects</span></div>'; }).join('');
+      document.querySelectorAll('#pdBody .jrow').forEach(function(r){
+        r.addEventListener('click', function(){ pilotSel = r.dataset.sel; renderProjects(); });
+      });
+      if (note) note.textContent = P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' ' + P.name + ' constituencies. Pick a constituency on the left to browse its projects, grouped by funding year where the lists publish one.';
+      fyStripFor(document.getElementById('fyStrip'), P.totalProjects, P.fundingYears, P.fundingYearKnown);
+      return;
+    }
     var cc = P.constituencies.filter(function(x){ return x.name === pilotSel; })[0];
     var items = pilotFiltered(cc);
     document.getElementById('pdName').textContent = cc.name + ' constituency — ' + P.name;
-    document.getElementById('pdMeta').textContent = items.length + ' of ' + cc.count + ' published projects shown';
-    document.getElementById('pdBody').innerHTML =
-      '<div id="projDetailSlot"></div>' +
-      (items.length ? items.map(function(pr, i){
-        return '<div class="prow jrow" data-i="' + i + '"><span class="pname">' + pr.name + '</span>' +
+    document.getElementById('pdMeta').innerHTML = items.length + ' of ' + cc.count + ' published projects shown' + (cc.url ? ' · <a href="' + cc.url + '">Open the ' + cc.name + ' page →</a>' : '');
+    var groups = {}, order = [];
+    items.forEach(function(pr){ var k = pr.fundingYear ? String(pr.fundingYear) : ''; if (!(k in groups)) { groups[k] = []; order.push(k); } groups[k].push(pr); });
+    order.sort(function(a, b){ if (a === '') return 1; if (b === '') return -1; return b - a; });
+    var grouped = order.length > 1;
+    var flat = [];
+    var html = '<div id="projDetailSlot"></div>';
+    order.forEach(function(k){
+      if (grouped) html += '<div class="ghead">' + (k ? k + ' CDF' : 'Funding year not published') + ' — ' + groups[k].length + ' projects</div>';
+      groups[k].forEach(function(pr){
+        flat.push(pr);
+        html += '<div class="prow jrow" data-i="' + (flat.length - 1) + '"><span class="pname">' + pr.name + '</span>' +
           '<span class="amt">' + fmtKwacha(pr.budgetM) + '</span>' + badge(pr.status) + '</div>';
-      }).join('') : '<p class="chart-note">No projects match this filter.</p>');
+      });
+    });
+    if (!items.length) html += '<p class="chart-note">No projects match this filter.</p>';
+    document.getElementById('pdBody').innerHTML = html;
     document.querySelectorAll('#pdBody .jrow').forEach(function(r){
       r.addEventListener('click', function(){
-        var pr = items[+r.dataset.i];
+        var pr = flat[+r.dataset.i];
         if (pr && pr.url) { window.location.href = pr.url; return; }
         showProject(pr);
       });
