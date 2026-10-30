@@ -70,9 +70,10 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=18">
+<link rel="stylesheet" href="{prefix}styles.css?v=19">
 </head>
 <body>
+<div class="wrap">
 <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
 <header class="sitehead">
   <a class="wordmark" href="{prefix}index.html">Zambia <em>CDF</em> Tracker</a>
@@ -92,13 +93,14 @@ def shell(title, desc, prefix, body, og_image=None, crumb=""):
 <h1>{html.escape(title)}</h1>
 <p class="bandsub">{html.escape(desc)}</p>
 </div></div>
-<main class="pagewrap">
+<main>
 {body}
 </main>
 <footer class="sitefoot">
   <p>Generated from the Zambia CDF Tracker database — every figure traces to a published source, listed on each page. Province boundaries: geoBoundaries (CC BY 4.0).</p>
   <p><a href="{prefix}index.html">Back to the dashboard</a></p>
 </footer>
+</div>
 </body>
 </html>
 """
@@ -187,12 +189,16 @@ def main():
 
     # ---------- provinces index ----------
     cards = []
+    max_alloc = max(s for _, _, s in provinces) * rate[latest_year]
     for pid, pname, seats in provinces:
         tracked = sum(len(v) for v in by_province_const.get(pname, {}).values())
         sub = f"{tracked} projects tracked so far" if tracked else "Project tracking in a later phase"
+        alloc = seats * rate[latest_year]
+        pct = round(alloc / max_alloc * 100) if max_alloc else 0
         cards.append(f"""<a class="pcard" href="provinces/{slugify(pname)}.html">
-          <h3>{html.escape(pname)}</h3>
-          <p>{seats} constituencies · {fmt_m(seats * rate[latest_year])} in {latest_year}</p>
+          <h3>{html.escape(pname)}<span class="parr" aria-hidden="true">\u2192</span></h3>
+          <p>{seats} constituencies · {fmt_m(alloc)} in {latest_year}</p>
+          <div class="pbar" aria-hidden="true"><span style="width:{pct}%"></span></div>
           <p class="pcard-sub">{sub}</p>
         </a>""")
     sc_rows = []
