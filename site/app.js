@@ -300,7 +300,7 @@
     }
     var AG = U.ag, agEl = document.getElementById("agStack");
     if (agEl && AG && AG.audited) {
-      var done = AG.completed, never = AG.notStarted, mid = AG.audited - done - never;
+      var done = AG.completed, never = AG.notStarted, mid = (AG.inProgress != null ? AG.inProgress : AG.audited - done - never);
       var p1 = Math.round(done / AG.audited * 100), p3 = Math.round(never / AG.audited * 100), p2 = 100 - p1 - p3;
       agEl.innerHTML = '<div class="stack" role="img" aria-label="Of ' + AG.audited + ' audited projects, ' + done + ' were completed and ' + never + ' never started">' +
         '<span class="seg green" style="width:' + p1 + '%"></span><span class="seg mid" style="width:' + p2 + '%"></span><span class="seg red" style="width:' + p3 + '%"></span></div>' +

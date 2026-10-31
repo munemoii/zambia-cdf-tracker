@@ -591,3 +591,18 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 @media print{.readfab{display:none}}
 
 .readfab .ql{line-height:1.12;text-align:left}
+
+/* ===== Auditor-General layer: audited record (2026-10-31) ===== */
+.stack .seg.steel{background:#33607e}
+.stack .seg.grey{background:#9aa5a0}
+.stackleg .dot.steel{background:#33607e}
+.stackleg .dot.grey{background:#9aa5a0}
+.agcard{margin-top:22px}
+.agfy{font-family:"Barlow Condensed",sans-serif;font-size:1.25rem;letter-spacing:.02em;margin:20px 0 8px}
+.agtable td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.npub{color:var(--muted);font-style:italic}
+.agdetail{font-size:.92rem;color:var(--muted);margin:8px 0 0}
+.agdetail b{color:var(--ink)}
+.agnote{font-size:.88rem;color:var(--muted);margin:10px 0 0}
+.agstatus{margin:14px 0 4px}
+.agstath{margin:0 0 7px}
