@@ -395,11 +395,13 @@ def main():
         if not blocks:
             return ""
         return ('<div class="card agcard"><h2 class="phead">The audited record</h2>'
-                '<p class="plede">What the Auditor-General\'s own inspection of this '
-                'constituency\'s CDF found — the audited record, kept separate from '
-                'the council-published record. Figures are as printed in the '
-                'Auditor-General\'s reports '
-                '— where the report does not publish a figure, this page says so '
+                '<p class="plede">The Auditor-General counted this constituency\'s '
+                'projects in its audit of the CDF. These are the audit\'s own totals '
+                '— a separate record from the council\'s published list above. The '
+                'audit does not publish the projects name by name, so its totals are '
+                'never added to the council list (some projects appear in both '
+                'records). Figures are as printed in the Auditor-General\'s reports '
+                '— where a report does not publish a figure, this page says so '
                 'rather than estimating it.</p>' + blocks + "</div>")
 
     (SITE / "provinces").mkdir(exist_ok=True)
