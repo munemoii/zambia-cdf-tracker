@@ -105,6 +105,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <footer class="sitefoot">
   <p>Generated from the Zambia CDF Tracker database — every figure traces to a published source, listed on each page. Province boundaries: geoBoundaries (CC BY 4.0).</p>
   <p><a href="{prefix}index.html">Back to the dashboard</a> · <a href="{prefix}read.html">How to read this tracker</a></p>
+  <p class="copyright">© 2026 Zambia CDF Tracker. All rights reserved.</p>
 </footer>
 </div>
 <a class="readfab" href="{prefix}read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read<br>this tracker</span></a>
