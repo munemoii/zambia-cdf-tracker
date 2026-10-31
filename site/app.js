@@ -687,14 +687,20 @@
       {key:"stalled",label:"Stalled",color:"#bf3b26"},
       {key:"unknown",label:"Status not stated",color:"#9aa79d"}
     ];
-    var segs="", leg="";
+    var MIX=[];
     ORDER.forEach(function(o){
-      var n=(R.statuses&&R.statuses[o.key])||0; if(!n) return;
-      var pct=n/total*100;
-      segs+='<span class="seg" style="background:'+o.color+';width:'+pct+'%"></span>';
-      leg+='<div class="recleg"><span class="dot" style="background:'+o.color+'"></span><span class="rl">'+o.label+'</span><span class="rn">'+n.toLocaleString()+'</span><span class="rp">'+pct.toFixed(1)+'%</span></div>';
+      if(o.key==="in_progress") return;
+      if(o.key==="ongoing"){ MIX.push({label:"Underway", color:o.color, n:((R.statuses&&R.statuses.ongoing)||0)+((R.statuses&&R.statuses.in_progress)||0)}); return; }
+      MIX.push({label:o.label, color:o.color, n:(R.statuses&&R.statuses[o.key])||0});
     });
-    mount.innerHTML='<div class="stack tall" role="img" aria-label="Status mix of all tracked projects">'+segs+'</div><div class="reclegs">'+leg+'</div>';
+    var segs="", leg="";
+    MIX.forEach(function(o){
+      if(!o.n) return;
+      var pct=o.n/total*100;
+      segs+='<span class="seg" style="background:'+o.color+';width:'+pct+'%"></span>';
+      leg+='<div class="recleg"><span class="dot" style="background:'+o.color+'"></span><span class="rl">'+o.label+'</span><span class="rn">'+o.n.toLocaleString()+'</span><span class="rp">'+pct.toFixed(1)+'%</span></div>';
+    });
+    mount.innerHTML='<div class="stack tall" role="img" aria-label="Status mix of all tracked projects">'+segs+'</div><div class="reclegs">'+leg+'</div><p class="chart-note" style="margin-top:8px">\u201cUnderway\u201d combines the two wordings sources use for work under way \u2014 ongoing and in progress. Project pages keep each source\u2019s own word.</p>';
     var tiles=document.getElementById("recordTiles");
     if(tiles){
       tiles.innerHTML=
