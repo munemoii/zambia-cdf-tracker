@@ -16,7 +16,7 @@ BASE = "https://sprightly-sunshine-f93b94.netlify.app"
 
 STATUS = {
     "approved": ("Approved", "#8a6d1a"), "funded": ("Funded", "#a8842c"),
-    "ongoing": ("Ongoing", "#3fb27f"), "in_progress": ("In progress", "#3fb27f"),
+    "ongoing": ("Ongoing", "#33607e"), "in_progress": ("In progress", "#33607e"),
     "completed": ("Completed", "#167347"),
     "stalled": ("Stalled", "#bf3b26"), "completed_unused": ("Completed, unused", "#a12c2c"),
     "unknown": ("Status not stated", "#777"),
@@ -71,7 +71,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=31">
+<link rel="stylesheet" href="{prefix}styles.css?v=32">
 </head>
 <body>
 <div class="wrap">

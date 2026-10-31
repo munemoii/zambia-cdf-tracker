@@ -439,7 +439,7 @@
   /* ---------- Lusaka pilot explorer ---------- */
   var STATUS = {
     approved:{label:'Approved', color:'#8a6d1a'}, funded:{label:'Funded', color:'#a8842c'},
-    ongoing:{label:'Ongoing', color:'#3fb27f'}, in_progress:{label:'In progress', color:'#3fb27f'},
+    ongoing:{label:'Ongoing', color:'#33607e'}, in_progress:{label:'In progress', color:'#33607e'},
     completed:{label:'Completed', color:'#167347'},
     stalled:{label:'Stalled', color:'#bf3b26'}, completed_unused:{label:'Completed, unused', color:'#a12c2c'},
     unknown:{label:'Status not stated', color:'#777'}
@@ -680,8 +680,8 @@
     var R=D.record, total=R.total||0; if(!total) return;
     var ORDER=[
       {key:"completed",label:"Completed",color:"#167347"},
-      {key:"ongoing",label:"Ongoing",color:"#3fb27f"},
-      {key:"in_progress",label:"In progress",color:"#3fb27f"},
+      {key:"ongoing",label:"Ongoing",color:"#33607e"},
+      {key:"in_progress",label:"In progress",color:"#33607e"},
       {key:"approved",label:"Approved",color:"#d4a017"},
       {key:"funded",label:"Funded",color:"#a8842c"},
       {key:"stalled",label:"Stalled",color:"#bf3b26"},
