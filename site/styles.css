@@ -589,3 +589,5 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .readfab:hover{transform:translateY(-2px);box-shadow:0 14px 30px -8px rgba(0,0,0,.5),0 0 0 1px rgba(0,0,0,.08)}
 .readfab .q{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border-radius:50%;background:#0e4d30;color:#fff;font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.82rem;line-height:1;flex:none}
 @media print{.readfab{display:none}}
+
+.readfab .ql{line-height:1.12;text-align:left}
