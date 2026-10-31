@@ -568,3 +568,7 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 #newsList .devlink:first-child p{color:#cfe0cf}
 #newsList .devlink:first-child .devmore{color:#f3d34a}
 #newsList .devlink:first-child:hover{background:linear-gradient(135deg,#0d3b22,#17603a)}
+
+/* ===== one colour law: urban slate strengthened + legend dot (2026-10-30) ===== */
+.vf.urban{background:#7488a3}
+.stackleg .dot.slate{background:#7488a3}
