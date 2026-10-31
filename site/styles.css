@@ -583,3 +583,9 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .fill.m{background:#33607e}
 .vbar .vt.notrack{background:transparent}
 .pbar span{background:linear-gradient(90deg,#e9c766,#d4a017)}
+
+/* ===== "How to read this" floating pill — on every page, never in the nav (2026-10-30) ===== */
+.readfab{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#231a00;font-weight:700;font-size:.9rem;padding:10px 16px 10px 11px;border-radius:999px;box-shadow:0 10px 26px -8px rgba(0,0,0,.45),0 0 0 1px rgba(0,0,0,.08);text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}
+.readfab:hover{transform:translateY(-2px);box-shadow:0 14px 30px -8px rgba(0,0,0,.5),0 0 0 1px rgba(0,0,0,.08)}
+.readfab .q{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#0e4d30;color:#fff;font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1rem;line-height:1;flex:none}
+@media print{.readfab{display:none}}

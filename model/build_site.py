@@ -71,7 +71,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=33">
+<link rel="stylesheet" href="{prefix}styles.css?v=34">
 </head>
 <body>
 <div class="wrap">
@@ -102,6 +102,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
   <p><a href="{prefix}index.html">Back to the dashboard</a> · <a href="{prefix}read.html">How to read this tracker</a></p>
 </footer>
 </div>
+<a class="readfab" href="{prefix}read.html" aria-label="How to read this tracker"><span class="q">?</span>How to read this</a>
 </body>
 </html>
 """
