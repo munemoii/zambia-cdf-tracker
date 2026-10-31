@@ -2,7 +2,7 @@
 """Reconciliation gate for the Auditor-General layer.
 
 Verifies, per appendix/cohort and numeric field:
-  DB sum == staged-CSV sum - held (manual-review) sum        [must be exact]
+  DB sum == staged-CSV sum - held (unapproved manual-review) sum [must be exact]
   staged-CSV sum vs the report's PRINTED total                [exact, or the
     deviation documented in VALIDATION.md §4/§6 — anything else FAILS]
 
@@ -47,7 +47,9 @@ mapping = {r["ag_name"]: r["match_type"] for r in read("name_mapping.csv")}
 
 
 def is_held(name):
-    return mapping.get(name) not in ("exact", "fuzzy")
+    # 'approved' = manual-review mapping confirmed by Caleb 2026-10-31
+    # (delegated judgment; see APPROVALS.md in the staging folder).
+    return mapping.get(name) not in ("exact", "fuzzy", "approved")
 
 
 def sums(rows, keyfn, fields):

@@ -6,8 +6,13 @@ Source of truth: the staged, validated CSVs in
 Every value is verbatim from the official AG report PDFs; blanks in the CSVs
 are blank AS PRINTED and are stored as NULL (never zero-filled).
 
-Name joining: name_mapping.csv — ONLY match_type 'exact' or 'fuzzy' rows are
-ingested. 'manual-review' names are skipped entirely and itemised in
+Name joining: name_mapping.csv — match_type 'exact', 'fuzzy' and 'approved'
+rows are ingested. 'approved' rows are manual-review mappings Caleb confirmed
+on 2026-10-31 via delegated judgment ("I will trust your judgment") — see
+APPROVALS.md in the staging folder; every row ingested through one carries the
+approval in its flags JSON so the audit trail shows it was confirmed, not
+assumed. Remaining 'manual-review' names (Lukulu — its proof test failed, see
+APPROVALS.md) are skipped entirely and itemised in
 held_mappings_build_note.md in the staging folder (Caleb's rule, 2026-10-31).
 
 Rerunnable: both AG tables are dropped and recreated inside one transaction.
@@ -78,11 +83,19 @@ def main():
         if ag_name not in mapping:
             return None, "unmapped"
         tname, mtype = mapping[ag_name]
-        if mtype not in ("exact", "fuzzy"):
+        if mtype not in ("exact", "fuzzy", "approved"):
             return None, mtype
         if tname not in tracker:
             return None, "tracker-missing"
         return tracker[tname], mtype
+
+    APPROVAL_FLAG = ("name confirmed 2026-10-31: manual-review mapping approved "
+                     "on Caleb's delegated judgment (APPROVALS.md)")
+
+    def add_provenance(flags, mtype):
+        if mtype == "approved":
+            flags["name_match"] = APPROVAL_FLAG
+        return flags
 
     held = []          # (dataset, ag_name, proposed_tracker, rows)
     held_count = {}
@@ -137,6 +150,7 @@ def main():
             note_held("fy2023_appendix2_components", r["constituency"])
             continue
         flags = {"note": r["note"]} if r["note"].strip() else {}
+        flags = add_provenance(flags, mtype)
         extra = {"pdf_page": page(r["source_page_pdf"])}
         cur.execute(
             "INSERT INTO ag_components(fy,constituency_id,component_label_as_printed,"
@@ -158,6 +172,7 @@ def main():
             note_held("fy2024_appendix2_components", r["constituency"])
             continue
         flags = {"note": r["note"]} if r["note"].strip() else {}
+        flags = add_provenance(flags, mtype)
         extra = {
             "balance_bf": num(r["balance_bf"]),
             "funding_2024": num(r["amount_received_funding_2024"]),
@@ -193,6 +208,7 @@ def main():
         flags = {"first_column_label": r["first_column_label"]}
         if r["note"].strip():
             flags["note"] = r["note"]
+        flags = add_provenance(flags, mtype)
         cur.execute(
             "INSERT INTO ag_project_status(fy,constituency_id,cohort_year,approved,"
             "implemented,in_progress,not_implemented,flags,source_doc,appendix_ref,"
@@ -215,6 +231,7 @@ def main():
         flags = {"first_column_label": r["first_column_label"]}
         if r["note"].strip():
             flags["note"] = r["note"]
+        flags = add_provenance(flags, mtype)
         cur.execute(
             "INSERT INTO ag_project_status(fy,constituency_id,cohort_year,approved,"
             "implemented,in_progress,not_implemented,flags,source_doc,appendix_ref,"
@@ -233,9 +250,13 @@ def main():
         "# AG build — held name mappings (NOT ingested)",
         "",
         "Build: model/ingest_ag.py, 2026-10-31. Per Caleb's rule, only exact/fuzzy",
-        "name matches were ingested. Every staged CSV row whose AG constituency name",
-        "is a manual-review mapping (or unmapped) was skipped in full — no AG section",
-        "is rendered for a constituency from a name Caleb has not confirmed.",
+        "name matches — and manual-review mappings Caleb has approved — are",
+        "ingested. On 2026-10-31 Caleb delegated judgment on the 22 held mappings;",
+        "21 were approved (match_type 'approved' in name_mapping.csv, provenance in",
+        "APPROVALS.md and in each ingested row's flags). Every staged CSV row whose",
+        "AG constituency name is still a manual-review mapping (or unmapped) was",
+        "skipped in full — no AG data is rendered for a constituency from a name",
+        "that has not been confirmed.",
         "",
         "| Dataset | AG name (as printed) | Proposed tracker name | Rows held |",
         "|---|---|---|---|",
