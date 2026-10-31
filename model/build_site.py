@@ -129,6 +129,51 @@ PLACE_MEDIA = {
         "caption": "Downtown Lusaka",
         "credit": "Photo: Matthew Grollnek — CC BY-SA 4.0, via Wikimedia Commons",
     },
+    ("province", "Central"): {
+        "url": "/photos/downtown-kabwe.jpg",
+        "caption": "Downtown Kabwe, on Freedom Way",
+        "credit": "Photo: Mac H. Alford — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("province", "Copperbelt"): {
+        "url": "/photos/ndola-view.jpg",
+        "caption": "Ndola city centre, seen from above",
+        "credit": "Photo: Mike Rosenberg — CC BY 2.0, via Wikimedia Commons",
+    },
+    ("province", "Eastern"): {
+        "url": "/photos/chipata-great-east-road.jpg",
+        "caption": "Shops on the Great East Road, Chipata",
+        "credit": "Photo: Hans Hillewaert — CC BY-SA 3.0, via Wikimedia Commons",
+    },
+    ("province", "Luapula"): {
+        "url": "/photos/ntumbachushi-falls.jpg",
+        "caption": "Ntumbachushi Falls, Kawambwa District",
+        "credit": "Photo: Stephen Chabala — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("province", "Muchinga"): {
+        "url": "/photos/shiwa-ngandu-house.jpg",
+        "caption": "The manor house at Shiwa Ng'andu",
+        "credit": "Photo: Marcus Rozbitsky — CC BY 2.0, via Wikimedia Commons",
+    },
+    ("province", "Northern"): {
+        "url": "/photos/chishimba-falls.jpg",
+        "caption": "Chishimba Falls, near Kasama",
+        "credit": "Photo: Sheenasitwala — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("province", "North-Western"): {
+        "url": "/photos/mutanda-falls.jpg",
+        "caption": "Mutanda Falls, near Solwezi",
+        "credit": "Photo: Wachi Mukuka — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("province", "Southern"): {
+        "url": "/photos/victoria-falls.jpg",
+        "caption": "Mosi-oa-Tunya (Victoria Falls), from the Zambian side",
+        "credit": "Photo: Matti Blume — CC BY-SA 4.0, via Wikimedia Commons",
+    },
+    ("province", "Western"): {
+        "url": "/photos/mongu-floodplain.jpg",
+        "caption": "Mongu, where the town meets the Barotse Floodplain",
+        "credit": "Photo: Petrtyl — CC BY 4.0, via Wikimedia Commons",
+    },
     ("constituency", "Kafue"): {
         "url": "/photos/kafue-river.jpg",
         "caption": "The Kafue River, seen from the Kafue River Bridge",
