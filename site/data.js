@@ -129,7 +129,7 @@ window.CDF_DATA = {
       "date": "26 October 2026",
       "source": "Auditor General's 2024 CDF report, via Zambian Economist",
       "title": "Auditor General: most 2024 projects finished, but funds left idle",
-      "text": "The Auditor General's report on the 2024 Constituency Development Fund — the annual independent audit of the fund — found that 3,060 of the 4,879 CDF projects recorded for 2024 were completed, while 525 had not started at all. About six in ten projects finished; roughly one in nine never began.\n\nThe money tells the sharper story. Of K5.12 billion available to constituencies in 2024, about K771 million was still unspent — funds allocated and released but sitting idle while projects waited. The audit also examined the fund's loan book: of K375.3 million in CDF loans due, only K63.8 million had been collected, a recovery of about 17%.\n\nThe findings frame the tracker's central question. Zambia's CDF problem is no longer the size of the allocation — it has risen every year since 2021 — but the distance between money announced and work delivered. The idle balances and unrecovered loans in this report are the same weaknesses behind the suspension of new CDF loans in September 2026.",
+      "text": "The Auditor General's report on the 2024 Constituency Development Fund — the annual independent audit of the fund — found that 3,060 of the 4,879 CDF projects recorded for 2024 were completed, while 525 had not started at all. About six in ten projects finished; roughly one in nine never began.\n\nThe money tells the sharper story. Of K5,886.9 million in total funds available to constituencies in 2024, about K771 million was still unspent (K5,115.6 million was spent) — funds allocated and released but sitting idle while projects waited. The audit also examined the fund's loan book: of K375.3 million in CDF loans due, only K63.8 million had been collected, a recovery of about 17%.\n\nThe findings frame the tracker's central question. Zambia's CDF problem is no longer the size of the allocation — it has risen every year since 2021 — but the distance between money announced and work delivered. The idle balances and unrecovered loans in this report are the same weaknesses behind the suspension of new CDF loans in September 2026.",
       "url": "https://zambianeconomist.com/budget-2027-run-up-what-the-numbers-say/",
       "page": "developments/auditor-general-most-2024-projects-finished-but-funds-left-idle.html"
     },
@@ -35187,7 +35187,8 @@ window.CDF_DATA = {
       "notStarted": 525.0,
       "inProgress": 1293.0,
       "unspentM": 771.4,
-      "availableM": 5120
+      "availableM": 5886.9,
+      "spentM": 5115.6
     },
     "provinces": [
       {
