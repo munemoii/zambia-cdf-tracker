@@ -370,8 +370,13 @@
       }
       var rbEl = document.getElementById("recoveryBars");
       if (rbEl) {
-        var rows = L.series.map(function(r){ return barRow(String(r.year), r.pct, r.pct + "%", ""); }).join("");
-        if (L.since2021Pct != null) rows += barRow("Since 2021 (all loans)", L.since2021Pct, L.since2021Pct + "%", "gold");
+        function recRow(label, pct, cls){
+          var rest = Math.round((100 - pct) * 10) / 10;
+          return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt dual"><span class="vf ' + (cls || '') + '" style="width:' + pct + '%"></span><span class="vf red" style="width:' + rest + '%"></span></span><span class="vv">' + pct + '%</span></div>';
+        }
+        var rows = L.series.map(function(r){ return recRow(String(r.year), r.pct, ""); }).join("");
+        if (L.since2021Pct != null) rows += recRow("Since 2021 (all loans)", L.since2021Pct, "gold");
+        rows += '<div class="stackleg" style="margin-top:2px"><span><i class="dot green"></i>Recovered</span><span><i class="dot red"></i>Still outstanding — not yet repaid</span></div>';
         rbEl.innerHTML = rows;
       }
     }

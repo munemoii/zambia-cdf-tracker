@@ -545,3 +545,8 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .subnav a:hover{border-color:var(--green)}
 .subnav a[aria-current="page"]{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
 @media (prefers-color-scheme: dark){.subnav a[aria-current="page"]{color:#0d1a12}}
+
+/* ===== dual-segment bars: recovered + still outstanding (2026-10-30) ===== */
+.vbar .vt.dual{display:flex}
+.vbar .vt.dual .vf{border-radius:0}
+.vbar .vf.red{background:#bf3b26}
