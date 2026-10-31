@@ -275,16 +275,17 @@
         if (mode === "np") return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"></span><span class="vv">' + valText + '</span></div>';
         if (mode === "base") return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"><span class="vf gold" style="width:100%"></span></span><span class="vv">' + valText + '</span></div>';
         var rest = Math.round((100 - pct) * 10) / 10;
-        return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt dual"><span class="vf" style="width:' + pct + '%"></span><span class="vf red" style="width:' + rest + '%"></span></span><span class="vv">' + valText + '</span></div>';
+        var segCls = mode === "mid" ? "vf mid" : "vf";
+        return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt dual"><span class="' + segCls + '" style="width:' + pct + '%"></span><span class="vf red" style="width:' + rest + '%"></span></span><span class="vv">' + valText + '</span></div>';
       }
       function drawCascade(y) {
         var d = CY.filter(function (x) { return x.year === y; })[0]; if (!d) return;
-        var rel = d.releasedM ? dualRow("Released", d.releasedPct, "K" + (d.releasedM / 1000).toFixed(2) + "bn · " + d.releasedPct + "%", "dual")
+        var rel = d.releasedM ? dualRow("Released", d.releasedPct, "K" + (d.releasedM / 1000).toFixed(2) + "bn · " + d.releasedPct + "%", "mid")
                               : dualRow("Released", 0, "Not published", "np");
         var use = d.utilisedPct ? dualRow("Utilised", d.utilisedPct, d.utilisedPct + "% used", "dual")
                                 : dualRow("Utilised", 0, "Not published", "np");
         cb.innerHTML = dualRow("Allocated (" + d.year + ")", 100, "K" + (d.allocatedM / 1000).toFixed(2) + "bn", "base") + rel + use +
-          '<div class="stackleg" style="margin-top:2px"><span><i class="dot gold"></i>Allocated — the budget promise</span><span><i class="dot green"></i>Released / used</span><span><i class="dot red"></i>Not released / not used</span></div>';
+          '<div class="stackleg" style="margin-top:2px"><span><i class="dot gold"></i>Allocated — the budget promise</span><span><i class="dot mid"></i>Released — with councils, not yet used</span><span><i class="dot green"></i>Utilised — spent</span><span><i class="dot red"></i>Not released / not used</span></div>';
         if (cn) cn.textContent = d.note;
         cp.querySelectorAll(".ypill").forEach(function (b) { b.setAttribute("aria-pressed", +b.getAttribute("data-y") === y ? "true" : "false"); });
       }
@@ -302,8 +303,8 @@
       var done = AG.completed, never = AG.notStarted, mid = AG.audited - done - never;
       var p1 = Math.round(done / AG.audited * 100), p3 = Math.round(never / AG.audited * 100), p2 = 100 - p1 - p3;
       agEl.innerHTML = '<div class="stack" role="img" aria-label="Of ' + AG.audited + ' audited projects, ' + done + ' were completed and ' + never + ' never started">' +
-        '<span class="seg green" style="width:' + p1 + '%"></span><span class="seg gold" style="width:' + p2 + '%"></span><span class="seg red" style="width:' + p3 + '%"></span></div>' +
-        '<div class="stackleg"><span><i class="dot green"></i>Completed — ' + done.toLocaleString("en-GB") + '</span><span><i class="dot gold"></i>Started, not finished — ' + mid.toLocaleString("en-GB") + '</span><span><i class="dot red"></i>Never started — ' + never.toLocaleString("en-GB") + '</span></div>';
+        '<span class="seg green" style="width:' + p1 + '%"></span><span class="seg mid" style="width:' + p2 + '%"></span><span class="seg red" style="width:' + p3 + '%"></span></div>' +
+        '<div class="stackleg"><span><i class="dot green"></i>Completed — ' + done.toLocaleString("en-GB") + '</span><span><i class="dot mid"></i>Started, not finished — ' + mid.toLocaleString("en-GB") + '</span><span><i class="dot red"></i>Never started — ' + never.toLocaleString("en-GB") + '</span></div>';
       var note = document.getElementById("agNote");
       if (note) note.textContent = "And of the K" + (AG.availableM / 1000).toFixed(2) + "bn available to those projects, K" + AG.unspentM + "m (" + Math.round(AG.unspentM / AG.availableM * 100) + "%) was still unspent — Auditor-General's 2024 CDF report.";
     }

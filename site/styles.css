@@ -572,3 +572,8 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 /* ===== one colour law: urban slate strengthened + legend dot (2026-10-30) ===== */
 .vf.urban{background:#7488a3}
 .stackleg .dot.slate{background:#7488a3}
+
+/* ===== in-motion green: released / in progress / started-not-finished (2026-10-30) ===== */
+.vf.mid{background:#3fb27f}
+.stack .seg.mid{background:#3fb27f}
+.stackleg .dot.mid{background:#3fb27f}

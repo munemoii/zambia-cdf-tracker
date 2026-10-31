@@ -70,7 +70,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=29">
+<link rel="stylesheet" href="{prefix}styles.css?v=30">
 </head>
 <body>
 <div class="wrap">
