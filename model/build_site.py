@@ -76,7 +76,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
-<link rel="stylesheet" href="{prefix}styles.css?v=37">
+<link rel="stylesheet" href="{prefix}styles.css?v=38">
 </head>
 <body>
 <div class="wrap">
@@ -188,6 +188,219 @@ def main():
     by_province_const = {}
     for pr in projects:
         by_province_const.setdefault(pr[14], {}).setdefault(pr[12], []).append(pr)
+
+    # ---------- Auditor-General layer: the audited record per constituency ----------
+    # Data: ag_components / ag_project_status (model/ingest_ag.py), verbatim from
+    # the AG report PDFs. Caleb's rule (2026-10-31): anything the report does not
+    # publish with certainty renders as "Not published" — never estimated,
+    # zero-filled or inferred from totals.
+    import json as _agjson
+    _ag_ok = c.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table' "
+                       "AND name='ag_components'").fetchone()[0] > 0
+    _ag_ids = ({n: i for i, n in c.execute(
+        "SELECT id, name FROM constituencies WHERE set_id = 1")} if _ag_ok else {})
+
+    def _agk(v):
+        if v is None:
+            return None
+        return ("-K" if v < 0 else "K") + f"{abs(v):,}"
+
+    def _ag_section(cid, cname):
+        if not _ag_ok or cid is None:
+            return ""
+        comps = c.execute(
+            "SELECT fy, component_label_as_printed, received, expenditure, unspent,"
+            " unspent_pct, extra_json, flags, appendix_ref, source_url"
+            " FROM ag_components WHERE constituency_id = ?"
+            " ORDER BY fy DESC, appendix_ref", (cid,)).fetchall()
+        stats = c.execute(
+            "SELECT fy, cohort_year, approved, implemented, in_progress,"
+            " not_implemented, flags FROM ag_project_status"
+            " WHERE constituency_id = ? ORDER BY fy DESC, cohort_year",
+            (cid,)).fetchall()
+        if not comps and not stats:
+            return ""
+
+        def _note(r):
+            try:
+                return _agjson.loads(r[7]).get("note", "")
+            except Exception:
+                return ""
+
+        def _block(fy):
+            rows = [r for r in comps if r[0] == fy]
+            srows = [r for r in stats if r[0] == fy]
+            if not rows and not srows:
+                return ""
+            by_app = {r[8].replace("Appendix ", ""): r for r in rows}
+            foot = {"split": False, "combined": False}
+            details = []
+            trs = []
+            slot_labels = {
+                2023: {"2.1": "Community Projects", "2.2": "Empowerment Grants",
+                       "2.4": "Secondary Boarding and Skills Development - Bursaries",
+                       "2.5": "Administrative Costs"},
+                2024: {"2.1": "Community Projects", "2.2": "Empowerment Grant",
+                       "2.3": "Secondary Boarding and Skills Development - Bursaries",
+                       "2.4": "Loans", "2.5": "Administrative Cost"},
+            }
+            for app in ["2.1", "2.2", "2.3", "2.4", "2.5"]:
+                if fy == 2023 and app == "2.3":
+                    trs.append('<tr><td>Soft Loans</td><td class="npub" colspan="4">'
+                               'Not published by constituency in the FY2023 report — '
+                               'its Appendix 2.3 repeats the Empowerment Grants table '
+                               'instead of a loans table.</td></tr>')
+                    continue
+                r = by_app.get(app)
+                if r is None:
+                    msg = ("Not published by constituency in the report's "
+                           f"Appendix {app}.")
+                    trs.append(f'<tr><td>{slot_labels[fy][app]}</td>'
+                               f'<td class="npub" colspan="4">{msg}</td></tr>')
+                    continue
+                label, recv, exp, unsp, pctv = r[1], r[2], r[3], r[4], r[5]
+                note = _note(r)
+                mark = ""
+                if any(w in note for w in ("merged", "Combined figure", "jointly")):
+                    mark = "<sup>†</sup>"
+                    if recv is None:
+                        foot["split"] = True
+                    else:
+                        foot["combined"] = True
+
+                def _cell(v):
+                    return _agk(v) if v is not None else \
+                        '<span class="npub">Not published</span>'
+
+                if pctv is None:
+                    pct_html = '<span class="npub">Not published</span>'
+                else:
+                    pct_html = f"{pctv}% unspent · {100 - pctv}% spent"
+                trs.append(f"<tr><td>{html.escape(label)}{mark}</td>"
+                           f"<td>{_cell(recv)}</td><td>{_cell(exp)}</td>"
+                           f"<td>{_cell(unsp)}</td><td>{pct_html}</td></tr>")
+                if fy == 2024:
+                    try:
+                        ex = _agjson.loads(r[6])
+                    except Exception:
+                        ex = {}
+                    parts = []
+                    for key, lab in (("balance_bf", "balance brought forward"),
+                                     ("funding_2024", "2024 funding"),
+                                     ("other_receipts", "other receipts"),
+                                     ("funds_borrowed", "funds borrowed"),
+                                     ("loan_repayment", "loan repayments received"),
+                                     ("interest_accrued", "interest accrued")):
+                        if ex.get(key) is not None:
+                            parts.append(f"{lab} {_agk(ex[key])}")
+                    if parts:
+                        details.append(f'<p class="agdetail"><b>{html.escape(label)}:</b> '
+                                       + " · ".join(parts) + "</p>")
+            funds_col = "Amount received" if fy == 2023 else "Total funds available"
+            table_html = ""
+            if rows:
+                table_html = (
+                    f'<table class="mtable agtable"><thead><tr><th>Component</th>'
+                    f'<th>{funds_col}</th><th>Spent</th><th>Unspent</th>'
+                    f'<th>Unspent / spent</th></tr></thead><tbody>'
+                    + "".join(trs) + "</tbody></table>")
+            foot_html = ""
+            if foot["combined"]:
+                foot_html += ('<p class="agnote">† District-combined figure as printed '
+                              'in the report — it covers more than one constituency '
+                              'and is shown on the group\'s first row, as printed.</p>')
+            if foot["split"]:
+                foot_html += ('<p class="agnote">† The report prints this constituency '
+                              'inside a district-combined figure; the split by '
+                              'constituency is not published.</p>')
+            stat_html = ""
+            if srows:
+                blocks = []
+                for (_fy, cohort, appr, impl, wip, notimpl, flags) in srows:
+                    try:
+                        fl = _agjson.loads(flags)
+                    except Exception:
+                        fl = {}
+                    base_lab = ("brought forward" if "forward" in
+                                fl.get("first_column_label", "").lower()
+                                else "approved")
+                    if appr is None:
+                        blocks.append(
+                            f'<div class="agstatus"><p class="agstath"><b>{cohort} '
+                            f'cohort</b></p><p class="npub">Not published in the '
+                            f'report\'s status appendix.</p></div>')
+                        continue
+                    head = (f'<p class="agstath"><b>{cohort} cohort</b> — {base_lab}: '
+                            f'{appr:,} projects</p>')
+                    if None in (impl, wip, notimpl) or appr == 0:
+                        blocks.append(
+                            f'<div class="agstatus">{head}<p class="npub">Status '
+                            f'breakdown not published for this cohort.</p></div>')
+                        continue
+                    rem = appr - impl - wip - notimpl
+                    segs = [("green", impl), ("steel", wip), ("red", notimpl)]
+                    if rem > 0:
+                        segs.append(("grey", rem))
+                    bar = "".join(
+                        f'<span class="seg {cls}" style="width:{v / appr * 100:.2f}%">'
+                        f'</span>' for cls, v in segs if v > 0)
+
+                    def _pct(v):
+                        return f"{round(v / appr * 100)}%"
+
+                    leg = [
+                        f'<span><i class="dot green"></i>Implemented — {impl:,} '
+                        f'({_pct(impl)})</span>',
+                        f'<span><i class="dot steel"></i>In progress — {wip:,} '
+                        f'({_pct(wip)})</span>',
+                        f'<span><i class="dot red"></i>Not implemented — {notimpl:,} '
+                        f'({_pct(notimpl)})</span>']
+                    if rem > 0:
+                        leg.append(
+                            f'<span><i class="dot grey"></i>Not accounted for in the '
+                            f'report\'s row — {rem:,} ({_pct(rem)})</span>')
+                    extra_note = ""
+                    if rem < 0:
+                        extra_note = (
+                            f'<p class="agnote">The printed row\'s status counts add '
+                            f'to {impl + wip + notimpl:,}, more than its {base_lab} '
+                            f'count of {appr:,} — as printed in the report.</p>')
+                    blocks.append(
+                        f'<div class="agstatus">{head}<div class="stack">{bar}</div>'
+                        f'<div class="stackleg">{"".join(leg)}</div>{extra_note}</div>')
+                stat_html = "".join(blocks)
+            elif rows:
+                if fy == 2023 and cname == "Chadiza":
+                    stat_html = ('<p class="npub">Project status — not published: '
+                                 'the FY2023 report\'s status appendices do not list '
+                                 'Chadiza.</p>')
+                else:
+                    stat_html = ('<p class="npub">Project status — not published in '
+                                 'the report\'s status appendix for this year.</p>')
+            apps = "Appendices 3–4" if fy == 2023 else "Appendix 3"
+            url = rows[0][9] if rows else (
+                "https://www.ago.gov.zm/wp-content/uploads/CDF-Report-2024.pdf"
+                if fy == 2024 else
+                "https://acazambia.org/wp-content/uploads/2025/01/2023-CDF-Report.pdf")
+            src = (f'Source: Report of the Auditor General on the Constituency '
+                   f'Development Fund, financial year ended 31 December {fy} — '
+                   f'Appendices 2.1–2.5 (money) and {apps} (project status). '
+                   f'<a href="{html.escape(url)}" target="_blank" rel="noopener">'
+                   f'Read the report (PDF)</a>')
+            return (f'<h3 class="agfy">Financial year {fy}</h3>' + table_html
+                    + "".join(details) + foot_html + stat_html
+                    + f'<p class="agnote">{src}</p>')
+
+        blocks = "".join(_block(fy) for fy in (2024, 2023))
+        if not blocks:
+            return ""
+        return ('<div class="card agcard"><h2 class="phead">The audited record</h2>'
+                '<p class="plede">What the Auditor-General\'s own inspection of this '
+                'constituency\'s CDF found — the audited record, kept separate from '
+                'the council-published record. Figures are as printed in the '
+                'Auditor-General\'s reports '
+                '— where the report does not publish a figure, this page says so '
+                'rather than estimating it.</p>' + blocks + "</div>")
 
     (SITE / "provinces").mkdir(exist_ok=True)
     (SITE / "constituencies").mkdir(exist_ok=True)
@@ -373,6 +586,7 @@ def main():
 <p class="plede">{html.escape(status_line)}</p>
 <p class="plede">{html.escape(record_line)}</p>
 {cards_html}"""
+            body += _ag_section(_ag_ids.get(cname), cname)
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
                 f"{cname} constituency", f"{len(items)} CDF projects tracked in {cname}, {pname}: budgets, status, contractors and sources.",
                 "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))
@@ -423,6 +637,7 @@ def main():
 <div class="card"><h2 class="phead" style="margin-top:0">The publishing gap is part of the record</h2>
 <p>{html.escape(cname)} receives the same CDF allocation as every constituency — {fmt_m(rate[latest_year])} in {latest_year}. What its council has not yet published, in any list we can verify, is which projects that money is funding. This page will fill in as soon as a publishable list exists; the weekly check watches for one.</p>
 <p><a href="../provinces/{slugify(pname)}.html">See {html.escape(pname)} Province — allocations by year and all its constituencies</a></p></div>"""
+        body += _ag_section(_ag_ids.get(cname), cname)
         (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
             f"{cname} constituency", f"CDF in {cname}, {pname}: {fmt_m(rate[latest_year])} allocated in {latest_year}; project-level tracking has not reached this constituency yet — the publishing gap is part of the record.",
             "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))

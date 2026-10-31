@@ -149,7 +149,7 @@ def main():
                     "releasedPct": movement.get(2025, {}).get("releasedPct"),
                     "utilisedPct": movement.get(2025, {}).get("util")},
         "ag": {"audited": _mval("projects_total_audited"), "completed": _mval("projects_completed"),
-               "notStarted": _mval("projects_not_started"), "unspentM": _mval("unspent_amount"),
+               "notStarted": _mval("projects_not_started"), "inProgress": _mval("projects_in_progress"), "unspentM": _mval("unspent_amount"),
                "availableM": 5120},
         "provinces": [],
     }

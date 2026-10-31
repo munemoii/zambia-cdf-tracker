@@ -14,7 +14,7 @@ The shift followed a rapid reshuffle. Citizens First had publicly asked for a po
 
 For the CDF, the speech is the moment the 2027 rate is set — the first budget of the 226-constituency era. At the Treasury's budget hearings earlier in October, Secretary to the Treasury Felix Nkulukusa projected CDF rising by K2.8 billion to about K9.0 billion in 2027, the arithmetic of holding the K40 million rate across all 226 constituencies. That was a hearings projection, not a decision: the rate and the constituency basis are confirmed only when the budget is read on 6 November, and this tracker will record them from the budget documents, not from the speculation ahead of them.""",
 
-1: """The Auditor General's report on the 2024 Constituency Development Fund — the annual independent audit of the fund — found that 3,060 of the 4,879 CDF projects recorded for 2024 were completed, while 526 had not started at all. About six in ten projects finished; roughly one in nine never began.
+1: """The Auditor General's report on the 2024 Constituency Development Fund — the annual independent audit of the fund — found that 3,060 of the 4,879 CDF projects recorded for 2024 were completed, while 525 had not started at all. About six in ten projects finished; roughly one in nine never began.
 
 The money tells the sharper story. Of K5.12 billion available to constituencies in 2024, about K771 million was still unspent — funds allocated and released but sitting idle while projects waited. The audit also examined the fund's loan book: of K375.3 million in CDF loans due, only K63.8 million had been collected, a recovery of about 17%.
 

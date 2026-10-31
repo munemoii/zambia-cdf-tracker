@@ -119,3 +119,36 @@ CREATE TABLE IF NOT EXISTS news_items (
   text         TEXT,
   source_id    INTEGER REFERENCES sources(id)
 );
+
+-- Auditor-General per-constituency layer (built by model/ingest_ag.py from the
+-- staged extraction in hidden_files/ag-extraction-2026-10-31; values verbatim
+-- from the AG report PDFs, blanks as printed stored as NULL).
+CREATE TABLE ag_components (
+  id INTEGER PRIMARY KEY,
+  fy INTEGER NOT NULL,
+  constituency_id INTEGER NOT NULL REFERENCES constituencies(id),
+  component_label_as_printed TEXT NOT NULL,
+  received INTEGER,
+  expenditure INTEGER,
+  unspent INTEGER,
+  unspent_pct INTEGER,
+  extra_json TEXT NOT NULL DEFAULT '{}',
+  flags TEXT NOT NULL DEFAULT '{}',
+  source_doc TEXT NOT NULL,
+  appendix_ref TEXT NOT NULL,
+  source_url TEXT NOT NULL
+);
+CREATE TABLE ag_project_status (
+  id INTEGER PRIMARY KEY,
+  fy INTEGER NOT NULL,
+  constituency_id INTEGER NOT NULL REFERENCES constituencies(id),
+  cohort_year INTEGER NOT NULL,
+  approved INTEGER,
+  implemented INTEGER,
+  in_progress INTEGER,
+  not_implemented INTEGER,
+  flags TEXT NOT NULL DEFAULT '{}',
+  source_doc TEXT NOT NULL,
+  appendix_ref TEXT NOT NULL,
+  source_url TEXT NOT NULL
+);
