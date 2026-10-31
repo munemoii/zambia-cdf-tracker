@@ -577,3 +577,9 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .vf.mid{background:#3fb27f}
 .stack .seg.mid{background:#3fb27f}
 .stackleg .dot.mid{background:#3fb27f}
+
+/* ===== colour-law sweep: flow stage fills, trackless count bars, allocation share (2026-10-30) ===== */
+.fill.g{background:#d4a017}
+.fill.m{background:#3fb27f}
+.vbar .vt.notrack{background:transparent}
+.pbar span{background:linear-gradient(90deg,#e9c766,#d4a017)}

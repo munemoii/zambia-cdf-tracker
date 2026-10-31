@@ -20,7 +20,7 @@
     return [
       {key:"community",label:"Community projects",desc:"Infrastructure, water, roads — incl. 5% disaster contingency within this share",pct:57,color:"#167347",amount:rest*0.60},
       {key:"empower",label:"Youth & women empowerment",desc:"40% grants · 60% soft loans",pct:19,color:"#e87511",amount:rest*0.20},
-      {key:"bursary",label:"Bursaries",desc:"Secondary boarding & skills development",pct:19,color:"#b78a12",amount:rest*0.20},
+      {key:"bursary",label:"Bursaries",desc:"Secondary boarding & skills development",pct:19,color:"#0e7c86",amount:rest*0.20},
       {key:"admin",label:"Administration",desc:"Capped at 5% of the fund",pct:5,color:"#5c6b60",amount:admin}
     ];
   }
@@ -78,7 +78,7 @@
     var allocs = PROVINCES.map(function(pr){ return pr.seats * per; });
     var mn = Math.min.apply(null, allocs), mx = Math.max.apply(null, allocs);
     function shade(t){
-      var c1 = [231, 240, 231], c2 = [23, 92, 46];
+      var c1 = [250, 241, 208], c2 = [176, 132, 10];
       var c = c1.map(function(v, i){ return Math.round(v + (c2[i] - v) * t); });
       return 'rgb(' + c.join(',') + ')';
     }
@@ -106,7 +106,7 @@
       var t = (mx - mn) ? (pr.seats * per - mn) / (mx - mn) : 0.5;
       var sel = pr.name === state.province;
       path.setAttribute('fill', shade(0.2 + 0.8 * t));
-      path.setAttribute('stroke', sel ? '#d4a017' : '#ffffff');
+      path.setAttribute('stroke', sel ? '#0e4d30' : '#ffffff');
       path.setAttribute('stroke-width', sel ? '3' : '1.2');
       path.querySelector('title').textContent = pr.name + ' — ' + pr.seats + ' constituencies · ' + fmtM(pr.seats * per) + ' in ' + state.year;
     });
@@ -164,15 +164,15 @@
     if(!document.getElementById("flowCard")) return;
     var per=perOf(state.year), total=per*SEATS, mv=MOVEMENT[state.year];
     var html='<h3 style="margin-bottom:14px">'+state.year+' — from allocation to use</h3>';
-    html+=flowRow("Allocated", state.year+" budget — 156 × K"+per.toFixed(1)+"m", "", 100, fmtM(total)+"<small>100%</small>");
+    html+=flowRow("Allocated", state.year+" budget — 156 × K"+per.toFixed(1)+"m", "g", 100, fmtM(total)+"<small>100%</small>");
     if(mv){
-      html+=flowRow("Released","Reported disbursed to constituencies","o", mv.releasedPct, fmtM(mv.released)+"<small>≈"+mv.releasedPct+"% of allocation</small>");
-      html+=flowRow("Utilisation","Reported share of funds put to use","r", mv.util, mv.util+"%<small>reported rate</small>");
-      html+=flowRow("Community projects approved", mv.projCount.toLocaleString("en-GB")+" projects approved nationally in "+state.year, "", mv.projPct, fmtM(mv.projAmt)+"<small>"+mv.projPct+"% of "+state.year+" allocation</small>");
+      html+=flowRow("Released","Reported disbursed to constituencies","m", mv.releasedPct, fmtM(mv.released)+"<small>≈"+mv.releasedPct+"% of allocation</small>");
+      html+=flowRow("Utilisation","Reported share of funds put to use","", mv.util, mv.util+"%<small>reported rate</small>");
+      html+=flowRow("Community projects approved", mv.projCount.toLocaleString("en-GB")+" projects approved nationally in "+state.year, "g", mv.projPct, fmtM(mv.projAmt)+"<small>"+mv.projPct+"% of "+state.year+" allocation</small>");
     }else if(state.year===2026){
-      html+=flowRow("Released","Releases are reported as the budget year runs","o",0,'<span class="np">Not yet reported</span>');
-      html+=flowRow("Utilisation","Reported once constituencies spend released funds","r",0,'<span class="np">Not yet reported</span>');
-      html+=flowRow("Community projects approved","Approvals are published as councils submit project lists","",0,'<span class="np">Not yet reported</span>');
+      html+=flowRow("Released","Releases are reported as the budget year runs","m",0,'<span class="np">Not yet reported</span>');
+      html+=flowRow("Utilisation","Reported once constituencies spend released funds","",0,'<span class="np">Not yet reported</span>');
+      html+=flowRow("Community projects approved","Approvals are published as councils submit project lists","g",0,'<span class="np">Not yet reported</span>');
     }else{
       html+=flowRow("Released","No national release figure published for "+state.year+" in this snapshot","o",0,'<span class="np">Not published</span>');
       html+=flowRow("Utilisation","No national utilisation figure published for "+state.year+" in this snapshot","r",0,'<span class="np">Not published</span>');
@@ -346,14 +346,14 @@
     }
     fill("bursaryTiles", P.bursaries);
     function barRow(label, pct, valText, cls){
-      return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"><span class="vf ' + (cls || '') + '" style="width:' + pct + '%"></span></span><span class="vv">' + valText + '</span></div>';
+      return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt notrack"><span class="vf ' + (cls || '') + '" style="width:' + pct + '%"></span></span><span class="vv">' + valText + '</span></div>';
     }
     var bb = document.getElementById("bursaryBars");
     if (bb && P.bursaryBars && P.bursaryBars.length) {
       var mx = Math.max.apply(null, P.bursaryBars.map(function(b){ return b.value; }));
       bb.innerHTML = P.bursaryBars.map(function(b, i){
         return barRow(b.label, Math.round(b.value / mx * 100), Number(b.value).toLocaleString("en-GB"), i ? "gold" : "");
-      }).join("");
+      }).join("") + '<p class="chart-note" style="margin-top:6px">Bar lengths are scaled to the larger count so the two programmes can be compared — a shorter bar is a smaller count, not a shortfall; there is no remainder.</p>';
     }
     fill("boardingTiles", P.boarding);
     var L = P.loans, le = document.getElementById("loanTiles");
@@ -438,9 +438,10 @@
 
   /* ---------- Lusaka pilot explorer ---------- */
   var STATUS = {
-    approved:{label:'Approved', color:'#8a6d1a'}, funded:{label:'Funded', color:'#33607e'},
-    in_progress:{label:'In progress', color:'#b35c12'}, completed:{label:'Completed', color:'#1c6b3c'},
-    stalled:{label:'Stalled', color:'#a12c2c'}, completed_unused:{label:'Completed, unused', color:'#6b4fa1'},
+    approved:{label:'Approved', color:'#8a6d1a'}, funded:{label:'Funded', color:'#a8842c'},
+    ongoing:{label:'Ongoing', color:'#3fb27f'}, in_progress:{label:'In progress', color:'#3fb27f'},
+    completed:{label:'Completed', color:'#167347'},
+    stalled:{label:'Stalled', color:'#bf3b26'}, completed_unused:{label:'Completed, unused', color:'#a12c2c'},
     unknown:{label:'Status not stated', color:'#777'}
   };
   function fmtKwacha(m){
@@ -679,10 +680,10 @@
     var R=D.record, total=R.total||0; if(!total) return;
     var ORDER=[
       {key:"completed",label:"Completed",color:"#167347"},
-      {key:"ongoing",label:"Ongoing",color:"#e87511"},
+      {key:"ongoing",label:"Ongoing",color:"#3fb27f"},
       {key:"in_progress",label:"In progress",color:"#3fb27f"},
       {key:"approved",label:"Approved",color:"#d4a017"},
-      {key:"funded",label:"Funded",color:"#8a6d1f"},
+      {key:"funded",label:"Funded",color:"#a8842c"},
       {key:"stalled",label:"Stalled",color:"#bf3b26"},
       {key:"unknown",label:"Status not stated",color:"#9aa79d"}
     ];
