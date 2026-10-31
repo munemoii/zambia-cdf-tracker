@@ -76,7 +76,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
-<link rel="stylesheet" href="{prefix}styles.css?v=38">
+<link rel="stylesheet" href="{prefix}styles.css?v=39">
 </head>
 <body>
 <div class="wrap">
@@ -236,6 +236,8 @@ def main():
             foot = {"split": False, "combined": False}
             details = []
             trs = []
+            sblocks = []
+            funds_col = "Amount received" if fy == 2023 else "Total funds available"
             slot_labels = {
                 2023: {"2.1": "Community Projects", "2.2": "Empowerment Grants",
                        "2.4": "Secondary Boarding and Skills Development - Bursaries",
@@ -250,6 +252,11 @@ def main():
                                'Not published by constituency in the FY2023 report — '
                                'its Appendix 2.3 repeats the Empowerment Grants table '
                                'instead of a loans table.</td></tr>')
+                    sblocks.append('<div class="agcomp"><h4>Soft Loans</h4>'
+                                   '<p class="agnp">Not published by constituency in '
+                                   'the FY2023 report — its Appendix 2.3 repeats the '
+                                   'Empowerment Grants table instead of a loans '
+                                   'table.</p></div>')
                     continue
                 r = by_app.get(app)
                 if r is None:
@@ -257,6 +264,8 @@ def main():
                            f"Appendix {app}.")
                     trs.append(f'<tr><td>{slot_labels[fy][app]}</td>'
                                f'<td class="npub" colspan="4">{msg}</td></tr>')
+                    sblocks.append(f'<div class="agcomp"><h4>{slot_labels[fy][app]}</h4>'
+                                   f'<p class="agnp">{msg}</p></div>')
                     continue
                 label, recv, exp, unsp, pctv = r[1], r[2], r[3], r[4], r[5]
                 note = _note(r)
@@ -276,15 +285,12 @@ def main():
                     pct_html = '<span class="npub">Not published</span>'
                 else:
                     pct_html = f"{pctv}% unspent · {100 - pctv}% spent"
-                trs.append(f"<tr><td>{html.escape(label)}{mark}</td>"
-                           f"<td>{_cell(recv)}</td><td>{_cell(exp)}</td>"
-                           f"<td>{_cell(unsp)}</td><td>{pct_html}</td></tr>")
+                parts = []
                 if fy == 2024:
                     try:
                         ex = _agjson.loads(r[6])
                     except Exception:
                         ex = {}
-                    parts = []
                     for key, lab in (("balance_bf", "balance brought forward"),
                                      ("funding_2024", "2024 funding"),
                                      ("other_receipts", "other receipts"),
@@ -293,10 +299,29 @@ def main():
                                      ("interest_accrued", "interest accrued")):
                         if ex.get(key) is not None:
                             parts.append(f"{lab} {_agk(ex[key])}")
-                    if parts:
-                        details.append(f'<p class="agdetail"><b>{html.escape(label)}:</b> '
-                                       + " · ".join(parts) + "</p>")
-            funds_col = "Amount received" if fy == 2023 else "Total funds available"
+                trs.append(f"<tr><td>{html.escape(label)}{mark}</td>"
+                           f"<td>{_cell(recv)}</td><td>{_cell(exp)}</td>"
+                           f"<td>{_cell(unsp)}</td><td>{pct_html}</td></tr>")
+                if parts:
+                    details.append(f'<p class="agdetail"><b>{html.escape(label)}:</b> '
+                                   + " · ".join(parts) + "</p>")
+                if pctv is None:
+                    spct = '<span class="npub">Not published</span>'
+                else:
+                    spct = (f'<span class="pcr">{pctv}% unspent</span> · '
+                            f'<span class="pcg">{100 - pctv}% spent</span>')
+                sblock = (f'<div class="agcomp"><h4>{html.escape(label)}{mark}</h4>'
+                          f'<div class="agl"><span class="k">{funds_col}</span>'
+                          f'<span class="v">{_cell(recv)}</span></div>'
+                          f'<div class="agl"><span class="k">Spent</span>'
+                          f'<span class="v">{_cell(exp)}</span></div>'
+                          f'<div class="agl"><span class="k">Unspent</span>'
+                          f'<span class="v">{_cell(unsp)}</span></div>'
+                          f'<div class="agl"><span class="k">Unspent / spent</span>'
+                          f'<span class="v">{spct}</span></div>')
+                if parts:
+                    sblock += '<p class="agsub">' + " · ".join(parts) + "</p>"
+                sblocks.append(sblock + "</div>")
             table_html = ""
             if rows:
                 table_html = (
@@ -304,6 +329,9 @@ def main():
                     f'<th>{funds_col}</th><th>Spent</th><th>Unspent</th>'
                     f'<th>Unspent / spent</th></tr></thead><tbody>'
                     + "".join(trs) + "</tbody></table>")
+            stack_html = ""
+            if rows:
+                stack_html = '<div class="agstack">' + "".join(sblocks) + "</div>"
             foot_html = ""
             if foot["combined"]:
                 foot_html += ('<p class="agnote">† District-combined figure as printed '
@@ -388,7 +416,7 @@ def main():
                    f'<a href="{html.escape(url)}" target="_blank" rel="noopener">'
                    f'Read the report (PDF)</a>')
             return (f'<h3 class="agfy">Financial year {fy}</h3>' + table_html
-                    + "".join(details) + foot_html + stat_html
+                    + stack_html + "".join(details) + foot_html + stat_html
                     + f'<p class="agnote">{src}</p>')
 
         blocks = "".join(_block(fy) for fy in (2024, 2023))

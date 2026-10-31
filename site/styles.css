@@ -606,3 +606,27 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .agnote{font-size:.88rem;color:var(--muted);margin:10px 0 0}
 .agstatus{margin:14px 0 4px}
 .agstath{margin:0 0 7px}
+
+/* ===== AG audited record: mobile stacked layout (2026-10-31) =====
+   The 5-column .agtable cannot compress below the min-content width of its
+   unbreakable K-figures on a phone, so it pushed the Unspent column off the
+   right edge and wrapped cells into ballooning rows. On small screens the
+   table and its below-table detail paragraphs are swapped for .agstack:
+   one block per component, labelled lines (label left, value right), the
+   extra-column details as a small sub-line inside the block. Desktop (>760px)
+   never sees .agstack, so its rendering is unchanged. */
+.agstack{display:none}
+@media (max-width:760px){
+  .agcard .agtable,.agcard .agdetail{display:none}
+  .agstack{display:block}
+  .agcomp{border:1px solid var(--line);border-radius:12px;padding:11px 13px 9px;margin:0 0 10px;background:rgba(20,83,45,.03)}
+  .agcomp h4{font-family:"Barlow Condensed",sans-serif;font-size:1.08rem;letter-spacing:.02em;line-height:1.2;margin:0 0 4px}
+  .agl{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:3px 0;border-top:1px dashed var(--line)}
+  .agl .k{color:var(--muted);font-size:.92rem}
+  .agl .v{font-variant-numeric:tabular-nums;text-align:right;font-weight:600}
+  .agl .v .npub{font-weight:400}
+  .agcomp .agnp{color:var(--muted);font-style:italic;font-size:.93rem;line-height:1.45;margin:2px 0 4px}
+  .agcomp .agsub{font-size:.85rem;color:var(--muted);line-height:1.45;margin:7px 0 3px}
+  .agstack .pcr{color:#bf3b26}
+  .agstack .pcg{color:var(--green)}
+}
