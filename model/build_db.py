@@ -124,7 +124,7 @@ metric("projects_total_audited", 4879, "count", S_ECON, 2024, defn="Projects cov
 metric("projects_completed", 3060, "count", S_ECON, 2024)
 metric("projects_in_progress", 1293, "count", S_ECON, 2024)
 metric("projects_not_started", 525, "count", S_ECON, 2024)
-metric("unspent_amount", 771.4, "K millions", S_ECON, 2024, defn="Unspent out of K5.12bn available (figure highlighted in the Zambian Observer explainer of the same report).")
+metric("unspent_amount", 771.4, "K millions", S_ECON, 2024, defn="Unspent as at 31 December 2024 — K771,387,282 of K5,886,946,075 total funds available (K5,115,558,793 spent). Auditor-General's FY2024 CDF report, Cross-Cutting §1 (Unspent Funds), Table 1.")
 metric("desks_paid_amount", 514.2, "K millions", S_ECON, 2024, defn="Paid for 356,460 school desks.")
 metric("desks_undelivered_count", 71301, "count", S_ECON, 2024, defn="Desks not arrived by September 2025.")
 metric("desks_undelivered_value", 130.7, "K millions", S_ECON, 2024)
@@ -148,7 +148,7 @@ cur.execute("INSERT INTO bursaries_loans(budget_year,constituency_id,loans_due_m
 # ---------------------------------------------------------------- news items (mirror of data.js)
 NEWS = [
     ("2026-10-26", "Auditor General's 2024 CDF report, via Zambian Economist", "Auditor General: most 2024 projects finished, but funds left idle",
-     "The Auditor General's report on the 2024 CDF found 3,060 of 4,879 projects completed and 525 not started, about K771 million unspent out of K5.12 billion available, and only about 17% of CDF loans due collected (K63.8 million of K375.3 million).", S_ECON),
+     "The Auditor General's report on the 2024 CDF found 3,060 of 4,879 projects completed and 525 not started, about K771 million unspent out of K5,886.9 million in total funds available (K5,115.6 million spent), and only about 17% of CDF loans due collected (K63.8 million of K375.3 million).", S_ECON),
     ("2026-10-13", "Zambian Observer", "2027 CDF rate in question ahead of the budget",
      "On 9 October the Finance Minister warned the 2027 CDF allocation will be lower than budgeted; State House clarified on 13 October that the current K40 million per constituency is unchanged and only disbursement is being realigned by need and absorption. The 2027 budget, presented 30 October 2026, sets the new rate — and the Electoral Commission has confirmed 70 additional constituencies (226 in total) under the 2026 delimitation.", S_OBS_OCT),
     ("2026-09-29", "Zambian Observer", "2026 CDF loan component suspended",

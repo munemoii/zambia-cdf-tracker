@@ -150,7 +150,11 @@ def main():
                     "utilisedPct": movement.get(2025, {}).get("util")},
         "ag": {"audited": _mval("projects_total_audited"), "completed": _mval("projects_completed"),
                "notStarted": _mval("projects_not_started"), "inProgress": _mval("projects_in_progress"), "unspentM": _mval("unspent_amount"),
-               "availableM": 5120},
+               # AG FY2024 report, Cross-Cutting §1 (Unspent Funds), Table 1:
+               # total funds available K5,886,946,075; expenditure K5,115,558,793;
+               # unspent K771,387,282. (The old 5120 was the rounded expenditure
+               # total mislabelled as available by a secondary explainer.)
+               "availableM": 5886.9, "spentM": 5115.6},
         "provinces": [],
     }
     for _pid, _pname in c.execute("SELECT id, name FROM provinces ORDER BY name").fetchall():

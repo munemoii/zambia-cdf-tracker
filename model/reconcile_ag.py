@@ -6,8 +6,9 @@ Verifies, per appendix/cohort and numeric field:
   staged-CSV sum vs the report's PRINTED total                [exact, or the
     deviation documented in VALIDATION.md §4/§6 — anything else FAILS]
 
-Also prints the FY2024 national aggregates used to test the site's
-"K771.4m unspent of K5,120m available" line.
+Also checks the FY2024 appendix sums against the AG report's own national
+framing — Cross-Cutting §1 (Unspent Funds), Table 1: "K771.4m unspent of
+K5,886.9m total funds available (K5,115.6m spent)".
 
     python3 model/reconcile_ag.py   (exit 1 on any unexplained mismatch)
 """
@@ -162,7 +163,11 @@ for app in ["2.1", "2.2", "2.3", "2.4", "2.5"]:
         elif app == "2.4" and f == "balance_bf":
             expect(app, f, got + 32674, "VALIDATION §4/§6.6: printed totals treat trailing-minus cell as nil")
         elif app == "2.4" and f == "unspent_balance":
-            expect(app, f, got + 1137122, "VALIDATION §4/§6.6: printed totals treat trailing-minus cell as nil")
+            expect(app, f, got + 1,
+                   "App 2.4 printed Totals row (report PDF p.248) reads 115,355,773 — K1 above "
+                   "the printed rows (a K1 printing slip). The +1,137,122 nil-treatment "
+                   "adjustment from VALIDATION §4/§6.6 is WITHDRAWN: the figure 116,492,894 "
+                   "appears nowhere in the PDF (appendix1-k5120-findings.md §6)")
         elif app == "2.5" and f == "unspent_balance":
             expect(app, f, -87719412)
         else:
@@ -241,22 +246,34 @@ for app, want in [("3", (3266, 2404, 719, 143)), ("4", (2793, 1109, 767, 917))]:
               "stage; Chadiza is absent from the printed appendix itself"
               if g != w else None)
 
-# ---------------------------------------------------------------- K771.4m test
-print("\nFY2024 national aggregates (for the K771.4m / K5,120m line):")
+# ------------------------------------------------------- Table 1 reproduction
+# The site's national line is the AG FY2024 report's own framing (Cross-Cutting
+# §1 "Unspent Funds", Table 1, printed p.3): total funds available
+# K5,886,946,075; total expenditure K5,115,558,793; unspent K771,387,282.
+# The appendix-2 row sums must reproduce Table 1 exactly on unspent and
+# expenditure (appendix1-k5120-findings.md §5). (The old "K5,120m available"
+# denominator appears nowhere in the report: it is the rounded EXPENDITURE
+# total mislabelled as available by a secondary explainer.)
+print("\nFY2024 national aggregates vs AG Table 1 (Cross-Cutting §1, printed p.3):")
 rows = read("fy2024_appendix2_components.csv")
 unspent_rows = sum(num(r["unspent_balance"]) or 0 for r in rows)
+expenditure_rows = sum(num(r["expenditure"]) or 0 for r in rows)
 funding_rows = sum(num(r["amount_received_funding_2024"]) or 0 for r in rows)
 totalfunds_rows = sum(num(r["total_funds_available"]) or 0 for r in rows)
-# printed-totals basis: 2.2 printed unspent -17,707,765 (rows now include the
-# recovered Kafue row at -2,109,414, printed total K1 above rows) and 2.4 printed
-# unspent 116,492,894 (rows 115,355,772 + 1,137,122 nil-treatment of the
-# trailing-minus cell). Adjust from the row sums accordingly:
-unspent_printed = unspent_rows + 1 + 1137122  # 2.2 printed total sits K1 above rows; 2.4 nil-treatment
-print(f"  sum of appendix unspent balances, rows as printed: K{unspent_rows:,}")
-print(f"  same, on the reports' printed-totals basis:        K{unspent_printed:,}")
+check("FY24 App2 rows unspent == Table 1 printed", unspent_rows, 771387282)
+check("FY24 App2 rows expenditure == Table 1 printed", expenditure_rows, 5115558793)
+check("FY24 App2 rows total funds == Table 1 printed", totalfunds_rows, 5886946075,
+      "rows sit K1 below Table 1 — the documented App 2.1/App 2.2 K1 printing slips "
+      "(appendix1-k5120-findings.md §5)")
+# Printed-totals basis: each appendix's own printed Totals row for unspent —
+# 2.1 612,097,578 · 2.2 -17,707,765 (K1 above its rows) · 2.3 149,361,110 ·
+# 2.4 115,355,773 (K1 above its rows) · 2.5 -87,719,412 — sums to K771,387,284,
+# i.e. Table 1 + K2 of printing slips. Documented here; NOT adjusted anywhere.
+unspent_printed = 612097578 - 17707765 + 149361110 + 115355773 - 87719412
+check("FY24 App2 printed-totals unspent == Table 1 + K2 slips", unspent_printed, 771387284)
 print(f"  sum of 2024 funding across appendices:             K{funding_rows:,}")
 print(f"  sum of total funds available across appendices:    K{totalfunds_rows:,}")
-print("  site line under test: K771,400,000 unspent of K5,120,000,000 available")
+print("  site line: K771.4m unspent of K5,886.9m total funds available (K5,115.6m spent)")
 
 print(f"\n{'RECONCILIATION FAILED: ' + str(len(fails)) + ' unexplained mismatches' if fails else 'RECONCILIATION OK — all sums exact or documented deviations only'}")
 sys.exit(1 if fails else 0)
