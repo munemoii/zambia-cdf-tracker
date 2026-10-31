@@ -54,7 +54,7 @@ def badge(st):
     return f'<span class="badge" style="background:{color}">{label}</span>'
 
 
-def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None):
+def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=None):
     og = og_image or f"{BASE}/og-card.png"
     return f"""<!doctype html>
 <html lang="en">
@@ -70,7 +70,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None):
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefix}styles.css?v=27">
+<link rel="stylesheet" href="{prefix}styles.css?v=28">
 </head>
 <body>
 <div class="wrap">
@@ -88,11 +88,11 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None):
     <a href="{prefix}developments.html">Developments</a>
   </nav>
 </header>
-<div class="pageband"><div class="pageband-in">
+<div class="pageband{' photo ' + band[0] if band else ''}"><div class="pageband-in">
 {crumb}
 <h1>{html.escape(title)}</h1>
 <p class="bandsub">{html.escape(deck if deck is not None else desc)}</p>
-</div></div>
+</div>{('<span class="bandcredit">' + html.escape(band[1]) + '</span>') if band else ''}</div>
 <main>
 {body}
 </main>
@@ -222,7 +222,7 @@ def main():
 <p class="plede">How much of each province's CDF record is actually public. This measures the <b>record</b>, not delivery: a low score means the councils publish little, not that nothing was built. It is the gap this tracker exists to close.</p>
 <div class="card"><table class="mtable"><thead><tr><th>Province</th><th>Constituencies with published projects</th><th>Projects tracked</th><th>With amounts</th><th>With funding year</th><th>Shown completed</th></tr></thead><tbody>{sc_html}</tbody></table></div>"""
     (SITE / "provinces.html").write_text(
-        shell("Provinces", "CDF allocations and project tracking for all ten Zambian provinces.", "", body))
+        shell("Provinces", "CDF allocations and project tracking for all ten Zambian provinces.", "", body, band=("bp-provinces", "Photo: The Kafue River — Munahampondela, CC BY-SA 4.0, via Wikimedia Commons")))
     urls.append(f"{BASE}/provinces.html")
 
     # ---------- province pages ----------

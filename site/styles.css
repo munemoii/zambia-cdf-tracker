@@ -550,3 +550,21 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .vbar .vt.dual{display:flex}
 .vbar .vt.dual .vf{border-radius:0}
 .vbar .vf.red{background:#bf3b26}
+
+/* ===== pictorial page bands + featured briefing (2026-10-30) ===== */
+.pageband.photo{position:relative;background-color:#0d3b22;background-size:cover;background-position:center 38%;padding-bottom:34px}
+.pageband.photo::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,40,22,.94) 26%,rgba(8,40,22,.70) 58%,rgba(8,40,22,.40));border-radius:0 0 18px 18px}
+.pageband.photo .pageband-in{position:relative;z-index:1}
+.bp-watch{background-image:url("photos/chilanga-classrooms-handover.jpg")}
+.bp-money{background-image:url("photos/downtown-lusaka.jpg")}
+.bp-people{background-image:url("photos/nyawa-dormitories.jpg");background-position:center 30%}
+.bp-projects{background-image:url("photos/chainda-classroom.jpg")}
+.bp-provinces{background-image:url("photos/kafue-river.jpg")}
+.bandcredit{position:absolute;right:14px;bottom:10px;z-index:2;font-size:.72rem;color:rgba(255,255,255,.88);background:rgba(6,26,14,.55);padding:3px 10px;border-radius:99px;max-width:92%}
+#newsList .devlink:first-child{background:linear-gradient(135deg,#0d3b22,#14532d);border-radius:14px;color:#eaf3ea}
+#newsList .devlink:first-child .devt{color:#fff;font-size:1.28rem}
+#newsList .devlink:first-child .devt::before{content:"Latest · ";color:#f3d34a;font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:.95rem}
+#newsList .devlink:first-child .sub{color:#f3d34a}
+#newsList .devlink:first-child p{color:#cfe0cf}
+#newsList .devlink:first-child .devmore{color:#f3d34a}
+#newsList .devlink:first-child:hover{background:linear-gradient(135deg,#0d3b22,#17603a)}
