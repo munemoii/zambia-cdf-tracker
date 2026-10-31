@@ -71,6 +71,11 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:image" content="{og}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="{prefix}favicon.svg">
+<link rel="icon" type="image/x-icon" href="{prefix}favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
+<link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
 <link rel="stylesheet" href="{prefix}styles.css?v=37">
 </head>
 <body>
