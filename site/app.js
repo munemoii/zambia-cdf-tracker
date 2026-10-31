@@ -271,13 +271,20 @@
     }
     var CY = U.cascadeYears, cp = document.getElementById("cascadePills"), cn = document.getElementById("cascadeNote"), cb = document.getElementById("cascadeBars");
     if (cp && CY && cb) {
+      function dualRow(label, pct, valText, mode) {
+        if (mode === "np") return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"></span><span class="vv">' + valText + '</span></div>';
+        if (mode === "base") return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt"><span class="vf gold" style="width:100%"></span></span><span class="vv">' + valText + '</span></div>';
+        var rest = Math.round((100 - pct) * 10) / 10;
+        return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt dual"><span class="vf" style="width:' + pct + '%"></span><span class="vf red" style="width:' + rest + '%"></span></span><span class="vv">' + valText + '</span></div>';
+      }
       function drawCascade(y) {
         var d = CY.filter(function (x) { return x.year === y; })[0]; if (!d) return;
-        var rel = d.releasedM ? row("Released", d.releasedPct, "K" + (d.releasedM / 1000).toFixed(2) + "bn · " + d.releasedPct + "%", "")
-                              : row("Released", 0, "Not published", "gold");
-        var use = d.utilisedPct ? row("Utilised", d.utilisedPct, d.utilisedPct + "% used", "gold")
-                                : row("Utilised", 0, "Not published", "gold");
-        cb.innerHTML = row("Allocated (" + d.year + ")", 100, "K" + (d.allocatedM / 1000).toFixed(2) + "bn", "") + rel + use;
+        var rel = d.releasedM ? dualRow("Released", d.releasedPct, "K" + (d.releasedM / 1000).toFixed(2) + "bn · " + d.releasedPct + "%", "dual")
+                              : dualRow("Released", 0, "Not published", "np");
+        var use = d.utilisedPct ? dualRow("Utilised", d.utilisedPct, d.utilisedPct + "% used", "dual")
+                                : dualRow("Utilised", 0, "Not published", "np");
+        cb.innerHTML = dualRow("Allocated (" + d.year + ")", 100, "K" + (d.allocatedM / 1000).toFixed(2) + "bn", "base") + rel + use +
+          '<div class="stackleg" style="margin-top:2px"><span><i class="dot gold"></i>Allocated — the budget promise</span><span><i class="dot green"></i>Released / used</span><span><i class="dot red"></i>Not released / not used</span></div>';
         if (cn) cn.textContent = d.note;
         cp.querySelectorAll(".ypill").forEach(function (b) { b.setAttribute("aria-pressed", +b.getAttribute("data-y") === y ? "true" : "false"); });
       }
