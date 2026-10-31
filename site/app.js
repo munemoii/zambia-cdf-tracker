@@ -168,15 +168,15 @@
     if(mv){
       html+=flowRow("Released","Reported disbursed to constituencies","m", mv.releasedPct, fmtM(mv.released)+"<small>≈"+mv.releasedPct+"% of allocation</small>");
       html+=flowRow("Utilisation","Reported share of funds put to use","", mv.util, mv.util+"%<small>reported rate</small>");
-      html+=flowRow("Community projects approved", mv.projCount.toLocaleString("en-GB")+" projects approved nationally in "+state.year, "g", mv.projPct, fmtM(mv.projAmt)+"<small>"+mv.projPct+"% of "+state.year+" allocation</small>");
     }else if(state.year===2026){
       html+=flowRow("Released","Releases are reported as the budget year runs","m",0,'<span class="np">Not yet reported</span>');
       html+=flowRow("Utilisation","Reported once constituencies spend released funds","",0,'<span class="np">Not yet reported</span>');
-      html+=flowRow("Community projects approved","Approvals are published as councils submit project lists","g",0,'<span class="np">Not yet reported</span>');
     }else{
       html+=flowRow("Released","No national release figure published for "+state.year+" in this snapshot","o",0,'<span class="np">Not published</span>');
       html+=flowRow("Utilisation","No national utilisation figure published for "+state.year+" in this snapshot","r",0,'<span class="np">Not published</span>');
-      html+=flowRow("Community projects approved","No national approvals total published for "+state.year+" in this snapshot","",0,'<span class="np">Not published</span>');
+    }
+    if(mv && mv.projCount){
+      html+='<p class="chart-note" style="margin-top:10px">Approvals, counted separately: in '+state.year+', '+mv.projCount.toLocaleString("en-GB")+' community projects were approved nationally, worth '+fmtM(mv.projAmt)+' \u2014 '+mv.projPct+'% of the allocation. Approval is where the paper pipeline starts; the bars above follow the money itself.</p>';
     }
     document.getElementById("flowCard").innerHTML=html;
   }
