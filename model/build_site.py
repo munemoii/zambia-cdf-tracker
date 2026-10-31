@@ -99,7 +99,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 </main>
 <footer class="sitefoot">
   <p>Generated from the Zambia CDF Tracker database — every figure traces to a published source, listed on each page. Province boundaries: geoBoundaries (CC BY 4.0).</p>
-  <p><a href="{prefix}index.html">Back to the dashboard</a></p>
+  <p><a href="{prefix}index.html">Back to the dashboard</a> · <a href="{prefix}read.html">How to read this tracker</a></p>
 </footer>
 </div>
 </body>
@@ -186,7 +186,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/rural.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/rural.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html", f"{BASE}/read.html"]
 
     # ---------- provinces index ----------
     cards = []
