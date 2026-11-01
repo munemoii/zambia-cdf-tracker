@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_DATA = {
   "meta": {
-    "snapshotDate": "31 October 2026",
-    "lastChecked": "31 October 2026"
+    "snapshotDate": "1 November 2026",
+    "lastChecked": "1 November 2026"
   },
   "years": [
     {
@@ -23874,10 +23874,12 @@ window.CDF_DATA = {
         "province": "Luapula",
         "totalProjects": 129,
         "fundingYears": {
-          "2025": 40,
+          "2022": 13,
+          "2024": 3,
+          "2025": 50,
           "2026": 10
         },
-        "fundingYearKnown": 50,
+        "fundingYearKnown": 76,
         "constituencies": [
           {
             "name": "Bangweulu",
@@ -24780,7 +24782,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 254,
@@ -24800,7 +24802,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 253,
@@ -24820,7 +24822,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 249,
@@ -24840,7 +24842,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 234,
@@ -24860,7 +24862,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 256,
@@ -24880,7 +24882,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 220,
@@ -24900,7 +24902,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 226,
@@ -24920,7 +24922,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 221,
@@ -24940,7 +24942,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 251,
@@ -24960,7 +24962,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 236,
@@ -24980,7 +24982,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 243,
@@ -25000,7 +25002,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 250,
@@ -25020,7 +25022,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 269,
@@ -25040,7 +25042,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 222,
@@ -25060,7 +25062,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 230,
@@ -25080,7 +25082,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 241,
@@ -25100,7 +25102,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 263,
@@ -25120,7 +25122,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 257,
@@ -25140,7 +25142,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 261,
@@ -25160,7 +25162,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 266,
@@ -25180,7 +25182,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 235,
@@ -25200,7 +25202,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 270,
@@ -25220,7 +25222,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 237,
@@ -25240,7 +25242,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 268,
@@ -25260,7 +25262,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 252,
@@ -25280,7 +25282,7 @@ window.CDF_DATA = {
                   "title": "Community Development Fund (CDF) Projects Catalogue",
                   "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               }
             ]
           },
@@ -35112,13 +35114,13 @@ window.CDF_DATA = {
     ],
     "totalProjects": 1492,
     "fundingYears": {
-      "2022": 143,
+      "2022": 156,
       "2023": 94,
-      "2024": 211,
-      "2025": 360,
+      "2024": 214,
+      "2025": 370,
       "2026": 37
     },
-    "fundingYearKnown": 845
+    "fundingYearKnown": 871
   },
   "people": {
     "bursaries": [
