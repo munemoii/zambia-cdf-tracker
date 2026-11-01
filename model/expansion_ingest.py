@@ -41,7 +41,7 @@ def main():
 
     with open(os.path.join(folder, "projects.csv"), newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    ok, seen = [], set()
+    ok, seen, skipped_existing = [], set(), []
     for i, r in enumerate(rows, 1):
         tag = f"row {i} ({r.get('name','?')[:40]})"
         if r["constituency"] not in const_ids:
@@ -63,7 +63,7 @@ def main():
                 problems.append(f"{tag}: non-numeric budget '{r['budget_kwacha']}'"); continue
         key = (r["name"].strip().lower(), r["constituency"], (r["ward"] or "").strip().lower())
         if key in existing_proj:
-            problems.append(f"{tag}: already in DB (duplicate)"); continue
+            skipped_existing.append(f"{tag}: already in DB (skipped)"); continue
         if key in seen:
             problems.append(f"{tag}: duplicate within file"); continue
         seen.add(key)
@@ -72,6 +72,7 @@ def main():
     for r in ok:
         per_const[r["constituency"]] = per_const.get(r["constituency"], 0) + 1
     print(json.dumps({"province": pname, "rows_in_file": len(rows), "rows_ok": len(ok),
+                      "rows_skipped_existing": len(skipped_existing),
                       "problems": problems, "per_constituency": per_const}, indent=1))
     if problems or not commit:
         print("DRY RUN — nothing written" if not problems else "VALIDATION FAILED — nothing written")

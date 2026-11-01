@@ -182,3 +182,8 @@ projects) are in `projects.csv`. Anything weaker, ambiguous or conflicting is in
   Solwezi Municipal publish prose project updates rather than tabular lists.
 - No council website refused the connection outright in this pass; the failures
   were unindexed/unexposed download links (Kalumbila) rather than blocked sites.
+
+## Addendum — 2026-11-01 council watch: Kalumbila 2024 list retrieved — Solwezi West gap closed
+
+**Solwezi West — 20 main rows (was 0 live).** A live-browser pass extracted the document URLs from Kalumbila Town Council's Downloads page. The council-stamped "Approved CDF Community Projects 2024" (stamp dated 9 Oct 2024) is a scanned paper document, but fully legible: 20 rows with wards and Approved Estimated Project Costs summing exactly to the printed total K16,589,200.00. Funding year 2024 from the document title. Filed under Solwezi West, the constituency Kalumbila Town Council administers. Normalisations (flagged): the scan spells the school "Chowwe" in row 20 while the same document's ward column elsewhere prints "Chovwe" — rowed as Chovwe Primary School; row 11's community name is printed "Kalengelelenge" but its zone column prints "Kalengelenge" (as in row 9's road) — rowed as Kalengelenge Community.
+**Caution for future runs:** the Downloads page carries four further 2024 documents (Ward Projects Approved by CDFC; Kalumbila Town Council – Projects; Public Notice on 2024 CDF Projects; Approved 2024 CDF Projects). They were NOT ingested — they may overlap this list in whole or part. Compare before any ingest; do not double-count.
