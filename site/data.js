@@ -32074,15 +32074,15 @@ window.CDF_DATA = {
       {
         "name": "Muchinga",
         "province": "Muchinga",
-        "totalProjects": 114,
+        "totalProjects": 127,
         "fundingYears": {
           "2022": 1,
-          "2023": 2,
+          "2023": 15,
           "2024": 35,
           "2025": 17,
           "2026": 8
         },
-        "fundingYearKnown": 63,
+        "fundingYearKnown": 76,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -32440,10 +32440,10 @@ window.CDF_DATA = {
           {
             "name": "Isoka",
             "url": "constituencies/isoka.html",
-            "count": 7,
+            "count": 20,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 7
+              "approved": 20
             },
             "projects": [
               {
@@ -32465,6 +32465,26 @@ window.CDF_DATA = {
                   "url": "https://www.isokacouncil.gov.zm/?p=2412"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 1670,
+                "url": "projects/1670-construction-of-his-royal-highness-chief-kafwimbi-s-palace.html",
+                "name": "Construction of His Royal Highness Chief Kafwimbi's Palace",
+                "ward": "Itukuta",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 860,
@@ -32507,6 +32527,206 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 1679,
+                "url": "projects/1679-construction-of-a-health-post-and-maternity-annex-in-chaswata-zone.html",
+                "name": "Construction of a Health Post and Maternity Annex in Chaswata Zone",
+                "ward": "Mpungu",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1680,
+                "url": "projects/1680-construction-of-a-health-post-at-mwaiseni-village.html",
+                "name": "Construction of a Health Post at Mwaiseni Village",
+                "ward": "Chinyonga",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1674,
+                "url": "projects/1674-construction-of-a-maternity-annex-at-lualizi-health-post.html",
+                "name": "Construction of a Maternity Annex at Lualizi Health Post",
+                "ward": "Nkombwa",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1682,
+                "url": "projects/1682-construction-of-a-maternity-annex-at-nachisungu-health-post.html",
+                "name": "Construction of a Maternity Annex at Nachisungu Health Post",
+                "ward": "Sansamwenje",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1677,
+                "url": "projects/1677-construction-of-an-ablution-block-and-incinerator-at-milongo-health-post.html",
+                "name": "Construction of an Ablution Block and Incinerator at Milongo Health Post",
+                "ward": "Milongo",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1681,
+                "url": "projects/1681-construction-of-an-ablution-block-and-water-tank-at-milongo-health-post.html",
+                "name": "Construction of an Ablution Block and Water Tank at Milongo Health Post",
+                "ward": "Milongo",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1673,
+                "url": "projects/1673-construction-of-an-ablution-block-at-mwenya-primary-school.html",
+                "name": "Construction of an Ablution Block at Mwenya Primary School",
+                "ward": "Kasoka",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1678,
+                "url": "projects/1678-construction-of-an-ablution-block-at-sansamwenje-market.html",
+                "name": "Construction of an Ablution Block at Sansamwenje Market",
+                "ward": "Sansamwenje",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1672,
+                "url": "projects/1672-construction-of-an-ablution-block-at-the-old-market.html",
+                "name": "Construction of an Ablution Block at the Old Market",
+                "ward": "Kasoka",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1671,
+                "url": "projects/1671-procurement-of-6-595-school-desks.html",
+                "name": "Procurement of 6,595 School Desks",
+                "ward": "All wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
                 "id": 861,
                 "url": "projects/861-procurement-of-motorbikes-for-chief-retainers-for-chief-kafwimbi-and-chief-katyetye.html",
                 "name": "Procurement of Motorbikes for Chief Retainers for Chief Kafwimbi and Chief Katyetye",
@@ -32525,6 +32745,46 @@ window.CDF_DATA = {
                   "url": "https://www.isokacouncil.gov.zm/?p=2412"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 1676,
+                "url": "projects/1676-procurement-of-a-25-tonne-tipper-truck.html",
+                "name": "Procurement of a 25 Tonne Tipper Truck",
+                "ward": "All wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1675,
+                "url": "projects/1675-procurement-of-a-truck-back-hoe-loader-tlb.html",
+                "name": "Procurement of a Truck Back Hoe Loader (TLB)",
+                "ward": "All wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 862,
@@ -38686,15 +38946,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 1669,
+    "totalProjects": 1682,
     "fundingYears": {
       "2022": 193,
-      "2023": 94,
+      "2023": 107,
       "2024": 290,
       "2025": 458,
       "2026": 37
     },
-    "fundingYearKnown": 1072
+    "fundingYearKnown": 1085
   },
   "people": {
     "bursaries": [
@@ -38769,12 +39029,12 @@ window.CDF_DATA = {
     "provinces": [
       {
         "name": "Muchinga",
-        "tracked": 114,
+        "tracked": 127,
         "completed": 17,
         "underway": 13,
-        "approved": 84,
+        "approved": 97,
         "other": 0,
-        "completedPct": 14.9,
+        "completedPct": 13.4,
         "ruralPct": 87.0,
         "urbanPct": 13.0
       },
@@ -38932,9 +39192,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1260,
+        "projects": 1273,
         "completed": 416,
-        "pct": 33.0
+        "pct": 32.7
       },
       {
         "label": "Urban provinces",
@@ -38954,37 +39214,37 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 383,
+        "ruralN": 384,
         "urbanN": 64,
-        "ruralPct": 30.4,
+        "ruralPct": 30.2,
         "urbanPct": 24.7
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 333,
+        "ruralN": 338,
         "urbanN": 43,
-        "ruralPct": 26.4,
+        "ruralPct": 26.6,
         "urbanPct": 16.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 249,
+        "ruralN": 252,
         "urbanN": 41,
         "ruralPct": 19.8,
         "urbanPct": 15.8
       },
       {
         "cat": "Health",
-        "ruralN": 220,
+        "ruralN": 224,
         "urbanN": 54,
-        "ruralPct": 17.5,
+        "ruralPct": 17.6,
         "urbanPct": 20.8
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 59,
         "urbanN": 41,
-        "ruralPct": 4.7,
+        "ruralPct": 4.6,
         "urbanPct": 15.8
       },
       {
@@ -38997,9 +39257,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 1669,
+    "total": 1682,
     "statuses": {
-      "approved": 963,
+      "approved": 976,
       "completed": 537,
       "funded": 10,
       "in_progress": 37,
@@ -39007,8 +39267,8 @@ window.CDF_DATA = {
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 32.2,
-    "approvedPct": 58.3,
+    "completedPct": 31.9,
+    "approvedPct": 58.6,
     "withPhoto": 23,
     "constituencies": 122,
     "provinces": 10
