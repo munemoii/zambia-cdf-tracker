@@ -12,7 +12,7 @@ Rules:
   six tile metrics; presentation text lives in TILE_MAP below.
 - meta dates are the generation date (the feed is generated right after a
   source check / database update)."""
-import sqlite3, json, sys, pathlib, datetime
+import sqlite3, json, sys, pathlib, datetime, re
 
 HERE = pathlib.Path(__file__).parent
 DB = HERE / "cdf.db"
@@ -298,6 +298,44 @@ def main():
     for o in outs:
         o.write_text(body)
         print("wrote", o)
+
+    # --- static-patch: keep the record figures printed in the hand-maintained
+    # pages (index.html meta/fallback, read.html guide cards) in step with the
+    # database, so a new intake can never leave a stale total behind (Caleb's
+    # deep-check direction, 2026-11-01). In-browser values are also hydrated
+    # from this feed by app.js; these literals serve crawlers and no-JS reads.
+    # A missed pattern prints a WARNING so drift shows up in the run log.
+    site_dir = HERE.parent / "site"
+    total_s = f"{record['total']:,}"
+    patches = [
+        (site_dir / "index.html", [
+            (r"[\d,]+ projects tracked across all 10 provinces",
+             f"{total_s} projects tracked across all 10 provinces"),
+            (r"[\d,]+ projects tracked — every figure sourced",
+             f"{total_s} projects tracked — every figure sourced"),
+            (r'(<b id="recordTotal">)[\d,]+(</b>)',
+             rf"\g<1>{total_s}\g<2>"),
+        ]),
+        (site_dir / "read.html", [
+            (r'(<span id="readTotal">)[\d,]+(</span>)',
+             rf"\g<1>{total_s}\g<2>"),
+            (r'(<span id="readConst">)\d+(</span>)',
+             rf"\g<1>{record['constituencies']}\g<2>"),
+            (r'(<span id="readCompPct">)\d+(</span>)',
+             rf"\g<1>{round(record['completedPct'])}\g<2>"),
+        ]),
+    ]
+    for path, subs in patches:
+        if not path.exists():
+            print("WARNING static-patch: missing", path)
+            continue
+        text = path.read_text()
+        for pat, rep in subs:
+            text, n = re.subn(pat, rep, text)
+            if n == 0:
+                print("WARNING static-patch: pattern not found in", path.name, "->", pat[:48])
+        path.write_text(text)
+        print("patched", path)
     con.close()
 
 if __name__ == "__main__":

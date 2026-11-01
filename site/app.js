@@ -710,7 +710,14 @@
     }
     var tt=document.getElementById("recordTotal"); if(tt) tt.textContent=total.toLocaleString();
   }
+  function renderRead(){
+    var R=D.record; if(!R||!R.total) return;
+    var t=document.getElementById("readTotal"); if(t) t.textContent=R.total.toLocaleString();
+    var cn=document.getElementById("readConst"); if(cn) cn.textContent=R.constituencies;
+    var cp=document.getElementById("readCompPct"); if(cp) cp.textContent=Math.round(R.completedPct||0);
+  }
   renderRecord();
+  renderRead();
   renderUtilisation();
   renderScenario();
   renderProjects();
