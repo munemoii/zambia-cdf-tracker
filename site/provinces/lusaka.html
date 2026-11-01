@@ -59,7 +59,7 @@
 <div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody><tr data-year="2021"><td>2021</td><td>K1.6m</td><td>K19.2m</td></tr><tr data-year="2022"><td>2022</td><td>K25.7m</td><td>K308.4m</td></tr><tr data-year="2023"><td>2023</td><td>K28.3m</td><td>K339.6m</td></tr><tr data-year="2024"><td>2024</td><td>K30.6m</td><td>K367.2m</td></tr><tr data-year="2025"><td>2025</td><td>K36.1m</td><td>K433.2m</td></tr><tr data-year="2026"><td>2026</td><td>K40m</td><td>K480m</td></tr></tbody></table></div>
 <script>
 (function(){
-  var seats = 12, sumRate = 162.3, PV = {"totalAll": 166, "years": {"2022": {"total": 44, "byConst": {"Feira": 26, "Kafue": 18}}, "2023": {"total": 19, "byConst": {"Chilanga": 3, "Kafue": 15, "Matero": 1}}, "2025": {"total": 53, "byConst": {"Chongwe": 34, "Feira": 7, "Matero": 12}}}, "unknown": 50};
+  var seats = 12, sumRate = 162.3, PV = {"totalAll": 166, "years": {"2022": {"total": 44, "byConst": {"Feira": 26, "Kafue": 18}}, "2023": {"total": 20, "byConst": {"Chilanga": 4, "Kafue": 15, "Matero": 1}}, "2025": {"total": 53, "byConst": {"Chongwe": 34, "Feira": 7, "Matero": 12}}}, "unknown": 49};
   function fm(m){ if(m>=1000){ return 'K'+(m/1000).toFixed(2).replace(/\.?0+$/,'')+'bn'; } var v=Math.round(m*10)/10; return 'K'+(v%1===0 ? v.toFixed(0) : String(v))+'m'; }
   var alloc=document.getElementById('pvAlloc'), allocYr=document.getElementById('pvAllocYr'), per=document.getElementById('pvPer'),
       proj=document.getElementById('pvProj'), projLbl=document.getElementById('pvProjLbl'), note=document.getElementById('pvProjNote');
