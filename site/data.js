@@ -3683,23 +3683,23 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 358,
+        "totalProjects": 390,
         "fundingYears": {
           "2022": 19,
           "2023": 21,
-          "2024": 77,
+          "2024": 109,
           "2025": 87,
           "2026": 14
         },
-        "fundingYearKnown": 218,
+        "fundingYearKnown": 250,
         "constituencies": [
           {
             "name": "Bweengwa",
             "url": "constituencies/bweengwa.html",
-            "count": 26,
+            "count": 58,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 26
+              "approved": 58
             },
             "projects": [
               {
@@ -3721,6 +3721,86 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-BWEENGWA-CONSTITUENCY.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1623,
+                "url": "projects/1623-additional-funding-for-construction-of-1x3-classroom-block-at-luchenje-primary-school.html",
+                "name": "Additional Funding for Construction of 1x3 Classroom Block at Luchenje Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1622,
+                "url": "projects/1622-additional-funding-for-drilling-of-a-borehole-at-luyaba.html",
+                "name": "Additional Funding for Drilling of a Borehole at Luyaba",
+                "ward": "Luyaba",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1607,
+                "url": "projects/1607-additional-funding-for-drilling-of-a-borehole-at-mwambo-camp-site.html",
+                "name": "Additional Funding for Drilling of a Borehole at Mwambo Camp Site",
+                "ward": "Hamangaba",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1617,
+                "url": "projects/1617-chibuyu-dam.html",
+                "name": "Chibuyu Dam",
+                "ward": "Hakwambwa",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1172,
@@ -3783,6 +3863,46 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1619,
+                "url": "projects/1619-completion-of-1x3-classroom-block-at-hakunkula-primary-school.html",
+                "name": "Completion of 1x3 Classroom Block at Hakunkula Primary School",
+                "ward": "Hakunkula",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1620,
+                "url": "projects/1620-completion-of-1x3-classroom-block-at-ntaamba-primary-school.html",
+                "name": "Completion of 1x3 Classroom Block at Ntaamba Primary School",
+                "ward": "Ntaamba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1163,
                 "url": "projects/1163-completion-of-banakaila-maternity-annex.html",
                 "name": "Completion of Banakaila Maternity Annex",
@@ -3821,6 +3941,26 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-BWEENGWA-CONSTITUENCY.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1614,
+                "url": "projects/1614-completion-of-kayuni-milk-collection-centre.html",
+                "name": "Completion of Kayuni Milk Collection Centre",
+                "ward": "Kayuni",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1162,
@@ -3863,6 +4003,66 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1616,
+                "url": "projects/1616-completion-of-a-1x2-science-lab-at-keemba-secondary-school.html",
+                "name": "Completion of a 1x2 Science Lab at Keemba Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1606,
+                "url": "projects/1606-completion-of-a-1x2-semi-detached-staff-house-at-ganda-phase-ii.html",
+                "name": "Completion of a 1x2 Semi-Detached Staff House at Ganda Phase II",
+                "ward": "Ganda",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1613,
+                "url": "projects/1613-completion-of-a-1x2-semi-detached-staff-house-at-makonka-clinic.html",
+                "name": "Completion of a 1x2 Semi-Detached Staff House at Makonka Clinic",
+                "ward": "Hamangaba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1165,
                 "url": "projects/1165-completion-of-the-rehabilitation-of-chuungu-primary-school.html",
                 "name": "Completion of the Rehabilitation of Chuungu Primary School",
@@ -3881,6 +4081,46 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-BWEENGWA-CONSTITUENCY.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1618,
+                "url": "projects/1618-construction-of-1x2-classroom-block-at-nyimba-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Nyimba Primary School",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1629,
+                "url": "projects/1629-construction-of-2-chiefs-retainers-houses-at-hrh-chief-hamusonde-s-palace.html",
+                "name": "Construction of 2 Chiefs Retainers Houses at HRH Chief Hamusonde's Palace",
+                "ward": "Bweengwa",
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1179,
@@ -3983,6 +4223,26 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1632,
+                "url": "projects/1632-construction-of-munyenze-rural-health-centre-phase-ii.html",
+                "name": "Construction of Munyenze Rural Health Centre Phase II",
+                "ward": "Munyenze",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1157,
                 "url": "projects/1157-construction-of-support-structures-at-nachibuli-clinic-3-bedroomed-staff-house-ablution-block-and-water-reticulation-system.html",
                 "name": "Construction of Support Structures at Nachibuli Clinic (3-bedroomed staff house, ablution block and water reticulation system)",
@@ -4023,6 +4283,66 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1621,
+                "url": "projects/1621-construction-of-a-fence-at-bbolomani-primary-school.html",
+                "name": "Construction of a Fence at Bbolomani Primary School",
+                "ward": "Bbolomani",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1637,
+                "url": "projects/1637-contribution-towards-renovation-of-nchete-guest-house.html",
+                "name": "Contribution Towards Renovation of Nchete Guest House",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1634,
+                "url": "projects/1634-contribution-to-rural-electrification-authority-rea.html",
+                "name": "Contribution to Rural Electrification Authority (REA)",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1166,
                 "url": "projects/1166-desks.html",
                 "name": "Desks",
@@ -4041,6 +4361,26 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-BWEENGWA-CONSTITUENCY.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1636,
+                "url": "projects/1636-desks.html",
+                "name": "Desks",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1169,
@@ -4123,6 +4463,186 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1608,
+                "url": "projects/1608-drilling-of-1-borehole-at-himabilo-nangoma-village.html",
+                "name": "Drilling of 1 Borehole at Himabilo Nangoma Village",
+                "ward": "Himabilo Nangoma Village",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1612,
+                "url": "projects/1612-drilling-of-1-borehole-at-kaambwa.html",
+                "name": "Drilling of 1 Borehole at Kaambwa",
+                "ward": "Kaambwa",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1611,
+                "url": "projects/1611-drilling-of-1-borehole-at-mainza-village.html",
+                "name": "Drilling of 1 Borehole at Mainza Village",
+                "ward": "Mainza Village",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1610,
+                "url": "projects/1610-drilling-of-1-borehole-at-mwiinde-village.html",
+                "name": "Drilling of 1 Borehole at Mwiinde Village",
+                "ward": "Mwiinde Village",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1609,
+                "url": "projects/1609-drilling-of-1-borehole-at-nyamba-lubaba-village.html",
+                "name": "Drilling of 1 Borehole at Nyamba Lubaba Village",
+                "ward": "Nyamba Lubaba Village",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1627,
+                "url": "projects/1627-drilling-of-2-boreholes-in-swilile-zone.html",
+                "name": "Drilling of 2 Boreholes in Swilile Zone",
+                "ward": "Malundu",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1624,
+                "url": "projects/1624-drilling-of-3-boreholes-in-nakansangwa-zone.html",
+                "name": "Drilling of 3 Boreholes in Nakansangwa Zone",
+                "ward": "Malundu",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1625,
+                "url": "projects/1625-drilling-of-3-boreholes-in-ntantabale-zone.html",
+                "name": "Drilling of 3 Boreholes in Ntantabale Zone",
+                "ward": "Malundu",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1626,
+                "url": "projects/1626-drilling-of-4-boreholes-in-malundu-zone.html",
+                "name": "Drilling of 4 Boreholes in Malundu Zone",
+                "ward": "Malundu",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1175,
                 "url": "projects/1175-drilling-of-a-borehole-at-kabomba-village-ntaamba.html",
                 "name": "Drilling of a Borehole at Kabomba Village, Ntaamba",
@@ -4141,6 +4661,66 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-BWEENGWA-CONSTITUENCY.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1615,
+                "url": "projects/1615-drilling-of-an-industrial-borehole-at-monze-boarding-secondary-school.html",
+                "name": "Drilling of an Industrial Borehole at Monze Boarding Secondary School",
+                "ward": "Choongo",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1631,
+                "url": "projects/1631-external-works-at-hrh-chief-hamusonde-s-palace.html",
+                "name": "External Works at HRH Chief Hamusonde's Palace",
+                "ward": "Bweengwa",
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1635,
+                "url": "projects/1635-motor-bikes-for-chief-s-palaces.html",
+                "name": "Motor Bikes for Chief's Palaces",
+                "ward": "Munyenze",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1167,
@@ -4163,6 +4743,26 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1633,
+                "url": "projects/1633-purchase-of-ambulance.html",
+                "name": "Purchase of Ambulance",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1180,
                 "url": "projects/1180-purchase-of-a-solar-system-at-hamangaba-rural-health-centre.html",
                 "name": "Purchase of a Solar System at Hamangaba Rural Health Centre",
@@ -4183,6 +4783,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 1628,
+                "url": "projects/1628-rehabilitation-of-a-borehole-at-banachibwambwa-in-malundu-zone.html",
+                "name": "Rehabilitation of a Borehole at Banachibwambwa in Malundu Zone",
+                "ward": "Malundu",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1168,
                 "url": "projects/1168-road-maintenance.html",
                 "name": "Road Maintenance",
@@ -4201,6 +4821,26 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-BWEENGWA-CONSTITUENCY.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1630,
+                "url": "projects/1630-water-reticulation-system-at-hrh-chief-hamusonde-s-palace.html",
+                "name": "Water Reticulation System at HRH Chief Hamusonde's Palace",
+                "ward": "Bweengwa",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Bweengwa (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-BWEENGWA.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1173,
@@ -37394,15 +38034,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 1605,
+    "totalProjects": 1637,
     "fundingYears": {
       "2022": 169,
       "2023": 94,
-      "2024": 250,
+      "2024": 282,
       "2025": 458,
       "2026": 37
     },
-    "fundingYearKnown": 1008
+    "fundingYearKnown": 1040
   },
   "people": {
     "bursaries": [
@@ -37543,12 +38183,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 358,
+        "tracked": 390,
         "completed": 145,
         "underway": 24,
-        "approved": 187,
+        "approved": 219,
         "other": 2,
-        "completedPct": 40.5,
+        "completedPct": 37.2,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -37640,9 +38280,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1196,
+        "projects": 1228,
         "completed": 416,
-        "pct": 34.8
+        "pct": 33.9
       },
       {
         "label": "Urban provinces",
@@ -37662,37 +38302,37 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 370,
+        "ruralN": 377,
         "urbanN": 64,
-        "ruralPct": 30.9,
+        "ruralPct": 30.7,
         "urbanPct": 24.7
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 300,
+        "ruralN": 314,
         "urbanN": 43,
-        "ruralPct": 25.1,
+        "ruralPct": 25.6,
         "urbanPct": 16.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 235,
+        "ruralN": 244,
         "urbanN": 41,
-        "ruralPct": 19.6,
+        "ruralPct": 19.9,
         "urbanPct": 15.8
       },
       {
         "cat": "Health",
-        "ruralN": 217,
+        "ruralN": 219,
         "urbanN": 54,
-        "ruralPct": 18.1,
+        "ruralPct": 17.8,
         "urbanPct": 20.8
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 58,
         "urbanN": 41,
-        "ruralPct": 4.8,
+        "ruralPct": 4.7,
         "urbanPct": 15.8
       },
       {
@@ -37705,9 +38345,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 1605,
+    "total": 1637,
     "statuses": {
-      "approved": 899,
+      "approved": 931,
       "completed": 537,
       "funded": 10,
       "in_progress": 37,
@@ -37715,8 +38355,8 @@ window.CDF_DATA = {
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 33.5,
-    "approvedPct": 56.6,
+    "completedPct": 32.8,
+    "approvedPct": 57.5,
     "withPhoto": 23,
     "constituencies": 121,
     "provinces": 10
