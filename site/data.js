@@ -11751,25 +11751,45 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 238,
+        "totalProjects": 267,
         "fundingYears": {
-          "2022": 84,
-          "2023": 1,
-          "2024": 27,
-          "2025": 74
+          "2022": 87,
+          "2023": 4,
+          "2024": 29,
+          "2025": 94
         },
-        "fundingYearKnown": 186,
+        "fundingYearKnown": 214,
         "constituencies": [
           {
             "name": "Chadiza",
             "url": "constituencies/chadiza.html",
-            "count": 16,
+            "count": 19,
             "budgetM": 0,
             "statusCounts": {
-              "completed": 10,
-              "ongoing": 6
+              "ongoing": 7,
+              "completed": 12
             },
             "projects": [
+              {
+                "id": 1739,
+                "url": "projects/1739-chamandala-health-post-borehole-upgrade-to-water-scheme.html",
+                "name": "Chamandala Health Post Borehole Upgrade to Water Scheme",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chadiza Town Council",
+                  "title": "Chamandala Health Post Borehole Upgrade Brings Improved Healthcare and Convenience to Residents",
+                  "url": "https://www.chadizacouncil.gov.zm/?p=1887"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 1064,
                 "url": "projects/1064-chamandala-maternity-annex-with-water-scheme.html",
@@ -12029,6 +12049,46 @@ window.CDF_DATA = {
                   "url": "https://www.chadizacouncil.gov.zm/?p=2856"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 1738,
+                "url": "projects/1738-official-flag-off-of-the-2025-road-works-programme.html",
+                "name": "Official Flag-Off of the 2025 Road Works Programme",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chadiza Town Council",
+                  "title": "Chadiza Town Council Commissions 11 CDF Projects",
+                  "url": "https://www.chadizacouncil.gov.zm/?p=2856"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1737,
+                "url": "projects/1737-rehabilitation-of-zemba-health-centre.html",
+                "name": "Rehabilitation of Zemba Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": "Chikondi General Suppliers and Contractors",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chadiza Town Council",
+                  "title": "Zemba Health Centre Rehabilitation - Chadiza District",
+                  "url": "https://www.chadizacouncil.gov.zm/?p=1868"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1070,
@@ -12884,6 +12944,97 @@ window.CDF_DATA = {
                   "url": "https://www.chasefucouncil.gov.zm/?p=1783"
                 },
                 "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Chipangali",
+            "url": "constituencies/chipangali.html",
+            "count": 4,
+            "budgetM": 3.67,
+            "statusCounts": {
+              "completed": 4
+            },
+            "projects": [
+              {
+                "id": 1735,
+                "url": "projects/1735-motor-grader.html",
+                "name": "Motor Grader",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chipangali Town Council",
+                  "title": "CDF Transforming Lives: Chipangali Expands Fleet for Waste Management and Road Infrastructure",
+                  "url": "https://www.chipangalicouncil.gov.zm/?p=2099"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1736,
+                "url": "projects/1736-roller-compactor.html",
+                "name": "Roller Compactor",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chipangali Town Council",
+                  "title": "CDF Transforming Lives: Chipangali Expands Fleet for Waste Management and Road Infrastructure",
+                  "url": "https://www.chipangalicouncil.gov.zm/?p=2099"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1733,
+                "url": "projects/1733-tractor-and-trailer-for-garbage-collection-and-waste-management.html",
+                "name": "Tractor and Trailer for Garbage Collection and Waste Management",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.999,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chipangali Town Council",
+                  "title": "CDF Transforming Lives: Chipangali Expands Fleet for Waste Management and Road Infrastructure",
+                  "url": "https://www.chipangalicouncil.gov.zm/?p=2099"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1734,
+                "url": "projects/1734-water-bowser.html",
+                "name": "Water Bowser",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 2.6682,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chipangali Town Council",
+                  "title": "CDF Transforming Lives: Chipangali Expands Fleet for Waste Management and Road Infrastructure",
+                  "url": "https://www.chipangalicouncil.gov.zm/?p=2099"
+                },
+                "fundingYear": 2024
               }
             ]
           },
@@ -14020,13 +14171,73 @@ window.CDF_DATA = {
           {
             "name": "Lumezi",
             "url": "constituencies/lumezi.html",
-            "count": 16,
+            "count": 35,
             "budgetM": 9.58,
             "statusCounts": {
-              "approved": 15,
+              "approved": 34,
               "completed": 1
             },
             "projects": [
+              {
+                "id": 1756,
+                "url": "projects/1756-2025-weekly-radio-programmes.html",
+                "name": "2025 Weekly Radio Programmes",
+                "ward": null,
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1754,
+                "url": "projects/1754-additional-funds-for-the-construction-of-lumezi-police-station-at-lumezi-sub-centre.html",
+                "name": "Additional Funds for the Construction of Lumezi Police Station at Lumezi Sub Centre",
+                "ward": "Chamtowa",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1743,
+                "url": "projects/1743-allocation-for-fuel-and-lubricants-for-earth-moving-equipment-for-rehabilitation-and-construction-of-roads-in-the-district.html",
+                "name": "Allocation for Fuel and Lubricants for Earth Moving Equipment for Rehabilitation and Construction of Roads in the District",
+                "ward": null,
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
               {
                 "id": 932,
                 "url": "projects/932-completion-of-a-1x3-classroom-block-at-chasera-day-secondary-school.html",
@@ -14086,6 +14297,126 @@ window.CDF_DATA = {
                   "url": "https://www.mlgrd.gov.zm/?p=3429"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 1751,
+                "url": "projects/1751-construction-of-1x3-classroom-block-at-chikomeni-day-school.html",
+                "name": "Construction of 1x3 Classroom Block at Chikomeni Day School",
+                "ward": "Kamimba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1745,
+                "url": "projects/1745-construction-of-1x3-classroom-block-at-kamo-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Kamo Primary School",
+                "ward": "Kachama",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1752,
+                "url": "projects/1752-construction-of-1x3-classroom-block-at-lukusuzi-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Lukusuzi Primary School",
+                "ward": "Lukusuzi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1747,
+                "url": "projects/1747-construction-of-health-post-at-kavinaka-zone.html",
+                "name": "Construction of Health Post at Kavinaka Zone",
+                "ward": "Kaikumbe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1744,
+                "url": "projects/1744-construction-of-health-post-installation-of-water-system-and-construction-of-2-simple-flushable-toilets-in-chibeza-zone.html",
+                "name": "Construction of Health Post, Installation of Water System and Construction of 2 Simple Flushable Toilets in Chibeza Zone",
+                "ward": "Kazembe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1755,
+                "url": "projects/1755-construction-of-mbuzi-health-post-and-installation-of-water-system.html",
+                "name": "Construction of Mbuzi Health Post and Installation of Water System",
+                "ward": "Kapangala",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 940,
@@ -14248,6 +14579,26 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 1746,
+                "url": "projects/1746-construction-of-a-police-post-and-staff-house-at-kateme.html",
+                "name": "Construction of a Police Post and Staff House at Kateme",
+                "ward": "Diwa",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 931,
                 "url": "projects/931-construction-of-a-staff-house-and-a-double-vip-toilet-at-yakhobe-health-post.html",
                 "name": "Construction of a Staff House and a Double VIP Toilet at Yakhobe Health Post",
@@ -14328,6 +14679,126 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 1748,
+                "url": "projects/1748-drilling-and-installation-of-10-boreholes-across-6-zones.html",
+                "name": "Drilling and Installation of 10 Boreholes across 6 Zones",
+                "ward": "Lumimba",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1760,
+                "url": "projects/1760-hiring-of-other-roads-equipment-bulldozer-water-bowser-lowbed.html",
+                "name": "Hiring of Other Roads Equipment (Bulldozer, Water Bowser, Lowbed)",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1758,
+                "url": "projects/1758-insurance-of-cdf-motor-vehicles.html",
+                "name": "Insurance of CDF Motor Vehicles",
+                "ward": null,
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1761,
+                "url": "projects/1761-procurement-of-1400-desks-k1-600-each.html",
+                "name": "Procurement of 1400 Desks @ K1,600 Each",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1750,
+                "url": "projects/1750-procurement-of-incubator-at-lumezi-mission-hospital.html",
+                "name": "Procurement of Incubator at Lumezi Mission Hospital",
+                "ward": "Chamtowa",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1749,
+                "url": "projects/1749-procurement-of-x-ray-machine-at-lumezi-mission-hospital.html",
+                "name": "Procurement of X-Ray Machine at Lumezi Mission Hospital",
+                "ward": "Chamtowa",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 942,
                 "url": "projects/942-procurement-of-a-grader.html",
                 "name": "Procurement of a Grader",
@@ -14346,6 +14817,66 @@ window.CDF_DATA = {
                   "url": "https://www.mlgrd.gov.zm/?p=3429"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 1757,
+                "url": "projects/1757-provision-of-sustainable-waste-management-services-and-environmental-protection-in-the-district.html",
+                "name": "Provision of Sustainable Waste Management Services and Environmental Protection in the District",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1753,
+                "url": "projects/1753-reconstruction-of-a-health-post-and-installation-of-water-system-at-chasera-health-post.html",
+                "name": "Reconstruction of a Health Post and Installation of Water System at Chasera Health Post",
+                "ward": "Chibande",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1759,
+                "url": "projects/1759-servicing-of-cdf-motor-vehicles.html",
+                "name": "Servicing of CDF Motor Vehicles",
+                "ward": null,
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lumezi Town Council",
+                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
+                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2025
               }
             ]
           },
@@ -14663,10 +15194,12 @@ window.CDF_DATA = {
           {
             "name": "Malambo",
             "url": "constituencies/malambo.html",
-            "count": 11,
-            "budgetM": 16.59,
+            "count": 14,
+            "budgetM": 21.91,
             "statusCounts": {
-              "approved": 11
+              "approved": 11,
+              "ongoing": 2,
+              "completed": 1
             },
             "projects": [
               {
@@ -14730,6 +15263,26 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 1740,
+                "url": "projects/1740-construction-of-acrow-bridge-across-mtetezi-stream.html",
+                "name": "Construction of Acrow Bridge across Mtetezi Stream",
+                "ward": "Msoro",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 3.5,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mambwe Town Council",
+                  "title": "Mambwe Town Council Newsletter Issue No. 2 December 2024",
+                  "url": "http://www.mambwecouncil.gov.zm/wp-content/uploads/2025/11/MAMBWE-TOWN-COUNCIL-NEWS-LETTER.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
                 "id": 1055,
                 "url": "projects/1055-construction-of-chief-s-palace-malama-chiefdom.html",
                 "name": "Construction of Chief's Palace (Malama Chiefdom)",
@@ -14768,6 +15321,26 @@ window.CDF_DATA = {
                   "url": "http://www.mambwecouncil.gov.zm/wp-content/uploads/2025/11/Appendix-I-2024-CDF-Community-Projects-Part-2.pdf"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 1741,
+                "url": "projects/1741-grading-and-graveling-of-roads-in-mambwe-district.html",
+                "name": "Grading and Graveling of Roads in Mambwe District",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 1.5,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mambwe Town Council",
+                  "title": "Mambwe Town Council Newsletter Issue No. 2 December 2024",
+                  "url": "http://www.mambwecouncil.gov.zm/wp-content/uploads/2025/11/MAMBWE-TOWN-COUNCIL-NEWS-LETTER.pdf"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 1057,
@@ -14868,6 +15441,26 @@ window.CDF_DATA = {
                   "url": "http://www.mambwecouncil.gov.zm/wp-content/uploads/2025/11/Appendix-I-2024-CDF-Community-Projects-Part-2.pdf"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 1742,
+                "url": "projects/1742-rehabilitation-of-1x2-classroom-block-at-ncheka-primary-school.html",
+                "name": "Rehabilitation of 1x2 Classroom Block at Ncheka Primary School",
+                "ward": "Ncheka",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.3191,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mambwe Town Council",
+                  "title": "Mambwe Town Council Newsletter Issue No. 2 December 2024",
+                  "url": "http://www.mambwecouncil.gov.zm/wp-content/uploads/2025/11/MAMBWE-TOWN-COUNCIL-NEWS-LETTER.pdf"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 1059,
@@ -39961,15 +40554,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 1732,
+    "totalProjects": 1761,
     "fundingYears": {
-      "2022": 213,
-      "2023": 107,
-      "2024": 301,
-      "2025": 470,
+      "2022": 216,
+      "2023": 110,
+      "2024": 303,
+      "2025": 490,
       "2026": 37
     },
-    "fundingYearKnown": 1128
+    "fundingYearKnown": 1156
   },
   "people": {
     "bursaries": [
@@ -40066,12 +40659,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 238,
-        "completed": 40,
-        "underway": 34,
-        "approved": 164,
+        "tracked": 267,
+        "completed": 47,
+        "underway": 37,
+        "approved": 183,
         "other": 0,
-        "completedPct": 16.8,
+        "completedPct": 17.6,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
@@ -40207,9 +40800,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1300,
-        "completed": 416,
-        "pct": 32.0
+        "projects": 1329,
+        "completed": 423,
+        "pct": 31.8
       },
       {
         "label": "Urban provinces",
@@ -40229,63 +40822,63 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 394,
+        "ruralN": 399,
         "urbanN": 68,
-        "ruralPct": 30.3,
+        "ruralPct": 30.0,
         "urbanPct": 24.1
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 340,
+        "ruralN": 347,
         "urbanN": 45,
-        "ruralPct": 26.2,
+        "ruralPct": 26.1,
         "urbanPct": 16.0
       },
       {
         "cat": "Other community works",
-        "ruralN": 257,
+        "ruralN": 264,
         "urbanN": 49,
-        "ruralPct": 19.8,
+        "ruralPct": 19.9,
         "urbanPct": 17.4
       },
       {
         "cat": "Health",
-        "ruralN": 226,
+        "ruralN": 230,
         "urbanN": 58,
-        "ruralPct": 17.4,
+        "ruralPct": 17.3,
         "urbanPct": 20.6
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 67,
+        "ruralN": 71,
         "urbanN": 44,
-        "ruralPct": 5.2,
+        "ruralPct": 5.3,
         "urbanPct": 15.6
       },
       {
         "cat": "Police & security",
-        "ruralN": 16,
+        "ruralN": 18,
         "urbanN": 18,
-        "ruralPct": 1.2,
+        "ruralPct": 1.4,
         "urbanPct": 6.4
       }
     ]
   },
   "record": {
-    "total": 1732,
+    "total": 1761,
     "statuses": {
-      "approved": 1005,
-      "completed": 537,
+      "approved": 1024,
+      "completed": 544,
       "funded": 10,
       "in_progress": 37,
-      "ongoing": 139,
+      "ongoing": 142,
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 31.0,
-    "approvedPct": 58.6,
+    "completedPct": 30.9,
+    "approvedPct": 58.7,
     "withPhoto": 23,
-    "constituencies": 123,
+    "constituencies": 124,
     "provinces": 10
   }
 };
