@@ -3683,15 +3683,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 347,
+        "totalProjects": 358,
         "fundingYears": {
           "2022": 19,
           "2023": 21,
-          "2024": 66,
+          "2024": 77,
           "2025": 87,
           "2026": 14
         },
-        "fundingYearKnown": 207,
+        "fundingYearKnown": 218,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -7666,10 +7666,10 @@ window.CDF_DATA = {
           {
             "name": "Monze Central",
             "url": "constituencies/monze-central.html",
-            "count": 31,
+            "count": 42,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 31
+              "approved": 42
             },
             "projects": [
               {
@@ -7733,6 +7733,46 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1595,
+                "url": "projects/1595-completion-of-1x3-classroom-block-at-mwaala-primary-school.html",
+                "name": "Completion of 1x3 Classroom Block at Mwaala Primary School",
+                "ward": "Hatontola",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1596,
+                "url": "projects/1596-completion-of-ablution-block-and-wall-fence-at-manungu-secondary-school.html",
+                "name": "Completion of Ablution Block and Wall Fence at Manungu Secondary School",
+                "ward": "Manungu",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1565,
                 "url": "projects/1565-completion-of-secondary-school-laboratory-at-monze-day-secondary-school.html",
                 "name": "Completion of Secondary School Laboratory at Monze Day Secondary School",
@@ -7793,6 +7833,66 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1597,
+                "url": "projects/1597-construction-of-two-door-canopies-at-manungu-secondary-school.html",
+                "name": "Construction of Two Door Canopies at Manungu Secondary School",
+                "ward": "Manungu",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1605,
+                "url": "projects/1605-construction-of-a-bridge-at-haampongo.html",
+                "name": "Construction of a Bridge at Haampongo",
+                "ward": "Singonya",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1598,
+                "url": "projects/1598-construction-of-a-fume-cabinet-with-chimney-at-manungu-secondary-school.html",
+                "name": "Construction of a Fume Cabinet with Chimney at Manungu Secondary School",
+                "ward": "Manungu",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1556,
                 "url": "projects/1556-construction-of-a-mothers-shelter-at-hatontola.html",
                 "name": "Construction of a Mothers' Shelter at Hatontola",
@@ -7811,6 +7911,46 @@ window.CDF_DATA = {
                   "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-MONZE-CENTRAL.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1601,
+                "url": "projects/1601-construction-of-a-mothers-shelter-at-monze-hospital.html",
+                "name": "Construction of a Mothers' Shelter at Monze Hospital",
+                "ward": "Monze Urban",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1604,
+                "url": "projects/1604-construction-of-a-police-post-at-chibuyu.html",
+                "name": "Construction of a Police Post at Chibuyu",
+                "ward": "Monze Urban",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1547,
@@ -8133,6 +8273,66 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 1602,
+                "url": "projects/1602-purchase-of-returners-motor-bikes.html",
+                "name": "Purchase of Returners Motor Bikes",
+                "ward": "All wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1600,
+                "url": "projects/1600-purchase-of-school-desks-shortfall-of-1-000.html",
+                "name": "Purchase of School Desks (Shortfall of 1,000)",
+                "ward": "All wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1599,
+                "url": "projects/1599-purchase-of-an-ambulance.html",
+                "name": "Purchase of an Ambulance",
+                "ward": "All wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1560,
                 "url": "projects/1560-rehabilitation-of-mothers-shelter-at-mulumbwa.html",
                 "name": "Rehabilitation of Mothers' Shelter at Mulumbwa",
@@ -8211,6 +8411,26 @@ window.CDF_DATA = {
                   "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-MONZE-CENTRAL.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 1603,
+                "url": "projects/1603-road-works.html",
+                "name": "Road Works",
+                "ward": "All wards",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2024 Community Projects - Monze Central (council CDF page, listed under 'Approved Projects'; the document carries no amounts)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MONZE-CENTRAL-.pdf"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 1574,
@@ -37174,15 +37394,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 1594,
+    "totalProjects": 1605,
     "fundingYears": {
       "2022": 169,
       "2023": 94,
-      "2024": 239,
+      "2024": 250,
       "2025": 458,
       "2026": 37
     },
-    "fundingYearKnown": 997
+    "fundingYearKnown": 1008
   },
   "people": {
     "bursaries": [
@@ -37323,12 +37543,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 347,
+        "tracked": 358,
         "completed": 145,
         "underway": 24,
-        "approved": 176,
+        "approved": 187,
         "other": 2,
-        "completedPct": 41.8,
+        "completedPct": 40.5,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -37420,9 +37640,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1185,
+        "projects": 1196,
         "completed": 416,
-        "pct": 35.1
+        "pct": 34.8
       },
       {
         "label": "Urban provinces",
@@ -37442,42 +37662,42 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 366,
+        "ruralN": 370,
         "urbanN": 64,
         "ruralPct": 30.9,
         "urbanPct": 24.7
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 299,
+        "ruralN": 300,
         "urbanN": 43,
-        "ruralPct": 25.2,
+        "ruralPct": 25.1,
         "urbanPct": 16.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 233,
+        "ruralN": 235,
         "urbanN": 41,
-        "ruralPct": 19.7,
+        "ruralPct": 19.6,
         "urbanPct": 15.8
       },
       {
         "cat": "Health",
-        "ruralN": 216,
+        "ruralN": 217,
         "urbanN": 54,
-        "ruralPct": 18.2,
+        "ruralPct": 18.1,
         "urbanPct": 20.8
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 56,
+        "ruralN": 58,
         "urbanN": 41,
-        "ruralPct": 4.7,
+        "ruralPct": 4.8,
         "urbanPct": 15.8
       },
       {
         "cat": "Police & security",
-        "ruralN": 15,
+        "ruralN": 16,
         "urbanN": 16,
         "ruralPct": 1.3,
         "urbanPct": 6.2
@@ -37485,9 +37705,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 1594,
+    "total": 1605,
     "statuses": {
-      "approved": 888,
+      "approved": 899,
       "completed": 537,
       "funded": 10,
       "in_progress": 37,
@@ -37495,8 +37715,8 @@ window.CDF_DATA = {
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 33.7,
-    "approvedPct": 56.3,
+    "completedPct": 33.5,
+    "approvedPct": 56.6,
     "withPhoto": 23,
     "constituencies": 121,
     "provinces": 10
