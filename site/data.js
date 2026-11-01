@@ -180,10 +180,10 @@ window.CDF_DATA = {
     "totalProjects": 166,
     "fundingYears": {
       "2022": 44,
-      "2023": 20,
+      "2023": 19,
       "2025": 53
     },
-    "fundingYearKnown": 117,
+    "fundingYearKnown": 116,
     "constituencies": [
       {
         "name": "Chawama",
@@ -355,7 +355,7 @@ window.CDF_DATA = {
               "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
               "url": "https://www.chilangacouncil.gov.zm/?p=5824"
             },
-            "fundingYear": 2023
+            "fundingYear": null
           },
           {
             "id": 102,
@@ -15390,10 +15390,10 @@ window.CDF_DATA = {
         "totalProjects": 166,
         "fundingYears": {
           "2022": 44,
-          "2023": 20,
+          "2023": 19,
           "2025": 53
         },
-        "fundingYearKnown": 117,
+        "fundingYearKnown": 116,
         "constituencies": [
           {
             "name": "Chawama",
@@ -15565,7 +15565,7 @@ window.CDF_DATA = {
                   "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
                   "url": "https://www.chilangacouncil.gov.zm/?p=5824"
                 },
-                "fundingYear": 2023
+                "fundingYear": null
               },
               {
                 "id": 102,
@@ -37177,12 +37177,12 @@ window.CDF_DATA = {
     "totalProjects": 1594,
     "fundingYears": {
       "2022": 169,
-      "2023": 95,
+      "2023": 94,
       "2024": 239,
       "2025": 458,
       "2026": 37
     },
-    "fundingYearKnown": 998
+    "fundingYearKnown": 997
   },
   "people": {
     "bursaries": [
