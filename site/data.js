@@ -35262,6 +35262,2563 @@ window.CDF_DATA = {
         ]
       },
       {
+        "name": "Copperbelt",
+        "province": "Copperbelt",
+        "totalProjects": 116,
+        "fundingYears": {
+          "2022": 11,
+          "2023": 6,
+          "2024": 11,
+          "2025": 25
+        },
+        "fundingYearKnown": 53,
+        "constituencies": [
+          {
+            "name": "Bwana Mkubwa",
+            "url": "constituencies/bwana-mkubwa.html",
+            "count": 1,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 1
+            },
+            "projects": [
+              {
+                "id": 1397,
+                "url": "projects/1397-grading-and-spot-re-gravelling-of-selected-roads-in-lupili-ward.html",
+                "name": "Grading and spot re-gravelling of selected roads in Lupili Ward",
+                "ward": "Lupili Ward",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/MB/RW/11/25-25: Tender for the grading and spot re-gravelling of selected roads in Lupili Ward — Bwana Mkubwa Constituency (CDF)",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=21509760"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Chifubu",
+            "url": "constituencies/chifubu.html",
+            "count": 5,
+            "budgetM": 0,
+            "statusCounts": {
+              "completed": 3,
+              "approved": 2
+            },
+            "projects": [
+              {
+                "id": 1391,
+                "url": "projects/1391-construction-of-pine-groove-market-shelter.html",
+                "name": "Construction of Pine Groove Market Shelter",
+                "ward": "Kawama Ward",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Ndola City Council",
+                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
+                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1392,
+                "url": "projects/1392-construction-of-pine-groove-market-ablution-block.html",
+                "name": "Construction of Pine Groove Market ablution block",
+                "ward": "Kawama Ward",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Ndola City Council",
+                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
+                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1390,
+                "url": "projects/1390-construction-of-twatasha-clinic.html",
+                "name": "Construction of Twatasha Clinic",
+                "ward": "Pamodzi Ward",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Ndola City Council",
+                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
+                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1394,
+                "url": "projects/1394-construction-of-ablution-block-and-water-reticulation-at-chiti-mkulu-market.html",
+                "name": "Construction of ablution block and water reticulation at Chiti Mkulu Market",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/CH/W/04/22/22-08: Tender for construction of various CDF projects in Chifubu Constituency (multi-lot)",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=1503451"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1395,
+                "url": "projects/1395-construction-of-clinic-at-mutambala.html",
+                "name": "Construction of clinic at Mutambala",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/CH/W/04/22/22-08: Tender for construction of various CDF projects in Chifubu Constituency (multi-lot)",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=1503451"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Chililabombwe",
+            "url": "constituencies/chililabombwe.html",
+            "count": 25,
+            "budgetM": 34.76,
+            "statusCounts": {
+              "approved": 11,
+              "ongoing": 14
+            },
+            "projects": [
+              {
+                "id": 1720,
+                "url": "projects/1720-completion-of-kamenza-police-post.html",
+                "name": "Completion of Kamenza Police Post",
+                "ward": null,
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": 0.4234,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1401,
+                "url": "projects/1401-construction-of-20-kilometres-of-gravel-roads.html",
+                "name": "Construction of 20 kilometres of gravel roads",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 1.5,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 Chililabombwe CDF to construct 20 kilometres of gravel roads worthy K1.5M in Chililabombwe",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?p=2259"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1726,
+                "url": "projects/1726-construction-of-basic-school.html",
+                "name": "Construction of Basic School",
+                "ward": "Yotamu Muleya",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 4.052,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1714,
+                "url": "projects/1714-construction-of-boundary-fence-around-james-phiri-clinic.html",
+                "name": "Construction of Boundary Fence around James Phiri Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.1825,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1730,
+                "url": "projects/1730-construction-of-drainages.html",
+                "name": "Construction of Drainages",
+                "ward": "Kafue",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.4168,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1715,
+                "url": "projects/1715-construction-of-health-post-at-butondo.html",
+                "name": "Construction of Health Post at Butondo",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.195,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1712,
+                "url": "projects/1712-construction-of-market-shelter-in-kamenza-east-ward.html",
+                "name": "Construction of Market Shelter in Kamenza East Ward",
+                "ward": "Kamenza East",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": 2.5494,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1711,
+                "url": "projects/1711-construction-of-market-shelter-in-nakatindi-ward.html",
+                "name": "Construction of Market Shelter in Nakatindi Ward",
+                "ward": "Nakatindi",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": 2.5045,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1713,
+                "url": "projects/1713-construction-of-market-shelter-in-the-central-business-district.html",
+                "name": "Construction of Market Shelter in the Central Business District",
+                "ward": null,
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": 1.3812,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1725,
+                "url": "projects/1725-construction-of-roads-and-drainages.html",
+                "name": "Construction of Roads and Drainages",
+                "ward": "Ngebe",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 1.5711,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1731,
+                "url": "projects/1731-construction-of-a-1x3-classroom-block-at-kakoso-east.html",
+                "name": "Construction of a 1x3 Classroom Block at Kakoso East",
+                "ward": "Anoya Zulu",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.6673,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1728,
+                "url": "projects/1728-construction-of-a-1x4-classroom-block-at-malubeni-primary-school.html",
+                "name": "Construction of a 1x4 Classroom Block at Malubeni Primary School",
+                "ward": "Chilimina",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 3.4,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1721,
+                "url": "projects/1721-construction-of-a-market-shelter-with-ablution-block-and-water-supply-system-phase-two.html",
+                "name": "Construction of a Market Shelter with Ablution Block and Water Supply System (Phase Two)",
+                "ward": "Nakatindi",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": 2.8068,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1727,
+                "url": "projects/1727-construction-of-a-maternity-wing.html",
+                "name": "Construction of a Maternity Wing",
+                "ward": "Silwizya",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.7805,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1724,
+                "url": "projects/1724-construction-of-a-maternity-wing-phase-two.html",
+                "name": "Construction of a Maternity Wing (Phase Two)",
+                "ward": "Kawama",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.38,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1729,
+                "url": "projects/1729-installation-of-culverts-at-kalela-ground-area.html",
+                "name": "Installation of Culverts at Kalela Ground Area",
+                "ward": "Ilute Yeta",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.2991,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1732,
+                "url": "projects/1732-insurance-for-heavy-duty-equipment.html",
+                "name": "Insurance for Heavy Duty Equipment",
+                "ward": "Mumba",
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": 0.45,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1723,
+                "url": "projects/1723-kafue-police-post-boundary-fence-and-landscaping.html",
+                "name": "Kafue Police Post Boundary Fence and Landscaping",
+                "ward": "Kafue",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": 0.56,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1722,
+                "url": "projects/1722-kakoso-level-1-hospital-plumbing-water-reticulation-system-and-drilling-and-equipping-of-the-new-borehole.html",
+                "name": "Kakoso Level 1 Hospital Plumbing Water Reticulation System and Drilling and Equipping of the New Borehole",
+                "ward": "Kakoso",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.3667,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1402,
+                "url": "projects/1402-pothole-patching-and-asphalt-road-maintenance.html",
+                "name": "Pothole patching and asphalt road maintenance",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 0.446,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 Chililabombwe CDF to construct 20 kilometres of gravel roads worthy K1.5M in Chililabombwe",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?p=2259"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1710,
+                "url": "projects/1710-procurement-of-600-school-desks.html",
+                "name": "Procurement of 600 School Desks",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.2,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1717,
+                "url": "projects/1717-procurement-of-ambulance.html",
+                "name": "Procurement of Ambulance",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 2.3,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1719,
+                "url": "projects/1719-procurement-of-tlb.html",
+                "name": "Procurement of TLB",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 1.8,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1718,
+                "url": "projects/1718-procurement-of-yvtc-bricklaying-equipment.html",
+                "name": "Procurement of YVTC Bricklaying Equipment",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.53,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 1716,
+                "url": "projects/1716-rural-electrification.html",
+                "name": "Rural Electrification",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 1.0,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              }
+            ]
+          },
+          {
+            "name": "Chimwemwe",
+            "url": "constituencies/chimwemwe.html",
+            "count": 5,
+            "budgetM": 1.15,
+            "statusCounts": {
+              "approved": 3,
+              "completed": 2
+            },
+            "projects": [
+              {
+                "id": 1427,
+                "url": "projects/1427-construction-of-bridge-connecting-mukuba-university-to-zambia-compound.html",
+                "name": "Construction of Bridge Connecting Mukuba University to Zambia Compound",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of Bridge Connecting Mukuba University to Zambia Compound under CDF — Chimwemwe Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=19260948"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1425,
+                "url": "projects/1425-construction-of-police-post-in-chimwemwe-east.html",
+                "name": "Construction of Police Post in Chimwemwe East",
+                "ward": null,
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of Police Post in Chimwemwe East under CDF — Chimwemwe Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=18223014"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1426,
+                "url": "projects/1426-reconstruction-of-the-1x7-classroom-block-at-kamatipa-combined-school-under-cdf-disaster-component.html",
+                "name": "Reconstruction of the 1X7 Classroom Block at Kamatipa Combined School under CDF Disaster Component",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Reconstruction of the 1X7 Classroom Block at Kamatipa Combined School under CDF Disaster Component under Chimwemwe Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=20232184"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1417,
+                "url": "projects/1417-wall-fence-at-kamatipa-secondary-school-phase-one.html",
+                "name": "Wall Fence at Kamatipa Secondary School - Phase One",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": "Race Zambia Ltd",
+                "budgetM": 0.5499,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1418,
+                "url": "projects/1418-wall-fence-at-kamatipa-secondary-school-phase-two.html",
+                "name": "Wall Fence at Kamatipa Secondary School - Phase Two",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": "Barrel Logistics",
+                "budgetM": 0.5986,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Chingola",
+            "url": "constituencies/chingola.html",
+            "count": 1,
+            "budgetM": 0,
+            "statusCounts": {
+              "ongoing": 1
+            },
+            "projects": [
+              {
+                "id": 1439,
+                "url": "projects/1439-construction-of-a-maternity-annex-at-chiwempala-clinic.html",
+                "name": "Construction of a maternity annex at Chiwempala Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chingola Municipal Council",
+                  "title": "Uncategorized (news category page with CDF project update posts)",
+                  "url": "http://www.chingolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Kabushi",
+            "url": "constituencies/kabushi.html",
+            "count": 3,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 3
+            },
+            "projects": [
+              {
+                "id": 1398,
+                "url": "projects/1398-construction-of-a-market-shelter-at-lubuto-market.html",
+                "name": "Construction of a market shelter at Lubuto Market",
+                "ward": "Lubuto Ward",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/KB/CWD/02/25-21: Tender for construction of a market shelter at Lubuto Market in Lubuto Ward — CDF Kabushi Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=12856375"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1399,
+                "url": "projects/1399-paving-of-chipande-road.html",
+                "name": "Paving of Chipande Road",
+                "ward": "Mukuba Ward",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/KB/R/W/07/25-05: Tender for paving of Chipande Road in Mukuba Ward — CDF Kabushi Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14913398"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1400,
+                "url": "projects/1400-rehabilitation-of-a-classroom-with-blown-off-roof-at-dambo-combined-school.html",
+                "name": "Rehabilitation of a classroom with blown-off roof at Dambo Combined School",
+                "ward": "Kabushi Ward",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/KB/W/06/24-11: Tender for rehabilitation of a classroom with blown-off roof at Dambo Combined School in Kabushi Ward — Kabushi Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=7546892"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Kafulafuta",
+            "url": "constituencies/kafulafuta.html",
+            "count": 12,
+            "budgetM": 4.77,
+            "statusCounts": {
+              "completed": 11,
+              "approved": 1
+            },
+            "projects": [
+              {
+                "id": 1455,
+                "url": "projects/1455-1-x-2-classroom-block-at-kalamba-community-school.html",
+                "name": "1 X 2 Classroom Block at Kalamba Community School",
+                "ward": "Ishitwe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.4172,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1454,
+                "url": "projects/1454-1x3-classroom-block-at-kambowa-combined-school.html",
+                "name": "1X3 Classroom Block at Kambowa Combined School",
+                "ward": "Chondwe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.6982,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1452,
+                "url": "projects/1452-1x3-classroom-block-at-chembo-primary-school.html",
+                "name": "1X3 Classroom block at Chembo Primary School",
+                "ward": "Katonte",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.9067,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1459,
+                "url": "projects/1459-ablution-block-at-chiwala-primary-school.html",
+                "name": "Ablution block at Chiwala Primary School",
+                "ward": "Majaliwa",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.4572,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1457,
+                "url": "projects/1457-ablution-block-at-mapalo-health-post.html",
+                "name": "Ablution block at Mapalo Health Post",
+                "ward": "Mapalo",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.1996,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1453,
+                "url": "projects/1453-bangwe-health-post.html",
+                "name": "Bangwe Health Post",
+                "ward": "Chondwe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.4403,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1451,
+                "url": "projects/1451-chikoka-community-school.html",
+                "name": "Chikoka Community School",
+                "ward": "Katonte",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.4351,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1460,
+                "url": "projects/1460-completion-of-a-staff-house-at-muwaya-primary-school.html",
+                "name": "Completion of a staff house at Muwaya Primary School",
+                "ward": "Mwatishi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.5801,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1458,
+                "url": "projects/1458-construction-of-mapalo-health-post.html",
+                "name": "Construction of Mapalo Health Post",
+                "ward": "Mapalo",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.1996,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1450,
+                "url": "projects/1450-matipa-health-post.html",
+                "name": "Matipa Health Post",
+                "ward": "Miengwe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.4404,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1462,
+                "url": "projects/1462-procurement-of-a-30-tonne-tipper-truck-kafulafuta-constituency.html",
+                "name": "Procurement of a 30 Tonne Tipper Truck — Kafulafuta Constituency",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
+                  "title": "MTC/DES/PSU/CDF/TIPPERTRUCK/07/24-09/0401: Tender to procure a 30 tonne tipper truck — Kafulafuta Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=7729423"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1456,
+                "url": "projects/1456-supply-of-75-desks-at-kalamba-community-school.html",
+                "name": "Supply of 75 desks at Kalamba Community School",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Masaiti Town Council",
+                  "title": "2022 Masaiti District CDF projects officially commissioned",
+                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
+                },
+                "fundingYear": 2022
+              }
+            ]
+          },
+          {
+            "name": "Kalulushi",
+            "url": "constituencies/kalulushi.html",
+            "count": 4,
+            "budgetM": 0.6,
+            "statusCounts": {
+              "approved": 2,
+              "completed": 1,
+              "ongoing": 1
+            },
+            "projects": [
+              {
+                "id": 1445,
+                "url": "projects/1445-construction-of-kabaso-bridge.html",
+                "name": "Construction of Kabaso Bridge",
+                "ward": "Lulamba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-procurement via Tender Impulse mirror (notice 13146735)",
+                  "title": "KMC/PSU/KABBRG/CDF-25: Tender for the construction of Kabaso Bridge in Lulamba Ward in Kalulushi Constituency under 2025 CDF",
+                  "url": "https://tenderimpulse.com/government-tenders/zambia/kmc-psu-kabbrg-cdf-25-obn-ek-3-25-tender-for-the-construction-of-kabaso-bridge-i-7237544"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1444,
+                "url": "projects/1444-construction-of-a-1x3-science-laboratory-at-twalubuka-secondary-school.html",
+                "name": "Construction of a 1x3 science laboratory at Twalubuka Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-procurement via Tender Impulse mirror (notice 13147414)",
+                  "title": "KMC/PSU/LAB/CDF-25: Tender for construction of a 1x3 science laboratory at Twalubuka Secondary School in Kalulushi Constituency under 2025 CDF",
+                  "url": "https://tenderimpulse.com/government-tenders/zambia/kmcpsulabcdf-25obnek325-tender-for-the-construction-of-a-1x3-science-laboratory-at-twalubuka-secondary-school-in-kalulushi-constituency-kalulushi-district-under-2025-cdf-7237543"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1443,
+                "url": "projects/1443-procurement-of-fully-equipped-ambulance-for-kalulushi-district-health-office.html",
+                "name": "Procurement of fully equipped ambulance for Kalulushi District Health Office",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kalulushi Municipal Council",
+                  "title": "Kalulushi Municipal Council hands over fully equipped ambulance to District Health Office",
+                  "url": "https://www.kalulushicouncil.gov.zm/?p=2568"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1442,
+                "url": "projects/1442-procurement-of-two-1x6-mortuary-refrigerating-units-and-renovation-of-mortuary-at-kalulushi-general-hospital.html",
+                "name": "Procurement of two 1x6 mortuary refrigerating units and renovation of mortuary at Kalulushi General Hospital",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": "White Stone Construction Ltd",
+                "budgetM": 0.6,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kalulushi Municipal Council",
+                  "title": "Kalulushi General Hospital receives new mortuary refrigeration units",
+                  "url": "https://www.kalulushicouncil.gov.zm/?p=2088"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Kamfinsa",
+            "url": "constituencies/kamfinsa.html",
+            "count": 8,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 6,
+              "completed": 2
+            },
+            "projects": [
+              {
+                "id": 1422,
+                "url": "projects/1422-completion-of-1x3-crb-at-kamfinsa-day-secondary-school.html",
+                "name": "Completion of 1X3 CRB at Kamfinsa Day Secondary School",
+                "ward": "Kamfinsa",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Completion of 1X3 CRB at Kamfinsa Day Secondary School in Kamfinsa Ward under 2025 CDF Funding — Kamfinsa Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=14008070"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1421,
+                "url": "projects/1421-construction-of-1x2-classroom-block-at-chipashi.html",
+                "name": "Construction of 1X2 Classroom Block at Chipashi",
+                "ward": "Kafue",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of 1X2 Classroom Block at Chipashi in Kafue Ward under 2025 CDF Funding — Kamfinsa Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14008164"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1419,
+                "url": "projects/1419-construction-of-1x3-classroom-block-at-mwekera.html",
+                "name": "Construction of 1X3 Classroom Block at Mwekera",
+                "ward": "Kamfinsa",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of 1X3 Classroom Block at Mwekera in Kamfinsa Ward under 2025 CDF Funding — Kamfinsa Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14008117"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1424,
+                "url": "projects/1424-construction-of-200m-drainange-at-st-augustine.html",
+                "name": "Construction of 200m Drainange at St Augustine",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of 200m Drainange at St Augustine in Kamfinsa Constituency — CDF funding for 2025",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=20190413"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1415,
+                "url": "projects/1415-construction-of-chankalamu-health-post.html",
+                "name": "Construction of Chankalamu Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1423,
+                "url": "projects/1423-construction-of-kangombe-bridge.html",
+                "name": "Construction of Kangombe Bridge",
+                "ward": "Ndeke",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of Kangombe Bridge in Ndeke Ward under 2025 CDF Funding — Kamfinsa Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=13730983"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1420,
+                "url": "projects/1420-construction-of-police-post-at-mukuba-natwange.html",
+                "name": "Construction of Police Post at Mukuba Natwange",
+                "ward": "Bupe",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of Police Post at Mukuba Natwange in Bupe Ward under 2025 CDF Funding — Kamfinsa Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=14008212"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1414,
+                "url": "projects/1414-mashula-health-post.html",
+                "name": "Mashula Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Kankoyo",
+            "url": "constituencies/kankoyo.html",
+            "count": 2,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 2
+            },
+            "projects": [
+              {
+                "id": 1449,
+                "url": "projects/1449-construction-of-a-change-house-with-shower-room-at-fibusa-ground.html",
+                "name": "Construction of a Change House with Shower Room at Fibusa Ground",
+                "ward": "Fibusa",
+                "component": "community",
+                "category": "recreation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-procurement (Mufulira Municipal Council)",
+                  "title": "MMC/DES/PSU/CDF/KA/W/00/25-04: Tender for various works in Kankoyo Constituency — opened bid details",
+                  "url": "https://eprocure.zppa.org.zm/epps/eawarding/showDetailsOpenedTender.do?resourceId=13793911"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1448,
+                "url": "projects/1448-rehabilitation-of-drainages-in-fibusa-ward.html",
+                "name": "Rehabilitation of Drainages in Fibusa Ward",
+                "ward": "Fibusa",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-procurement (Mufulira Municipal Council)",
+                  "title": "MMC/DES/PSU/CDF/KA/W/00/25-04: Tender for various works in Kankoyo Constituency — opened bid details",
+                  "url": "https://eprocure.zppa.org.zm/epps/eawarding/showDetailsOpenedTender.do?resourceId=13793911"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Kwacha",
+            "url": "constituencies/kwacha.html",
+            "count": 11,
+            "budgetM": 4.32,
+            "statusCounts": {
+              "ongoing": 7,
+              "approved": 2,
+              "completed": 2
+            },
+            "projects": [
+              {
+                "id": 1406,
+                "url": "projects/1406-completion-of-a-1x3-classroom-block-at-mutende-primary-school.html",
+                "name": "Completion of a 1x3 Classroom Block at Mutende Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.898,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1403,
+                "url": "projects/1403-completion-of-a-1x4-classroom-block-at-chantete.html",
+                "name": "Completion of a 1x4 Classroom Block at Chantete",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.899,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1436,
+                "url": "projects/1436-construction-of-kr-to-old-chimwemwe-bridge.html",
+                "name": "Construction of KR to Old Chimwemwe Bridge",
+                "ward": "Kwacha",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Tender for the Construction of KR to Old Chimwemwe Bridge in Kwacha Ward of Kwacha Constituency — 2025 CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16494501"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1405,
+                "url": "projects/1405-construction-of-a-1x2-classroom-block-at-musonda-center.html",
+                "name": "Construction of a 1x2 Classroom Block at Musonda Center",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.74,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1408,
+                "url": "projects/1408-construction-of-a-staff-house-incinerator-placenta-pit-ash-pit-waste-facility-fencing-and-equipping-of-solar-boreholes-at-kafue-park.html",
+                "name": "Construction of a staff house, incinerator, placenta pit, ash pit, waste facility fencing, and equipping of solar boreholes at Kafue Park",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.8837,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1409,
+                "url": "projects/1409-construction-of-guard-and-fencing-at-bulangililo-kafue-bridge.html",
+                "name": "Construction of guard and fencing at Bulangililo Kafue Bridge",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1879"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1412,
+                "url": "projects/1412-grader-and-tipper-truck-for-kwacha-constituency.html",
+                "name": "Grader and tipper truck for Kwacha Constituency",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "Kitwe City Council officially handed over 27 completed CDF projects (author listing text)",
+                  "url": "https://www.kitwecouncil.gov.zm/?paged=2&author=11"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1416,
+                "url": "projects/1416-health-post-at-old-chipata-clinic.html",
+                "name": "Health Post at Old Chipata Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1437,
+                "url": "projects/1437-purchase-and-installation-of-equipment-and-furniture-for-chipata-clinic.html",
+                "name": "Purchase and Installation of Equipment and Furniture for Chipata Clinic",
+                "ward": "Musonda",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Tender for the Purchase and Installation of Equipment and Furniture for Chipata Clinic in Musonda Ward of Kwacha Constituency — 2025 CDF (opened bid details, status: awarded)",
+                  "url": "https://eprocure.zppa.org.zm/epps/eawarding/showDetailsOpenedTender.do?resourceId=17236696"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1404,
+                "url": "projects/1404-rehabilitation-of-the-opd-at-kwacha-clinic.html",
+                "name": "Rehabilitation of the OPD at Kwacha Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.6179,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 1407,
+                "url": "projects/1407-upgrading-of-ipusukilo-clinic.html",
+                "name": "Upgrading of Ipusukilo Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.283,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                },
+                "fundingYear": 2023
+              }
+            ]
+          },
+          {
+            "name": "Luanshya",
+            "url": "constituencies/luanshya.html",
+            "count": 1,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 1
+            },
+            "projects": [
+              {
+                "id": 1446,
+                "url": "projects/1446-construction-of-maternity-wing-at-allesandros-clinic.html",
+                "name": "Construction of Maternity Wing at Allesandros Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-procurement (Luanshya Municipal Council)",
+                  "title": "Tender for construction of maternity wing at Allesandros Clinic in Luanshya Constituency — CDF-2023",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=3786156"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Lufwanyama",
+            "url": "constituencies/lufwanyama.html",
+            "count": 18,
+            "budgetM": 3.87,
+            "statusCounts": {
+              "ongoing": 5,
+              "approved": 13
+            },
+            "projects": [
+              {
+                "id": 1481,
+                "url": "projects/1481-1x2-classroom-block-and-semi-detached-house.html",
+                "name": "1x2 classroom block and semi-detached house",
+                "ward": "Kansoka",
+                "component": "community",
+                "category": "education",
+                "contractor": "Mwemo Investment Limited",
+                "budgetM": 1.4661,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama CDF projects taking shape",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1469,
+                "url": "projects/1469-completion-of-milulu-health-post.html",
+                "name": "Completion of Milulu Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1465,
+                "url": "projects/1465-completion-of-dormitories-at-lufwanyama-boarding-school.html",
+                "name": "Completion of dormitories at Lufwanyama Boarding School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1470,
+                "url": "projects/1470-construction-of-1x2-crb-at-chibanga-community-school.html",
+                "name": "Construction of 1X2 CRB at Chibanga Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1468,
+                "url": "projects/1468-construction-of-1x2-crb-semi-detached-house-with-water-at-chantete.html",
+                "name": "Construction of 1X2 CRB, Semi detached house with water at Chantete",
+                "ward": "Luswishi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1467,
+                "url": "projects/1467-construction-of-1x2-classroom-block-at-milemu-school-with-solar.html",
+                "name": "Construction of 1X2 Classroom block at Milemu School with Solar",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1471,
+                "url": "projects/1471-construction-of-1x3-at-musamba-school-with-solar.html",
+                "name": "Construction of 1X3 at Musamba School with Solar",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1479,
+                "url": "projects/1479-construction-of-a-1-x-3-classroom-block.html",
+                "name": "Construction of a 1 x 3 classroom block",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": "El Mech Zambia Limited",
+                "budgetM": 0.6896,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama CDF projects taking shape",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1480,
+                "url": "projects/1480-construction-of-a-semi-detached-house.html",
+                "name": "Construction of a semi-detached house",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": "Milkline Zambia Limited",
+                "budgetM": 0.427,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama CDF projects taking shape",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1478,
+                "url": "projects/1478-construction-of-a-water-borne-ablution-block-and-water-reticulation.html",
+                "name": "Construction of a water-borne ablution block and water reticulation",
+                "ward": "Milopa",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": "Kendies Constructors Limited",
+                "budgetM": 0.5402,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama CDF projects taking shape",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1466,
+                "url": "projects/1466-drilling-of-commercial-boreholes-at-mukutuma-rural-health-centre.html",
+                "name": "Drilling of commercial boreholes at Mukutuma Rural Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1473,
+                "url": "projects/1473-electrification-of-nkana-area.html",
+                "name": "Electrification of Nkana area",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1475,
+                "url": "projects/1475-installation-of-solar-system-at-lufwanyama-hospital-phase-1.html",
+                "name": "Installation of Solar System at Lufwanyama Hospital phase 1",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1482,
+                "url": "projects/1482-maternity-wing.html",
+                "name": "Maternity wing",
+                "ward": "Kansanta",
+                "component": "community",
+                "category": "health",
+                "contractor": "Kmuyes Metals and General Dealers Limited",
+                "budgetM": 0.7514,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama CDF projects taking shape",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1476,
+                "url": "projects/1476-procurement-of-desks.html",
+                "name": "Procurement of Desks",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1474,
+                "url": "projects/1474-procurement-of-low-bed.html",
+                "name": "Procurement of Low bed",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1472,
+                "url": "projects/1472-procurement-of-furniture-and-equipment-for-completed-health-posts-under-cdf.html",
+                "name": "Procurement of furniture and equipment for completed Health Posts under CDF",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 1477,
+                "url": "projects/1477-restocking-of-the-somap-shop.html",
+                "name": "Restocking of the Somap Shop",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Approved 2025 CDF community projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
+                },
+                "fundingYear": 2025
+              }
+            ]
+          },
+          {
+            "name": "Masaiti",
+            "url": "constituencies/masaiti.html",
+            "count": 3,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 3
+            },
+            "projects": [
+              {
+                "id": 1464,
+                "url": "projects/1464-construction-of-1x3-classroom-block-at-chola-community-school.html",
+                "name": "Construction of 1X3 Classroom Block at Chola Community School",
+                "ward": "Kashitu",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
+                  "title": "MTC/DES/PSU/CMDF/WK/06/26/18-5: Tender for construction of 1x3 classroom block at Chola Community School in Kashitu Ward in Masaiti Constituency 2026 CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/common/viewOpenedTenders.do?d-3680181-s=awardDate&selectedItem=common%2FviewOpenedTenders.do&T01_ps=100&d-3680181-o=1&d-3680181-p=1&d-3680181-n=1&d-49489-s=7&d-49489-p=1&d-49489-o=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1461,
+                "url": "projects/1461-construction-of-a-maternity-annex-and-water-reticulation-system-at-myria-mokola-rural-health-post.html",
+                "name": "Construction of a Maternity Annex and Water Reticulation System at Myria Mokola Rural Health Post",
+                "ward": "Mishikishi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
+                  "title": "MTC/DES/PSU/MCDF/W/455/08/24/13: Tender for construction of a maternity annex and water reticulation system at Myria Mokola Rural Health Post",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=8557361"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1463,
+                "url": "projects/1463-procurement-of-a-20-000-liters-water-bowser-masaiti-constituency.html",
+                "name": "Procurement of a 20,000 Liters Water Bowser — Masaiti Constituency",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
+                  "title": "MTC/DES/PSU/CDF/WATER BOWSER/07/24/11/452: Tender to procure a water bowser — Masaiti Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=7809987"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Mufulira",
+            "url": "constituencies/mufulira.html",
+            "count": 1,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 1
+            },
+            "projects": [
+              {
+                "id": 1447,
+                "url": "projects/1447-construction-of-foot-bridge-linking-kalindini.html",
+                "name": "Construction of Foot Bridge Linking Kalindini",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-procurement (Mufulira Municipal Council)",
+                  "title": "MMC/DES/PSU/CDF/MU/FB/W/04/25-04: Construction of foot bridge linking Kalindini of Mufulira",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14282246"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Nchanga",
+            "url": "constituencies/nchanga.html",
+            "count": 3,
+            "budgetM": 0,
+            "statusCounts": {
+              "ongoing": 2,
+              "approved": 1
+            },
+            "projects": [
+              {
+                "id": 1440,
+                "url": "projects/1440-grading-of-access-road-off-dag-hammarskjold-road-to-cha-cha-cha-road.html",
+                "name": "Grading of access road off Dag Hammarskjold Road to Cha-Cha-Cha Road",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chingola Municipal Council",
+                  "title": "Uncategorized (news category page with CDF project update posts)",
+                  "url": "http://www.chingolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1438,
+                "url": "projects/1438-paving-of-clinic-1-driveway.html",
+                "name": "Paving of Clinic 1 driveway",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chingola Municipal Council",
+                  "title": "Uncategorized (news category page with CDF project update posts)",
+                  "url": "http://www.chingolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1441,
+                "url": "projects/1441-paving-with-concrete-pavers-chimbotela-road.html",
+                "name": "Paving with concrete pavers Chimbotela Road",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Chingola Municipal Council)",
+                  "title": "Paving with concrete pavers Chimbotela Road in Nchanga Constituency — CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16828577"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Ndola Central",
+            "url": "constituencies/ndola-central.html",
+            "count": 2,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 1,
+              "completed": 1
+            },
+            "projects": [
+              {
+                "id": 1396,
+                "url": "projects/1396-construction-of-a-1x3-classroom-block-at-dola-hill-school.html",
+                "name": "Construction of a 1x3 classroom block at Dola Hill School",
+                "ward": "Dag Ward",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Ndola City Council)",
+                  "title": "NCC/DES/PSU/CDF/NC/W/03/25-18: Tender for construction of a 1x3 classroom block at Dola Hill School in Dag Ward — CDF Ndola Central Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=13442551"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1393,
+                "url": "projects/1393-kakupepa-culvert.html",
+                "name": "Kakupepa Culvert",
+                "ward": "Kaniki Ward",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Ndola City Council",
+                  "title": "CDF UPDATE: Kakupepa and Lesa Waluse Primary School Progress",
+                  "url": "https://www.ndolacouncil.gov.zm/?p=1449"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Nkana",
+            "url": "constituencies/nkana.html",
+            "count": 7,
+            "budgetM": 6.0,
+            "statusCounts": {
+              "approved": 4,
+              "ongoing": 2,
+              "completed": 1
+            },
+            "projects": [
+              {
+                "id": 1428,
+                "url": "projects/1428-construction-of-kamitondo-chimwemwe-bridge.html",
+                "name": "Construction of Kamitondo-Chimwemwe Bridge",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of Kamitondo-Chimwemwe Bridge under Nkana Constituency — CDF 2025",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=15375006"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1431,
+                "url": "projects/1431-development-of-typical-water-supply-scheme-by-drilling-6-inch-commercial-borehole-and-laying-of-water-distribution-network-to-connect-to-stand-taps-in-five-locations-in-kaputula-area.html",
+                "name": "Development of Typical Water Supply Scheme by Drilling 6 Inch Commercial Borehole and Laying of Water Distribution Network to connect to Stand Taps in five locations in Kaputula Area",
+                "ward": "Kamakonde",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Development of Typical Water Supply Scheme in Kaputula Area of Kamakonde Ward under Nkana Constituency — CDF 2025",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=15138164"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1430,
+                "url": "projects/1430-installation-of-43no-solar-street-lights-along-musinje-road-from-catholic-crossing-mindolo-stream-via-ktc-and-up-to-chingola-road-junction.html",
+                "name": "Installation of 43No. Solar Street Lights Along Musinje Road from Catholic Crossing Mindolo Stream Via KTC and up to Chingola Road Junction",
+                "ward": "Mindolo",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Installation of 43No. Solar Street Lights Along Musinje Road from Catholic, Crossing Mindolo Stream, Via KTC and up to Chingola Road Junction of Mindolo Ward — 1.5KM under Nkana Constituency — CDF 2025",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNotice.do?documentId=15494868&lang=en&noticeType=314&resourceId=15203480"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1429,
+                "url": "projects/1429-installation-of-61no-solar-street-lights-in-kapata-nsombo-chibolya-and-ernest-road.html",
+                "name": "Installation of 61No. Solar Street Lights in Kapata, Nsombo, Chibolya and Ernest Road",
+                "ward": "Mukuba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Installation of 61No. Solar Street Lights in Kapata, Nsombo, Chibolya and Ernest Road of Mukuba Ward 2.1KM under Nkana Constituency — CDF 2025",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=15150261"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1410,
+                "url": "projects/1410-installation-of-solar-street-lights-on-william-and-11th-streets.html",
+                "name": "Installation of solar street lights on William and 11th Streets",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1879"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1413,
+                "url": "projects/1413-motor-grader-and-water-bowser-for-nkana-constituency.html",
+                "name": "Motor grader and water bowser for Nkana Constituency",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 6.0,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "Kitwe City Council handed over and commissioned a motor grader and water bowser procured under the 2026 CDF for Nkana Constituency (category listing text)",
+                  "url": "https://www.kitwecouncil.gov.zm/?paged=2&cat=1"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1411,
+                "url": "projects/1411-rehabilitation-works-at-kamitondo-primary-school.html",
+                "name": "Rehabilitation works at Kamitondo Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kitwe City Council",
+                  "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
+                  "url": "https://www.kitwecouncil.gov.zm/?p=1879"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Wusakile",
+            "url": "constituencies/wusakile.html",
+            "count": 4,
+            "budgetM": 0,
+            "statusCounts": {
+              "approved": 4
+            },
+            "projects": [
+              {
+                "id": 1432,
+                "url": "projects/1432-construction-of-motor-vehicle-bridge-at-e3-and-chamboli-hospital.html",
+                "name": "Construction of Motor Vehicle Bridge at E3 and Chamboli Hospital",
+                "ward": "Chibote",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Tender for the Construction of Motor Vehicle Bridge at E3 and Chamboli Hospital in Chibote Ward of Wusakile Constituency — 2025 CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16366284"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1433,
+                "url": "projects/1433-construction-of-yoyoyo-bridge-and-20m-drainages.html",
+                "name": "Construction of Yoyoyo Bridge and 20M Drainages",
+                "ward": "Chibote",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Tender for the Construction of Yoyoyo Bridge and 20M Drainages in Chibote Ward of Wusakile Constituency — 2025 CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=16359370"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1435,
+                "url": "projects/1435-construction-of-a-water-scheme-at-ma-new.html",
+                "name": "Construction of a Water Scheme at MA NEW",
+                "ward": "Chamboli",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Tender for the Construction of a Water Scheme at MA NEW in Chamboli Ward of Wusakile Constituency — 2025 CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=16330746"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 1434,
+                "url": "projects/1434-construction-of-a-water-scheme-at-sos.html",
+                "name": "Construction of a Water Scheme at SOS",
+                "ward": "Chamboli",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Tender for the Construction of a Water Scheme at SOS in Chamboli Ward of Wusakile Constituency — 2025 CDF",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16338774"
+                },
+                "fundingYear": null
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Northern",
         "province": "Northern",
         "totalProjects": 103,
@@ -37402,2112 +39959,17 @@ window.CDF_DATA = {
             ]
           }
         ]
-      },
-      {
-        "name": "Copperbelt",
-        "province": "Copperbelt",
-        "totalProjects": 93,
-        "fundingYears": {
-          "2022": 11,
-          "2023": 6,
-          "2025": 13
-        },
-        "fundingYearKnown": 30,
-        "constituencies": [
-          {
-            "name": "Bwana Mkubwa",
-            "url": "constituencies/bwana-mkubwa.html",
-            "count": 1,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 1
-            },
-            "projects": [
-              {
-                "id": 1397,
-                "url": "projects/1397-grading-and-spot-re-gravelling-of-selected-roads-in-lupili-ward.html",
-                "name": "Grading and spot re-gravelling of selected roads in Lupili Ward",
-                "ward": "Lupili Ward",
-                "component": "community",
-                "category": "roads",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/MB/RW/11/25-25: Tender for the grading and spot re-gravelling of selected roads in Lupili Ward — Bwana Mkubwa Constituency (CDF)",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=21509760"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Chifubu",
-            "url": "constituencies/chifubu.html",
-            "count": 5,
-            "budgetM": 0,
-            "statusCounts": {
-              "completed": 3,
-              "approved": 2
-            },
-            "projects": [
-              {
-                "id": 1391,
-                "url": "projects/1391-construction-of-pine-groove-market-shelter.html",
-                "name": "Construction of Pine Groove Market Shelter",
-                "ward": "Kawama Ward",
-                "component": "community",
-                "category": "markets",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Ndola City Council",
-                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
-                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1392,
-                "url": "projects/1392-construction-of-pine-groove-market-ablution-block.html",
-                "name": "Construction of Pine Groove Market ablution block",
-                "ward": "Kawama Ward",
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Ndola City Council",
-                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
-                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1390,
-                "url": "projects/1390-construction-of-twatasha-clinic.html",
-                "name": "Construction of Twatasha Clinic",
-                "ward": "Pamodzi Ward",
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Ndola City Council",
-                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
-                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1394,
-                "url": "projects/1394-construction-of-ablution-block-and-water-reticulation-at-chiti-mkulu-market.html",
-                "name": "Construction of ablution block and water reticulation at Chiti Mkulu Market",
-                "ward": null,
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/CH/W/04/22/22-08: Tender for construction of various CDF projects in Chifubu Constituency (multi-lot)",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=1503451"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1395,
-                "url": "projects/1395-construction-of-clinic-at-mutambala.html",
-                "name": "Construction of clinic at Mutambala",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/CH/W/04/22/22-08: Tender for construction of various CDF projects in Chifubu Constituency (multi-lot)",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=1503451"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Chililabombwe",
-            "url": "constituencies/chililabombwe.html",
-            "count": 2,
-            "budgetM": 1.95,
-            "statusCounts": {
-              "ongoing": 2
-            },
-            "projects": [
-              {
-                "id": 1401,
-                "url": "projects/1401-construction-of-20-kilometres-of-gravel-roads.html",
-                "name": "Construction of 20 kilometres of gravel roads",
-                "ward": null,
-                "component": "community",
-                "category": "roads",
-                "contractor": null,
-                "budgetM": 1.5,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chililabombwe Municipal Council",
-                  "title": "2024 Chililabombwe CDF to construct 20 kilometres of gravel roads worthy K1.5M in Chililabombwe",
-                  "url": "https://www.chililabombwecouncil.gov.zm/?p=2259"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1402,
-                "url": "projects/1402-pothole-patching-and-asphalt-road-maintenance.html",
-                "name": "Pothole patching and asphalt road maintenance",
-                "ward": null,
-                "component": "community",
-                "category": "roads",
-                "contractor": null,
-                "budgetM": 0.446,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chililabombwe Municipal Council",
-                  "title": "2024 Chililabombwe CDF to construct 20 kilometres of gravel roads worthy K1.5M in Chililabombwe",
-                  "url": "https://www.chililabombwecouncil.gov.zm/?p=2259"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Chimwemwe",
-            "url": "constituencies/chimwemwe.html",
-            "count": 5,
-            "budgetM": 1.15,
-            "statusCounts": {
-              "approved": 3,
-              "completed": 2
-            },
-            "projects": [
-              {
-                "id": 1427,
-                "url": "projects/1427-construction-of-bridge-connecting-mukuba-university-to-zambia-compound.html",
-                "name": "Construction of Bridge Connecting Mukuba University to Zambia Compound",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of Bridge Connecting Mukuba University to Zambia Compound under CDF — Chimwemwe Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=19260948"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1425,
-                "url": "projects/1425-construction-of-police-post-in-chimwemwe-east.html",
-                "name": "Construction of Police Post in Chimwemwe East",
-                "ward": null,
-                "component": "community",
-                "category": "security",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of Police Post in Chimwemwe East under CDF — Chimwemwe Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=18223014"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1426,
-                "url": "projects/1426-reconstruction-of-the-1x7-classroom-block-at-kamatipa-combined-school-under-cdf-disaster-component.html",
-                "name": "Reconstruction of the 1X7 Classroom Block at Kamatipa Combined School under CDF Disaster Component",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Reconstruction of the 1X7 Classroom Block at Kamatipa Combined School under CDF Disaster Component under Chimwemwe Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=20232184"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1417,
-                "url": "projects/1417-wall-fence-at-kamatipa-secondary-school-phase-one.html",
-                "name": "Wall Fence at Kamatipa Secondary School - Phase One",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": "Race Zambia Ltd",
-                "budgetM": 0.5499,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "National Assembly of Zambia",
-                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
-                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1418,
-                "url": "projects/1418-wall-fence-at-kamatipa-secondary-school-phase-two.html",
-                "name": "Wall Fence at Kamatipa Secondary School - Phase Two",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": "Barrel Logistics",
-                "budgetM": 0.5986,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "National Assembly of Zambia",
-                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
-                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Chingola",
-            "url": "constituencies/chingola.html",
-            "count": 1,
-            "budgetM": 0,
-            "statusCounts": {
-              "ongoing": 1
-            },
-            "projects": [
-              {
-                "id": 1439,
-                "url": "projects/1439-construction-of-a-maternity-annex-at-chiwempala-clinic.html",
-                "name": "Construction of a maternity annex at Chiwempala Clinic",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chingola Municipal Council",
-                  "title": "Uncategorized (news category page with CDF project update posts)",
-                  "url": "http://www.chingolacouncil.gov.zm/?cat=1"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Kabushi",
-            "url": "constituencies/kabushi.html",
-            "count": 3,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 3
-            },
-            "projects": [
-              {
-                "id": 1398,
-                "url": "projects/1398-construction-of-a-market-shelter-at-lubuto-market.html",
-                "name": "Construction of a market shelter at Lubuto Market",
-                "ward": "Lubuto Ward",
-                "component": "community",
-                "category": "markets",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/KB/CWD/02/25-21: Tender for construction of a market shelter at Lubuto Market in Lubuto Ward — CDF Kabushi Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=12856375"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1399,
-                "url": "projects/1399-paving-of-chipande-road.html",
-                "name": "Paving of Chipande Road",
-                "ward": "Mukuba Ward",
-                "component": "community",
-                "category": "roads",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/KB/R/W/07/25-05: Tender for paving of Chipande Road in Mukuba Ward — CDF Kabushi Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14913398"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1400,
-                "url": "projects/1400-rehabilitation-of-a-classroom-with-blown-off-roof-at-dambo-combined-school.html",
-                "name": "Rehabilitation of a classroom with blown-off roof at Dambo Combined School",
-                "ward": "Kabushi Ward",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/KB/W/06/24-11: Tender for rehabilitation of a classroom with blown-off roof at Dambo Combined School in Kabushi Ward — Kabushi Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=7546892"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Kafulafuta",
-            "url": "constituencies/kafulafuta.html",
-            "count": 12,
-            "budgetM": 4.77,
-            "statusCounts": {
-              "completed": 11,
-              "approved": 1
-            },
-            "projects": [
-              {
-                "id": 1455,
-                "url": "projects/1455-1-x-2-classroom-block-at-kalamba-community-school.html",
-                "name": "1 X 2 Classroom Block at Kalamba Community School",
-                "ward": "Ishitwe",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.4172,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1454,
-                "url": "projects/1454-1x3-classroom-block-at-kambowa-combined-school.html",
-                "name": "1X3 Classroom Block at Kambowa Combined School",
-                "ward": "Chondwe",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.6982,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1452,
-                "url": "projects/1452-1x3-classroom-block-at-chembo-primary-school.html",
-                "name": "1X3 Classroom block at Chembo Primary School",
-                "ward": "Katonte",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.9067,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1459,
-                "url": "projects/1459-ablution-block-at-chiwala-primary-school.html",
-                "name": "Ablution block at Chiwala Primary School",
-                "ward": "Majaliwa",
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": 0.4572,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1457,
-                "url": "projects/1457-ablution-block-at-mapalo-health-post.html",
-                "name": "Ablution block at Mapalo Health Post",
-                "ward": "Mapalo",
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": 0.1996,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1453,
-                "url": "projects/1453-bangwe-health-post.html",
-                "name": "Bangwe Health Post",
-                "ward": "Chondwe",
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.4403,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1451,
-                "url": "projects/1451-chikoka-community-school.html",
-                "name": "Chikoka Community School",
-                "ward": "Katonte",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.4351,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1460,
-                "url": "projects/1460-completion-of-a-staff-house-at-muwaya-primary-school.html",
-                "name": "Completion of a staff house at Muwaya Primary School",
-                "ward": "Mwatishi",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.5801,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1458,
-                "url": "projects/1458-construction-of-mapalo-health-post.html",
-                "name": "Construction of Mapalo Health Post",
-                "ward": "Mapalo",
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.1996,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1450,
-                "url": "projects/1450-matipa-health-post.html",
-                "name": "Matipa Health Post",
-                "ward": "Miengwe",
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.4404,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              },
-              {
-                "id": 1462,
-                "url": "projects/1462-procurement-of-a-30-tonne-tipper-truck-kafulafuta-constituency.html",
-                "name": "Procurement of a 30 Tonne Tipper Truck — Kafulafuta Constituency",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
-                  "title": "MTC/DES/PSU/CDF/TIPPERTRUCK/07/24-09/0401: Tender to procure a 30 tonne tipper truck — Kafulafuta Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=7729423"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1456,
-                "url": "projects/1456-supply-of-75-desks-at-kalamba-community-school.html",
-                "name": "Supply of 75 desks at Kalamba Community School",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Masaiti Town Council",
-                  "title": "2022 Masaiti District CDF projects officially commissioned",
-                  "url": "https://www.masaiticouncil.gov.zm/?p=1477"
-                },
-                "fundingYear": 2022
-              }
-            ]
-          },
-          {
-            "name": "Kalulushi",
-            "url": "constituencies/kalulushi.html",
-            "count": 4,
-            "budgetM": 0.6,
-            "statusCounts": {
-              "approved": 2,
-              "completed": 1,
-              "ongoing": 1
-            },
-            "projects": [
-              {
-                "id": 1445,
-                "url": "projects/1445-construction-of-kabaso-bridge.html",
-                "name": "Construction of Kabaso Bridge",
-                "ward": "Lulamba",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-procurement via Tender Impulse mirror (notice 13146735)",
-                  "title": "KMC/PSU/KABBRG/CDF-25: Tender for the construction of Kabaso Bridge in Lulamba Ward in Kalulushi Constituency under 2025 CDF",
-                  "url": "https://tenderimpulse.com/government-tenders/zambia/kmc-psu-kabbrg-cdf-25-obn-ek-3-25-tender-for-the-construction-of-kabaso-bridge-i-7237544"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1444,
-                "url": "projects/1444-construction-of-a-1x3-science-laboratory-at-twalubuka-secondary-school.html",
-                "name": "Construction of a 1x3 science laboratory at Twalubuka Secondary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-procurement via Tender Impulse mirror (notice 13147414)",
-                  "title": "KMC/PSU/LAB/CDF-25: Tender for construction of a 1x3 science laboratory at Twalubuka Secondary School in Kalulushi Constituency under 2025 CDF",
-                  "url": "https://tenderimpulse.com/government-tenders/zambia/kmcpsulabcdf-25obnek325-tender-for-the-construction-of-a-1x3-science-laboratory-at-twalubuka-secondary-school-in-kalulushi-constituency-kalulushi-district-under-2025-cdf-7237543"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1443,
-                "url": "projects/1443-procurement-of-fully-equipped-ambulance-for-kalulushi-district-health-office.html",
-                "name": "Procurement of fully equipped ambulance for Kalulushi District Health Office",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kalulushi Municipal Council",
-                  "title": "Kalulushi Municipal Council hands over fully equipped ambulance to District Health Office",
-                  "url": "https://www.kalulushicouncil.gov.zm/?p=2568"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1442,
-                "url": "projects/1442-procurement-of-two-1x6-mortuary-refrigerating-units-and-renovation-of-mortuary-at-kalulushi-general-hospital.html",
-                "name": "Procurement of two 1x6 mortuary refrigerating units and renovation of mortuary at Kalulushi General Hospital",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": "White Stone Construction Ltd",
-                "budgetM": 0.6,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kalulushi Municipal Council",
-                  "title": "Kalulushi General Hospital receives new mortuary refrigeration units",
-                  "url": "https://www.kalulushicouncil.gov.zm/?p=2088"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Kamfinsa",
-            "url": "constituencies/kamfinsa.html",
-            "count": 8,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 6,
-              "completed": 2
-            },
-            "projects": [
-              {
-                "id": 1422,
-                "url": "projects/1422-completion-of-1x3-crb-at-kamfinsa-day-secondary-school.html",
-                "name": "Completion of 1X3 CRB at Kamfinsa Day Secondary School",
-                "ward": "Kamfinsa",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Completion of 1X3 CRB at Kamfinsa Day Secondary School in Kamfinsa Ward under 2025 CDF Funding — Kamfinsa Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=14008070"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1421,
-                "url": "projects/1421-construction-of-1x2-classroom-block-at-chipashi.html",
-                "name": "Construction of 1X2 Classroom Block at Chipashi",
-                "ward": "Kafue",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of 1X2 Classroom Block at Chipashi in Kafue Ward under 2025 CDF Funding — Kamfinsa Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14008164"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1419,
-                "url": "projects/1419-construction-of-1x3-classroom-block-at-mwekera.html",
-                "name": "Construction of 1X3 Classroom Block at Mwekera",
-                "ward": "Kamfinsa",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of 1X3 Classroom Block at Mwekera in Kamfinsa Ward under 2025 CDF Funding — Kamfinsa Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14008117"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1424,
-                "url": "projects/1424-construction-of-200m-drainange-at-st-augustine.html",
-                "name": "Construction of 200m Drainange at St Augustine",
-                "ward": null,
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of 200m Drainange at St Augustine in Kamfinsa Constituency — CDF funding for 2025",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=20190413"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1415,
-                "url": "projects/1415-construction-of-chankalamu-health-post.html",
-                "name": "Construction of Chankalamu Health Post",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "National Assembly of Zambia",
-                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
-                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1423,
-                "url": "projects/1423-construction-of-kangombe-bridge.html",
-                "name": "Construction of Kangombe Bridge",
-                "ward": "Ndeke",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of Kangombe Bridge in Ndeke Ward under 2025 CDF Funding — Kamfinsa Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=13730983"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1420,
-                "url": "projects/1420-construction-of-police-post-at-mukuba-natwange.html",
-                "name": "Construction of Police Post at Mukuba Natwange",
-                "ward": "Bupe",
-                "component": "community",
-                "category": "security",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of Police Post at Mukuba Natwange in Bupe Ward under 2025 CDF Funding — Kamfinsa Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=14008212"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1414,
-                "url": "projects/1414-mashula-health-post.html",
-                "name": "Mashula Health Post",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "National Assembly of Zambia",
-                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
-                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Kankoyo",
-            "url": "constituencies/kankoyo.html",
-            "count": 2,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 2
-            },
-            "projects": [
-              {
-                "id": 1449,
-                "url": "projects/1449-construction-of-a-change-house-with-shower-room-at-fibusa-ground.html",
-                "name": "Construction of a Change House with Shower Room at Fibusa Ground",
-                "ward": "Fibusa",
-                "component": "community",
-                "category": "recreation",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-procurement (Mufulira Municipal Council)",
-                  "title": "MMC/DES/PSU/CDF/KA/W/00/25-04: Tender for various works in Kankoyo Constituency — opened bid details",
-                  "url": "https://eprocure.zppa.org.zm/epps/eawarding/showDetailsOpenedTender.do?resourceId=13793911"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1448,
-                "url": "projects/1448-rehabilitation-of-drainages-in-fibusa-ward.html",
-                "name": "Rehabilitation of Drainages in Fibusa Ward",
-                "ward": "Fibusa",
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-procurement (Mufulira Municipal Council)",
-                  "title": "MMC/DES/PSU/CDF/KA/W/00/25-04: Tender for various works in Kankoyo Constituency — opened bid details",
-                  "url": "https://eprocure.zppa.org.zm/epps/eawarding/showDetailsOpenedTender.do?resourceId=13793911"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Kwacha",
-            "url": "constituencies/kwacha.html",
-            "count": 11,
-            "budgetM": 4.32,
-            "statusCounts": {
-              "ongoing": 7,
-              "approved": 2,
-              "completed": 2
-            },
-            "projects": [
-              {
-                "id": 1406,
-                "url": "projects/1406-completion-of-a-1x3-classroom-block-at-mutende-primary-school.html",
-                "name": "Completion of a 1x3 Classroom Block at Mutende Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.898,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
-                },
-                "fundingYear": 2023
-              },
-              {
-                "id": 1403,
-                "url": "projects/1403-completion-of-a-1x4-classroom-block-at-chantete.html",
-                "name": "Completion of a 1x4 Classroom Block at Chantete",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.899,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
-                },
-                "fundingYear": 2023
-              },
-              {
-                "id": 1436,
-                "url": "projects/1436-construction-of-kr-to-old-chimwemwe-bridge.html",
-                "name": "Construction of KR to Old Chimwemwe Bridge",
-                "ward": "Kwacha",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Tender for the Construction of KR to Old Chimwemwe Bridge in Kwacha Ward of Kwacha Constituency — 2025 CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16494501"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1405,
-                "url": "projects/1405-construction-of-a-1x2-classroom-block-at-musonda-center.html",
-                "name": "Construction of a 1x2 Classroom Block at Musonda Center",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.74,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
-                },
-                "fundingYear": 2023
-              },
-              {
-                "id": 1408,
-                "url": "projects/1408-construction-of-a-staff-house-incinerator-placenta-pit-ash-pit-waste-facility-fencing-and-equipping-of-solar-boreholes-at-kafue-park.html",
-                "name": "Construction of a staff house, incinerator, placenta pit, ash pit, waste facility fencing, and equipping of solar boreholes at Kafue Park",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.8837,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
-                },
-                "fundingYear": 2023
-              },
-              {
-                "id": 1409,
-                "url": "projects/1409-construction-of-guard-and-fencing-at-bulangililo-kafue-bridge.html",
-                "name": "Construction of guard and fencing at Bulangililo Kafue Bridge",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1879"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1412,
-                "url": "projects/1412-grader-and-tipper-truck-for-kwacha-constituency.html",
-                "name": "Grader and tipper truck for Kwacha Constituency",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "Kitwe City Council officially handed over 27 completed CDF projects (author listing text)",
-                  "url": "https://www.kitwecouncil.gov.zm/?paged=2&author=11"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1416,
-                "url": "projects/1416-health-post-at-old-chipata-clinic.html",
-                "name": "Health Post at Old Chipata Clinic",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "National Assembly of Zambia",
-                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
-                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1437,
-                "url": "projects/1437-purchase-and-installation-of-equipment-and-furniture-for-chipata-clinic.html",
-                "name": "Purchase and Installation of Equipment and Furniture for Chipata Clinic",
-                "ward": "Musonda",
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Tender for the Purchase and Installation of Equipment and Furniture for Chipata Clinic in Musonda Ward of Kwacha Constituency — 2025 CDF (opened bid details, status: awarded)",
-                  "url": "https://eprocure.zppa.org.zm/epps/eawarding/showDetailsOpenedTender.do?resourceId=17236696"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1404,
-                "url": "projects/1404-rehabilitation-of-the-opd-at-kwacha-clinic.html",
-                "name": "Rehabilitation of the OPD at Kwacha Clinic",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.6179,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
-                },
-                "fundingYear": 2023
-              },
-              {
-                "id": 1407,
-                "url": "projects/1407-upgrading-of-ipusukilo-clinic.html",
-                "name": "Upgrading of Ipusukilo Clinic",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.283,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
-                },
-                "fundingYear": 2023
-              }
-            ]
-          },
-          {
-            "name": "Luanshya",
-            "url": "constituencies/luanshya.html",
-            "count": 1,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 1
-            },
-            "projects": [
-              {
-                "id": 1446,
-                "url": "projects/1446-construction-of-maternity-wing-at-allesandros-clinic.html",
-                "name": "Construction of Maternity Wing at Allesandros Clinic",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-procurement (Luanshya Municipal Council)",
-                  "title": "Tender for construction of maternity wing at Allesandros Clinic in Luanshya Constituency — CDF-2023",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=3786156"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Lufwanyama",
-            "url": "constituencies/lufwanyama.html",
-            "count": 18,
-            "budgetM": 3.87,
-            "statusCounts": {
-              "ongoing": 5,
-              "approved": 13
-            },
-            "projects": [
-              {
-                "id": 1481,
-                "url": "projects/1481-1x2-classroom-block-and-semi-detached-house.html",
-                "name": "1x2 classroom block and semi-detached house",
-                "ward": "Kansoka",
-                "component": "community",
-                "category": "education",
-                "contractor": "Mwemo Investment Limited",
-                "budgetM": 1.4661,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Lufwanyama CDF projects taking shape",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1469,
-                "url": "projects/1469-completion-of-milulu-health-post.html",
-                "name": "Completion of Milulu Health Post",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1465,
-                "url": "projects/1465-completion-of-dormitories-at-lufwanyama-boarding-school.html",
-                "name": "Completion of dormitories at Lufwanyama Boarding School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1470,
-                "url": "projects/1470-construction-of-1x2-crb-at-chibanga-community-school.html",
-                "name": "Construction of 1X2 CRB at Chibanga Community School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1468,
-                "url": "projects/1468-construction-of-1x2-crb-semi-detached-house-with-water-at-chantete.html",
-                "name": "Construction of 1X2 CRB, Semi detached house with water at Chantete",
-                "ward": "Luswishi",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1467,
-                "url": "projects/1467-construction-of-1x2-classroom-block-at-milemu-school-with-solar.html",
-                "name": "Construction of 1X2 Classroom block at Milemu School with Solar",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1471,
-                "url": "projects/1471-construction-of-1x3-at-musamba-school-with-solar.html",
-                "name": "Construction of 1X3 at Musamba School with Solar",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1479,
-                "url": "projects/1479-construction-of-a-1-x-3-classroom-block.html",
-                "name": "Construction of a 1 x 3 classroom block",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": "El Mech Zambia Limited",
-                "budgetM": 0.6896,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Lufwanyama CDF projects taking shape",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1480,
-                "url": "projects/1480-construction-of-a-semi-detached-house.html",
-                "name": "Construction of a semi-detached house",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": "Milkline Zambia Limited",
-                "budgetM": 0.427,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Lufwanyama CDF projects taking shape",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1478,
-                "url": "projects/1478-construction-of-a-water-borne-ablution-block-and-water-reticulation.html",
-                "name": "Construction of a water-borne ablution block and water reticulation",
-                "ward": "Milopa",
-                "component": "community",
-                "category": "sanitation",
-                "contractor": "Kendies Constructors Limited",
-                "budgetM": 0.5402,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Lufwanyama CDF projects taking shape",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1466,
-                "url": "projects/1466-drilling-of-commercial-boreholes-at-mukutuma-rural-health-centre.html",
-                "name": "Drilling of commercial boreholes at Mukutuma Rural Health Centre",
-                "ward": null,
-                "component": "community",
-                "category": "water",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1473,
-                "url": "projects/1473-electrification-of-nkana-area.html",
-                "name": "Electrification of Nkana area",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1475,
-                "url": "projects/1475-installation-of-solar-system-at-lufwanyama-hospital-phase-1.html",
-                "name": "Installation of Solar System at Lufwanyama Hospital phase 1",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1482,
-                "url": "projects/1482-maternity-wing.html",
-                "name": "Maternity wing",
-                "ward": "Kansanta",
-                "component": "community",
-                "category": "health",
-                "contractor": "Kmuyes Metals and General Dealers Limited",
-                "budgetM": 0.7514,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Lufwanyama CDF projects taking shape",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1476,
-                "url": "projects/1476-procurement-of-desks.html",
-                "name": "Procurement of Desks",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1474,
-                "url": "projects/1474-procurement-of-low-bed.html",
-                "name": "Procurement of Low bed",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1472,
-                "url": "projects/1472-procurement-of-furniture-and-equipment-for-completed-health-posts-under-cdf.html",
-                "name": "Procurement of furniture and equipment for completed Health Posts under CDF",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 1477,
-                "url": "projects/1477-restocking-of-the-somap-shop.html",
-                "name": "Restocking of the Somap Shop",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Lufwanyama Town Council",
-                  "title": "Approved 2025 CDF community projects",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
-                },
-                "fundingYear": 2025
-              }
-            ]
-          },
-          {
-            "name": "Masaiti",
-            "url": "constituencies/masaiti.html",
-            "count": 3,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 3
-            },
-            "projects": [
-              {
-                "id": 1464,
-                "url": "projects/1464-construction-of-1x3-classroom-block-at-chola-community-school.html",
-                "name": "Construction of 1X3 Classroom Block at Chola Community School",
-                "ward": "Kashitu",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
-                  "title": "MTC/DES/PSU/CMDF/WK/06/26/18-5: Tender for construction of 1x3 classroom block at Chola Community School in Kashitu Ward in Masaiti Constituency 2026 CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/common/viewOpenedTenders.do?d-3680181-s=awardDate&selectedItem=common%2FviewOpenedTenders.do&T01_ps=100&d-3680181-o=1&d-3680181-p=1&d-3680181-n=1&d-49489-s=7&d-49489-p=1&d-49489-o=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1461,
-                "url": "projects/1461-construction-of-a-maternity-annex-and-water-reticulation-system-at-myria-mokola-rural-health-post.html",
-                "name": "Construction of a Maternity Annex and Water Reticulation System at Myria Mokola Rural Health Post",
-                "ward": "Mishikishi",
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
-                  "title": "MTC/DES/PSU/MCDF/W/455/08/24/13: Tender for construction of a maternity annex and water reticulation system at Myria Mokola Rural Health Post",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=8557361"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1463,
-                "url": "projects/1463-procurement-of-a-20-000-liters-water-bowser-masaiti-constituency.html",
-                "name": "Procurement of a 20,000 Liters Water Bowser — Masaiti Constituency",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Masaiti Town Council)",
-                  "title": "MTC/DES/PSU/CDF/WATER BOWSER/07/24/11/452: Tender to procure a water bowser — Masaiti Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=7809987"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Mufulira",
-            "url": "constituencies/mufulira.html",
-            "count": 1,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 1
-            },
-            "projects": [
-              {
-                "id": 1447,
-                "url": "projects/1447-construction-of-foot-bridge-linking-kalindini.html",
-                "name": "Construction of Foot Bridge Linking Kalindini",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-procurement (Mufulira Municipal Council)",
-                  "title": "MMC/DES/PSU/CDF/MU/FB/W/04/25-04: Construction of foot bridge linking Kalindini of Mufulira",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14282246"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Nchanga",
-            "url": "constituencies/nchanga.html",
-            "count": 3,
-            "budgetM": 0,
-            "statusCounts": {
-              "ongoing": 2,
-              "approved": 1
-            },
-            "projects": [
-              {
-                "id": 1440,
-                "url": "projects/1440-grading-of-access-road-off-dag-hammarskjold-road-to-cha-cha-cha-road.html",
-                "name": "Grading of access road off Dag Hammarskjold Road to Cha-Cha-Cha Road",
-                "ward": null,
-                "component": "community",
-                "category": "roads",
-                "contractor": null,
-                "budgetM": null,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chingola Municipal Council",
-                  "title": "Uncategorized (news category page with CDF project update posts)",
-                  "url": "http://www.chingolacouncil.gov.zm/?cat=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1438,
-                "url": "projects/1438-paving-of-clinic-1-driveway.html",
-                "name": "Paving of Clinic 1 driveway",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chingola Municipal Council",
-                  "title": "Uncategorized (news category page with CDF project update posts)",
-                  "url": "http://www.chingolacouncil.gov.zm/?cat=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1441,
-                "url": "projects/1441-paving-with-concrete-pavers-chimbotela-road.html",
-                "name": "Paving with concrete pavers Chimbotela Road",
-                "ward": null,
-                "component": "community",
-                "category": "roads",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Chingola Municipal Council)",
-                  "title": "Paving with concrete pavers Chimbotela Road in Nchanga Constituency — CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16828577"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Ndola Central",
-            "url": "constituencies/ndola-central.html",
-            "count": 2,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 1,
-              "completed": 1
-            },
-            "projects": [
-              {
-                "id": 1396,
-                "url": "projects/1396-construction-of-a-1x3-classroom-block-at-dola-hill-school.html",
-                "name": "Construction of a 1x3 classroom block at Dola Hill School",
-                "ward": "Dag Ward",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/NC/W/03/25-18: Tender for construction of a 1x3 classroom block at Dola Hill School in Dag Ward — CDF Ndola Central Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=13442551"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1393,
-                "url": "projects/1393-kakupepa-culvert.html",
-                "name": "Kakupepa Culvert",
-                "ward": "Kaniki Ward",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Ndola City Council",
-                  "title": "CDF UPDATE: Kakupepa and Lesa Waluse Primary School Progress",
-                  "url": "https://www.ndolacouncil.gov.zm/?p=1449"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Nkana",
-            "url": "constituencies/nkana.html",
-            "count": 7,
-            "budgetM": 6.0,
-            "statusCounts": {
-              "approved": 4,
-              "ongoing": 2,
-              "completed": 1
-            },
-            "projects": [
-              {
-                "id": 1428,
-                "url": "projects/1428-construction-of-kamitondo-chimwemwe-bridge.html",
-                "name": "Construction of Kamitondo-Chimwemwe Bridge",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Construction of Kamitondo-Chimwemwe Bridge under Nkana Constituency — CDF 2025",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=15375006"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1431,
-                "url": "projects/1431-development-of-typical-water-supply-scheme-by-drilling-6-inch-commercial-borehole-and-laying-of-water-distribution-network-to-connect-to-stand-taps-in-five-locations-in-kaputula-area.html",
-                "name": "Development of Typical Water Supply Scheme by Drilling 6 Inch Commercial Borehole and Laying of Water Distribution Network to connect to Stand Taps in five locations in Kaputula Area",
-                "ward": "Kamakonde",
-                "component": "community",
-                "category": "water",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Development of Typical Water Supply Scheme in Kaputula Area of Kamakonde Ward under Nkana Constituency — CDF 2025",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=15138164"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1430,
-                "url": "projects/1430-installation-of-43no-solar-street-lights-along-musinje-road-from-catholic-crossing-mindolo-stream-via-ktc-and-up-to-chingola-road-junction.html",
-                "name": "Installation of 43No. Solar Street Lights Along Musinje Road from Catholic Crossing Mindolo Stream Via KTC and up to Chingola Road Junction",
-                "ward": "Mindolo",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Installation of 43No. Solar Street Lights Along Musinje Road from Catholic, Crossing Mindolo Stream, Via KTC and up to Chingola Road Junction of Mindolo Ward — 1.5KM under Nkana Constituency — CDF 2025",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNotice.do?documentId=15494868&lang=en&noticeType=314&resourceId=15203480"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1429,
-                "url": "projects/1429-installation-of-61no-solar-street-lights-in-kapata-nsombo-chibolya-and-ernest-road.html",
-                "name": "Installation of 61No. Solar Street Lights in Kapata, Nsombo, Chibolya and Ernest Road",
-                "ward": "Mukuba",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Installation of 61No. Solar Street Lights in Kapata, Nsombo, Chibolya and Ernest Road of Mukuba Ward 2.1KM under Nkana Constituency — CDF 2025",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=15150261"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1410,
-                "url": "projects/1410-installation-of-solar-street-lights-on-william-and-11th-streets.html",
-                "name": "Installation of solar street lights on William and 11th Streets",
-                "ward": null,
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1879"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1413,
-                "url": "projects/1413-motor-grader-and-water-bowser-for-nkana-constituency.html",
-                "name": "Motor grader and water bowser for Nkana Constituency",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": 6.0,
-                "status": "completed",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "Kitwe City Council handed over and commissioned a motor grader and water bowser procured under the 2026 CDF for Nkana Constituency (category listing text)",
-                  "url": "https://www.kitwecouncil.gov.zm/?paged=2&cat=1"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1411,
-                "url": "projects/1411-rehabilitation-works-at-kamitondo-primary-school.html",
-                "name": "Rehabilitation works at Kamitondo Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1879"
-                },
-                "fundingYear": null
-              }
-            ]
-          },
-          {
-            "name": "Wusakile",
-            "url": "constituencies/wusakile.html",
-            "count": 4,
-            "budgetM": 0,
-            "statusCounts": {
-              "approved": 4
-            },
-            "projects": [
-              {
-                "id": 1432,
-                "url": "projects/1432-construction-of-motor-vehicle-bridge-at-e3-and-chamboli-hospital.html",
-                "name": "Construction of Motor Vehicle Bridge at E3 and Chamboli Hospital",
-                "ward": "Chibote",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Tender for the Construction of Motor Vehicle Bridge at E3 and Chamboli Hospital in Chibote Ward of Wusakile Constituency — 2025 CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16366284"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1433,
-                "url": "projects/1433-construction-of-yoyoyo-bridge-and-20m-drainages.html",
-                "name": "Construction of Yoyoyo Bridge and 20M Drainages",
-                "ward": "Chibote",
-                "component": "community",
-                "category": "infrastructure",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Tender for the Construction of Yoyoyo Bridge and 20M Drainages in Chibote Ward of Wusakile Constituency — 2025 CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=16359370"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1435,
-                "url": "projects/1435-construction-of-a-water-scheme-at-ma-new.html",
-                "name": "Construction of a Water Scheme at MA NEW",
-                "ward": "Chamboli",
-                "component": "community",
-                "category": "water",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Tender for the Construction of a Water Scheme at MA NEW in Chamboli Ward of Wusakile Constituency — 2025 CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=16330746"
-                },
-                "fundingYear": null
-              },
-              {
-                "id": 1434,
-                "url": "projects/1434-construction-of-a-water-scheme-at-sos.html",
-                "name": "Construction of a Water Scheme at SOS",
-                "ward": "Chamboli",
-                "component": "community",
-                "category": "water",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "ZPPA e-GP (Kitwe City Council)",
-                  "title": "Tender for the Construction of a Water Scheme at SOS in Chamboli Ward of Wusakile Constituency — 2025 CDF",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=16338774"
-                },
-                "fundingYear": null
-              }
-            ]
-          }
-        ]
       }
     ],
-    "totalProjects": 1709,
+    "totalProjects": 1732,
     "fundingYears": {
       "2022": 213,
       "2023": 107,
-      "2024": 290,
-      "2025": 458,
+      "2024": 301,
+      "2025": 470,
       "2026": 37
     },
-    "fundingYearKnown": 1105
+    "fundingYearKnown": 1128
   },
   "people": {
     "bursaries": [
@@ -39681,12 +40143,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Copperbelt",
-        "tracked": 93,
+        "tracked": 116,
         "completed": 23,
-        "underway": 20,
-        "approved": 50,
+        "underway": 32,
+        "approved": 61,
         "other": 0,
-        "completedPct": 24.7,
+        "completedPct": 19.8,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -39752,9 +40214,9 @@ window.CDF_DATA = {
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 259,
+        "projects": 282,
         "completed": 79,
-        "pct": 30.5
+        "pct": 28.0
       },
       {
         "label": "In between",
@@ -39768,60 +40230,60 @@ window.CDF_DATA = {
       {
         "cat": "Education",
         "ruralN": 394,
-        "urbanN": 64,
+        "urbanN": 68,
         "ruralPct": 30.3,
-        "urbanPct": 24.7
+        "urbanPct": 24.1
       },
       {
         "cat": "Water & sanitation",
         "ruralN": 340,
-        "urbanN": 43,
+        "urbanN": 45,
         "ruralPct": 26.2,
-        "urbanPct": 16.6
+        "urbanPct": 16.0
       },
       {
         "cat": "Other community works",
         "ruralN": 257,
-        "urbanN": 41,
+        "urbanN": 49,
         "ruralPct": 19.8,
-        "urbanPct": 15.8
+        "urbanPct": 17.4
       },
       {
         "cat": "Health",
         "ruralN": 226,
-        "urbanN": 54,
+        "urbanN": 58,
         "ruralPct": 17.4,
-        "urbanPct": 20.8
+        "urbanPct": 20.6
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 67,
-        "urbanN": 41,
+        "urbanN": 44,
         "ruralPct": 5.2,
-        "urbanPct": 15.8
+        "urbanPct": 15.6
       },
       {
         "cat": "Police & security",
         "ruralN": 16,
-        "urbanN": 16,
+        "urbanN": 18,
         "ruralPct": 1.2,
-        "urbanPct": 6.2
+        "urbanPct": 6.4
       }
     ]
   },
   "record": {
-    "total": 1709,
+    "total": 1732,
     "statuses": {
-      "approved": 994,
+      "approved": 1005,
       "completed": 537,
       "funded": 10,
       "in_progress": 37,
-      "ongoing": 127,
+      "ongoing": 139,
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 31.4,
-    "approvedPct": 58.7,
+    "completedPct": 31.0,
+    "approvedPct": 58.6,
     "withPhoto": 23,
     "constituencies": 123,
     "provinces": 10
