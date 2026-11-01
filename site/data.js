@@ -11751,14 +11751,14 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 214,
+        "totalProjects": 238,
         "fundingYears": {
-          "2022": 60,
+          "2022": 84,
           "2023": 1,
           "2024": 27,
           "2025": 74
         },
-        "fundingYearKnown": 162,
+        "fundingYearKnown": 186,
         "constituencies": [
           {
             "name": "Chadiza",
@@ -12157,13 +12157,94 @@ window.CDF_DATA = {
           {
             "name": "Chasefu",
             "url": "constituencies/chasefu.html",
-            "count": 12,
+            "count": 36,
             "budgetM": 0,
             "statusCounts": {
+              "approved": 24,
               "ongoing": 2,
               "completed": 10
             },
             "projects": [
+              {
+                "id": 1649,
+                "url": "projects/1649-completion-of-a-standard-1x3-classroom-block-at-chizingizi-primary-school.html",
+                "name": "Completion of a Standard 1x3 Classroom Block at Chizingizi Primary School",
+                "ward": "Chizingizi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1643,
+                "url": "projects/1643-completion-of-a-standard-classroom-block-at-chandeke-primary-school.html",
+                "name": "Completion of a Standard Classroom Block at Chandeke Primary School",
+                "ward": "Chaboli",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1647,
+                "url": "projects/1647-construction-of-1-mortuary-1-mourner-s-shelter-and-1-water-borne-toilet-at-emusa-mini-hospital.html",
+                "name": "Construction of 1 Mortuary, 1 Mourner's Shelter and 1 Water Borne Toilet at Emusa Mini Hospital",
+                "ward": "Luwerezi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1648,
+                "url": "projects/1648-construction-of-1-standard-staff-house-at-kapekesa-community.html",
+                "name": "Construction of 1 Standard Staff House at Kapekesa Community",
+                "ward": "Membe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
               {
                 "id": 924,
                 "url": "projects/924-construction-of-1x2-classroom-block-at-chidolo-primary-school.html",
@@ -12383,6 +12464,406 @@ window.CDF_DATA = {
                   "url": "https://www.chasefucouncil.gov.zm/?p=1501"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 1650,
+                "url": "projects/1650-drilling-of-1-borehole-at-chidolo-primary-school.html",
+                "name": "Drilling of 1 Borehole at Chidolo Primary School",
+                "ward": "Luwerezi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1659,
+                "url": "projects/1659-drilling-of-1-borehole-at-kamatete-primary-school.html",
+                "name": "Drilling of 1 Borehole at Kamatete Primary School",
+                "ward": "Nkhanga",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1656,
+                "url": "projects/1656-drilling-of-1-borehole-at-magomelo-village.html",
+                "name": "Drilling of 1 Borehole at Magomelo Village",
+                "ward": "Magodi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1644,
+                "url": "projects/1644-drilling-of-1-borehole-at-mswazi-community-school.html",
+                "name": "Drilling of 1 Borehole at Mswazi Community School",
+                "ward": "Kajilime",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1657,
+                "url": "projects/1657-drilling-of-1-borehole-at-muchenja-community-school.html",
+                "name": "Drilling of 1 Borehole at Muchenja Community School",
+                "ward": "Magodi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1654,
+                "url": "projects/1654-drilling-of-1-borehole-at-susa-primary-school.html",
+                "name": "Drilling of 1 Borehole at Susa Primary School",
+                "ward": "Susa",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1658,
+                "url": "projects/1658-drilling-of-1-borehole-at-vuvumwe-village.html",
+                "name": "Drilling of 1 Borehole at Vuvumwe Village",
+                "ward": "Nkhanga",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1646,
+                "url": "projects/1646-installation-of-1-water-scheme-at-champheta.html",
+                "name": "Installation of 1 Water Scheme at Champheta",
+                "ward": "Kapilisanga",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1651,
+                "url": "projects/1651-installation-of-1-water-scheme-at-chidolo-primary-school.html",
+                "name": "Installation of 1 Water Scheme at Chidolo Primary School",
+                "ward": "Luwerezi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1653,
+                "url": "projects/1653-installation-of-1-water-scheme-at-kapekesa-community.html",
+                "name": "Installation of 1 Water Scheme at Kapekesa Community",
+                "ward": "Membe",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1652,
+                "url": "projects/1652-installation-of-1-water-scheme-at-khulamayembe-primary-school.html",
+                "name": "Installation of 1 Water Scheme at Khulamayembe Primary School",
+                "ward": "Manda Hill",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1655,
+                "url": "projects/1655-installation-of-1-water-scheme-at-susa-primary-school.html",
+                "name": "Installation of 1 Water Scheme at Susa Primary School",
+                "ward": "Susa",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1645,
+                "url": "projects/1645-installation-of-a-water-scheme-at-mswazi-community-school.html",
+                "name": "Installation of a Water Scheme at Mswazi Community School",
+                "ward": "Kajilime",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1661,
+                "url": "projects/1661-maintenance-and-spot-gravelling-of-feeder-roads-in-chasefu-district.html",
+                "name": "Maintenance and Spot Gravelling of Feeder Roads in Chasefu District",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1639,
+                "url": "projects/1639-procurement-of-1-back-hoe-loader.html",
+                "name": "Procurement of 1 Back Hoe Loader",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1641,
+                "url": "projects/1641-procurement-of-1-cdf-monitoring-motor-vehicle.html",
+                "name": "Procurement of 1 CDF Monitoring Motor Vehicle",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1638,
+                "url": "projects/1638-procurement-of-1-motor-grader.html",
+                "name": "Procurement of 1 Motor Grader",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1640,
+                "url": "projects/1640-procurement-of-1-tractor.html",
+                "name": "Procurement of 1 Tractor",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1642,
+                "url": "projects/1642-procurement-of-450-desks.html",
+                "name": "Procurement of 450 Desks",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 1660,
+                "url": "projects/1660-rehabilitation-of-1700-desk-frames-in-chasefu-district.html",
+                "name": "Rehabilitation of 1700 Desk Frames in Chasefu District",
+                "ward": "Chasefu District",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chasefu Town Council (Ministry of Local Government and Rural Development heading)",
+                  "title": "Chasefu District Community Projects CDF 2022 (approved community projects PDF)",
+                  "url": "https://www.chasefucouncil.gov.zm/wp-content/uploads/2023/11/2022-APPROVED-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2022
               },
               {
                 "id": 921,
@@ -38034,15 +38515,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 1637,
+    "totalProjects": 1661,
     "fundingYears": {
-      "2022": 169,
+      "2022": 193,
       "2023": 94,
       "2024": 282,
       "2025": 458,
       "2026": 37
     },
-    "fundingYearKnown": 1040
+    "fundingYearKnown": 1064
   },
   "people": {
     "bursaries": [
@@ -38139,12 +38620,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 214,
+        "tracked": 238,
         "completed": 40,
         "underway": 34,
-        "approved": 140,
+        "approved": 164,
         "other": 0,
-        "completedPct": 18.7,
+        "completedPct": 16.8,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
@@ -38280,9 +38761,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1228,
+        "projects": 1252,
         "completed": 416,
-        "pct": 33.9
+        "pct": 33.2
       },
       {
         "label": "Urban provinces",
@@ -38302,21 +38783,21 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 377,
+        "ruralN": 381,
         "urbanN": 64,
-        "ruralPct": 30.7,
+        "ruralPct": 30.4,
         "urbanPct": 24.7
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 314,
+        "ruralN": 328,
         "urbanN": 43,
-        "ruralPct": 25.6,
+        "ruralPct": 26.2,
         "urbanPct": 16.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 244,
+        "ruralN": 249,
         "urbanN": 41,
         "ruralPct": 19.9,
         "urbanPct": 15.8
@@ -38325,12 +38806,12 @@ window.CDF_DATA = {
         "cat": "Health",
         "ruralN": 219,
         "urbanN": 54,
-        "ruralPct": 17.8,
+        "ruralPct": 17.5,
         "urbanPct": 20.8
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 58,
+        "ruralN": 59,
         "urbanN": 41,
         "ruralPct": 4.7,
         "urbanPct": 15.8
@@ -38345,9 +38826,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 1637,
+    "total": 1661,
     "statuses": {
-      "approved": 931,
+      "approved": 955,
       "completed": 537,
       "funded": 10,
       "in_progress": 37,
@@ -38355,8 +38836,8 @@ window.CDF_DATA = {
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 32.8,
-    "approvedPct": 57.5,
+    "completedPct": 32.3,
+    "approvedPct": 58.1,
     "withPhoto": 23,
     "constituencies": 121,
     "provinces": 10
