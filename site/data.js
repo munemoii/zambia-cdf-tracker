@@ -15877,15 +15877,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 441,
+        "totalProjects": 446,
         "fundingYears": {
           "2022": 20,
-          "2023": 35,
+          "2023": 41,
           "2024": 121,
           "2025": 106,
           "2026": 14
         },
-        "fundingYearKnown": 296,
+        "fundingYearKnown": 302,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -20417,14 +20417,34 @@ window.CDF_DATA = {
           {
             "name": "Mapatizya",
             "url": "constituencies/mapatizya.html",
-            "count": 14,
-            "budgetM": 9.11,
+            "count": 19,
+            "budgetM": 11.93,
             "statusCounts": {
-              "ongoing": 5,
-              "completed": 7,
+              "completed": 13,
+              "ongoing": 4,
               "approved": 2
             },
             "projects": [
+              {
+                "id": 2377,
+                "url": "projects/2377-construction-of-mother-s-shelter-at-luyaba.html",
+                "name": "Construction of Mother's Shelter at Luyaba",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.0,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "From the Zimba Town Council minutes of 27 March 2025 (PWD/944/03/25), CDF 2023 status update: allocation K1,000,000.00, status printed as Completed — \"Construction works were completed and project is awaiting branding and commissioning.\" The allocation is the figure the table prints; no separate contract sum is published.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Minutes of the Plans, Works and Development Committee, 27 March 2025",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2023
+              },
               {
                 "id": 2361,
                 "url": "projects/2361-construction-of-rural-health-center-maternity-annex-at-nakowa-clinic.html",
@@ -20437,7 +20457,7 @@ window.CDF_DATA = {
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
-                "note": "From the council's Plans and Works Committee minutes of 15 May 2024 (PWD/608/05/24): tendered at a contract sum of K950,475.00 under the 2023 CDF; the contractor had reached wall plate level awaiting roofing. A later official completion source has not been found, so the held claim of completion is not carried.",
+                "note": "From the council's Plans and Works Committee minutes of 15 May 2024 (PWD/608/05/24): tendered at a contract sum of K950,475.00 under the 2023 CDF; the contractor had reached wall plate level awaiting roofing. The council's minutes of 27 March 2025 (PWD/942/03/25) report the original contract was terminated and the completion works (Phase I) re-awarded to Grerlin Building Solutions at K459,971.00, signed 5 February 2025 with handover expected 24 May 2025; Phase II works and the water reticulation system were funded under the CDF 2025 allocation. Works were ongoing at that date, so the project stays ongoing here; a post-handover official completion statement has not been found.",
                 "source": {
                   "publisher": "Zimba Town Council",
                   "title": "Minutes of the Plans, Works, Development and Social Services Committee, 15 May 2024",
@@ -20554,16 +20574,16 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": "Hob-Tech Investments",
                 "budgetM": 0.9526,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "From the council's minutes of 15 May 2024 (PWD/606/05/24): tendered at a contract sum of K952,622.60; works had reached roof level. The minute states no CDF year, so none is tagged. No official completion source has been found, so the held claim of completion is not carried.",
+                "note": "Contract basis from the council's minutes of 15 May 2024 (PWD/606/05/24): tendered at a contract sum of K952,622.60 to Hob-Tech Investments; works had reached roof level. Completion from the council's Plans, Works and Development Committee minutes of 27 March 2025 (PWD/944/03/25), CDF 2023 status update table: status printed as Completed, allocation K1,175,000.00 — \"Construction works were completed and project is awaiting branding and official commissioning.\" The budget shown is the awarded contract sum; the table's allocation is the higher figure.",
                 "source": {
                   "publisher": "Zimba Town Council",
-                  "title": "Minutes of the Plans, Works, Development and Social Services Committee, 15 May 2024",
-                  "url": "https://www.zimbacouncil.gov.zm/wp-content/uploads/2025/08/MINUTES-OF-PLANS-HELD-ON-15TH-MAY-2024.pdf"
+                  "title": "Minutes of the Plans, Works and Development Committee, 27 March 2025",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 1349,
@@ -20606,6 +20626,26 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 2375,
+                "url": "projects/2375-drilling-of-borehole-at-munenge-school.html",
+                "name": "Drilling of Borehole at Munenge School",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.6,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "From the Zimba Town Council Plans, Works and Development Committee minutes of 27 March 2025 (PWD/944/03/25), CDF 2023 community projects status update: allocation K600,000.00, status printed as Completed — \"Operational\". The allocation is the figure the table prints; no separate contract sum is published.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Minutes of the Plans, Works and Development Committee, 27 March 2025",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2023
+              },
+              {
                 "id": 2362,
                 "url": "projects/2362-drilling-of-a-borehole-at-tumango-community-school.html",
                 "name": "Drilling of a Borehole at Tumango Community School",
@@ -20622,6 +20662,26 @@ window.CDF_DATA = {
                   "publisher": "Zimba Town Council",
                   "title": "Minutes of the Plans, Works, Development and Social Services Committee, 15 May 2024",
                   "url": "https://www.zimbacouncil.gov.zm/wp-content/uploads/2025/08/MINUTES-OF-PLANS-HELD-ON-15TH-MAY-2024.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 2376,
+                "url": "projects/2376-installation-of-solar-power-at-siamoono-primary-school.html",
+                "name": "Installation of Solar Power at Siamoono Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.216,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "From the Zimba Town Council minutes of 27 March 2025 (PWD/944/03/25), CDF 2023 status update: allocation K216,000.00, status printed as Completed — \"Works completed\". The allocation is the figure the table prints; no separate contract sum is published.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Minutes of the Plans, Works and Development Committee, 27 March 2025",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
                 },
                 "fundingYear": 2023
               },
@@ -20664,6 +20724,46 @@ window.CDF_DATA = {
                   "url": "https://www.zanis.gov.zm/?p=2055"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2379,
+                "url": "projects/2379-procurement-of-fuel-for-motor-grader.html",
+                "name": "Procurement of Fuel for Motor Grader",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 0.0084,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "From the Zimba Town Council minutes of 27 March 2025 (PWD/944/03/25), CDF 2023 status update: allocation K8,450.00, status printed as Completed — \"Procured and the grader was successfully tested\". The allocation is the figure the table prints.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Minutes of the Plans, Works and Development Committee, 27 March 2025",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 2378,
+                "url": "projects/2378-procurement-of-school-desks.html",
+                "name": "Procurement of School Desks",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.0,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "From the Zimba Town Council minutes of 27 March 2025 (PWD/944/03/25), CDF 2023 status update: allocation K1,000,000.00, status printed as Completed — \"2890 School desks procured and delivered to various schools\". The allocation is the figure the table prints.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Minutes of the Plans, Works and Development Committee, 27 March 2025",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 2366,
@@ -52184,15 +52284,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2335,
+    "totalProjects": 2340,
     "fundingYears": {
       "2022": 272,
-      "2023": 198,
+      "2023": 204,
       "2024": 438,
       "2025": 676,
       "2026": 162
     },
-    "fundingYearKnown": 1746
+    "fundingYearKnown": 1752
   },
   "people": {
     "bursaries": [
@@ -52333,12 +52433,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 441,
-        "completed": 163,
-        "underway": 40,
+        "tracked": 446,
+        "completed": 169,
+        "underway": 39,
         "approved": 236,
         "other": 2,
-        "completedPct": 37.0,
+        "completedPct": 37.9,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -52430,9 +52530,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1901,
-        "completed": 450,
-        "pct": 23.7
+        "projects": 1906,
+        "completed": 456,
+        "pct": 23.9
       },
       {
         "label": "Urban provinces",
@@ -52452,37 +52552,37 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 539,
+        "ruralN": 541,
         "urbanN": 68,
         "ruralPct": 28.4,
         "urbanPct": 23.9
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 552,
+        "ruralN": 553,
         "urbanN": 46,
         "ruralPct": 29.0,
         "urbanPct": 16.2
       },
       {
         "cat": "Other community works",
-        "ruralN": 356,
+        "ruralN": 358,
         "urbanN": 50,
-        "ruralPct": 18.7,
+        "ruralPct": 18.8,
         "urbanPct": 17.6
       },
       {
         "cat": "Health",
         "ruralN": 323,
         "urbanN": 58,
-        "ruralPct": 17.0,
+        "ruralPct": 16.9,
         "urbanPct": 20.4
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 98,
         "urbanN": 44,
-        "ruralPct": 5.2,
+        "ruralPct": 5.1,
         "urbanPct": 15.5
       },
       {
@@ -52495,18 +52595,18 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 2335,
+    "total": 2340,
     "statuses": {
       "approved": 1529,
-      "completed": 572,
+      "completed": 578,
       "funded": 10,
       "in_progress": 37,
-      "ongoing": 183,
+      "ongoing": 182,
       "stalled": 3,
       "unknown": 1
     },
-    "completedPct": 24.5,
-    "approvedPct": 65.9,
+    "completedPct": 24.7,
+    "approvedPct": 65.8,
     "withPhoto": 23,
     "constituencies": 136,
     "provinces": 10
