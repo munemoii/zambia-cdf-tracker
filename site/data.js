@@ -38698,7 +38698,7 @@ window.CDF_DATA = {
                 "id": 1489,
                 "url": "projects/1489-chivombo-maternity-annex.html",
                 "name": "Chivombo Maternity Annex",
-                "ward": "Chivombo",
+                "ward": "Chivombo-Mbalango",
                 "component": "community",
                 "category": "health",
                 "contractor": null,
@@ -41820,12 +41820,12 @@ window.CDF_DATA = {
         "totalProjects": 143,
         "fundingYears": {
           "2022": 2,
-          "2023": 24,
-          "2024": 36,
-          "2025": 17,
+          "2023": 32,
+          "2024": 40,
+          "2025": 21,
           "2026": 8
         },
-        "fundingYearKnown": 87,
+        "fundingYearKnown": 103,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -43373,7 +43373,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 850,
@@ -43393,7 +43393,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 848,
@@ -43413,7 +43413,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 847,
@@ -43433,7 +43433,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 1820,
@@ -43473,7 +43473,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 853,
@@ -43493,7 +43493,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 852,
@@ -43513,7 +43513,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 849,
@@ -43533,7 +43533,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 843,
@@ -43613,7 +43613,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 855,
@@ -43633,7 +43633,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 858,
@@ -43653,7 +43653,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 859,
@@ -43673,7 +43673,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 856,
@@ -43693,7 +43693,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 857,
@@ -43713,7 +43713,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 854,
@@ -43733,7 +43733,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 851,
@@ -43753,7 +43753,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Second Ordinary Council Meeting held 17 July 2025 (C.21.07.25 Handover of CDF Community Projects for 2023 and 2024; C.22.07.25 Status on Procurement of Earth Moving Equipments under 2025 CDF)",
                   "url": "http://www.mafingacouncil.gov.zm/wp-content/uploads/2025/12/2025-Second-Ordinary-Council-Minutes.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               }
             ]
           },
@@ -52187,12 +52187,12 @@ window.CDF_DATA = {
     "totalProjects": 2335,
     "fundingYears": {
       "2022": 272,
-      "2023": 188,
-      "2024": 434,
-      "2025": 672,
+      "2023": 196,
+      "2024": 438,
+      "2025": 676,
       "2026": 162
     },
-    "fundingYearKnown": 1728
+    "fundingYearKnown": 1744
   },
   "people": {
     "bursaries": [
