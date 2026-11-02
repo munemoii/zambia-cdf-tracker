@@ -181,9 +181,10 @@ window.CDF_DATA = {
     "fundingYears": {
       "2022": 44,
       "2023": 20,
+      "2024": 1,
       "2025": 53
     },
-    "fundingYearKnown": 117,
+    "fundingYearKnown": 118,
     "constituencies": [
       {
         "name": "Chawama",
@@ -3672,7 +3673,7 @@ window.CDF_DATA = {
               "title": "CDF boosts infrastructure development in Rufunsa (low-bed truck K2,861,082.00, 2024 CDF, handed over 23 Dec 2025)",
               "url": "https://www.parliament.gov.zm/node/12266"
             },
-            "fundingYear": null
+            "fundingYear": 2024
           }
         ]
       }
@@ -15882,10 +15883,10 @@ window.CDF_DATA = {
           "2022": 20,
           "2023": 41,
           "2024": 121,
-          "2025": 107,
+          "2025": 108,
           "2026": 14
         },
-        "fundingYearKnown": 303,
+        "fundingYearKnown": 304,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -19858,7 +19859,7 @@ window.CDF_DATA = {
                   "title": "Livingstone City Council project updates by the Public Relations Manager (Kasiya boreholes, Linda Township road grading, Maramba sewer)",
                   "url": "https://www.livingstonecouncil.gov.zm/?author=10"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 1101,
@@ -22938,10 +22939,10 @@ window.CDF_DATA = {
             "name": "Namwala",
             "url": "constituencies/namwala.html",
             "count": 35,
-            "budgetM": 3.52,
+            "budgetM": 1.44,
             "statusCounts": {
-              "completed": 23,
-              "approved": 12
+              "completed": 21,
+              "approved": 14
             },
             "projects": [
               {
@@ -23335,14 +23336,14 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "education",
                 "contractor": null,
-                "budgetM": 1.0397,
-                "status": "completed",
+                "budgetM": null,
+                "status": "approved",
                 "completionPct": null,
                 "photo": {
                   "url": "/photos/mpili-classroom.jpg",
                   "credit": "Namwala Town Council"
                 },
-                "note": null,
+                "note": "Namwala Town Council's approved list for 2025 CDF states no amount and no completion status for this project, so neither is shown.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Over K20 Million Approved for Community Projects under 2025 CDF (approved community projects list)",
@@ -23378,14 +23379,14 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "education",
                 "contractor": null,
-                "budgetM": 1.0397,
-                "status": "completed",
+                "budgetM": null,
+                "status": "approved",
                 "completionPct": null,
                 "photo": {
                   "url": "/photos/sichaanda-classroom.jpg",
                   "credit": "Namwala Town Council"
                 },
-                "note": null,
+                "note": "Namwala Town Council's approved list for 2025 CDF states no amount and no completion status for this project, so neither is shown.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Over K20 Million Approved for Community Projects under 2025 CDF (approved community projects list)",
@@ -35315,9 +35316,10 @@ window.CDF_DATA = {
         "fundingYears": {
           "2022": 44,
           "2023": 20,
+          "2024": 1,
           "2025": 53
         },
-        "fundingYearKnown": 117,
+        "fundingYearKnown": 118,
         "constituencies": [
           {
             "name": "Chawama",
@@ -38806,7 +38808,7 @@ window.CDF_DATA = {
                   "title": "CDF boosts infrastructure development in Rufunsa (low-bed truck K2,861,082.00, 2024 CDF, handed over 23 Dec 2025)",
                   "url": "https://www.parliament.gov.zm/node/12266"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               }
             ]
           }
@@ -41962,9 +41964,9 @@ window.CDF_DATA = {
           "2022": 1,
           "2023": 4,
           "2024": 32,
-          "2025": 7
+          "2025": 8
         },
-        "fundingYearKnown": 44,
+        "fundingYearKnown": 45,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -44559,7 +44561,7 @@ window.CDF_DATA = {
                   "title": "Sesheke Town Council commissions six projects funded by the Constituency Development Fund (CDF)",
                   "url": "https://www.seshekecouncil.gov.zm/?p=2159"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 511,
@@ -53450,11 +53452,11 @@ window.CDF_DATA = {
     "fundingYears": {
       "2022": 272,
       "2023": 204,
-      "2024": 438,
-      "2025": 677,
+      "2024": 439,
+      "2025": 679,
       "2026": 181
     },
-    "fundingYearKnown": 1772
+    "fundingYearKnown": 1775
   },
   "people": {
     "bursaries": [
@@ -53596,11 +53598,11 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "tracked": 448,
-        "completed": 171,
+        "completed": 169,
         "underway": 39,
-        "approved": 236,
+        "approved": 238,
         "other": 2,
-        "completedPct": 38.2,
+        "completedPct": 37.7,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -53693,8 +53695,8 @@ window.CDF_DATA = {
         "label": "Rural provinces",
         "provinces": 7,
         "projects": 1944,
-        "completed": 459,
-        "pct": 23.6
+        "completed": 457,
+        "pct": 23.5
       },
       {
         "label": "Urban provinces",
@@ -53759,8 +53761,8 @@ window.CDF_DATA = {
   "record": {
     "total": 2397,
     "statuses": {
-      "approved": 1582,
-      "completed": 581,
+      "approved": 1584,
+      "completed": 579,
       "funded": 10,
       "in_progress": 37,
       "ongoing": 183,
@@ -53768,7 +53770,7 @@ window.CDF_DATA = {
       "unknown": 1
     },
     "completedPct": 24.2,
-    "approvedPct": 66.4,
+    "approvedPct": 66.5,
     "withPhoto": 23,
     "constituencies": 138,
     "provinces": 10
