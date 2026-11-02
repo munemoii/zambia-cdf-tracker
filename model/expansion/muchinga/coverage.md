@@ -203,3 +203,6 @@ constituency.
   progress report exist on its downloads page but the file URLs were not
   retrievable via search — a follow-up with direct site access could add a
   full Mpika Central list.
+
+## Addendum — 2026-11-02 (20:45 CAT run): Mpika 2025 approved list read and ingested
+**Mpika Central — 19 new main rows (27 total, was 8).** The 2025 public-notice PDF was read visually in full via a live-browser pass: the notice plainly states the 19 Community-Based Projects "have been approved under the 2025 Constituency Development Fund" (CDF Act ss.12(a)/25(b), signed Samuel Musenga, Council Secretary, 29 Jan 2025), aggregate K16,530,444.00. The document has NO per-project cost column anywhere, so all 19 rows are rowed as approved, FY2025, with amounts unpublished.
