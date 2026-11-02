@@ -630,3 +630,9 @@ footer:not(.sitefoot) li{color:#cfe0cf}
   .agstack .pcr{color:#bf3b26}
   .agstack .pcg{color:var(--green)}
 }
+
+/* ===== Map explorer province labels (added 2026-11-01) ===== */
+#zmMap .zmlabels text,#zmMap .zmlabels circle,#zmMap .zmlabels line{pointer-events:none}
+#zmMap .zmlab{font-family:"Barlow Condensed",sans-serif;font-weight:600;letter-spacing:.09em;fill:#17351f;paint-order:stroke;stroke:rgba(253,246,216,.92);stroke-width:3px;stroke-linejoin:round}
+#zmMap .zmldot{fill:#0e4d30;stroke:#fdf6d8;stroke-width:1.4}
+#zmMap .zmllead{stroke:#0e4d30;stroke-width:1.3;opacity:.7}

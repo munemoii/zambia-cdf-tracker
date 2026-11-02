@@ -98,6 +98,49 @@
         });
         svg.appendChild(path);
       });
+      // Province name labels (2026-11-01): points hand-placed from the path
+      // geometry so each name sits inside its own province (verified by a
+      // point-in-polygon test on the rendered text box). Lusaka is too
+      // small to hold its name, so it gets a dot on the province and a
+      // leader line to its name in the open space south-east — the same
+      // callout the tracker graphics use. Labels never take clicks.
+      var ZM_LABELS = {
+        'Western':[117,514,19],'North-Western':[249,337,19],'Copperbelt':[397,328,17],
+        'Central':[499,406,19],'Southern':[316,608,19],'Northern':[608,105,19],
+        'Luapula':[495,241,19],'Muchinga':[636,259,19],'Eastern':[685,380,19]
+      };
+      var NS = 'http://www.w3.org/2000/svg';
+      var lg = document.createElementNS(NS, 'g');
+      lg.setAttribute('class', 'zmlabels');
+      lg.setAttribute('aria-hidden', 'true');
+      Object.keys(ZM_LABELS).forEach(function(nm){
+        var L = ZM_LABELS[nm];
+        var t = document.createElementNS(NS, 'text');
+        t.setAttribute('x', L[0]); t.setAttribute('y', L[1]);
+        t.setAttribute('class', 'zmlab');
+        t.setAttribute('font-size', L[2]);
+        t.setAttribute('text-anchor', 'middle');
+        t.setAttribute('dominant-baseline', 'central');
+        t.textContent = nm.toUpperCase();
+        lg.appendChild(t);
+      });
+      var lead = document.createElementNS(NS, 'line');
+      lead.setAttribute('x1', 470.5); lead.setAttribute('y1', 505);
+      lead.setAttribute('x2', 559); lead.setAttribute('y2', 537);
+      lead.setAttribute('class', 'zmllead');
+      lg.appendChild(lead);
+      var dot = document.createElementNS(NS, 'circle');
+      dot.setAttribute('cx', 467); dot.setAttribute('cy', 503); dot.setAttribute('r', 3.4);
+      dot.setAttribute('class', 'zmldot');
+      lg.appendChild(dot);
+      var lt = document.createElementNS(NS, 'text');
+      lt.setAttribute('x', 566); lt.setAttribute('y', 541);
+      lt.setAttribute('class', 'zmlab');
+      lt.setAttribute('font-size', 15);
+      lt.setAttribute('dominant-baseline', 'central');
+      lt.textContent = 'LUSAKA';
+      lg.appendChild(lt);
+      svg.appendChild(lg);
     }
     svg.querySelectorAll('path').forEach(function(path){
       var pr = null;
