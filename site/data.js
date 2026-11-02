@@ -13868,7 +13868,7 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": "Approved in the council's 2026 received-and-approved spreadsheet; it does not appear in the signed June 2026 approved list.",
+                "note": "Approved in the council's official 2026 spreadsheet: Sheet1 row 7 marks 'Construction of a Dam at Chafulu' (Sinda Ward) as Approved, with Engineers Estimate K3,100,000. It does not appear in the signed June 2026 approved list; that absence remains a noted difference.",
                 "source": {
                   "publisher": "Sinda Town Council",
                   "title": "List of Received and Approved 2026 CDF Community Projects — Sinda Constituency (spreadsheet)",
@@ -13908,7 +13908,7 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": "The spreadsheet prints the split as K1,700,000 (local court) and K750,000 (staff house). The signed approved list names the local court and its water scheme as approved items.",
+                "note": "The council's official 2026 spreadsheet (Sheet1 row 45) marks this item Approved and prints the split inside the project name — local court @ K1,700,000 and staff house @ K750,000 — with Engineers Estimate K2,450,000. The signed approved list names the local court and its water scheme as approved items.",
                 "source": {
                   "publisher": "Sinda Town Council",
                   "title": "List of Received and Approved 2026 CDF Community Projects — Sinda Constituency (spreadsheet)",
