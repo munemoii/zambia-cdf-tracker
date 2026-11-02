@@ -15880,12 +15880,12 @@ window.CDF_DATA = {
         "totalProjects": 441,
         "fundingYears": {
           "2022": 20,
-          "2023": 34,
+          "2023": 35,
           "2024": 121,
           "2025": 106,
           "2026": 14
         },
-        "fundingYearKnown": 295,
+        "fundingYearKnown": 296,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -19502,7 +19502,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 1324,
@@ -38678,11 +38678,11 @@ window.CDF_DATA = {
         "totalProjects": 150,
         "fundingYears": {
           "2022": 1,
-          "2023": 19,
+          "2023": 20,
           "2024": 46,
           "2025": 44
         },
-        "fundingYearKnown": 110,
+        "fundingYearKnown": 111,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -40693,7 +40693,7 @@ window.CDF_DATA = {
                   "title": "Minister of Home Affairs and Internal Security Commissions the First Ever Police Station in Mushindamo District",
                   "url": "https://www.mushindamocouncil.gov.zm/?p=1584"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 357,
@@ -52187,12 +52187,12 @@ window.CDF_DATA = {
     "totalProjects": 2335,
     "fundingYears": {
       "2022": 272,
-      "2023": 196,
+      "2023": 198,
       "2024": 438,
       "2025": 676,
       "2026": 162
     },
-    "fundingYearKnown": 1744
+    "fundingYearKnown": 1746
   },
   "people": {
     "bursaries": [
