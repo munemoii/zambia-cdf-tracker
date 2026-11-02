@@ -12,7 +12,7 @@ import sqlite3, pathlib, re, html, datetime
 
 HERE = pathlib.Path(__file__).parent
 SITE = HERE.parent / "site"
-BASE = "https://sprightly-sunshine-f93b94.netlify.app"
+BASE = "https://followeverykwacha.com"
 
 STATUS = {
     "approved": ("Approved", "#8a6d1a"), "funded": ("Funded", "#a8842c"),
