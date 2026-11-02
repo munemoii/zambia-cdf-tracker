@@ -15877,15 +15877,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 446,
+        "totalProjects": 448,
         "fundingYears": {
           "2022": 20,
           "2023": 41,
           "2024": 121,
-          "2025": 106,
+          "2025": 107,
           "2026": 14
         },
-        "fundingYearKnown": 302,
+        "fundingYearKnown": 303,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -20417,14 +20417,34 @@ window.CDF_DATA = {
           {
             "name": "Mapatizya",
             "url": "constituencies/mapatizya.html",
-            "count": 19,
-            "budgetM": 11.93,
+            "count": 21,
+            "budgetM": 13.8,
             "statusCounts": {
-              "completed": 13,
+              "completed": 15,
               "ongoing": 4,
               "approved": 2
             },
             "projects": [
+              {
+                "id": 2433,
+                "url": "projects/2433-construction-of-1x3-classroom-block-at-siameja-community-school.html",
+                "name": "Construction of 1x3 classroom block at Siameja Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.2659,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned and handed over by the Mapatizya MP, reported by Zimba Town Council. The article's headline places the handover in Mangonda and Zimba wards; the article does not assign this project to a single ward, and does not state its funding year, so neither is published.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Mapatizya lawmaker hands over two key CDF projects to the community of Mangonda & Zimba wards (council article, 27 Apr 2026)",
+                  "url": "https://www.zimbacouncil.gov.zm/?p=4201"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 2377,
                 "url": "projects/2377-construction-of-mother-s-shelter-at-luyaba.html",
@@ -20624,6 +20644,26 @@ window.CDF_DATA = {
                   "url": "https://www.zimbacouncil.gov.zm/?p=982"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 2434,
+                "url": "projects/2434-construction-of-ablution-block-and-water-reticulation-system-at-zimba-mission-hospital-mothers-shelter.html",
+                "name": "Construction of ablution block and water reticulation system at Zimba Mission Hospital Mothers' Shelter",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.6,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned and handed over by the Mapatizya MP under the 2025 CDF, reported by Zimba Town Council. The article's headline places the handover in Mangonda and Zimba wards; the article does not assign this project to a single ward.",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "Mapatizya lawmaker hands over two key CDF projects to the community of Mangonda & Zimba wards (council article, 27 Apr 2026)",
+                  "url": "https://www.zimbacouncil.gov.zm/?p=4201"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2375,
@@ -53355,15 +53395,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2393,
+    "totalProjects": 2395,
     "fundingYears": {
       "2022": 272,
       "2023": 204,
       "2024": 438,
-      "2025": 676,
+      "2025": 677,
       "2026": 181
     },
-    "fundingYearKnown": 1771
+    "fundingYearKnown": 1772
   },
   "people": {
     "bursaries": [
@@ -53504,12 +53544,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 446,
-        "completed": 169,
+        "tracked": 448,
+        "completed": 171,
         "underway": 39,
         "approved": 236,
         "other": 2,
-        "completedPct": 37.9,
+        "completedPct": 38.2,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -53601,9 +53641,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1940,
-        "completed": 456,
-        "pct": 23.5
+        "projects": 1942,
+        "completed": 458,
+        "pct": 23.6
       },
       {
         "label": "Urban provinces",
@@ -53623,14 +53663,14 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Water & sanitation",
-        "ruralN": 573,
+        "ruralN": 574,
         "urbanN": 55,
-        "ruralPct": 29.5,
+        "ruralPct": 29.6,
         "urbanPct": 18.2
       },
       {
         "cat": "Education",
-        "ruralN": 550,
+        "ruralN": 551,
         "urbanN": 70,
         "ruralPct": 28.4,
         "urbanPct": 23.1
@@ -53639,21 +53679,21 @@ window.CDF_DATA = {
         "cat": "Other community works",
         "ruralN": 360,
         "urbanN": 53,
-        "ruralPct": 18.6,
+        "ruralPct": 18.5,
         "urbanPct": 17.5
       },
       {
         "cat": "Health",
         "ruralN": 325,
         "urbanN": 60,
-        "ruralPct": 16.8,
+        "ruralPct": 16.7,
         "urbanPct": 19.8
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 98,
         "urbanN": 46,
-        "ruralPct": 5.1,
+        "ruralPct": 5.0,
         "urbanPct": 15.2
       },
       {
@@ -53666,10 +53706,10 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 2393,
+    "total": 2395,
     "statuses": {
       "approved": 1582,
-      "completed": 578,
+      "completed": 580,
       "funded": 10,
       "in_progress": 37,
       "ongoing": 182,
