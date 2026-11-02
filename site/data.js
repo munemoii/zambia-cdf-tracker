@@ -50968,7 +50968,7 @@ window.CDF_DATA = {
       {
         "name": "Northern",
         "province": "Northern",
-        "totalProjects": 115,
+        "totalProjects": 117,
         "fundingYears": {
           "2022": 4,
           "2023": 4,
@@ -52125,6 +52125,37 @@ window.CDF_DATA = {
             ]
           },
           {
+            "name": "Lubansenshi",
+            "url": "constituencies/lubansenshi.html",
+            "count": 1,
+            "budgetM": 0.25,
+            "statusCounts": {
+              "completed": 1
+            },
+            "projects": [
+              {
+                "id": 2436,
+                "url": "projects/2436-construction-of-a-1x2-classroom-block-at-chifumo-primary-school.html",
+                "name": "Construction of a 1x2 Classroom Block at Chifumo Primary School",
+                "ward": "Katopola",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.25,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Reported complete by Luwingu Town Council, which states the block was funded jointly from the 2020 and 2021 CDF allocations, so no single funding year is published.",
+                "source": {
+                  "publisher": "Luwingu Town Council",
+                  "title": "Luwingu Town Council News Updates",
+                  "url": "https://www.luwingucouncil.gov.zm/?cat=5"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
             "name": "Lukashya",
             "url": "constituencies/lukashya.html",
             "count": 21,
@@ -52641,11 +52672,11 @@ window.CDF_DATA = {
           {
             "name": "Mbala",
             "url": "constituencies/mbala.html",
-            "count": 9,
-            "budgetM": 15.13,
+            "count": 10,
+            "budgetM": 21.96,
             "statusCounts": {
               "completed": 7,
-              "ongoing": 2
+              "ongoing": 3
             },
             "projects": [
               {
@@ -52725,6 +52756,26 @@ window.CDF_DATA = {
                   "publisher": "Mbala Municipal Council",
                   "title": "Mbala Municipal Council Newsletter, Issue 1 2023",
                   "url": "https://www.mbalacouncil.gov.zm/wp-content/uploads/2023/12/MBALA-MUNICIPAL-COUNCIL-NEWSLETTER-1.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2435,
+                "url": "projects/2435-construction-of-mbulu-modern-market-shelter.html",
+                "name": "Construction of Mbulu Modern Market Shelter",
+                "ward": null,
+                "component": "community",
+                "category": "markets",
+                "contractor": "Kishmay Innovation Limited",
+                "budgetM": 6.8309,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": "Funded jointly under the 2024 and 2025 CDF allocations (Mbala Municipal Council), so no single funding year is published. The council gives the total project cost as K6.8 million and reports the project flagged off on 30 December 2025 with construction under way; the figure published is the contract price awarded to Kishmay Innovation Limited (ZPPA contract award notice, 18 September 2025).",
+                "source": {
+                  "publisher": "Mbala Municipal Council",
+                  "title": "Mbala Municipal Council news posts (project updates)",
+                  "url": "https://www.mbalacouncil.gov.zm/?cat=1"
                 },
                 "fundingYear": null
               },
@@ -53395,7 +53446,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2395,
+    "totalProjects": 2397,
     "fundingYears": {
       "2022": 272,
       "2023": 204,
@@ -53522,12 +53573,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Northern",
-        "tracked": 115,
-        "completed": 45,
-        "underway": 10,
+        "tracked": 117,
+        "completed": 46,
+        "underway": 11,
         "approved": 60,
         "other": 0,
-        "completedPct": 39.1,
+        "completedPct": 39.3,
         "ruralPct": 77.7,
         "urbanPct": 22.3
       },
@@ -53641,8 +53692,8 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 1942,
-        "completed": 458,
+        "projects": 1944,
+        "completed": 459,
         "pct": 23.6
       },
       {
@@ -53665,21 +53716,21 @@ window.CDF_DATA = {
         "cat": "Water & sanitation",
         "ruralN": 574,
         "urbanN": 55,
-        "ruralPct": 29.6,
+        "ruralPct": 29.5,
         "urbanPct": 18.2
       },
       {
         "cat": "Education",
-        "ruralN": 551,
+        "ruralN": 552,
         "urbanN": 70,
         "ruralPct": 28.4,
         "urbanPct": 23.1
       },
       {
         "cat": "Other community works",
-        "ruralN": 360,
+        "ruralN": 361,
         "urbanN": 53,
-        "ruralPct": 18.5,
+        "ruralPct": 18.6,
         "urbanPct": 17.5
       },
       {
@@ -53700,26 +53751,26 @@ window.CDF_DATA = {
         "cat": "Police & security",
         "ruralN": 34,
         "urbanN": 19,
-        "ruralPct": 1.8,
+        "ruralPct": 1.7,
         "urbanPct": 6.3
       }
     ]
   },
   "record": {
-    "total": 2395,
+    "total": 2397,
     "statuses": {
       "approved": 1582,
-      "completed": 580,
+      "completed": 581,
       "funded": 10,
       "in_progress": 37,
-      "ongoing": 182,
+      "ongoing": 183,
       "stalled": 3,
       "unknown": 1
     },
     "completedPct": 24.2,
-    "approvedPct": 66.5,
+    "approvedPct": 66.4,
     "withPhoto": 23,
-    "constituencies": 137,
+    "constituencies": 138,
     "provinces": 10
   }
 };
