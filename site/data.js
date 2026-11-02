@@ -17302,15 +17302,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 472,
+        "totalProjects": 488,
         "fundingYears": {
           "2022": 24,
           "2023": 41,
           "2024": 124,
-          "2025": 117,
+          "2025": 133,
           "2026": 25
         },
-        "fundingYearKnown": 331,
+        "fundingYearKnown": 347,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -23240,10 +23240,10 @@ window.CDF_DATA = {
           {
             "name": "Monze Central",
             "url": "constituencies/monze-central.html",
-            "count": 42,
+            "count": 43,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 42
+              "approved": 43
             },
             "projects": [
               {
@@ -23563,6 +23563,26 @@ window.CDF_DATA = {
                   "publisher": "Monze Town Council",
                   "title": "2025 Approved Community Projects - Monze Central (council CDF page list; the document itself carries no printed header or amounts)",
                   "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2025-APPROVED-COMMUNITY-PROJECTS-MONZE-CENTRAL.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2799,
+                "url": "projects/2799-construction-of-an-ablution-block-at-katimba-clinic.html",
+                "name": "Construction of an Ablution Block at Katimba Clinic",
+                "ward": "Katimba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
                 },
                 "fundingYear": 2025
               },
@@ -24091,10 +24111,10 @@ window.CDF_DATA = {
           {
             "name": "Moomba",
             "url": "constituencies/moomba.html",
-            "count": 25,
+            "count": 40,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 25
+              "approved": 40
             },
             "projects": [
               {
@@ -24318,6 +24338,226 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 2795,
+                "url": "projects/2795-construction-of-a-1x2-classroom-block-at-nakalwinda.html",
+                "name": "Construction of a 1x2 Classroom Block at Nakalwinda",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2787,
+                "url": "projects/2787-construction-of-a-maize-storage-shade-at-kaumba-zone.html",
+                "name": "Construction of a Maize Storage Shade at Kaumba Zone",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2793,
+                "url": "projects/2793-construction-of-a-two-bedroom-staff-house-at-bwaantu-primary-school.html",
+                "name": "Construction of a Two Bedroom Staff House at Bwaantu Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2790,
+                "url": "projects/2790-construction-of-a-two-bedroom-staff-house-at-malomo-community-school.html",
+                "name": "Construction of a Two Bedroom Staff House at Malomo Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2788,
+                "url": "projects/2788-construction-of-a-two-bedroom-staff-house-at-namununga-community-school.html",
+                "name": "Construction of a Two Bedroom Staff House at Namununga Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2794,
+                "url": "projects/2794-construction-of-a-two-bedroom-staff-house-at-njola-east-community-school.html",
+                "name": "Construction of a Two Bedroom Staff House at Njola East Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2789,
+                "url": "projects/2789-construction-of-a-two-bedroom-staff-house-at-sikabenga.html",
+                "name": "Construction of a Two Bedroom Staff House at Sikabenga",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2784,
+                "url": "projects/2784-construction-of-a-two-bedroom-staff-house-ablution-block-and-mechanisation-of-a-borehole-at-lusumpo-primary-school.html",
+                "name": "Construction of a Two Bedroom Staff House, Ablution Block and Mechanisation of a Borehole at Lusumpo Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2785,
+                "url": "projects/2785-construction-of-an-ablution-block-and-water-reticulation-system-at-mutemba-clinic.html",
+                "name": "Construction of an Ablution Block and Water Reticulation System at Mutemba Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2792,
+                "url": "projects/2792-construction-of-an-ablution-block-at-kasaka-primary-school.html",
+                "name": "Construction of an Ablution Block at Kasaka Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2791,
+                "url": "projects/2791-construction-of-an-ablution-block-at-mujika-primary-school.html",
+                "name": "Construction of an Ablution Block at Mujika Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 1190,
                 "url": "projects/1190-contribution-to-rural-electrification-authority-rea.html",
                 "name": "Contribution to Rural Electrification Authority (REA)",
@@ -24398,6 +24638,26 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 2797,
+                "url": "projects/2797-drilling-and-equipping-of-05-boreholes-at-mainga-village-hachanga-b-hawala-kayola-choona-zone-and-miyanda-village-and-04-boreholes-at-habwizi-east-village-mujika-zone-chikamba-village-st-patricks-zone-moonga-east-village-malomo-zone-and-hamamba.html",
+                "name": "Drilling and Equipping of (05) Boreholes at Mainga Village, Hachanga-B, Hawala-Kayola, Choona Zone and Miyanda Village and (04) Boreholes at Habwizi East Village, Mujika Zone, Chikamba Village - St Patricks Zone, Moonga East Village - Malomo Zone and Hamamba",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 1201,
                 "url": "projects/1201-drilling-of-16-boreholes.html",
                 "name": "Drilling of 16 Boreholes",
@@ -24456,6 +24716,46 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MOOMBA-1.pdf"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 2798,
+                "url": "projects/2798-mechanisation-of-a-borehole-at-nadongo-rural-health-post-and-drilling-and-equipping-of-04-boreholes-at-chibinda-b-ndeleki-grounds-sikabonko-vet-zone-nangweluka-south-zone-and-njola-east-community-school-and-drilling-and-equipping-of-05-boreholes.html",
+                "name": "Mechanisation of a Borehole at Nadongo Rural Health Post and Drilling and Equipping of (04) Boreholes at Chibinda B - Ndeleki Grounds, Sikabonko - Vet Zone, Nangweluka - South Zone and Njola East Community School and Drilling and Equipping of (05) Boreholes",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2796,
+                "url": "projects/2796-procurement-of-equipment-for-nateba-clinic.html",
+                "name": "Procurement of Equipment for Nateba Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1192,
@@ -24536,6 +24836,26 @@ window.CDF_DATA = {
                   "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2025/06/2024-COMMUNITY-PROJECTS-MOOMBA-1.pdf"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 2786,
+                "url": "projects/2786-supply-and-installation-of-a-cattle-spray-race.html",
+                "name": "Supply and Installation of a Cattle Spray Race",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2025 Projects Implementation on EGP - 2025 Approved Projects (Monze district list linked from the council publications page; file 2025-APPROVED-PROJECTS-.csv; readable copy supplied by Caleb Munemo from his own browser 2026-11-02)",
+                  "url": "http://www.monzecouncil.gov.zm/wp-content/uploads/2025/07/2025-APPROVED-PROJECTS-.csv"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1200,
@@ -60934,15 +61254,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2743,
+    "totalProjects": 2759,
     "fundingYears": {
       "2022": 364,
       "2023": 244,
       "2024": 454,
-      "2025": 791,
+      "2025": 807,
       "2026": 192
     },
-    "fundingYearKnown": 2045
+    "fundingYearKnown": 2061
   },
   "people": {
     "bursaries": [
@@ -61083,12 +61403,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 472,
+        "tracked": 488,
         "completed": 170,
         "underway": 39,
-        "approved": 261,
+        "approved": 277,
         "other": 2,
-        "completedPct": 36.0,
+        "completedPct": 34.8,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -61180,9 +61500,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2151,
+        "projects": 2167,
         "completed": 533,
-        "pct": 24.8
+        "pct": 24.6
       },
       {
         "label": "Urban provinces",
@@ -61202,28 +61522,28 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 644,
+        "ruralN": 649,
         "urbanN": 82,
         "ruralPct": 29.9,
         "urbanPct": 24.9
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 603,
+        "ruralN": 610,
         "urbanN": 61,
-        "ruralPct": 28.0,
+        "ruralPct": 28.1,
         "urbanPct": 18.5
       },
       {
         "cat": "Other community works",
-        "ruralN": 391,
+        "ruralN": 394,
         "urbanN": 56,
         "ruralPct": 18.2,
         "urbanPct": 17.0
       },
       {
         "cat": "Health",
-        "ruralN": 373,
+        "ruralN": 374,
         "urbanN": 64,
         "ruralPct": 17.3,
         "urbanPct": 19.5
@@ -61245,9 +61565,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 2743,
+    "total": 2759,
     "statuses": {
-      "approved": 1794,
+      "approved": 1810,
       "completed": 671,
       "funded": 10,
       "in_progress": 37,
@@ -61255,8 +61575,8 @@ window.CDF_DATA = {
       "stalled": 4,
       "unknown": 1
     },
-    "completedPct": 24.5,
-    "approvedPct": 65.8,
+    "completedPct": 24.3,
+    "approvedPct": 66.0,
     "withPhoto": 23,
     "constituencies": 144,
     "provinces": 10
