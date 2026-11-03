@@ -28610,7 +28610,7 @@ window.CDF_DATA = {
       {
         "name": "Central",
         "province": "Central",
-        "totalProjects": 381,
+        "totalProjects": 389,
         "fundingYears": {
           "2022": 8,
           "2023": 31,
@@ -33636,10 +33636,10 @@ window.CDF_DATA = {
           {
             "name": "Mkushi North",
             "url": "constituencies/mkushi-north.html",
-            "count": 8,
+            "count": 15,
             "budgetM": 1.14,
             "statusCounts": {
-              "completed": 8
+              "completed": 15
             },
             "projects": [
               {
@@ -33647,6 +33647,46 @@ window.CDF_DATA = {
                 "url": "projects/3002-completion-of-musofu-laboratory.html",
                 "name": "Completion of Musofu Laboratory",
                 "ward": "Musofu",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3071,
+                "url": "projects/3071-construction-of-classroom-blocks-at-farm-block-community-school.html",
+                "name": "Construction of Classroom Blocks at Farm Block Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3072,
+                "url": "projects/3072-construction-of-classroom-blocks-at-kaloba-community-school.html",
+                "name": "Construction of Classroom Blocks at Kaloba Community School",
+                "ward": null,
                 "component": "community",
                 "category": "education",
                 "contractor": null,
@@ -33703,10 +33743,70 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3069,
+                "url": "projects/3069-construction-of-staff-houses-and-health-posts-at-chibwemukunga.html",
+                "name": "Construction of Staff Houses and Health Posts at Chibwemukunga",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 3001,
                 "url": "projects/3001-construction-of-staff-houses-and-health-posts-at-mambilima.html",
                 "name": "Construction of Staff Houses and Health Posts at Mambilima",
                 "ward": "Nkumbi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3068,
+                "url": "projects/3068-construction-of-staff-houses-and-health-posts-at-mankanda.html",
+                "name": "Construction of Staff Houses and Health Posts at Mankanda",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3067,
+                "url": "projects/3067-construction-of-staff-houses-and-health-posts-at-milombwe.html",
+                "name": "Construction of Staff Houses and Health Posts at Milombwe",
+                "ward": null,
                 "component": "community",
                 "category": "health",
                 "contractor": null,
@@ -33743,6 +33843,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3073,
+                "url": "projects/3073-construction-of-a-staff-house-at-chisanga-primary-school.html",
+                "name": "Construction of a Staff House at Chisanga Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 729,
                 "url": "projects/729-maternity-wing-at-katuba.html",
                 "name": "Maternity Wing at Katuba",
@@ -33761,6 +33881,26 @@ window.CDF_DATA = {
                   "url": "https://www.mkushicouncil.gov.zm/?p=1466"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 3070,
+                "url": "projects/3070-renovation-of-the-blown-off-roof-at-momboshi-clinic.html",
+                "name": "Renovation of the Blown-Off Roof at Momboshi Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mkushi Town Council",
+                  "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
+                  "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
               },
               {
                 "id": 727,
@@ -33858,11 +33998,11 @@ window.CDF_DATA = {
           {
             "name": "Muchinga",
             "url": "constituencies/muchinga.html",
-            "count": 53,
+            "count": 54,
             "budgetM": 34.43,
             "statusCounts": {
-              "approved": 40,
-              "completed": 12,
+              "approved": 39,
+              "completed": 14,
               "ongoing": 1
             },
             "projects": [
@@ -34015,10 +34155,10 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": null,
                 "budgetM": 0.2,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Completion proved in Blitz Run 12 by the Central Province Permanent Secretary's handover speech (Serenje Town Council, Handover-of-CDF-Project.pdf): the Kabwe Kupela Rural Health Post was officially handed over on 23 November 2022, the speech stating it was financed using 2021 CDF. The funding year stays 2023 as printed in the Muchinga 2023 projects list that named this row; the 2021-vs-2023 year conflict is disclosed here and sits in Caleb's ruling pile (Blitz Run 12).",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Muchinga Constituency 2023 CDF Projects - Community Projects (allocated funds, total K15,324,450)",
@@ -34145,6 +34285,26 @@ window.CDF_DATA = {
                   "url": "https://www.serenjecouncil.gov.zm/wp-content/uploads/2024/09/approved-projects-Muchinga_2023.pdf"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 3074,
+                "url": "projects/3074-completion-of-male-and-female-wards-at-nchimishi-community-health-facility.html",
+                "name": "Completion of Male and Female Wards at Nchimishi Community Health Facility",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
               },
               {
                 "id": 714,
@@ -64260,16 +64420,16 @@ window.CDF_DATA = {
       {
         "name": "Northern",
         "province": "Northern",
-        "totalProjects": 125,
+        "totalProjects": 129,
         "fundingYears": {
-          "2021": 2,
+          "2021": 4,
           "2022": 6,
-          "2023": 4,
+          "2023": 8,
           "2024": 24,
           "2025": 30,
           "2026": 7
         },
-        "fundingYearKnown": 73,
+        "fundingYearKnown": 79,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -64511,7 +64671,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 647,
@@ -64751,7 +64911,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 627,
@@ -65309,12 +65469,53 @@ window.CDF_DATA = {
           {
             "name": "Kasama Central",
             "url": "constituencies/kasama-central.html",
-            "count": 5,
-            "budgetM": 14.9,
+            "count": 8,
+            "budgetM": 17.23,
             "statusCounts": {
+              "completed": 3,
               "approved": 5
             },
             "projects": [
+              {
+                "id": 3075,
+                "url": "projects/3075-completion-of-the-boundary-wall-fence-at-mulenga-clinic.html",
+                "name": "Completion of the Boundary Wall Fence at Mulenga Clinic",
+                "ward": "Mulilansolo",
+                "component": "community",
+                "category": "health",
+                "contractor": "Merval Company Limited",
+                "budgetM": 0.1814,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kasama Municipal Council",
+                  "title": "Ordinary Council Booklet — Minutes of the 11th Ordinary Council Meeting, 28 March 2024; CDF 2023 Project Progress Report (item KMC/PIEIA/23/05/2024, Tables 2a-2d)",
+                  "url": "http://www.kasamacouncil.gov.zm/wp-content/uploads/2025/12/12th-ORDINARY-COUNCIL-BOOKLET-2ND-QUARTER-2024.pdf"
+                },
+                "fundingYear": 2023
+              },
+              {
+                "id": 3076,
+                "url": "projects/3076-construction-of-a-solar-water-scheme-at-nyola-rural-health-post.html",
+                "name": "Construction of a Solar Water Scheme at Nyola Rural Health Post",
+                "ward": "Julia Chikamoneka",
+                "component": "community",
+                "category": "water",
+                "contractor": "Solar Move Africa Limited",
+                "budgetM": 0.2934,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kasama Municipal Council",
+                  "title": "Ordinary Council Booklet — Minutes of the 11th Ordinary Council Meeting, 28 March 2024; CDF 2023 Project Progress Report (item KMC/PIEIA/23/05/2024, Tables 2a-2d)",
+                  "url": "http://www.kasamacouncil.gov.zm/wp-content/uploads/2025/12/12th-ORDINARY-COUNCIL-BOOKLET-2ND-QUARTER-2024.pdf"
+                },
+                "fundingYear": 2023
+              },
               {
                 "id": 604,
                 "url": "projects/604-construction-of-a-truck-park-along-kasama-mbala-road.html",
@@ -65414,6 +65615,26 @@ window.CDF_DATA = {
                   "url": "http://www.kasamacouncil.gov.zm/wp-content/uploads/2026/09/2026-Proposed-and-Approved-CDF-Projects-Kasama-Central-Constituency.pdf"
                 },
                 "fundingYear": 2026
+              },
+              {
+                "id": 3077,
+                "url": "projects/3077-procurement-of-1-350-double-sitter-desks.html",
+                "name": "Procurement of 1,350 Double Sitter Desks",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.8509,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kasama Municipal Council",
+                  "title": "Ordinary Council Booklet — Minutes of the 11th Ordinary Council Meeting, 28 March 2024; CDF 2023 Project Progress Report (item KMC/PIEIA/23/05/2024, Tables 2a-2d)",
+                  "url": "http://www.kasamacouncil.gov.zm/wp-content/uploads/2025/12/12th-ORDINARY-COUNCIL-BOOKLET-2ND-QUARTER-2024.pdf"
+                },
+                "fundingYear": 2023
               }
             ]
           },
@@ -65472,10 +65693,11 @@ window.CDF_DATA = {
           {
             "name": "Lukashya",
             "url": "constituencies/lukashya.html",
-            "count": 21,
-            "budgetM": 17.91,
+            "count": 22,
+            "budgetM": 22.34,
             "statusCounts": {
-              "approved": 21
+              "approved": 21,
+              "completed": 1
             },
             "projects": [
               {
@@ -65797,6 +66019,26 @@ window.CDF_DATA = {
                   "url": "http://www.kasamacouncil.gov.zm/wp-content/uploads/2025/12/Version-2-Lukashya-Constituency-Community-Projects-for-2024.pdf"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 3078,
+                "url": "projects/3078-procurement-of-3-000-double-sitter-desks.html",
+                "name": "Procurement of 3,000 Double Sitter Desks",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 4.4261,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kasama Municipal Council",
+                  "title": "Ordinary Council Booklet — Minutes of the 11th Ordinary Council Meeting, 28 March 2024; CDF 2023 Project Progress Report (item KMC/PIEIA/23/05/2024, Tables 2a-2d)",
+                  "url": "http://www.kasamacouncil.gov.zm/wp-content/uploads/2025/12/12th-ORDINARY-COUNCIL-BOOKLET-2ND-QUARTER-2024.pdf"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 597,
@@ -66922,17 +67164,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 3019,
+    "totalProjects": 3031,
     "fundingYears": {
       "2020": 2,
-      "2021": 3,
+      "2021": 5,
       "2022": 418,
-      "2023": 252,
+      "2023": 256,
       "2024": 483,
       "2025": 855,
       "2026": 239
     },
-    "fundingYearKnown": 2252
+    "fundingYearKnown": 2258
   },
   "people": {
     "bursaries": [
@@ -67051,23 +67293,23 @@ window.CDF_DATA = {
       },
       {
         "name": "Northern",
-        "tracked": 125,
-        "completed": 52,
+        "tracked": 129,
+        "completed": 56,
         "underway": 13,
         "approved": 60,
         "other": 0,
-        "completedPct": 41.6,
+        "completedPct": 43.4,
         "ruralPct": 77.7,
         "urbanPct": 22.3
       },
       {
         "name": "Central",
-        "tracked": 381,
-        "completed": 94,
+        "tracked": 389,
+        "completed": 103,
         "underway": 13,
-        "approved": 274,
+        "approved": 273,
         "other": 0,
-        "completedPct": 24.7,
+        "completedPct": 26.5,
         "ruralPct": 76.6,
         "urbanPct": 23.4
       },
@@ -67170,9 +67412,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2377,
-        "completed": 694,
-        "pct": 29.2
+        "projects": 2389,
+        "completed": 707,
+        "pct": 29.6
       },
       {
         "label": "Urban provinces",
@@ -67192,37 +67434,37 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 726,
+        "ruralN": 731,
         "urbanN": 90,
-        "ruralPct": 30.5,
+        "ruralPct": 30.6,
         "urbanPct": 24.1
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 644,
+        "ruralN": 645,
         "urbanN": 73,
-        "ruralPct": 27.1,
+        "ruralPct": 27.0,
         "urbanPct": 19.6
       },
       {
         "cat": "Health",
-        "ruralN": 421,
+        "ruralN": 427,
         "urbanN": 77,
-        "ruralPct": 17.7,
+        "ruralPct": 17.9,
         "urbanPct": 20.6
       },
       {
         "cat": "Other community works",
         "ruralN": 421,
         "urbanN": 62,
-        "ruralPct": 17.7,
+        "ruralPct": 17.6,
         "urbanPct": 16.6
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 125,
         "urbanN": 51,
-        "ruralPct": 5.3,
+        "ruralPct": 5.2,
         "urbanPct": 13.7
       },
       {
@@ -67235,18 +67477,18 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 3019,
+    "total": 3031,
     "statuses": {
-      "approved": 1870,
-      "completed": 857,
+      "approved": 1869,
+      "completed": 870,
       "funded": 10,
       "in_progress": 40,
       "ongoing": 234,
       "stalled": 7,
       "unknown": 1
     },
-    "completedPct": 28.4,
-    "approvedPct": 62.3,
+    "completedPct": 28.7,
+    "approvedPct": 62.0,
     "withPhoto": 23,
     "constituencies": 152,
     "provinces": 10
