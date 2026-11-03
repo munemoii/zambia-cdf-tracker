@@ -177,14 +177,14 @@ window.CDF_DATA = {
   "pilot": {
     "name": "Lusaka",
     "province": "Lusaka",
-    "totalProjects": 190,
+    "totalProjects": 193,
     "fundingYears": {
       "2022": 44,
       "2023": 20,
       "2024": 12,
-      "2025": 61
+      "2025": 63
     },
-    "fundingYearKnown": 137,
+    "fundingYearKnown": 139,
     "constituencies": [
       {
         "name": "Chawama",
@@ -704,13 +704,53 @@ window.CDF_DATA = {
       {
         "name": "Chongwe",
         "url": "constituencies/chongwe.html",
-        "count": 40,
-        "budgetM": 0,
+        "count": 43,
+        "budgetM": 1.33,
         "statusCounts": {
-          "approved": 33,
-          "completed": 7
+          "completed": 10,
+          "approved": 33
         },
         "projects": [
+          {
+            "id": 2815,
+            "url": "projects/2815-1x3-classroom-block-at-lusumpuko-primary-school.html",
+            "name": "1x3 classroom block at Lusumpuko Primary School",
+            "ward": "Katoba Ward",
+            "component": "community",
+            "category": "education",
+            "contractor": null,
+            "budgetM": 0.7496,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": "Commissioned per Chongwe Municipal Council (article ?p=6115); the school was formerly Muyembe Primary School, Muyembe Village. Funding year not published.",
+            "source": {
+              "publisher": "Chongwe Municipal Council",
+              "title": "CHONGWE MP HON. MASEBO COMMISSIONS LUSUMPUKO PRIMARY SCHOOL OF KATOBA WARD (council commissioning article; no date printed)",
+              "url": "https://www.chongwecouncil.gov.zm/?p=6115"
+            },
+            "fundingYear": null
+          },
+          {
+            "id": 2816,
+            "url": "projects/2816-ablution-block-at-lusumpuko-primary-school.html",
+            "name": "Ablution block at Lusumpuko Primary School",
+            "ward": "Katoba Ward",
+            "component": "community",
+            "category": "sanitation",
+            "contractor": null,
+            "budgetM": 0.3852,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": "Commissioned per Chongwe Municipal Council (article ?p=6115). Funding year not published.",
+            "source": {
+              "publisher": "Chongwe Municipal Council",
+              "title": "CHONGWE MP HON. MASEBO COMMISSIONS LUSUMPUKO PRIMARY SCHOOL OF KATOBA WARD (council commissioning article; no date printed)",
+              "url": "https://www.chongwecouncil.gov.zm/?p=6115"
+            },
+            "fundingYear": null
+          },
           {
             "id": 40,
             "url": "projects/40-completion-of-1x3-classroom-block-phase-1.html",
@@ -1519,6 +1559,26 @@ window.CDF_DATA = {
               "url": "https://www.chongwecouncil.gov.zm/?p=6210"
             },
             "fundingYear": 2025
+          },
+          {
+            "id": 2817,
+            "url": "projects/2817-solar-powered-water-system-at-lusumpuko-primary-school.html",
+            "name": "Solar-powered water system at Lusumpuko Primary School",
+            "ward": "Katoba Ward",
+            "component": "community",
+            "category": "water",
+            "contractor": null,
+            "budgetM": 0.195,
+            "status": "completed",
+            "completionPct": null,
+            "photo": null,
+            "note": "Commissioned per Chongwe Municipal Council (article ?p=6115). Funding year not published.",
+            "source": {
+              "publisher": "Chongwe Municipal Council",
+              "title": "CHONGWE MP HON. MASEBO COMMISSIONS LUSUMPUKO PRIMARY SCHOOL OF KATOBA WARD (council commissioning article; no date printed)",
+              "url": "https://www.chongwecouncil.gov.zm/?p=6115"
+            },
+            "fundingYear": null
           }
         ]
       },
@@ -1573,7 +1633,7 @@ window.CDF_DATA = {
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
             },
-            "fundingYear": null
+            "fundingYear": 2025
           },
           {
             "id": 133,
@@ -2233,7 +2293,7 @@ window.CDF_DATA = {
               "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
               "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
             },
-            "fundingYear": null
+            "fundingYear": 2025
           },
           {
             "id": 146,
@@ -17302,15 +17362,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 488,
+        "totalProjects": 502,
         "fundingYears": {
           "2022": 24,
           "2023": 41,
-          "2024": 124,
-          "2025": 133,
-          "2026": 25
+          "2024": 125,
+          "2025": 145,
+          "2026": 26
         },
-        "fundingYearKnown": 347,
+        "fundingYearKnown": 361,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -18958,10 +19018,10 @@ window.CDF_DATA = {
           {
             "name": "Choma",
             "url": "constituencies/choma.html",
-            "count": 29,
-            "budgetM": 14.83,
+            "count": 30,
+            "budgetM": 14.9,
             "statusCounts": {
-              "approved": 24,
+              "approved": 25,
               "ongoing": 5
             },
             "projects": [
@@ -19258,6 +19318,26 @@ window.CDF_DATA = {
                 "completionPct": null,
                 "photo": null,
                 "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "Choma Central Community Projects for 2024 CDF (ward, cost, contractor and status table)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2024/09/CHOMA-CENTRAL-CONSTITUENCY-2024-CDF-PROJECTS.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 2801,
+                "url": "projects/2801-singani-east-staff-house.html",
+                "name": "Singani East Staff House",
+                "ward": "Singani",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.0741,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Additional funds for rehabilitation and installation of a blown-off roof (Choma Central 2024 CDF table, S/N 7; status token as printed: Procurement).",
                 "source": {
                   "publisher": "Choma Municipal Council",
                   "title": "Choma Central Community Projects for 2024 CDF (ward, cost, contractor and status table)",
@@ -21862,14 +21942,34 @@ window.CDF_DATA = {
           {
             "name": "Mapatizya",
             "url": "constituencies/mapatizya.html",
-            "count": 32,
+            "count": 44,
             "budgetM": 27.8,
             "statusCounts": {
+              "approved": 25,
               "completed": 15,
-              "ongoing": 4,
-              "approved": 13
+              "ongoing": 4
             },
             "projects": [
+              {
+                "id": 2807,
+                "url": "projects/2807-additional-funds-for-earth-moving-machines.html",
+                "name": "Additional funds for earth moving machines",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
               {
                 "id": 2433,
                 "url": "projects/2433-construction-of-1x3-classroom-block-at-siameja-community-school.html",
@@ -21929,6 +22029,26 @@ window.CDF_DATA = {
                   "url": "https://www.zimbacouncil.gov.zm/wp-content/uploads/2025/08/MINUTES-OF-PLANS-HELD-ON-15TH-MAY-2024.pdf"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 2805,
+                "url": "projects/2805-construction-of-a-1x2-science-laboratory-at-simalundu-primary-and-secondary-school-with-solar-power-furniture-and-water.html",
+                "name": "Construction of a 1x2 science laboratory at Simalundu Primary and Secondary School (with solar power, furniture and water)",
+                "ward": "Siamafumba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1350,
@@ -22151,6 +22271,46 @@ window.CDF_DATA = {
                 "fundingYear": 2026
               },
               {
+                "id": 2806,
+                "url": "projects/2806-construction-of-a-1x3-classroom-block-at-siakasipa-community-school.html",
+                "name": "Construction of a 1x3 classroom block at Siakasipa Community School",
+                "ward": "Kanyanga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2804,
+                "url": "projects/2804-construction-of-a-1x3-classroom-block-at-simundivwi-secondary-school.html",
+                "name": "Construction of a 1x3 classroom block at Simundivwi Secondary School",
+                "ward": "Chidi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 1349,
                 "url": "projects/1349-construction-of-a-clinic-in-mbwiko-ward.html",
                 "name": "Construction of a Clinic in Mbwiko Ward",
@@ -22291,6 +22451,66 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 2812,
+                "url": "projects/2812-construction-of-septic-tank-soakaway-and-procurement-of-tank-with-stand-for-the-staff-house-at-mulamfu-health-centre.html",
+                "name": "Construction of septic tank, soakaway, and procurement of tank with stand for the staff house at Mulamfu Health Centre",
+                "ward": "Mulamfu",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "The 2025 approved list Type column marks this item Ongoing; carried as approved per the list own title (Blitz Run 7).",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2809,
+                "url": "projects/2809-construction-of-waste-management-facility-at-mbwiko-maternity-annex-incinerator-ash-and-placenta-pits.html",
+                "name": "Construction of waste management facility at Mbwiko Maternity Annex (incinerator, ash and placenta pits)",
+                "ward": "Mbwiko",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2810,
+                "url": "projects/2810-contribution-towards-procurement-of-cutting-edges-grader-blades-for-rehabilitation-of-mapatizya-road.html",
+                "name": "Contribution towards procurement of cutting edges (grader blades) for rehabilitation of Mapatizya Road",
+                "ward": "Zimba/Chundwe/Luyaba/Simwatachela",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 2375,
                 "url": "projects/2375-drilling-of-borehole-at-munenge-school.html",
                 "name": "Drilling of Borehole at Munenge School",
@@ -22329,6 +22549,26 @@ window.CDF_DATA = {
                   "url": "https://www.zimbacouncil.gov.zm/wp-content/uploads/2025/08/MINUTES-OF-PLANS-HELD-ON-15TH-MAY-2024.pdf"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 2811,
+                "url": "projects/2811-drilling-of-a-borehole-for-luyaba-mothers-shelter-and-furnishing-of-the-mothers-shelter.html",
+                "name": "Drilling of a borehole for Luyaba Mothers Shelter and furnishing of the mothers' shelter",
+                "ward": "Luyaba",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Listed in Zimba Town Council 2025 approved list. Concerns the same mothers shelter as another tracked Luyaba water row but a different printed scope (borehole drilling and furnishing of the shelter); carried as its own row as printed, not merged (Blitz Run 7).",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2376,
@@ -22489,6 +22729,86 @@ window.CDF_DATA = {
                   "url": "https://www.zimbacouncil.gov.zm/wp-content/uploads/2025/08/MINUTES-OF-PLANS-HELD-ON-15TH-MAY-2024.pdf"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 2813,
+                "url": "projects/2813-procurement-of-a-motor-grader-engine.html",
+                "name": "Procurement of a motor grader engine",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "The 2025 approved list Type column marks this item Ongoing; carried as approved per the list own title (Blitz Run 7).",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2803,
+                "url": "projects/2803-procurement-of-equipment-for-the-radio-station.html",
+                "name": "Procurement of equipment for the radio station",
+                "ward": "Zimba",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2814,
+                "url": "projects/2814-rehabilitation-of-72km-t1-to-mapatizya-road-under-presidential-directives-reshaping-spot-gravelling-mitre-drains.html",
+                "name": "Rehabilitation of 72km T1 to Mapatizya Road under Presidential Directives (reshaping, spot gravelling, mitre drains)",
+                "ward": "Zimba/Chundwe/Luyaba/Simwatachela",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Under Presidential Directives as printed. The 2025 approved list Type column marks this item Ongoing; carried as approved per the list own title (Blitz Run 7).",
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2808,
+                "url": "projects/2808-service-and-maintenance-of-road-construction-equipment.html",
+                "name": "Service and maintenance of road construction equipment",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zimba Town Council",
+                  "title": "2025 Approved CDF Community Projects (Mapatizya; list stamped 10 March 2025; published on the council Publications page; picture-only scan read visually in Blitz Run 7)",
+                  "url": "https://www.zimbacouncil.gov.zm/?page_id=195"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2367,
@@ -26014,10 +26334,10 @@ window.CDF_DATA = {
           {
             "name": "Siavonga",
             "url": "constituencies/siavonga.html",
-            "count": 18,
-            "budgetM": 17.75,
+            "count": 19,
+            "budgetM": 23.65,
             "statusCounts": {
-              "approved": 12,
+              "approved": 13,
               "completed": 6
             },
             "projects": [
@@ -26220,6 +26540,26 @@ window.CDF_DATA = {
                   "url": "http://www.siavongacouncil.gov.zm/wp-content/uploads/2025/06/2024-RECEIVED-AND-APPROVED-PROJECTS.pdf"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 2802,
+                "url": "projects/2802-presidential-constituency-energy-initiative.html",
+                "name": "Presidential Constituency Energy Initiative",
+                "ward": "Kariba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 5.9,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Named in the PLGO Notification of Approval LGHSP/72/1/5R (2 Apr 2026) at K5,900,000; ward Kariba as printed in the council published application.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Southern Province (via Siavonga Town Council)",
+                  "title": "Conveyance Notification for 2026 Approved Projects — Notification of Approval/Refusal LGHSP/72/1/5R (approves group totals: PCEI, 17 uncompleted projects, 7 complementary projects, road maintenance; plus 2024-balances allocation)",
+                  "url": "https://www.siavongacouncil.gov.zm/wp-content/uploads/2026/09/Conveyance.pdf"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2448,
@@ -48216,14 +48556,14 @@ window.CDF_DATA = {
       {
         "name": "Lusaka",
         "province": "Lusaka",
-        "totalProjects": 190,
+        "totalProjects": 193,
         "fundingYears": {
           "2022": 44,
           "2023": 20,
           "2024": 12,
-          "2025": 61
+          "2025": 63
         },
-        "fundingYearKnown": 137,
+        "fundingYearKnown": 139,
         "constituencies": [
           {
             "name": "Chawama",
@@ -48743,13 +49083,53 @@ window.CDF_DATA = {
           {
             "name": "Chongwe",
             "url": "constituencies/chongwe.html",
-            "count": 40,
-            "budgetM": 0,
+            "count": 43,
+            "budgetM": 1.33,
             "statusCounts": {
-              "approved": 33,
-              "completed": 7
+              "completed": 10,
+              "approved": 33
             },
             "projects": [
+              {
+                "id": 2815,
+                "url": "projects/2815-1x3-classroom-block-at-lusumpuko-primary-school.html",
+                "name": "1x3 classroom block at Lusumpuko Primary School",
+                "ward": "Katoba Ward",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.7496,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned per Chongwe Municipal Council (article ?p=6115); the school was formerly Muyembe Primary School, Muyembe Village. Funding year not published.",
+                "source": {
+                  "publisher": "Chongwe Municipal Council",
+                  "title": "CHONGWE MP HON. MASEBO COMMISSIONS LUSUMPUKO PRIMARY SCHOOL OF KATOBA WARD (council commissioning article; no date printed)",
+                  "url": "https://www.chongwecouncil.gov.zm/?p=6115"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2816,
+                "url": "projects/2816-ablution-block-at-lusumpuko-primary-school.html",
+                "name": "Ablution block at Lusumpuko Primary School",
+                "ward": "Katoba Ward",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.3852,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned per Chongwe Municipal Council (article ?p=6115). Funding year not published.",
+                "source": {
+                  "publisher": "Chongwe Municipal Council",
+                  "title": "CHONGWE MP HON. MASEBO COMMISSIONS LUSUMPUKO PRIMARY SCHOOL OF KATOBA WARD (council commissioning article; no date printed)",
+                  "url": "https://www.chongwecouncil.gov.zm/?p=6115"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 40,
                 "url": "projects/40-completion-of-1x3-classroom-block-phase-1.html",
@@ -49558,6 +49938,26 @@ window.CDF_DATA = {
                   "url": "https://www.chongwecouncil.gov.zm/?p=6210"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 2817,
+                "url": "projects/2817-solar-powered-water-system-at-lusumpuko-primary-school.html",
+                "name": "Solar-powered water system at Lusumpuko Primary School",
+                "ward": "Katoba Ward",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.195,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned per Chongwe Municipal Council (article ?p=6115). Funding year not published.",
+                "source": {
+                  "publisher": "Chongwe Municipal Council",
+                  "title": "CHONGWE MP HON. MASEBO COMMISSIONS LUSUMPUKO PRIMARY SCHOOL OF KATOBA WARD (council commissioning article; no date printed)",
+                  "url": "https://www.chongwecouncil.gov.zm/?p=6115"
+                },
+                "fundingYear": null
               }
             ]
           },
@@ -49612,7 +50012,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
                   "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 133,
@@ -50272,7 +50672,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Feira CDFC meeting held 21 July 2025 (K1,900,000 skills-bursaries variation to 12 community projects, total K2,144,000 as tabled)",
                   "url": "http://www.luangwacouncil.gov.zm/wp-content/uploads/2026/07/cdf-minutes-july-2025.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 146,
@@ -52208,10 +52608,10 @@ window.CDF_DATA = {
           "2022": 2,
           "2023": 32,
           "2024": 40,
-          "2025": 41,
+          "2025": 42,
           "2026": 8
         },
-        "fundingYearKnown": 123,
+        "fundingYearKnown": 124,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -53647,7 +54047,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
                   "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 790,
@@ -55634,15 +56034,15 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "province": "Copperbelt",
-        "totalProjects": 139,
+        "totalProjects": 140,
         "fundingYears": {
           "2022": 11,
           "2023": 6,
           "2024": 11,
-          "2025": 26,
+          "2025": 27,
           "2026": 20
         },
-        "fundingYearKnown": 74,
+        "fundingYearKnown": 75,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -56302,11 +56702,11 @@ window.CDF_DATA = {
           {
             "name": "Chimwemwe",
             "url": "constituencies/chimwemwe.html",
-            "count": 5,
+            "count": 6,
             "budgetM": 1.15,
             "statusCounts": {
               "approved": 3,
-              "completed": 2
+              "completed": 3
             },
             "projects": [
               {
@@ -56348,6 +56748,26 @@ window.CDF_DATA = {
                   "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=18223014"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2800,
+                "url": "projects/2800-happy-kawama-primary-school-ablution-block.html",
+                "name": "Happy Kawama Primary School Ablution Block",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Council Facebook post (20 Aug 2026) states the ablution block was Constructed using the 2025 Constituency Development Fund allocation; carried as completed on the caption convention (Blitz Run 7). Ward and amount not published.",
+                "source": {
+                  "publisher": "Kitwe City Council (Facebook page, seen only via third-party mirror)",
+                  "title": "Happy Kawama Primary School Ablution Block in Chimwemwe Constituency constructed using the 2025 Constituency Development Fund allocation",
+                  "url": "https://www.findglocal.com/ZM/Kitwe/155415637949418/Kitwe-City-Council"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1426,
@@ -58666,13 +59086,13 @@ window.CDF_DATA = {
         "province": "Northern",
         "totalProjects": 122,
         "fundingYears": {
-          "2022": 5,
+          "2022": 6,
           "2023": 4,
           "2024": 24,
           "2025": 30,
           "2026": 7
         },
-        "fundingYearKnown": 70,
+        "fundingYearKnown": 71,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -59374,7 +59794,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 618,
@@ -61254,15 +61674,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2759,
+    "totalProjects": 2777,
     "fundingYears": {
-      "2022": 364,
+      "2022": 365,
       "2023": 244,
-      "2024": 454,
-      "2025": 807,
-      "2026": 192
+      "2024": 455,
+      "2025": 823,
+      "2026": 193
     },
-    "fundingYearKnown": 2061
+    "fundingYearKnown": 2080
   },
   "people": {
     "bursaries": [
@@ -61403,12 +61823,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 488,
+        "tracked": 502,
         "completed": 170,
         "underway": 39,
-        "approved": 277,
+        "approved": 291,
         "other": 2,
-        "completedPct": 34.8,
+        "completedPct": 33.9,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -61425,23 +61845,23 @@ window.CDF_DATA = {
       },
       {
         "name": "Lusaka",
-        "tracked": 190,
-        "completed": 68,
+        "tracked": 193,
+        "completed": 71,
         "underway": 37,
         "approved": 83,
         "other": 2,
-        "completedPct": 35.8,
+        "completedPct": 36.8,
         "ruralPct": 18.5,
         "urbanPct": 81.5
       },
       {
         "name": "Copperbelt",
-        "tracked": 139,
-        "completed": 24,
+        "tracked": 140,
+        "completed": 25,
         "underway": 34,
         "approved": 81,
         "other": 0,
-        "completedPct": 17.3,
+        "completedPct": 17.9,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -61500,16 +61920,16 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2167,
+        "projects": 2181,
         "completed": 533,
-        "pct": 24.6
+        "pct": 24.4
       },
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 329,
-        "completed": 92,
-        "pct": 28.0
+        "projects": 333,
+        "completed": 96,
+        "pct": 28.8
       },
       {
         "label": "In between",
@@ -61522,53 +61942,53 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 649,
-        "urbanN": 82,
-        "ruralPct": 29.9,
+        "ruralN": 651,
+        "urbanN": 83,
+        "ruralPct": 29.8,
         "urbanPct": 24.9
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 610,
-        "urbanN": 61,
+        "ruralN": 612,
+        "urbanN": 64,
         "ruralPct": 28.1,
-        "urbanPct": 18.5
+        "urbanPct": 19.2
       },
       {
         "cat": "Other community works",
-        "ruralN": 394,
+        "ruralN": 399,
         "urbanN": 56,
-        "ruralPct": 18.2,
-        "urbanPct": 17.0
+        "ruralPct": 18.3,
+        "urbanPct": 16.8
       },
       {
         "cat": "Health",
-        "ruralN": 374,
+        "ruralN": 376,
         "urbanN": 64,
-        "ruralPct": 17.3,
-        "urbanPct": 19.5
+        "ruralPct": 17.2,
+        "urbanPct": 19.2
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 106,
+        "ruralN": 109,
         "urbanN": 47,
-        "ruralPct": 4.9,
-        "urbanPct": 14.3
+        "ruralPct": 5.0,
+        "urbanPct": 14.1
       },
       {
         "cat": "Police & security",
         "ruralN": 34,
         "urbanN": 19,
         "ruralPct": 1.6,
-        "urbanPct": 5.8
+        "urbanPct": 5.7
       }
     ]
   },
   "record": {
-    "total": 2759,
+    "total": 2777,
     "statuses": {
-      "approved": 1810,
-      "completed": 671,
+      "approved": 1824,
+      "completed": 675,
       "funded": 10,
       "in_progress": 37,
       "ongoing": 226,
