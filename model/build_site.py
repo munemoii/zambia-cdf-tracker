@@ -438,6 +438,14 @@ def main():
                             f'<p class="agnote">The printed row\'s status counts add '
                             f'to {impl + wip + notimpl:,}, more than its {base_lab} '
                             f'count of {appr:,} — as printed in the report.</p>')
+                    elif min(impl, wip, notimpl) < 0 or \
+                            max(impl, wip, notimpl) > appr:
+                        extra_note = (
+                            f'<p class="agnote">This row is internally '
+                            f'inconsistent as printed in the report — a status '
+                            f'count is negative or larger than the cohort\'s '
+                            f'{base_lab} count of {appr:,}. The figures are '
+                            f'shown exactly as printed.</p>')
                     blocks.append(
                         f'<div class="agstatus">{head}<div class="stack">{bar}</div>'
                         f'<div class="stackleg">{"".join(leg)}</div>{extra_note}</div>')
