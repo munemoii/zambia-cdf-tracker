@@ -42812,16 +42812,16 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 269,
+        "totalProjects": 272,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
-          "2022": 54,
+          "2022": 57,
           "2023": 40,
           "2024": 46,
           "2025": 44
         },
-        "fundingYearKnown": 187,
+        "fundingYearKnown": 190,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -43390,13 +43390,35 @@ window.CDF_DATA = {
           {
             "name": "Kabompo",
             "url": "constituencies/kabompo.html",
-            "count": 5,
-            "budgetM": 0.38,
+            "count": 8,
+            "budgetM": 0.78,
             "statusCounts": {
+              "ongoing": 3,
               "in_progress": 2,
-              "stalled": 3
+              "stalled": 2,
+              "completed": 1
             },
             "projects": [
+              {
+                "id": 3081,
+                "url": "projects/3081-completion-of-a-1x3-classroom-block-crb-at-chikata-secondary-school.html",
+                "name": "Completion of a 1x3 Classroom Block (CRB) at Chikata Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": "Status as at 30 April 2023 per Kabompo Town Council CDF Progress Report (PWSS/433/05/23); funding year 2022 from the report's section heading.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee — CDF Progress Report as at 30 April 2023 (PWSS/433/05/23) and Audit Committee item AUD/417/03/23; minute booklet adopted 15 June 2023",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-15.06.2023.pdf"
+                },
+                "fundingYear": 2022
+              },
               {
                 "id": 3065,
                 "url": "projects/3065-construction-of-a-1x3-classroom-block-crb-at-chikonkwelo-primary-school.html",
@@ -43418,18 +43440,38 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 3080,
+                "url": "projects/3080-construction-of-a-1x3-classroom-block-crb-at-kamavonge-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block (CRB) at Kamavonge Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": "Status as at 30 April 2023 per Kabompo Town Council CDF Progress Report (PWSS/433/05/23); funding year 2022 from the report's section heading.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee — CDF Progress Report as at 30 April 2023 (PWSS/433/05/23) and Audit Committee item AUD/417/03/23; minute booklet adopted 15 June 2023",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-15.06.2023.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
                 "id": 3064,
                 "url": "projects/3064-construction-of-a-1x3-classroom-block-crb-at-kamisamba-primary-school.html",
                 "name": "Construction of a 1x3 Classroom Block (CRB) at Kamisamba Primary School",
                 "ward": null,
                 "component": "community",
                 "category": "education",
-                "contractor": null,
-                "budgetM": null,
+                "contractor": "Amiros Money Lenders",
+                "budgetM": 0.3995,
                 "status": "stalled",
                 "completionPct": null,
                 "photo": null,
-                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2021 CDF section): project stalled, contractor deserted the site; contract terminated by the Procurement Committee.",
+                "note": "Amount and contractor pinned in Blitz Run 12 from the Audit Committee item AUD/417/03/23 in Kabompo Town Council's minute booklet adopted 15 June 2023: allocated K420,000; contract sum K399,496 (carried here, following the Katendwa precedent); contractor Amiros Money Lenders. The item confirms the project had stalled as at 5 January 2023.",
                 "source": {
                   "publisher": "Kabompo Town Council",
                   "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
@@ -43446,10 +43488,10 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": "Samwanji",
                 "budgetM": 0.3766,
-                "status": "stalled",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2020 CDF section): project stalled, contractor (Samwanji) deserted the site; structure roofed and painted. Contract sum K376,552.50 as stated in the Finance Committee item of the same minute booklet (Samwanji Guest Lodge and General Dealers, 2020 CDF award); the progress report itself prints no amount.",
+                "note": "Status upgraded in Blitz Run 12 on Kabompo Town Council's later CDF Progress Report as at 30 April 2023 (PWSS/433/05/23, minute booklet adopted 15 June 2023): \"The Project was completed\" — \"just awaiting Official Handover to the Community\". The January 2023 report that landed this row as stalled is superseded on status by the council's own later report; amount and contractor unchanged.",
                 "source": {
                   "publisher": "Kabompo Town Council",
                   "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
@@ -43474,6 +43516,26 @@ window.CDF_DATA = {
                   "publisher": "Kabompo Town Council",
                   "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
                   "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-28.02.2023.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 3079,
+                "url": "projects/3079-construction-of-a-health-post-at-mulundu.html",
+                "name": "Construction of a Health Post at Mulundu",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 20.0,
+                "photo": null,
+                "note": "Status as at 30 April 2023 per Kabompo Town Council CDF Progress Report (PWSS/433/05/23); funding year 2022 from the report's section heading.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee — CDF Progress Report as at 30 April 2023 (PWSS/433/05/23) and Audit Committee item AUD/417/03/23; minute booklet adopted 15 June 2023",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-15.06.2023.pdf"
                 },
                 "fundingYear": 2022
               },
@@ -67164,17 +67226,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 3031,
+    "totalProjects": 3034,
     "fundingYears": {
       "2020": 2,
       "2021": 5,
-      "2022": 418,
+      "2022": 421,
       "2023": 256,
       "2024": 483,
       "2025": 855,
       "2026": 239
     },
-    "fundingYearKnown": 2258
+    "fundingYearKnown": 2261
   },
   "people": {
     "bursaries": [
@@ -67326,12 +67388,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 269,
-        "completed": 47,
-        "underway": 10,
+        "tracked": 272,
+        "completed": 48,
+        "underway": 13,
         "approved": 209,
-        "other": 3,
-        "completedPct": 17.5,
+        "other": 2,
+        "completedPct": 17.6,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -67426,9 +67488,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 269,
-        "completed": 47,
-        "pct": 17.5
+        "projects": 272,
+        "completed": 48,
+        "pct": 17.6
       }
     ],
     "typeMix": [
@@ -67477,18 +67539,18 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 3031,
+    "total": 3034,
     "statuses": {
       "approved": 1869,
-      "completed": 870,
+      "completed": 871,
       "funded": 10,
       "in_progress": 40,
-      "ongoing": 234,
-      "stalled": 7,
+      "ongoing": 237,
+      "stalled": 6,
       "unknown": 1
     },
     "completedPct": 28.7,
-    "approvedPct": 62.0,
+    "approvedPct": 61.9,
     "withPhoto": 23,
     "constituencies": 152,
     "provinces": 10
