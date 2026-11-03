@@ -4527,15 +4527,15 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 662,
+        "totalProjects": 663,
         "fundingYears": {
           "2022": 137,
           "2023": 54,
           "2024": 105,
-          "2025": 188,
+          "2025": 189,
           "2026": 109
         },
-        "fundingYearKnown": 593,
+        "fundingYearKnown": 594,
         "constituencies": [
           {
             "name": "Chadiza",
@@ -6499,7 +6499,7 @@ window.CDF_DATA = {
             "name": "Chipata Central",
             "url": "constituencies/chipata-central.html",
             "count": 108,
-            "budgetM": 52.89,
+            "budgetM": 53.17,
             "statusCounts": {
               "approved": 106,
               "completed": 2
@@ -8176,7 +8176,7 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "equipment",
                 "contractor": null,
-                "budgetM": 4.0,
+                "budgetM": 4.5,
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
@@ -8196,7 +8196,7 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "education",
                 "contractor": null,
-                "budgetM": 2.0547,
+                "budgetM": 1.8421,
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
@@ -10609,10 +10609,10 @@ window.CDF_DATA = {
           {
             "name": "Luangeni",
             "url": "constituencies/luangeni.html",
-            "count": 111,
-            "budgetM": 64.17,
+            "count": 112,
+            "budgetM": 65.12,
             "statusCounts": {
-              "approved": 111
+              "approved": 112
             },
             "projects": [
               {
@@ -11188,6 +11188,26 @@ window.CDF_DATA = {
                 "completionPct": null,
                 "photo": null,
                 "note": "The notification gives a combined total of K18,657,020.74 for all 16 approved projects.",
+                "source": {
+                  "publisher": "Chipata City Council",
+                  "title": "Publications page listing CDF approved and proposed project documents 2022-2025",
+                  "url": "https://www.chipatacouncil.gov.zm/?page_id=541"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3061,
+                "url": "projects/3061-construction-of-1x3-crb-at-nthombimbi-primary-school.html",
+                "name": "Construction of 1x3 CRB at Nthombimbi Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.95,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
                 "source": {
                   "publisher": "Chipata City Council",
                   "title": "Publications page listing CDF approved and proposed project documents 2022-2025",
@@ -28590,15 +28610,15 @@ window.CDF_DATA = {
       {
         "name": "Central",
         "province": "Central",
-        "totalProjects": 342,
+        "totalProjects": 381,
         "fundingYears": {
-          "2022": 7,
+          "2022": 8,
           "2023": 31,
           "2024": 40,
           "2025": 181,
           "2026": 29
         },
-        "fundingYearKnown": 288,
+        "fundingYearKnown": 289,
         "constituencies": [
           {
             "name": "Bwacha",
@@ -28794,10 +28814,11 @@ window.CDF_DATA = {
           {
             "name": "Chisamba",
             "url": "constituencies/chisamba.html",
-            "count": 18,
-            "budgetM": 0,
+            "count": 22,
+            "budgetM": 13.0,
             "statusCounts": {
-              "approved": 18
+              "approved": 18,
+              "completed": 4
             },
             "projects": [
               {
@@ -29141,6 +29162,66 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 3034,
+                "url": "projects/3034-delivery-of-100-desks-to-liteta-primary-school.html",
+                "name": "Delivery of 100 desks to Liteta Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chisamba Town Council",
+                  "title": "Chisamba Town Council Newsletter, Volume 1, March 2024",
+                  "url": "https://www.chisambacouncil.gov.zm/wp-content/uploads/2024/09/Chisamba-Town-Council-News-Letter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3035,
+                "url": "projects/3035-delivery-of-40-desks-and-a-1x2-classroom-block-to-masaka-community-school.html",
+                "name": "Delivery of 40 desks and a 1x2 Classroom Block to Masaka Community School",
+                "ward": "Mutenga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chisamba Town Council",
+                  "title": "Chisamba Town Council Newsletter, Volume 1, March 2024",
+                  "url": "https://www.chisambacouncil.gov.zm/wp-content/uploads/2024/09/Chisamba-Town-Council-News-Letter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3036,
+                "url": "projects/3036-dip-tank-at-kamano.html",
+                "name": "Dip tank at Kamano",
+                "ward": "Kamano",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chisamba Town Council",
+                  "title": "Chisamba Town Council Newsletter, Volume 1, March 2024",
+                  "url": "https://www.chisambacouncil.gov.zm/wp-content/uploads/2024/09/Chisamba-Town-Council-News-Letter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 668,
                 "url": "projects/668-drilling-of-a-borehole-at-pukuma-b-tushomeke-community.html",
                 "name": "Drilling of a Borehole at Pukuma B / Tushomeke Community",
@@ -29159,6 +29240,26 @@ window.CDF_DATA = {
                   "url": "https://www.chisambacouncil.gov.zm/wp-content/uploads/2025/01/2025-COMMUNITY-PROJECTS-APPROVED-LIST-CHISAMBA-CDF.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3037,
+                "url": "projects/3037-earth-moving-equipment-grader-compactor-water-bowser-and-bulldozer.html",
+                "name": "Earth moving equipment (grader, compactor, water bowser and bulldozer)",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 13.0,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 10: Chisamba Town Council Newsletter (Vol. 1, March 2024) records the fleet as 'valued at over K13 million', funded through the Chisamba CDF allocation for 2022; K13 million is recorded as printed (a floor, as the source says 'over').",
+                "source": {
+                  "publisher": "Chisamba Town Council",
+                  "title": "Chisamba Town Council Newsletter, Volume 1, March 2024",
+                  "url": "https://www.chisambacouncil.gov.zm/wp-content/uploads/2024/09/Chisamba-Town-Council-News-Letter.pdf"
+                },
+                "fundingYear": 2022
               }
             ]
           },
@@ -29769,11 +29870,11 @@ window.CDF_DATA = {
           {
             "name": "Kapiri Mposhi",
             "url": "constituencies/kapiri-mposhi.html",
-            "count": 151,
+            "count": 154,
             "budgetM": 0.58,
             "statusCounts": {
               "approved": 150,
-              "completed": 1
+              "completed": 4
             },
             "projects": [
               {
@@ -30197,6 +30298,26 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 3039,
+                "url": "projects/3039-construction-of-a-1x2-classroom-block-at-luanshimba-primary-school.html",
+                "name": "Construction of a 1x2 Classroom Block at Luanshimba Primary School",
+                "ward": "Lukanga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 2162,
                 "url": "projects/2162-construction-of-a-1x3-crb-at-imansa-secondary-school.html",
                 "name": "Construction of a 1x3 CRB at Imansa Secondary School",
@@ -30355,6 +30476,46 @@ window.CDF_DATA = {
                   "url": "https://www.kapirimposhicouncil.gov.zm/wp-content/uploads/2025/12/APPROVAL-OF-2025-CONSTITUENCY-DEVELOPMENT-FUND-COMMUNITY-PROJECTS.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3040,
+                "url": "projects/3040-construction-of-a-health-post-at-kabowa.html",
+                "name": "Construction of a Health Post at Kabowa",
+                "ward": "Chibwelelo",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3038,
+                "url": "projects/3038-construction-of-a-health-post-at-mimbulu.html",
+                "name": "Construction of a Health Post at Mimbulu",
+                "ward": "Lusemfwa",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
               },
               {
                 "id": 2253,
@@ -33132,12 +33293,32 @@ window.CDF_DATA = {
           {
             "name": "Keembe",
             "url": "constituencies/keembe.html",
-            "count": 4,
+            "count": 9,
             "budgetM": 2.61,
             "statusCounts": {
-              "completed": 4
+              "completed": 9
             },
             "projects": [
+              {
+                "id": 3050,
+                "url": "projects/3050-chinyongola-school-dormitories.html",
+                "name": "Chinyongola School Dormitories",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 2469,
                 "url": "projects/2469-construction-of-1x3-classroom-block-at-makoka-primary-school.html",
@@ -33217,6 +33398,86 @@ window.CDF_DATA = {
                   "url": "https://www.chibombocouncil.gov.zm/?p=3047"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 3048,
+                "url": "projects/3048-construction-of-one-flat-and-repair-of-a-borehole-at-chitebulu-school.html",
+                "name": "Construction of one flat and repair of a borehole at Chitebulu School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3049,
+                "url": "projects/3049-malambanyama-laboratory.html",
+                "name": "Malambanyama Laboratory",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3051,
+                "url": "projects/3051-procurement-of-radio-station-equipment.html",
+                "name": "Procurement of Radio Station Equipment",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3054,
+                "url": "projects/3054-purchase-of-a-tipper-truck.html",
+                "name": "Purchase of a Tipper Truck",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
               }
             ]
           },
@@ -33375,10 +33636,10 @@ window.CDF_DATA = {
           {
             "name": "Mkushi North",
             "url": "constituencies/mkushi-north.html",
-            "count": 5,
+            "count": 8,
             "budgetM": 1.14,
             "statusCounts": {
-              "completed": 5
+              "completed": 8
             },
             "projects": [
               {
@@ -33402,6 +33663,46 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3046,
+                "url": "projects/3046-construction-of-fibanga-health-post.html",
+                "name": "Construction of Fibanga Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3045,
+                "url": "projects/3045-construction-of-mboboli-health-post.html",
+                "name": "Construction of Mboboli Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 10: printed as 'Mboboli Heath Post' in the Local Government Accounts Committee report (FY2023), which records that the works had been completed.",
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 3001,
                 "url": "projects/3001-construction-of-staff-houses-and-health-posts-at-mambilima.html",
                 "name": "Construction of Staff Houses and Health Posts at Mambilima",
@@ -33418,6 +33719,26 @@ window.CDF_DATA = {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
                   "url": "https://www.mkushicouncil.gov.zm/?page_id=3066"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3055,
+                "url": "projects/3055-construction-of-a-1x3-classroom-block-at-chibefwe-day-secondary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Chibefwe Day Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": "Country House",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
                 },
                 "fundingYear": null
               },
@@ -33486,12 +33807,32 @@ window.CDF_DATA = {
           {
             "name": "Mkushi South",
             "url": "constituencies/mkushi-south.html",
-            "count": 1,
+            "count": 2,
             "budgetM": 0,
             "statusCounts": {
-              "completed": 1
+              "completed": 2
             },
             "projects": [
+              {
+                "id": 3047,
+                "url": "projects/3047-construction-of-a-1x2-crb-at-kanshibulwa-primary-school.html",
+                "name": "Construction of a 1x2 CRB at Kanshibulwa Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 1762,
                 "url": "projects/1762-delivery-of-two-fuel-bowsers.html",
@@ -33517,10 +33858,12 @@ window.CDF_DATA = {
           {
             "name": "Muchinga",
             "url": "constituencies/muchinga.html",
-            "count": 43,
+            "count": 53,
             "budgetM": 34.43,
             "statusCounts": {
-              "approved": 43
+              "approved": 40,
+              "completed": 12,
+              "ongoing": 1
             },
             "projects": [
               {
@@ -33792,10 +34135,10 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": null,
                 "budgetM": 0.33,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Blitz Run 10 upgrade: the National Assembly Local Government Accounts Committee report on the Auditor-General's CDF report for FY2023 (Serenje section) records this health post as a commissioned project that has since been opened after staff were assigned.",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Muchinga Constituency 2023 CDF Projects - Community Projects (allocated funds, total K15,324,450)",
@@ -33924,6 +34267,26 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 3018,
+                "url": "projects/3018-completion-of-a-1x3-classroom-block-at-sote-primary-school.html",
+                "name": "Completion of a 1x3 classroom block at Sote Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1523,
                 "url": "projects/1523-construction-of-1x3-classroom-block-at-mukopa-primary-school.html",
                 "name": "Construction of 1x3 Classroom Block at Mukopa Primary School",
@@ -33984,6 +34347,26 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 3020,
+                "url": "projects/3020-construction-of-a-1x2-classroom-block-at-kasamba-community-school.html",
+                "name": "Construction of a 1x2 classroom block at Kasamba Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 703,
                 "url": "projects/703-construction-of-a-chiefs-palace.html",
                 "name": "Construction of a Chiefs Palace",
@@ -34042,6 +34425,46 @@ window.CDF_DATA = {
                   "url": "http://www.serenjecouncil.gov.zm/wp-content/uploads/2025/11/MUCHINGA-2025-APPROVED-CDF-PROJECTS.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3021,
+                "url": "projects/3021-construction-of-a-bridge-with-a-wider-structure-width-of-at-least-4m-and-2-lines-900m-culverts-at-tusele.html",
+                "name": "Construction of a bridge with a wider structure width of at least 4m and 2 lines 900m culverts at Tusele",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3022,
+                "url": "projects/3022-construction-of-a-staff-house-at-kaseba-clinic.html",
+                "name": "Construction of a staff house at Kaseba Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
               },
               {
                 "id": 724,
@@ -34124,6 +34547,66 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3019,
+                "url": "projects/3019-installation-of-water-reticulation-system-at-kanona-centre.html",
+                "name": "Installation of water reticulation system at Kanona Centre",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3041,
+                "url": "projects/3041-procurement-and-installation-of-solar-packages-at-nakalengule-health-post-and-koffi-kunda-health-post.html",
+                "name": "Procurement and installation of solar packages at Nakalengule Health Post and Koffi Kunda Health Post",
+                "ward": "Lushibashi / Kabwe Kupela",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3017,
+                "url": "projects/3017-procurement-of-66-banker-beds-at-mailo-boarding-school.html",
+                "name": "Procurement of 66 banker beds at Mailo Boarding School",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 708,
                 "url": "projects/708-procurement-of-fuel-and-lubricants.html",
                 "name": "Procurement of Fuel and Lubricants",
@@ -34172,10 +34655,10 @@ window.CDF_DATA = {
                 "category": "equipment",
                 "contractor": null,
                 "budgetM": 0.063,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Blitz Run 10 upgrade: named in the list of 10 Muchinga Constituency CDF projects officially handed over by the Central Province Permanent Secretary (Serenje Town Council report of the handover ceremony).",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Muchinga Constituency 2023 CDF Projects - Community Projects (allocated funds, total K15,324,450)",
@@ -34272,10 +34755,10 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": null,
                 "budgetM": 1.6,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Blitz Run 10 upgrade: Serenje Town Council (2 Oct 2025) reports two CDF ambulances handed over to Serenje District Hospital, one destined for Muchinga Constituency, under the national distribution of 119 ambulances. This row is Muchinga's approved ambulance provision; recorded as delivered on that handover.",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Muchinga Constituency 2023 CDF Projects - Community Projects (allocated funds, total K15,324,450)",
@@ -34324,6 +34807,26 @@ window.CDF_DATA = {
                 "fundingYear": 2023
               },
               {
+                "id": 3024,
+                "url": "projects/3024-rehabilitation-of-1x2-classroom-block-at-chisomo-primary-school.html",
+                "name": "Rehabilitation of 1x2 classroom block at Chisomo Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1517,
                 "url": "projects/1517-rehabilitation-of-6-houses-at-nchimishi-primary-school.html",
                 "name": "Rehabilitation of 6 Houses at Nchimishi Primary School",
@@ -34364,6 +34867,26 @@ window.CDF_DATA = {
                 "fundingYear": 2023
               },
               {
+                "id": 3023,
+                "url": "projects/3023-replacing-of-the-roof-on-a-1x2-classroom-block-at-mailo-primary-school.html",
+                "name": "Replacing of the roof on a 1x2 classroom block at Mailo Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1518,
                 "url": "projects/1518-servicing-of-cdf-vehicle-and-equipment.html",
                 "name": "Servicing of CDF Vehicle and Equipment",
@@ -34382,6 +34905,26 @@ window.CDF_DATA = {
                   "url": "http://www.serenjecouncil.gov.zm/wp-content/uploads/2025/11/MUCHINGA-2025-APPROVED-CDF-PROJECTS.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3042,
+                "url": "projects/3042-solar-package-installation-at-chief-serenje-health-post.html",
+                "name": "Solar package installation at Chief Serenje Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 70.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
               }
             ]
           },
@@ -34519,11 +35062,11 @@ window.CDF_DATA = {
           {
             "name": "Mwembeshi",
             "url": "constituencies/mwembeshi.html",
-            "count": 21,
+            "count": 23,
             "budgetM": 4.08,
             "statusCounts": {
-              "completed": 18,
-              "ongoing": 3
+              "completed": 21,
+              "ongoing": 2
             },
             "projects": [
               {
@@ -34687,6 +35230,46 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3053,
+                "url": "projects/3053-completion-of-a-culvert-bridge.html",
+                "name": "Completion of a Culvert Bridge",
+                "ward": "Mukalikwa",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3052,
+                "url": "projects/3052-construction-of-lutondo-rural-health-clinic.html",
+                "name": "Construction of Lutondo Rural Health Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 10: distinct from the water reticulation system at Lutondo Rural Health Centre published separately; the Local Government Accounts Committee report (FY2023) names the construction of the clinic itself among projects that had since been completed.",
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 2479,
                 "url": "projects/2479-construction-of-mukulaikwa-boys-hostel-and-ablution-block.html",
                 "name": "Construction of Mukulaikwa Boys Hostel and Ablution Block",
@@ -34695,10 +35278,10 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": "Guru and Rare Works Investment Limited JV",
                 "budgetM": null,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Shibuyunji Town Council article (?p=2170), read in full: construction under CDF 2023 in progress - status ongoing; funding year 2023 from the article title/subject as printed. Ward Mukulaikwa and contractor 'Guru and Rare Works Investment Limited JV' as printed. No amount stated.",
+                "note": "Shibuyunji Town Council article (?p=2170), read in full: construction under CDF 2023 in progress - status ongoing; funding year 2023 from the article title/subject as printed. Ward Mukulaikwa and contractor 'Guru and Rare Works Investment Limited JV' as printed. No amount stated. Blitz Run 10 upgrade: the National Assembly Local Government Accounts Committee report on the Auditor-General's CDF report for FY2023 (Shibuyunji section) records that all the delayed projects listed, including this hostel and ablution block (printed there as Mukalaikwa Secondary School), had since been completed.",
                 "source": {
                   "publisher": "Shibuyunji Town Council",
                   "title": "Construction of Mukulaikwa Boys Hostel and Ablution Block under CDF 2023",
@@ -35182,12 +35765,93 @@ window.CDF_DATA = {
           {
             "name": "Serenje",
             "url": "constituencies/serenje.html",
-            "count": 21,
+            "count": 32,
             "budgetM": 18.99,
             "statusCounts": {
+              "completed": 11,
               "approved": 21
             },
             "projects": [
+              {
+                "id": 3027,
+                "url": "projects/3027-completion-of-1x2-classroom-block-at-chimfunde-primary-school.html",
+                "name": "Completion of 1x2 classroom block at Chimfunde primary school",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3026,
+                "url": "projects/3026-completion-of-1x2-classroom-block-at-kamalamba-primary-school.html",
+                "name": "Completion of 1x2 classroom block at Kamalamba primary school",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3029,
+                "url": "projects/3029-completion-of-1x3-classroom-block-at-ndabala-primary-school.html",
+                "name": "Completion of 1x3 classroom block at Ndabala primary school",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3028,
+                "url": "projects/3028-completion-of-1x4-classroom-block-at-ibolelo-secondary-school.html",
+                "name": "Completion of 1x4 classroom block at Ibolelo secondary school",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 1537,
                 "url": "projects/1537-completion-of-chief-kabamba-s-palace.html",
@@ -35220,7 +35884,7 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Blitz Run 10: a Serenje Town Council handover report (early 2024) records a health post and water scheme in Chisebwa as constructed and handed over; that item is published separately from this 2025 approved-list line, which may be completion works for the same facility. The two lines are kept distinct as printed in their sources.",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Approved 2025 Serenje Central CDF Projects",
@@ -35247,6 +35911,26 @@ window.CDF_DATA = {
                   "url": "http://www.serenjecouncil.gov.zm/wp-content/uploads/2025/11/SERENJE_CENTRAL_2025_APPROVED_CDF1-1.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3032,
+                "url": "projects/3032-completion-of-a-staff-house-at-kabeta-primary-school.html",
+                "name": "Completion of a staff house at Kabeta primary school",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
               },
               {
                 "id": 1526,
@@ -35287,6 +35971,26 @@ window.CDF_DATA = {
                   "url": "http://www.serenjecouncil.gov.zm/wp-content/uploads/2025/11/SERENJE_CENTRAL_2025_APPROVED_CDF1-1.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3043,
+                "url": "projects/3043-construction-of-a-1x2-classroom-block-at-teta-primary-school.html",
+                "name": "Construction of a 1x2 Classroom Block at Teta Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
               },
               {
                 "id": 1532,
@@ -35409,6 +36113,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3025,
+                "url": "projects/3025-construction-of-a-health-post-and-water-scheme-in-chisebwa.html",
+                "name": "Construction of a health post and water scheme in Chisebwa",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 10: handed over at the ceremony reported by Serenje Town Council (early 2024). A separate 2025 approved-list line, 'Completion of Chisebwa Health Post', may be completion works for the same facility; the two lines are kept distinct as printed in their sources.",
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1544,
                 "url": "projects/1544-drilling-of-a-borehole-at-nabowa.html",
                 "name": "Drilling of a Borehole at Nabowa",
@@ -35447,6 +36171,26 @@ window.CDF_DATA = {
                   "url": "http://www.serenjecouncil.gov.zm/wp-content/uploads/2025/11/SERENJE_CENTRAL_2025_APPROVED_CDF1-1.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3030,
+                "url": "projects/3030-expansion-of-kabuluma-bridge.html",
+                "name": "Expansion of Kabuluma bridge",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
               },
               {
                 "id": 725,
@@ -35549,6 +36293,26 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 3044,
+                "url": "projects/3044-procurement-of-office-furniture.html",
+                "name": "Procurement of Office Furniture",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia (Committee on Local Government Accounts)",
+                  "title": "Report on the Report of the Auditor General on the Constituency Development Fund for the financial year ended 31st December 2023",
+                  "url": "https://pbo.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THECOMMITTEE%20ON%20LOCAL%20GOVERNMENT%20ACCOUNTS%20ON%20THE%20REPORT%20OF%20THE%20AUDITOR%20GENERAL%20ON%20THE%20CONSTITUENCY%20DEVELOPMENT%20FUND%20FOR%20THE%20FINANCIAL%20YEAR%20ENDED%2031ST%20DECEMBER%2C%202023%20FOR%20THE%20FOURTH%20SESSION%20OF%20THE%2013TH%20NA_0.pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1542,
                 "url": "projects/1542-procurement-of-a-water-bowser.html",
                 "name": "Procurement of a Water Bowser",
@@ -35569,6 +36333,26 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 3033,
+                "url": "projects/3033-procurement-of-beddings-and-mattresses-at-kashishi-and-mapepala-rural-health-posts.html",
+                "name": "Procurement of beddings and mattresses at Kashishi and Mapepala rural health posts",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1534,
                 "url": "projects/1534-rehabilitation-of-dormitory-ablution-blocks-at-serenje-boys-secondary-school.html",
                 "name": "Rehabilitation of Dormitory Ablution Blocks at Serenje Boys Secondary School",
@@ -35587,6 +36371,26 @@ window.CDF_DATA = {
                   "url": "http://www.serenjecouncil.gov.zm/wp-content/uploads/2025/11/SERENJE_CENTRAL_2025_APPROVED_CDF1-1.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 3031,
+                "url": "projects/3031-rehabilitation-of-tazara-bridge.html",
+                "name": "Rehabilitation of Tazara bridge",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Serenje Town Council",
+                  "title": "Gov't plans to upgrade Serenje District Hospital into General Hospital, says PS (official handover of 19 CDF community projects: 9 in Serenje Central, 10 in Muchinga)",
+                  "url": "https://www.serenjecouncil.gov.zm/?p=1567"
+                },
+                "fundingYear": null
               },
               {
                 "id": 1543,
@@ -42425,10 +43229,10 @@ window.CDF_DATA = {
             "name": "Kasempa",
             "url": "constituencies/kasempa.html",
             "count": 50,
-            "budgetM": 1.63,
+            "budgetM": 0.9,
             "statusCounts": {
-              "approved": 46,
-              "completed": 4
+              "approved": 47,
+              "completed": 3
             },
             "projects": [
               {
@@ -42659,14 +43463,14 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "education",
                 "contractor": null,
-                "budgetM": 0.7307,
-                "status": "completed",
+                "budgetM": null,
+                "status": "approved",
                 "completionPct": null,
                 "photo": {
                   "url": "/photos/shibende-classroom.jpg",
                   "credit": "Kasempa Town Council"
                 },
-                "note": null,
+                "note": "Blitz Run 10 audit correction: previously shown as completed at K730,671. The Kasempa Town Council 2023 Community Projects Approved List (item 16) proves approval under CDF 2023 only and prints no amount; no official completion proof was found. Status corrected to approved; amount not published in the proving source.",
                 "source": {
                   "publisher": "Kasempa Town Council",
                   "title": "Kasempa Town Council 2023 Community Projects Approved List",
@@ -59778,15 +60582,15 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "province": "Copperbelt",
-        "totalProjects": 160,
+        "totalProjects": 165,
         "fundingYears": {
           "2022": 27,
           "2023": 8,
-          "2024": 10,
-          "2025": 23,
+          "2024": 11,
+          "2025": 27,
           "2026": 20
         },
-        "fundingYearKnown": 88,
+        "fundingYearKnown": 93,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -59955,11 +60759,11 @@ window.CDF_DATA = {
           {
             "name": "Chililabombwe",
             "url": "constituencies/chililabombwe.html",
-            "count": 21,
-            "budgetM": 30.26,
+            "count": 26,
+            "budgetM": 35.61,
             "statusCounts": {
-              "approved": 10,
-              "ongoing": 10,
+              "approved": 11,
+              "ongoing": 14,
               "completed": 1
             },
             "projects": [
@@ -60012,6 +60816,46 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": 4.052,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3057,
+                "url": "projects/3057-construction-of-boundary-fence-around-james-phiri-clinic.html",
+                "name": "Construction of Boundary Fence around James Phiri Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.1825,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2024 CDF Projects Submitted by WDCs and Approved by CDFC (document on the council Documents page; file uploaded Sep 2024; Town Clerk stamp 13 Sep 2024; retrieved and read in full, Blitz Run 2 2026-11-01)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3056,
+                "url": "projects/3056-construction-of-drainages.html",
+                "name": "Construction of Drainages",
+                "ward": "Kafue",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.4168,
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
@@ -60104,6 +60948,26 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 3060,
+                "url": "projects/3060-construction-of-roads-and-drainages.html",
+                "name": "Construction of Roads and Drainages",
+                "ward": "Ngebe",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 1.5711,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 1731,
                 "url": "projects/1731-construction-of-a-1x3-classroom-block-at-kakoso-east.html",
                 "name": "Construction of a 1x3 Classroom Block at Kakoso East",
@@ -60132,6 +60996,26 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": 3.4,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3058,
+                "url": "projects/3058-construction-of-a-market-shelter-with-ablution-block-and-water-supply-system-phase-two.html",
+                "name": "Construction of a Market Shelter with Ablution Block and Water Supply System (Phase Two)",
+                "ward": "Nakatindi",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": 2.8068,
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
@@ -60232,6 +61116,26 @@ window.CDF_DATA = {
                 "category": "security",
                 "contractor": null,
                 "budgetM": 0.56,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chililabombwe Municipal Council",
+                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
+                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3059,
+                "url": "projects/3059-kakoso-level-1-hospital-plumbing-water-reticulation-system-and-drilling-and-equipping-of-the-new-borehole.html",
+                "name": "Kakoso Level 1 Hospital Plumbing Water Reticulation System and Drilling and Equipping of the New Borehole",
+                "ward": "Kakoso",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.3667,
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
@@ -65903,15 +66807,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2969,
+    "totalProjects": 3014,
     "fundingYears": {
-      "2022": 414,
+      "2022": 415,
       "2023": 252,
-      "2024": 482,
-      "2025": 850,
+      "2024": 483,
+      "2025": 855,
       "2026": 239
     },
-    "fundingYearKnown": 2237
+    "fundingYearKnown": 2244
   },
   "people": {
     "bursaries": [
@@ -66008,10 +66912,10 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 662,
+        "tracked": 663,
         "completed": 63,
         "underway": 42,
-        "approved": 557,
+        "approved": 558,
         "other": 0,
         "completedPct": 9.5,
         "ruralPct": 83.2,
@@ -66041,12 +66945,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Central",
-        "tracked": 342,
-        "completed": 52,
+        "tracked": 381,
+        "completed": 94,
         "underway": 13,
-        "approved": 277,
+        "approved": 274,
         "other": 0,
-        "completedPct": 15.2,
+        "completedPct": 24.7,
         "ruralPct": 76.6,
         "urbanPct": 23.4
       },
@@ -66064,11 +66968,11 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "tracked": 264,
-        "completed": 48,
+        "completed": 47,
         "underway": 8,
-        "approved": 208,
+        "approved": 209,
         "other": 0,
-        "completedPct": 18.2,
+        "completedPct": 17.8,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -66085,12 +66989,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Copperbelt",
-        "tracked": 160,
+        "tracked": 165,
         "completed": 44,
-        "underway": 37,
-        "approved": 79,
+        "underway": 41,
+        "approved": 80,
         "other": 0,
-        "completedPct": 27.5,
+        "completedPct": 26.7,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -66149,60 +67053,60 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2337,
-        "completed": 651,
-        "pct": 27.9
+        "projects": 2377,
+        "completed": 693,
+        "pct": 29.2
       },
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 368,
+        "projects": 373,
         "completed": 116,
-        "pct": 31.5
+        "pct": 31.1
       },
       {
         "label": "In between",
         "provinces": 1,
         "projects": 264,
-        "completed": 48,
-        "pct": 18.2
+        "completed": 47,
+        "pct": 17.8
       }
     ],
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 708,
+        "ruralN": 726,
         "urbanN": 90,
-        "ruralPct": 30.3,
-        "urbanPct": 24.5
+        "ruralPct": 30.5,
+        "urbanPct": 24.1
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 640,
-        "urbanN": 71,
-        "ruralPct": 27.4,
-        "urbanPct": 19.3
+        "ruralN": 644,
+        "urbanN": 73,
+        "ruralPct": 27.1,
+        "urbanPct": 19.6
       },
       {
         "cat": "Health",
-        "ruralN": 411,
-        "urbanN": 76,
-        "ruralPct": 17.6,
-        "urbanPct": 20.7
+        "ruralN": 421,
+        "urbanN": 77,
+        "ruralPct": 17.7,
+        "urbanPct": 20.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 417,
+        "ruralN": 421,
         "urbanN": 62,
-        "ruralPct": 17.8,
-        "urbanPct": 16.8
+        "ruralPct": 17.7,
+        "urbanPct": 16.6
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 121,
-        "urbanN": 49,
-        "ruralPct": 5.2,
-        "urbanPct": 13.3
+        "ruralN": 125,
+        "urbanN": 51,
+        "ruralPct": 5.3,
+        "urbanPct": 13.7
       },
       {
         "cat": "Police & security",
@@ -66214,18 +67118,18 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 2969,
+    "total": 3014,
     "statuses": {
       "approved": 1870,
-      "completed": 815,
+      "completed": 856,
       "funded": 10,
       "in_progress": 38,
-      "ongoing": 231,
+      "ongoing": 235,
       "stalled": 4,
       "unknown": 1
     },
-    "completedPct": 27.5,
-    "approvedPct": 63.3,
+    "completedPct": 28.4,
+    "approvedPct": 62.4,
     "withPhoto": 23,
     "constituencies": 151,
     "provinces": 10
