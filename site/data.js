@@ -130,6 +130,14 @@ window.CDF_DATA = {
   ],
   "news": [
     {
+      "date": "3 November 2026",
+      "source": "Zambia News and Information Services (ZANIS)",
+      "title": "Cabinet approves the 2027 budget — the CDF rate lands on Friday",
+      "text": "Cabinet has approved the proposed 2027 National Budget, clearing the way for its presentation to the National Assembly on Friday 6 November. The approval covers the 2027 Estimates of Revenue and Expenditure together with the associated revenue mobilisation, public expenditure and structural reform measures for the fiscal year.\n\nThe decision was taken at the third Cabinet meeting, held on Friday 30 October, and announced in a statement issued by the Chief Government Spokesperson, Elvis Nkandu, published on 3 November. Cabinet pointed to a positive economic trajectory and stressed that prudent fiscal management and sustained macroeconomic stability are critical to advancing the Grow Zambia Agenda and strengthening investor confidence. The same meeting also approved the signing of a Comprehensive Economic Partnership Agreement with the United Arab Emirates and approved in principle a Trade Remedies Bill to protect domestic industry.\n\nFor the CDF, nothing in the approval sets the 2027 rate: no CDF figure was announced with it. The per-constituency rate and the constituency basis — 156, or the new 226 — are set only when Finance Minister Situmbeko Musokotwane reads the budget on Friday and the Estimates are published. The Treasury's hearings projection of CDF rising to about K9.0 billion remains a projection until then, and this tracker will record the rate from the budget documents themselves.",
+      "url": "https://facebook.com/100088542948322/posts/pfbid022J1y74umUSdnkosaJDZEgSC6vUsmhYtk4JCTXLcWjyosjHtQZHbzoauCZm1uhfZFl/",
+      "page": "developments/cabinet-approves-the-2027-budget-the-cdf-rate-lands-on-friday.html"
+    },
+    {
       "date": "29 October 2026",
       "source": "Lusaka Brief, reporting News Diggers",
       "title": "2027 budget moved to 6 November — the CDF rate lands then",
