@@ -1,0 +1,278 @@
+{
+ "title": "FY2024 Auditor-General report — Appendix 2.1 vs Appendix 3 Community Projects money binding conflict",
+ "finding": "The FY2024 AG report binds Community-Projects money to constituency names in two places that disagree for these 53 constituencies: Appendix 2.1's row for a constituency carries the figures Appendix 3 binds to a neighbouring constituency (one-row rotation within district listing runs). National totals are unaffected. Which appendix slipped cannot be settled from the report.",
+ "evidence": "Audited Record Deep Audit 2026-11-03, section A: geometric reads of the printed PDF (App 2.1 p.221 Chongwe b/f K7,165,466 vs App 3 p.259 Chongwe K20,362,763) plus full-table diff; 49 of the 53 rows match exactly one other constituency's Appendix 3 tuple. Set independently re-derived from the staged extraction CSVs when the disclosure was landed and matched exactly.",
+ "source_log": "hidden_files/ag-deep-audit-2026-11-03.md (goal workspace)",
+ "ruling": "Decision-pack item 25: Caleb ruled the disclosure route on 2026-11-03 ('Fix it and lets correct what's wrong'). The site keeps publishing the Appendix 2.1 binding, exactly as printed, and discloses the conflict on each affected constituency page. No figure, status or binding was changed.",
+ "site_binding_published": "Appendix 2.1",
+ "count": 53,
+ "constituency_ids": [
+  19,
+  20,
+  21,
+  44,
+  45,
+  55,
+  56,
+  57,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156
+ ],
+ "constituencies": [
+  {
+   "id": 19,
+   "name": "Bwana Mkubwa"
+  },
+  {
+   "id": 55,
+   "name": "Bweengwa"
+  },
+  {
+   "id": 137,
+   "name": "Chavuma"
+  },
+  {
+   "id": 129,
+   "name": "Chawama"
+  },
+  {
+   "id": 20,
+   "name": "Chifubu"
+  },
+  {
+   "id": 45,
+   "name": "Chikankata"
+  },
+  {
+   "id": 125,
+   "name": "Chilanga"
+  },
+  {
+   "id": 112,
+   "name": "Chilubi"
+  },
+  {
+   "id": 124,
+   "name": "Chimbamilonga"
+  },
+  {
+   "id": 149,
+   "name": "Chinsali"
+  },
+  {
+   "id": 44,
+   "name": "Chirundu"
+  },
+  {
+   "id": 126,
+   "name": "Chongwe"
+  },
+  {
+   "id": 128,
+   "name": "Feira"
+  },
+  {
+   "id": 138,
+   "name": "Ikeleng'i"
+  },
+  {
+   "id": 150,
+   "name": "Isoka"
+  },
+  {
+   "id": 139,
+   "name": "Kabompo"
+  },
+  {
+   "id": 21,
+   "name": "Kabushi"
+  },
+  {
+   "id": 130,
+   "name": "Kabwata"
+  },
+  {
+   "id": 127,
+   "name": "Kafue"
+  },
+  {
+   "id": 152,
+   "name": "Kanchibiya"
+  },
+  {
+   "id": 131,
+   "name": "Kanyama"
+  },
+  {
+   "id": 113,
+   "name": "Kaputa"
+  },
+  {
+   "id": 114,
+   "name": "Kasama Central"
+  },
+  {
+   "id": 140,
+   "name": "Kasempa"
+  },
+  {
+   "id": 116,
+   "name": "Lubansenshi"
+  },
+  {
+   "id": 115,
+   "name": "Lukashya"
+  },
+  {
+   "id": 120,
+   "name": "Lunte"
+  },
+  {
+   "id": 117,
+   "name": "Lupososhi"
+  },
+  {
+   "id": 132,
+   "name": "Lusaka Central"
+  },
+  {
+   "id": 151,
+   "name": "Mafinga"
+  },
+  {
+   "id": 123,
+   "name": "Malole"
+  },
+  {
+   "id": 133,
+   "name": "Mandevu"
+  },
+  {
+   "id": 141,
+   "name": "Manyinga"
+  },
+  {
+   "id": 134,
+   "name": "Matero"
+  },
+  {
+   "id": 118,
+   "name": "Mbala"
+  },
+  {
+   "id": 153,
+   "name": "Mfuwe"
+  },
+  {
+   "id": 56,
+   "name": "Monze Central"
+  },
+  {
+   "id": 57,
+   "name": "Moomba"
+  },
+  {
+   "id": 154,
+   "name": "Mpika Central"
+  },
+  {
+   "id": 121,
+   "name": "Mporokoso"
+  },
+  {
+   "id": 122,
+   "name": "Mpulungu"
+  },
+  {
+   "id": 142,
+   "name": "Mufumbwe"
+  },
+  {
+   "id": 135,
+   "name": "Munali"
+  },
+  {
+   "id": 143,
+   "name": "Mwinilunga"
+  },
+  {
+   "id": 155,
+   "name": "Nakonde"
+  },
+  {
+   "id": 136,
+   "name": "Rufunsa"
+  },
+  {
+   "id": 119,
+   "name": "Senga Hill"
+  },
+  {
+   "id": 156,
+   "name": "Shiwa Ng'andu"
+  },
+  {
+   "id": 144,
+   "name": "Solwezi Central"
+  },
+  {
+   "id": 145,
+   "name": "Solwezi East"
+  },
+  {
+   "id": 146,
+   "name": "Solwezi West"
+  },
+  {
+   "id": 147,
+   "name": "Zambezi East"
+  },
+  {
+   "id": 148,
+   "name": "Zambezi West"
+  }
+ ]
+}

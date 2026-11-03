@@ -245,6 +245,21 @@ def main():
     _ag_ids = ({n: i for i, n in c.execute(
         "SELECT id, name FROM constituencies WHERE set_id = 1")} if _ag_ok else {})
 
+    # FY2024 Appendix 2.1 vs Appendix 3 money-binding conflict (Audited Record
+    # Deep Audit 2026-11-03, finding A; decision-pack item 25 — Caleb ruled the
+    # disclosure route): for these constituencies the AG report binds Community
+    # Projects money to different names in the two appendices. The site keeps
+    # publishing the Appendix 2.1 binding, exactly as printed, and discloses
+    # the conflict on the page. Affected set: model/ag_money_conflicts_fy2024.json.
+    _ag_money_conflict = set()
+    if _ag_ok:
+        try:
+            with open(HERE / "ag_money_conflicts_fy2024.json") as _cf:
+                _ag_money_conflict = set(
+                    _agjson.load(_cf)["constituency_ids"])
+        except Exception:
+            _ag_money_conflict = set()
+
     def _agk(v):
         if v is None:
             return None
@@ -386,6 +401,14 @@ def main():
                 foot_html += ('<p class="agnote">† The report prints this constituency '
                               'inside a district-combined figure; the split by '
                               'constituency is not published.</p>')
+            if fy == 2024 and cid in _ag_money_conflict:
+                foot_html += ('<p class="agnote">The Auditor-General\'s FY2024 '
+                              'report prints Community Projects money for this '
+                              'constituency two ways that disagree — Appendix 2.1 '
+                              'and Appendix 3 attach these figures to different '
+                              'constituencies. The figures shown here follow '
+                              'Appendix 2.1, exactly as printed. The project '
+                              'status counts on this page are not affected.</p>')
             stat_html = ""
             if srows:
                 blocks = []
