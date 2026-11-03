@@ -18046,13 +18046,13 @@ window.CDF_DATA = {
         "province": "Southern",
         "totalProjects": 514,
         "fundingYears": {
-          "2022": 27,
+          "2022": 28,
           "2023": 42,
           "2024": 127,
           "2025": 149,
           "2026": 26
         },
-        "fundingYearKnown": 371,
+        "fundingYearKnown": 372,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -21551,7 +21551,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1327,
@@ -22025,8 +22025,8 @@ window.CDF_DATA = {
             "budgetM": 4.12,
             "statusCounts": {
               "approved": 19,
-              "completed": 8,
-              "ongoing": 2
+              "completed": 9,
+              "ongoing": 1
             },
             "projects": [
               {
@@ -22278,14 +22278,14 @@ window.CDF_DATA = {
                 "category": "sanitation",
                 "contractor": null,
                 "budgetM": 0.72,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": 80.0,
                 "photo": null,
-                "note": null,
+                "note": "Blitz Run 11 upgrade: commissioned as 'the Maramba Sewer System, R section' in Livingstone City Council's LCC News, Second Quarter, June 2026 - one of 13 CDF projects commissioned in Livingstone (about K7.5 million in total for the 13; no per-project amount or funding year printed in the newsletter). Amount as previously published from the council Public Relations Manager project updates.",
                 "source": {
                   "publisher": "Livingstone City Council",
-                  "title": "Livingstone City Council project updates by the Public Relations Manager (Kasiya boreholes, Linda Township road grading, Maramba sewer)",
-                  "url": "https://www.livingstonecouncil.gov.zm/?author=10"
+                  "title": "LCC News, Second Quarter, June 2026 (13 CDF projects commissioned in Livingstone)",
+                  "url": "http://www.livingstonecouncil.gov.zm/wp-content/uploads/2026/09/LCC-June-news-2026.pdf"
                 },
                 "fundingYear": null
               },
@@ -42652,14 +42652,16 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 264,
+        "totalProjects": 269,
         "fundingYears": {
-          "2022": 52,
+          "2020": 2,
+          "2021": 1,
+          "2022": 54,
           "2023": 40,
           "2024": 46,
           "2025": 44
         },
-        "fundingYearKnown": 182,
+        "fundingYearKnown": 187,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -43222,6 +43224,118 @@ window.CDF_DATA = {
                   "url": "https://www.ikelengecouncil.gov.zm/wp-content/uploads/2024/09/Ikelenge-Community-Projects-02022024.pdf"
                 },
                 "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Kabompo",
+            "url": "constituencies/kabompo.html",
+            "count": 5,
+            "budgetM": 0.38,
+            "statusCounts": {
+              "in_progress": 2,
+              "stalled": 3
+            },
+            "projects": [
+              {
+                "id": 3065,
+                "url": "projects/3065-construction-of-a-1x3-classroom-block-crb-at-chikonkwelo-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block (CRB) at Chikonkwelo Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": "Kachema Ni Yesu Transport",
+                "budgetM": null,
+                "status": "in_progress",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2022 CDF section): works in progress at foundation level; footing concrete rejected at the 6 Jan 2023 supervision for not meeting the required compressive strength.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-28.02.2023.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 3064,
+                "url": "projects/3064-construction-of-a-1x3-classroom-block-crb-at-kamisamba-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block (CRB) at Kamisamba Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "stalled",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2021 CDF section): project stalled, contractor deserted the site; contract terminated by the Procurement Committee.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-28.02.2023.pdf"
+                },
+                "fundingYear": 2021
+              },
+              {
+                "id": 3062,
+                "url": "projects/3062-construction-of-a-1x3-classroom-block-crb-at-katendwa-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block (CRB) at Katendwa Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": "Samwanji",
+                "budgetM": 0.3766,
+                "status": "stalled",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2020 CDF section): project stalled, contractor (Samwanji) deserted the site; structure roofed and painted. Contract sum K376,552.50 as stated in the Finance Committee item of the same minute booklet (Samwanji Guest Lodge and General Dealers, 2020 CDF award); the progress report itself prints no amount.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-28.02.2023.pdf"
+                },
+                "fundingYear": 2020
+              },
+              {
+                "id": 3066,
+                "url": "projects/3066-construction-of-a-1x3-classroom-block-crb-at-maveve-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block (CRB) at Maveve Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "in_progress",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2022 CDF section): works in progress, structure at foundation level with strip foundation cast.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-28.02.2023.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 3063,
+                "url": "projects/3063-mumbeji-water-reticulation-system.html",
+                "name": "Mumbeji Water Reticulation System",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": "Jomo Tech Engineering",
+                "budgetM": null,
+                "status": "stalled",
+                "completionPct": null,
+                "photo": null,
+                "note": "Blitz Run 11: status as printed in Kabompo Town Council's CDF Progress Report as at 13 Jan 2023 (2020 CDF section): project stalled, contractor (Jomo Tech Engineering) deserted the site after erecting the steel stand and 10,000-litre UPVC tank.",
+                "source": {
+                  "publisher": "Kabompo Town Council",
+                  "title": "Minutes of the Plans, Works and Social Services Committee, 25 Jan 2023 - CDF Progress Report as at 13 Jan 2023 (item PWSS/349/01/23)",
+                  "url": "https://www.kabompocouncil.gov.zm/wp-content/uploads/2024/04/MINUTE-BOOKLET-28.02.2023.pdf"
+                },
+                "fundingYear": 2020
               }
             ]
           },
@@ -64148,13 +64262,14 @@ window.CDF_DATA = {
         "province": "Northern",
         "totalProjects": 125,
         "fundingYears": {
+          "2021": 2,
           "2022": 6,
           "2023": 4,
           "2024": 24,
           "2025": 30,
           "2026": 7
         },
-        "fundingYearKnown": 71,
+        "fundingYearKnown": 73,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -64536,7 +64651,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 631,
@@ -64616,7 +64731,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 612,
@@ -66807,15 +66922,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 3014,
+    "totalProjects": 3019,
     "fundingYears": {
-      "2022": 415,
+      "2020": 2,
+      "2021": 3,
+      "2022": 418,
       "2023": 252,
       "2024": 483,
       "2025": 855,
       "2026": 239
     },
-    "fundingYearKnown": 2244
+    "fundingYearKnown": 2252
   },
   "people": {
     "bursaries": [
@@ -66957,22 +67074,22 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "tracked": 514,
-        "completed": 184,
-        "underway": 39,
+        "completed": 185,
+        "underway": 38,
         "approved": 289,
         "other": 2,
-        "completedPct": 35.8,
+        "completedPct": 36.0,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
       {
         "name": "North-Western",
-        "tracked": 264,
+        "tracked": 269,
         "completed": 47,
-        "underway": 8,
+        "underway": 10,
         "approved": 209,
-        "other": 0,
-        "completedPct": 17.8,
+        "other": 3,
+        "completedPct": 17.5,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -67054,7 +67171,7 @@ window.CDF_DATA = {
         "label": "Rural provinces",
         "provinces": 7,
         "projects": 2377,
-        "completed": 693,
+        "completed": 694,
         "pct": 29.2
       },
       {
@@ -67067,9 +67184,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 264,
+        "projects": 269,
         "completed": 47,
-        "pct": 17.8
+        "pct": 17.5
       }
     ],
     "typeMix": [
@@ -67118,20 +67235,20 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 3014,
+    "total": 3019,
     "statuses": {
       "approved": 1870,
-      "completed": 856,
+      "completed": 857,
       "funded": 10,
-      "in_progress": 38,
-      "ongoing": 235,
-      "stalled": 4,
+      "in_progress": 40,
+      "ongoing": 234,
+      "stalled": 7,
       "unknown": 1
     },
     "completedPct": 28.4,
-    "approvedPct": 62.4,
+    "approvedPct": 62.3,
     "withPhoto": 23,
-    "constituencies": 151,
+    "constituencies": 152,
     "provinces": 10
   }
 };
