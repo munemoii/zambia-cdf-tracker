@@ -84,6 +84,18 @@ window.CDF_DATA = {
       "projPct": 52
     }
   },
+  "releasedOnly": {
+    "2024": {
+      "released": 2630,
+      "releasedPct": 55,
+      "label": "per the Auditor-General"
+    },
+    "2026": {
+      "released": 2200,
+      "releasedPct": 35,
+      "label": "cumulative to June 2026 — the year is still running"
+    }
+  },
   "delivered": [
     {
       "value": "2,800+",

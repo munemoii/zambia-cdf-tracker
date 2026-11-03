@@ -59,12 +59,14 @@ def main():
         return r[0] if r else None
 
     movement = {}
+    released_by_year = {}
     c2 = con.cursor()
     flow_years = [r[0] for r in c.execute(
         "SELECT DISTINCT budget_year FROM disbursements WHERE constituency_id IS NULL AND component='all'").fetchall()]
     for yr in flow_years:
         released = c2.execute("""SELECT amount_m FROM disbursements WHERE budget_year=? AND constituency_id IS NULL
                                 AND component='all' ORDER BY id DESC LIMIT 1""", (yr,)).fetchone()[0]
+        released_by_year[yr] = released
         vals = {
             "released": released,
             "releasedPct": metric("released_pct_of_allocation", yr),
@@ -75,6 +77,28 @@ def main():
         }
         if all(v is not None for v in vals.values()):
             movement[yr] = {k: (int(v) if float(v).is_integer() else v) for k, v in vals.items()}
+
+    # Release figures published without the full movement chain (an
+    # Auditor-General release total for 2024; a cumulative mid-year figure
+    # for 2026): the Money page glance table shows these in its Released
+    # column with the label below, while the flow dashboard stays
+    # movement-gated. Update the label when a newer figure supersedes one.
+    _released_labels = {
+        2024: "per the Auditor-General",
+        2026: "cumulative to June 2026 — the year is still running",
+    }
+    released_only = {}
+    for yr, amt in released_by_year.items():
+        if yr in movement:
+            continue
+        alloc = c.execute("SELECT total_m FROM budget_years WHERE budget_year=?", (yr,)).fetchone()
+        if alloc is None:
+            continue
+        released_only[yr] = {
+            "released": (int(amt) if float(amt).is_integer() else amt),
+            "releasedPct": round(amt / alloc[0] * 100),
+            "label": _released_labels.get(yr, ""),
+        }
 
     delivered = []
     for mname, title, desc, plus in TILE_MAP:
@@ -290,7 +314,7 @@ def main():
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util, "record": record,
+        "movement": movement, "releasedOnly": released_only, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util, "record": record,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"

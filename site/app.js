@@ -1,13 +1,14 @@
 (function(){
   // All figures live in data.js (window.CDF_DATA) so the weekly source check
   // can refresh the dashboard by updating that one file.
-  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},delivered:[],news:[],pilot:null,record:null};
+  var D=window.CDF_DATA||{meta:{},years:[],seats:156,provinces:[],movement:{},releasedOnly:{},delivered:[],news:[],pilot:null,record:null};
   var YEARS=D.years;
   var SEATS=D.seats;
   var PROVINCES=D.provinces;
   var state={year:2026,province:"Copperbelt",query:""};
   // Reported release / utilisation figures, amounts in K millions.
   var MOVEMENT=D.movement;
+  var RELEASED_ONLY=D.releasedOnly||{};
 
   function fmtM(v){ // millions
     if(v>=1000) return "K"+(v/1000).toFixed(2).replace(/\.?0+$/,"")+"bn";
@@ -251,6 +252,10 @@
       if(mv){
         relHtml=fmtM(mv.released)+"<small>≈"+mv.releasedPct+"% of allocation</small>";
         utilHtml=mv.util+"%<small>reported rate</small>";
+      }else if(RELEASED_ONLY[y.year]){
+        var ro=RELEASED_ONLY[y.year];
+        relHtml=fmtM(ro.released)+"<small>≈"+ro.releasedPct+"% of allocation"+(ro.label?" · "+ro.label:"")+"</small>";
+        utilHtml='<span class="np2">—</span>';
       }else if(y.year===2026){
         relHtml='<span class="np2">Not yet reported</span>';
         utilHtml='<span class="np2">—</span>';
