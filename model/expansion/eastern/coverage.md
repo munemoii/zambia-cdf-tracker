@@ -624,3 +624,8 @@ Funding-year naming, per source:
   no project list usable as rows).
 
 ---
+
+## 2026-11-03 sweep — Lumezi 2026 approved list landed
+- Lumezi Town Council's CDF page links a 2026 approval letter (MLGRD Eastern PLGO, ref MLGRD/EP/54/34/15, 17 Feb 2026) and the "Lumezi Community Projects 2026" list (stamped 18 Sep 2025; the June copy is headed "Appendix 1: Approved Community Projects"). All 16 rows ingested as approved, FY2026, with Engineer's estimates; the rows sum exactly to the printed grand total K19,902,581.36. Source key: lumezi-2026-approved.
+- Chipata FY2026 rows (49) were re-pointed from the Publications index source to the two actual 28 Oct 2026 documents (chipata-luangeni-2026-justifications, chipata-central-2026-justifications) — rows unchanged, provenance corrected.
+- Sinda: Publications page confirmed to carry NO approved-list documents (2027 application forms only, 1 Sep 2026). The homepage tracker's "33 approved 2026 / K128.3M" claim remains a held lead with internal conflicts.
