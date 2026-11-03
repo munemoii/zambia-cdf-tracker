@@ -4647,23 +4647,23 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 663,
+        "totalProjects": 682,
         "fundingYears": {
-          "2022": 137,
+          "2022": 139,
           "2023": 54,
-          "2024": 105,
-          "2025": 189,
-          "2026": 109
+          "2024": 119,
+          "2025": 190,
+          "2026": 110
         },
-        "fundingYearKnown": 594,
+        "fundingYearKnown": 612,
         "constituencies": [
           {
             "name": "Chadiza",
             "url": "constituencies/chadiza.html",
-            "count": 20,
+            "count": 21,
             "budgetM": 0,
             "statusCounts": {
-              "ongoing": 7,
+              "ongoing": 8,
               "completed": 13
             },
             "projects": [
@@ -5008,6 +5008,26 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 3173,
+                "url": "projects/3173-road-works-on-chiswa-road-26-km.html",
+                "name": "Road Works on Chiswa Road (26 km)",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chadiza Town Council",
+                  "title": "Chadiza Chiswa Road Project Update: Gravel Dumping in Progress",
+                  "url": "https://www.chadizacouncil.gov.zm/?p=2046"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1070,
                 "url": "projects/1070-tipper-truck.html",
                 "name": "Tipper Truck",
@@ -5072,10 +5092,11 @@ window.CDF_DATA = {
           {
             "name": "Chama North",
             "url": "constituencies/chama-north.html",
-            "count": 1,
-            "budgetM": 0,
+            "count": 2,
+            "budgetM": 4.0,
             "statusCounts": {
-              "ongoing": 1
+              "ongoing": 1,
+              "completed": 1
             },
             "projects": [
               {
@@ -5097,16 +5118,36 @@ window.CDF_DATA = {
                   "url": "https://www.mlgrd.gov.zm/wp-content/uploads/2023/09/Chama-Town-Council-Newsletter.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 3169,
+                "url": "projects/3169-procurement-of-motor-grader.html",
+                "name": "Procurement of Motor Grader",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": "Barloworld",
+                "budgetM": 3.996,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chama Town Council",
+                  "title": "Chama Town Council Procures Motor Graders Worth Over 7 Million Kwacha",
+                  "url": "https://www.chamacouncil.gov.zm/?p=1002"
+                },
+                "fundingYear": 2022
               }
             ]
           },
           {
             "name": "Chama South",
             "url": "constituencies/chama-south.html",
-            "count": 1,
-            "budgetM": 0,
+            "count": 2,
+            "budgetM": 4.0,
             "statusCounts": {
-              "completed": 1
+              "completed": 2
             },
             "projects": [
               {
@@ -5128,6 +5169,26 @@ window.CDF_DATA = {
                   "url": "https://www.mlgrd.gov.zm/wp-content/uploads/2023/09/Chama-Town-Council-Newsletter.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 3170,
+                "url": "projects/3170-procurement-of-motor-grader.html",
+                "name": "Procurement of Motor Grader",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": "Barloworld",
+                "budgetM": 3.996,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chama Town Council",
+                  "title": "Chama Town Council Procures Motor Graders Worth Over 7 Million Kwacha",
+                  "url": "https://www.chamacouncil.gov.zm/?p=1002"
+                },
+                "fundingYear": 2022
               }
             ]
           },
@@ -12981,10 +13042,10 @@ window.CDF_DATA = {
             "name": "Lumezi",
             "url": "constituencies/lumezi.html",
             "count": 52,
-            "budgetM": 29.48,
+            "budgetM": 29.63,
             "statusCounts": {
-              "approved": 47,
-              "completed": 4,
+              "approved": 46,
+              "completed": 5,
               "ongoing": 1
             },
             "projects": [
@@ -13836,15 +13897,15 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "health",
                 "contractor": null,
-                "budgetM": null,
-                "status": "approved",
+                "budgetM": 0.15,
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Upgraded to completed in Blitz Run 14: Lumezi Town Council reports the incubator, procured using the 2025 CDF at a cost of K150,000, was handed over (council article, lumezicouncil.gov.zm/?p=3975, 9 Jan 2026, read in full). Amount pinned from the article (was unpublished).",
                 "source": {
                   "publisher": "Lumezi Town Council",
-                  "title": "2025 CDF Community Projects (approved list, spreadsheet published as PDF on the council website)",
-                  "url": "http://www.lumezicouncil.gov.zm/wp-content/uploads/2025/12/2025-APPROVED-COMMUNITY-PROJECTS.pdf"
+                  "title": "Referrals of premature births to reduce following procurement of an incubator",
+                  "url": "https://www.lumezicouncil.gov.zm/?p=3975"
                 },
                 "fundingYear": 2025
               },
@@ -14425,11 +14486,11 @@ window.CDF_DATA = {
           {
             "name": "Malambo",
             "url": "constituencies/malambo.html",
-            "count": 14,
-            "budgetM": 21.91,
+            "count": 15,
+            "budgetM": 26.01,
             "statusCounts": {
               "approved": 11,
-              "ongoing": 2,
+              "ongoing": 3,
               "completed": 1
             },
             "projects": [
@@ -14692,6 +14753,26 @@ window.CDF_DATA = {
                   "url": "http://www.mambwecouncil.gov.zm/wp-content/uploads/2025/11/MAMBWE-TOWN-COUNCIL-NEWS-LETTER.pdf"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 3172,
+                "url": "projects/3172-road-improvement-works-on-malama-road-28-km.html",
+                "name": "Road Improvement Works on Malama Road (28 km)",
+                "ward": "Malama",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 4.1,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mambwe Town Council",
+                  "title": "Road improvement works on Malama Road in Mambwe District progressing well",
+                  "url": "https://www.mambwecouncil.gov.zm/?p=2390"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1059,
@@ -15553,11 +15634,11 @@ window.CDF_DATA = {
           {
             "name": "Nyimba",
             "url": "constituencies/nyimba.html",
-            "count": 11,
+            "count": 25,
             "budgetM": 0.55,
             "statusCounts": {
               "ongoing": 4,
-              "completed": 7
+              "completed": 21
             },
             "projects": [
               {
@@ -15581,6 +15662,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3167,
+                "url": "projects/3167-construction-of-1x3-classroom-block-at-nyimba-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Nyimba Primary School",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 2518,
                 "url": "projects/2518-construction-of-great-east-road-junction-fumba-primary-school-road.html",
                 "name": "Construction of Great East Road Junction - Fumba Primary School Road",
@@ -15599,6 +15700,46 @@ window.CDF_DATA = {
                   "url": "http://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/09/Nyimba_Town_Council_2026_Mid_Year_Report.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 3155,
+                "url": "projects/3155-construction-of-kazolwe-opd-rural-health-post.html",
+                "name": "Construction of Kazolwe OPD Rural Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3158,
+                "url": "projects/3158-construction-of-mini-water-reticulation-system-at-kazolwe-rural-health-centre.html",
+                "name": "Construction of Mini Water Reticulation System at Kazolwe Rural Health Centre",
+                "ward": "Kaliwe",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 2519,
@@ -15639,6 +15780,66 @@ window.CDF_DATA = {
                   "url": "http://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/09/Nyimba_Town_Council_2026_Mid_Year_Report.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 3157,
+                "url": "projects/3157-construction-of-a-maternity-annex-at-kacholola-rural-health-centre.html",
+                "name": "Construction of a Maternity Annex at Kacholola Rural Health Centre",
+                "ward": "Mombe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3160,
+                "url": "projects/3160-construction-of-a-mini-water-system-at-luangazi-health-post.html",
+                "name": "Construction of a Mini Water System at Luangazi Health Post",
+                "ward": "Chinambi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3168,
+                "url": "projects/3168-construction-of-a-staff-house-at-mulamba-primary-school.html",
+                "name": "Construction of a Staff House at Mulamba Primary School",
+                "ward": "Chinambi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 2521,
@@ -15701,6 +15902,66 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3162,
+                "url": "projects/3162-drilling-of-fifteen-15-boreholes-and-equipping-them-with-indian-mark-ii-handpumps-at-mkoma-village-mtilizi-ward-mtumbatwa-community-school-chiweza-ward-nyakwalala-b-kaliwe-ward-nyamadwe-village-chinsimbwe-ward-mbaluwa-village-chinambi-ward-bernard-village-vizimumba-ward-humphrey-village-msima-ward-afalao-village-ngozi-ward-msaika-village-katipa-ward-nkhanda-community-school-msima-ward-and-villi-village-vizimumba-ward.html",
+                "name": "Drilling of Fifteen (15) Boreholes and Equipping Them with Indian Mark II Handpumps at Mkoma Village (Mtilizi Ward), Mtumbatwa Community School (Chiweza Ward), Nyakwalala B (Kaliwe Ward), Nyamadwe Village (Chinsimbwe Ward), Mbaluwa Village (Chinambi Ward), Bernard Village (Vizimumba Ward), Humphrey Village (Msima Ward), Afalao Village (Ngozi Ward), Msaika Village (Katipa Ward), Nkhanda Community School (Msima Ward) and Villi Village (Vizimumba Ward)",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3164,
+                "url": "projects/3164-extension-of-a-mortuary-at-nyimba-urban-clinic.html",
+                "name": "Extension of a Mortuary at Nyimba Urban Clinic",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3165,
+                "url": "projects/3165-installation-of-solar-streetlights-along-the-great-east-road-t-4.html",
+                "name": "Installation of Solar Streetlights along the Great East Road (T-4)",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 2524,
                 "url": "projects/2524-installation-of-solar-system-at-district-education-board-secretary-s-office.html",
                 "name": "Installation of Solar System at District Education Board Secretary's Office",
@@ -15719,6 +15980,26 @@ window.CDF_DATA = {
                   "url": "http://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/09/Nyimba_Town_Council_2026_Mid_Year_Report.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 3166,
+                "url": "projects/3166-installation-of-a-12-kw-solar-power-system-at-nyimba-civic-centre.html",
+                "name": "Installation of a 12 kW Solar Power System at Nyimba Civic Centre",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 2517,
@@ -15741,6 +16022,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3156,
+                "url": "projects/3156-procurement-of-medical-equipment-mattresses-and-beds-at-nyakolwe-msima-and-chimphanje-health-facilities.html",
+                "name": "Procurement of Medical Equipment (Mattresses and Beds) at Nyakolwe, Msima and Chimphanje Health Facilities",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 2520,
                 "url": "projects/2520-procurement-of-motorbike-for-chinambi-rural-health-centre.html",
                 "name": "Procurement of Motorbike for Chinambi Rural Health Centre",
@@ -15761,6 +16062,46 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 3163,
+                "url": "projects/3163-procurement-of-roller-compactor.html",
+                "name": "Procurement of Roller Compactor",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 3159,
+                "url": "projects/3159-procurement-of-a-banana-boat-at-kansasamuna-crossing-point.html",
+                "name": "Procurement of a Banana Boat at Kansasamuna Crossing Point",
+                "ward": "Chamilala",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1006,
                 "url": "projects/1006-procurement-of-standby-power-generator-for-nyimba-district-hospital.html",
                 "name": "Procurement of standby power generator for Nyimba District Hospital",
@@ -15779,18 +16120,58 @@ window.CDF_DATA = {
                   "url": "https://www.nyimbacouncil.gov.zm/?p=1099"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 3161,
+                "url": "projects/3161-replacement-of-ventilation-bricks-with-modern-windows-at-kapakasa-primary-school.html",
+                "name": "Replacement of Ventilation Bricks with Modern Windows at Kapakasa Primary School",
+                "ward": "Vizimumba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Nyimba Town Council spends K9,832,898.16 on 31 projects under 2024 CDF (handover ceremony)",
+                  "url": "https://www.nyimbacouncil.gov.zm/?p=2428"
+                },
+                "fundingYear": 2024
               }
             ]
           },
           {
             "name": "Petauke Central",
             "url": "constituencies/petauke-central.html",
-            "count": 2,
+            "count": 3,
             "budgetM": 0,
             "statusCounts": {
-              "completed": 2
+              "completed": 3
             },
             "projects": [
+              {
+                "id": 3171,
+                "url": "projects/3171-procurement-of-six-skip-bins.html",
+                "name": "Procurement of Six Skip Bins",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Petauke Town Council boosts waste management with six new CDF-funded skip bins",
+                  "url": "https://www.petaukecouncil.gov.zm/?p=6130"
+                },
+                "fundingYear": 2026
+              },
               {
                 "id": 960,
                 "url": "projects/960-rehabilitation-of-ablution-block-and-storeroom-at-petauke-boarding-school.html",
@@ -18166,13 +18547,14 @@ window.CDF_DATA = {
         "province": "Southern",
         "totalProjects": 529,
         "fundingYears": {
-          "2022": 34,
+          "2021": 1,
+          "2022": 38,
           "2023": 50,
-          "2024": 131,
+          "2024": 132,
           "2025": 150,
           "2026": 26
         },
-        "fundingYearKnown": 391,
+        "fundingYearKnown": 397,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -21348,7 +21730,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1289,
@@ -21631,7 +22013,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 1294,
@@ -21651,7 +22033,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1292,
@@ -26651,7 +27033,7 @@ window.CDF_DATA = {
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1137,
@@ -26711,7 +27093,7 @@ window.CDF_DATA = {
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1135,
@@ -26754,7 +27136,7 @@ window.CDF_DATA = {
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 1151,
@@ -43972,16 +44354,16 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 272,
+        "totalProjects": 273,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
           "2022": 57,
           "2023": 40,
-          "2024": 46,
-          "2025": 44
+          "2024": 47,
+          "2025": 45
         },
-        "fundingYearKnown": 190,
+        "fundingYearKnown": 192,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -44724,11 +45106,11 @@ window.CDF_DATA = {
           {
             "name": "Kasempa",
             "url": "constituencies/kasempa.html",
-            "count": 50,
+            "count": 51,
             "budgetM": 0.9,
             "statusCounts": {
-              "approved": 47,
-              "completed": 3
+              "approved": 44,
+              "completed": 7
             },
             "projects": [
               {
@@ -44780,14 +45162,14 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": null,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Upgraded to completed in Blitz Run 14: Kasempa Town Council reports the Minister commissioned this 2023 CDF classroom block (council article, kasempacouncil.gov.zm/?p=4850, read in full).",
                 "source": {
                   "publisher": "Kasempa Town Council",
-                  "title": "Kasempa Town Council 2023 Community Projects Approved List",
-                  "url": "https://www.kasempacouncil.gov.zm/wp-content/uploads/2024/03/2023-COMMUNITY-PROJECTS-APPROVED-LIST.pdf"
+                  "title": "Honourable Brenda M. Tambatamba commissions Jifumpa 1x3 CRB, maternity annex and Ngoma staff house CDF projects",
+                  "url": "https://www.kasempacouncil.gov.zm/?p=4850"
                 },
                 "fundingYear": 2023
               },
@@ -44975,6 +45357,26 @@ window.CDF_DATA = {
                 "fundingYear": 2023
               },
               {
+                "id": 3147,
+                "url": "projects/3147-construction-of-a-maternity-annex-at-jifumpa-health-centre.html",
+                "name": "Construction of a Maternity Annex at Jifumpa Health Centre",
+                "ward": "Jifumpa",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kasempa Town Council",
+                  "title": "Honourable Brenda M. Tambatamba commissions Jifumpa 1x3 CRB, maternity annex and Ngoma staff house CDF projects",
+                  "url": "https://www.kasempacouncil.gov.zm/?p=4850"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 307,
                 "url": "projects/307-construction-of-a-maternity-annex-with-solar-installation-at-kelongwa-health-center.html",
                 "name": "Construction of a Maternity Annex with Solar Installation at Kelongwa Health Center",
@@ -45003,14 +45405,14 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": null,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Upgraded to completed in Blitz Run 14: Kasempa Town Council reports the Ngoma staff house, a 2023 CDF project in Kamakechi Ward, was commissioned (council article, kasempacouncil.gov.zm/?p=4850, read in full).",
                 "source": {
                   "publisher": "Kasempa Town Council",
-                  "title": "Kasempa Town Council 2023 Community Projects Approved List",
-                  "url": "https://www.kasempacouncil.gov.zm/wp-content/uploads/2024/03/2023-COMMUNITY-PROJECTS-APPROVED-LIST.pdf"
+                  "title": "Honourable Brenda M. Tambatamba commissions Jifumpa 1x3 CRB, maternity annex and Ngoma staff house CDF projects",
+                  "url": "https://www.kasempacouncil.gov.zm/?p=4850"
                 },
                 "fundingYear": 2023
               },
@@ -45363,16 +45765,16 @@ window.CDF_DATA = {
                 "category": "water",
                 "contractor": null,
                 "budgetM": null,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Kasempa Town Council Approved/Unapproved Community Projects PDF. Item #138; STATUS column reads 'Approved'. Funding year blank (filename 2024 vs header 2025 conflict). No amounts printed.",
+                "note": "Kasempa Town Council Approved/Unapproved Community Projects PDF. Item #138; STATUS column reads 'Approved'. Funding year blank (filename 2024 vs header 2025 conflict). No amounts printed. Upgraded to completed in Blitz Run 14: Kasempa Town Council reports the Kelongwa CDF solar powered water reticulation system was commissioned; the article states both Kelongwa and Mufwashi projects are 2025 CDF (funding year pinned 2025). The K898,146.00 printed is the combined cost of both systems and is NOT carried on this row.",
                 "source": {
                   "publisher": "Kasempa Town Council",
-                  "title": "List of Approved/Unapproved Community Projects proposed by the Ward Development Committees (signed by Council Secretary)",
-                  "url": "https://www.kasempacouncil.gov.zm/wp-content/uploads/2025/11/LIST-OF-APPROVED-UNAPPROVED-2024-COMMUNITY-PROJECTS.pdf"
+                  "title": "Kelongwa in water galore — Honourable Tambatamba commissions CDF water reticulation system",
+                  "url": "https://www.kasempacouncil.gov.zm/?p=4794"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 2665,
@@ -62219,7 +62621,7 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "province": "Copperbelt",
-        "totalProjects": 165,
+        "totalProjects": 171,
         "fundingYears": {
           "2022": 27,
           "2023": 8,
@@ -65179,13 +65581,33 @@ window.CDF_DATA = {
           {
             "name": "Mpongwe",
             "url": "constituencies/mpongwe.html",
-            "count": 3,
+            "count": 9,
             "budgetM": 0,
             "statusCounts": {
-              "ongoing": 1,
+              "ongoing": 7,
               "completed": 2
             },
             "projects": [
+              {
+                "id": 3145,
+                "url": "projects/3145-chieftainess-lesa-s-palace.html",
+                "name": "Chieftainess Lesa's Palace",
+                "ward": null,
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 55.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 2938,
                 "url": "projects/2938-construction-of-a-staff-house-ablution-block-and-water-reticulation-at-chowa-health-post.html",
@@ -65197,6 +65619,86 @@ window.CDF_DATA = {
                 "budgetM": null,
                 "status": "ongoing",
                 "completionPct": 65.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3146,
+                "url": "projects/3146-desks-across-mpongwe-central.html",
+                "name": "Desks Across Mpongwe Central",
+                "ward": "Mpongwe Central",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 50.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3144,
+                "url": "projects/3144-ipumbu-market-shelter.html",
+                "name": "Ipumbu Market Shelter",
+                "ward": "Ipumbu",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 60.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3143,
+                "url": "projects/3143-munkumpu-police-post.html",
+                "name": "Munkumpu Police Post",
+                "ward": "Munkumpu",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 75.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3142,
+                "url": "projects/3142-musofu-bridge.html",
+                "name": "Musofu Bridge",
+                "ward": "Musofu",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 70.0,
                 "photo": null,
                 "note": null,
                 "source": {
@@ -65237,6 +65739,26 @@ window.CDF_DATA = {
                 "budgetM": null,
                 "status": "completed",
                 "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3141,
+                "url": "projects/3141-road-grading.html",
+                "name": "Road Grading",
+                "ward": "Mpongwe Central",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 80.0,
                 "photo": null,
                 "note": null,
                 "source": {
@@ -65783,16 +66305,16 @@ window.CDF_DATA = {
       {
         "name": "Northern",
         "province": "Northern",
-        "totalProjects": 129,
+        "totalProjects": 136,
         "fundingYears": {
-          "2021": 5,
-          "2022": 8,
+          "2021": 7,
+          "2022": 9,
           "2023": 8,
           "2024": 24,
-          "2025": 32,
+          "2025": 38,
           "2026": 7
         },
-        "fundingYearKnown": 84,
+        "fundingYearKnown": 93,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -66214,7 +66736,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 616,
@@ -66514,7 +67036,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 617,
@@ -66674,7 +67196,7 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 640,
@@ -66794,19 +67316,121 @@ window.CDF_DATA = {
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               }
             ]
           },
           {
             "name": "Kaputa",
             "url": "constituencies/kaputa.html",
-            "count": 1,
+            "count": 8,
             "budgetM": 0,
             "statusCounts": {
+              "ongoing": 2,
+              "approved": 5,
               "completed": 1
             },
             "projects": [
+              {
+                "id": 3154,
+                "url": "projects/3154-completion-of-1x2-crb-at-kafwimbi-primary-school.html",
+                "name": "Completion of 1x2 CRB at Kafwimbi Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 100.0,
+                "photo": null,
+                "note": "Council Projects page status table: 100% pending certification — carried as ongoing, not completed (Blitz Run 14).",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Projects page — Projects in Progress table",
+                  "url": "https://www.kaputacouncil.gov.zm/?page_id=1139"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3153,
+                "url": "projects/3153-completion-of-1x4-crb-at-nkosha-secondary-school.html",
+                "name": "Completion of 1x4 CRB at Nkosha Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 100.0,
+                "photo": null,
+                "note": "Council Projects page status table: 100% pending certification — carried as ongoing, not completed (Blitz Run 14).",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Projects page — Projects in Progress table",
+                  "url": "https://www.kaputacouncil.gov.zm/?page_id=1139"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 3150,
+                "url": "projects/3150-full-rehabilitation-of-malanda-kakonge-road-20km.html",
+                "name": "Full Rehabilitation of Malanda-Kakonge Road (20km)",
+                "ward": "Mofwe and Chiyilunda",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved list figure is an Engineers' Estimate of K4,300,000.00 — not carried as a budget (Blitz Run 14 adjudication).",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Approved Community Projects 2025 (approved list; the list's figure column is headed Engineers' Estimate)",
+                  "url": "http://www.kaputacouncil.gov.zm/wp-content/uploads/2025/06/Approved-2025-Community-Projects.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3149,
+                "url": "projects/3149-full-rehabilitation-of-mumanga-road-15km.html",
+                "name": "Full Rehabilitation of Mumanga Road (15km)",
+                "ward": "Choma",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved list figure is an Engineers' Estimate of K3,000,000.00 — not carried as a budget (Blitz Run 14 adjudication).",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Approved Community Projects 2025 (approved list; the list's figure column is headed Engineers' Estimate)",
+                  "url": "http://www.kaputacouncil.gov.zm/wp-content/uploads/2025/06/Approved-2025-Community-Projects.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3148,
+                "url": "projects/3148-full-rehabilitation-of-shimatimba-road.html",
+                "name": "Full Rehabilitation of Shimatimba Road",
+                "ward": "Kayamba",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved list figure is an Engineers' Estimate of K5,300,444.14 — not carried as a budget (Blitz Run 14 adjudication). Site as printed: Shimatiba Village.",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Approved Community Projects 2025 (approved list; the list's figure column is headed Engineers' Estimate)",
+                  "url": "http://www.kaputacouncil.gov.zm/wp-content/uploads/2025/06/Approved-2025-Community-Projects.pdf"
+                },
+                "fundingYear": 2025
+              },
               {
                 "id": 1807,
                 "url": "projects/1807-installation-of-a-solar-power-system-at-kalaba-mini-hospital.html",
@@ -66826,6 +67450,46 @@ window.CDF_DATA = {
                   "url": "https://www.kaputacouncil.gov.zm/?page_id=793"
                 },
                 "fundingYear": 2026
+              },
+              {
+                "id": 3151,
+                "url": "projects/3151-tipper-6x4-truck.html",
+                "name": "Tipper (6X4) Truck",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved list figure is an Engineers' Estimate of K3,000,000.00 — not carried as a budget (Blitz Run 14 adjudication). The list prints \"Kaputa Constituency\" in the ward cell; no ward is carried.",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Approved Community Projects 2025 (approved list; the list's figure column is headed Engineers' Estimate)",
+                  "url": "http://www.kaputacouncil.gov.zm/wp-content/uploads/2025/06/Approved-2025-Community-Projects.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 3152,
+                "url": "projects/3152-water-reticulation-system-and-20kw-scalable-solar-system.html",
+                "name": "Water Reticulation System and 20Kw Scalable Solar System",
+                "ward": "Mwawa",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved list figure is an Engineers' Estimate of K700,000.00 — not carried as a budget (Blitz Run 14 adjudication). Ward as printed in the list: \"Mwawa\" (the live Kalaba Mini Hospital row prints Mwawe).",
+                "source": {
+                  "publisher": "Kaputa Town Council",
+                  "title": "Approved Community Projects 2025 (approved list; the list's figure column is headed Engineers' Estimate)",
+                  "url": "http://www.kaputacouncil.gov.zm/wp-content/uploads/2025/06/Approved-2025-Community-Projects.pdf"
+                },
+                "fundingYear": 2025
               }
             ]
           },
@@ -68527,17 +69191,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 3093,
+    "totalProjects": 3126,
     "fundingYears": {
       "2020": 2,
-      "2021": 6,
-      "2022": 446,
+      "2021": 9,
+      "2022": 453,
       "2023": 268,
-      "2024": 499,
-      "2025": 858,
-      "2026": 239
+      "2024": 515,
+      "2025": 866,
+      "2026": 240
     },
-    "fundingYearKnown": 2318
+    "fundingYearKnown": 2353
   },
   "people": {
     "bursaries": [
@@ -68634,12 +69298,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 663,
-        "completed": 63,
-        "underway": 42,
-        "approved": 558,
+        "tracked": 682,
+        "completed": 81,
+        "underway": 44,
+        "approved": 557,
         "other": 0,
-        "completedPct": 9.5,
+        "completedPct": 11.9,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
@@ -68656,12 +69320,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Northern",
-        "tracked": 129,
+        "tracked": 136,
         "completed": 56,
-        "underway": 13,
-        "approved": 60,
+        "underway": 15,
+        "approved": 65,
         "other": 0,
-        "completedPct": 43.4,
+        "completedPct": 41.2,
         "ruralPct": 77.7,
         "urbanPct": 22.3
       },
@@ -68689,12 +69353,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 272,
-        "completed": 48,
+        "tracked": 273,
+        "completed": 52,
         "underway": 13,
-        "approved": 209,
+        "approved": 206,
         "other": 2,
-        "completedPct": 17.6,
+        "completedPct": 19.0,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -68711,12 +69375,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Copperbelt",
-        "tracked": 165,
+        "tracked": 171,
         "completed": 44,
-        "underway": 41,
+        "underway": 47,
         "approved": 80,
         "other": 0,
-        "completedPct": 26.7,
+        "completedPct": 25.7,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -68775,83 +69439,83 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2442,
-        "completed": 744,
-        "pct": 30.5
+        "projects": 2468,
+        "completed": 762,
+        "pct": 30.9
       },
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 379,
+        "projects": 385,
         "completed": 123,
-        "pct": 32.5
+        "pct": 31.9
       },
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 272,
-        "completed": 48,
-        "pct": 17.6
+        "projects": 273,
+        "completed": 52,
+        "pct": 19.0
       }
     ],
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 753,
-        "urbanN": 92,
-        "ruralPct": 30.8,
-        "urbanPct": 24.3
+        "ruralN": 758,
+        "urbanN": 93,
+        "ruralPct": 30.7,
+        "urbanPct": 24.2
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 660,
+        "ruralN": 664,
         "urbanN": 74,
-        "ruralPct": 27.0,
-        "urbanPct": 19.5
+        "ruralPct": 26.9,
+        "urbanPct": 19.2
       },
       {
         "cat": "Health",
-        "ruralN": 434,
+        "ruralN": 438,
         "urbanN": 77,
-        "ruralPct": 17.8,
-        "urbanPct": 20.3
+        "ruralPct": 17.7,
+        "urbanPct": 20.0
       },
       {
         "cat": "Other community works",
-        "ruralN": 425,
-        "urbanN": 65,
-        "ruralPct": 17.4,
-        "urbanPct": 17.2
+        "ruralN": 432,
+        "urbanN": 67,
+        "ruralPct": 17.5,
+        "urbanPct": 17.4
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 128,
-        "urbanN": 51,
-        "ruralPct": 5.2,
-        "urbanPct": 13.5
+        "ruralN": 134,
+        "urbanN": 53,
+        "ruralPct": 5.4,
+        "urbanPct": 13.8
       },
       {
         "cat": "Police & security",
         "ruralN": 42,
-        "urbanN": 20,
+        "urbanN": 21,
         "ruralPct": 1.7,
-        "urbanPct": 5.3
+        "urbanPct": 5.5
       }
     ]
   },
   "record": {
-    "total": 3093,
+    "total": 3126,
     "statuses": {
-      "approved": 1880,
-      "completed": 915,
+      "approved": 1881,
+      "completed": 937,
       "funded": 10,
       "in_progress": 40,
-      "ongoing": 241,
+      "ongoing": 251,
       "stalled": 6,
       "unknown": 1
     },
-    "completedPct": 29.6,
-    "approvedPct": 61.1,
+    "completedPct": 30.0,
+    "approvedPct": 60.5,
     "withPhoto": 23,
     "constituencies": 152,
     "provinces": 10
