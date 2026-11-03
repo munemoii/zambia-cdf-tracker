@@ -4527,15 +4527,15 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 664,
+        "totalProjects": 663,
         "fundingYears": {
           "2022": 137,
-          "2023": 55,
+          "2023": 54,
           "2024": 105,
           "2025": 189,
           "2026": 109
         },
-        "fundingYearKnown": 595,
+        "fundingYearKnown": 594,
         "constituencies": [
           {
             "name": "Chadiza",
@@ -6498,10 +6498,10 @@ window.CDF_DATA = {
           {
             "name": "Chipata Central",
             "url": "constituencies/chipata-central.html",
-            "count": 109,
-            "budgetM": 53.11,
+            "count": 108,
+            "budgetM": 52.89,
             "statusCounts": {
-              "approved": 107,
+              "approved": 106,
               "completed": 2
             },
             "projects": [
@@ -6604,26 +6604,6 @@ window.CDF_DATA = {
                   "url": "https://www.chipatacouncil.gov.zm/wp-content/uploads/2026/10/Community-Projects-2026-CC_20261028_0001_rotated.pdf"
                 },
                 "fundingYear": 2026
-              },
-              {
-                "id": 1986,
-                "url": "projects/1986-completion-of-1x2-classroom-block-at-nadalisika-primary-school.html",
-                "name": "Completion of 1x2 Classroom Block at Nadalisika Primary School",
-                "ward": "Kapata",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.22,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chipata City Council",
-                  "title": "Publications page listing CDF approved and proposed project documents 2022-2025",
-                  "url": "https://www.chipatacouncil.gov.zm/?page_id=541"
-                },
-                "fundingYear": 2023
               },
               {
                 "id": 1953,
@@ -18064,15 +18044,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 502,
+        "totalProjects": 503,
         "fundingYears": {
-          "2022": 24,
+          "2022": 27,
           "2023": 41,
-          "2024": 125,
+          "2024": 126,
           "2025": 145,
           "2026": 26
         },
-        "fundingYearKnown": 361,
+        "fundingYearKnown": 365,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -19161,7 +19141,7 @@ window.CDF_DATA = {
                   "title": "K36.32M Monze Central, Bweengwa Community Projects and Bursaries Granted (2025 CDF approvals)",
                   "url": "https://www.monzecouncil.gov.zm/?p=2483"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 1628,
@@ -21186,7 +21166,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1301,
@@ -21489,7 +21469,7 @@ window.CDF_DATA = {
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1319,
@@ -24170,10 +24150,10 @@ window.CDF_DATA = {
           {
             "name": "Mbabala",
             "url": "constituencies/mbabala.html",
-            "count": 4,
+            "count": 5,
             "budgetM": 0,
             "statusCounts": {
-              "completed": 3,
+              "completed": 4,
               "ongoing": 1
             },
             "projects": [
@@ -24194,6 +24174,26 @@ window.CDF_DATA = {
                   "publisher": "Choma Municipal Council",
                   "title": "Mbabala Constituency Projects Show Significant Progress (CDF spot checks, 9 January 2025)",
                   "url": "https://www.chomacouncil.gov.zm/?p=2166"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2887,
+                "url": "projects/2887-construction-of-1x3-classroom-block-at-mwanambuyu-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mwanambuyu Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "Choma Municipal Council CDF Magazine — Mbabala Constituency projects (Mwanambuyu Primary School 1x3 CRB officially handed over, p.41; magazine PDF read in full, Blitz Run 8)",
+                  "url": "http://www.chomacouncil.gov.zm/"
                 },
                 "fundingYear": null
               },
@@ -26089,7 +26089,7 @@ window.CDF_DATA = {
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1150,
@@ -28388,7 +28388,7 @@ window.CDF_DATA = {
       {
         "name": "Central",
         "province": "Central",
-        "totalProjects": 330,
+        "totalProjects": 333,
         "fundingYears": {
           "2022": 7,
           "2023": 31,
@@ -32599,10 +32599,10 @@ window.CDF_DATA = {
           {
             "name": "Katuba",
             "url": "constituencies/katuba.html",
-            "count": 14,
-            "budgetM": 0.9,
+            "count": 16,
+            "budgetM": 3.37,
             "statusCounts": {
-              "completed": 14
+              "completed": 16
             },
             "projects": [
               {
@@ -32846,6 +32846,46 @@ window.CDF_DATA = {
                 "fundingYear": 2023
               },
               {
+                "id": 2888,
+                "url": "projects/2888-installation-of-water-reticulation-system-at-mushitala.html",
+                "name": "Installation of Water Reticulation System at Mushitala",
+                "ward": "Mushitala",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 2.3188,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chibombo Town Council",
+                  "title": "Chibombo Town Council official Facebook posts — CDF completions read in full (Blitz Run 8): Mushitala water reticulation commissioned (Katuba); Mwachisompola Primary School 1x3 CRB completed and commissioned (Keembe); Katuba Youth Skills Centre roofed",
+                  "url": "https://www.chibombocouncil.gov.zm/"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2890,
+                "url": "projects/2890-roofing-of-katuba-youth-skills-centre.html",
+                "name": "Roofing of Katuba Youth Skills Centre",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.15,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chibombo Town Council",
+                  "title": "Chibombo Town Council official Facebook posts — CDF completions read in full (Blitz Run 8): Mushitala water reticulation commissioned (Katuba); Mwachisompola Primary School 1x3 CRB completed and commissioned (Keembe); Katuba Youth Skills Centre roofed",
+                  "url": "https://www.chibombocouncil.gov.zm/"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 751,
                 "url": "projects/751-water-reticulation-system-at-kabile-school.html",
                 "name": "Water Reticulation System at Kabile School",
@@ -32890,10 +32930,10 @@ window.CDF_DATA = {
           {
             "name": "Keembe",
             "url": "constituencies/keembe.html",
-            "count": 3,
-            "budgetM": 1.89,
+            "count": 4,
+            "budgetM": 2.61,
             "statusCounts": {
-              "completed": 3
+              "completed": 4
             },
             "projects": [
               {
@@ -32935,6 +32975,26 @@ window.CDF_DATA = {
                   "url": "https://www.chibombocouncil.gov.zm/?p=2137"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 2889,
+                "url": "projects/2889-construction-of-1x3-classroom-block-at-mwachisompola-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mwachisompola Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.72,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chibombo Town Council",
+                  "title": "Chibombo Town Council official Facebook posts — CDF completions read in full (Blitz Run 8): Mushitala water reticulation commissioned (Katuba); Mwachisompola Primary School 1x3 CRB completed and commissioned (Keembe); Katuba Youth Skills Centre roofed",
+                  "url": "https://www.chibombocouncil.gov.zm/"
+                },
+                "fundingYear": null
               },
               {
                 "id": 2470,
@@ -40565,14 +40625,14 @@ window.CDF_DATA = {
       {
         "name": "Western",
         "province": "Western",
-        "totalProjects": 223,
+        "totalProjects": 224,
         "fundingYears": {
-          "2022": 27,
+          "2022": 28,
           "2023": 12,
           "2024": 33,
           "2025": 45
         },
-        "fundingYearKnown": 117,
+        "fundingYearKnown": 118,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -41719,6 +41779,37 @@ window.CDF_DATA = {
                   "url": "https://www.lukulucouncil.gov.zm/wp-content/uploads/2025/12/MINUTES-OF-third-QUATER-2025.pdf"
                 },
                 "fundingYear": 2025
+              }
+            ]
+          },
+          {
+            "name": "Mangango",
+            "url": "constituencies/mangango.html",
+            "count": 1,
+            "budgetM": 0.07,
+            "statusCounts": {
+              "completed": 1
+            },
+            "projects": [
+              {
+                "id": 2892,
+                "url": "projects/2892-drilling-of-borehole-at-kaoma-primary-school.html",
+                "name": "Drilling of Borehole at Kaoma Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.07,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Kaoma Town Council",
+                  "title": "Kaoma Town Council official Facebook post, 11 October 2023 — borehole at Kaoma Primary School (Mangango Constituency) funded under the 2022 CDF, complete, K70,000 (post read in full, Blitz Run 8)",
+                  "url": "https://www.kaomacouncil.gov.zm/"
+                },
+                "fundingYear": 2022
               }
             ]
           },
@@ -54078,15 +54169,15 @@ window.CDF_DATA = {
       {
         "name": "Muchinga",
         "province": "Muchinga",
-        "totalProjects": 172,
+        "totalProjects": 177,
         "fundingYears": {
-          "2022": 2,
+          "2022": 5,
           "2023": 32,
           "2024": 40,
           "2025": 42,
           "2026": 14
         },
-        "fundingYearKnown": 130,
+        "fundingYearKnown": 133,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -54564,10 +54655,10 @@ window.CDF_DATA = {
           {
             "name": "Isoka",
             "url": "constituencies/isoka.html",
-            "count": 25,
-            "budgetM": 0.57,
+            "count": 30,
+            "budgetM": 2.22,
             "statusCounts": {
-              "completed": 7,
+              "completed": 12,
               "approved": 18
             },
             "projects": [
@@ -54610,6 +54701,106 @@ window.CDF_DATA = {
                   "url": "https://www.zanis.gov.zm/?p=4575"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2884,
+                "url": "projects/2884-construction-of-1x2-classroom-block-at-chiwanda-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Chiwanda Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.3752,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter — June 2024 Edition (CDF completions: Chiwanda 1x2 CRB handover; Kafwimbi Secondary 1x3 CRB handover; Katonga Village box culvert completed)",
+                  "url": "https://www.isokacouncil.gov.zm/wp-content/uploads/2024/09/Isoka-Town-Council-June-Newsletter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2885,
+                "url": "projects/2885-construction-of-1x3-classroom-block-at-kafwimbi-secondary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Kafwimbi Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter — June 2024 Edition (CDF completions: Chiwanda 1x2 CRB handover; Kafwimbi Secondary 1x3 CRB handover; Katonga Village box culvert completed)",
+                  "url": "https://www.isokacouncil.gov.zm/wp-content/uploads/2024/09/Isoka-Town-Council-June-Newsletter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2883,
+                "url": "projects/2883-construction-of-1x3-classroom-block-at-lualizi-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Lualizi Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.2164,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 2882,
+                "url": "projects/2882-construction-of-ablution-block-at-isoka-boys-secondary-school.html",
+                "name": "Construction of Ablution Block at Isoka Boys Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.5501,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter - June 2023 (CDF edition): 2023 CDF Community Projects table and \"Government Approves K20 Million CDF Projects for 2023\"",
+                  "url": "http://www.isokacouncil.gov.zm/wp-content/uploads/2024/02/Isoka-Town-Council-Newsletter-JUNE-final.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 2886,
+                "url": "projects/2886-construction-of-box-culvert-at-katonga-village.html",
+                "name": "Construction of Box Culvert at Katonga Village",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": "Wilamu General Contractors",
+                "budgetM": 0.5078,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Isoka Town Council Newsletter — June 2024 Edition (CDF completions: Chiwanda 1x2 CRB handover; Kafwimbi Secondary 1x3 CRB handover; Katonga Village box culvert completed)",
+                  "url": "https://www.isokacouncil.gov.zm/wp-content/uploads/2024/09/Isoka-Town-Council-June-Newsletter.pdf"
+                },
+                "fundingYear": 2022
               },
               {
                 "id": 864,
@@ -57634,20 +57825,41 @@ window.CDF_DATA = {
           "2022": 11,
           "2023": 6,
           "2024": 11,
-          "2025": 27,
+          "2025": 26,
           "2026": 20
         },
-        "fundingYearKnown": 75,
+        "fundingYearKnown": 74,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
             "url": "constituencies/bwana-mkubwa.html",
-            "count": 1,
-            "budgetM": 0,
+            "count": 2,
+            "budgetM": 0.55,
             "statusCounts": {
+              "completed": 1,
               "approved": 1
             },
             "projects": [
+              {
+                "id": 2891,
+                "url": "projects/2891-construction-of-maternity-annex-at-kantolomba.html",
+                "name": "Construction of Maternity Annex at Kantolomba",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.55,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Ndola City Council",
+                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
+                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 1397,
                 "url": "projects/1397-grading-and-spot-re-gravelling-of-selected-roads-in-lupili-ward.html",
@@ -57785,11 +57997,11 @@ window.CDF_DATA = {
           {
             "name": "Chililabombwe",
             "url": "constituencies/chililabombwe.html",
-            "count": 25,
-            "budgetM": 34.76,
+            "count": 24,
+            "budgetM": 34.35,
             "statusCounts": {
               "approved": 11,
-              "ongoing": 14
+              "ongoing": 13
             },
             "projects": [
               {
@@ -57871,26 +58083,6 @@ window.CDF_DATA = {
                   "url": "https://www.chililabombwecouncil.gov.zm/?page_id=2463"
                 },
                 "fundingYear": 2024
-              },
-              {
-                "id": 1730,
-                "url": "projects/1730-construction-of-drainages.html",
-                "name": "Construction of Drainages",
-                "ward": "Kafue",
-                "component": "community",
-                "category": "sanitation",
-                "contractor": null,
-                "budgetM": 0.4168,
-                "status": "ongoing",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chililabombwe Municipal Council",
-                  "title": "2025 Approved Community Projects (approval date 24/03/2025; published on the council ZDSP page, uploaded Oct 2025)",
-                  "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
-                },
-                "fundingYear": 2025
               },
               {
                 "id": 1715,
@@ -60310,11 +60502,10 @@ window.CDF_DATA = {
             "name": "Ndola Central",
             "url": "constituencies/ndola-central.html",
             "count": 4,
-            "budgetM": 0,
+            "budgetM": 0.69,
             "statusCounts": {
               "ongoing": 1,
-              "completed": 2,
-              "approved": 1
+              "completed": 3
             },
             "projects": [
               {
@@ -60365,15 +60556,15 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "education",
                 "contractor": null,
-                "budgetM": null,
-                "status": "approved",
+                "budgetM": 0.695,
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Completion proved by Ndola City Council completed-projects article (K695,000), Blitz Run 8; originally ingested from ZPPA tender NCC/DES/PSU/CDF/NC/W/03/25-18.",
                 "source": {
-                  "publisher": "ZPPA e-GP (Ndola City Council)",
-                  "title": "NCC/DES/PSU/CDF/NC/W/03/25-18: Tender for construction of a 1x3 classroom block at Dola Hill School in Dag Ward — CDF Ndola Central Constituency",
-                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=13442551"
+                  "publisher": "Ndola City Council",
+                  "title": "Council news listing (Uncategorized) — Twatasha Clinic commissioned in Pamodzi Ward, Chifubu; Pine Groove Market Shelter and ablution block commissioned in Kawama Ward, Chifubu",
+                  "url": "https://www.ndolacouncil.gov.zm/?cat=1"
                 },
                 "fundingYear": null
               },
@@ -63269,15 +63460,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2841,
+    "totalProjects": 2850,
     "fundingYears": {
-      "2022": 365,
-      "2023": 249,
-      "2024": 464,
-      "2025": 823,
+      "2022": 372,
+      "2023": 248,
+      "2024": 465,
+      "2025": 822,
       "2026": 239
     },
-    "fundingYearKnown": 2140
+    "fundingYearKnown": 2146
   },
   "people": {
     "bursaries": [
@@ -63352,12 +63543,12 @@ window.CDF_DATA = {
     "provinces": [
       {
         "name": "Muchinga",
-        "tracked": 172,
-        "completed": 38,
+        "tracked": 177,
+        "completed": 43,
         "underway": 14,
         "approved": 120,
         "other": 0,
-        "completedPct": 22.1,
+        "completedPct": 24.3,
         "ruralPct": 87.0,
         "urbanPct": 13.0
       },
@@ -63374,10 +63565,10 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 664,
+        "tracked": 663,
         "completed": 60,
         "underway": 42,
-        "approved": 562,
+        "approved": 561,
         "other": 0,
         "completedPct": 9.0,
         "ruralPct": 83.2,
@@ -63385,12 +63576,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Western",
-        "tracked": 223,
-        "completed": 84,
+        "tracked": 224,
+        "completed": 85,
         "underway": 37,
         "approved": 101,
         "other": 1,
-        "completedPct": 37.7,
+        "completedPct": 37.9,
         "ruralPct": 80.6,
         "urbanPct": 19.4
       },
@@ -63407,23 +63598,23 @@ window.CDF_DATA = {
       },
       {
         "name": "Central",
-        "tracked": 330,
-        "completed": 43,
+        "tracked": 333,
+        "completed": 46,
         "underway": 10,
         "approved": 277,
         "other": 0,
-        "completedPct": 13.0,
+        "completedPct": 13.8,
         "ruralPct": 76.6,
         "urbanPct": 23.4
       },
       {
         "name": "Southern",
-        "tracked": 502,
-        "completed": 170,
+        "tracked": 503,
+        "completed": 171,
         "underway": 39,
         "approved": 291,
         "other": 2,
-        "completedPct": 33.9,
+        "completedPct": 34.0,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -63452,11 +63643,11 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "tracked": 140,
-        "completed": 25,
-        "underway": 34,
-        "approved": 81,
+        "completed": 27,
+        "underway": 33,
+        "approved": 80,
         "other": 0,
-        "completedPct": 17.9,
+        "completedPct": 19.3,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -63515,16 +63706,16 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2230,
-        "completed": 564,
-        "pct": 25.3
+        "projects": 2239,
+        "completed": 574,
+        "pct": 25.6
       },
       {
         "label": "Urban provinces",
         "provinces": 2,
         "projects": 348,
-        "completed": 97,
-        "pct": 27.9
+        "completed": 99,
+        "pct": 28.4
       },
       {
         "label": "In between",
@@ -63537,14 +63728,14 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 661,
+        "ruralN": 666,
         "urbanN": 85,
-        "ruralPct": 29.6,
+        "ruralPct": 29.7,
         "urbanPct": 24.4
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 625,
+        "ruralN": 628,
         "urbanN": 65,
         "ruralPct": 28.0,
         "urbanPct": 18.7
@@ -63553,22 +63744,22 @@ window.CDF_DATA = {
         "cat": "Other community works",
         "ruralN": 412,
         "urbanN": 59,
-        "ruralPct": 18.5,
+        "ruralPct": 18.4,
         "urbanPct": 17.0
       },
       {
         "cat": "Health",
         "ruralN": 385,
-        "urbanN": 69,
-        "ruralPct": 17.3,
-        "urbanPct": 19.8
+        "urbanN": 70,
+        "ruralPct": 17.2,
+        "urbanPct": 20.1
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 112,
-        "urbanN": 50,
+        "ruralN": 113,
+        "urbanN": 49,
         "ruralPct": 5.0,
-        "urbanPct": 14.4
+        "urbanPct": 14.1
       },
       {
         "cat": "Police & security",
@@ -63580,20 +63771,20 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 2841,
+    "total": 2850,
     "statuses": {
-      "approved": 1857,
-      "completed": 707,
+      "approved": 1855,
+      "completed": 719,
       "funded": 10,
       "in_progress": 37,
-      "ongoing": 225,
+      "ongoing": 224,
       "stalled": 4,
       "unknown": 1
     },
-    "completedPct": 24.9,
-    "approvedPct": 65.7,
+    "completedPct": 25.2,
+    "approvedPct": 65.4,
     "withPhoto": 23,
-    "constituencies": 145,
+    "constituencies": 146,
     "provinces": 10
   }
 };
