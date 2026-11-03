@@ -12863,9 +12863,9 @@ window.CDF_DATA = {
             "count": 52,
             "budgetM": 29.48,
             "statusCounts": {
-              "approved": 50,
-              "ongoing": 1,
-              "completed": 1
+              "approved": 47,
+              "completed": 4,
+              "ongoing": 1
             },
             "projects": [
               {
@@ -12957,14 +12957,14 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": "Kambube General Dealers Ltd",
                 "budgetM": 0.192,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
-                  "publisher": "Ministry of Local Government and Rural Development (MLGRD)",
-                  "title": "Lumezi Signs Contracts Worth Over K7 Million For CDF Community Projects (2022 CDF: breakdown of 15 projects, contractors and contract sums, plus grader procured at K2,030,000)",
-                  "url": "https://www.mlgrd.gov.zm/?p=3429"
+                  "publisher": "Lumezi Town Council",
+                  "title": "Govt Commissions Three CDF Projects In Lumezi (three of the 2022 CDF projects commissioned; total for the three K1,149,928.44)",
+                  "url": "https://www.lumezicouncil.gov.zm/?p=1163"
                 },
                 "fundingYear": 2022
               },
@@ -13297,14 +13297,14 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": "Slycon General Suppliers Ltd",
                 "budgetM": 0.4979,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
-                  "publisher": "Ministry of Local Government and Rural Development (MLGRD)",
-                  "title": "Lumezi Signs Contracts Worth Over K7 Million For CDF Community Projects (2022 CDF: breakdown of 15 projects, contractors and contract sums, plus grader procured at K2,030,000)",
-                  "url": "https://www.mlgrd.gov.zm/?p=3429"
+                  "publisher": "Lumezi Town Council",
+                  "title": "Govt Commissions Three CDF Projects In Lumezi (three of the 2022 CDF projects commissioned; total for the three K1,149,928.44)",
+                  "url": "https://www.lumezicouncil.gov.zm/?p=1163"
                 },
                 "fundingYear": 2022
               },
@@ -13357,14 +13357,14 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": "Zumale General Traders Ltd",
                 "budgetM": 0.46,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
-                  "publisher": "Ministry of Local Government and Rural Development (MLGRD)",
-                  "title": "Lumezi Signs Contracts Worth Over K7 Million For CDF Community Projects (2022 CDF: breakdown of 15 projects, contractors and contract sums, plus grader procured at K2,030,000)",
-                  "url": "https://www.mlgrd.gov.zm/?p=3429"
+                  "publisher": "Lumezi Town Council",
+                  "title": "Govt Commissions Three CDF Projects In Lumezi (three of the 2022 CDF projects commissioned; total for the three K1,149,928.44)",
+                  "url": "https://www.lumezicouncil.gov.zm/?p=1163"
                 },
                 "fundingYear": 2022
               },
@@ -18044,15 +18044,15 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 503,
+        "totalProjects": 513,
         "fundingYears": {
           "2022": 27,
           "2023": 41,
-          "2024": 126,
-          "2025": 145,
+          "2024": 127,
+          "2025": 149,
           "2026": 26
         },
-        "fundingYearKnown": 365,
+        "fundingYearKnown": 370,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -19228,10 +19228,11 @@ window.CDF_DATA = {
           {
             "name": "Chikankata",
             "url": "constituencies/chikankata.html",
-            "count": 19,
+            "count": 20,
             "budgetM": 10.09,
             "statusCounts": {
-              "completed": 19
+              "completed": 19,
+              "ongoing": 1
             },
             "projects": [
               {
@@ -19411,6 +19412,26 @@ window.CDF_DATA = {
                   "publisher": "Chikankata Town Council",
                   "title": "Eight (8) CDF Funded Community Projects Commissioned in Chikankata",
                   "url": "https://www.chikankatacouncil.gov.zm/?p=2160"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2927,
+                "url": "projects/2927-construction-of-a-1x3-classroom-block-at-nansenga-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Nansenga Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chikankata Town Council",
+                  "title": "News Updates index (Nansenga Primary School 1x3 CRB headline and standfirst)",
+                  "url": "https://www.chikankatacouncil.gov.zm/?page_id=793"
                 },
                 "fundingYear": null
               },
@@ -19700,11 +19721,12 @@ window.CDF_DATA = {
           {
             "name": "Choma",
             "url": "constituencies/choma.html",
-            "count": 30,
+            "count": 35,
             "budgetM": 14.9,
             "statusCounts": {
-              "approved": 25,
-              "ongoing": 5
+              "approved": 24,
+              "completed": 8,
+              "ongoing": 3
             },
             "projects": [
               {
@@ -19816,14 +19838,14 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": "Unlimited Eagle Innovations",
                 "budgetM": 0.825,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
                   "publisher": "Choma Municipal Council",
-                  "title": "Choma Central Community Projects for 2024 CDF (ward, cost, contractor and status table)",
-                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2024/09/CHOMA-CENTRAL-CONSTITUENCY-2024-CDF-PROJECTS.pdf"
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
                 },
                 "fundingYear": 2024
               },
@@ -19836,14 +19858,14 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": "Buwaz Hardware and General Dealers",
                 "budgetM": 0.7,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
                   "publisher": "Choma Municipal Council",
-                  "title": "Choma Central Community Projects for 2024 CDF (ward, cost, contractor and status table)",
-                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2024/09/CHOMA-CENTRAL-CONSTITUENCY-2024-CDF-PROJECTS.pdf"
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
                 },
                 "fundingYear": 2024
               },
@@ -19868,6 +19890,106 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 2928,
+                "url": "projects/2928-construction-of-1x3-classroom-block-at-ben-mulalu-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Ben Mulalu Primary School",
+                "ward": "Mthandalike",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2930,
+                "url": "projects/2930-construction-of-1x3-classroom-block-at-mahimbwa-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mahimbwa Primary School",
+                "ward": "Masuku",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2936,
+                "url": "projects/2936-construction-of-mwapona-police-post.html",
+                "name": "Construction of Mwapona Police Post",
+                "ward": null,
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2934,
+                "url": "projects/2934-construction-of-nakeempa-shed-warehouse.html",
+                "name": "Construction of Nakeempa Shed Warehouse",
+                "ward": "Nakeempa",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": "ELCORN Investments Limited",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2929,
+                "url": "projects/2929-construction-of-a-dip-tank-in-singani-ward.html",
+                "name": "Construction of a Dip Tank in Singani Ward",
+                "ward": "Singani",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1274,
                 "url": "projects/1274-lugwasho-primary-school-1x3-classroom-block-additional-funds.html",
                 "name": "Lugwasho Primary School 1x3 Classroom Block (Additional Funds)",
@@ -19876,14 +19998,14 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": 0.1322,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
                   "publisher": "Choma Municipal Council",
-                  "title": "Choma Central Community Projects for 2024 CDF (ward, cost, contractor and status table)",
-                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2024/09/CHOMA-CENTRAL-CONSTITUENCY-2024-CDF-PROJECTS.pdf"
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
                 },
                 "fundingYear": 2024
               },
@@ -20016,14 +20138,14 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": 0.0741,
-                "status": "approved",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": "Additional funds for rehabilitation and installation of a blown-off roof (Choma Central 2024 CDF table, S/N 7; status token as printed: Procurement).",
                 "source": {
                   "publisher": "Choma Municipal Council",
-                  "title": "Choma Central Community Projects for 2024 CDF (ward, cost, contractor and status table)",
-                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2024/09/CHOMA-CENTRAL-CONSTITUENCY-2024-CDF-PROJECTS.pdf"
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
                 },
                 "fundingYear": 2024
               },
@@ -24150,11 +24272,11 @@ window.CDF_DATA = {
           {
             "name": "Mbabala",
             "url": "constituencies/mbabala.html",
-            "count": 5,
-            "budgetM": 0,
+            "count": 9,
+            "budgetM": 0.53,
             "statusCounts": {
-              "completed": 4,
-              "ongoing": 1
+              "completed": 7,
+              "ongoing": 2
             },
             "projects": [
               {
@@ -24198,6 +24320,46 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 2933,
+                "url": "projects/2933-construction-of-ablution-block-and-solar-powered-water-scheme-at-mang-unza-rural-health-centre.html",
+                "name": "Construction of Ablution Block and Solar-Powered Water Scheme at Mang'unza Rural Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2931,
+                "url": "projects/2931-construction-of-kabanze-maternity-annex.html",
+                "name": "Construction of Kabanze Maternity Annex",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.526,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 1286,
                 "url": "projects/1286-construction-of-macha-police-station.html",
                 "name": "Construction of Macha Police Station",
@@ -24216,6 +24378,46 @@ window.CDF_DATA = {
                   "url": "https://www.chomacouncil.gov.zm/?p=2166"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2935,
+                "url": "projects/2935-construction-of-mapanza-police-post.html",
+                "name": "Construction of Mapanza Police Post",
+                "ward": "Chilalantambo",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2932,
+                "url": "projects/2932-construction-of-water-scheme-and-ablution-block-at-hakaloba-health-post.html",
+                "name": "Construction of Water Scheme and Ablution Block at Hakaloba Health Post",
+                "ward": "Simaubi",
+                "component": "community",
+                "category": "water",
+                "contractor": "Equicare General Dealers",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Choma Municipal Council",
+                  "title": "CDF Newsletter Issue 004-2026 (Mapanza Clinic staff house completed under 2024 CDF)",
+                  "url": "http://www.chomacouncil.gov.zm/wp-content/uploads/2026/08/2026-Choma-CDF-Newsletter.pdf"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1780,
@@ -40625,14 +40827,14 @@ window.CDF_DATA = {
       {
         "name": "Western",
         "province": "Western",
-        "totalProjects": 224,
+        "totalProjects": 258,
         "fundingYears": {
           "2022": 28,
           "2023": 12,
-          "2024": 33,
-          "2025": 45
+          "2024": 34,
+          "2025": 72
         },
-        "fundingYearKnown": 118,
+        "fundingYearKnown": 146,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -41421,10 +41623,10 @@ window.CDF_DATA = {
           {
             "name": "Luena",
             "url": "constituencies/luena.html",
-            "count": 1,
+            "count": 2,
             "budgetM": 0.6,
             "statusCounts": {
-              "approved": 1
+              "approved": 2
             },
             "projects": [
               {
@@ -41446,6 +41648,26 @@ window.CDF_DATA = {
                   "url": "https://www.limulungacouncil.gov.zm/wp-content/uploads/2025/12/2025-and-2024-CDF-community-projects-Coveyance-letter2-2.pdf"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 2895,
+                "url": "projects/2895-supply-and-delivery-of-1382-school-furniture-for-luena-constituency.html",
+                "name": "Supply and delivery of 1382 school furniture for Luena Constituency",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Limulunga Town Council",
+                  "title": "CDF Community Projects — Luena (2024 CDF community projects list)",
+                  "url": "https://www.limulungacouncil.gov.zm/wp-content/uploads/2024/09/2024-CDF-COMMUNITY-PROJECTS.pdf"
+                },
+                "fundingYear": 2024
               }
             ]
           },
@@ -41814,6 +42036,97 @@ window.CDF_DATA = {
             ]
           },
           {
+            "name": "Mitete",
+            "url": "constituencies/mitete.html",
+            "count": 4,
+            "budgetM": 0,
+            "statusCounts": {
+              "completed": 4
+            },
+            "projects": [
+              {
+                "id": 2901,
+                "url": "projects/2901-completion-of-1x2-classroom-block-at-washishi-primary-school.html",
+                "name": "Completion of 1x2 Classroom Block at Washishi Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2902,
+                "url": "projects/2902-completion-of-solar-powered-borehole-at-kamikabo-clinic.html",
+                "name": "Completion of Solar-Powered Borehole at Kamikabo Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2903,
+                "url": "projects/2903-completion-of-solar-powered-borehole-at-lutembwe-clinic.html",
+                "name": "Completion of Solar-Powered Borehole at Lutembwe Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2900,
+                "url": "projects/2900-construction-of-maternity-annex-at-kakulunda-health-centre.html",
+                "name": "Construction of Maternity Annex at Kakulunda Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Report of the Committee on Local Government Accounts on the Report of the Auditor General on the CDF for the financial year ended 31st December 2024 (section 13 Kitwe + appendix)",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT~1_0.PDF"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
             "name": "Mongu Central",
             "url": "constituencies/mongu-central.html",
             "count": 2,
@@ -41859,6 +42172,137 @@ window.CDF_DATA = {
                   "publisher": "Mongu Municipal Council",
                   "title": "Older News Items - CDF PROJECT UPDATE: MONGU CENTRAL (Mabumbu staff house 100% complete); KAANDE STAFF HOUSE COMPLETED; LUKWETA MATERNITY ANNEX NEARS COMPLETION (Nalikwanda)",
                   "url": "https://www.mongucouncil.gov.zm/?page_id=10822"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Mulobezi",
+            "url": "constituencies/mulobezi.html",
+            "count": 6,
+            "budgetM": 0.75,
+            "statusCounts": {
+              "completed": 6
+            },
+            "projects": [
+              {
+                "id": 2894,
+                "url": "projects/2894-construction-of-1x3-classroom-block-at-sanembo-primary-school.html",
+                "name": "Construction of 1x3 classroom block at Sanembo Primary School",
+                "ward": "Salumbwe",
+                "component": "community",
+                "category": "education",
+                "contractor": "Cliffham Construction Ltd",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Second Ordinary Council Minutes 2025 (CDF 2025 progress table and completion table, meeting 11 July 2025)",
+                  "url": "https://www.mulobezicouncil.gov.zm/wp-content/uploads/2025/11/SECOND-ORDINARY-COUNCIL-MINUTES-2025.pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2898,
+                "url": "projects/2898-installation-of-a-solar-system-at-mulobezi-district-hospital.html",
+                "name": "Installation of a Solar System at Mulobezi District Hospital",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.1984,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Second Ordinary Council Minutes 2025 (CDF 2025 progress table and completion table, meeting 11 July 2025)",
+                  "url": "https://www.mulobezicouncil.gov.zm/wp-content/uploads/2025/11/SECOND-ORDINARY-COUNCIL-MINUTES-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2897,
+                "url": "projects/2897-procurement-of-medical-equipment-at-kabanga-rural-health-post-and-maternity-wing.html",
+                "name": "Procurement of Medical Equipment at Kabanga Rural Health Post and Maternity Wing",
+                "ward": "Kabanga",
+                "component": "community",
+                "category": "equipment",
+                "contractor": "Ensure Med Equipment Ltd",
+                "budgetM": 0.25,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Second Ordinary Council Minutes 2025 (CDF 2025 progress table and completion table, meeting 11 July 2025)",
+                  "url": "https://www.mulobezicouncil.gov.zm/wp-content/uploads/2025/11/SECOND-ORDINARY-COUNCIL-MINUTES-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2896,
+                "url": "projects/2896-procurement-of-medical-equipment-at-sibala-rural-health-post-and-maternity-wing.html",
+                "name": "Procurement of Medical Equipment at Sibala Rural Health Post and Maternity Wing",
+                "ward": "Kamanga",
+                "component": "community",
+                "category": "equipment",
+                "contractor": "Ensure Med Equipment Ltd",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Second Ordinary Council Minutes 2025 (CDF 2025 progress table and completion table, meeting 11 July 2025)",
+                  "url": "https://www.mulobezicouncil.gov.zm/wp-content/uploads/2025/11/SECOND-ORDINARY-COUNCIL-MINUTES-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2899,
+                "url": "projects/2899-procurement-of-a-3000-litre-fuel-bowser.html",
+                "name": "Procurement of a 3000 Litre Fuel Bowser",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": "Saro",
+                "budgetM": 0.298,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Second Ordinary Council Minutes 2025 (CDF 2025 progress table and completion table, meeting 11 July 2025)",
+                  "url": "https://www.mulobezicouncil.gov.zm/wp-content/uploads/2025/11/SECOND-ORDINARY-COUNCIL-MINUTES-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2893,
+                "url": "projects/2893-rehabilitation-of-machile-police-post.html",
+                "name": "Rehabilitation of Machile Police Post",
+                "ward": "Machile",
+                "component": "community",
+                "category": "security",
+                "contractor": "Amedi Enterprise",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Second Ordinary Council Minutes 2025 (CDF 2025 progress table and completion table, meeting 11 July 2025)",
+                  "url": "https://www.mulobezicouncil.gov.zm/wp-content/uploads/2025/11/SECOND-ORDINARY-COUNCIL-MINUTES-2025.pdf"
                 },
                 "fundingYear": null
               }
@@ -42311,12 +42755,32 @@ window.CDF_DATA = {
           {
             "name": "Nalolo",
             "url": "constituencies/nalolo.html",
-            "count": 34,
-            "budgetM": 16.12,
+            "count": 57,
+            "budgetM": 38.68,
             "statusCounts": {
-              "approved": 34
+              "approved": 57
             },
             "projects": [
+              {
+                "id": 2920,
+                "url": "projects/2920-additional-funding-for-phase-2-construction-of-maternity-annex-at-litoya-clinic.html",
+                "name": "Additional Funding for Phase 2 Construction of Maternity Annex at Litoya Clinic",
+                "ward": "Lubosi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.8,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
               {
                 "id": 2410,
                 "url": "projects/2410-additional-funding-for-the-construction-of-a-chiefs-palace.html",
@@ -42356,6 +42820,166 @@ window.CDF_DATA = {
                   "url": "https://www.nalolocouncil.gov.zm/wp-content/uploads/2023/11/2023-CDF-PROJECTS-LIST.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2921,
+                "url": "projects/2921-completion-of-1x3-crb-at-lwambi-primary-school.html",
+                "name": "Completion of 1x3 CRB at Lwambi Primary School",
+                "ward": "Mukukutu",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.45,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2916,
+                "url": "projects/2916-completion-of-a-dormitory-at-nambwae-secondary-school.html",
+                "name": "Completion of a Dormitory at Nambwae Secondary School",
+                "ward": "Lyamakumba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.381,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2922,
+                "url": "projects/2922-completion-of-a-mothers-shelter-at-liliachi-rural-health-centre.html",
+                "name": "Completion of a Mothers Shelter at Liliachi Rural Health Centre",
+                "ward": "Makoka",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.35,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2923,
+                "url": "projects/2923-completion-of-a-mothers-shelter-at-malombe-rural-health-centre.html",
+                "name": "Completion of a Mothers Shelter at Malombe Rural Health Centre",
+                "ward": "Likulwe",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.35,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2924,
+                "url": "projects/2924-completion-of-a-mothers-shelter-at-silowana-rural-health-centre.html",
+                "name": "Completion of a Mothers Shelter at Silowana Rural Health Centre",
+                "ward": "Silowana",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.35,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2909,
+                "url": "projects/2909-construction-of-1x3-crb-at-liliachi-primary-school.html",
+                "name": "Construction of 1x3 CRB at Liliachi Primary School",
+                "ward": "Makoka",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.75,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2904,
+                "url": "projects/2904-construction-of-1x3-crb-at-muoyo-secondary-school.html",
+                "name": "Construction of 1x3 CRB at Muoyo Secondary School",
+                "ward": "Muoyo",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.7749,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2907,
+                "url": "projects/2907-construction-of-1x3-crb-equipped-with-solar-at-kalamba-secondary-school.html",
+                "name": "Construction of 1x3 CRB equipped with Solar at Kalamba Secondary School",
+                "ward": "Ukolo",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.7226,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2401,
@@ -42496,6 +43120,166 @@ window.CDF_DATA = {
                   "url": "https://www.nalolocouncil.gov.zm/wp-content/uploads/2023/11/2023-CDF-PROJECTS-LIST.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2915,
+                "url": "projects/2915-construction-of-gravel-road-on-lyamutinga-sianda-and-nasiwayo-roads.html",
+                "name": "Construction of Gravel Road on Lyamutinga, Sianda & Nasiwayo Roads",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 3.278,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2906,
+                "url": "projects/2906-construction-of-water-reticulation-system-at-lyamutinga-clinic.html",
+                "name": "Construction of Water Reticulation System at Lyamutinga Clinic",
+                "ward": "Mukukutu",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.35,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2911,
+                "url": "projects/2911-construction-of-water-reticulation-system-at-nambwae-clinic.html",
+                "name": "Construction of Water Reticulation System at Nambwae Clinic",
+                "ward": "Lyamakumba",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.45,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2925,
+                "url": "projects/2925-construction-of-a-1x3-crb-at-namabunga-primary-school-phase-1.html",
+                "name": "Construction of a 1x3 CRB at Namabunga Primary School Phase 1",
+                "ward": "Silowana",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.9546,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2905,
+                "url": "projects/2905-construction-of-a-clinic-equipped-with-solar-power-in-lyamutinga.html",
+                "name": "Construction of a Clinic equipped with Solar Power in Lyamutinga",
+                "ward": "Mukukutu",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 2.0518,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2910,
+                "url": "projects/2910-construction-of-a-clinic-equipped-with-solar-power-in-nambwae-community.html",
+                "name": "Construction of a Clinic equipped with Solar Power in Nambwae Community",
+                "ward": "Lyamakumba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.9851,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2912,
+                "url": "projects/2912-construction-of-a-maternity-annex-equipped-with-solar-power-at-kaunga-lueti-rural-health-centre.html",
+                "name": "Construction of a Maternity Annex equipped with Solar Power at Kaunga Lueti Rural Health Centre",
+                "ward": "Silowana",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 2.882,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2917,
+                "url": "projects/2917-construction-of-a-maternity-wing-at-nasikona.html",
+                "name": "Construction of a Maternity Wing at Nasikona",
+                "ward": "Kambai",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.19,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2382,
@@ -42716,6 +43500,46 @@ window.CDF_DATA = {
                   "url": "https://www.nalolocouncil.gov.zm/wp-content/uploads/2023/11/2023-CDF-PROJECTS-LIST.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2926,
+                "url": "projects/2926-funds-for-servicing-cdf-monitoring-vehicle.html",
+                "name": "Funds for Servicing CDF Monitoring Vehicle",
+                "ward": "All",
+                "component": "administration",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": 0.3,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2913,
+                "url": "projects/2913-installation-of-furniture-and-medical-equipment-in-muoyo-and-nasilimwe-maternity-annexes-and-lyande-clinic.html",
+                "name": "Installation of Furniture and Medical Equipment in Muoyo and Nasilimwe Maternity Annexes and Lyande Clinic",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.9,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2383,
@@ -42958,6 +43782,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 2914,
+                "url": "projects/2914-procurement-of-400-double-desks-for-new-1x3-crbs.html",
+                "name": "Procurement of 400 Double Desks for New 1x3 CRBs",
+                "ward": "All",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.68,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 2412,
                 "url": "projects/2412-procurement-of-a-police-vehicle.html",
                 "name": "Procurement of a police vehicle",
@@ -42996,6 +43840,66 @@ window.CDF_DATA = {
                   "url": "https://www.nalolocouncil.gov.zm/wp-content/uploads/2023/11/2023-CDF-PROJECTS-LIST.pdf"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2919,
+                "url": "projects/2919-rehabilitation-of-1x3-crb-at-siloloti-primary-school.html",
+                "name": "Rehabilitation of 1x3 CRB at Siloloti Primary School",
+                "ward": "Kambai",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.05,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2918,
+                "url": "projects/2918-rehabilitation-of-kataba-rural-health-centre.html",
+                "name": "Rehabilitation of Kataba Rural Health Centre",
+                "ward": "Kataba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.2,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 2908,
+                "url": "projects/2908-water-reticulation-system-at-kalamba-secondary-school.html",
+                "name": "Water Reticulation System at Kalamba Secondary School",
+                "ward": "Ukolo",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.36,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Nalolo Town Council",
+                  "title": "CDFC Meeting Minutes, 17 April 2025 (Appendix 3A: Approved List of 2025 Community Projects)",
+                  "url": "http://www.nalolocouncil.gov.zm/wp-content/uploads/2026/10/CDFC-MEETING-17-APRIL-2025.pdf"
+                },
+                "fundingYear": 2025
               }
             ]
           },
@@ -57820,15 +58724,15 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "province": "Copperbelt",
-        "totalProjects": 140,
+        "totalProjects": 152,
         "fundingYears": {
-          "2022": 11,
-          "2023": 6,
+          "2022": 17,
+          "2023": 7,
           "2024": 11,
           "2025": 26,
           "2026": 20
         },
-        "fundingYearKnown": 74,
+        "fundingYearKnown": 81,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -57997,11 +58901,12 @@ window.CDF_DATA = {
           {
             "name": "Chililabombwe",
             "url": "constituencies/chililabombwe.html",
-            "count": 24,
-            "budgetM": 34.35,
+            "count": 25,
+            "budgetM": 35.19,
             "statusCounts": {
               "approved": 11,
-              "ongoing": 13
+              "ongoing": 13,
+              "completed": 1
             },
             "projects": [
               {
@@ -58363,6 +59268,26 @@ window.CDF_DATA = {
                   "url": "https://www.chililabombwecouncil.gov.zm/?page_id=1909"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 2937,
+                "url": "projects/2937-maternity-annex-at-fitobaula.html",
+                "name": "Maternity annex at Fitobaula",
+                "ward": "Chitabi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.8429,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "Fitobaula Health Post Receives New Maternity Annex (handover 1 March 2025; 2023 CDF)",
+                  "url": "https://www.parliament.gov.zm/node/12361"
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 1402,
@@ -59671,12 +60596,12 @@ window.CDF_DATA = {
           {
             "name": "Kwacha",
             "url": "constituencies/kwacha.html",
-            "count": 11,
-            "budgetM": 4.32,
+            "count": 14,
+            "budgetM": 6.0,
             "statusCounts": {
-              "ongoing": 7,
+              "ongoing": 5,
               "approved": 2,
-              "completed": 2
+              "completed": 7
             },
             "projects": [
               {
@@ -59748,16 +60673,56 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": 0.74,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                  "publisher": "National Assembly of Zambia",
+                  "title": "NAZ News FLASH Issue No. 023 (July 2025) — Kwacha Constituency handover of six CDF projects",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/news-letter/NAZ%20News%20FLASH_JULY%202025..pdf"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 2948,
+                "url": "projects/2948-construction-of-a-concrete-block-wall-fence-at-lulamba-primary-school.html",
+                "name": "Construction of a Concrete Block Wall Fence at Lulamba Primary School",
+                "ward": "Bulangililo",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.6157,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "NAZ News FLASH Issue No. 023 (July 2025) — Kwacha Constituency handover of six CDF projects",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/news-letter/NAZ%20News%20FLASH_JULY%202025..pdf"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2947,
+                "url": "projects/2947-construction-of-a-standard-health-post-at-kafue-park-clinic.html",
+                "name": "Construction of a Standard Health Post at Kafue Park Clinic",
+                "ward": "Chantente",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.9615,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "NAZ News FLASH Issue No. 023 (July 2025) — Kwacha Constituency handover of six CDF projects",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/news-letter/NAZ%20News%20FLASH_JULY%202025..pdf"
+                },
+                "fundingYear": null
               },
               {
                 "id": 1408,
@@ -59768,14 +60733,14 @@ window.CDF_DATA = {
                 "category": "health",
                 "contractor": null,
                 "budgetM": 0.8837,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
-                  "publisher": "Kitwe City Council",
-                  "title": "KCC disburses K2.3M as Kwacha MP breaks ground for six projects",
-                  "url": "https://www.kitwecouncil.gov.zm/?p=1973"
+                  "publisher": "National Assembly of Zambia",
+                  "title": "NAZ News FLASH Issue No. 023 (July 2025) — Kwacha Constituency handover of six CDF projects",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/news-letter/NAZ%20News%20FLASH_JULY%202025..pdf"
                 },
                 "fundingYear": 2023
               },
@@ -59860,6 +60825,26 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 2946,
+                "url": "projects/2946-refurbishment-of-the-nkana-east-clinic-laboratory-room.html",
+                "name": "Refurbishment of the Nkana East Clinic Laboratory Room",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.0976,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "National Assembly of Zambia",
+                  "title": "NAZ News FLASH Issue No. 023 (July 2025) — Kwacha Constituency handover of six CDF projects",
+                  "url": "https://www.parliament.gov.zm/sites/default/files/news-letter/NAZ%20News%20FLASH_JULY%202025..pdf"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 1404,
                 "url": "projects/1404-rehabilitation-of-the-opd-at-kwacha-clinic.html",
                 "name": "Rehabilitation of the OPD at Kwacha Clinic",
@@ -59935,10 +60920,11 @@ window.CDF_DATA = {
           {
             "name": "Lufwanyama",
             "url": "constituencies/lufwanyama.html",
-            "count": 19,
-            "budgetM": 3.87,
+            "count": 24,
+            "budgetM": 5.48,
             "statusCounts": {
-              "ongoing": 5,
+              "ongoing": 4,
+              "completed": 6,
               "approved": 14
             },
             "projects": [
@@ -59961,6 +60947,46 @@ window.CDF_DATA = {
                   "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 2942,
+                "url": "projects/2942-borehole-sitting-drilling-and-installation-of-six-hand-pumps-in-chibanga-ward-lot-1.html",
+                "name": "Borehole Sitting, Drilling and Installation of Six Hand Pumps in Chibanga Ward (Lot 1)",
+                "ward": "Chibanga",
+                "component": "community",
+                "category": "water",
+                "contractor": "Jozanga Investment Limited",
+                "budgetM": 0.407,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama Newsletter, June/July edition (May 2023) — Progress on 2022 CDF Projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/wp-content/uploads/2023/11/lufwanyama-newsletter-May-2023-final.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 2943,
+                "url": "projects/2943-borehole-sitting-drilling-and-installation-of-six-hand-pumps-in-chibanga-ward-lot-2.html",
+                "name": "Borehole Sitting, Drilling and Installation of Six Hand Pumps in Chibanga Ward (Lot 2)",
+                "ward": "Chibanga",
+                "component": "community",
+                "category": "water",
+                "contractor": "Mano Construction Limited",
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama Newsletter, June/July edition (May 2023) — Progress on 2022 CDF Projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/wp-content/uploads/2023/11/lufwanyama-newsletter-May-2023-final.pdf"
+                },
+                "fundingYear": 2022
               },
               {
                 "id": 1469,
@@ -60103,6 +61129,46 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 2944,
+                "url": "projects/2944-construction-of-1x2-classroom-block-at-kankomo.html",
+                "name": "Construction of 1x2 Classroom Block at Kankomo",
+                "ward": "Mwelushi",
+                "component": "community",
+                "category": "education",
+                "contractor": "CM Dreamworks Limited",
+                "budgetM": 0.4996,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama Newsletter, June/July edition (May 2023) — Progress on 2022 CDF Projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/wp-content/uploads/2023/11/lufwanyama-newsletter-May-2023-final.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 2945,
+                "url": "projects/2945-construction-of-semi-detached-house-at-kankomo.html",
+                "name": "Construction of Semi-Detached House at Kankomo",
+                "ward": "Mwelushi",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": "Eddies Tronix Services",
+                "budgetM": 0.4461,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama Newsletter, June/July edition (May 2023) — Progress on 2022 CDF Projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/wp-content/uploads/2023/11/lufwanyama-newsletter-May-2023-final.pdf"
+                },
+                "fundingYear": 2022
+              },
+              {
                 "id": 1479,
                 "url": "projects/1479-construction-of-a-1-x-3-classroom-block.html",
                 "name": "Construction of a 1 x 3 classroom block",
@@ -60151,16 +61217,16 @@ window.CDF_DATA = {
                 "category": "sanitation",
                 "contractor": "Kendies Constructors Limited",
                 "budgetM": 0.5402,
-                "status": "ongoing",
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
                 "note": null,
                 "source": {
                   "publisher": "Lufwanyama Town Council",
-                  "title": "Lufwanyama CDF projects taking shape",
-                  "url": "https://www.lufwanyamacouncil.gov.zm/?p=1252"
+                  "title": "Lufwanyama Newsletter, June/July edition (May 2023) — Progress on 2022 CDF Projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/wp-content/uploads/2023/11/lufwanyama-newsletter-May-2023-final.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1466,
@@ -60321,6 +61387,26 @@ window.CDF_DATA = {
                   "url": "https://www.lufwanyamacouncil.gov.zm/?p=1636"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 2941,
+                "url": "projects/2941-sitting-and-drilling-of-a-commercial-borehole-supply-and-delivery-of-a-10-000-litre-tank-and-installation-of-tank-stand-at-fumbwe-health-post.html",
+                "name": "Sitting and Drilling of a Commercial Borehole, Supply and Delivery of a 10,000-litre Tank and Installation of Tank Stand at Fumbwe Health Post",
+                "ward": "Chinemu",
+                "component": "community",
+                "category": "water",
+                "contractor": "Big Zacks Investment Limited",
+                "budgetM": 0.2547,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lufwanyama Town Council",
+                  "title": "Lufwanyama Newsletter, June/July edition (May 2023) — Progress on 2022 CDF Projects",
+                  "url": "https://www.lufwanyamacouncil.gov.zm/wp-content/uploads/2023/11/lufwanyama-newsletter-May-2023-final.pdf"
+                },
+                "fundingYear": 2022
               }
             ]
           },
@@ -60390,6 +61476,78 @@ window.CDF_DATA = {
                   "publisher": "ZPPA e-GP (Masaiti Town Council)",
                   "title": "MTC/DES/PSU/CDF/WATER BOWSER/07/24/11/452: Tender to procure a water bowser — Masaiti Constituency",
                   "url": "https://eprocure.zppa.org.zm/epps/cft/prepareViewCfTWS.do?resourceId=7809987"
+                },
+                "fundingYear": null
+              }
+            ]
+          },
+          {
+            "name": "Mpongwe",
+            "url": "constituencies/mpongwe.html",
+            "count": 3,
+            "budgetM": 0,
+            "statusCounts": {
+              "ongoing": 1,
+              "completed": 2
+            },
+            "projects": [
+              {
+                "id": 2938,
+                "url": "projects/2938-construction-of-a-staff-house-ablution-block-and-water-reticulation-at-chowa-health-post.html",
+                "name": "Construction of a Staff house, ablution block and water reticulation at Chowa Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "ongoing",
+                "completionPct": 65.0,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2939,
+                "url": "projects/2939-purchase-of-excavator.html",
+                "name": "Purchase of Excavator",
+                "ward": "Mpongwe Central",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 2940,
+                "url": "projects/2940-purchase-of-grader.html",
+                "name": "Purchase of Grader",
+                "ward": "Mpongwe Central",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "CDF — Mpongwe Town Council (CDF Projects database; returns 'No Projects Found')",
+                  "url": "https://www.mpongwecouncil.gov.zm/?page_id=1688"
                 },
                 "fundingYear": null
               }
@@ -63460,15 +64618,15 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 2850,
+    "totalProjects": 2906,
     "fundingYears": {
-      "2022": 372,
-      "2023": 248,
-      "2024": 465,
-      "2025": 822,
+      "2022": 378,
+      "2023": 249,
+      "2024": 467,
+      "2025": 853,
       "2026": 239
     },
-    "fundingYearKnown": 2146
+    "fundingYearKnown": 2186
   },
   "people": {
     "bursaries": [
@@ -63566,22 +64724,22 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "tracked": 663,
-        "completed": 60,
+        "completed": 63,
         "underway": 42,
-        "approved": 561,
+        "approved": 558,
         "other": 0,
-        "completedPct": 9.0,
+        "completedPct": 9.5,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
       {
         "name": "Western",
-        "tracked": 224,
-        "completed": 85,
+        "tracked": 258,
+        "completed": 95,
         "underway": 37,
-        "approved": 101,
+        "approved": 125,
         "other": 1,
-        "completedPct": 37.9,
+        "completedPct": 36.8,
         "ruralPct": 80.6,
         "urbanPct": 19.4
       },
@@ -63609,12 +64767,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 503,
-        "completed": 171,
+        "tracked": 513,
+        "completed": 182,
         "underway": 39,
-        "approved": 291,
+        "approved": 290,
         "other": 2,
-        "completedPct": 34.0,
+        "completedPct": 35.5,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -63642,12 +64800,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Copperbelt",
-        "tracked": 140,
-        "completed": 27,
-        "underway": 33,
+        "tracked": 152,
+        "completed": 41,
+        "underway": 31,
         "approved": 80,
         "other": 0,
-        "completedPct": 19.3,
+        "completedPct": 27.0,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -63706,16 +64864,16 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2239,
-        "completed": 574,
-        "pct": 25.6
+        "projects": 2283,
+        "completed": 598,
+        "pct": 26.2
       },
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 348,
-        "completed": 99,
-        "pct": 28.4
+        "projects": 360,
+        "completed": 113,
+        "pct": 31.4
       },
       {
         "label": "In between",
@@ -63728,63 +64886,63 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 666,
-        "urbanN": 85,
-        "ruralPct": 29.7,
-        "urbanPct": 24.4
+        "ruralN": 680,
+        "urbanN": 87,
+        "ruralPct": 29.8,
+        "urbanPct": 24.2
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 628,
-        "urbanN": 65,
-        "ruralPct": 28.0,
-        "urbanPct": 18.7
+        "ruralN": 635,
+        "urbanN": 69,
+        "ruralPct": 27.8,
+        "urbanPct": 19.2
       },
       {
         "cat": "Other community works",
-        "ruralN": 412,
-        "urbanN": 59,
-        "ruralPct": 18.4,
-        "urbanPct": 17.0
+        "ruralN": 416,
+        "urbanN": 62,
+        "ruralPct": 18.2,
+        "urbanPct": 17.2
       },
       {
         "cat": "Health",
-        "ruralN": 385,
-        "urbanN": 70,
-        "ruralPct": 17.2,
-        "urbanPct": 20.1
+        "ruralN": 400,
+        "urbanN": 73,
+        "ruralPct": 17.5,
+        "urbanPct": 20.3
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 113,
+        "ruralN": 114,
         "urbanN": 49,
         "ruralPct": 5.0,
-        "urbanPct": 14.1
+        "urbanPct": 13.6
       },
       {
         "cat": "Police & security",
-        "ruralN": 35,
+        "ruralN": 38,
         "urbanN": 20,
-        "ruralPct": 1.6,
-        "urbanPct": 5.7
+        "ruralPct": 1.7,
+        "urbanPct": 5.6
       }
     ]
   },
   "record": {
-    "total": 2850,
+    "total": 2906,
     "statuses": {
-      "approved": 1855,
-      "completed": 719,
+      "approved": 1875,
+      "completed": 757,
       "funded": 10,
       "in_progress": 37,
-      "ongoing": 224,
+      "ongoing": 222,
       "stalled": 4,
       "unknown": 1
     },
-    "completedPct": 25.2,
-    "approvedPct": 65.4,
+    "completedPct": 26.0,
+    "approvedPct": 64.9,
     "withPhoto": 23,
-    "constituencies": 146,
+    "constituencies": 149,
     "provinces": 10
   }
 };
