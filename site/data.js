@@ -3606,8 +3606,11 @@ window.CDF_DATA = {
             "budgetM": 2.0188,
             "status": "completed",
             "completionPct": null,
-            "photo": null,
-            "note": "Commissioned per Lusaka City Council, 4 April 2025: constructed using the CDF 2023 allocation, K2,018,807.03. Ward not printed.",
+            "photo": {
+              "url": "/photos/twashuka-classroom.jpg",
+              "credit": "Bwalya L. Kalimanshi / Lusaka City Council, via ZNBC Today (Facebook)"
+            },
+            "note": "Commissioned per Lusaka City Council, 4 April 2025: constructed using the CDF 2023 allocation, K2,018,807.03. Ward not printed. Photo: the completed block, published by ZNBC Today on Facebook on 3 April 2025 (photo: Bwalya L. Kalimanshi / Lusaka City Council), the post naming Twashuka Combined School, Kanyama Constituency — https://facebook.com/100066659241624/posts/pfbid02H41LxpAPsdEFQT42j7yJXWHvW65SDitMWBc5DecWEZeH839L2pve92c6jhdGRQVol/",
             "source": {
               "publisher": "Lusaka City Council",
               "title": "CDF gives Twashuka Combined School its first double-storey classroom block (2023 CDF, K2,018,807.03)",
@@ -78797,8 +78800,11 @@ window.CDF_DATA = {
                 "budgetM": 2.0188,
                 "status": "completed",
                 "completionPct": null,
-                "photo": null,
-                "note": "Commissioned per Lusaka City Council, 4 April 2025: constructed using the CDF 2023 allocation, K2,018,807.03. Ward not printed.",
+                "photo": {
+                  "url": "/photos/twashuka-classroom.jpg",
+                  "credit": "Bwalya L. Kalimanshi / Lusaka City Council, via ZNBC Today (Facebook)"
+                },
+                "note": "Commissioned per Lusaka City Council, 4 April 2025: constructed using the CDF 2023 allocation, K2,018,807.03. Ward not printed. Photo: the completed block, published by ZNBC Today on Facebook on 3 April 2025 (photo: Bwalya L. Kalimanshi / Lusaka City Council), the post naming Twashuka Combined School, Kanyama Constituency — https://facebook.com/100066659241624/posts/pfbid02H41LxpAPsdEFQT42j7yJXWHvW65SDitMWBc5DecWEZeH839L2pve92c6jhdGRQVol/",
                 "source": {
                   "publisher": "Lusaka City Council",
                   "title": "CDF gives Twashuka Combined School its first double-storey classroom block (2023 CDF, K2,018,807.03)",
@@ -84051,7 +84057,7 @@ window.CDF_DATA = {
     },
     "completedPct": 27.7,
     "approvedPct": 63.0,
-    "withPhoto": 26,
+    "withPhoto": 27,
     "constituencies": 154,
     "provinces": 10
   }
