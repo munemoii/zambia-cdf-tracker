@@ -3773,10 +3773,10 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": {
-              "url": "https://www.lcc.gov.zm/wp-content/uploads/2025/04/WhatsApp-Image-2025-04-03-at-6.44.24-PM-864x380.jpeg",
+              "url": "/photos/olympia-market-ablution.jpg",
               "credit": "Lusaka City Council"
             },
-            "note": null,
+            "note": "Photo localised 2026-11-04: previously hotlinked to lcc.gov.zm (WhatsApp-Image-2025-04-03-at-6.44.24-PM-864x380.jpeg), which no longer serves; this is the same published image, recovered from Wayback Machine snapshots of that exact URL (two captures, identical content). Photo credit unchanged: Lusaka City Council.",
             "source": {
               "publisher": "Lusaka City Council",
               "title": "A Newly Constructed Ablution Block at Olympia Market in Mandevu Constituency",
@@ -28883,11 +28883,8 @@ window.CDF_DATA = {
                 "budgetM": null,
                 "status": "completed",
                 "completionPct": null,
-                "photo": {
-                  "url": "http://www.mpongwecouncil.gov.zm/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-20-at-16.47.36-300x225.jpeg",
-                  "credit": "Mpongwe Town Council"
-                },
-                "note": null,
+                "photo": null,
+                "note": "Photo removed 2026-11-04: the hotlinked Mpongwe Town Council image no longer serves and no faithful archived copy could be retrieved (Wayback Machine, archive.today and Arquivo.pt all checked); per the no-substitution rule no replacement photo was used. The photo was credited to Mpongwe Town Council. The project record itself, on source 634, is unaffected.",
                 "source": {
                   "publisher": "Mpongwe Town Council",
                   "title": "Completed Luamabwe Crossing Point Using CDF Funding",
@@ -43196,10 +43193,10 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": {
-                  "url": "https://www.kabwecouncil.gov.zm/wp-content/uploads/2023/08/bwacha.jpg",
+                  "url": "/photos/munyama-admin-block.jpg",
                   "credit": "Kabwe Municipal Council"
                 },
-                "note": null,
+                "note": "Photo localised 2026-11-04: previously hotlinked to kabwecouncil.gov.zm (bwacha.jpg), which no longer serves; this is the same published image, recovered from the Wayback Machine snapshot of that exact URL (5 Nov 2023). Photo credit unchanged: Kabwe Municipal Council.",
                 "source": {
                   "publisher": "Kabwe Municipal Council",
                   "title": "Constituency Development Fund (CDF) constructed Administration block at Munyama Secondary School in Munyama Ward",
@@ -43359,10 +43356,10 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": {
-                  "url": "https://www.kabwecouncil.gov.zm/wp-content/uploads/2023/08/desks-bwacha.jpg",
+                  "url": "/photos/makululu-desks.jpg",
                   "credit": "Kabwe Municipal Council"
                 },
-                "note": null,
+                "note": "Photo localised 2026-11-04: previously hotlinked to kabwecouncil.gov.zm (desks-bwacha.jpg), which no longer serves; this is the same published image, recovered from the Wayback Machine snapshot of that exact URL (5 Nov 2023). Photo credit unchanged: Kabwe Municipal Council.",
                 "source": {
                   "publisher": "Kabwe Municipal Council",
                   "title": "BWACHA Constituency Member of Parliament Sydney Mushanga handed over 230 desks at Makululu Day Secondary School",
@@ -78967,10 +78964,10 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": {
-                  "url": "https://www.lcc.gov.zm/wp-content/uploads/2025/04/WhatsApp-Image-2025-04-03-at-6.44.24-PM-864x380.jpeg",
+                  "url": "/photos/olympia-market-ablution.jpg",
                   "credit": "Lusaka City Council"
                 },
-                "note": null,
+                "note": "Photo localised 2026-11-04: previously hotlinked to lcc.gov.zm (WhatsApp-Image-2025-04-03-at-6.44.24-PM-864x380.jpeg), which no longer serves; this is the same published image, recovered from Wayback Machine snapshots of that exact URL (two captures, identical content). Photo credit unchanged: Lusaka City Council.",
                 "source": {
                   "publisher": "Lusaka City Council",
                   "title": "A Newly Constructed Ablution Block at Olympia Market in Mandevu Constituency",
@@ -84057,7 +84054,7 @@ window.CDF_DATA = {
     },
     "completedPct": 27.7,
     "approvedPct": 63.0,
-    "withPhoto": 27,
+    "withPhoto": 26,
     "constituencies": 154,
     "provinces": 10
   }
