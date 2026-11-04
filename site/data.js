@@ -32134,13 +32134,13 @@ window.CDF_DATA = {
         "totalProjects": 537,
         "fundingYears": {
           "2021": 1,
-          "2022": 40,
+          "2022": 41,
           "2023": 53,
           "2024": 132,
           "2025": 150,
           "2026": 26
         },
-        "fundingYearKnown": 402,
+        "fundingYearKnown": 403,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -36077,13 +36077,13 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": 100.0,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-04 (Daily Blitz audit arm; coordinator-verified): cited source 281 (Kazungula TC update report), 2022 CDF section, row 20 — 'Roofing of a 1x1 at Riverview School — 2022 CDF (Disaster Contingency) — K55,970.00 — Southlink Investment Limited — Kazungula Central — 100% — Project has been completed.' The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Kazungula Town Council",
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1309,
@@ -83459,13 +83459,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 512,
+      "2022": 513,
       "2023": 452,
       "2024": 672,
       "2025": 1052,
       "2026": 318
     },
-    "fundingYearKnown": 3018
+    "fundingYearKnown": 3019
   },
   "people": {
     "bursaries": [
