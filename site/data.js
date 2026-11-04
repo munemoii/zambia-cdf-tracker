@@ -48353,7 +48353,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48373,7 +48373,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48393,7 +48393,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48453,7 +48453,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48473,7 +48473,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48493,7 +48493,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48513,7 +48513,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48553,7 +48553,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
@@ -48593,7 +48593,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Citation note (Daily Blitz audit, 2026-11-04): Mkushi Town Council has since overwritten this article's page — the cited URL now serves a Complaints page. The completed status stands on the tracker's captured copy of the article 'Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million' (11 Aug 2026), which names this project among the ten CDF projects commissioned.",
                 "source": {
                   "publisher": "Mkushi Town Council",
                   "title": "Mkushi DC Hails Commissioning of Ten CDF Projects Worth Over K6 Million",
