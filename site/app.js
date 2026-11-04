@@ -740,14 +740,16 @@
       {key:"ongoing",label:"Ongoing",color:"#33607e"},
       {key:"in_progress",label:"In progress",color:"#33607e"},
       {key:"approved",label:"Approved",color:"#d4a017"},
-      {key:"funded",label:"Funded",color:"#a8842c"},
       {key:"stalled",label:"Stalled",color:"#bf3b26"},
       {key:"unknown",label:"Status not stated",color:"#9aa79d"}
     ];
     var MIX=[];
+    var fundedN=(R.statuses&&R.statuses.funded)||0;
+    var approvedN=(R.statuses&&R.statuses.approved)||0;
     ORDER.forEach(function(o){
       if(o.key==="in_progress") return;
       if(o.key==="ongoing"){ MIX.push({label:"Underway", color:o.color, n:((R.statuses&&R.statuses.ongoing)||0)+((R.statuses&&R.statuses.in_progress)||0)}); return; }
+      if(o.key==="approved"){ MIX.push({label:"Approved", color:o.color, n:approvedN+fundedN}); return; }
       MIX.push({label:o.label, color:o.color, n:(R.statuses&&R.statuses[o.key])||0});
     });
     var segs="", leg="";
@@ -757,7 +759,7 @@
       segs+='<span class="seg" style="background:'+o.color+';width:'+pct+'%"></span>';
       leg+='<div class="recleg"><span class="dot" style="background:'+o.color+'"></span><span class="rl">'+o.label+'</span><span class="rn">'+o.n.toLocaleString()+'</span><span class="rp">'+pct.toFixed(1)+'%</span></div>';
     });
-    mount.innerHTML='<div class="stack tall" role="img" aria-label="Status mix of all tracked projects">'+segs+'</div><div class="reclegs">'+leg+'</div><p class="chart-note" style="margin-top:8px">\u201cUnderway\u201d combines the two wordings sources use for work under way \u2014 ongoing and in progress. Project pages keep each source\u2019s own word.</p>';
+    mount.innerHTML='<div class="stack tall" role="img" aria-label="Status mix of all tracked projects">'+segs+'</div><div class="reclegs">'+leg+'</div><p class="chart-note" style="margin-top:8px">\u201cUnderway\u201d combines the two wordings sources use for work under way \u2014 ongoing and in progress. \u201cApproved\u201d is the paper stage: '+approvedN.toLocaleString()+' approved, plus '+fundedN.toLocaleString()+' labelled funded where a source states the release \u2014 '+(approvedN+fundedN).toLocaleString()+' in all. Project pages keep each source\u2019s own word.</p><p class="chart-note" style="margin-top:8px">Funding: every completed project was funded in practice \u2014 delivery is impossible without money. A project is labelled Funded only where a source states the funding release itself. That is '+fundedN.toLocaleString()+' projects today, because councils rarely publish releases project by project.</p>';
     var tiles=document.getElementById("recordTiles");
     if(tiles){
       tiles.innerHTML=
