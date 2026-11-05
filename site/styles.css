@@ -723,3 +723,14 @@ footer:not(.sitefoot) li{color:#cfe0cf}
   #gapDetail .grecs{grid-template-columns:1fr}
   .gtiles{grid-template-columns:repeat(auto-fill,minmax(92px,1fr))}
 }
+
+/* Publishing League (roadmap item 5, 2026-11-04) */
+.lgwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.mtable th .lgsort{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-transform:inherit;letter-spacing:inherit;text-align:left}
+.mtable th .lgsort:hover{text-decoration:underline}
+.mtable th .lgsort .arr{font-size:.8em;opacity:.75}
+.lgcomp{font-weight:700}
+.lgset{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px}
+.lgset .card{margin:0}
+.lgscore{font-family:"Barlow Condensed",sans-serif;font-size:2.1rem;line-height:1;margin:2px 0 8px}
+.lgconsts{font-size:.85rem}

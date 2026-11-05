@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>The Publishing League — Zambia CDF Tracker</title>
+<meta name="description" content="Every council ranked on the CDF record it publishes itself: how many projects it has named, and whether its lists state each project's status, funding year and amount. Not delivering, or just not publishing?">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zambia CDF Tracker">
+<meta property="og:title" content="The Publishing League — Zambia CDF Tracker">
+<meta property="og:description" content="Not delivering, or just not publishing? Every council ranked on the record it publishes itself — names, statuses, funding years and amounts.">
+<meta property="og:url" content="https://followeverykwacha.com/league.html">
+<meta property="og:image" content="https://followeverykwacha.com/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css?v=42">
+</head>
+<body>
+<div class="wrap">
+  <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
+  <header class="sitehead">
+    <a class="wordmark" href="index.html">Zambia <em>CDF</em> Tracker</a>
+    <nav class="sitenav">
+      <a href="index.html">Home</a>
+      <a href="money.html">The Money</a>
+      <a href="provinces.html">Provinces</a>
+      <a href="projects.html">Projects</a>
+      <a href="people.html">Loans &amp; Bursaries</a>
+      <a href="photos.html">Proof of Delivery</a>
+      <a href="scenario.html">2027 Scenario</a>
+      <a href="developments.html">Developments</a>
+    </nav>
+  </header>
+  <div class="pageband"><div class="pageband-in">
+    <nav class="crumbs"><a href="index.html">Home</a> › The Publishing League</nav>
+    <h1>The Publishing League</h1>
+    <p class="bandsub">Not delivering, or just not publishing? This league ranks every council on the record it publishes itself — the names, statuses, funding years and amounts the public can actually check.</p>
+  </div></div>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">Publishing, measured</p>
+    <h2>The record a council gives its own people</h2>
+    <p>Everything on this tracker exists because somebody published it. The Auditor-General counts projects but names none of them — naming is the councils' job. This league turns the lens around: it scores each council on <b>its own publications</b>, exactly as they stand in this record — how many projects it has named, and how completely its lists describe them.</p>
+    <p>It measures <b>publishing, not delivery</b>. A council low in this league may be building a great deal — but if it does not publish the names, its residents cannot verify any of it. A council high in the league has handed its people a record they can check, project by project. The <a href="gapmap.html">Gap Map</a> shows the same story constituency by constituency; this page names the publishers.</p>
+  </div>
+  <div class="board" role="region" aria-label="The Publishing League, nationally">
+    <p class="eyebrow">The national picture</p>
+    <h2>Who publishes the record</h2>
+    <div class="bgrid" id="leagueStrip"></div>
+    <p class="bnote">Counted from this tracker's database: every named project is credited to the publisher on its source document. Projects that reached the record through national bodies — Parliament, the ministry, the government news agency, news reports — are credited to those publishers, never to a council that did not publish them. The method is set out in full below.</p>
+  </div>
+</section>
+
+<section id="leagueBestWrap">
+  <div class="sec-head">
+    <p class="eyebrow">The standard-setters</p>
+    <h2>What a complete list looks like</h2>
+    <p>Councils with at least 20 named projects in the record and a completeness score of 90 or more. Their lists are the template: projects named one by one, with a status, a funding year and an amount the public can check.</p>
+  </div>
+  <div class="lgset" id="leagueBest"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">The full league</p>
+    <h2>Every council, ranked on its own record</h2>
+    <p>Ranked by the <b>completeness score</b>: the average of three shares — the share of a council's named projects whose published list states a <b>status</b>, the share that states a <b>funding year</b>, and the share that states an <b>amount</b>. A rank never stands alone: every number behind it is in the table. Tap any heading to re-sort; a council's rank stays with it.</p>
+  </div>
+  <div class="card">
+    <div class="lgwrap">
+    <table class="mtable" id="leagueTable">
+      <thead><tr>
+        <th scope="col" aria-sort="descending"><button type="button" class="lgsort" data-k="rank">Rank</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="council">Council</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="named">Named projects</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="completed">Named completed</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="statusPct">Status stated</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="yearPct">Funding year stated</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="amountPct">Amount stated</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="composite">Completeness</button></th>
+        <th scope="col"><button type="button" class="lgsort" data-k="latest">Latest publication</button></th>
+        <th scope="col">Publishes for</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    </div>
+    <p class="chart-note">Latest publication is the date of the newest council document behind a council's rows; where a council's documents carry no date, it says Not published. The completeness score treats the three stated shares equally — the formula and every judgement call behind this table are printed in the method section below.</p>
+  </div>
+  <noscript><p class="chart-note">This table is drawn from the tracker's data file — enable JavaScript to see it. The same record stands behind every constituency page, under Provinces.</p></noscript>
+</section>
+
+<section id="leagueNoneWrap">
+  <div class="sec-head">
+    <p class="eyebrow">The silent end</p>
+    <h2>Nothing usable published yet</h2>
+    <p>A constituency can only appear on this tracker when names are published. These are the places where that has not happened yet — stated plainly, because the silence is itself part of the record.</p>
+  </div>
+  <div id="leagueNone"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">How to read this league</p>
+    <h2>The method, and the honest edges</h2>
+  </div>
+  <div class="card">
+    <p><b>The completeness score.</b> For each council: (status stated % + funding year stated % + amount stated %) ÷ 3, each share counted across the projects credited to that council. The three shares count equally. The score measures how completely a council describes what it publishes — a council that publishes few projects but describes them fully can outscore a council that publishes hundreds with no amounts. Volume is its own column, and both are printed for every row.</p>
+    <p><b>How a project is credited to a council.</b> By the publisher named on its source document. A list a council issued on a ministry letterhead, or posted on its official Facebook page, is the council's publication. Tender notices a council posted on the national e-procurement portal (ZPPA e-GP) are likewise the council's own publications, carried on a national platform. Two tidying rules, applied the same way everywhere: spelling variants of a council's name are merged into one row, and a mirror of a council's own social posts is credited to that council.</p>
+    <p><b>What is not credited to councils.</b> Some named projects reached this record through publishers that are not councils. They are counted here so the boundary is visible — and they are never given to a council that did not publish them:</p>
+    <ul id="leagueExcl"></ul>
+    <p><b>The status share, honestly.</b> It is measured across what reached the record. A council list that states no status at all usually cannot enter the record at all — it waits in the tracker's held pile until a status is published — so almost every council scores 100% on that share. That is a fact about the record, printed here rather than smoothed over; the differences that separate councils are funding years and amounts.</p>
+    <p><b>What good publishing looks like.</b></p>
+    <ul>
+      <li>A list that names projects one by one — never totals alone.</li>
+      <li>A status word for every project: approved, in progress, completed.</li>
+      <li>The funding year printed for every project.</li>
+      <li>The amount printed for every project.</li>
+      <li>Published as a readable document — text, or a clean scan — on the council's website or official page, where the public can find it without asking.</li>
+      <li>Kept current: the league shows each council's latest publication date, and a list from years ago is visible as exactly that.</li>
+    </ul>
+    <p><b>What would move a council up this league?</b> Publish the list. The moment a council publishes names with statuses, years and amounts, those projects join the record and its row rises — the sweeps that maintain this tracker read new council lists as they appear. <a href="read.html">How to read this tracker →</a></p>
+  </div>
+</section>
+
+  <footer>
+    <p id="lastChecked" style="margin:0 0 12px"></p>
+    <h3>Sources</h3>
+    <ul>
+      <li>League data — this tracker's database of published CDF projects (council lists, approval letters, tender notices and handover reports). Every project is traced to its published source, named on its project page; the publisher recorded there is the publisher this league credits.</li>
+      <li>The counted record behind the site — Auditor-General's report on the Constituency Development Fund, FY2024, <a href="https://www.ago.gov.zm/wp-content/uploads/CDF-Report-2024.pdf" target="_blank" rel="noopener">ago.gov.zm</a>, published 23 December 2025. The audit publishes totals, not names, and so feeds no council's row here.</li>
+    </ul>
+    <p><a href="index.html">← Back to the dashboard</a> · <a href="provinces.html">Provinces</a> · <a href="gapmap.html">The Gap Map</a> · <a href="read.html">How to read this tracker</a></p>
+    <p class="copyright">© 2026 Zambia CDF Tracker. All rights reserved.</p>
+</footer>
+</div>
+<script src="data.js?v=10"></script>
+<script src="league.js?v=1"></script>
+<script src="app.js?v=35"></script>
+<script src="leaguepage.js?v=1"></script>
+<a class="readfab" href="read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read<br>this tracker</span></a>
+<!-- CF-WEB-ANALYTICS -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}'></script>
+<!-- /CF-WEB-ANALYTICS -->
+</body>
+</html>

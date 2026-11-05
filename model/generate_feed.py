@@ -404,6 +404,176 @@ def main():
     cards_out.write_text(cards_body)
     print("wrote", cards_out)
 
+    # --- the Publishing League (roadmap item 5, 2026-11-04): councils
+    # ranked on the record they THEMSELVES publish, derived entirely from
+    # projects -> sources -> publisher. A project is credited to a council
+    # only when the publisher string on its source names that council:
+    #   * the string's head (before any "(" qualifier or " / " suffix)
+    #     is itself a council name — "Chienge Town Council (Ministry of
+    #     Local Government and Rural Development, Provincial Local
+    #     Government Officer)", "Chipata City Council / MLGRD Eastern
+    #     Province", "Kitwe City Council (Facebook page, ...)".
+    #   * tender notices a council posted on the national e-procurement
+    #     portal — "ZPPA e-GP (Kitwe City Council)" — are the council's
+    #     own publications on a national platform, credited to it.
+    #   * two recorded judgement calls in _LG_OVERRIDE (see the build
+    #     log): a mirror of a council's own social posts is credited to
+    #     that council, and a spelling variant is merged.
+    # Everything else (Parliament and constituency offices, the ministry
+    # and its provincial offices, provincial administrations, ZANIS,
+    # news outlets, portal mirrors that name no council) is NOT a
+    # council publication: those projects stay out of every council's
+    # row and are counted, by publisher class, in `excluded` so the page
+    # can state exactly how much of the record councils did not publish.
+    import re as _lre
+    _LG_OVERRIDE = {
+        "findglocal (mirror of Luanshya Municipal Council social posts)":
+            "Luanshya Municipal Council",
+        "Shangombo Town Council": "Shang'ombo Town Council",
+    }
+    def _lg_council(pub):
+        if pub in _LG_OVERRIDE:
+            return _LG_OVERRIDE[pub]
+        m = _lre.match(r"^ZPPA e-(?:GP|procurement) \((.+ Council)\)$", pub or "")
+        if m:
+            return m.group(1)
+        head = _lre.split(r"\s\(| / ", pub or "", maxsplit=1)[0].strip()
+        if _lre.match(r"^.+ (Town|Municipal|City) Council$", head):
+            return head
+        return None
+    _LG_EXCLUDED_CLASS = {
+        "National Assembly of Zambia": "Parliament and constituency offices",
+        "National Assembly of Zambia (Committee on Local Government Accounts)": "Parliament and constituency offices",
+        "National Assembly of Zambia (Parliament)": "Parliament and constituency offices",
+        "Munali Parliamentary Constituency Office (National Assembly constituency office page, mirrored on govserv.org)": "Parliament and constituency offices",
+        "Katuba Constituency Information & Publicity Desk (via govserv.org mirror)": "Parliament and constituency offices",
+        "Ministry of Local Government and Rural Development - Provincial Local Government Office North-Western": "The ministry and its provincial offices",
+        "Ministry of Local Government and Rural Development (MLGRD)": "The ministry and its provincial offices",
+        "Ministry of Local Government and Rural Development - Provincial Local Government Officer, Central Province (hosted by Mumbwa Town Council)": "The ministry and its provincial offices",
+        "Ministry of Local Government and Rural Development": "The ministry and its provincial offices",
+        "Ministry of Local Government and Rural Development (PLGO Western Province) via Limulunga Town Council": "The ministry and its provincial offices",
+        "Provincial Local Government Office, Southern Province (via Siavonga Town Council)": "The ministry and its provincial offices",
+        "Eastern Province Provincial Administration (ZANIS)": "Provincial administrations and the government news agency (ZANIS)",
+        "Lusaka Provincial Administration (ZANIS)": "Provincial administrations and the government news agency (ZANIS)",
+        "Northern Provincial Administration": "Provincial administrations and the government news agency (ZANIS)",
+        "Lusaka Provincial Administration": "Provincial administrations and the government news agency (ZANIS)",
+        "Zambia News and Information Services (ZANIS)": "Provincial administrations and the government news agency (ZANIS)",
+        "Africa Press (ZANIS report)": "Provincial administrations and the government news agency (ZANIS)",
+        "Muchinga Provincial Administration": "Provincial administrations and the government news agency (ZANIS)",
+        "Muchinga Province Provincial Administration (ZANIS)": "Provincial administrations and the government news agency (ZANIS)",
+        "ZANIS": "Provincial administrations and the government news agency (ZANIS)",
+        "Zambia Monitor (reporting Lusaka City Council statement by Asst PR Manager Nyambe Bulumba)": "News outlets republishing council statements",
+        "ZPPA e-procurement via Tender Impulse mirror (notice 13147414)": "Procurement-portal mirrors that name no council",
+        "ZPPA e-procurement via Tender Impulse mirror (notice 13146735)": "Procurement-portal mirrors that name no council",
+    }
+    def _lg_datekey(d):
+        if not d:
+            return (0, 0, 0)
+        parts = d.split("-")
+        try:
+            y = int(parts[0])
+            mo = int(parts[1]) if len(parts) > 1 else 12
+            da = int(parts[2]) if len(parts) > 2 else 31
+            return (y, mo, da)
+        except ValueError:
+            return (0, 0, 0)
+    _lg = {}
+    _lg_excl = {}
+    for _pub, _n, _comp, _stn, _fyn, _amn, _latest in c.execute(
+            """SELECT s.publisher, COUNT(*),
+                      SUM(pr.status IN ('completed', 'completed_unused')),
+                      SUM(pr.status IS NOT NULL AND pr.status <> 'unknown'),
+                      SUM(pr.funding_year IS NOT NULL),
+                      SUM(pr.budget_m IS NOT NULL),
+                      NULL
+               FROM projects pr JOIN sources s ON s.id = pr.source_id
+               GROUP BY s.publisher""").fetchall():
+        _cn = _lg_council(_pub)
+        if _cn is None:
+            _cls = _LG_EXCLUDED_CLASS.get(_pub)
+            if _cls is None:
+                print("WARNING league: unclassified non-council publisher ->", _pub)
+                _cls = "Other national publishers"
+            _lg_excl[_cls] = _lg_excl.get(_cls, 0) + _n
+            continue
+        _e = _lg.setdefault(_cn, {"named": 0, "completed": 0, "statusN": 0,
+                                  "fyN": 0, "amtN": 0, "latest": None,
+                                  "consts": {}})
+        _e["named"] += _n
+        _e["completed"] += _comp or 0
+        _e["statusN"] += _stn or 0
+        _e["fyN"] += _fyn or 0
+        _e["amtN"] += _amn or 0
+    for _pub, _kname, _date in c.execute(
+            """SELECT DISTINCT s.publisher, k.name, s.published_date
+               FROM projects pr JOIN sources s ON s.id = pr.source_id
+               JOIN constituencies k ON k.id = pr.constituency_id""").fetchall():
+        _cn = _lg_council(_pub)
+        if _cn is None or _cn not in _lg:
+            continue
+        _e = _lg[_cn]
+        _e["consts"][_kname] = _cslug(_kname)
+        if _date and _lg_datekey(_date) > _lg_datekey(_e["latest"]):
+            _e["latest"] = _date
+    league_rows = []
+    for _cn, _e in _lg.items():
+        _n = _e["named"]
+        _sp = round(100 * _e["statusN"] / _n)
+        _yp = round(100 * _e["fyN"] / _n)
+        _ap = round(100 * _e["amtN"] / _n)
+        league_rows.append({
+            "council": _cn, "named": _n, "completed": _e["completed"],
+            "statusPct": _sp, "yearPct": _yp, "amountPct": _ap,
+            "composite": round((_sp + _yp + _ap) / 3, 1),
+            "latest": _e["latest"],
+            "constituencies": [{"name": nm, "slug": _e["consts"][nm]}
+                               for nm in sorted(_e["consts"])],
+        })
+    league_rows.sort(key=lambda r: (-r["composite"], -r["named"], r["council"]))
+    for _i, _r in enumerate(league_rows, 1):
+        _r["rank"] = _i
+    # Constituencies with no named projects at all: their councils have
+    # published nothing this record could use. Council names are printed
+    # only where the tracker's council-watch records ground them.
+    _LG_COUNCIL_KNOWN = {"Manyinga": "Manyinga Town Council"}
+    _LG_NONE_NOTE = {
+        "Manyinga": "The council has published news of CDF work — an "
+                    "article on township roads rehabilitated with CDF "
+                    "money — but it names no individual projects, so "
+                    "nothing from it could be listed.",
+    }
+    league_none = []
+    for _nm, in c.execute(
+            """SELECT k.name FROM constituencies k
+               JOIN delimitation_sets s ON s.id = k.set_id AND s.label = 'current-156'
+               WHERE k.id NOT IN (SELECT DISTINCT constituency_id FROM projects)
+               ORDER BY k.name""").fetchall():
+        league_none.append({
+            "constituency": _nm, "slug": _cslug(_nm),
+            "council": _LG_COUNCIL_KNOWN.get(_nm),
+            "held": _held.get(_nm.lower(), 0),
+            "note": _LG_NONE_NOTE.get(_nm),
+        })
+    league = {
+        "meta": {
+            "totalProjects": record["total"],
+            "attributed": sum(r["named"] for r in league_rows),
+            "unattributed": sum(_lg_excl.values()),
+            "councils": len(league_rows),
+            "councilCompleted": sum(r["completed"] for r in league_rows),
+        },
+        "councils": league_rows,
+        "excluded": [{"label": k, "projects": v}
+                     for k, v in sorted(_lg_excl.items(), key=lambda kv: -kv[1])],
+        "nothingYet": league_none,
+    }
+    league_body = ("// Zambia CDF Tracker — Publishing League data. GENERATED from cdf.db by generate_feed.py.\n"
+                   "// Do not edit by hand: update the database, then re-run the generator.\n"
+                   "window.CDF_LEAGUE = " + json.dumps(league, indent=1, ensure_ascii=False) + ";\n")
+    league_out = HERE.parent / "site" / "league.js"
+    league_out.write_text(league_body)
+    print("wrote", league_out)
+
     # --- static-patch: keep the record figures printed in the hand-maintained
     # pages (index.html meta/fallback, read.html guide cards) in step with the
     # database, so a new intake can never leave a stale total behind (Caleb's
