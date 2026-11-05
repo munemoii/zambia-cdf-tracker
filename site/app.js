@@ -214,7 +214,7 @@
       html+=flowRow("Utilisation","Reported share of funds put to use","", mv.util, mv.util+"%<small>reported rate</small>");
     }else if(RELEASED_ONLY[state.year]){
       var ro=RELEASED_ONLY[state.year];
-      var relSub=state.year===2024?"Treasury releases per the Auditor-General's 2024 report":"Cumulative releases reported by June 2026, the year is still running";
+      var relSub=state.year===2024?"Treasury releases per the Auditor-General's 2024 report, via Zambian Economist":"Cumulative releases reported by June 2026, the year is still running";
       html+=flowRow("Released",relSub,"m", ro.releasedPct, fmtM(ro.released)+"<small>≈"+ro.releasedPct+"% of allocation</small>");
       if(state.year===2026){
         html+=flowRow("Utilisation","Reported once constituencies spend released funds","",0,'<span class="np">Not yet reported</span>');

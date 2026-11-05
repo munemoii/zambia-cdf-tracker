@@ -78,13 +78,14 @@ def main():
         if all(v is not None for v in vals.values()):
             movement[yr] = {k: (int(v) if float(v).is_integer() else v) for k, v in vals.items()}
 
-    # Release figures published without the full movement chain (an
-    # Auditor-General release total for 2024; a cumulative mid-year figure
+    # Release figures published without the full movement chain (a 2024
+    # release total from the Auditor-General's report, via Zambian
+    # Economist; a cumulative mid-year figure
     # for 2026): the Money page glance table shows these in its Released
     # column with the label below, while the flow dashboard stays
     # movement-gated. Update the label when a newer figure supersedes one.
     _released_labels = {
-        2024: "per the Auditor-General",
+        2024: "Auditor-General's 2024 report, via Zambian Economist",
         2026: "cumulative to June 2026 — the year is still running",
     }
     released_only = {}
@@ -213,7 +214,7 @@ def main():
             "ruralPct": (_ctx[0] if _ctx else None), "urbanPct": (_ctx[1] if _ctx else None)})
     util["provinces"].sort(key=lambda x: (x["ruralPct"] is None, -(x["ruralPct"] or 0)))
     _rel = {r[0]: r[1] for r in c.execute("SELECT budget_year, amount_m FROM disbursements WHERE component = 'all'")}
-    _cnotes = {2024: "Releases per the Auditor-General's 2024 report — barely half the allocation moved that year.",
+    _cnotes = {2024: "Releases per the Auditor-General's 2024 report, via Zambian Economist — barely half the allocation moved that year.",
                2025: "The last complete year: the full chain is published.",
                2026: "Cumulative releases reported by June 2026 — the year is still running."}
     util["cascadeYears"] = []

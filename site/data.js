@@ -88,7 +88,7 @@ window.CDF_DATA = {
     "2024": {
       "released": 2630,
       "releasedPct": 55,
-      "label": "per the Auditor-General"
+      "label": "Auditor-General's 2024 report, via Zambian Economist"
     },
     "2026": {
       "released": 2200,
@@ -93247,7 +93247,7 @@ window.CDF_DATA = {
         "releasedM": 2630.0,
         "releasedPct": 55,
         "utilisedPct": null,
-        "note": "Releases per the Auditor-General's 2024 report — barely half the allocation moved that year."
+        "note": "Releases per the Auditor-General's 2024 report, via Zambian Economist — barely half the allocation moved that year."
       },
       {
         "year": 2025,

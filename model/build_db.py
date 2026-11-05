@@ -75,7 +75,7 @@ for year, per in [(2021, 1.6), (2022, 25.7), (2023, 28.3), (2024, 30.6), (2025, 
 # ---------------------------------------------------------------- disbursements (K millions)
 DISB = [
     (2024, None, "all", 2630.0, "Treasury releases in 2024", None, S_ECON,
-     "Treasury released K2.63bn of the K4.78bn provided (~55%), per the Auditor General's 2024 CDF report."),
+     "Treasury released K2.63bn of the K4.78bn provided (~55%), per the Auditor General's 2024 CDF report, via Zambian Economist."),
     (2025, None, "all", 5260.0, "Reported cumulative releases", None, S_2025,
      "Reported disbursed to constituencies for the 2025 CDF year (~94% of allocation)."),
     (2026, None, "bursaries", 100.0, "First 2026 bursary tranche", "2026-02-03", S_OZ_FEB,
