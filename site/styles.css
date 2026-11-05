@@ -785,3 +785,45 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .readfab.mini:hover .q,.readfab.mini.open .q{width:17px;height:17px;font-size:.82rem}
 .readfab.mini:hover .ql,.readfab.mini.open .ql{max-width:250px;opacity:1}
 @media (prefers-reduced-motion: reduce){.readfab,.readfab .ql{transition:none}}
+
+/* ===== OPERATION FIX — ROUND 2: THE TEXT AXIS (2026-11-04) =====
+   Caleb judges alignment by TEXT edges, not box edges — and he was right:
+   round 1 aligned the boxes while the text inside them started wherever
+   each panel's own padding put it (hero 34px, board 22px, footer box 28px,
+   cards 18px, page bands a flush 0px), the nav's "Home" text sat 11px in
+   from its box, and rows/tables inside cards added their own 6–10px on
+   top. On his screen that reads as a staircase of different starts.
+   THE STANDARD, by construction:
+   - TEXT AXIS = the .wrap content-box left edge. Wordmark, the first nav
+     item's TEXT, section headings/eyebrows, body paragraphs and
+     list/table text outside panels start exactly on it (inset 0).
+   - PANEL INSET P = 16px. Text inside every panel — hero band, page
+     bands, cards, board, footer box, detail panels — starts at
+     panel-box-edge + 16px, on every page, at every width. P is the
+     measured majority: panel horizontal paddings were hero 34, footer
+     box 28, board 22, card 18, kpi/tile/pcard/stat/pdetail/aud 16 (the
+     mode, 6 of 13), snapshot/assump 14, pageband 0 — mode and median 16.
+   - Rows and tables inside a panel add NO inset of their own: row
+     padding and first/last table-cell padding go to 0, so their text
+     starts at the panel's own P (cell padding remains BETWEEN columns,
+     where it is spacing, not inset).
+   These rules are declared once, here, after every earlier rule and
+   media query, so they hold identically at wide, laptop (1100–1500px)
+   and phone widths — earlier breakpoints no longer vary any left inset
+   (vertical padding is untouched everywhere). The 1px transparent
+   border on nav links and the 1px border on card-family panels are box
+   chrome, uniform across their families; the construction governs
+   padding, which is what differed. */
+.sitenav a:first-child{padding-left:0}
+.hero,.board,.card,.kpi,.tile,.pcard,.stat,.pdetail,.aud,.snapshot,.assump{padding-left:16px;padding-right:16px}
+.pageband-in{padding-left:16px;padding-right:16px}
+footer:not(.sitefoot){padding-left:16px;padding-right:16px}
+.agcomp{padding-left:16px;padding-right:16px}
+.slides .cap{padding-left:16px;padding-right:16px}
+.ticker{padding-left:16px}
+.gcard .gb,.pscard .psb{padding-left:16px;padding-right:16px}
+.place-media figcaption{padding-left:16px;padding-right:16px}
+.prow,.phead,.mrow,.mhead{padding-left:0;padding-right:0}
+.devlink{padding-left:0;padding-right:0}
+.mtable th:first-child,.mtable td:first-child,.agtable td:first-child,.ytable th:first-child,.ytable td:first-child{padding-left:0}
+.mtable th:last-child,.mtable td:last-child,.agtable td:last-child,.ytable th:last-child,.ytable td:last-child{padding-right:0}
