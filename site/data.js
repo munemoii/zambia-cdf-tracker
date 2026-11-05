@@ -4904,15 +4904,15 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 746,
+        "totalProjects": 764,
         "fundingYears": {
           "2022": 139,
           "2023": 55,
           "2024": 129,
           "2025": 221,
-          "2026": 119
+          "2026": 137
         },
-        "fundingYearKnown": 663,
+        "fundingYearKnown": 681,
         "constituencies": [
           {
             "name": "Chadiza",
@@ -11591,10 +11591,10 @@ window.CDF_DATA = {
           {
             "name": "Kaumbwe",
             "url": "constituencies/kaumbwe.html",
-            "count": 14,
-            "budgetM": 18.28,
+            "count": 32,
+            "budgetM": 30.52,
             "statusCounts": {
-              "approved": 14
+              "approved": 32
             },
             "projects": [
               {
@@ -11617,6 +11617,279 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 3931,
+                "url": "projects/3931-completion-of-1x3-crb-at-mbaza.html",
+                "name": "Completion of 1x3 CRB at Mbaza",
+                "ward": "Kaumbwe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.5758,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3935,
+                "url": "projects/3935-completion-of-1x3-crb-at-nyakwalala-with-desk.html",
+                "name": "Completion of 1x3 CRB at Nyakwalala with Desk",
+                "ward": "Kanyanga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.5758,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3922,
+                "url": "projects/3922-completion-of-police-cell.html",
+                "name": "Completion of Police Cell",
+                "ward": "Joint Projects",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": 0.1149,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3924,
+                "url": "projects/3924-completion-of-staff-house-at-mtukuzi-community-school.html",
+                "name": "Completion of Staff House at Mtukuzi Community School",
+                "ward": "Lusinde",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.4874,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3930,
+                "url": "projects/3930-completion-of-a-1x3-laboratory-building-at-zumaire-day-secondary-school.html",
+                "name": "Completion of a 1x3 Laboratory Building at Zumaire Day Secondary School",
+                "ward": "Kaumbwe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.5,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3927,
+                "url": "projects/3927-construction-of-1x3-crb-at-lusanjambo.html",
+                "name": "Construction of 1x3 CRB at Lusanjambo",
+                "ward": "Manyane",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.7229,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3934,
+                "url": "projects/3934-construction-of-1x3-crb-at-nyakutwa.html",
+                "name": "Construction of 1x3 CRB at Nyakutwa",
+                "ward": "Kanyanga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.1714,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3936,
+                "url": "projects/3936-construction-of-new-health-post-at-kasusu-earnest-sakala-health-post.html",
+                "name": "Construction of New Health Post at Kasusu (Earnest Sakala Health Post)",
+                "ward": "Kanyanga",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.5106,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3928,
+                "url": "projects/3928-construction-of-staff-house-at-mbaza-community-school.html",
+                "name": "Construction of Staff House at Mbaza Community School",
+                "ward": "Kaumbwe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.6107,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3932,
+                "url": "projects/3932-construction-of-staff-house-at-nyakwalala-community-school.html",
+                "name": "Construction of Staff House at Nyakwalala Community School",
+                "ward": "Kanyanga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.6107,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3926,
+                "url": "projects/3926-construction-of-staff-house-at-sanjama-community-school.html",
+                "name": "Construction of Staff House at Sanjama Community School",
+                "ward": "Manyane",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.6107,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3937,
+                "url": "projects/3937-construction-of-staff-house-in-manjazi-for-veterinary-officer.html",
+                "name": "Construction of Staff House in Manjazi for Veterinary Officer",
+                "ward": "Manjazi",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.6107,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3920,
+                "url": "projects/3920-construction-of-a-mother-s-shelter.html",
+                "name": "Construction of a Mother's Shelter",
+                "ward": "Joint Projects",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.8,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 956,
@@ -11808,6 +12081,90 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 3925,
+                "url": "projects/3925-provision-of-4-solar-powered-boreholes.html",
+                "name": "Provision of 4 Solar Powered Boreholes",
+                "ward": "Lusinde",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": 0.1769,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3929,
+                "url": "projects/3929-provision-of-medical-equipment-rehabilitation-at-zumaire-health-post.html",
+                "name": "Provision of Medical Equipment Rehabilitation at Zumaire Health Post",
+                "ward": "Kaumbwe",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.8772,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3933,
+                "url": "projects/3933-provision-of-medical-equipment-at-chikumba-health-post.html",
+                "name": "Provision of Medical Equipment at Chikumba Health Post",
+                "ward": "Kanyanga",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.2325,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 3923,
+                "url": "projects/3923-provision-of-medical-equipment-at-petauke-district-hospital.html",
+                "name": "Provision of Medical Equipment at Petauke District Hospital",
+                "ward": "Joint Projects",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.6461,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 949,
                 "url": "projects/949-rehabilitation-of-mwanjawanthu-local-court.html",
                 "name": "Rehabilitation of Mwanjawanthu Local Court",
@@ -11827,6 +12184,27 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 3921,
+                "url": "projects/3921-renovation-of-public-toilets.html",
+                "name": "Renovation of Public Toilets",
+                "ward": "Joint Projects",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": 0.4,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Petauke Town Council",
+                  "title": "Kaumbwe Constituency 2026 Community Projects — Approved (MLGRD-headed approved list; Council Secretary stamp 17 Sep 2026; PDF linked from the council CDF page — PDF URL not captured at read, page URL recorded)",
+                  "url": "https://www.petaukecouncil.gov.zm/?page_id=4936",
+                  "date": "2026-09-17"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 958,
@@ -88222,7 +88600,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 3868,
+    "totalProjects": 3886,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -88230,9 +88608,9 @@ window.CDF_DATA = {
       "2023": 452,
       "2024": 672,
       "2025": 1052,
-      "2026": 344
+      "2026": 362
     },
-    "fundingYearKnown": 3051
+    "fundingYearKnown": 3069
   },
   "people": {
     "bursaries": [
@@ -88329,12 +88707,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 746,
+        "tracked": 764,
         "completed": 111,
         "underway": 54,
-        "approved": 581,
+        "approved": 599,
         "other": 0,
-        "completedPct": 14.9,
+        "completedPct": 14.5,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
@@ -88470,9 +88848,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2781,
+        "projects": 2799,
         "completed": 872,
-        "pct": 31.4
+        "pct": 31.2
       },
       {
         "label": "Urban provinces",
@@ -88492,30 +88870,30 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 876,
+        "ruralN": 884,
         "urbanN": 179,
-        "ruralPct": 31.5,
+        "ruralPct": 31.6,
         "urbanPct": 22.0
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 743,
+        "ruralN": 745,
         "urbanN": 172,
-        "ruralPct": 26.7,
+        "ruralPct": 26.6,
         "urbanPct": 21.1
       },
       {
         "cat": "Health",
-        "ruralN": 506,
+        "ruralN": 511,
         "urbanN": 134,
-        "ruralPct": 18.2,
+        "ruralPct": 18.3,
         "urbanPct": 16.5
       },
       {
         "cat": "Other community works",
-        "ruralN": 461,
+        "ruralN": 463,
         "urbanN": 163,
-        "ruralPct": 16.6,
+        "ruralPct": 16.5,
         "urbanPct": 20.0
       },
       {
@@ -88527,7 +88905,7 @@ window.CDF_DATA = {
       },
       {
         "cat": "Police & security",
-        "ruralN": 45,
+        "ruralN": 46,
         "urbanN": 30,
         "ruralPct": 1.6,
         "urbanPct": 3.7
@@ -88535,9 +88913,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 3868,
+    "total": 3886,
     "statuses": {
-      "approved": 2432,
+      "approved": 2450,
       "completed": 1067,
       "funded": 10,
       "in_progress": 40,
@@ -88545,8 +88923,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 27.6,
-    "approvedPct": 63.1,
+    "completedPct": 27.5,
+    "approvedPct": 63.3,
     "withPhoto": 26,
     "constituencies": 155,
     "provinces": 10

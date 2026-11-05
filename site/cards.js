@@ -1039,13 +1039,13 @@ window.CDF_CARDS = {
    "neverStarted": 0
   },
   "published": {
-   "named": 14,
+   "named": 32,
    "completed": 0,
    "inProgress": 0,
-   "approved": 14,
+   "approved": 32,
    "stalled": 0,
    "notStated": 0,
-   "held": 1
+   "held": 5
   },
   "publishers": [
    "Petauke Town Council"

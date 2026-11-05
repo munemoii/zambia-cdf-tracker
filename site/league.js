@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 3868,
-  "attributed": 3677,
+  "totalProjects": 3886,
+  "attributed": 3695,
   "unattributed": 191,
   "councils": 111,
   "councilCompleted": 945
@@ -345,6 +345,27 @@ window.CDF_LEAGUE = {
    "rank": 19
   },
   {
+   "council": "Petauke Town Council",
+   "named": 35,
+   "completed": 3,
+   "statusPct": 100,
+   "yearPct": 94,
+   "amountPct": 91,
+   "composite": 95.0,
+   "latest": "2026-09-17",
+   "constituencies": [
+    {
+     "name": "Kaumbwe",
+     "slug": "kaumbwe"
+    },
+    {
+     "name": "Petauke Central",
+     "slug": "petauke-central"
+    }
+   ],
+   "rank": 20
+  },
+  {
    "council": "Kalomo Town Council",
    "named": 4,
    "completed": 4,
@@ -361,27 +382,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Kalomo Central",
      "slug": "kalomo-central"
-    }
-   ],
-   "rank": 20
-  },
-  {
-   "council": "Petauke Town Council",
-   "named": 17,
-   "completed": 3,
-   "statusPct": 100,
-   "yearPct": 88,
-   "amountPct": 82,
-   "composite": 90.0,
-   "latest": null,
-   "constituencies": [
-    {
-     "name": "Kaumbwe",
-     "slug": "kaumbwe"
-    },
-    {
-     "name": "Petauke Central",
-     "slug": "petauke-central"
     }
    ],
    "rank": 21
