@@ -207,7 +207,7 @@
 .crumbs a:hover{text-decoration:underline}
 .ptitle{font-size:clamp(1.9rem,4.5vw,2.9rem);margin:10px 0 6px}
 .plede{color:var(--muted);max-width:70ch;margin:6px 0 12px}
-.phead{margin:20px 0 10px}
+.ph2{margin:20px 0 10px}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:12px}
 .pcard{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-decoration:none;color:var(--ink);box-shadow:0 1px 3px rgba(13,43,23,.06)}
 .pcard:hover{border-color:#b3860e}
@@ -725,3 +725,37 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .lgset .card{margin:0}
 .lgscore{font-family:"Barlow Condensed",sans-serif;font-size:2.1rem;line-height:1;margin:2px 0 8px}
 .lgconsts{font-size:.85rem}
+
+/* ===== OPERATION FIX SITE STRUCTURE (2026-11-04) =====
+   One container, one axis, one heading hierarchy. Caleb's standard: the
+   wordmark, nav text, headlines and body content share ONE exact left axis
+   (the .wrap content edge) on every page; section heads are stacked —
+   eyebrow, heading, intro — never a flex row whose layout depends on how
+   much text each item carries. Fixes in this section:
+   1. .sec-head was display:flex with justify-content:space-between, so a
+      section head's heading drifted right by an amount set by its eyebrow
+      and intro text; with long or multiple paragraphs (Gap Map section 1)
+      the row collapsed into squeezed columns and clipped the heading.
+      Section heads are now stacked blocks on the axis, everywhere.
+   2. Generated-page section headings no longer use the class .phead (that
+      class is the home explorer's grid column-header; its grid, .75rem
+      size and 6px padding were leaking onto h2s). They use .ph2 and take
+      the standard h2 treatment from the element rule.
+   3. Bottom clearance: the fixed "How to read" pill is one line high now,
+      and .wrap bottom padding clears it at the end of every page, so the
+      footer and final text are never under the pill at rest.
+   4. Wide data tables sit in .twrap (overflow-x:auto) so a table can
+      scroll inside its card instead of widening the page and clipping
+      the footer; grid children get min-width:0 for the same reason. */
+.sec-head{display:block}
+.wrap{padding-bottom:104px}
+@media (max-width:760px){.wrap{padding-bottom:88px}}
+.twrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.explorer>*,.grid2>*{min-width:0}
+.board h2{font-size:1.65rem}
+.sec-toggle .t{font-family:"Barlow Condensed",sans-serif;font-size:1.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.02em;line-height:1}
+.scen .big{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.01em}
+.flowbig{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.01em}
+#gapDetail h3{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;font-weight:700;letter-spacing:.01em}
+.readfab{font-size:.82rem;padding:7px 14px 7px 8px;gap:7px}
+.readfab .ql{white-space:nowrap;line-height:1}

@@ -91,7 +91,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
-<link rel="stylesheet" href="{prefix}styles.css?v=42">
+<link rel="stylesheet" href="{prefix}styles.css?v=43">
 <!-- CF-WEB-ANALYTICS -->
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}}'></script>
 <!-- /CF-WEB-ANALYTICS -->
@@ -126,7 +126,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
   <p class="copyright">© 2026 Zambia CDF Tracker. All rights reserved.</p>
 </footer>
 </div>
-<a class="readfab" href="{prefix}read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read<br>this tracker</span></a>
+<a class="readfab" href="{prefix}read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read this tracker</span></a>
 </body>
 </html>
 """
@@ -404,10 +404,10 @@ def main():
             table_html = ""
             if rows:
                 table_html = (
-                    f'<table class="mtable agtable"><thead><tr><th>Component</th>'
+                    f'<div class="twrap"><table class="mtable agtable"><thead><tr><th>Component</th>'
                     f'<th>{funds_col}</th><th>Spent</th><th>Unspent</th>'
                     f'<th>Unspent / spent</th></tr></thead><tbody>'
-                    + "".join(trs) + "</tbody></table>")
+                    + "".join(trs) + "</tbody></table></div>")
             stack_html = ""
             if rows:
                 stack_html = '<div class="agstack">' + "".join(sblocks) + "</div>"
@@ -517,7 +517,7 @@ def main():
         blocks = "".join(_block(fy) for fy in (2024, 2023))
         if not blocks:
             return ""
-        return ('<div class="card agcard"><h2 class="phead">The audited record</h2>'
+        return ('<div class="card agcard"><h2 class="ph2">The audited record</h2>'
                 '<p class="plede">The Auditor-General counted this constituency\'s '
                 'projects in its audit of the CDF. These are the audit\'s own totals '
                 '— a separate record from the council\'s published list above. The '
@@ -564,12 +564,12 @@ def main():
         for _r, pn, st, cov, n, amt, fy, comp in sc_rows)
     body = f"""<p class="plede">CDF allocates equally per constituency — a province's share is its constituency count times the national rate ({fmt_m(rate[latest_year])} per constituency in {latest_year}).</p>
 <div class="pgrid">{''.join(cards)}</div>
-<h2 class="phead" style="margin-top:34px">The publishing scorecard</h2>
+<h2 class="ph2" style="margin-top:34px">The publishing scorecard</h2>
 <p class="plede">How much of each province's CDF record is actually public. This measures the <b>record</b>, not delivery: a low score means the councils publish little, not that nothing was built. It is the gap this tracker exists to close.</p>
-<div class="card"><table class="mtable"><thead><tr><th>Province</th><th>Constituencies with published projects</th><th>Projects tracked</th><th>With amounts</th><th>With funding year</th><th>Shown completed</th></tr></thead><tbody>{sc_html}</tbody></table></div>
-<h2 class="phead" style="margin-top:34px">Counted vs named — the Gap Map</h2>
+<div class="card"><div class="twrap"><table class="mtable"><thead><tr><th>Province</th><th>Constituencies with published projects</th><th>Projects tracked</th><th>With amounts</th><th>With funding year</th><th>Shown completed</th></tr></thead><tbody>{sc_html}</tbody></table></div></div>
+<h2 class="ph2" style="margin-top:34px">Counted vs named — the Gap Map</h2>
 <p class="plede">The Auditor-General counted 3,060 completed CDF projects (FY2024) but named none of them — naming is the councils' job. The <a href="gapmap.html">Gap Map</a> puts the counted record and the named record side by side for all 156 constituencies: where a counted completion still has no published name, the gap is a publishing gap.</p>
-<h2 class="phead" style="margin-top:34px">The Publishing League</h2>
+<h2 class="ph2" style="margin-top:34px">The Publishing League</h2>
 <p class="plede">Not delivering, or just not publishing? The <a href="league.html">Publishing League</a> ranks every council on the record it publishes itself: how many projects it has named, and whether its lists state each project's status, funding year and amount. It measures publishing, not delivery — and it shows exactly what a complete council list looks like.</p>"""
     (SITE / "provinces.html").write_text(
         shell("Provinces", "CDF allocations and project tracking for all ten Zambian provinces.", "", body, band=("bp-provinces", "Photo: The Kafue River — Munahampondela, CC BY-SA 4.0, via Wikimedia Commons")))
@@ -657,10 +657,10 @@ def main():
 </div>
 <p class="plede" id="pvProjNote"></p>
 {pilot_note}
-<h2 class="phead">Constituencies</h2>
+<h2 class="ph2">Constituencies</h2>
 <div class="cchips">{''.join(chips)}</div>
-<h2 class="phead">Allocations by year</h2>
-<div class="card"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody>{rows}</tbody></table></div>
+<h2 class="ph2">Allocations by year</h2>
+<div class="card"><div class="twrap"><table class="mtable"><thead><tr><th>Year</th><th>Per constituency</th><th>Province total</th></tr></thead><tbody>{rows}</tbody></table></div></div>
 {pv_script}"""
         (SITE / "provinces" / f"{slugify(pname)}.html").write_text(shell(
             f"{pname} Province", f"CDF in {pname}: {seats} constituencies, {fmt_m(seats * rate[latest_year])} in {latest_year}, {total_tracked} projects tracked.",
@@ -743,7 +743,7 @@ def main():
                 photo_html = (f'<figure class="pfig"><img src="{html.escape(photo_url)}" alt="Photo of {html.escape(name)}">'
                               f'<figcaption>Photo: {html.escape(photo_credit or "")}</figcaption></figure>' if photo_url else "")
                 note_html = f'<p class="plede">{html.escape(note)}</p>' if note else ""
-                source_html = (f'<div class="card srccard"><h2 class="phead">Source</h2><p>{html.escape(spub or "")}'
+                source_html = (f'<div class="card srccard"><h2 class="ph2">Source</h2><p>{html.escape(spub or "")}'
                                + (f' — {html.escape(stitle)}' if stitle else "")
                                + (f'<br>Published {fmt_src_date(sdate)}' if sdate else "")
                                + (f'<br><a href="{html.escape(surl)}" target="_blank" rel="noopener">View the published source</a>' if surl else "")
@@ -770,7 +770,7 @@ def main():
         if (pname, cname) in covered:
             continue
         body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · project-level tracking has not reached this constituency yet.</p>
-<div class="card"><h2 class="phead" style="margin-top:0">The publishing gap is part of the record</h2>
+<div class="card"><h2 class="ph2" style="margin-top:0">The publishing gap is part of the record</h2>
 <p>{html.escape(cname)} receives the same CDF allocation as every constituency — {fmt_m(rate[latest_year])} in {latest_year}. What its council has not yet published, in any list we can verify, is which projects that money is funding. This page will fill in as soon as a publishable list exists; the weekly check watches for one.</p>
 <p><a href="../provinces/{slugify(pname)}.html">See {html.escape(pname)} Province — allocations by year and all its constituencies</a></p></div>"""
         body += _ag_section(_ag_ids.get(cname), cname)
