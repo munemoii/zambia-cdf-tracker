@@ -1701,10 +1701,10 @@ window.CDF_CARDS = {
    "neverStarted": 14
   },
   "published": {
-   "named": 45,
+   "named": 75,
    "completed": 9,
    "inProgress": 13,
-   "approved": 22,
+   "approved": 52,
    "stalled": 0,
    "notStated": 1,
    "held": 0
@@ -2176,15 +2176,17 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 0,
+   "named": 30,
    "completed": 0,
    "inProgress": 0,
-   "approved": 0,
+   "approved": 30,
    "stalled": 0,
    "notStated": 0,
    "held": 1
   },
-  "publishers": []
+  "publishers": [
+   "Manyinga Town Council"
+  ]
  },
  "mufumbwe": {
   "name": "Mufumbwe",
@@ -2672,7 +2674,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 24
   },
   "publishers": [
    "Chikankata Town Council"
@@ -2710,10 +2712,10 @@ window.CDF_CARDS = {
    "neverStarted": 7
   },
   "published": {
-   "named": 35,
+   "named": 65,
    "completed": 9,
    "inProgress": 3,
-   "approved": 23,
+   "approved": 53,
    "stalled": 0,
    "notStated": 0,
    "held": 0
@@ -2842,10 +2844,10 @@ window.CDF_CARDS = {
    "neverStarted": 9
   },
   "published": {
-   "named": 29,
+   "named": 56,
    "completed": 10,
    "inProgress": 1,
-   "approved": 18,
+   "approved": 45,
    "stalled": 0,
    "notStated": 0,
    "held": 0
@@ -2933,10 +2935,10 @@ window.CDF_CARDS = {
    "neverStarted": 9
   },
   "published": {
-   "named": 9,
+   "named": 48,
    "completed": 7,
    "inProgress": 2,
-   "approved": 0,
+   "approved": 39,
    "stalled": 0,
    "notStated": 0,
    "held": 1
@@ -2961,7 +2963,7 @@ window.CDF_CARDS = {
    "approved": 35,
    "stalled": 0,
    "notStated": 0,
-   "held": 9
+   "held": 10
   },
   "publishers": [
    "Monze Town Council"
