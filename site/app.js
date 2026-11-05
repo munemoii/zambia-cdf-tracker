@@ -231,6 +231,10 @@
     if(mv && mv.projCount){
       html+='<p class="chart-note" style="margin-top:10px">Approvals, counted separately: in '+state.year+', '+mv.projCount.toLocaleString("en-GB")+' community projects were approved nationally, worth '+fmtM(mv.projAmt)+' \u2014 '+mv.projPct+'% of the allocation. Approval is where the paper pipeline starts; the bars above follow the money itself.</p>';
     }
+    var fs=(D.flowSources||{})[state.year];
+    if(fs && (mv || RELEASED_ONLY[state.year])){
+      html+='<p class="chart-note" style="margin-top:10px">Source: '+(fs.url?'<a href="'+fs.url+'" target="_blank" rel="noopener">'+fs.publisher+'</a>':fs.publisher)+(fs.title?' \u2014 '+fs.title:'')+(fs.date?' · '+fmtSrcDate(fs.date):'')+'</p>';
+    }
     document.getElementById("flowCard").innerHTML=html;
   }
 
@@ -589,6 +593,20 @@
     var d = STATUS[st] || STATUS.unknown;
     return '<span class="badge" style="background:' + d.color + '">' + d.label + '</span>';
   }
+  // Prove It (roadmap item 3, 2026-11-04): source dates are stored as
+  // YYYY, YYYY-MM or YYYY-MM-DD; render them long, as the pages do.
+  function fmtSrcDate(d){
+    if (!d) return '';
+    var MN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d); if (m) return (+m[3]) + ' ' + MN[(+m[2]) - 1] + ' ' + m[1];
+    m = /^(\d{4})-(\d{2})$/.exec(d); if (m) return MN[(+m[2]) - 1] + ' ' + m[1];
+    return d;
+  }
+  function srcLine(pr){
+    if (pr.source && pr.source.publisher)
+      return '<span class="psrc">Source: ' + pr.source.publisher + (pr.source.date ? ' · ' + fmtSrcDate(pr.source.date) : '') + '</span>';
+    return '<span class="psrc">Source not published</span>';
+  }
   var pilotSel = null, pilotStatus = 'all', xpProv = null;
   function xpData(){ return (D && D.projects) ? D.projects : null; }
   function xpProvince(){
@@ -651,7 +669,7 @@
       document.getElementById('pdMeta').textContent = hits.length + ' projects match · showing up to 200';
       var shown = hits.slice(0, 200);
       document.getElementById('pdBody').innerHTML = '<div id="projDetailSlot"></div>' + (shown.length ? shown.map(function(h, i){
-        return '<div class="prow jrow" data-i="' + i + '"><span class="pname">' + h.pr.name + ' <span class="pdetail-x">' + h.c + ', ' + h.p + '</span></span>' +
+        return '<div class="prow jrow" data-i="' + i + '"><span class="pname">' + h.pr.name + ' <span class="pdetail-x">' + h.c + ', ' + h.p + '</span>' + srcLine(h.pr) + '</span>' +
           '<span class="amt">' + fmtKwacha(h.pr.budgetM) + '</span>' + badge(h.pr.status) + '</div>';
       }).join('') : '<p class="chart-note">No projects match this search.</p>');
       document.querySelectorAll('#pdBody .jrow').forEach(function(r){
@@ -687,7 +705,7 @@
       document.querySelectorAll('#pdBody .jrow').forEach(function(r){
         r.addEventListener('click', function(){ xpProv = r.dataset.pv; pilotSel = null; renderProjects(); });
       });
-      if (note) note.textContent = X.totalProjects + ' projects tracked across ' + X.provinces.length + ' provinces. Pick a province to browse its constituencies. Every project links to its published source; amounts are shown only where the source published them.';
+      if (note) note.textContent = X.totalProjects + ' projects tracked across ' + X.provinces.length + ' provinces. Pick a province to browse its constituencies. Every project shows the published source it came from — open a project for the document, its publisher and its date; amounts are shown only where the source published them.';
       fyStripFor(document.getElementById('fyStrip'), X.totalProjects, X.fundingYears, X.fundingYearKnown);
       return;
     }
@@ -746,7 +764,7 @@
       if (grouped) html += '<div class="ghead">' + (k ? k + ' CDF' : 'Funding year not published') + ' — ' + groups[k].length + ' projects</div>';
       groups[k].forEach(function(pr){
         flat.push(pr);
-        html += '<div class="prow jrow" data-i="' + (flat.length - 1) + '"><span class="pname">' + pr.name + '</span>' +
+        html += '<div class="prow jrow" data-i="' + (flat.length - 1) + '"><span class="pname">' + pr.name + srcLine(pr) + '</span>' +
           '<span class="amt">' + fmtKwacha(pr.budgetM) + '</span>' + badge(pr.status) + '</div>';
       });
     });
@@ -766,7 +784,7 @@
     }
     if (note) note.textContent =
       P.totalProjects + ' projects tracked across ' + P.constituencies.length + ' ' + P.name + ' constituencies. ' +
-      'Every project links to its published source; amounts are shown only where the source published them.' + fyTxt;
+      'Every project shows the published source it came from — open a project for the document, its publisher and its date; amounts are shown only where the source published them.' + fyTxt;
     fyStripFor(document.getElementById('fyStrip'), P.totalProjects, P.fundingYears, P.fundingYearKnown);
   }
   function showProject(pr){
@@ -781,7 +799,8 @@
       rows.map(function(r){ return '<div><b>' + r[0] + '</b>' + r[1] + '</div>'; }).join('') + '</div>';
     if (pr.photo) html += '<figure><img src="' + pr.photo.url + '" alt="Project photo"><figcaption>Photo: ' + (pr.photo.credit || '') + '</figcaption></figure>';
     if (pr.note) html += '<p class="chart-note">' + pr.note + '</p>';
-    if (pr.source) html += '<p class="chart-note">Source: ' + (pr.source.url ? '<a href="' + pr.source.url + '" target="_blank" rel="noopener">' + pr.source.publisher + '</a>' : pr.source.publisher) + (pr.source.title ? ' — ' + pr.source.title : '') + '</p>';
+    if (pr.source && pr.source.publisher) html += '<p class="chart-note">Source: ' + (pr.source.url ? '<a href="' + pr.source.url + '" target="_blank" rel="noopener">' + pr.source.publisher + '</a>' : pr.source.publisher) + (pr.source.title ? ' — ' + pr.source.title : '') + (pr.source.date ? ' · Published ' + fmtSrcDate(pr.source.date) : '') + '</p>';
+    else html += '<p class="chart-note">Source not published</p>';
     html += '</div>';
     var slot = document.getElementById('projDetailSlot');
     slot.innerHTML = html;

@@ -100,6 +100,20 @@ def main():
             "label": _released_labels.get(yr, ""),
         }
 
+    # Prove It (roadmap item 3, 2026-11-04): the recorded source behind each
+    # year's national release figure — the same disbursements row the flow
+    # figures above are read from — so the Money page can print the receipt
+    # (publisher, document, date, link) beside the figures it publishes.
+    flow_sources = {}
+    for yr in flow_years:
+        srow = c2.execute("""SELECT s.publisher, s.title, s.published_date, s.url
+                             FROM disbursements d LEFT JOIN sources s ON s.id = d.source_id
+                             WHERE d.budget_year=? AND d.constituency_id IS NULL AND d.component='all'
+                             ORDER BY d.id DESC LIMIT 1""", (yr,)).fetchone()
+        if srow and srow[0]:
+            flow_sources[str(yr)] = {"publisher": srow[0], "title": srow[1],
+                                     "date": srow[2], "url": srow[3]}
+
     delivered = []
     for mname, title, desc, plus in TILE_MAP:
         v = metric(mname)
@@ -249,7 +263,8 @@ def main():
     proj_rows = c.execute("""SELECT pr.id, pr.name, k.name, pr.ward, pr.component, pr.category,
                                     pr.contractor, pr.budget_m, pr.status, pr.completion_pct,
                                     pr.photo_url, pr.photo_credit, pr.note,
-                                    s.publisher, s.title, s.url, pr.funding_year, pv.name
+                                    s.publisher, s.title, s.url, pr.funding_year, pv.name,
+                                    s.published_date
                              FROM projects pr
                              JOIN constituencies k ON k.id = pr.constituency_id
                              JOIN provinces pv ON pv.id = k.province_id
@@ -269,7 +284,7 @@ def main():
                 "status": r[8], "completionPct": r[9],
                 "photo": ({"url": r[10], "credit": r[11]} if r[10] else None),
                 "note": r[12],
-                "source": {"publisher": r[13], "title": r[14], "url": r[15]},
+                "source": {"publisher": r[13], "title": r[14], "url": r[15], "date": r[18]},
                 "fundingYear": r[16],
             })
         prov_objs = []
@@ -373,7 +388,7 @@ def main():
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
-        "movement": movement, "releasedOnly": released_only, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util, "record": record,
+        "movement": movement, "releasedOnly": released_only, "flowSources": flow_sources, "delivered": delivered, "news": news, "pilot": pilot, "projects": projects_block, "people": people, "utilisation": util, "record": record,
     }
     body = ("// Zambia CDF Tracker — data file. GENERATED from cdf.db by generate_feed.py.\n"
             "// Do not edit by hand: update the database, then re-run the generator.\n"

@@ -671,3 +671,7 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 .cardbtn[hidden]{display:none}
 .carddl{background:var(--gold);border-color:var(--gold);color:#231a00}
 .cardnote{font-size:.88rem;max-width:640px}
+
+/* Prove It provenance lines (roadmap item 3, 2026-11-04) */
+.psrc{display:block;font-size:.72rem;color:var(--muted);font-weight:400;margin-top:2px}
+.pcard .pcard-src{font-size:.8rem}

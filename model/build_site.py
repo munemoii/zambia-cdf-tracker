@@ -55,6 +55,21 @@ def badge(st):
     return f'<span class="badge" style="background:{color}">{label}</span>'
 
 
+def fmt_src_date(d):
+    """Source published dates are stored as YYYY, YYYY-MM or YYYY-MM-DD;
+    render them long (Prove It, 2026-11-04). Anything else prints as stored."""
+    if not d:
+        return ""
+    try:
+        if len(d) == 10:
+            return f"{datetime.date.fromisoformat(d).day} {datetime.date.fromisoformat(d).strftime('%B %Y')}"
+        if len(d) == 7:
+            return datetime.date.fromisoformat(d + "-01").strftime("%B %Y")
+    except ValueError:
+        pass
+    return d
+
+
 def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=None):
     og = og_image or f"{BASE}/og-card.png"
     return f"""<!doctype html>
@@ -76,7 +91,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
-<link rel="stylesheet" href="{prefix}styles.css?v=39">
+<link rel="stylesheet" href="{prefix}styles.css?v=42">
 <!-- CF-WEB-ANALYTICS -->
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}}'></script>
 <!-- /CF-WEB-ANALYTICS -->
@@ -251,7 +266,8 @@ def main():
     projects = c.execute("""
         SELECT pr.id, pr.name, pr.ward, pr.component, pr.category, pr.contractor,
                pr.budget_m, pr.status, pr.completion_pct, pr.photo_url, pr.photo_credit,
-               pr.note, k.name, k.id, pv.name, s.publisher, s.title, s.url, pr.funding_year
+               pr.note, k.name, k.id, pv.name, s.publisher, s.title, s.url, pr.funding_year,
+               s.published_date
         FROM projects pr
         JOIN constituencies k ON k.id = pr.constituency_id
         JOIN provinces pv ON pv.id = k.province_id
@@ -684,11 +700,16 @@ def main():
             status_line = " · ".join(f"{STATUS.get(k, STATUS['unknown'])[0]}: {v}" for k, v in sorted(sc.items()))
             def _card(pr):
                 photo = f'<img loading="lazy" src="{html.escape(pr[9])}" alt="">' if pr[9] else ""
+                if pr[15]:
+                    _src = f'<p class="pcard-src">Source: {html.escape(pr[15])}{" · " + fmt_src_date(pr[19]) if pr[19] else ""}</p>'
+                else:
+                    _src = '<p class="pcard-src">Source not published</p>'
                 return f"""<a class="pcard proj" href="../{project_url(pr[0], pr[1])}">
                   {photo}
                   <h3>{html.escape(pr[1])}</h3>
                   <p>{html.escape(pr[2] or '')}{' · ' if pr[2] else ''}{html.escape(pr[4] or '')}</p>
                   <p class="pcard-sub">{fmt_kwacha(pr[6])} · {STATUS.get(pr[7], STATUS['unknown'])[0]}</p>
+                  {_src}
                 </a>"""
             from collections import defaultdict as _dd
             _groups = _dd(list)
@@ -719,6 +740,7 @@ def main():
             body = place_media_html("constituency", cname) + f"""<p class="plede">{html.escape(pname)} Province · {len(items)} published CDF projects tracked across all published years · {fmt_kwacha(total_b) if known else 'per-project amounts not published'} in published budgets ({len(known)} of {len(items)} projects publish amounts).{fy_txt}</p>
 <p class="plede">{html.escape(status_line)}</p>
 <p class="plede">{html.escape(record_line)}</p>
+<p class="plede">Every project below comes from a published document. Open a project to see its source — who published it, the document and its date — and the note recorded with it. Where published sources disagree about a project, the disagreement is printed on the project page, not hidden.</p>
 {cards_html}"""
             body += _ag_section(_ag_ids.get(cname), cname)
             body += sharecard_html(cname)
@@ -730,7 +752,7 @@ def main():
             for pr in items:
                 (pid_, name, ward, comp, cat, contractor, budget_m, status, pct,
                  photo_url, photo_credit, note, cname2, _kid, pvname,
-                 spub, stitle, surl, fy) = pr
+                 spub, stitle, surl, fy, sdate) = pr
                 facts = [
                     ("Status", STATUS.get(status, STATUS["unknown"])[0] + (f" · {pct:g}% complete" if pct else "")),
                     ("Budget", fmt_kwacha(budget_m)),
@@ -745,6 +767,7 @@ def main():
                 note_html = f'<p class="plede">{html.escape(note)}</p>' if note else ""
                 source_html = (f'<div class="card srccard"><h2 class="phead">Source</h2><p>{html.escape(spub or "")}'
                                + (f' — {html.escape(stitle)}' if stitle else "")
+                               + (f'<br>Published {fmt_src_date(sdate)}' if sdate else "")
                                + (f'<br><a href="{html.escape(surl)}" target="_blank" rel="noopener">View the published source</a>' if surl else "")
                                + "</p></div>") if spub else ""
                 body = f"""<p class="plede">{badge(status)}&nbsp; {html.escape(cname2)}, {html.escape(pvname)} Province</p>
