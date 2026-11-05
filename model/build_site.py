@@ -208,6 +208,31 @@ def place_media_html(kind, name):
             f'<figcaption>{html.escape(m["caption"])} · {html.escape(m["credit"])}</figcaption></figure>')
 
 
+def sharecard_html(cname):
+    """The downloadable constituency share card (roadmap item 2,
+    2026-11-04): a canvas on the page, drawn in the visitor's browser by
+    card.js from cards.js — the slim feed generate_feed.py emits from
+    the same database in the same run — so the card always matches the
+    record the page displays and no card images are stored. The canvas
+    carries its critical sizing inline so the layout holds even before
+    styles.css picks up the .sharecard rules."""
+    slug = slugify(cname)
+    return f"""
+<section class="sharecard" data-slug="{slug}">
+  <h2 class="phead">Share {html.escape(cname)}&rsquo;s card</h2>
+  <p class="plede">The two records on one card — what the Auditor-General counted, and what councils have published by name — drawn from the live record on this page. Download it, share it, print it.</p>
+  <canvas class="cardcanvas" width="2160" height="2160" style="display:block;width:100%;max-width:520px;height:auto;border-radius:14px;background:#0b3520" role="img" aria-label="Share card for {html.escape(cname)} constituency: the audited record and the published record"></canvas>
+  <div class="cardbtns">
+    <a class="cardbtn carddl" href="#" download="{slug}-cdf-card.png">Download PNG</a>
+    <button class="cardbtn cardshare" type="button" hidden>Share&hellip;</button>
+    <a class="cardbtn cardopen" href="#" target="_blank" rel="noopener">Open image</a>
+  </div>
+  <p class="plede cardnote">The card is generated in your browser from the same record this page displays, so it is never out of date. Still held: projects found in published lists that are not yet proved to the tracker's standard — they join the record only when an official source states them plainly.</p>
+</section>
+<script src="../cards.js"></script>
+<script src="../card.js?v=1"></script>"""
+
+
 def main():
     con = sqlite3.connect(HERE / "cdf.db")
     c = con.cursor()
@@ -696,6 +721,7 @@ def main():
 <p class="plede">{html.escape(record_line)}</p>
 {cards_html}"""
             body += _ag_section(_ag_ids.get(cname), cname)
+            body += sharecard_html(cname)
             (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
                 f"{cname} constituency", f"{len(items)} CDF projects tracked in {cname}, {pname}: budgets, status, contractors and sources.",
                 "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))
@@ -747,6 +773,7 @@ def main():
 <p>{html.escape(cname)} receives the same CDF allocation as every constituency — {fmt_m(rate[latest_year])} in {latest_year}. What its council has not yet published, in any list we can verify, is which projects that money is funding. This page will fill in as soon as a publishable list exists; the weekly check watches for one.</p>
 <p><a href="../provinces/{slugify(pname)}.html">See {html.escape(pname)} Province — allocations by year and all its constituencies</a></p></div>"""
         body += _ag_section(_ag_ids.get(cname), cname)
+        body += sharecard_html(cname)
         (SITE / "constituencies" / f"{slugify(cname)}.html").write_text(shell(
             f"{cname} constituency", f"CDF in {cname}, {pname}: {fmt_m(rate[latest_year])} allocated in {latest_year}; project-level tracking has not reached this constituency yet — the publishing gap is part of the record.",
             "../", body, crumb=crumbs("../", [("Provinces", "provinces.html"), (pname, f"provinces/{slugify(pname)}.html"), (cname, None)])))

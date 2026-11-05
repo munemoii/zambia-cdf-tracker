@@ -311,6 +311,65 @@ def main():
         "provinces": c.execute("SELECT COUNT(DISTINCT k.province_id) FROM projects pr JOIN constituencies k ON k.id = pr.constituency_id").fetchone()[0],
     }
 
+    # --- constituency share cards (roadmap item 2, 2026-11-04): the data
+    # behind the downloadable card on every constituency page, emitted by
+    # this generator as its own slim feed (site/cards.js) so constituency
+    # pages do not have to load the full data.js. Same generator, same
+    # run, same database as the record block above — a card can never
+    # drift from the figures the pages display.
+    # Published buckets follow the site's status mapping: completed
+    # includes completed_unused; in progress is ongoing + in_progress;
+    # approved includes funded (the paper stage, per the funding rule).
+    # Held counts come from the expansion held.csv files — the tracker's
+    # held pile — attributed by exact constituency name; rows whose
+    # constituency cell is blank or names more than one constituency are
+    # attributed to no card.
+    from collections import Counter as _Counter, defaultdict as _defaultdict
+    import csv as _csv, glob as _glob
+    def _cslug(nm):
+        return re.sub(r"[^a-z0-9]+", "-", nm.lower().replace("&", "and")).strip("-")
+    _held = _Counter()
+    for _hf in _glob.glob(str(HERE / "expansion" / "*" / "held.csv")):
+        with open(_hf, encoding="utf-8", errors="replace", newline="") as _fh:
+            for _row in _csv.DictReader(_fh):
+                _held[(_row.get("constituency") or "").strip().lower()] += 1
+    _pubs = _defaultdict(list)
+    for _cid, _pub in c.execute(
+            "SELECT pr.constituency_id, s.publisher FROM projects pr "
+            "JOIN sources s ON s.id = pr.source_id WHERE s.publisher IS NOT NULL "
+            "GROUP BY pr.constituency_id, s.publisher "
+            "ORDER BY pr.constituency_id, COUNT(*) DESC, s.publisher ASC"):
+        _pubs[_cid].append(_pub)
+    cards = {}
+    for _cid, _nm, _pv in c.execute(
+            "SELECT k.id, k.name, pv.name FROM constituencies k "
+            "JOIN provinces pv ON pv.id = k.province_id "
+            "JOIN delimitation_sets s ON s.id = k.set_id AND s.label = 'current-156' "
+            "ORDER BY pv.name, k.name").fetchall():
+        _ag = c.execute(
+            "SELECT SUM(approved), SUM(implemented), SUM(in_progress), SUM(not_implemented) "
+            "FROM ag_project_status WHERE fy = 2024 AND constituency_id = ?", (_cid,)).fetchone()
+        _audit = None
+        if _ag and _ag[0] is not None:
+            _audit = {"audited": _ag[0], "completed": _ag[1] or 0,
+                      "inProgress": _ag[2] or 0, "neverStarted": _ag[3] or 0}
+        _sc = dict(c.execute(
+            "SELECT status, COUNT(*) FROM projects WHERE constituency_id = ? "
+            "GROUP BY status", (_cid,)).fetchall())
+        cards[_cslug(_nm)] = {
+            "name": _nm, "province": _pv, "audit": _audit,
+            "published": {
+                "named": sum(_sc.values()),
+                "completed": _sc.get("completed", 0) + _sc.get("completed_unused", 0),
+                "inProgress": _sc.get("ongoing", 0) + _sc.get("in_progress", 0),
+                "approved": _sc.get("approved", 0) + _sc.get("funded", 0),
+                "stalled": _sc.get("stalled", 0),
+                "notStated": _sc.get("unknown", 0),
+                "held": _held.get(_nm.lower(), 0),
+            },
+            "publishers": _pubs.get(_cid, []),
+        }
+
     data = {
         "meta": {"snapshotDate": today_long, "lastChecked": today_long},
         "years": years, "seats": seats, "provinces": provinces,
@@ -322,6 +381,13 @@ def main():
     for o in outs:
         o.write_text(body)
         print("wrote", o)
+
+    cards_body = ("// Zambia CDF Tracker — constituency share-card data. GENERATED from cdf.db by generate_feed.py.\n"
+                  "// Do not edit by hand: update the database, then re-run the generator.\n"
+                  "window.CDF_CARDS = " + json.dumps(cards, indent=1, ensure_ascii=False) + ";\n")
+    cards_out = HERE.parent / "site" / "cards.js"
+    cards_out.write_text(cards_body)
+    print("wrote", cards_out)
 
     # --- static-patch: keep the record figures printed in the hand-maintained
     # pages (index.html meta/fallback, read.html guide cards) in step with the
