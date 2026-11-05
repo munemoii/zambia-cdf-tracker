@@ -91,7 +91,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
-<link rel="stylesheet" href="{prefix}styles.css?v=46">
+<link rel="stylesheet" href="{prefix}styles.css?v=47">
 <!-- CF-WEB-ANALYTICS -->
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}}'></script>
 <!-- /CF-WEB-ANALYTICS -->
@@ -128,7 +128,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 </div>
 <a class="readfab" href="{prefix}read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read this tracker</span></a>
 <script>
-(function(){{var f=document.querySelector('.readfab');if(!f)return;var mini=false;f.setAttribute('aria-expanded','true');function upd(){{var y=window.scrollY||window.pageYOffset;var m=y>120;if(m!==mini){{mini=m;f.classList.toggle('mini',m);if(!m){{f.classList.remove('open');f.setAttribute('aria-expanded','true');}}else if(!f.classList.contains('open')){{f.setAttribute('aria-expanded','false');}}}}}}window.addEventListener('scroll',upd,{{passive:true}});upd();f.addEventListener('click',function(e){{if(f.classList.contains('mini')&&!f.classList.contains('open')){{e.preventDefault();f.classList.add('open');f.setAttribute('aria-expanded','true');}}}});}})();
+(function(){{var f=document.querySelector('.readfab');if(!f)return;var mini=false;f.setAttribute('aria-expanded','true');function phone(){{return !!(window.matchMedia&&window.matchMedia('(max-width:760px)').matches);}}function upd(){{var y=window.scrollY||window.pageYOffset;var m=y>120||phone();if(m!==mini){{mini=m;f.classList.toggle('mini',m);if(!m){{f.classList.remove('open');f.setAttribute('aria-expanded','true');}}else if(!f.classList.contains('open')){{f.setAttribute('aria-expanded','false');}}}}}}window.addEventListener('scroll',upd,{{passive:true}});upd();f.addEventListener('click',function(e){{if(f.classList.contains('mini')&&!f.classList.contains('open')){{e.preventDefault();f.classList.add('open');f.setAttribute('aria-expanded','true');}}}});}})();
 </script>
 </body>
 </html>

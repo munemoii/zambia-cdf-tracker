@@ -865,3 +865,47 @@ footer:not(.sitefoot){padding-left:16px;padding-right:16px}
 #newsList .devlink:first-child{padding-left:16px;padding-right:16px}
 body{overflow-wrap:break-word}
 a,td,th{overflow-wrap:anywhere}
+
+/* ===== ROUND 4: MOBILE — wrapped nav rows + the phone pill (2026-11-05) =====
+   Ordered from Caleb's phone screenshot of the homepage. Two defects, both
+   phone-width only; the desktop render is unchanged.
+   1. WRAPPED NAV ROWS. Round 2 put the FIRST nav link's text on the axis
+      (padding-left:0 on :first-child), but when the nav wraps, every
+      wrapped row's LEADING link keeps its 11px left padding — so rows
+      2, 3, … start ~10px right of the axis and the rows sprawl ragged
+      ("Loans & Bursaries", "Developments" in the phone screenshot;
+      Caleb's reference is the old static page, whose wrapped rows are
+      left-packed with every leader flush). Below the wrap point the
+      links therefore carry NO horizontal padding and the spacing moves
+      to a uniform flex column-gap (22px): rows left-pack (flex-start,
+      the flex default — no justify-content is set on .sitenav) and
+      every row leader's text sits on the axis exactly like "Home".
+      Vertical padding (6px, 7px on phones) is untouched, so tap
+      targets keep their height.
+      DESKTOP INVARIANCE (Caleb's ruling, 2026-11-05: the PC view must
+      not change): the fix is scoped to max-width:940px. The nav's
+      single-line width, measured with the real font (Barlow SemiBold,
+      .95rem, the 8 live labels, padding and borders included), is
+      912.4px of content; the .wrap gives it viewport − 36px, so the
+      nav can only wrap at viewports <=948px. The 940px scope sits
+      below that point with margin: at every width where the desktop
+      nav renders on one line the rules below cannot apply, and the
+      desktop rules themselves are byte-identical to v=46.
+   2. THE PHONE PILL. At load on a phone the full read pill sprawled
+      across the Proof of Delivery slideshow's first photo; its collapse
+      only triggered on scroll. At <=760px the pill now renders in its
+      compact "?" form from page load — the same geometry as the .mini
+      scroll state. The pill script collapses it via the .mini class on
+      phone widths too (matchMedia), so tap-to-expand and the aria state
+      behave exactly as in the scrolled state; the rules below also cover
+      the pre-script paint and the no-JS case. Desktop behaviour is
+      unchanged. */
+@media (max-width:940px){
+  .sitenav{column-gap:22px;row-gap:6px}
+  .sitenav a{padding-left:0;padding-right:0}
+}
+@media (max-width:760px){
+  .readfab:not(.open){width:44px;height:44px;padding:0;gap:0;justify-content:center;border-radius:50%;opacity:.55}
+  .readfab:not(.open) .q{width:26px;height:26px;font-size:1.05rem}
+  .readfab:not(.open) .ql{max-width:0;opacity:0}
+}
