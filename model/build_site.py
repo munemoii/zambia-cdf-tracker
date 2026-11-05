@@ -556,7 +556,7 @@ def main():
     (SITE / "constituencies").mkdir(exist_ok=True)
     (SITE / "projects").mkdir(exist_ok=True)
 
-    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/rural.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html", f"{BASE}/read.html"]
+    urls = [f"{BASE}/", f"{BASE}/provinces.html", f"{BASE}/money.html", f"{BASE}/utilisation.html", f"{BASE}/rural.html", f"{BASE}/projects.html", f"{BASE}/people.html", f"{BASE}/photos.html", f"{BASE}/scenario.html", f"{BASE}/developments.html", f"{BASE}/read.html", f"{BASE}/gapmap.html"]
 
     # ---------- provinces index ----------
     cards = []
@@ -591,7 +591,9 @@ def main():
 <div class="pgrid">{''.join(cards)}</div>
 <h2 class="phead" style="margin-top:34px">The publishing scorecard</h2>
 <p class="plede">How much of each province's CDF record is actually public. This measures the <b>record</b>, not delivery: a low score means the councils publish little, not that nothing was built. It is the gap this tracker exists to close.</p>
-<div class="card"><table class="mtable"><thead><tr><th>Province</th><th>Constituencies with published projects</th><th>Projects tracked</th><th>With amounts</th><th>With funding year</th><th>Shown completed</th></tr></thead><tbody>{sc_html}</tbody></table></div>"""
+<div class="card"><table class="mtable"><thead><tr><th>Province</th><th>Constituencies with published projects</th><th>Projects tracked</th><th>With amounts</th><th>With funding year</th><th>Shown completed</th></tr></thead><tbody>{sc_html}</tbody></table></div>
+<h2 class="phead" style="margin-top:34px">Counted vs named — the Gap Map</h2>
+<p class="plede">The Auditor-General counted 3,060 completed CDF projects (FY2024) but named none of them — naming is the councils' job. The <a href="gapmap.html">Gap Map</a> puts the counted record and the named record side by side for all 156 constituencies: where a counted completion still has no published name, the gap is a publishing gap.</p>"""
     (SITE / "provinces.html").write_text(
         shell("Provinces", "CDF allocations and project tracking for all ten Zambian provinces.", "", body, band=("bp-provinces", "Photo: The Kafue River — Munahampondela, CC BY-SA 4.0, via Wikimedia Commons")))
     urls.append(f"{BASE}/provinces.html")

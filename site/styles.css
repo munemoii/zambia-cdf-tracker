@@ -675,3 +675,51 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 /* Prove It provenance lines (roadmap item 3, 2026-11-04) */
 .psrc{display:block;font-size:.72rem;color:var(--muted);font-weight:400;margin-top:2px}
 .pcard .pcard-src{font-size:.8rem}
+
+/* ===== Gap Map (roadmap item 4, 2026-11-04) =====
+   Tile colour encodes the share of audit-counted completions that still
+   have no published name: deep green #167347 = fully named (proven),
+   through amber to deep red #bf3b26 = almost nothing named (missing);
+   grey = no completions counted / not in the audit tables. The legend
+   on the page states this in words beside every swatch. */
+.glegend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:4px}
+.gleg{display:inline-flex;gap:8px;align-items:flex-start;font-size:.88rem;color:var(--muted);max-width:340px}
+.gleg b{color:var(--ink)}
+.gsw{flex:none;width:18px;height:18px;border-radius:5px;margin-top:2px;border:1px solid rgba(0,0,0,.18)}
+.gsw.g0{background:#167347}.gsw.g1{background:#8fc7a5}.gsw.g2{background:#dfa13c}
+.gsw.g3{background:#d96f4a}.gsw.g4{background:#bf3b26}
+.gsw.none,.gsw.nodata{background:#c9cec9}
+.gprov{margin-bottom:20px}
+.gprov:last-child{margin-bottom:2px}
+.gprov-head{display:flex;flex-wrap:wrap;gap:2px 14px;align-items:baseline;justify-content:space-between}
+.gprov-head h3{margin:0;font-size:1.02rem}
+.gprov-head p{margin:0;font-size:.85rem;color:var(--muted)}
+.gbar{display:flex;height:10px;border-radius:99px;overflow:hidden;background:var(--bar-track);margin:7px 0 9px}
+.gbar-named{background:#167347}
+.gbar-gap{background:#bf3b26;opacity:.82}
+.gtiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:7px}
+.gtile{appearance:none;font:inherit;text-align:left;border:1px solid rgba(0,0,0,.16);border-radius:10px;
+  padding:7px 8px 6px;cursor:pointer;display:flex;flex-direction:column;gap:0;min-height:74px;color:#17211a}
+.gtile .gn{font-size:.74rem;font-weight:600;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gtile .gv{font-family:"Barlow Condensed",sans-serif;font-size:1.55rem;font-weight:700;line-height:1.05;margin-top:auto}
+.gtile .gl{font-size:.66rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.85}
+.gtile.g0{background:#167347;color:#fff}
+.gtile.g1{background:#8fc7a5}
+.gtile.g2{background:#dfa13c}
+.gtile.g3{background:#d96f4a;color:#fff}
+.gtile.g4{background:#bf3b26;color:#fff}
+.gtile.none,.gtile.nodata{background:#c9cec9;color:#43503f;border-style:dashed}
+.gtile:hover{filter:brightness(1.07)}
+.gtile.sel{outline:3px solid var(--gold);outline-offset:1px}
+#gapDetail h3{margin:0;font-size:1.3rem}
+#gapDetail .gsub{margin:0 0 10px;color:var(--muted);font-size:.9rem}
+#gapDetail .grecs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#gapDetail .gk{font-size:.74rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 5px}
+#gapDetail .grow{display:flex;justify-content:space-between;gap:10px;margin:0;padding:3px 0;border-bottom:1px solid var(--line);font-size:.93rem}
+#gapDetail .grow b{font-variant-numeric:tabular-nums}
+#gapDetail .ggap{margin:12px 0 0;font-size:.97rem}
+#gapDetail .gnote{margin:10px 0 0;font-size:.88rem;color:var(--muted)}
+@media (max-width:640px){
+  #gapDetail .grecs{grid-template-columns:1fr}
+  .gtiles{grid-template-columns:repeat(auto-fill,minmax(92px,1fr))}
+}

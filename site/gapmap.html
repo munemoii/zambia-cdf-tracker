@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>The Gap Map — counted vs named — Zambia CDF Tracker</title>
+<meta name="description" content="The Auditor-General counted 3,060 completed CDF projects (FY2024). Councils have published names for 1,067 completions. The Gap Map shows, constituency by constituency, how many counted completions still have no published name.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zambia CDF Tracker">
+<meta property="og:title" content="The Gap Map — counted vs named — Zambia CDF Tracker">
+<meta property="og:description" content="The audit counted them. We name them. See where counted CDF completions still have no published name — all 156 constituencies.">
+<meta property="og:url" content="https://followeverykwacha.com/gapmap.html">
+<meta property="og:image" content="https://followeverykwacha.com/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css?v=42">
+</head>
+<body>
+<div class="wrap">
+  <div class="flagstripe" aria-hidden="true"><span class="g"></span><span class="r"></span><span class="k"></span><span class="o"></span></div>
+  <header class="sitehead">
+    <a class="wordmark" href="index.html">Zambia <em>CDF</em> Tracker</a>
+    <nav class="sitenav">
+      <a href="index.html">Home</a>
+      <a href="money.html">The Money</a>
+      <a href="provinces.html">Provinces</a>
+      <a href="projects.html">Projects</a>
+      <a href="people.html">Loans &amp; Bursaries</a>
+      <a href="photos.html">Proof of Delivery</a>
+      <a href="scenario.html">2027 Scenario</a>
+      <a href="developments.html">Developments</a>
+    </nav>
+  </header>
+  <div class="pageband"><div class="pageband-in">
+    <nav class="crumbs"><a href="index.html">Home</a> › The Gap Map</nav>
+    <h1>The Gap Map</h1>
+    <p class="bandsub">The audit counted them. We name them. This map puts the two records side by side for every constituency — and shows where a completion the auditors counted still has no published name.</p>
+  </div></div>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">Two records, one gap</p>
+    <h2>Counted is not the same as named</h2>
+    <p>Zambia keeps two records of CDF delivery. The <b>counted record</b> is the Auditor-General's: inspectors assessed 4,879 CDF projects for the FY2024 report (published 23 December 2025) and counted <b>3,060 completed</b> — but the report gives totals per constituency, never project names. The <b>named record</b> is what councils themselves publish: lists, handover and commissioning reports that name individual projects. This tracker holds <b>1,067 named completions</b>, each traced to its published source.</p>
+    <p>A constituency's <b>gap</b> is the completions the audit counted there minus the completions published by name there. A gap is a <b>publishing gap</b>: it proves the name was never published, not that the work was never done. This map takes no position on whether an unnamed project was delivered — only the council can close its gap, by publishing the names.</p>
+  </div>
+  <div class="board" role="region" aria-label="Counted versus named, nationally">
+    <p class="eyebrow">The national picture</p>
+    <h2>Counted vs named</h2>
+    <div class="bgrid" id="gapStrip"></div>
+    <p class="bnote">Counted record: <a href="https://www.ago.gov.zm/wp-content/uploads/CDF-Report-2024.pdf" target="_blank" rel="noopener">Auditor-General's report on the Constituency Development Fund (FY2024)</a>, published 23 December 2025. Named record: council publications tracked by this site, 2021–2026. The two records are never added together — they overlap, and each stands on its own.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">The map</p>
+    <h2>Every constituency, one tile</h2>
+    <p>A schematic tile map: one tile per constituency, grouped by province and laid out in rough geographic order. Tiles are not constituency boundaries — no official constituency boundary map is published with this data, so the picture is a grid, and the numbers on each tile carry the story. Colour shows the <b>share of counted completions still unnamed</b>. Tap any tile for both of its records in full.</p>
+  </div>
+  <div class="glegend" id="gapLegend" aria-label="Legend: share of counted completions still unnamed"></div>
+  <div class="explorer" style="margin-top:12px">
+    <div class="card" id="gapTiles" aria-label="Tile map of all 156 constituencies"></div>
+    <div class="card detail" id="gapDetail" aria-live="polite"></div>
+  </div>
+  <noscript><p class="chart-note">This map is drawn from the tracker's data file — enable JavaScript to see it. Every figure on it also appears on the constituency pages, under Provinces.</p></noscript>
+</section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">The sharp end</p>
+    <h2>The twenty biggest gaps</h2>
+    <p>Ranked by the number of counted completions still unnamed — not by share, so the biggest constituencies by audit count come first. Bweengwa's 96 is the extreme case on the record: the audit counted 96 completed projects there, and its council has not published one completion by name.</p>
+  </div>
+  <div class="card">
+    <table class="mtable" id="gapTable">
+      <thead><tr><th>#</th><th>Constituency</th><th>Province</th><th>Counted completed (audit)</th><th>Named completed</th><th>Still unnamed</th><th>Share unnamed</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="chart-note">† Chipili: the FY2024 report's own rows for Chipili are internally inconsistent as printed — see the notes below. Its figures are shown exactly as printed.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">How to read this map</p>
+    <h2>The method, and the honest edges</h2>
+  </div>
+  <div class="card">
+    <p><b>One rule, applied everywhere.</b> A constituency's gap is its counted completions minus its named completions, and never less than zero. In 23 constituencies, councils have published <i>more</i> named completions than the audit counted — the published record runs from 2021 to 2026, while the audit assessed one cycle — and those extra names are real, but they belong to their own constituencies. They are never used to cancel another constituency's gap. That is why the unnamed total on this page, added constituency by constituency, is <b>2,216</b>, while a single national subtraction (3,060 − 1,067) gives 1,993. Both numbers are printed here; neither is hidden.</p>
+    <p><b>Different clocks.</b> The audit's FY2024 report assessed projects from the 2023 and 2024 funding cohorts. The named record is everything councils have published from 2021 to 2026 and this tracker has verified. A constituency can therefore be fully named against the audit while its council still has newer completions to publish — and a name published for an older project does not retroactively name an audited one. The gap measures the distance between the two records as they stand today.</p>
+    <p><b>Chiengi</b> is the one grey tile: the FY2024 audit counted no completed projects there at all — it found 20 in progress and 3 never started — so there is no counted completion to name yet. Its council's published record names 19 projects, all at the approved stage.</p>
+    <p><b>Chipili †</b> — the Auditor-General's FY2024 rows for Chipili are internally inconsistent as printed: the report prints more completed projects (36) than its printed total assessed (32), and a negative never-started figure. This page shows Chipili exactly as printed, flags it wherever it appears, and treats its gap as printed rather than settled — the same disclosure its constituency page carries.</p>
+    <p><b>Mwansabombwe ‡</b> — as printed in the report, its completed + in progress + never started figures sum to one less than its printed total assessed. Its completed figure (16) is used exactly as printed, with the same disclosure as its constituency page.</p>
+    <p><b>What would close a gap?</b> A council publishing the names — a completion list, a handover report, a commissioning notice that names the project. The moment a name is published and verified, it joins the named record and the gap shrinks. <a href="read.html">How to read this tracker →</a></p>
+  </div>
+</section>
+
+  <footer>
+    <p id="lastChecked" style="margin:0 0 12px"></p>
+    <h3>Sources</h3>
+    <ul>
+      <li>Counted record — Auditor-General's report on the Constituency Development Fund, FY2024 (projects assessed 4,879; completed 3,060; in progress 1,293; never started 525), <a href="https://www.ago.gov.zm/wp-content/uploads/CDF-Report-2024.pdf" target="_blank" rel="noopener">ago.gov.zm</a>, published 23 December 2025. Per-constituency figures extracted from the report's status appendices, exactly as printed.</li>
+      <li>Named record — this tracker's database of council-published CDF projects (council lists, handover and commissioning reports, CDFC minutes), every project traced to its published source; see each constituency page for its sources.</li>
+    </ul>
+    <p><a href="index.html">← Back to the dashboard</a> · <a href="read.html">How to read this tracker</a></p>
+    <p class="copyright">© 2026 Zambia CDF Tracker. All rights reserved.</p>
+</footer>
+</div>
+<script src="data.js?v=10"></script>
+<script src="cards.js?v=1"></script>
+<script src="app.js?v=35"></script>
+<script src="gapmap.js?v=1"></script>
+<a class="readfab" href="read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read<br>this tracker</span></a>
+<!-- CF-WEB-ANALYTICS -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}'></script>
+<!-- /CF-WEB-ANALYTICS -->
+</body>
+</html>
