@@ -770,7 +770,7 @@ window.CDF_CARDS = {
    "approved": 28,
    "stalled": 0,
    "notStated": 0,
-   "held": 30
+   "held": 25
   },
   "publishers": [
    "Ndola City Council",

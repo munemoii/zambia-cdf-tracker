@@ -22097,11 +22097,11 @@ window.CDF_DATA = {
           "2021": 1,
           "2022": 41,
           "2023": 53,
-          "2024": 132,
+          "2024": 133,
           "2025": 219,
           "2026": 26
         },
-        "fundingYearKnown": 472,
+        "fundingYearKnown": 473,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -33708,14 +33708,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-05 (Daily Blitz audit arm; coordinator-verified): cited source 272 (Namwala Town Council, 'Namwala brands 21 CDF community projects'), branded-projects table row 19 — 'Ichila — Outpatient Department — 2024 — Ichila'. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 1147,
@@ -93028,11 +93028,11 @@ window.CDF_DATA = {
       "2021": 10,
       "2022": 519,
       "2023": 452,
-      "2024": 672,
+      "2024": 673,
       "2025": 1160,
       "2026": 404
     },
-    "fundingYearKnown": 3219
+    "fundingYearKnown": 3220
   },
   "people": {
     "bursaries": [

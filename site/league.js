@@ -1631,6 +1631,23 @@ window.CDF_LEAGUE = {
    "rank": 89
   },
   {
+   "council": "Namwala Town Council",
+   "named": 35,
+   "completed": 22,
+   "statusPct": 100,
+   "yearPct": 66,
+   "amountPct": 9,
+   "composite": 58.3,
+   "latest": "2026-02-23",
+   "constituencies": [
+    {
+     "name": "Namwala",
+     "slug": "namwala"
+    }
+   ],
+   "rank": 90
+  },
+  {
    "council": "Sesheke Town Council",
    "named": 24,
    "completed": 17,
@@ -1645,7 +1662,7 @@ window.CDF_LEAGUE = {
      "slug": "sesheke"
     }
    ],
-   "rank": 90
+   "rank": 91
   },
   {
    "council": "Kaputa Town Council",
@@ -1660,23 +1677,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Kaputa",
      "slug": "kaputa"
-    }
-   ],
-   "rank": 91
-  },
-  {
-   "council": "Namwala Town Council",
-   "named": 35,
-   "completed": 22,
-   "statusPct": 100,
-   "yearPct": 63,
-   "amountPct": 9,
-   "composite": 57.3,
-   "latest": "2026-02-23",
-   "constituencies": [
-    {
-     "name": "Namwala",
-     "slug": "namwala"
     }
    ],
    "rank": 92
