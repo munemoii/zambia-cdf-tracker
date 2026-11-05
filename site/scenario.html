@@ -4,12 +4,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
-<title>Model the 2027 Budget — Zambia CDF Tracker</title>
-<meta name="description" content="Model Zambia’s 2027 CDF: set the per-constituency rate and choose 156 or 226 constituencies to see the national total.">
+<title>The 2027 Money Flow Predictor — Zambia CDF Tracker</title>
+<meta name="description" content="Model Zambia’s 2027 CDF before the rate is published: set the per-constituency rate, choose 156 or 226 constituencies, see the money flow into the four CDF pots, and project releases on 2025’s published pattern.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Zambia CDF Tracker">
-<meta property="og:title" content="Model the 2027 Budget — Zambia CDF Tracker">
-<meta property="og:description" content="Model Zambia’s 2027 CDF: set the per-constituency rate and choose 156 or 226 constituencies to see the national total.">
+<meta property="og:title" content="The 2027 Money Flow Predictor — Zambia CDF Tracker">
+<meta property="og:description" content="Model Zambia’s 2027 CDF before the rate is published: set the per-constituency rate, choose 156 or 226 constituencies, see the money flow into the four CDF pots, and project releases on 2025’s published pattern.">
 <meta property="og:url" content="https://followeverykwacha.com/scenario.html">
 <meta property="og:image" content="https://followeverykwacha.com/og-card.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -18,7 +18,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="styles.css?v=39">
+<link rel="stylesheet" href="styles.css?v=41">
 </head>
 <body>
 <div class="wrap">
@@ -37,15 +37,25 @@
     </nav>
   </header>
   <div class="pageband"><div class="pageband-in">
-    <nav class="crumbs"><a href="index.html">Home</a> › Model the 2027 Budget</nav>
-    <h1>Model the 2027 Budget</h1>
-    <p class="bandsub">The 2027 rate is set in the national budget — and 226 delimited constituencies are waiting. Run the combinations.</p>
+    <nav class="crumbs"><a href="index.html">Home</a> › The 2027 Money Flow Predictor</nav>
+    <h1>The 2027 Money Flow Predictor</h1>
+    <p class="bandsub">The 2027 CDF rate is set in the national budget, presented on Friday 6 November 2026. Until it is published, run the numbers yourself — and watch how the money would flow.</p>
   </div></div>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">What this tool is</p>
+    <h2>A model, not a record</h2>
+    <p>This page is a modelling tool. Nothing on it is a published 2027 figure. The 2027 per-constituency rate has not been published yet — it will be set when the national budget is presented on Friday 6 November 2026. The moment the official rate is captured from the budget speech and the Estimates, it replaces the defaults below.</p>
+    <p>Until then, the tool starts from the 2026 rate — K40 million per constituency — held across the 226 delimited constituencies. Change the rate and the constituency basis and every figure on the page recomputes. When real 2027 releases are published, they join the record on The Money and Utilisation pages; projections made here never become record figures.</p>
+  </div>
+</section>
+
 <section id="scenarioSection">
   <div class="sec-head">
-    <p class="eyebrow">The future</p>
-      <h2>Model the 2027 budget</h2>
-    <p>The 2027 rate is set in the national budget, and the delimitation question hangs over it: 156 constituencies today, 226 gazetted. Try the combinations and see what each one costs.</p>
+    <p class="eyebrow">The model</p>
+    <h2>Set the rate, choose the basis</h2>
+    <p>156 constituencies is the current basis; 226 is the gazetted delimitation. Try the combinations and see what each one costs.</p>
   </div>
   <div class="card">
     <div class="scen">
@@ -66,9 +76,46 @@
         <div class="chart-note" id="scVs"></div>
       </div>
     </div>
-    <p class="chart-note" style="margin-top:12px">For reference: 2026 is K40 million &times; 156 = K6.24 billion. Holding the rate at K40m across 226 seats costs K9.04bn; holding the total at K6.24bn across 226 seats cuts the rate to about K27.6m each.</p>
+    <p class="chart-note" id="scOfficialNote" style="margin-top:12px"></p>
+    <p class="chart-note" style="margin-top:6px">For reference: 2026 is K40 million &times; 156 = K6.24 billion. Holding the rate at K40m across 226 seats costs K9.04bn; holding the total at K6.24bn across 226 seats cuts the rate to about K27.6m each.</p>
   </div>
 </section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">The flow</p>
+    <h2>How the money flows</h2>
+    <p>One envelope for the whole country, divided equally, then split four ways in every constituency under the CDF Guidelines.</p>
+  </div>
+  <div class="card">
+    <div class="flowstage">
+      <div class="vbar"><span class="vl">National envelope</span><span class="vt"><span class="vf gold" style="width:100%"></span></span><span class="vv" id="flowEnvVal">—</span></div>
+      <p class="chart-note" id="flowBasisLine" style="margin-top:6px"></p>
+    </div>
+    <div class="flowarrow" id="flowArrowSplit">Divided equally between the constituencies — every constituency gets the same rate</div>
+    <p style="margin:6px 0 0"><span class="flowbig" id="flowRateVal">—</span> <span style="color:var(--muted)">for each constituency</span></p>
+    <div class="flowarrow">Each constituency's amount is split four ways, under the CDF Guidelines</div>
+    <div class="stack tall" id="potStack" style="margin-top:8px"></div>
+    <div class="potleg" id="potLegend"></div>
+    <p class="chart-note" style="margin-top:12px">The four colours above are the fund's components — the same legend as The Money page: community projects (green), youth &amp; women empowerment (orange), bursaries (teal), administration (grey). In the flow bar above and the projection below, the tracker's stage colours apply: gold is the allocation on paper, steel blue is money released to councils, deep green is money utilised, and red is the share that did not move.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <p class="eyebrow">The projection</p>
+    <h2>If 2027 follows 2025's pattern</h2>
+    <p>Allocating money is not the same as money moving. In 2025 — the last year with a complete published chain — <span id="asRelPct">94%</span> of the allocation was reported released to councils, and utilisation was reported at <span id="asUtilPct">86%</span>. This panel applies that same published pattern to the model above.</p>
+  </div>
+  <div class="card">
+    <span class="scenchip">Scenario — based on 2025's published pattern</span>
+    <div class="vbars" id="projBars"></div>
+    <div class="stackleg" style="margin-top:2px"><span><i class="dot gold"></i>Allocated — the budget promise</span><span><i class="dot mid"></i>Released (scenario) — with councils, not yet used</span><span><i class="dot green"></i>Utilised (scenario) — spent</span><span><i class="dot red"></i>Not released / not used, if the pattern holds</span></div>
+    <p class="chart-note" id="projPer" style="margin-top:12px"></p>
+    <div class="assump"><b>The assumptions, plainly.</b> <span id="asBase"></span> The projection applies those two published percentages to the modelled envelope, both measured against the total allocation — the same presentation as the tracker's 2025 cascade on the Utilisation page. It assumes 2027 moves at 2025's pace: if releases or utilisation run faster or slower, the real figures will differ, and when 2027's own releases are published they will sit beside this scenario on the record pages.</div>
+  </div>
+</section>
+
   <footer>
     <p id="lastChecked" style="margin:0 0 12px"></p>
     <p><a href="index.html">← Back to the dashboard</a> · Figures are drawn from published sources — see the dashboard footer for the full source list.</p>
@@ -78,7 +125,7 @@
 </div>
 <script src="data.js?v=10"></script>
 <script src="map.js?v=3"></script>
-<script src="app.js?v=32"></script>
+<script src="app.js?v=35"></script>
 <a class="readfab" href="read.html" aria-label="How to read this tracker"><span class="q">?</span><span class="ql">How to read<br>this tracker</span></a>
 <!-- CF-WEB-ANALYTICS -->
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}'></script>

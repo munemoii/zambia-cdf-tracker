@@ -472,12 +472,39 @@
   renderDelivered();
   renderNews();
 
-  /* ---------- scenario tool ---------- */
-  var scSeatsVal = 226;
+  /* ---------- 2027 Money Flow Predictor (scenario tool) ---------- */
+  /* ===== BUDGET DAY CONSTANTS — the 2027 rate lands here =====
+     On Budget Day (Fri 2026-11-06), when the official 2027 CDF rate and its
+     constituency basis are captured from the budget speech / Estimates:
+       1. set RATE_M to the official per-constituency rate (K millions),
+       2. set BASIS to the official constituency basis (156 or 226),
+       3. set OFFICIAL to true,
+     then regenerate and push. Nothing else on this page needs to change:
+     every figure below recomputes from these constants and data.js. Until
+     then the defaults model the 2026 rate (K40m) held across the 226
+     delimited constituencies (K9.04bn) — modelling, not a published rate. */
+  var PREDICTOR_2027 = { RATE_M: 40, BASIS: 226, OFFICIAL: false };
+  /* The projection pattern is the last fully published year, read from
+     data.js (movement[2025], generated from cdf.db): 2025 allocation
+     K5,631.6m, of which 94% was reported released and utilisation was
+     reported at 86% — the same presentation as the tracker's 2025 cascade
+     on the Utilisation page. Fallbacks match those published figures. */
+  var PATTERN_2025 = (function(){
+    var mv = (typeof MOVEMENT !== 'undefined' && MOVEMENT && MOVEMENT[2025]) || {};
+    return {
+      releasedPct: (mv.releasedPct != null ? mv.releasedPct : 94),
+      utilPct: (mv.util != null ? mv.util : 86),
+      releasedM: (mv.released != null ? mv.released : 5260),
+      allocatedM: perOf(2025) * (typeof SEATS !== 'undefined' ? SEATS : 156)
+    };
+  })();
+
+  var scSeatsVal = PREDICTOR_2027.BASIS;
   function yearTotal(y){ return perOf(y) * (typeof SEATS !== 'undefined' ? SEATS : 156); }
   function renderScenario(){
-    if(!document.getElementById('scRate')) return;
-    var rate = parseFloat(document.getElementById('scRate').value) || 0;
+    var rateEl = document.getElementById('scRate');
+    if(!rateEl) return;
+    var rate = parseFloat(rateEl.value) || 0;
     var total = rate * scSeatsVal;
     document.getElementById('scTotal').textContent = fmtM(total);
     var base = yearTotal(2026);
@@ -487,8 +514,59 @@
     document.querySelectorAll('#scSeats .ypill').forEach(function(b){
       b.classList.toggle('on', +b.dataset.seats === scSeatsVal);
     });
+    var onNote = document.getElementById('scOfficialNote');
+    if(onNote) onNote.textContent = PREDICTOR_2027.OFFICIAL
+      ? 'Official 2027 rate applied: K' + PREDICTOR_2027.RATE_M + ' million per constituency across ' + PREDICTOR_2027.BASIS + ' constituencies, as published in the 2027 budget. Change the figures above to test other combinations.'
+      : 'Modelling defaults: the 2026 rate (K40 million) held across 226 constituencies. The official 2027 rate replaces these defaults the moment it is published and captured.';
+
+    /* --- the flow: envelope -> per constituency -> the four pots --- */
+    var env = document.getElementById('flowEnvVal'); if(env) env.textContent = fmtM(total);
+    var bl = document.getElementById('flowBasisLine');
+    if(bl) bl.textContent = 'K' + rate + ' million × ' + scSeatsVal + ' constituencies — the whole national CDF for the year, before it is divided.';
+    var fr = document.getElementById('flowRateVal'); if(fr) fr.textContent = fmtM(rate);
+    var fa = document.getElementById('flowArrowSplit');
+    if(fa) fa.textContent = 'Divided equally between the ' + scSeatsVal + ' constituencies — every constituency gets the same rate';
+    var stack = document.getElementById('potStack'), leg = document.getElementById('potLegend');
+    if(stack && leg){
+      var comps = components(total), rateComps = components(rate);
+      var potSum = comps.reduce(function(s,c){ return s + c.amount; }, 0);
+      if(Math.abs(potSum - total) > 0.01 && typeof console !== 'undefined') console.warn('Predictor: pots do not sum to the envelope', potSum, total);
+      stack.setAttribute('role', 'img');
+      stack.setAttribute('aria-label', 'The modelled ' + fmtM(total) + ' envelope split four ways: ' + comps.map(function(c){ return c.label + ' ' + c.pct + '% (' + fmtM(c.amount) + ')'; }).join(', '));
+      stack.innerHTML = comps.map(function(c){
+        var w = total > 0 ? (c.amount/total*100) : 0;
+        return '<span class="seg" style="width:' + w + '%;background:' + c.color + '"></span>';
+      }).join('');
+      leg.innerHTML = comps.map(function(c, i){
+        return '<div class="potrow"><span class="dot" style="background:' + c.color + '"></span>' +
+          '<span class="pl">' + c.label + ' — ' + c.pct + '%<small>' + c.desc + '</small></span>' +
+          '<span class="pv">' + fmtFull(rateComps[i].amount) + '<small>per constituency</small></span>' +
+          '<span class="pv nat">' + fmtM(c.amount) + '<small>national</small></span></div>';
+      }).join('');
+    }
+
+    /* --- the projection: if 2027 follows 2025's published pattern --- */
+    var pb = document.getElementById('projBars');
+    if(pb){
+      var relPct = PATTERN_2025.releasedPct, utilPct = PATTERN_2025.utilPct;
+      function dualRow(label, p, valText, cls){
+        var rest = Math.round((100 - p) * 10) / 10;
+        return '<div class="vbar"><span class="vl">' + label + '</span><span class="vt dual"><span class="vf ' + cls + '" style="width:' + p + '%"></span><span class="vf red" style="width:' + rest + '%"></span></span><span class="vv">' + valText + '</span></div>';
+      }
+      pb.innerHTML =
+        '<div class="vbar"><span class="vl">Allocated — the model</span><span class="vt"><span class="vf gold" style="width:100%"></span></span><span class="vv">' + fmtM(total) + '</span></div>' +
+        dualRow('Released (scenario)', relPct, fmtM(total * relPct / 100), 'mid') +
+        dualRow('Utilised (scenario)', utilPct, fmtM(total * utilPct / 100), '');
+      var pp = document.getElementById('projPer');
+      if(pp) pp.textContent = 'In each constituency, the same pattern would mean: ' + fmtFull(rate) + ' allocated → ' + fmtFull(rate * relPct / 100) + ' released → ' + fmtFull(rate * utilPct / 100) + ' utilised. Every figure in this panel is a scenario figure, not a published 2027 figure.';
+      var asRel = document.getElementById('asRelPct'); if(asRel) asRel.textContent = relPct + '%';
+      var asUtil = document.getElementById('asUtilPct'); if(asUtil) asUtil.textContent = utilPct + '%';
+      var asBase = document.getElementById('asBase');
+      if(asBase) asBase.textContent = 'In 2025, the last year with a complete published chain, ' + fmtM(PATTERN_2025.allocatedM) + ' was allocated, ' + fmtM(PATTERN_2025.releasedM) + ' (' + relPct + '%) was reported released, and utilisation was reported at ' + utilPct + '%.';
+    }
   }
-  var _sr=document.getElementById('scRate'); if(_sr) _sr.addEventListener('input', renderScenario);
+  var _sr=document.getElementById('scRate');
+  if(_sr){ _sr.value = PREDICTOR_2027.RATE_M; _sr.addEventListener('input', renderScenario); }
   document.querySelectorAll('#scSeats .ypill').forEach(function(b){
     b.addEventListener('click', function(){ scSeatsVal = +b.dataset.seats; renderScenario(); });
   });
