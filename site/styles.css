@@ -663,15 +663,6 @@ footer:not(.sitefoot) li{color:#cfe0cf}
   .potrow .pv.nat small{display:inline;margin-right:6px}
 }
 
-/* --- constituency share cards (2026-11-04, roadmap item 2) --- */
-.sharecard{margin:28px 0}
-.cardcanvas{box-shadow:0 8px 28px rgba(11,53,32,.25)}
-.cardbtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-.cardbtn{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-weight:600;padding:9px 18px;border-radius:99px;cursor:pointer;text-decoration:none;display:inline-block}
-.cardbtn[hidden]{display:none}
-.carddl{background:var(--gold);border-color:var(--gold);color:#231a00}
-.cardnote{font-size:.88rem;max-width:640px}
-
 /* Prove It provenance lines (roadmap item 3, 2026-11-04) */
 .psrc{display:block;font-size:.72rem;color:var(--muted);font-weight:400;margin-top:2px}
 .pcard .pcard-src{font-size:.8rem}

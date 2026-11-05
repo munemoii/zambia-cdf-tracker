@@ -326,19 +326,21 @@ def main():
         "provinces": c.execute("SELECT COUNT(DISTINCT k.province_id) FROM projects pr JOIN constituencies k ON k.id = pr.constituency_id").fetchone()[0],
     }
 
-    # --- constituency share cards (roadmap item 2, 2026-11-04): the data
-    # behind the downloadable card on every constituency page, emitted by
-    # this generator as its own slim feed (site/cards.js) so constituency
-    # pages do not have to load the full data.js. Same generator, same
-    # run, same database as the record block above — a card can never
-    # drift from the figures the pages display.
+    # --- constituency data feed (2026-11-04): per-constituency audit,
+    # published and held figures, emitted by this generator as its own
+    # slim feed (site/cards.js) and consumed by the Gap Map, so the map
+    # does not have to load the full data.js. Same generator, same run,
+    # same database as the record block above — the feed can never drift
+    # from the figures the pages display. (The public constituency
+    # share-card download that first used this feed was removed on
+    # 2026-11-04 at Caleb's direction; the feed stays for the Gap Map.)
     # Published buckets follow the site's status mapping: completed
     # includes completed_unused; in progress is ongoing + in_progress;
     # approved includes funded (the paper stage, per the funding rule).
     # Held counts come from the expansion held.csv files — the tracker's
     # held pile — attributed by exact constituency name; rows whose
     # constituency cell is blank or names more than one constituency are
-    # attributed to no card.
+    # left unattributed.
     from collections import Counter as _Counter, defaultdict as _defaultdict
     import csv as _csv, glob as _glob
     def _cslug(nm):
@@ -397,7 +399,7 @@ def main():
         o.write_text(body)
         print("wrote", o)
 
-    cards_body = ("// Zambia CDF Tracker — constituency share-card data. GENERATED from cdf.db by generate_feed.py.\n"
+    cards_body = ("// Zambia CDF Tracker — constituency data feed (Gap Map). GENERATED from cdf.db by generate_feed.py.\n"
                   "// Do not edit by hand: update the database, then re-run the generator.\n"
                   "window.CDF_CARDS = " + json.dumps(cards, indent=1, ensure_ascii=False) + ";\n")
     cards_out = HERE.parent / "site" / "cards.js"

@@ -1,4 +1,4 @@
-// Zambia CDF Tracker — constituency share-card data. GENERATED from cdf.db by generate_feed.py.
+// Zambia CDF Tracker — constituency data feed (Gap Map). GENERATED from cdf.db by generate_feed.py.
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_CARDS = {
  "bwacha": {
