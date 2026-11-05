@@ -91,7 +91,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
 <link rel="icon" type="image/png" sizes="32x32" href="{prefix}favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{prefix}favicon-16x16.png">
 <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
-<link rel="stylesheet" href="{prefix}styles.css?v=47">
+<link rel="stylesheet" href="{prefix}styles.css?v=48">
 <!-- CF-WEB-ANALYTICS -->
 <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "ab61eb043aee4fbc84d6bdd8dc602cd4"}}'></script>
 <!-- /CF-WEB-ANALYTICS -->

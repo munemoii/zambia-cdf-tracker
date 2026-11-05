@@ -909,3 +909,35 @@ a,td,th{overflow-wrap:anywhere}
   .readfab:not(.open) .q{width:26px;height:26px;font-size:1.05rem}
   .readfab:not(.open) .ql{max-width:0;opacity:0}
 }
+
+/* ===== ROUND 5: THE STATUS-MIX LEGEND — content-sized groups (2026-11-05) =====
+   Caleb's annotated laptop photo of the live homepage: on the record
+   card's status-mix legend, the count did not sit next to its label.
+   The legend was a grid of equal columns (repeat(auto-fit,minmax(170px,
+   1fr))) and each item's label carried flex:1, so the label stretched
+   to fill its column and pushed the count to the column's right edge:
+   the label->count gap was whatever space the column happened to
+   leave. Measured with the real fonts (Barlow SemiBold / Barlow
+   Condensed Bold) on the live record, desktop: Completed 23.5px,
+   Underway 36.0px, Approved 27.9px, Stalled 67.0px — and "Status not
+   stated" did not fit its column at all (label box 112.9px < text
+   114.1px) and wrapped to two lines. On a phone the grid collapses to
+   one column and the same stretch opened 132–192px voids.
+   THE FIX: the legend is now a wrapping flex row of content-sized
+   groups. Each group is dot + label + count + percentage in the
+   item's own flex row with the uniform 8px gap it always had — with
+   flex:1 gone the label is exactly its text width, so every
+   label->count gap is 8px at every width, and the percentage follows
+   its count at the same 8px (the old 52px min-width reservation is
+   gone). Groups are separated by a consistent 28px column gap (10px
+   between wrapped rows). "Status not stated" now fits on one line
+   wherever the card fits it (its group measures 187.5px; the
+   narrowest card content, a 390px phone, is 330px). The component is
+   the homepage record card's alone (app.js renderRecord; #statusMix
+   exists only in index.html) and no @media rule touches it, so the
+   construction is identical at desktop and phone widths. The bar,
+   the colours, the figures and the annotated sentences below the
+   legend are untouched. */
+.reclegs{display:flex;flex-wrap:wrap;gap:10px 28px}
+.recleg .rl{flex:none}
+.recleg .rp{min-width:0;text-align:left}
