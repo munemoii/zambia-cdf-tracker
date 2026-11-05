@@ -1745,13 +1745,13 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 33,
+   "named": 45,
    "completed": 21,
    "inProgress": 8,
-   "approved": 4,
+   "approved": 16,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 1
   },
   "publishers": [
    "Kafue Town Council"

@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4042,
-  "attributed": 3851,
+  "totalProjects": 4054,
+  "attributed": 3863,
   "unattributed": 191,
   "councils": 112,
   "councilCompleted": 945
@@ -814,6 +814,23 @@ window.CDF_LEAGUE = {
    "rank": 44
   },
   {
+   "council": "Kafue Town Council",
+   "named": 45,
+   "completed": 21,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 31,
+   "composite": 77.0,
+   "latest": "2026-03-05",
+   "constituencies": [
+    {
+     "name": "Kafue",
+     "slug": "kafue"
+    }
+   ],
+   "rank": 45
+  },
+  {
    "council": "Chinsali Municipal Council",
    "named": 28,
    "completed": 1,
@@ -828,7 +845,7 @@ window.CDF_LEAGUE = {
      "slug": "chinsali"
     }
    ],
-   "rank": 45
+   "rank": 46
   },
   {
    "council": "Nsama Town Council",
@@ -845,7 +862,7 @@ window.CDF_LEAGUE = {
      "slug": "chimbamilonga"
     }
    ],
-   "rank": 46
+   "rank": 47
   },
   {
    "council": "Kabompo Town Council",
@@ -862,7 +879,7 @@ window.CDF_LEAGUE = {
      "slug": "kabompo"
     }
    ],
-   "rank": 47
+   "rank": 48
   },
   {
    "council": "Kalabo Town Council",
@@ -883,7 +900,7 @@ window.CDF_LEAGUE = {
      "slug": "liuwa"
     }
    ],
-   "rank": 48
+   "rank": 49
   },
   {
    "council": "Chibombo Town Council",
@@ -904,7 +921,7 @@ window.CDF_LEAGUE = {
      "slug": "keembe"
     }
    ],
-   "rank": 49
+   "rank": 50
   },
   {
    "council": "Zambezi Town Council",
@@ -925,7 +942,7 @@ window.CDF_LEAGUE = {
      "slug": "zambezi-west"
     }
    ],
-   "rank": 50
+   "rank": 51
   },
   {
    "council": "Limulunga Town Council",
@@ -942,7 +959,7 @@ window.CDF_LEAGUE = {
      "slug": "luena"
     }
    ],
-   "rank": 51
+   "rank": 52
   },
   {
    "council": "Kazungula Town Council",
@@ -959,7 +976,7 @@ window.CDF_LEAGUE = {
      "slug": "katombola"
     }
    ],
-   "rank": 52
+   "rank": 53
   },
   {
    "council": "Mufulira Municipal Council",
@@ -984,7 +1001,7 @@ window.CDF_LEAGUE = {
      "slug": "mufulira"
     }
    ],
-   "rank": 53
+   "rank": 54
   },
   {
    "council": "Chongwe Municipal Council",
@@ -1001,7 +1018,7 @@ window.CDF_LEAGUE = {
      "slug": "chongwe"
     }
    ],
-   "rank": 54
+   "rank": 55
   },
   {
    "council": "Chadiza Town Council",
@@ -1018,7 +1035,7 @@ window.CDF_LEAGUE = {
      "slug": "chadiza"
     }
    ],
-   "rank": 55
+   "rank": 56
   },
   {
    "council": "Sinda Town Council",
@@ -1039,7 +1056,7 @@ window.CDF_LEAGUE = {
      "slug": "sinda"
     }
    ],
-   "rank": 56
+   "rank": 57
   },
   {
    "council": "Mpika Town Council",
@@ -1056,7 +1073,7 @@ window.CDF_LEAGUE = {
      "slug": "mpika-central"
     }
    ],
-   "rank": 57
+   "rank": 58
   },
   {
    "council": "Mbala Municipal Council",
@@ -1073,7 +1090,7 @@ window.CDF_LEAGUE = {
      "slug": "mbala"
     }
    ],
-   "rank": 58
+   "rank": 59
   },
   {
    "council": "Nkeyema Town Council",
@@ -1088,23 +1105,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Nkeyema",
      "slug": "nkeyema"
-    }
-   ],
-   "rank": 59
-  },
-  {
-   "council": "Kafue Town Council",
-   "named": 33,
-   "completed": 21,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 6,
-   "composite": 68.7,
-   "latest": "2024-09",
-   "constituencies": [
-    {
-     "name": "Kafue",
-     "slug": "kafue"
     }
    ],
    "rank": 60
