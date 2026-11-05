@@ -26,7 +26,7 @@
 
   header.top{margin-bottom:8px}
   .snapstrip{display:flex;align-items:baseline;gap:10px 14px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:11px;margin-top:20px}
-  .snapstrip .k{font-size:.74rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--gold)}
+  .snapstrip .k{font-size:.74rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
   .snapstrip .v{font-family:"Barlow Condensed",sans-serif;font-size:1.3rem;font-weight:600;line-height:1}
   .snapstrip .s{font-size:.88rem;color:var(--muted)}
   h1{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:clamp(2.3rem,6vw,3.9rem);line-height:.95;letter-spacing:.01em;margin:0;text-transform:uppercase}
@@ -199,7 +199,7 @@
 .sitehead{margin:0;padding:16px 0 8px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
 .wordmark{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.5rem;text-transform:uppercase;letter-spacing:.02em;color:var(--green-d);text-decoration:none}
 .wordmark em{font-style:normal;color:#b3860e}
-.sitenav{display:flex;gap:2px;flex-wrap:wrap;width:calc(100% + 11px);margin-left:-11px;border-top:1px solid var(--line);padding-top:9px}
+.sitenav{display:flex;gap:2px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:9px}
 .sitenav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:.95rem}
 .sitenav a:hover{color:var(--green-d);text-decoration:underline}
 .crumbs{max-width:1060px;margin:0 auto;padding:8px 18px 0;font-size:.88rem;color:var(--muted)}
@@ -234,7 +234,7 @@ a.cchip:hover{border-color:#b3860e}
 .sitefoot a{color:var(--green-d)}
 
 /* ===== DESIGN v2 — editorial system ===== */
-.eyebrow{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;color:#b3860e;margin:0 0 2px}
+.eyebrow{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:#b3860e;margin:0 0 2px}
 .sec-head{margin-bottom:16px}
 .sec-head p{max-width:72ch}
 h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
@@ -267,7 +267,7 @@ h1{font-size:clamp(2.6rem,6.5vw,4.3rem)}
 /* ===== MOTION — ticker, pulse, slideshow ===== */
 #bars .bar{transition:height .9s cubic-bezier(.2,.7,.2,1)}
 .ticker{display:flex;align-items:center;gap:12px;margin:14px 0 4px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 8px 8px 14px;text-decoration:none;color:var(--ink);overflow:hidden}
-.tick-label{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#b3860e;flex:none}
+.tick-label{font-family:"Barlow Condensed",sans-serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#b3860e;flex:none}
 .tick-viewport{overflow:hidden;flex:1;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
 .tick-track{display:inline-flex;gap:18px;white-space:nowrap;width:max-content;animation:tickmove 40s linear infinite}
 .ticker:hover .tick-track{animation-play-state:paused}
@@ -332,7 +332,7 @@ a.cchip:hover{border-color:var(--green);box-shadow:0 5px 14px rgba(13,43,23,.12)
   .wrap{padding:16px 14px 44px}
   .sitehead{padding:12px 0 4px;gap:8px}
   .wordmark{font-size:1.28rem}
-  .sitenav{gap:4px;margin-left:-10px;width:calc(100% + 10px)}
+  .sitenav{gap:4px}
   .sitenav a{padding:7px 10px;font-size:.9rem}
   .pagewrap{padding:8px 14px 26px}
   .pageband{padding:18px 0 14px;border-radius:0 0 14px 14px}
@@ -759,3 +759,29 @@ footer:not(.sitefoot) li{color:#cfe0cf}
 #gapDetail h3{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;font-weight:700;letter-spacing:.01em}
 .readfab{font-size:.82rem;padding:7px 14px 7px 8px;gap:7px}
 .readfab .ql{white-space:nowrap;line-height:1}
+
+/* ===== FINISHING PASS (2026-11-04, Caleb: "make as good as it can look") =====
+   1. NAV AXIS: the .sitenav 11px negative bleed is GONE (base rule and the
+      760px media rule). The nav box — like the wordmark, hero band and
+      content — starts exactly on the .wrap content edge; nav link text sits
+      inside its pill padding, the standard pill-nav treatment.
+   2. TRACKING AUDIT: one tight scale site-wide — display/headings 0–.02em,
+      eyebrows/kickers/labels capped at .1em, body 0. The three offenders
+      came down to the cap: .eyebrow .22em -> .1em, .tick-label .14em ->
+      .1em, .snapstrip .k .13em -> .1em (edited in place above).
+   3. READ PILL AUTO-COLLAPSE: past ~120px of scroll the pill folds to its
+      "?" circle — 44px, bottom-left, semi-transparent until hovered — so it
+      never crosses body text mid-scroll. Hover (desktop) or a tap/click
+      re-expands it (first tap expands, the second follows the link); back
+      near the top it returns to the full pill. Driven by the inline script
+      that follows the pill markup on every page; these rules are the
+      visual half. The 104px bottom clearance stays (belt and braces). */
+.readfab{transition:transform .18s ease,box-shadow .18s ease,opacity .22s ease,padding .22s ease}
+.readfab .ql{overflow:hidden;max-width:250px;transition:max-width .25s ease,opacity .18s ease}
+.readfab.mini{width:44px;height:44px;padding:0;gap:0;justify-content:center;border-radius:50%;opacity:.55}
+.readfab.mini .q{width:26px;height:26px;font-size:1.05rem}
+.readfab.mini .ql{max-width:0;opacity:0}
+.readfab.mini:hover,.readfab.mini.open{width:auto;height:auto;padding:7px 14px 7px 8px;gap:7px;border-radius:999px;opacity:1}
+.readfab.mini:hover .q,.readfab.mini.open .q{width:17px;height:17px;font-size:.82rem}
+.readfab.mini:hover .ql,.readfab.mini.open .ql{max-width:250px;opacity:1}
+@media (prefers-reduced-motion: reduce){.readfab,.readfab .ql{transition:none}}
