@@ -827,3 +827,41 @@ footer:not(.sitefoot){padding-left:16px;padding-right:16px}
 .devlink{padding-left:0;padding-right:0}
 .mtable th:first-child,.mtable td:first-child,.agtable td:first-child,.ytable th:first-child,.ytable td:first-child{padding-left:0}
 .mtable th:last-child,.mtable td:last-child,.agtable td:last-child,.ytable th:last-child,.ytable td:last-child{padding-right:0}
+
+/* ===== OPERATION FIX — ROUND 3: WIDTHS + WORD-WRAP (2026-11-04) =====
+   Caleb's /developments photo: body text cut mid-word at his screen's
+   right edge, the featured briefing's words flush against its own green
+   edge, its card reading left of the list below. Rounds 1–2 audited
+   insets; this round audits WIDTHS — every construction that can make a
+   box, a grid track or a single word wider than .wrap:
+   1. FEATURED BRIEFING INSET. Round 2 zeroed .devlink's horizontal
+      padding so news rows inside the #newsList card start at the card's
+      P=16. But the featured first row paints its OWN background — it is
+      a panel nested in the card, and with padding 0 its text sat flush
+      on its own painted edge (inset 0, the one panel on the site that
+      broke the standard). It now carries P=16 of its own, exactly like
+      the other nested panels (.agcomp, .assump): 16 per level.
+   2. WORD-WRAP HARDENING ("words shooting off"). A single unbreakable
+      token wider than its box shoots out of the box and, under the
+      backstop below, is cut at the viewport edge mid-word. The data was
+      audited (news copy, project names, source titles): today's longest
+      tokens break at hyphens/slashes, but nothing in the stylesheet
+      guaranteed it. Now it does: prose wraps break-word (inherited from
+      body), and links/table cells may break anywhere — a word that
+      cannot fit breaks inside its box instead of leaving it. white-space:
+      nowrap elements are untouched (they carry short labels/amounts by
+      design, each inventoried in the round's test assertions).
+   3. BACKSTOP, NOT A FIX. html,body{overflow-x:clip} (declared in the
+      CLICKABLES v2 section above) remains only as the last-resort
+      backstop. Every width cause found by the audit is fixed at its
+      source — no negative margins or calc(100% + N) widths exist in the
+      sheet (the nav bleed was removed in the finishing pass), the two
+      wide-by-design elements (.hero-map 620px, .tick-track max-content)
+      sit inside overflow:hidden ancestors that clip them by design, and
+      every fixed grid-track sum and min-width in the sheet is asserted
+      smaller than the .wrap content box at 1600/1300/1100/700px by
+      test-structure.js. If the backstop ever clips something visible,
+      that is a defect to fix at the source, not a rendering to accept. */
+#newsList .devlink:first-child{padding-left:16px;padding-right:16px}
+body{overflow-wrap:break-word}
+a,td,th{overflow-wrap:anywhere}
