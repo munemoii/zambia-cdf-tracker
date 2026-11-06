@@ -29,6 +29,10 @@ window.CDF_DATA = {
     {
       "year": 2026,
       "per": 40.0
+    },
+    {
+      "year": 2027,
+      "per": 40.0
     }
   ],
   "seats": 156,
@@ -151,10 +155,10 @@ window.CDF_DATA = {
   "news": [
     {
       "date": "6 November 2026",
-      "source": "Ministry of Local Government and Rural Development (MLGRD)",
+      "source": "National Assembly of Zambia — 2027 Budget Speech; Ministry of Finance and National Planning; MLGRD",
       "title": "2027 CDF rate held at K40 million per constituency",
-      "text": "The Constituency Development Fund stays at K40 million per constituency in 2027. The rate came during the 2027 budget presentation on Friday 6 November: the Ministry of Local Government and Rural Development published the figure at 16:29, quoting Finance and National Planning Minister Dr Situmbeko Musokotwane: \"In the 2027 fiscal year, each Constituency to get K40 Million.\"\n\nThat is the same rate as 2026, when CDF rose to K40 million per constituency and the 156 constituencies shared K6.24 billion. Whether the rate would hold was one of the live questions of this budget. In October the Finance Minister warned that next year's CDF would be lower than first budgeted as the Treasury contained overspending, State House then said the K40 million stood, and the Treasury's budget hearings projected the fund rising to about K9.0 billion, the arithmetic of K40 million across the new 226-constituency map.\n\nWhat the announcement does not yet settle is the basis and the total. The ministry's post states the per-constituency rate only. It does not say whether the rate applies to the current 156 constituencies or the new 226, and it gives no total envelope. Those figures sit in the budget speech text and the Estimates, due from the Ministry of Finance after the presentation. This tracker will record the basis and the total from those documents when they appear, and the 2027 line will join the budget tables then.\n\nFor councils and communities, a held rate means 2027 planning starts from a known number rather than a cut. What the rate adds up to nationally still depends on the basis, and what it delivers will be judged here the same way as every year before it: by what is released, what is used, and what gets built.",
-      "url": "https://www.facebook.com/MLGZambia/posts/pfbid02HA88hsM5PCHDVgRQZZuq5occ2XK4fUDqDYzDzdPL329Uvk8HQNbpMX2tCTpRYFRXl",
+      "text": "The Constituency Development Fund stays at K40 million per constituency in 2027. The rate came during the 2027 budget presentation on Friday 6 November: the Ministry of Local Government and Rural Development published the figure at 16:29, quoting Finance and National Planning Minister Dr Situmbeko Musokotwane: \"In the 2027 fiscal year, each Constituency to get K40 Million.\"\n\nThat is the same rate as 2026, when CDF rose to K40 million per constituency and the 156 constituencies shared K6.24 billion. Whether the rate would hold was one of the live questions of this budget. In October the Finance Minister warned that next year's CDF would be lower than first budgeted as the Treasury contained overspending, State House then said the K40 million stood, and the Treasury's budget hearings projected the fund rising to about K9.0 billion, the arithmetic of K40 million across the new 226-constituency map.\n\nThe budget speech itself, published by Parliament the same day, settles the total: K9.0 billion goes to the Constituency Development Fund in 2027, up from K6.2 billion this year — an increase of K2.8 billion, or 45 percent. The speech's expenditure table gives the exact line: K9,047,356,277, within a total budget of K284.8 billion. The Ministry of Finance and National Planning's own page posted the same K40 million rate at 16:24, five minutes before the MLGRD post, so the rate now stands on the speech and two ministry announcements.\n\nOn the basis, the speech says the per-constituency allocation stays at K40.0 million \"to accommodate the increased number of constituencies\" — but it prints no constituency count anywhere. The exact total is consistent with the new 226-constituency map (226 at K40 million is K9.04 billion; 156 at K40 million is the 2026 figure of K6.24 billion), and the 2027 line in this tracker's budget tables is recorded on that basis, with the count to be confirmed in print when the Estimates are published. The speech also says the CDF allocation formulae will be reviewed, so that resources are allocated not only on equality but on equity, after consultations including Parliamentarians.\n\nFor councils and communities, a held rate means 2027 planning starts from a known number rather than a cut. What it delivers will be judged here the same way as every year before it: by what is released, what is used, and what gets built.",
+      "url": "https://www.parliament.gov.zm/sites/default/files/images/publication_docs/Budget%20Speech%20for%202027%20Final.pdf",
       "page": "developments/2027-cdf-rate-held-at-k40-million-per-constituency.html"
     },
     {
@@ -93272,6 +93276,14 @@ window.CDF_DATA = {
         "releasedPct": 35,
         "utilisedPct": null,
         "note": "Cumulative releases reported by June 2026 — the year is still running."
+      },
+      {
+        "year": 2027,
+        "allocatedM": 6240.0,
+        "releasedM": null,
+        "releasedPct": null,
+        "utilisedPct": null,
+        "note": "No release figure published for this year."
       }
     ],
     "groups": [
