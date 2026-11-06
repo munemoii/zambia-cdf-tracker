@@ -78514,15 +78514,15 @@ window.CDF_DATA = {
       {
         "name": "Luapula",
         "province": "Luapula",
-        "totalProjects": 251,
+        "totalProjects": 233,
         "fundingYears": {
           "2022": 56,
           "2023": 9,
           "2024": 30,
           "2025": 57,
-          "2026": 45
+          "2026": 27
         },
-        "fundingYearKnown": 197,
+        "fundingYearKnown": 179,
         "constituencies": [
           {
             "name": "Bahati",
@@ -79274,285 +79274,12 @@ window.CDF_DATA = {
           {
             "name": "Chiengi",
             "url": "constituencies/chiengi.html",
-            "count": 19,
-            "budgetM": 22.69,
+            "count": 1,
+            "budgetM": 1.0,
             "statusCounts": {
-              "approved": 19
+              "approved": 1
             },
             "projects": [
-              {
-                "id": 3903,
-                "url": "projects/3903-construction-of-1x2-classroom-block-at-chinyanta-primary-school.html",
-                "name": "Construction of 1x2 Classroom Block at Chinyanta Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.92,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3902,
-                "url": "projects/3902-construction-of-1x2-classroom-block-at-chitwamapunda-primary-school.html",
-                "name": "Construction of 1x2 Classroom Block at Chitwamapunda Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 0.92,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3909,
-                "url": "projects/3909-construction-of-1x2-classroom-block-at-kasasa-primary-school.html",
-                "name": "Construction of 1x2 Classroom Block at Kasasa Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.45,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3906,
-                "url": "projects/3906-construction-of-1x3-classroom-block-at-chilombo-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Chilombo Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3915,
-                "url": "projects/3915-construction-of-1x3-classroom-block-at-fingo-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Fingo Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3916,
-                "url": "projects/3916-construction-of-1x3-classroom-block-at-kambwili-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Kambwili Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3919,
-                "url": "projects/3919-construction-of-1x3-classroom-block-at-kawamba-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Kawamba Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3907,
-                "url": "projects/3907-construction-of-1x3-classroom-block-at-kawina-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Kawina Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3912,
-                "url": "projects/3912-construction-of-1x3-classroom-block-at-mupanga-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Mupanga Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3917,
-                "url": "projects/3917-construction-of-1x3-classroom-block-at-museketwa-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Museketwa Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.4,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3901,
-                "url": "projects/3901-construction-of-a-classroom-block-and-supply-of-36-desks-at-kasangu-primary-school.html",
-                "name": "Construction of a Classroom Block and Supply of 36 Desks at Kasangu Primary School",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": 1.25,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3908,
-                "url": "projects/3908-construction-of-a-health-post-at-muvweme.html",
-                "name": "Construction of a Health Post at Muvweme",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 1.4,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3910,
-                "url": "projects/3910-construction-of-a-maternity-annex-at-kapako-rural-health-centre.html",
-                "name": "Construction of a Maternity Annex at Kapako Rural Health Centre",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
               {
                 "id": 3914,
                 "url": "projects/3914-construction-of-a-staff-house-and-water-reticulation-system-at-kasasa-health-post.html",
@@ -79565,116 +79292,11 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
+                "note": "Approved in the PLGO conveyance letter of 25 March 2026 (source 657), item 14: construction of a staff house and water reticulation system at Kasasa Health Post, K1,000,000. Verified first-hand by Operation Blitz Confirm, 2026-11-06: the letter's 19 itemised projects sum exactly to its stated total K26,872,013.69; the letter text says '(18) projects' while its numbered list runs 1-19. An earlier note on this row claiming the letter itemised a different set of Chiengi projects was corrected the same day; the other 18 rows landed on that claim were demoted to held.",
                 "source": {
                   "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
                   "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3904,
-                "url": "projects/3904-construction-of-a-staff-house-at-mwense-chibambwa-health-post.html",
-                "name": "Construction of a Staff House at Mwense Chibambwa Health Post",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.9,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3913,
-                "url": "projects/3913-construction-of-a-water-reticulation-system-at-mwambuli-health-centre.html",
-                "name": "Construction of a Water Reticulation System at Mwambuli Health Centre",
-                "ward": null,
-                "component": "community",
-                "category": "water",
-                "contractor": null,
-                "budgetM": 0.7,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3918,
-                "url": "projects/3918-installation-of-solar-water-boreholes-and-water-reticulation-system-at-kalundu-health-post.html",
-                "name": "Installation of Solar Water Boreholes and Water Reticulation System at Kalundu Health Post",
-                "ward": null,
-                "component": "community",
-                "category": "water",
-                "contractor": null,
-                "budgetM": 1.3,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3905,
-                "url": "projects/3905-procurement-of-a-backhoe-loader.html",
-                "name": "Procurement of a Backhoe Loader",
-                "ward": null,
-                "component": "community",
-                "category": "equipment",
-                "contractor": null,
-                "budgetM": 2.0,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
-                  "date": "2026-03-25"
-                },
-                "fundingYear": 2026
-              },
-              {
-                "id": 3911,
-                "url": "projects/3911-rehabilitation-of-kabeleka-clinic.html",
-                "name": "Rehabilitation of Kabeleka Clinic",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": 0.35,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": "Amount as printed in the PLGO conveyance letter of 25 March 2026 and in the council CDF-page list (the two reads agree on every name and amount). The letter's stated total (K26,872,013.69) exceeds the sum of its 19 itemised lines (K22,690,000.00) by K4,182,013.69 — the difference is not allocated to any row; the letter text says '(18) projects' while its numbered list runs 1-19.",
-                "source": {
-                  "publisher": "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
-                  "title": "Approval of 2026 CDF Community Projects — PLGO conveyance letter, 25 March 2026 (19 projects; stated total K26,872,013.69; file PLGO_2026_Conveyance_letter.pdf, council Publications page)",
-                  "url": "https://www.chiengecouncil.gov.zm",
+                  "url": "https://www.chiengecouncil.gov.zm/wp-content/uploads/2026/09/PLGO_2026_Conveyance_letter.pdf",
                   "date": "2026-03-25"
                 },
                 "fundingYear": 2026
@@ -93034,7 +92656,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4054,
+    "totalProjects": 4036,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -93042,9 +92664,9 @@ window.CDF_DATA = {
       "2023": 452,
       "2024": 673,
       "2025": 1160,
-      "2026": 404
+      "2026": 386
     },
-    "fundingYearKnown": 3220
+    "fundingYearKnown": 3202
   },
   "people": {
     "bursaries": [
@@ -93130,12 +92752,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Luapula",
-        "tracked": 251,
+        "tracked": 233,
         "completed": 124,
         "underway": 31,
-        "approved": 96,
+        "approved": 78,
         "other": 0,
-        "completedPct": 49.4,
+        "completedPct": 53.2,
         "ruralPct": 84.9,
         "urbanPct": 15.1
       },
@@ -93290,9 +92912,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2895,
+        "projects": 2877,
         "completed": 872,
-        "pct": 30.1
+        "pct": 30.3
       },
       {
         "label": "Urban provinces",
@@ -93312,37 +92934,37 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 895,
+        "ruralN": 884,
         "urbanN": 184,
-        "ruralPct": 30.9,
+        "ruralPct": 30.7,
         "urbanPct": 21.5
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 784,
+        "ruralN": 782,
         "urbanN": 182,
-        "ruralPct": 27.1,
+        "ruralPct": 27.2,
         "urbanPct": 21.3
       },
       {
         "cat": "Health",
-        "ruralN": 522,
+        "ruralN": 518,
         "urbanN": 142,
         "ruralPct": 18.0,
         "urbanPct": 16.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 472,
+        "ruralN": 471,
         "urbanN": 177,
-        "ruralPct": 16.3,
+        "ruralPct": 16.4,
         "urbanPct": 20.7
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 172,
         "urbanN": 140,
-        "ruralPct": 5.9,
+        "ruralPct": 6.0,
         "urbanPct": 16.4
       },
       {
@@ -93355,9 +92977,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4054,
+    "total": 4036,
     "statuses": {
-      "approved": 2618,
+      "approved": 2600,
       "completed": 1067,
       "funded": 10,
       "in_progress": 40,
@@ -93365,8 +92987,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.3,
-    "approvedPct": 64.8,
+    "completedPct": 26.4,
+    "approvedPct": 64.7,
     "withPhoto": 26,
     "constituencies": 156,
     "provinces": 10

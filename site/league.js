@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4054,
-  "attributed": 3863,
+  "totalProjects": 4036,
+  "attributed": 3845,
   "unattributed": 191,
   "councils": 112,
   "councilCompleted": 945
@@ -48,23 +48,6 @@ window.CDF_LEAGUE = {
    "rank": 2
   },
   {
-   "council": "Chienge Town Council",
-   "named": 19,
-   "completed": 0,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 100,
-   "composite": 100.0,
-   "latest": "2026-03-25",
-   "constituencies": [
-    {
-     "name": "Chiengi",
-     "slug": "chiengi"
-    }
-   ],
-   "rank": 3
-  },
-  {
    "council": "Kasenengwa Town Council",
    "named": 18,
    "completed": 5,
@@ -79,7 +62,7 @@ window.CDF_LEAGUE = {
      "slug": "kasenengwa"
     }
    ],
-   "rank": 4
+   "rank": 3
   },
   {
    "council": "Lavushimanda Town Council",
@@ -96,7 +79,7 @@ window.CDF_LEAGUE = {
      "slug": "mfuwe"
     }
    ],
-   "rank": 5
+   "rank": 4
   },
   {
    "council": "Gwembe Town Council",
@@ -113,7 +96,7 @@ window.CDF_LEAGUE = {
      "slug": "gwembe"
     }
    ],
-   "rank": 6
+   "rank": 5
   },
   {
    "council": "Nakonde Town Council",
@@ -130,7 +113,7 @@ window.CDF_LEAGUE = {
      "slug": "nakonde"
     }
    ],
-   "rank": 7
+   "rank": 6
   },
   {
    "council": "Mumbwa Town Council",
@@ -151,7 +134,7 @@ window.CDF_LEAGUE = {
      "slug": "nangoma"
     }
    ],
-   "rank": 8
+   "rank": 7
   },
   {
    "council": "Chirundu Town Council",
@@ -168,7 +151,7 @@ window.CDF_LEAGUE = {
      "slug": "chirundu"
     }
    ],
-   "rank": 9
+   "rank": 8
   },
   {
    "council": "Chipili Town Council",
@@ -183,6 +166,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Chipili",
      "slug": "chipili"
+    }
+   ],
+   "rank": 9
+  },
+  {
+   "council": "Chienge Town Council",
+   "named": 1,
+   "completed": 0,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 100,
+   "composite": 100.0,
+   "latest": "2026-03-25",
+   "constituencies": [
+    {
+     "name": "Chiengi",
+     "slug": "chiengi"
     }
    ],
    "rank": 10

@@ -1371,13 +1371,13 @@ window.CDF_CARDS = {
    "neverStarted": 3
   },
   "published": {
-   "named": 19,
+   "named": 1,
    "completed": 0,
    "inProgress": 0,
-   "approved": 19,
+   "approved": 1,
    "stalled": 0,
    "notStated": 0,
-   "held": 33
+   "held": 51
   },
   "publishers": [
    "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)"
