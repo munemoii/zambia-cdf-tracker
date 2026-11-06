@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4036,
-  "attributed": 3845,
+  "totalProjects": 4052,
+  "attributed": 3861,
   "unattributed": 191,
   "councils": 112,
   "councilCompleted": 945
@@ -65,6 +65,23 @@ window.CDF_LEAGUE = {
    "rank": 3
   },
   {
+   "council": "Chienge Town Council",
+   "named": 17,
+   "completed": 0,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 100,
+   "composite": 100.0,
+   "latest": "2026-03-25",
+   "constituencies": [
+    {
+     "name": "Chiengi",
+     "slug": "chiengi"
+    }
+   ],
+   "rank": 4
+  },
+  {
    "council": "Lavushimanda Town Council",
    "named": 17,
    "completed": 0,
@@ -79,7 +96,7 @@ window.CDF_LEAGUE = {
      "slug": "mfuwe"
     }
    ],
-   "rank": 4
+   "rank": 5
   },
   {
    "council": "Gwembe Town Council",
@@ -96,7 +113,7 @@ window.CDF_LEAGUE = {
      "slug": "gwembe"
     }
    ],
-   "rank": 5
+   "rank": 6
   },
   {
    "council": "Nakonde Town Council",
@@ -113,7 +130,7 @@ window.CDF_LEAGUE = {
      "slug": "nakonde"
     }
    ],
-   "rank": 6
+   "rank": 7
   },
   {
    "council": "Mumbwa Town Council",
@@ -134,7 +151,7 @@ window.CDF_LEAGUE = {
      "slug": "nangoma"
     }
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "council": "Chirundu Town Council",
@@ -151,7 +168,7 @@ window.CDF_LEAGUE = {
      "slug": "chirundu"
     }
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "council": "Chipili Town Council",
@@ -166,23 +183,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Chipili",
      "slug": "chipili"
-    }
-   ],
-   "rank": 9
-  },
-  {
-   "council": "Chienge Town Council",
-   "named": 1,
-   "completed": 0,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 100,
-   "composite": 100.0,
-   "latest": "2026-03-25",
-   "constituencies": [
-    {
-     "name": "Chiengi",
-     "slug": "chiengi"
     }
    ],
    "rank": 10
