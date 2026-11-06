@@ -106,6 +106,7 @@ def shell(title, desc, prefix, body, og_image=None, crumb="", deck=None, band=No
     <a href="{prefix}money.html">The Money</a>
     <a href="{prefix}provinces.html">Provinces</a>
     <a href="{prefix}projects.html">Projects</a>
+    <a href="{prefix}league.html">Publishing League</a>
     <a href="{prefix}people.html">Loans &amp; Bursaries</a>
     <a href="{prefix}photos.html">Proof of Delivery</a>
     <a href="{prefix}scenario.html">2027 Scenario</a>
