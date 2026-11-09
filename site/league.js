@@ -962,6 +962,23 @@ window.CDF_LEAGUE = {
    "rank": 52
   },
   {
+   "council": "Nkeyema Town Council",
+   "named": 10,
+   "completed": 5,
+   "statusPct": 100,
+   "yearPct": 20,
+   "amountPct": 100,
+   "composite": 73.3,
+   "latest": "2025-04",
+   "constituencies": [
+    {
+     "name": "Nkeyema",
+     "slug": "nkeyema"
+    }
+   ],
+   "rank": 53
+  },
+  {
    "council": "Kazungula Town Council",
    "named": 40,
    "completed": 20,
@@ -976,7 +993,7 @@ window.CDF_LEAGUE = {
      "slug": "katombola"
     }
    ],
-   "rank": 53
+   "rank": 54
   },
   {
    "council": "Mufulira Municipal Council",
@@ -1001,7 +1018,7 @@ window.CDF_LEAGUE = {
      "slug": "mufulira"
     }
    ],
-   "rank": 54
+   "rank": 55
   },
   {
    "council": "Chongwe Municipal Council",
@@ -1018,7 +1035,7 @@ window.CDF_LEAGUE = {
      "slug": "chongwe"
     }
    ],
-   "rank": 55
+   "rank": 56
   },
   {
    "council": "Chadiza Town Council",
@@ -1035,7 +1052,7 @@ window.CDF_LEAGUE = {
      "slug": "chadiza"
     }
    ],
-   "rank": 56
+   "rank": 57
   },
   {
    "council": "Sinda Town Council",
@@ -1056,7 +1073,7 @@ window.CDF_LEAGUE = {
      "slug": "sinda"
     }
    ],
-   "rank": 57
+   "rank": 58
   },
   {
    "council": "Mpika Town Council",
@@ -1073,7 +1090,7 @@ window.CDF_LEAGUE = {
      "slug": "mpika-central"
     }
    ],
-   "rank": 58
+   "rank": 59
   },
   {
    "council": "Mbala Municipal Council",
@@ -1088,23 +1105,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Mbala",
      "slug": "mbala"
-    }
-   ],
-   "rank": 59
-  },
-  {
-   "council": "Nkeyema Town Council",
-   "named": 10,
-   "completed": 5,
-   "statusPct": 100,
-   "yearPct": 10,
-   "amountPct": 100,
-   "composite": 70.0,
-   "latest": "2025-04",
-   "constituencies": [
-    {
-     "name": "Nkeyema",
-     "slug": "nkeyema"
     }
    ],
    "rank": 60

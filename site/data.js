@@ -57764,11 +57764,11 @@ window.CDF_DATA = {
         "fundingYears": {
           "2022": 60,
           "2023": 34,
-          "2024": 70,
+          "2024": 71,
           "2025": 91,
           "2026": 25
         },
-        "fundingYearKnown": 280,
+        "fundingYearKnown": 281,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -63484,14 +63484,14 @@ window.CDF_DATA = {
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-09 (Daily Blitz audit arm; coordinator re-verified via live browser): cited source 106 (Nkeyema Town Council, 'Presidential directive on construction of maternity annexes on the right track in Nkeyema District') states the council signed contracts for maternity annexes at Mimpongo Rural Health Centre and Nkeyema Mini Hospital at costs of K1.2 million and K1.1 million respectively, funded by the 2024 CDF. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Nkeyema Town Council",
                   "title": "Presidential directive on construction of maternity annexes on the right track in Nkeyema District (2024 CDF: Mimpongo and Nkeyema Mini Hospital annex contracts, Chikamba Bridge; Kapa Clinic and Munkuye Police Post under construction)",
                   "url": "https://www.nkeyemacouncil.gov.zm/?p=2548",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               }
             ]
           },
@@ -93006,11 +93006,11 @@ window.CDF_DATA = {
       "2021": 10,
       "2022": 519,
       "2023": 452,
-      "2024": 673,
+      "2024": 674,
       "2025": 1160,
       "2026": 402
     },
-    "fundingYearKnown": 3218
+    "fundingYearKnown": 3219
   },
   "people": {
     "bursaries": [
