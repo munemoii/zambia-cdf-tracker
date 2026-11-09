@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4052,
-  "attributed": 3861,
+  "totalProjects": 4053,
+  "attributed": 3862,
   "unattributed": 191,
-  "councils": 112,
-  "councilCompleted": 945
+  "councils": 113,
+  "councilCompleted": 946
  },
  "councils": [
   {
@@ -2068,6 +2068,23 @@ window.CDF_LEAGUE = {
     }
    ],
    "rank": 112
+  },
+  {
+   "council": "Lupososhi Town Council",
+   "named": 1,
+   "completed": 1,
+   "statusPct": 100,
+   "yearPct": 0,
+   "amountPct": 0,
+   "composite": 33.3,
+   "latest": "2026-11-09",
+   "constituencies": [
+    {
+     "name": "Lupososhi",
+     "slug": "lupososhi"
+    }
+   ],
+   "rank": 113
   }
  ],
  "excluded": [

@@ -83939,7 +83939,7 @@ window.CDF_DATA = {
       {
         "name": "Northern",
         "province": "Northern",
-        "totalProjects": 230,
+        "totalProjects": 231,
         "fundingYears": {
           "2021": 8,
           "2022": 60,
@@ -87612,12 +87612,33 @@ window.CDF_DATA = {
           {
             "name": "Lupososhi",
             "url": "constituencies/lupososhi.html",
-            "count": 3,
+            "count": 4,
             "budgetM": 0,
             "statusCounts": {
-              "completed": 3
+              "completed": 4
             },
             "projects": [
+              {
+                "id": 4122,
+                "url": "projects/4122-construction-of-1x3-classroom-block-two-staff-houses-and-two-vip-toilet-facilities-at-mato-primary-school.html",
+                "name": "Construction of 1x3 classroom block, two staff houses and two VIP toilet facilities at Mato Primary School",
+                "ward": "Kaela",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Named completed on the council's own published post (9 Nov 2026): the post states the works are complete and awaiting commissioning. No amount or funding year published — both left unpublished per the standing rule.",
+                "source": {
+                  "publisher": "Lupososhi Town Council",
+                  "title": "Official Facebook post, 9 Nov 2026, 15:10 CAT: 'CDF UPDATE | KAELA WARD' — completion of a 1x3 classroom block, two staff houses and two VIP toilet facilities at Mato Primary School, Lupososhi Constituency",
+                  "url": "https://www.facebook.com/Lupososhi/posts/pfbid0wKvZK5Q1K1aWKFbEHjsDEpMUXDUs7aeaEue9no88MBWepZftET38h6YB1jcGm1byl",
+                  "date": "2026-11-09"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 2991,
                 "url": "projects/2991-lupososhi-town-council-office-block.html",
@@ -93000,7 +93021,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4052,
+    "totalProjects": 4053,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -93129,12 +93150,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Northern",
-        "tracked": 230,
-        "completed": 76,
+        "tracked": 231,
+        "completed": 77,
         "underway": 39,
         "approved": 112,
         "other": 3,
-        "completedPct": 33.0,
+        "completedPct": 33.3,
         "ruralPct": 77.7,
         "urbanPct": 22.3
       },
@@ -93256,9 +93277,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2893,
-        "completed": 872,
-        "pct": 30.1
+        "projects": 2894,
+        "completed": 873,
+        "pct": 30.2
       },
       {
         "label": "Urban provinces",
@@ -93285,7 +93306,7 @@ window.CDF_DATA = {
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 789,
+        "ruralN": 790,
         "urbanN": 182,
         "ruralPct": 27.3,
         "urbanPct": 21.3
@@ -93321,17 +93342,17 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4052,
+    "total": 4053,
     "statuses": {
       "approved": 2616,
-      "completed": 1067,
+      "completed": 1068,
       "funded": 10,
       "in_progress": 40,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.3,
+    "completedPct": 26.4,
     "approvedPct": 64.8,
     "withPhoto": 26,
     "constituencies": 156,

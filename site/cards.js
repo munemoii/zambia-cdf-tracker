@@ -2512,8 +2512,8 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 3,
-   "completed": 3,
+   "named": 4,
+   "completed": 4,
    "inProgress": 0,
    "approved": 0,
    "stalled": 0,
@@ -2521,7 +2521,8 @@ window.CDF_CARDS = {
    "held": 0
   },
   "publishers": [
-   "National Assembly of Zambia"
+   "National Assembly of Zambia",
+   "Lupososhi Town Council"
   ]
  },
  "malole": {
