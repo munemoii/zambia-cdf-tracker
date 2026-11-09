@@ -3213,9 +3213,9 @@ window.CDF_DATA = {
           },
           {
             "id": 4058,
-            "url": "projects/4058-purchase-of-tank-at-kayondwe-primary-school.html",
-            "name": "Purchase of Tank at Kayondwe Primary School",
-            "ward": "Kayondwe",
+            "url": "projects/4058-purchase-of-tank-at-katondwe-primary-school.html",
+            "name": "Purchase of Tank at Katondwe Primary School",
+            "ward": "Katondwe",
             "component": "community",
             "category": "water",
             "contractor": null,
@@ -3223,7 +3223,7 @@ window.CDF_DATA = {
             "status": "approved",
             "completionPct": null,
             "photo": null,
-            "note": null,
+            "note": "Name corrected 2026-11-09 (Operation Blitz Confirm): source 665 row 25 reads 'Purchase of Tank at Katondwe Primary School', ward Katondwe — read first-hand with enlarged crops on 2026-11-09, agreeing with the 2026-11-05 second-pass read; the landing transcription 'Kayondwe' was wrong. Amount K26,000, status approved and funding year 2026 unchanged.",
             "source": {
               "publisher": "Luangwa Town Council",
               "title": "Approved 2026 Community Projects for Feira Constituency (Council Secretary stamp 22 Oct 2026; printed total K14,721,160.55)",
@@ -75931,9 +75931,9 @@ window.CDF_DATA = {
               },
               {
                 "id": 4058,
-                "url": "projects/4058-purchase-of-tank-at-kayondwe-primary-school.html",
-                "name": "Purchase of Tank at Kayondwe Primary School",
-                "ward": "Kayondwe",
+                "url": "projects/4058-purchase-of-tank-at-katondwe-primary-school.html",
+                "name": "Purchase of Tank at Katondwe Primary School",
+                "ward": "Katondwe",
                 "component": "community",
                 "category": "water",
                 "contractor": null,
@@ -75941,7 +75941,7 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Name corrected 2026-11-09 (Operation Blitz Confirm): source 665 row 25 reads 'Purchase of Tank at Katondwe Primary School', ward Katondwe — read first-hand with enlarged crops on 2026-11-09, agreeing with the 2026-11-05 second-pass read; the landing transcription 'Kayondwe' was wrong. Amount K26,000, status approved and funding year 2026 unchanged.",
                 "source": {
                   "publisher": "Luangwa Town Council",
                   "title": "Approved 2026 Community Projects for Feira Constituency (Council Secretary stamp 22 Oct 2026; printed total K14,721,160.55)",
