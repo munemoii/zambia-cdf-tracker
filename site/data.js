@@ -35700,11 +35700,11 @@ window.CDF_DATA = {
         "fundingYears": {
           "2022": 27,
           "2023": 143,
-          "2024": 128,
+          "2024": 129,
           "2025": 153,
           "2026": 59
         },
-        "fundingYearKnown": 510,
+        "fundingYearKnown": 511,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -38149,14 +38149,14 @@ window.CDF_DATA = {
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-09 (Daily Blitz audit arm, second run; coordinator re-read the source firsthand): cited source 358 (Chingola Municipal Council news listing) states of this project: 'More progress has been made on the construction of a maternity annex at Chiwempala Clinic. Funding: 2024 CDF (Chingola Constituency)'. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Chingola Municipal Council",
                   "title": "Uncategorized (news category page with CDF project update posts)",
                   "url": "http://www.chingolacouncil.gov.zm/?cat=1",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               }
             ]
           },
@@ -66424,11 +66424,11 @@ window.CDF_DATA = {
           "2020": 2,
           "2021": 1,
           "2022": 59,
-          "2023": 40,
+          "2023": 41,
           "2024": 47,
           "2025": 84
         },
-        "fundingYearKnown": 233,
+        "fundingYearKnown": 234,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -71559,14 +71559,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-09 (Daily Blitz audit arm, second run; coordinator re-read the source firsthand): cited source 79 (Mushindamo Town Council, 'Minister of Home Affairs and Internal Security Commissions the First Ever Police Station in Mushindamo District') states the newly procured Excavator and Grader handed over to Mushindamo Town Council 'were procured from the 2023 Constituency Development Fund'. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Mushindamo Town Council",
                   "title": "Minister of Home Affairs and Internal Security Commissions the First Ever Police Station in Mushindamo District",
                   "url": "https://www.mushindamocouncil.gov.zm/?p=1584",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 2577,
@@ -83942,13 +83942,13 @@ window.CDF_DATA = {
         "totalProjects": 231,
         "fundingYears": {
           "2021": 8,
-          "2022": 60,
+          "2022": 61,
           "2023": 31,
           "2024": 28,
           "2025": 50,
           "2026": 7
         },
-        "fundingYearKnown": 184,
+        "fundingYearKnown": 185,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -84950,14 +84950,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-09 (Daily Blitz audit arm, second run; coordinator re-read the source firsthand): cited source 127 (Nsama Town Council, Minutes of the Stakeholders' Engagement Meeting held 16 December 2024), Table 2 'CDF Projects under 2022 allocation', row 10 — 'Supply of 60 desks at Katwatwa Primary School — Katwatwa — Bosjo Youth Trading — 60,000.00 — Complete'. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Nsama Town Council",
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf",
                   "date": "2024-12-16"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 632,
@@ -93025,13 +93025,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 519,
-      "2023": 452,
-      "2024": 674,
+      "2022": 520,
+      "2023": 453,
+      "2024": 675,
       "2025": 1160,
       "2026": 402
     },
-    "fundingYearKnown": 3219
+    "fundingYearKnown": 3222
   },
   "people": {
     "bursaries": [

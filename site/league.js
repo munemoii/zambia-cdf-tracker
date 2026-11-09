@@ -425,6 +425,23 @@ window.CDF_LEAGUE = {
    "rank": 23
   },
   {
+   "council": "Mushindamo Town Council",
+   "named": 37,
+   "completed": 10,
+   "statusPct": 100,
+   "yearPct": 95,
+   "amountPct": 73,
+   "composite": 89.3,
+   "latest": "2025-06-08",
+   "constituencies": [
+    {
+     "name": "Solwezi East",
+     "slug": "solwezi-east"
+    }
+   ],
+   "rank": 24
+  },
+  {
    "council": "Chipata City Council",
    "named": 220,
    "completed": 7,
@@ -443,7 +460,7 @@ window.CDF_LEAGUE = {
      "slug": "luangeni"
     }
    ],
-   "rank": 24
+   "rank": 25
   },
   {
    "council": "Mazabuka Municipal Council",
@@ -462,23 +479,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Mazabuka Central",
      "slug": "mazabuka-central"
-    }
-   ],
-   "rank": 25
-  },
-  {
-   "council": "Mushindamo Town Council",
-   "named": 37,
-   "completed": 10,
-   "statusPct": 100,
-   "yearPct": 92,
-   "amountPct": 73,
-   "composite": 88.3,
-   "latest": "2025-06-08",
-   "constituencies": [
-    {
-     "name": "Solwezi East",
-     "slug": "solwezi-east"
     }
    ],
    "rank": 26
@@ -852,9 +852,9 @@ window.CDF_LEAGUE = {
    "named": 39,
    "completed": 22,
    "statusPct": 100,
-   "yearPct": 51,
+   "yearPct": 54,
    "amountPct": 74,
-   "composite": 75.0,
+   "composite": 76.0,
    "latest": "2024-12-16",
    "constituencies": [
     {
@@ -1926,6 +1926,27 @@ window.CDF_LEAGUE = {
    "rank": 104
   },
   {
+   "council": "Chingola Municipal Council",
+   "named": 4,
+   "completed": 0,
+   "statusPct": 100,
+   "yearPct": 25,
+   "amountPct": 0,
+   "composite": 41.7,
+   "latest": "2025-06-27",
+   "constituencies": [
+    {
+     "name": "Chingola",
+     "slug": "chingola"
+    },
+    {
+     "name": "Nchanga",
+     "slug": "nchanga"
+    }
+   ],
+   "rank": 105
+  },
+  {
    "council": "Shibuyunji Town Council",
    "named": 23,
    "completed": 19,
@@ -1940,7 +1961,7 @@ window.CDF_LEAGUE = {
      "slug": "mwembeshi"
     }
    ],
-   "rank": 105
+   "rank": 106
   },
   {
    "council": "Mpongwe Town Council",
@@ -1957,7 +1978,7 @@ window.CDF_LEAGUE = {
      "slug": "mpongwe"
     }
    ],
-   "rank": 106
+   "rank": 107
   },
   {
    "council": "Sinazongwe Town Council",
@@ -1974,7 +1995,7 @@ window.CDF_LEAGUE = {
      "slug": "sinazongwe"
     }
    ],
-   "rank": 107
+   "rank": 108
   },
   {
    "council": "Chembe Town Council",
@@ -1991,7 +2012,7 @@ window.CDF_LEAGUE = {
      "slug": "chembe"
     }
    ],
-   "rank": 108
+   "rank": 109
   },
   {
    "council": "Lusangazi Town Council",
@@ -2006,27 +2027,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Msanzala",
      "slug": "msanzala"
-    }
-   ],
-   "rank": 109
-  },
-  {
-   "council": "Chingola Municipal Council",
-   "named": 4,
-   "completed": 0,
-   "statusPct": 100,
-   "yearPct": 0,
-   "amountPct": 0,
-   "composite": 33.3,
-   "latest": "2025-06-27",
-   "constituencies": [
-    {
-     "name": "Chingola",
-     "slug": "chingola"
-    },
-    {
-     "name": "Nchanga",
-     "slug": "nchanga"
     }
    ],
    "rank": 110
