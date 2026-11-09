@@ -585,6 +585,21 @@ def main():
     # A missed pattern prints a WARNING so drift shows up in the run log.
     site_dir = HERE.parent / "site"
     total_s = f"{record['total']:,}"
+    # Gap Map prose figures, computed from the same cards data gapmap.js
+    # renders, so the static text can never drift from the tiles again
+    # (the 1,067 -> 1,068 Lupososhi landing of 2026-11-09 left gapmap.html
+    # stale because it was not in this patch list).
+    _gap_named = sum(v["published"]["completed"] for v in cards.values())
+    _gap_counted = sum(v["audit"]["completed"] for v in cards.values()
+                        if v["audit"])
+    _gap_summed = sum(max(0, v["audit"]["completed"]
+                          - v["published"]["completed"])
+                      for v in cards.values() if v["audit"])
+    _gap_named_s = f"{_gap_named:,}"
+    _gap_counted_s = f"{_gap_counted:,}"
+    _gap_sub_s = f"{_gap_counted - _gap_named:,}"
+    _gap_summed_s = f"{_gap_summed:,}"
+    _chiengi = cards.get("chiengi", {}).get("published", {}).get("named")
     patches = [
         (site_dir / "index.html", [
             (r"[\d,]+ projects tracked across all 10 provinces",
@@ -602,6 +617,21 @@ def main():
             (r'(<span id="readCompPct">)\d+(</span>)',
              rf"\g<1>{round(record['completedPct'])}\g<2>"),
         ]),
+        (site_dir / "gapmap.html", [
+            (r"published names for [\d,]+ completions",
+             f"published names for {_gap_named_s} completions"),
+            (r"This tracker holds <b>[\d,]+ named completions</b>",
+             f"This tracker holds <b>{_gap_named_s} named completions</b>"),
+            (r"added constituency by constituency, is <b>[\d,]+</b>",
+             f"added constituency by constituency, is <b>{_gap_summed_s}</b>"),
+            (r"single national subtraction \([\d,]+ − [\d,]+\) gives [\d,]+",
+             f"single national subtraction ({_gap_counted_s} − "
+             f"{_gap_named_s}) gives {_gap_sub_s}"),
+        ] + ([
+            (r"published record names \d+ projects, all at the approved stage",
+             f"published record names {_chiengi} projects, "
+             f"all at the approved stage"),
+        ] if _chiengi is not None else [])),
     ]
     for path, subs in patches:
         if not path.exists():
