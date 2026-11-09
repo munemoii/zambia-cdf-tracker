@@ -154,6 +154,14 @@ window.CDF_DATA = {
   ],
   "news": [
     {
+      "date": "9 November 2026",
+      "source": "Zambian Observer, reporting Zambian Watch",
+      "title": "CDF bursary fees unpaid in Mambwe: 300 pupils stranded, school owed over K1 million",
+      "text": "More than 300 pupils at St Luke's Secondary School in Mambwe District are caught in a bursary payment delay: their boarding fees for Terms Two and Three have not been paid, and the school says it has run out of food for them. The pupils are sponsored under the CDF secondary bursary scheme by Mambwe Town Council, Lundazi and Chipata City Council.\n\nThe Anglican Diocese of Eastern Zambia's Education Secretary and Vicar General, Fr Edward Zimba, told Zambian Watch that the government owes the school more than K1 million in unpaid bursary boarding fees. The school has built up debts with its suppliers, people who previously helped it are no longer willing to extend assistance, and engagements with the authorities had so far produced no result — leaving the school considering releasing the affected pupils.\n\nMambwe District Education Board Secretary Dr Mathias Chunga says the Ministry of Education is aware of the situation and has assured parents the pupils will not be sent away. His office engaged Chieftainess Msoro, who donated foodstuffs to the school three weeks ago, and the Eastern Province Education Office is working to secure support under the school feeding programme. Dr Chunga acknowledged the delayed CDF bursary payments and urged the local authorities to settle the outstanding fees once funds become available.\n\nWhy it matters here: the bursary scheme is one of the CDF's three legs, and this is a payment-timing failure, not an allocation dispute — the sponsorships exist, the fees are owed, and the gap landed on a school feeding 300 sponsored pupils. The figures in this briefing are the source's reporting, not tracker-verified totals; what councils publish about bursary payments is what this record can check, and Mambwe, Lundazi and Chipata City are now the councils whose published record will show whether the arrears were settled.",
+      "url": "https://zambianobserver.com/over-300-pupils-stranded-as-government-fails-to-pay-cdf-bursaries-school-runs-out-of-food-in-mambwe/",
+      "page": "developments/cdf-bursary-fees-unpaid-in-mambwe-300-pupils-stranded-school-owed-over-k1-million.html"
+    },
+    {
       "date": "6 November 2026",
       "source": "National Assembly of Zambia — 2027 Budget Speech; Ministry of Finance and National Planning; MLGRD",
       "title": "2027 CDF rate held at K40 million per constituency",
