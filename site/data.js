@@ -22115,13 +22115,13 @@ window.CDF_DATA = {
         "totalProjects": 633,
         "fundingYears": {
           "2021": 1,
-          "2022": 41,
+          "2022": 43,
           "2023": 53,
           "2024": 133,
           "2025": 219,
           "2026": 26
         },
-        "fundingYearKnown": 473,
+        "fundingYearKnown": 475,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -26941,14 +26941,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-10 (Daily Blitz audit arm; coordinator re-read the source firsthand via live browser): cited source 281 (Kazungula Town Council, 'Update on 2022 and 2023 CDF Projects'), 2022 CDF table row 15 — 'Solar Batteries for Lupani Primary School — 2022 CDF — 100,000.00 — Purchased and Delivered'. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Kazungula Town Council",
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               }
             ]
           },
@@ -33428,14 +33428,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-10 (Daily Blitz audit arm; coordinator re-read the source firsthand via live browser): cited source 272 (Namwala Town Council project-branding table, projects funded 2022-2024) row 10 reads 'Makotoolo Primary School — Computer Laboratory — 2022 — Mandondo'. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1133,
@@ -45308,7 +45308,7 @@ window.CDF_DATA = {
                 "id": 2940,
                 "url": "projects/2940-purchase-of-grader.html",
                 "name": "Purchase of Grader",
-                "ward": "Mpongwe Central",
+                "ward": null,
                 "component": "community",
                 "category": "equipment",
                 "contractor": null,
@@ -45316,7 +45316,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Citation repaired in Blitz Run 16: Mpongwe Town Council's roads article (?p=2398, 25 June 2025) names the Grader among the earth-moving equipment procured through CDF. The original citation (source 400, the council's Completed Projects page) was re-read in Run 16 and no longer lists projects; the article is the positive proof. Four-run re-proof history (Runs 13–16) is recorded in the Run 16 log.",
+                "note": "Citation repaired in Blitz Run 16: Mpongwe Town Council's roads article (?p=2398, 25 June 2025) names the Grader among the earth-moving equipment procured through CDF. The original citation (source 400, the council's Completed Projects page) was re-read in Run 16 and no longer lists projects; the article is the positive proof. Four-run re-proof history (Runs 13–16) is recorded in the Run 16 log. [Ward corrected 2026-11-10 (Daily Blitz audit arm; coordinator re-read the source firsthand via live browser): the cited article (source 635, Mpongwe Town Council ?p=2398) names the Grader among the earth-moving equipment 'procured through CDF' but states no ward for it — its only 'Mpongwe central ward' mention concerns the Lesa Nkushe Road. The ward previously published on this row is therefore unpublished.]",
                 "source": {
                   "publisher": "Mpongwe Town Council",
                   "title": "Mpongwe Council Intensifies Road Works as it Procures a Roller Compactor",
@@ -66423,12 +66423,12 @@ window.CDF_DATA = {
         "fundingYears": {
           "2020": 2,
           "2021": 1,
-          "2022": 59,
+          "2022": 61,
           "2023": 41,
           "2024": 47,
           "2025": 84
         },
-        "fundingYearKnown": 234,
+        "fundingYearKnown": 236,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -67322,7 +67322,7 @@ window.CDF_DATA = {
                 "id": 2688,
                 "url": "projects/2688-construction-of-tambatamba-footbridge.html",
                 "name": "Construction of Tambatamba Footbridge",
-                "ward": null,
+                "ward": "Kikonkomene",
                 "component": "community",
                 "category": "infrastructure",
                 "contractor": null,
@@ -67330,14 +67330,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Kasempa Town Council's own newsletter (August 2023) reports the Tambatamba Footbridge as a commissioned CDF bridge at K200,000 and counts it among the constituency's completed CDF works. Ward and funding year not stated in the newsletter.",
+                "note": "Kasempa Town Council's own newsletter (August 2023, p.6) reports the Tambatamba Footbridge as commissioned on 1 August 2023 'under the 2022 Constituency Development Fund project' at K200,000, and states it 'passes through the Tambatamba farm in Kikonkomene Ward'. Funding year (2022) and ward (Kikonkomene) pinned 2026-11-10 (Daily Blitz audit arm; coordinator re-read the source firsthand via live browser) — both were previously unpublished on this row, and an earlier version of this note wrongly stated they were not in the newsletter.",
                 "source": {
                   "publisher": "Kasempa Town Council",
                   "title": "Kasempa Town Council Newsletter (August 2023) — CDF bridge commissioned; tipper truck commissioned",
                   "url": "https://www.kasempacouncil.gov.zm/wp-content/uploads/2023/10/KASEMPA-TC-NEWSLETTER.pdf",
                   "date": "2023-08-31"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 306,
@@ -70210,14 +70210,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-10 (Daily Blitz audit arm; coordinator re-read the source firsthand via live browser): cited source 82 (Mwinilunga Town Council, 'Mwinilunga MP Hands Over Three (3) CDF Projects') states the MP 'handed over three (3) projects under the 2022 Constituency Development Fund', naming '1 x 2 classroom block at Kanzhimu primary school in Kampemba ward' among them. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Mwinilunga Town Council",
                   "title": "Mwinilunga MP Hands Over Three (3) CDF Projects",
                   "url": "https://www.mwinilungacouncil.gov.zm/?p=2114",
                   "date": "2023-12-27"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 393,
@@ -83942,13 +83942,13 @@ window.CDF_DATA = {
         "totalProjects": 231,
         "fundingYears": {
           "2021": 8,
-          "2022": 61,
+          "2022": 62,
           "2023": 31,
           "2024": 28,
           "2025": 50,
           "2026": 7
         },
-        "fundingYearKnown": 185,
+        "fundingYearKnown": 186,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -84646,24 +84646,24 @@ window.CDF_DATA = {
               },
               {
                 "id": 621,
-                "url": "projects/621-procurement-and-supply-of-150-desks-for-nsafya-manika-chiputu-mupandi-and-kabombo-primary-schools.html",
-                "name": "Procurement and Supply of 150 Desks for Nsafya, Manika, Chiputu, Mupandi and Kabombo Primary Schools",
+                "url": "projects/621-procurement-and-supply-of-150-desks-for-kakoma-chiputu-mupandi-and-kabombo-primary-schools.html",
+                "name": "Procurement and Supply of 150 Desks for Kakoma, Chiputu, Mupandi and Kabombo Primary Schools",
                 "ward": "Kakoma",
                 "component": "community",
                 "category": "education",
-                "contractor": "Manika General Dealers",
+                "contractor": "Nsafya Manika General Dealers",
                 "budgetM": 0.195,
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-10 (Daily Blitz audit arm; coordinator re-read the source firsthand via live browser): cited source 127 (Nsama Town Council, Minutes of the Stakeholders' Engagement Meeting held 16 December 2024), Table 2 'CDF Projects under 2022 allocation', row 5 — 'Procurement and Supply of 150 desks for Kakoma, Chiputu, Mupandi and Kabombo Primary School — Kakoma — Nsafya Manika General Dealers — 195,000.00 — Complete'. Name and contractor corrected on the same re-read (2026-11-10): the live name previously read 'Nsafya' and 'Manika' as schools; the source prints them as the contractor's name, and the schools are Kakoma, Chiputu, Mupandi and Kabombo. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Nsama Town Council",
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf",
                   "date": "2024-12-16"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 622,
@@ -93025,13 +93025,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 520,
+      "2022": 525,
       "2023": 453,
       "2024": 675,
       "2025": 1160,
       "2026": 402
     },
-    "fundingYearKnown": 3222
+    "fundingYearKnown": 3227
   },
   "people": {
     "bursaries": [

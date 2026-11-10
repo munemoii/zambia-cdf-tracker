@@ -831,6 +831,23 @@ window.CDF_LEAGUE = {
    "rank": 45
   },
   {
+   "council": "Nsama Town Council",
+   "named": 39,
+   "completed": 22,
+   "statusPct": 100,
+   "yearPct": 56,
+   "amountPct": 74,
+   "composite": 76.7,
+   "latest": "2024-12-16",
+   "constituencies": [
+    {
+     "name": "Chimbamilonga",
+     "slug": "chimbamilonga"
+    }
+   ],
+   "rank": 46
+  },
+  {
    "council": "Chinsali Municipal Council",
    "named": 28,
    "completed": 1,
@@ -843,23 +860,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Chinsali",
      "slug": "chinsali"
-    }
-   ],
-   "rank": 46
-  },
-  {
-   "council": "Nsama Town Council",
-   "named": 39,
-   "completed": 22,
-   "statusPct": 100,
-   "yearPct": 54,
-   "amountPct": 74,
-   "composite": 76.0,
-   "latest": "2024-12-16",
-   "constituencies": [
-    {
-     "name": "Chimbamilonga",
-     "slug": "chimbamilonga"
     }
    ],
    "rank": 47
@@ -962,6 +962,23 @@ window.CDF_LEAGUE = {
    "rank": 52
   },
   {
+   "council": "Kazungula Town Council",
+   "named": 40,
+   "completed": 20,
+   "statusPct": 100,
+   "yearPct": 40,
+   "amountPct": 80,
+   "composite": 73.3,
+   "latest": null,
+   "constituencies": [
+    {
+     "name": "Katombola",
+     "slug": "katombola"
+    }
+   ],
+   "rank": 53
+  },
+  {
    "council": "Nkeyema Town Council",
    "named": 10,
    "completed": 5,
@@ -974,23 +991,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Nkeyema",
      "slug": "nkeyema"
-    }
-   ],
-   "rank": 53
-  },
-  {
-   "council": "Kazungula Town Council",
-   "named": 40,
-   "completed": 20,
-   "statusPct": 100,
-   "yearPct": 38,
-   "amountPct": 80,
-   "composite": 72.7,
-   "latest": null,
-   "constituencies": [
-    {
-     "name": "Katombola",
-     "slug": "katombola"
     }
    ],
    "rank": 54
@@ -1474,6 +1474,23 @@ window.CDF_LEAGUE = {
    "rank": 80
   },
   {
+   "council": "Mwinilunga Town Council",
+   "named": 12,
+   "completed": 3,
+   "statusPct": 100,
+   "yearPct": 92,
+   "amountPct": 0,
+   "composite": 64.0,
+   "latest": "2025-03-07",
+   "constituencies": [
+    {
+     "name": "Mwinilunga",
+     "slug": "mwinilunga"
+    }
+   ],
+   "rank": 81
+  },
+  {
    "council": "Chisamba Town Council",
    "named": 22,
    "completed": 4,
@@ -1488,7 +1505,7 @@ window.CDF_LEAGUE = {
      "slug": "chisamba"
     }
    ],
-   "rank": 81
+   "rank": 82
   },
   {
    "council": "Senga Hill Town Council",
@@ -1505,7 +1522,7 @@ window.CDF_LEAGUE = {
      "slug": "senga-hill"
     }
    ],
-   "rank": 82
+   "rank": 83
   },
   {
    "council": "Chilubi Town Council",
@@ -1520,23 +1537,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Chilubi",
      "slug": "chilubi"
-    }
-   ],
-   "rank": 83
-  },
-  {
-   "council": "Mwinilunga Town Council",
-   "named": 12,
-   "completed": 3,
-   "statusPct": 100,
-   "yearPct": 83,
-   "amountPct": 0,
-   "composite": 61.0,
-   "latest": "2025-03-07",
-   "constituencies": [
-    {
-     "name": "Mwinilunga",
-     "slug": "mwinilunga"
     }
    ],
    "rank": 84
@@ -1635,9 +1635,9 @@ window.CDF_LEAGUE = {
    "named": 35,
    "completed": 22,
    "statusPct": 100,
-   "yearPct": 66,
+   "yearPct": 69,
    "amountPct": 9,
-   "composite": 58.3,
+   "composite": 59.3,
    "latest": "2026-02-23",
    "constituencies": [
     {
@@ -1896,9 +1896,9 @@ window.CDF_LEAGUE = {
    "named": 51,
    "completed": 7,
    "statusPct": 100,
-   "yearPct": 37,
+   "yearPct": 39,
    "amountPct": 4,
-   "composite": 47.0,
+   "composite": 47.7,
    "latest": "2026-01-02",
    "constituencies": [
     {
