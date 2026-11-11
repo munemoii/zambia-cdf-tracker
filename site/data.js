@@ -57568,7 +57568,7 @@ window.CDF_DATA = {
                 "id": 3833,
                 "url": "projects/3833-rehabilitation-of-water-point-at-makopa-school.html",
                 "name": "Rehabilitation of Water Point at Makopa School",
-                "ward": null,
+                "ward": "Mbaswa",
                 "component": "community",
                 "category": "water",
                 "contractor": null,
@@ -57576,7 +57576,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Ward pinned 2026-11-11 (Daily Blitz audit arm; coordinator re-verified via live browser): cited source 649 (Serenje Town Council Minutes, July 2025), minute PWD&RE/108/06/25 'Rehabilitation of Existing Water Points', table headed 'CDF-Serenje Central' (SN | NAME | WARD | STATUS), row 4 reads 'Makopa School | Mbaswa | Rehabilitated', in a section reporting rehabilitation of water points in Serenje Constituency using the 2024 CDF allocation. The ward was previously unpublished on this row.",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Serenje Town Council Minutes July 2025 (incl. PWD&RE/105-110/06/25 CDF updates)",
