@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_DATA = {
   "meta": {
-    "snapshotDate": "11 November 2026",
-    "lastChecked": "11 November 2026"
+    "snapshotDate": "12 November 2026",
+    "lastChecked": "12 November 2026"
   },
   "years": [
     {
