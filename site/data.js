@@ -35696,15 +35696,15 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "province": "Copperbelt",
-        "totalProjects": 600,
+        "totalProjects": 601,
         "fundingYears": {
           "2022": 27,
           "2023": 143,
           "2024": 129,
-          "2025": 153,
+          "2025": 154,
           "2026": 59
         },
-        "fundingYearKnown": 511,
+        "fundingYearKnown": 512,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -39501,11 +39501,11 @@ window.CDF_DATA = {
           {
             "name": "Kamfinsa",
             "url": "constituencies/kamfinsa.html",
-            "count": 9,
+            "count": 10,
             "budgetM": 0,
             "statusCounts": {
               "completed": 3,
-              "approved": 6
+              "approved": 7
             },
             "projects": [
               {
@@ -39675,6 +39675,27 @@ window.CDF_DATA = {
                   "date": "2025-04-09"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4123,
+                "url": "projects/4123-construction-of-water-scheme-in-zamtan.html",
+                "name": "Construction of Water Scheme in Zamtan",
+                "ward": "Kafue",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed by the Daily Blitz 2026-11-12 on the ZPPA e-GP Competition Notice original (Kitwe City Council, dispatched 09/04/2025), read in full by Verification Arm A and again by the coordinator: \"Construction of Water Scheme in Zamtan in Kafue Ward under 2025 CDF Funding- Kamfinsa Constituency\"; main site ZAMTAN; expected delivery 31/07/2025. The notice states no amount, so none is published. The fuller engineering spec carried in the earlier aggregator copy of this tender is not in the ZPPA original and is not carried. This cures the defect that held the row (the previously retrieved notice text did not state CDF funding or a year). Same basis class as the live Kitwe ZPPA-CDF notice rows (sources 333-351).",
+                "source": {
+                  "publisher": "ZPPA e-GP (Kitwe City Council)",
+                  "title": "Construction of Water Scheme in Zamtan in Kafue Ward under 2025 CDF Funding — Kamfinsa Constituency",
+                  "url": "https://eprocure.zppa.org.zm/epps/cft/downloadNoticeForAdvSearch.do?resourceId=14008332",
+                  "date": "2025-04-09"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 1414,
@@ -68939,9 +68960,8 @@ window.CDF_DATA = {
             "count": 59,
             "budgetM": 28.8,
             "statusCounts": {
-              "approved": 57,
-              "completed": 1,
-              "in_progress": 1
+              "approved": 58,
+              "completed": 1
             },
             "projects": [
               {
@@ -69583,13 +69603,13 @@ window.CDF_DATA = {
                 "category": "education",
                 "contractor": null,
                 "budgetM": null,
-                "status": "in_progress",
+                "status": "approved",
                 "completionPct": null,
                 "photo": {
                   "url": "/photos/kasange-classroom.jpg",
                   "credit": "Mufumbwe Town Council"
                 },
-                "note": null,
+                "note": "Status corrected by the Daily Blitz 2026-11-12 audit arm (coordinator re-read the cited source in full): the Mufumbwe Town Council list '2025 Community Projects Received from Ward Development Committee' marks row 39, \"Construction of a 1x3 Crb at Kasange Community School — Kashima West\", as 'Approved — Priority'. No wording in the cited source supports 'in progress'; the row's 25 sibling rows from the same list are carried as approved. Status corrected in_progress -> approved on the cited source.",
                 "source": {
                   "publisher": "Mufumbwe Town Council",
                   "title": "2025 Community Projects Received from Ward Development Committee",
@@ -93021,17 +93041,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4053,
+    "totalProjects": 4054,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
       "2022": 525,
       "2023": 453,
       "2024": 675,
-      "2025": 1160,
+      "2025": 1161,
       "2026": 402
     },
-    "fundingYearKnown": 3227
+    "fundingYearKnown": 3228
   },
   "people": {
     "bursaries": [
@@ -93185,8 +93205,8 @@ window.CDF_DATA = {
         "name": "North-Western",
         "tracked": 303,
         "completed": 52,
-        "underway": 13,
-        "approved": 236,
+        "underway": 12,
+        "approved": 237,
         "other": 2,
         "completedPct": 17.2,
         "ruralPct": 58.3,
@@ -93205,10 +93225,10 @@ window.CDF_DATA = {
       },
       {
         "name": "Copperbelt",
-        "tracked": 600,
+        "tracked": 601,
         "completed": 63,
         "underway": 47,
-        "approved": 490,
+        "approved": 491,
         "other": 0,
         "completedPct": 10.5,
         "ruralPct": 17.3,
@@ -93284,7 +93304,7 @@ window.CDF_DATA = {
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 856,
+        "projects": 857,
         "completed": 143,
         "pct": 16.7
       },
@@ -93307,9 +93327,9 @@ window.CDF_DATA = {
       {
         "cat": "Water & sanitation",
         "ruralN": 790,
-        "urbanN": 182,
+        "urbanN": 183,
         "ruralPct": 27.3,
-        "urbanPct": 21.3
+        "urbanPct": 21.4
       },
       {
         "cat": "Health",
@@ -93330,7 +93350,7 @@ window.CDF_DATA = {
         "ruralN": 173,
         "urbanN": 140,
         "ruralPct": 6.0,
-        "urbanPct": 16.4
+        "urbanPct": 16.3
       },
       {
         "cat": "Police & security",
@@ -93342,17 +93362,17 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4053,
+    "total": 4054,
     "statuses": {
-      "approved": 2616,
+      "approved": 2618,
       "completed": 1068,
       "funded": 10,
-      "in_progress": 40,
+      "in_progress": 39,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.4,
+    "completedPct": 26.3,
     "approvedPct": 64.8,
     "withPhoto": 26,
     "constituencies": 156,

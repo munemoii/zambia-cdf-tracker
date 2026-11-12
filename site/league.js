@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4053,
-  "attributed": 3862,
+  "totalProjects": 4054,
+  "attributed": 3863,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 946
@@ -1860,12 +1860,12 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Kitwe City Council",
-   "named": 34,
+   "named": 35,
    "completed": 8,
    "statusPct": 100,
-   "yearPct": 32,
-   "amountPct": 15,
-   "composite": 49.0,
+   "yearPct": 34,
+   "amountPct": 14,
+   "composite": 49.3,
    "latest": "2026-08-20",
    "constituencies": [
     {

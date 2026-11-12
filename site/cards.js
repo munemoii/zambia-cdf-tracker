@@ -472,7 +472,7 @@ window.CDF_CARDS = {
    "approved": 27,
    "stalled": 0,
    "notStated": 0,
-   "held": 8
+   "held": 4
   },
   "publishers": [
    "Ndola City Council",
@@ -536,13 +536,13 @@ window.CDF_CARDS = {
    "neverStarted": 6
   },
   "published": {
-   "named": 9,
+   "named": 10,
    "completed": 3,
    "inProgress": 0,
-   "approved": 6,
+   "approved": 7,
    "stalled": 0,
    "notStated": 0,
-   "held": 1
+   "held": 0
   },
   "publishers": [
    "ZPPA e-GP (Kitwe City Council)",
@@ -702,7 +702,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 7
+   "held": 6
   },
   "publishers": [
    "Mpongwe Town Council"
@@ -2200,8 +2200,8 @@ window.CDF_CARDS = {
   "published": {
    "named": 59,
    "completed": 1,
-   "inProgress": 1,
-   "approved": 57,
+   "inProgress": 0,
+   "approved": 58,
    "stalled": 0,
    "notStated": 0,
    "held": 0
