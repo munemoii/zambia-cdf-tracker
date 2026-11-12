@@ -863,7 +863,7 @@ window.CDF_CARDS = {
    "approved": 24,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 11
   },
   "publishers": [
    "Chadiza Town Council"
