@@ -64296,7 +64296,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Senanga Town Council stakeholder minutes, 4 Dec 2024, Appendix 2 'Capital Projects': contract sum and Project Status as printed; Source of Funds printed as 2022 CDF. The table's % column is payment performance (Amount Paid as at 31 Dec), NOT physical completion, so completion_pct left blank.",
+                "note": "Senanga Town Council stakeholder minutes, 4 Dec 2024, Appendix 2 'Capital Projects': contract sum and Project Status as printed; Source of Funds printed as 2023 CDF (row 35's own per-row cell). Note corrected by Blitz Confirm 2026-11-12 on an enlarged page-image read of Appendix 2: rows 28-36 each print '2023 CDF Funding' per row, row 35 status 'completed', contract sum 234,500, amount paid 234,801.00 — the live funding year 2023 stands; an earlier version of this note misprinted the source year as 2022. The table's % column is payment performance (Amount Paid as at 31 Dec), NOT physical completion, so completion_pct left blank.",
                 "source": {
                   "publisher": "Senanga Town Council",
                   "title": "Minutes of the Community/Citizens Stakeholder Meeting for 2025 Budget Preparation (Appendix 2: Capital Projects status table)",
