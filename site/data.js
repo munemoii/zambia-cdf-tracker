@@ -237,7 +237,7 @@ window.CDF_DATA = {
   "pilot": {
     "name": "Lusaka",
     "province": "Lusaka",
-    "totalProjects": 256,
+    "totalProjects": 255,
     "fundingYears": {
       "2022": 44,
       "2023": 22,
@@ -789,10 +789,10 @@ window.CDF_DATA = {
       {
         "name": "Chongwe",
         "url": "constituencies/chongwe.html",
-        "count": 57,
+        "count": 56,
         "budgetM": 24.72,
         "statusCounts": {
-          "completed": 9,
+          "completed": 8,
           "approved": 48
         },
         "projects": [
@@ -1194,30 +1194,6 @@ window.CDF_DATA = {
               "date": "2025-05-14"
             },
             "fundingYear": 2025
-          },
-          {
-            "id": 164,
-            "url": "projects/164-construction-of-fully-furnished-maternity-annex-at-mulalika-health-post.html",
-            "name": "Construction of fully furnished maternity annex at Mulalika Health Post",
-            "ward": null,
-            "component": "community",
-            "category": "health",
-            "contractor": null,
-            "budgetM": null,
-            "status": "completed",
-            "completionPct": null,
-            "photo": {
-              "url": "/photos/mulalika-maternity-annex.jpg",
-              "credit": "Chongwe Municipal Council"
-            },
-            "note": null,
-            "source": {
-              "publisher": "Chongwe Municipal Council",
-              "title": "Chongwe District celebrates launch of a fully furnished maternity annex at Mulalika Health Post",
-              "url": "https://www.chongwecouncil.gov.zm/?p=6274",
-              "date": "2025-06"
-            },
-            "fundingYear": null
           },
           {
             "id": 51,
@@ -67228,10 +67204,10 @@ window.CDF_DATA = {
             "name": "Kasempa",
             "url": "constituencies/kasempa.html",
             "count": 51,
-            "budgetM": 0.9,
+            "budgetM": 1.95,
             "statusCounts": {
-              "approved": 44,
-              "completed": 7
+              "approved": 43,
+              "completed": 8
             },
             "projects": [
               {
@@ -68130,16 +68106,16 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "health",
                 "contractor": null,
-                "budgetM": null,
-                "status": "approved",
+                "budgetM": 1.05,
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Kasempa Town Council Approved/Unapproved Community Projects PDF. Item #145; STATUS column reads 'Approved'. Funding year blank (filename 2024 vs header 2025 conflict). No amounts printed. 'Completed' in the item name describes the facilities being equipped (as printed), not this procurement's status.",
+                "note": "Kasempa Town Council Approved/Unapproved Community Projects PDF. Item #145; STATUS column reads 'Approved'. Funding year blank (filename 2024 vs header 2025 conflict). No amounts printed. 'Completed' in the item name describes the facilities being equipped (as printed), not this procurement's status. COMPLETION proved Daily Blitz 2026-11-13: Kasempa Town Council's own handover article (source 679, dated 30 June 2026) records that the MP handed over an assortment of medical equipment worth K1,050,000 funded under the CDF; the same event handed over the ECE furniture from items 146-147 of this list and CDF grants of K2,490,000 to 83 groups at K30,000 each, matching the secondary account of the event. Item 145 is the only medical-equipment procurement in Kasempa's published approved record, so the handed-over equipment is this item; the article names no facility and states no funding year, so the funding year stays unpublished and the budget carried is the article's stated handover value. The secondary source placed a matching handover in 2024 while the council article is dated 30 June 2026 - the discrepancy is recorded, not resolved. The held copy of this handover (north-western/held.csv) was closed as a proved duplicate of this row.",
                 "source": {
                   "publisher": "Kasempa Town Council",
-                  "title": "List of Approved/Unapproved Community Projects proposed by the Ward Development Committees (signed by Council Secretary)",
-                  "url": "https://www.kasempacouncil.gov.zm/wp-content/uploads/2025/11/LIST-OF-APPROVED-UNAPPROVED-2024-COMMUNITY-PROJECTS.pdf",
-                  "date": null
+                  "title": "Hon. Brenda Mwika Tambatamba Hands Over Medical Equipment (council handover article)",
+                  "url": "https://www.kasempacouncil.gov.zm/?p=2773",
+                  "date": "2026-06-30"
                 },
                 "fundingYear": null
               },
@@ -72975,7 +72951,7 @@ window.CDF_DATA = {
       {
         "name": "Lusaka",
         "province": "Lusaka",
-        "totalProjects": 256,
+        "totalProjects": 255,
         "fundingYears": {
           "2022": 44,
           "2023": 22,
@@ -73527,10 +73503,10 @@ window.CDF_DATA = {
           {
             "name": "Chongwe",
             "url": "constituencies/chongwe.html",
-            "count": 57,
+            "count": 56,
             "budgetM": 24.72,
             "statusCounts": {
-              "completed": 9,
+              "completed": 8,
               "approved": 48
             },
             "projects": [
@@ -73932,30 +73908,6 @@ window.CDF_DATA = {
                   "date": "2025-05-14"
                 },
                 "fundingYear": 2025
-              },
-              {
-                "id": 164,
-                "url": "projects/164-construction-of-fully-furnished-maternity-annex-at-mulalika-health-post.html",
-                "name": "Construction of fully furnished maternity annex at Mulalika Health Post",
-                "ward": null,
-                "component": "community",
-                "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "completed",
-                "completionPct": null,
-                "photo": {
-                  "url": "/photos/mulalika-maternity-annex.jpg",
-                  "credit": "Chongwe Municipal Council"
-                },
-                "note": null,
-                "source": {
-                  "publisher": "Chongwe Municipal Council",
-                  "title": "Chongwe District celebrates launch of a fully furnished maternity annex at Mulalika Health Post",
-                  "url": "https://www.chongwecouncil.gov.zm/?p=6274",
-                  "date": "2025-06"
-                },
-                "fundingYear": null
               },
               {
                 "id": 51,
@@ -93377,7 +93329,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4070,
+    "totalProjects": 4069,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -93540,22 +93492,22 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "tracked": 303,
-        "completed": 52,
+        "completed": 53,
         "underway": 12,
-        "approved": 237,
+        "approved": 236,
         "other": 2,
-        "completedPct": 17.2,
+        "completedPct": 17.5,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
       {
         "name": "Lusaka",
-        "tracked": 256,
-        "completed": 80,
+        "tracked": 255,
+        "completed": 79,
         "underway": 37,
         "approved": 137,
         "other": 2,
-        "completedPct": 31.2,
+        "completedPct": 31.0,
         "ruralPct": 18.5,
         "urbanPct": 81.5
       },
@@ -93640,16 +93592,16 @@ window.CDF_DATA = {
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 857,
-        "completed": 143,
-        "pct": 16.7
+        "projects": 856,
+        "completed": 142,
+        "pct": 16.6
       },
       {
         "label": "In between",
         "provinces": 1,
         "projects": 303,
-        "completed": 52,
-        "pct": 17.2
+        "completed": 53,
+        "pct": 17.5
       }
     ],
     "typeMix": [
@@ -93670,9 +93622,9 @@ window.CDF_DATA = {
       {
         "cat": "Health",
         "ruralN": 525,
-        "urbanN": 142,
+        "urbanN": 141,
         "ruralPct": 18.0,
-        "urbanPct": 16.6
+        "urbanPct": 16.5
       },
       {
         "cat": "Other community works",
@@ -93686,7 +93638,7 @@ window.CDF_DATA = {
         "ruralN": 173,
         "urbanN": 140,
         "ruralPct": 5.9,
-        "urbanPct": 16.3
+        "urbanPct": 16.4
       },
       {
         "cat": "Police & security",
@@ -93698,9 +93650,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4070,
+    "total": 4069,
     "statuses": {
-      "approved": 2634,
+      "approved": 2633,
       "completed": 1068,
       "funded": 10,
       "in_progress": 39,
@@ -93710,7 +93662,7 @@ window.CDF_DATA = {
     },
     "completedPct": 26.2,
     "approvedPct": 65.0,
-    "withPhoto": 26,
+    "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10
   }

@@ -1679,13 +1679,13 @@ window.CDF_CARDS = {
    "neverStarted": 0
   },
   "published": {
-   "named": 57,
-   "completed": 9,
+   "named": 56,
+   "completed": 8,
    "inProgress": 0,
    "approved": 48,
    "stalled": 0,
    "notStated": 0,
-   "held": 1
+   "held": 2
   },
   "publishers": [
    "Chongwe Municipal Council"
@@ -2155,12 +2155,12 @@ window.CDF_CARDS = {
   },
   "published": {
    "named": 51,
-   "completed": 7,
+   "completed": 8,
    "inProgress": 0,
-   "approved": 44,
+   "approved": 43,
    "stalled": 0,
    "notStated": 0,
-   "held": 4
+   "held": 3
   },
   "publishers": [
    "Kasempa Town Council"

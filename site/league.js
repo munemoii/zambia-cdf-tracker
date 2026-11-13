@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4070,
-  "attributed": 3879,
+  "totalProjects": 4069,
+  "attributed": 3878,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 946
@@ -996,6 +996,23 @@ window.CDF_LEAGUE = {
    "rank": 54
   },
   {
+   "council": "Chongwe Municipal Council",
+   "named": 56,
+   "completed": 8,
+   "statusPct": 100,
+   "yearPct": 86,
+   "amountPct": 32,
+   "composite": 72.7,
+   "latest": "2026-04-01",
+   "constituencies": [
+    {
+     "name": "Chongwe",
+     "slug": "chongwe"
+    }
+   ],
+   "rank": 55
+  },
+  {
    "council": "Mufulira Municipal Council",
    "named": 291,
    "completed": 0,
@@ -1016,23 +1033,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Mufulira",
      "slug": "mufulira"
-    }
-   ],
-   "rank": 55
-  },
-  {
-   "council": "Chongwe Municipal Council",
-   "named": 57,
-   "completed": 9,
-   "statusPct": 100,
-   "yearPct": 84,
-   "amountPct": 32,
-   "composite": 72.0,
-   "latest": "2026-04-01",
-   "constituencies": [
-    {
-     "name": "Chongwe",
-     "slug": "chongwe"
     }
    ],
    "rank": 56
@@ -1894,12 +1894,12 @@ window.CDF_LEAGUE = {
   {
    "council": "Kasempa Town Council",
    "named": 51,
-   "completed": 7,
+   "completed": 8,
    "statusPct": 100,
    "yearPct": 39,
-   "amountPct": 4,
-   "composite": 47.7,
-   "latest": "2026-01-02",
+   "amountPct": 6,
+   "composite": 48.3,
+   "latest": "2026-06-30",
    "constituencies": [
     {
      "name": "Kasempa",
