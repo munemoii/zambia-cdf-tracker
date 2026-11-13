@@ -83959,16 +83959,16 @@ window.CDF_DATA = {
       {
         "name": "Northern",
         "province": "Northern",
-        "totalProjects": 231,
+        "totalProjects": 247,
         "fundingYears": {
           "2021": 8,
           "2022": 62,
           "2023": 31,
           "2024": 28,
           "2025": 50,
-          "2026": 7
+          "2026": 23
         },
-        "fundingYearKnown": 186,
+        "fundingYearKnown": 202,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -86528,10 +86528,10 @@ window.CDF_DATA = {
           {
             "name": "Lunte",
             "url": "constituencies/lunte.html",
-            "count": 52,
-            "budgetM": 1.66,
+            "count": 68,
+            "budgetM": 2.16,
             "statusCounts": {
-              "approved": 48,
+              "approved": 64,
               "completed": 4
             },
             "projects": [
@@ -86597,6 +86597,48 @@ window.CDF_DATA = {
                   "date": "2022-08-29"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4125,
+                "url": "projects/4125-completion-of-mulukuma-maternity-annex.html",
+                "name": "Completion of Mulukuma Maternity Annex",
+                "ward": "Kanyanta",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.5,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4124,
+                "url": "projects/4124-completion-of-a-district-hospital-within-cbd.html",
+                "name": "Completion of a District Hospital Within CBD",
+                "ward": "Kalungwishi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3867,
@@ -86786,6 +86828,27 @@ window.CDF_DATA = {
                   "date": "2022-08-29"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4135,
+                "url": "projects/4135-construction-of-rural-crossing-point-at-nkuka-village.html",
+                "name": "Construction of Rural Crossing Point at Nkuka Village",
+                "ward": "Kasanshi",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3875,
@@ -87017,6 +87080,27 @@ window.CDF_DATA = {
                   "date": "2022-08-29"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4137,
+                "url": "projects/4137-construction-of-an-ablution-block-at-mukupa-kaoma-market.html",
+                "name": "Construction of an Ablution Block at Mukupa Kaoma Market",
+                "ward": "Kalungwishi",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3886,
@@ -87271,6 +87355,69 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 4138,
+                "url": "projects/4138-installation-of-presidential-constituency-energy-initiative-solar-plant-at-chitoshi.html",
+                "name": "Installation of Presidential Constituency Energy Initiative Solar Plant at Chitoshi",
+                "ward": "Lunte",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4129,
+                "url": "projects/4129-installation-of-solar-power-systems-at-kapatu-rhc.html",
+                "name": "Installation of Solar Power Systems at Kapatu RHC",
+                "ward": "Nchelenje",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4130,
+                "url": "projects/4130-installation-of-solar-power-systems-at-muyembe-rhc.html",
+                "name": "Installation of Solar Power Systems at Muyembe RHC",
+                "ward": "Masonde",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3866,
                 "url": "projects/3866-installation-of-water-reticulation-system-at-malaila.html",
                 "name": "Installation of Water Reticulation System at Malaila",
@@ -87355,6 +87502,48 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4133,
+                "url": "projects/4133-maintenance-and-insurance-of-cdf-vehicles-and-heavy-machinery.html",
+                "name": "Maintenance and Insurance of CDF Vehicles and Heavy Machinery",
+                "ward": "Council Yard",
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4136,
+                "url": "projects/4136-maintenance-of-boreholes-and-equipping-of-solar-operated-mechanised-pump-somap-systems.html",
+                "name": "Maintenance of Boreholes and Equipping of Solar Operated Mechanised Pump (SOMAP) Systems",
+                "ward": "District Wide",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3859,
                 "url": "projects/3859-procurement-of-227-double-sitter-desks-for-mukupa-kaoma-day-secondary-school.html",
                 "name": "Procurement of 227 Double Sitter Desks for Mukupa Kaoma Day Secondary School",
@@ -87374,6 +87563,27 @@ window.CDF_DATA = {
                   "date": "2022-08-29"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4132,
+                "url": "projects/4132-procurement-of-870-desks-for-learning-institutions.html",
+                "name": "Procurement of 870 Desks for Learning Institutions",
+                "ward": "Various Schools",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3885,
@@ -87523,6 +87733,111 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4139,
+                "url": "projects/4139-procurement-of-fuel-for-earth-moving-machines.html",
+                "name": "Procurement of Fuel for Earth Moving Machines",
+                "ward": "District",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4126,
+                "url": "projects/4126-procurement-of-health-equipment-for-chitoshi-clinic.html",
+                "name": "Procurement of Health Equipment for Chitoshi Clinic",
+                "ward": "Lunte",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4127,
+                "url": "projects/4127-procurement-of-maternity-equipment-for-mulukuma-maternity-annex.html",
+                "name": "Procurement of Maternity Equipment for Mulukuma Maternity Annex",
+                "ward": "Kanyanta",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4128,
+                "url": "projects/4128-procurement-of-medical-equipment-and-installation-of-solar-energy-at-maute-rhc.html",
+                "name": "Procurement of Medical Equipment and Installation of Solar Energy at Maute RHC",
+                "ward": "Malaila",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4134,
+                "url": "projects/4134-procurement-of-office-furniture-and-rehabilitation-of-existing-council-offices.html",
+                "name": "Procurement of Office Furniture and Rehabilitation of Existing Council Offices",
+                "ward": "Civic Centre",
+                "component": "community",
+                "category": "administration",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1808,
                 "url": "projects/1808-procurement-of-two-banana-boats.html",
                 "name": "Procurement of Two Banana Boats",
@@ -87563,6 +87878,27 @@ window.CDF_DATA = {
                   "date": "2025-04-03"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4131,
+                "url": "projects/4131-procurement-of-a-fuel-skid-tank-for-fuel-storage.html",
+                "name": "Procurement of a Fuel Skid Tank for Fuel Storage",
+                "ward": "Council Yard",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Lunte Town Council",
+                  "title": "2026 CDF Community Projects (PLGO Northern Province conveyance of approval, Ref MLGRD/64/5/14, letter 7 Apr 2026; Notification of Approval MLGRD/NP/64/5/14, 07/04/26 - 16 community projects K23,386,333.90; table '2026 APPROVED COMMUNITY PROJECT' states YEAR/SOURCE OF FUNDING 2026 per row, no per-row amounts except row 2 K500,000 stated in its description)",
+                  "url": "https://luntecouncil.gov.zm/wp-content/uploads/2026/09/2026-PROJECTS.pdf",
+                  "date": "2026-04-07"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3879,
@@ -93041,7 +93377,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4054,
+    "totalProjects": 4070,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -93049,9 +93385,9 @@ window.CDF_DATA = {
       "2023": 453,
       "2024": 675,
       "2025": 1161,
-      "2026": 402
+      "2026": 418
     },
-    "fundingYearKnown": 3228
+    "fundingYearKnown": 3244
   },
   "people": {
     "bursaries": [
@@ -93170,12 +93506,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Northern",
-        "tracked": 231,
+        "tracked": 247,
         "completed": 77,
         "underway": 39,
-        "approved": 112,
+        "approved": 128,
         "other": 3,
-        "completedPct": 33.3,
+        "completedPct": 31.2,
         "ruralPct": 77.7,
         "urbanPct": 22.3
       },
@@ -93297,9 +93633,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2894,
+        "projects": 2910,
         "completed": 873,
-        "pct": 30.2
+        "pct": 30.0
       },
       {
         "label": "Urban provinces",
@@ -93319,37 +93655,37 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 888,
+        "ruralN": 889,
         "urbanN": 184,
-        "ruralPct": 30.7,
+        "ruralPct": 30.5,
         "urbanPct": 21.5
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 790,
+        "ruralN": 792,
         "urbanN": 183,
-        "ruralPct": 27.3,
+        "ruralPct": 27.2,
         "urbanPct": 21.4
       },
       {
         "cat": "Health",
-        "ruralN": 520,
+        "ruralN": 525,
         "urbanN": 142,
         "ruralPct": 18.0,
         "urbanPct": 16.6
       },
       {
         "cat": "Other community works",
-        "ruralN": 473,
+        "ruralN": 481,
         "urbanN": 177,
-        "ruralPct": 16.3,
+        "ruralPct": 16.5,
         "urbanPct": 20.7
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 173,
         "urbanN": 140,
-        "ruralPct": 6.0,
+        "ruralPct": 5.9,
         "urbanPct": 16.3
       },
       {
@@ -93362,9 +93698,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4054,
+    "total": 4070,
     "statuses": {
-      "approved": 2618,
+      "approved": 2634,
       "completed": 1068,
       "funded": 10,
       "in_progress": 39,
@@ -93372,8 +93708,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.3,
-    "approvedPct": 64.8,
+    "completedPct": 26.2,
+    "approvedPct": 65.0,
     "withPhoto": 26,
     "constituencies": 156,
     "provinces": 10

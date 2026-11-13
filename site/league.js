@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4054,
-  "attributed": 3863,
+  "totalProjects": 4070,
+  "attributed": 3879,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 946
@@ -1145,13 +1145,13 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Lunte Town Council",
-   "named": 51,
+   "named": 67,
    "completed": 3,
    "statusPct": 100,
    "yearPct": 100,
    "amountPct": 4,
    "composite": 68.0,
-   "latest": "2025-12",
+   "latest": "2026-04-07",
    "constituencies": [
     {
      "name": "Lunte",

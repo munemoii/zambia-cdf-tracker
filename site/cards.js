@@ -1000,7 +1000,7 @@ window.CDF_CARDS = {
    "approved": 57,
    "stalled": 0,
    "notStated": 0,
-   "held": 3
+   "held": 5
   },
   "publishers": [
    "Sinda Town Council",
@@ -1267,7 +1267,7 @@ window.CDF_CARDS = {
    "approved": 69,
    "stalled": 0,
    "notStated": 0,
-   "held": 11
+   "held": 15
   },
   "publishers": [
    "Sinda Town Council"
@@ -2489,10 +2489,10 @@ window.CDF_CARDS = {
    "neverStarted": 4
   },
   "published": {
-   "named": 52,
+   "named": 68,
    "completed": 4,
    "inProgress": 0,
-   "approved": 48,
+   "approved": 64,
    "stalled": 0,
    "notStated": 0,
    "held": 3
