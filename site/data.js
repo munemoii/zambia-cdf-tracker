@@ -240,12 +240,12 @@ window.CDF_DATA = {
     "totalProjects": 255,
     "fundingYears": {
       "2022": 44,
-      "2023": 22,
+      "2023": 23,
       "2024": 12,
       "2025": 62,
       "2026": 57
     },
-    "fundingYearKnown": 197,
+    "fundingYearKnown": 198,
     "constituencies": [
       {
         "name": "Chawama",
@@ -5365,14 +5365,14 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": null,
-            "note": null,
+            "note": "Funding year pinned 2026-11-14 (Daily Blitz audit arm; coordinator re-read the source firsthand): cited source 34 (Lusaka Provincial Administration, 'Chief Bunda Bunda commends government for development in Rufunsa') states the three handed-over Rufunsa projects were built under the 2023 Constituency Development Fund, with the 1x2 laboratory at Kankumba Combined School at a cost of K821,049.16 — matching this row's amount exactly. The year was previously unpublished on this row.",
             "source": {
               "publisher": "Lusaka Provincial Administration",
               "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
               "url": "https://www.lsk.gov.zm/?p=3578",
               "date": null
             },
-            "fundingYear": null
+            "fundingYear": 2023
           },
           {
             "id": 105,
@@ -22093,11 +22093,11 @@ window.CDF_DATA = {
           "2021": 1,
           "2022": 43,
           "2023": 53,
-          "2024": 133,
+          "2024": 134,
           "2025": 219,
           "2026": 26
         },
-        "fundingYearKnown": 475,
+        "fundingYearKnown": 476,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -33299,14 +33299,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-14 (Daily Blitz audit arm; coordinator re-verified via live browser): cited source 272 (Namwala Town Council branded-projects table) row 18 lists Mulala Primary School — 1X3 CRB — CDF year 2024 — Ndema ward, matching this row's name and ward. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 1148,
@@ -66420,12 +66420,12 @@ window.CDF_DATA = {
         "fundingYears": {
           "2020": 2,
           "2021": 1,
-          "2022": 61,
+          "2022": 62,
           "2023": 41,
           "2024": 47,
           "2025": 84
         },
-        "fundingYearKnown": 236,
+        "fundingYearKnown": 237,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -70248,14 +70248,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-14 (Daily Blitz audit arm; coordinator re-verified via live browser): cited source 82 (Mwinilunga Town Council, 'Mwinilunga MP Hands Over Three (3) CDF Projects', 27 Dec 2023) states the MP handed over three 2022 Constituency Development Funded (CDF) projects, listing the 1x3 classroom block at Nswanakuda Secondary school in Kawiko ward among them. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Mwinilunga Town Council",
                   "title": "Mwinilunga MP Hands Over Three (3) CDF Projects",
                   "url": "https://www.mwinilungacouncil.gov.zm/?p=2114",
                   "date": "2023-12-27"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 385,
@@ -72954,12 +72954,12 @@ window.CDF_DATA = {
         "totalProjects": 255,
         "fundingYears": {
           "2022": 44,
-          "2023": 22,
+          "2023": 23,
           "2024": 12,
           "2025": 62,
           "2026": 57
         },
-        "fundingYearKnown": 197,
+        "fundingYearKnown": 198,
         "constituencies": [
           {
             "name": "Chawama",
@@ -78079,14 +78079,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-14 (Daily Blitz audit arm; coordinator re-read the source firsthand): cited source 34 (Lusaka Provincial Administration, 'Chief Bunda Bunda commends government for development in Rufunsa') states the three handed-over Rufunsa projects were built under the 2023 Constituency Development Fund, with the 1x2 laboratory at Kankumba Combined School at a cost of K821,049.16 — matching this row's amount exactly. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Lusaka Provincial Administration",
                   "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
                   "url": "https://www.lsk.gov.zm/?p=3578",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 105,
@@ -89276,10 +89276,10 @@ window.CDF_DATA = {
           "2022": 7,
           "2023": 33,
           "2024": 40,
-          "2025": 42,
+          "2025": 43,
           "2026": 19
         },
-        "fundingYearKnown": 141,
+        "fundingYearKnown": 142,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -90736,14 +90736,14 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-14 (Daily Blitz audit arm; coordinator re-verified via live browser): cited source 175 (Kanchibiya Town Council, Minutes of the CDFC meeting held 18 February 2025) heads its budgets table 'Budgets for Community Projects CDF 2025 Submissions to CDFC'; row 11 is Completion of Namusulwa Health Post, Munikashi, K713,812.67 — matching this row's ward and amount. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Kanchibiya Town Council",
                   "title": "Minutes of the Constituency Development Fund Committee Meeting held 18 February 2025, incl. Updated Status Progress Report as at 17 February 2025 and Budgets for Community Projects CDF 2025 Submissions to CDFC",
                   "url": "https://www.kanchibiyacouncil.gov.zm/wp-content/uploads/2025/11/KTC-Minutes-of-CDFC-of-18-02-2025.pdf",
                   "date": "2025-02-18"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 796,
@@ -93333,13 +93333,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 525,
-      "2023": 453,
-      "2024": 675,
-      "2025": 1161,
+      "2022": 526,
+      "2023": 454,
+      "2024": 676,
+      "2025": 1162,
       "2026": 418
     },
-    "fundingYearKnown": 3244
+    "fundingYearKnown": 3248
   },
   "people": {
     "bursaries": [

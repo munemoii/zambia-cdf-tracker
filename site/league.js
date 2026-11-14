@@ -1114,9 +1114,9 @@ window.CDF_LEAGUE = {
    "named": 32,
    "completed": 2,
    "statusPct": 100,
-   "yearPct": 6,
+   "yearPct": 9,
    "amountPct": 100,
-   "composite": 68.7,
+   "composite": 69.7,
    "latest": "2025-02-18",
    "constituencies": [
     {
@@ -1267,6 +1267,23 @@ window.CDF_LEAGUE = {
    "rank": 69
   },
   {
+   "council": "Mwinilunga Town Council",
+   "named": 12,
+   "completed": 3,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 0,
+   "composite": 66.7,
+   "latest": "2025-03-07",
+   "constituencies": [
+    {
+     "name": "Mwinilunga",
+     "slug": "mwinilunga"
+    }
+   ],
+   "rank": 70
+  },
+  {
    "council": "Nchelenge Town Council",
    "named": 10,
    "completed": 0,
@@ -1281,7 +1298,7 @@ window.CDF_LEAGUE = {
      "slug": "nchelenge"
     }
    ],
-   "rank": 70
+   "rank": 71
   },
   {
    "council": "Chifunabuli Town Council",
@@ -1298,7 +1315,7 @@ window.CDF_LEAGUE = {
      "slug": "chifunabuli"
     }
    ],
-   "rank": 71
+   "rank": 72
   },
   {
    "council": "Ngabwe Town Council",
@@ -1315,7 +1332,7 @@ window.CDF_LEAGUE = {
      "slug": "lufubu"
     }
    ],
-   "rank": 72
+   "rank": 73
   },
   {
    "council": "Chama Town Council",
@@ -1336,7 +1353,7 @@ window.CDF_LEAGUE = {
      "slug": "chama-south"
     }
    ],
-   "rank": 73
+   "rank": 74
   },
   {
    "council": "Mporokoso Town Council",
@@ -1353,7 +1370,7 @@ window.CDF_LEAGUE = {
      "slug": "mporokoso"
     }
    ],
-   "rank": 74
+   "rank": 75
   },
   {
    "council": "Chavuma Town Council",
@@ -1370,7 +1387,7 @@ window.CDF_LEAGUE = {
      "slug": "chavuma"
     }
    ],
-   "rank": 75
+   "rank": 76
   },
   {
    "council": "Luano Town Council",
@@ -1387,7 +1404,7 @@ window.CDF_LEAGUE = {
      "slug": "mkushi-south"
     }
    ],
-   "rank": 76
+   "rank": 77
   },
   {
    "council": "Monze Town Council",
@@ -1412,7 +1429,7 @@ window.CDF_LEAGUE = {
      "slug": "moomba"
     }
    ],
-   "rank": 77
+   "rank": 78
   },
   {
    "council": "Mwense Town Council",
@@ -1433,7 +1450,7 @@ window.CDF_LEAGUE = {
      "slug": "mwense"
     }
    ],
-   "rank": 78
+   "rank": 79
   },
   {
    "council": "Katete Town Council",
@@ -1454,7 +1471,7 @@ window.CDF_LEAGUE = {
      "slug": "mkaika"
     }
    ],
-   "rank": 79
+   "rank": 80
   },
   {
    "council": "Kalulushi Municipal Council",
@@ -1469,23 +1486,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Kalulushi",
      "slug": "kalulushi"
-    }
-   ],
-   "rank": 80
-  },
-  {
-   "council": "Mwinilunga Town Council",
-   "named": 12,
-   "completed": 3,
-   "statusPct": 100,
-   "yearPct": 92,
-   "amountPct": 0,
-   "composite": 64.0,
-   "latest": "2025-03-07",
-   "constituencies": [
-    {
-     "name": "Mwinilunga",
-     "slug": "mwinilunga"
     }
    ],
    "rank": 81
@@ -1576,6 +1576,23 @@ window.CDF_LEAGUE = {
    "rank": 86
   },
   {
+   "council": "Namwala Town Council",
+   "named": 35,
+   "completed": 22,
+   "statusPct": 100,
+   "yearPct": 71,
+   "amountPct": 9,
+   "composite": 60.0,
+   "latest": "2026-02-23",
+   "constituencies": [
+    {
+     "name": "Namwala",
+     "slug": "namwala"
+    }
+   ],
+   "rank": 87
+  },
+  {
    "council": "Chikankata Town Council",
    "named": 20,
    "completed": 19,
@@ -1590,7 +1607,7 @@ window.CDF_LEAGUE = {
      "slug": "chikankata"
     }
    ],
-   "rank": 87
+   "rank": 88
   },
   {
    "council": "Lundazi Town Council",
@@ -1607,7 +1624,7 @@ window.CDF_LEAGUE = {
      "slug": "lundazi"
     }
    ],
-   "rank": 88
+   "rank": 89
   },
   {
    "council": "Mongu Municipal Council",
@@ -1626,23 +1643,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Nalikwanda",
      "slug": "nalikwanda"
-    }
-   ],
-   "rank": 89
-  },
-  {
-   "council": "Namwala Town Council",
-   "named": 35,
-   "completed": 22,
-   "statusPct": 100,
-   "yearPct": 69,
-   "amountPct": 9,
-   "composite": 59.3,
-   "latest": "2026-02-23",
-   "constituencies": [
-    {
-     "name": "Namwala",
-     "slug": "namwala"
     }
    ],
    "rank": 90
