@@ -1421,7 +1421,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 7
+   "held": 21
   },
   "publishers": [
    "Chipili Town Council"
