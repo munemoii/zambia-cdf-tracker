@@ -22091,13 +22091,13 @@ window.CDF_DATA = {
         "totalProjects": 633,
         "fundingYears": {
           "2021": 1,
-          "2022": 43,
+          "2022": 45,
           "2023": 53,
           "2024": 134,
           "2025": 219,
           "2026": 26
         },
-        "fundingYearKnown": 476,
+        "fundingYearKnown": 478,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -26473,14 +26473,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": 100.0,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-15 (Daily Blitz audit arm; coordinator re-read the source firsthand): cited source 281 (Kazungula Town Council, Update on 2022 and 2023 CDF Projects), 2022 report row 17: 'Construction of a collapsed Septic Tank at Makunka Primary School in Sekute Ward — 2022 CDF (Disaster Contingency) — 50,000.00 — Labour based — Sekute — 100% — Works that were initially envisaged have been completed', matching this row's amount, contractor, ward and completed status. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Kazungula Town Council",
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1298,
@@ -26932,10 +26932,10 @@ window.CDF_DATA = {
             "name": "Livingstone",
             "url": "constituencies/livingstone.html",
             "count": 56,
-            "budgetM": 4.12,
+            "budgetM": 3.22,
             "statusCounts": {
-              "approved": 45,
-              "completed": 10,
+              "approved": 46,
+              "completed": 9,
               "ongoing": 1
             },
             "projects": [
@@ -27640,11 +27640,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "infrastructure",
                 "contractor": null,
-                "budgetM": 0.8965,
-                "status": "completed",
+                "budgetM": null,
+                "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Status and budget corrected 2026-11-15 (Daily Blitz audit arm; coordinator re-read the cited source in full): cited source 268 (Livingstone City Council, 'APPROVED 2024 CDF COMMUNITY PROJECTS') item 6 lists 'Installation of 40 solar street lights — Kariba — Solar streetlights — along Nyansa Road' among the APPROVED 2024 projects. The document carries no completion, commissioning or handover wording for any item and prints no amounts at all, and no other source in the record supports a completion or the previously carried K896,500 figure; two web searches on 2026-11-15 found no completion source. Status corrected completed -> approved on the cited source, and the budget is unpublished until a source states it. Funding year 2024 and ward Kariba stand as printed in the list.",
                 "source": {
                   "publisher": "Livingstone City Council",
                   "title": "Approved 2024 CDF Community Projects",
@@ -33128,14 +33128,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-15 (Daily Blitz audit arm; coordinator re-read the source firsthand): cited source 272 (Namwala Town Council branded-projects table) row 1 lists Chinyemu Community School — 1X2 CRB — CDF year 2022 — Namwala Central ward, matching this row's name and ward. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1139,
@@ -35677,10 +35677,10 @@ window.CDF_DATA = {
           "2022": 27,
           "2023": 143,
           "2024": 129,
-          "2025": 154,
+          "2025": 155,
           "2026": 59
         },
-        "fundingYearKnown": 512,
+        "fundingYearKnown": 513,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -45292,14 +45292,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-15 (Daily Blitz audit arm; coordinator live-browser retry re-read the source): cited source 635 (Mpongwe Town Council, 'Mpongwe Council Intensifies Road Works as it Procures a Roller Compactor') states the Council procured a twenty-ton roller compactor at a total cost of K2,800,000 through the 2025 Constituency Development Fund — matching this row's amount. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Mpongwe Town Council",
                   "title": "Mpongwe Council Intensifies Road Works as it Procures a Roller Compactor",
                   "url": "https://www.mpongwecouncil.gov.zm/?p=2398",
                   "date": "2025-06-25"
                 },
-                "fundingYear": null
+                "fundingYear": 2025
               },
               {
                 "id": 2940,
@@ -84483,13 +84483,13 @@ window.CDF_DATA = {
         "totalProjects": 247,
         "fundingYears": {
           "2021": 8,
-          "2022": 62,
+          "2022": 64,
           "2023": 31,
           "2024": 28,
           "2025": 50,
           "2026": 23
         },
-        "fundingYearKnown": 202,
+        "fundingYearKnown": 204,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -85155,14 +85155,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-15 (Daily Blitz audit arm; coordinator re-read the source firsthand): cited source 127 (Nsama Town Council, Minutes of the Stakeholders' Engagement Meeting held 16 December 2024), Table 2 'CDF Projects under 2022 allocation', row 20 lists 'Drilling of Borehole and Installation of a Water Scheme — at Nsemiwe Primary School', Fungwa ward, Bukobo Crafts Centre Limited, K438,930.00 contract sum and paid, status Complete — matching this row's ward, contractor, amount and completed status. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Nsama Town Council",
                   "title": "Minutes of the Nsama Stakeholders' Engagement Meeting held on 16th December 2024",
                   "url": "https://www.nsamacouncil.gov.zm/wp-content/uploads/2025/08/Stakholders-meeting-minutes_17.12.2024-1-1.pdf",
                   "date": "2024-12-16"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 614,
@@ -88720,14 +88720,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-15 (Daily Blitz audit arm; coordinator re-read the source firsthand): cited source 131 (Mbala Municipal Council Newsletter, Issue 1 2023) reports: 'Following the completion of several Constituency Development Fund projects implemented under the 2022 CDF allocation, Mbala Municipal Council officially handed over three Community projects namely, 1x2 Classroom Block and Staff House at Musende Primary School, 1x3 Classroom Block at Ndundundu Primary School and a 1x2 Classroom block at Chila Deaf Primary School valued at a combined cost of K1,937,600'. This row is the Musende project; the combined cost is not split per project, so no amount is carried. The year was previously unpublished on this row.",
                 "source": {
                   "publisher": "Mbala Municipal Council",
                   "title": "Mbala Municipal Council Newsletter, Issue 1 2023",
                   "url": "https://www.mbalacouncil.gov.zm/wp-content/uploads/2023/12/MBALA-MUNICIPAL-COUNCIL-NEWSLETTER-1.pdf",
                   "date": "2023"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 660,
@@ -93902,13 +93902,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 526,
+      "2022": 530,
       "2023": 454,
       "2024": 676,
-      "2025": 1162,
+      "2025": 1163,
       "2026": 445
     },
-    "fundingYearKnown": 3275
+    "fundingYearKnown": 3280
   },
   "people": {
     "bursaries": [
@@ -94050,11 +94050,11 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "tracked": 633,
-        "completed": 220,
+        "completed": 219,
         "underway": 38,
-        "approved": 373,
+        "approved": 374,
         "other": 2,
-        "completedPct": 34.8,
+        "completedPct": 34.6,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -94155,7 +94155,7 @@ window.CDF_DATA = {
         "label": "Rural provinces",
         "provinces": 7,
         "projects": 2910,
-        "completed": 873,
+        "completed": 872,
         "pct": 30.0
       },
       {
@@ -94221,15 +94221,15 @@ window.CDF_DATA = {
   "record": {
     "total": 4096,
     "statuses": {
-      "approved": 2660,
-      "completed": 1068,
+      "approved": 2661,
+      "completed": 1067,
       "funded": 10,
       "in_progress": 39,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.1,
+    "completedPct": 26.0,
     "approvedPct": 65.2,
     "withPhoto": 25,
     "constituencies": 156,

@@ -1663,7 +1663,7 @@ window.CDF_CARDS = {
    "approved": 1,
    "stalled": 1,
    "notStated": 0,
-   "held": 21
+   "held": 17
   },
   "publishers": [
    "Chilanga Town Council"
@@ -2846,9 +2846,9 @@ window.CDF_CARDS = {
   },
   "published": {
    "named": 56,
-   "completed": 10,
+   "completed": 9,
    "inProgress": 1,
-   "approved": 45,
+   "approved": 46,
    "stalled": 0,
    "notStated": 0,
    "held": 0

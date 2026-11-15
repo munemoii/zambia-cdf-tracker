@@ -6,7 +6,7 @@ window.CDF_LEAGUE = {
   "attributed": 3905,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 946
+  "councilCompleted": 945
  },
  "councils": [
   {
@@ -797,6 +797,23 @@ window.CDF_LEAGUE = {
    "rank": 43
   },
   {
+   "council": "Nsama Town Council",
+   "named": 39,
+   "completed": 22,
+   "statusPct": 100,
+   "yearPct": 59,
+   "amountPct": 74,
+   "composite": 77.7,
+   "latest": "2024-12-16",
+   "constituencies": [
+    {
+     "name": "Chimbamilonga",
+     "slug": "chimbamilonga"
+    }
+   ],
+   "rank": 44
+  },
+  {
    "council": "Solwezi Municipal Council",
    "named": 27,
    "completed": 3,
@@ -811,7 +828,7 @@ window.CDF_LEAGUE = {
      "slug": "solwezi-central"
     }
    ],
-   "rank": 44
+   "rank": 45
   },
   {
    "council": "Kafue Town Council",
@@ -826,23 +843,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Kafue",
      "slug": "kafue"
-    }
-   ],
-   "rank": 45
-  },
-  {
-   "council": "Nsama Town Council",
-   "named": 39,
-   "completed": 22,
-   "statusPct": 100,
-   "yearPct": 56,
-   "amountPct": 74,
-   "composite": 76.7,
-   "latest": "2024-12-16",
-   "constituencies": [
-    {
-     "name": "Chimbamilonga",
-     "slug": "chimbamilonga"
     }
    ],
    "rank": 46
@@ -924,6 +924,23 @@ window.CDF_LEAGUE = {
    "rank": 50
   },
   {
+   "council": "Kazungula Town Council",
+   "named": 40,
+   "completed": 20,
+   "statusPct": 100,
+   "yearPct": 42,
+   "amountPct": 80,
+   "composite": 74.0,
+   "latest": null,
+   "constituencies": [
+    {
+     "name": "Katombola",
+     "slug": "katombola"
+    }
+   ],
+   "rank": 51
+  },
+  {
    "council": "Limulunga Town Council",
    "named": 32,
    "completed": 0,
@@ -938,24 +955,24 @@ window.CDF_LEAGUE = {
      "slug": "luena"
     }
    ],
-   "rank": 51
+   "rank": 52
   },
   {
-   "council": "Kazungula Town Council",
-   "named": 40,
-   "completed": 20,
+   "council": "Mbala Municipal Council",
+   "named": 10,
+   "completed": 7,
    "statusPct": 100,
-   "yearPct": 40,
-   "amountPct": 80,
+   "yearPct": 60,
+   "amountPct": 60,
    "composite": 73.3,
-   "latest": null,
+   "latest": "2023",
    "constituencies": [
     {
-     "name": "Katombola",
-     "slug": "katombola"
+     "name": "Mbala",
+     "slug": "mbala"
     }
    ],
-   "rank": 52
+   "rank": 53
   },
   {
    "council": "Nkeyema Town Council",
@@ -972,7 +989,7 @@ window.CDF_LEAGUE = {
      "slug": "nkeyema"
     }
    ],
-   "rank": 53
+   "rank": 54
   },
   {
    "council": "Chongwe Municipal Council",
@@ -989,7 +1006,7 @@ window.CDF_LEAGUE = {
      "slug": "chongwe"
     }
    ],
-   "rank": 54
+   "rank": 55
   },
   {
    "council": "Mufulira Municipal Council",
@@ -1014,7 +1031,7 @@ window.CDF_LEAGUE = {
      "slug": "mufulira"
     }
    ],
-   "rank": 55
+   "rank": 56
   },
   {
    "council": "Chadiza Town Council",
@@ -1031,7 +1048,7 @@ window.CDF_LEAGUE = {
      "slug": "chadiza"
     }
    ],
-   "rank": 56
+   "rank": 57
   },
   {
    "council": "Sinda Town Council",
@@ -1052,7 +1069,7 @@ window.CDF_LEAGUE = {
      "slug": "sinda"
     }
    ],
-   "rank": 57
+   "rank": 58
   },
   {
    "council": "Mpika Town Council",
@@ -1069,7 +1086,7 @@ window.CDF_LEAGUE = {
      "slug": "mpika-central"
     }
    ],
-   "rank": 58
+   "rank": 59
   },
   {
    "council": "Zambezi Town Council",
@@ -1088,23 +1105,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Zambezi West",
      "slug": "zambezi-west"
-    }
-   ],
-   "rank": 59
-  },
-  {
-   "council": "Mbala Municipal Council",
-   "named": 10,
-   "completed": 7,
-   "statusPct": 100,
-   "yearPct": 50,
-   "amountPct": 60,
-   "composite": 70.0,
-   "latest": "2023",
-   "constituencies": [
-    {
-     "name": "Mbala",
-     "slug": "mbala"
     }
    ],
    "rank": 60
@@ -1542,6 +1542,23 @@ window.CDF_LEAGUE = {
    "rank": 84
   },
   {
+   "council": "Namwala Town Council",
+   "named": 35,
+   "completed": 22,
+   "statusPct": 100,
+   "yearPct": 74,
+   "amountPct": 9,
+   "composite": 61.0,
+   "latest": "2026-02-23",
+   "constituencies": [
+    {
+     "name": "Namwala",
+     "slug": "namwala"
+    }
+   ],
+   "rank": 85
+  },
+  {
    "council": "Chilanga Town Council",
    "named": 22,
    "completed": 17,
@@ -1556,7 +1573,7 @@ window.CDF_LEAGUE = {
      "slug": "chilanga"
     }
    ],
-   "rank": 85
+   "rank": 86
   },
   {
    "council": "Chasefu Town Council",
@@ -1571,23 +1588,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Chasefu",
      "slug": "chasefu"
-    }
-   ],
-   "rank": 86
-  },
-  {
-   "council": "Namwala Town Council",
-   "named": 35,
-   "completed": 22,
-   "statusPct": 100,
-   "yearPct": 71,
-   "amountPct": 9,
-   "composite": 60.0,
-   "latest": "2026-02-23",
-   "constituencies": [
-    {
-     "name": "Namwala",
-     "slug": "namwala"
     }
    ],
    "rank": 87
@@ -1774,23 +1774,6 @@ window.CDF_LEAGUE = {
    "rank": 96
   },
   {
-   "council": "Livingstone City Council",
-   "named": 56,
-   "completed": 10,
-   "statusPct": 100,
-   "yearPct": 46,
-   "amountPct": 11,
-   "composite": 52.3,
-   "latest": "2026-06",
-   "constituencies": [
-    {
-     "name": "Livingstone",
-     "slug": "livingstone"
-    }
-   ],
-   "rank": 97
-  },
-  {
    "council": "Chitambo Town Council",
    "named": 7,
    "completed": 3,
@@ -1805,7 +1788,7 @@ window.CDF_LEAGUE = {
      "slug": "chitambo"
     }
    ],
-   "rank": 98
+   "rank": 97
   },
   {
    "council": "Rufunsa Town Council",
@@ -1820,6 +1803,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Rufunsa",
      "slug": "rufunsa"
+    }
+   ],
+   "rank": 98
+  },
+  {
+   "council": "Livingstone City Council",
+   "named": 56,
+   "completed": 9,
+   "statusPct": 100,
+   "yearPct": 46,
+   "amountPct": 9,
+   "composite": 51.7,
+   "latest": "2026-06",
+   "constituencies": [
+    {
+     "name": "Livingstone",
+     "slug": "livingstone"
     }
    ],
    "rank": 99
@@ -1947,6 +1947,23 @@ window.CDF_LEAGUE = {
    "rank": 105
   },
   {
+   "council": "Mpongwe Town Council",
+   "named": 13,
+   "completed": 6,
+   "statusPct": 100,
+   "yearPct": 8,
+   "amountPct": 8,
+   "composite": 38.7,
+   "latest": "2025-06-25",
+   "constituencies": [
+    {
+     "name": "Mpongwe",
+     "slug": "mpongwe"
+    }
+   ],
+   "rank": 106
+  },
+  {
    "council": "Shibuyunji Town Council",
    "named": 23,
    "completed": 19,
@@ -1959,23 +1976,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Mwembeshi",
      "slug": "mwembeshi"
-    }
-   ],
-   "rank": 106
-  },
-  {
-   "council": "Mpongwe Town Council",
-   "named": 13,
-   "completed": 6,
-   "statusPct": 100,
-   "yearPct": 0,
-   "amountPct": 8,
-   "composite": 36.0,
-   "latest": "2025-06-25",
-   "constituencies": [
-    {
-     "name": "Mpongwe",
-     "slug": "mpongwe"
     }
    ],
    "rank": 107
