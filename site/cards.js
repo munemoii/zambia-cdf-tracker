@@ -2846,9 +2846,9 @@ window.CDF_CARDS = {
   },
   "published": {
    "named": 56,
-   "completed": 9,
+   "completed": 7,
    "inProgress": 1,
-   "approved": 46,
+   "approved": 48,
    "stalled": 0,
    "notStated": 0,
    "held": 0

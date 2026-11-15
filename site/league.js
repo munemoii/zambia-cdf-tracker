@@ -6,7 +6,7 @@ window.CDF_LEAGUE = {
   "attributed": 3905,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 945
+  "councilCompleted": 943
  },
  "councils": [
   {
@@ -1810,11 +1810,11 @@ window.CDF_LEAGUE = {
   {
    "council": "Livingstone City Council",
    "named": 56,
-   "completed": 9,
+   "completed": 7,
    "statusPct": 100,
    "yearPct": 46,
-   "amountPct": 9,
-   "composite": 51.7,
+   "amountPct": 5,
+   "composite": 50.3,
    "latest": "2026-06",
    "constituencies": [
     {

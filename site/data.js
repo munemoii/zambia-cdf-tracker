@@ -26932,10 +26932,10 @@ window.CDF_DATA = {
             "name": "Livingstone",
             "url": "constituencies/livingstone.html",
             "count": 56,
-            "budgetM": 3.22,
+            "budgetM": 2.15,
             "statusCounts": {
-              "approved": 46,
-              "completed": 9,
+              "approved": 48,
+              "completed": 7,
               "ongoing": 1
             },
             "projects": [
@@ -27178,11 +27178,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "infrastructure",
                 "contractor": null,
-                "budgetM": 0.5995,
-                "status": "completed",
+                "budgetM": null,
+                "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Status and budget corrected 2026-11-15 (Blitz Confirm daily pass; cited source re-read in full firsthand): cited source 268 (Livingstone City Council, 'APPROVED 2024 CDF COMMUNITY PROJECTS') item 1 lists 'Construction of taxi rank shelter along Kapondo Street — Akapelwa' among the APPROVED 2024 projects. The document carries no completion, commissioning or handover wording for any item and prints no amounts at all, and no other source in the record supports a completion or the previously carried K599,511.50 figure; a web search on 2026-11-15 found no completion source. Status corrected completed -> approved on the cited source (same treatment as DB 1100, corrected the same day from the same source), and the budget is unpublished until a source states it. Funding year 2024 and ward Akapelwa stand as printed in the list.",
                 "source": {
                   "publisher": "Livingstone City Council",
                   "title": "Approved 2024 CDF Community Projects",
@@ -27304,11 +27304,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "sanitation",
                 "contractor": null,
-                "budgetM": 0.472,
-                "status": "completed",
+                "budgetM": null,
+                "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Status and budget corrected 2026-11-15 (Blitz Confirm daily pass; cited source re-read in full firsthand): cited source 268 (Livingstone City Council, 'APPROVED 2024 CDF COMMUNITY PROJECTS') item 12 lists 'Construction of an ablution block at Malota Community School — Mulungushi' among the APPROVED 2024 projects. The document carries no completion, commissioning or handover wording for any item and prints no amounts at all, and no other source in the record supports a completion or the previously carried K472,000 figure; a web search on 2026-11-15 found no completion source. Status corrected completed -> approved on the cited source (same treatment as DB 1100, corrected the same day from the same source), and the budget is unpublished until a source states it. Funding year 2024 and ward Mulungushi stand as printed in the list.",
                 "source": {
                   "publisher": "Livingstone City Council",
                   "title": "Approved 2024 CDF Community Projects",
@@ -94050,11 +94050,11 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "tracked": 633,
-        "completed": 219,
+        "completed": 217,
         "underway": 38,
-        "approved": 374,
+        "approved": 376,
         "other": 2,
-        "completedPct": 34.6,
+        "completedPct": 34.3,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -94155,8 +94155,8 @@ window.CDF_DATA = {
         "label": "Rural provinces",
         "provinces": 7,
         "projects": 2910,
-        "completed": 872,
-        "pct": 30.0
+        "completed": 870,
+        "pct": 29.9
       },
       {
         "label": "Urban provinces",
@@ -94221,8 +94221,8 @@ window.CDF_DATA = {
   "record": {
     "total": 4096,
     "statuses": {
-      "approved": 2661,
-      "completed": 1067,
+      "approved": 2663,
+      "completed": 1065,
       "funded": 10,
       "in_progress": 39,
       "ongoing": 308,
@@ -94230,7 +94230,7 @@ window.CDF_DATA = {
       "unknown": 1
     },
     "completedPct": 26.0,
-    "approvedPct": 65.2,
+    "approvedPct": 65.3,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10
