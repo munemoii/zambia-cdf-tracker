@@ -1421,7 +1421,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 21
+   "held": 82
   },
   "publishers": [
    "Chipili Town Council"
@@ -1911,7 +1911,7 @@ window.CDF_CARDS = {
    "approved": 26,
    "stalled": 0,
    "notStated": 0,
-   "held": 11
+   "held": 13
   },
   "publishers": [
    "Chinsali Municipal Council",
