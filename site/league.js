@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4069,
-  "attributed": 3878,
+  "totalProjects": 4096,
+  "attributed": 3905,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 946
@@ -924,27 +924,6 @@ window.CDF_LEAGUE = {
    "rank": 50
   },
   {
-   "council": "Zambezi Town Council",
-   "named": 22,
-   "completed": 22,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 23,
-   "composite": 74.3,
-   "latest": "2024",
-   "constituencies": [
-    {
-     "name": "Zambezi East",
-     "slug": "zambezi-east"
-    },
-    {
-     "name": "Zambezi West",
-     "slug": "zambezi-west"
-    }
-   ],
-   "rank": 51
-  },
-  {
    "council": "Limulunga Town Council",
    "named": 32,
    "completed": 0,
@@ -959,7 +938,7 @@ window.CDF_LEAGUE = {
      "slug": "luena"
     }
    ],
-   "rank": 52
+   "rank": 51
   },
   {
    "council": "Kazungula Town Council",
@@ -976,7 +955,7 @@ window.CDF_LEAGUE = {
      "slug": "katombola"
     }
    ],
-   "rank": 53
+   "rank": 52
   },
   {
    "council": "Nkeyema Town Council",
@@ -993,7 +972,7 @@ window.CDF_LEAGUE = {
      "slug": "nkeyema"
     }
    ],
-   "rank": 54
+   "rank": 53
   },
   {
    "council": "Chongwe Municipal Council",
@@ -1010,7 +989,7 @@ window.CDF_LEAGUE = {
      "slug": "chongwe"
     }
    ],
-   "rank": 55
+   "rank": 54
   },
   {
    "council": "Mufulira Municipal Council",
@@ -1035,7 +1014,7 @@ window.CDF_LEAGUE = {
      "slug": "mufulira"
     }
    ],
-   "rank": 56
+   "rank": 55
   },
   {
    "council": "Chadiza Town Council",
@@ -1052,7 +1031,7 @@ window.CDF_LEAGUE = {
      "slug": "chadiza"
     }
    ],
-   "rank": 57
+   "rank": 56
   },
   {
    "council": "Sinda Town Council",
@@ -1073,7 +1052,7 @@ window.CDF_LEAGUE = {
      "slug": "sinda"
     }
    ],
-   "rank": 58
+   "rank": 57
   },
   {
    "council": "Mpika Town Council",
@@ -1088,6 +1067,27 @@ window.CDF_LEAGUE = {
     {
      "name": "Mpika Central",
      "slug": "mpika-central"
+    }
+   ],
+   "rank": 58
+  },
+  {
+   "council": "Zambezi Town Council",
+   "named": 49,
+   "completed": 22,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 10,
+   "composite": 70.0,
+   "latest": "2026-03-13",
+   "constituencies": [
+    {
+     "name": "Zambezi East",
+     "slug": "zambezi-east"
+    },
+    {
+     "name": "Zambezi West",
+     "slug": "zambezi-west"
     }
    ],
    "rank": 59

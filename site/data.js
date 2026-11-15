@@ -66416,16 +66416,17 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 303,
+        "totalProjects": 330,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
           "2022": 62,
           "2023": 41,
           "2024": 47,
-          "2025": 84
+          "2025": 84,
+          "2026": 27
         },
-        "fundingYearKnown": 237,
+        "fundingYearKnown": 264,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -72338,13 +72339,34 @@ window.CDF_DATA = {
           {
             "name": "Zambezi East",
             "url": "constituencies/zambezi-east.html",
-            "count": 13,
+            "count": 29,
             "budgetM": 0.39,
             "statusCounts": {
-              "approved": 5,
+              "approved": 21,
               "completed": 8
             },
             "projects": [
+              {
+                "id": 4147,
+                "url": "projects/4147-completion-of-1x3-classroom-block-at-musamba-primary-school.html",
+                "name": "Completion of 1x3 Classroom Block at Musamba Primary School",
+                "ward": "Lunkunyi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
               {
                 "id": 418,
                 "url": "projects/418-completion-of-kaleji-school.html",
@@ -72409,6 +72431,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4143,
+                "url": "projects/4143-completion-of-staff-house-at-kayisaka-health-post.html",
+                "name": "Completion of Staff House at Kayisaka Health Post",
+                "ward": "Dipalata",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 420,
                 "url": "projects/420-completion-of-sutu-school.html",
                 "name": "Completion of Sutu School",
@@ -72428,6 +72471,111 @@ window.CDF_DATA = {
                   "date": "2024-08-01"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4154,
+                "url": "projects/4154-construction-of-1x3-classroom-block-at-dichawanga-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Dichawanga Primary School",
+                "ward": "Zambezi Central",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4153,
+                "url": "projects/4153-construction-of-1x3-classroom-block-at-kamakonga-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Kamakonga Primary School",
+                "ward": "Mpidi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4150,
+                "url": "projects/4150-construction-of-1x3-classroom-block-at-kasombu-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Kasombu Primary School",
+                "ward": "Mpidi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4148,
+                "url": "projects/4148-construction-of-1x3-classroom-block-at-lunkunyi-day-secondary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Lunkunyi Day Secondary School",
+                "ward": "Lunkunyi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4145,
+                "url": "projects/4145-construction-of-1x3-classroom-block-at-mazaza-community-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mazaza Community School",
+                "ward": "Kasesi/Chivweji",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 416,
@@ -72451,6 +72599,90 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4141,
+                "url": "projects/4141-construction-of-semi-detached-staff-houses-at-chitokoloki-mission.html",
+                "name": "Construction of Semi-Detached Staff Houses at Chitokoloki Mission",
+                "ward": "Chitokoloki",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4140,
+                "url": "projects/4140-electrification-of-1x3-classroom-block-at-chilenga-day-secondary-school.html",
+                "name": "Electrification of 1x3 Classroom Block at Chilenga Day Secondary School",
+                "ward": "Chilenga/Chizenzi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4144,
+                "url": "projects/4144-furniture-and-equipment-at-kayisaka-health-post.html",
+                "name": "Furniture and Equipment at Kayisaka Health Post",
+                "ward": "Dipalata",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4152,
+                "url": "projects/4152-furniture-and-health-equipment-at-makondu-health-post.html",
+                "name": "Furniture and Health Equipment at Makondu Health Post",
+                "ward": "Mukanda Nkunda",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 411,
                 "url": "projects/411-procurement-of-desks.html",
                 "name": "Procurement of Desks",
@@ -72472,6 +72704,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4155,
+                "url": "projects/4155-procurement-of-desks-in-zambezi-east.html",
+                "name": "Procurement of Desks in Zambezi East",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 415,
                 "url": "projects/415-procurement-of-excavator.html",
                 "name": "Procurement of Excavator",
@@ -72491,6 +72744,27 @@ window.CDF_DATA = {
                   "date": "2024"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4146,
+                "url": "projects/4146-procurement-of-radio-station-transmitter-in-nyachipopa.html",
+                "name": "Procurement of Radio Station Transmitter in Nyachipopa",
+                "ward": "Kasesi/Chivweji",
+                "component": "community",
+                "category": "communication",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 414,
@@ -72617,16 +72891,80 @@ window.CDF_DATA = {
                   "date": "2024-05"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 4142,
+                "url": "projects/4142-upgrade-of-borehole-at-kakolokoku.html",
+                "name": "Upgrade of Borehole at Kakolokoku",
+                "ward": "Chitokoloki",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4151,
+                "url": "projects/4151-water-reticulation-system-at-kazhila-community.html",
+                "name": "Water Reticulation System at Kazhila Community",
+                "ward": "Mpidi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4149,
+                "url": "projects/4149-water-reticulation-system-at-mukenge.html",
+                "name": "Water Reticulation System at Mukenge",
+                "ward": "Lwatambo",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi East Constituency Development Fund (council stamp 13 Mar 2026; uploaded Oct 2026; 17 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-EAST-APPROVED-PROJECTS.pdf",
+                  "date": "2026-03-13"
+                },
+                "fundingYear": 2026
               }
             ]
           },
           {
             "name": "Zambezi West",
             "url": "constituencies/zambezi-west.html",
-            "count": 15,
+            "count": 26,
             "budgetM": 4.62,
             "statusCounts": {
-              "completed": 15
+              "completed": 15,
+              "approved": 11
             },
             "projects": [
               {
@@ -72670,6 +73008,111 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4163,
+                "url": "projects/4163-construction-of-1x3-classroom-block-at-samazhiko.html",
+                "name": "Construction of 1x3 Classroom Block at Samazhiko",
+                "ward": "Liyovu/Muswiza",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4162,
+                "url": "projects/4162-construction-of-1x4-classroom-block-at-kalengwa.html",
+                "name": "Construction of 1x4 Classroom Block at Kalengwa",
+                "ward": "Mwange/Nyawanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4166,
+                "url": "projects/4166-construction-of-health-post-at-nyachikayi.html",
+                "name": "Construction of Health Post at Nyachikayi",
+                "ward": "Matondo/Nyachikayi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4157,
+                "url": "projects/4157-construction-of-maternity-annex-small-at-muswiza.html",
+                "name": "Construction of Maternity Annex (Small) at Muswiza",
+                "ward": "Liyovu/Muswiza",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4156,
+                "url": "projects/4156-construction-of-maternity-annex-at-matondo.html",
+                "name": "Construction of Maternity Annex at Matondo",
+                "ward": "Matondo/Nyachikayi",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 397,
@@ -72882,6 +73325,48 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4164,
+                "url": "projects/4164-priority-accessories-for-4-completed-health-posts.html",
+                "name": "Priority Accessories for 4 Completed Health Posts",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4165,
+                "url": "projects/4165-procurement-of-machinery-pontoon-parts.html",
+                "name": "Procurement of Machinery Pontoon Parts",
+                "ward": "Matondo/Mapachi",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 410,
                 "url": "projects/410-staff-house-at-sachala-primary-school.html",
                 "name": "Staff House at Sachala Primary School",
@@ -72943,6 +73428,90 @@ window.CDF_DATA = {
                   "date": "2024"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4160,
+                "url": "projects/4160-water-reticulation-system-at-chifwelu.html",
+                "name": "Water Reticulation System at Chifwelu",
+                "ward": "Mwange/Nyawanda",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4161,
+                "url": "projects/4161-water-reticulation-system-at-kawelele.html",
+                "name": "Water Reticulation System at Kawelele",
+                "ward": "Liyovu/Muswiza",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4159,
+                "url": "projects/4159-water-reticulation-at-chinguyu.html",
+                "name": "Water Reticulation at Chinguyu",
+                "ward": "Matondo/Nyachikayi",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4158,
+                "url": "projects/4158-water-reticulation-at-kayimba.html",
+                "name": "Water Reticulation at Kayimba",
+                "ward": "Liyovu/Muswiza",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Zambezi Town Council",
+                  "title": "Public Notice — Approved Projects – 2026 Zambezi West Constituency Development Fund (council stamp 03 Mar 2026, partly legible; uploaded Oct 2026; 12 rows, no amounts published)",
+                  "url": "https://www.zambezicouncil.gov.zm/wp-content/uploads/2026/10/ZAMBEZI-WEST-APPROVED-PROEJCTS.pdf",
+                  "date": "2026-03-03"
+                },
+                "fundingYear": 2026
               }
             ]
           }
@@ -93329,7 +93898,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4069,
+    "totalProjects": 4096,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -93337,9 +93906,9 @@ window.CDF_DATA = {
       "2023": 454,
       "2024": 676,
       "2025": 1162,
-      "2026": 418
+      "2026": 445
     },
-    "fundingYearKnown": 3248
+    "fundingYearKnown": 3275
   },
   "people": {
     "bursaries": [
@@ -93491,12 +94060,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 303,
+        "tracked": 330,
         "completed": 53,
         "underway": 12,
-        "approved": 236,
+        "approved": 263,
         "other": 2,
-        "completedPct": 17.5,
+        "completedPct": 16.1,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -93599,9 +94168,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 303,
+        "projects": 330,
         "completed": 53,
-        "pct": 17.5
+        "pct": 16.1
       }
     ],
     "typeMix": [
@@ -93650,9 +94219,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4069,
+    "total": 4096,
     "statuses": {
-      "approved": 2633,
+      "approved": 2660,
       "completed": 1068,
       "funded": 10,
       "in_progress": 39,
@@ -93660,8 +94229,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.2,
-    "approvedPct": 65.0,
+    "completedPct": 26.1,
+    "approvedPct": 65.2,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10

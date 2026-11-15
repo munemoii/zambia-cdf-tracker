@@ -1663,7 +1663,7 @@ window.CDF_CARDS = {
    "approved": 1,
    "stalled": 1,
    "notStated": 0,
-   "held": 0
+   "held": 21
   },
   "publishers": [
    "Chilanga Town Council"
@@ -2311,13 +2311,13 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 13,
+   "named": 29,
    "completed": 8,
    "inProgress": 0,
-   "approved": 5,
+   "approved": 21,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 1
   },
   "publishers": [
    "Zambezi Town Council",
@@ -2334,13 +2334,13 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 15,
+   "named": 26,
    "completed": 15,
    "inProgress": 0,
-   "approved": 0,
+   "approved": 11,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 1
   },
   "publishers": [
    "Zambezi Town Council",
