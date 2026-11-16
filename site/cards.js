@@ -1172,8 +1172,8 @@ window.CDF_CARDS = {
    "neverStarted": 17
   },
   "published": {
-   "named": 8,
-   "completed": 0,
+   "named": 9,
+   "completed": 1,
    "inProgress": 0,
    "approved": 8,
    "stalled": 0,
@@ -1481,8 +1481,8 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 31,
-   "completed": 27,
+   "named": 32,
+   "completed": 28,
    "inProgress": 4,
    "approved": 0,
    "stalled": 0,
@@ -1569,8 +1569,8 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 27,
-   "completed": 27,
+   "named": 28,
+   "completed": 28,
    "inProgress": 0,
    "approved": 0,
    "stalled": 0,

@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4162,
-  "attributed": 3971,
+  "totalProjects": 4165,
+  "attributed": 3974,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 943
+  "councilCompleted": 946
  },
  "councils": [
   {
@@ -1416,12 +1416,12 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Mwense Town Council",
-   "named": 58,
-   "completed": 54,
+   "named": 60,
+   "completed": 56,
    "statusPct": 100,
    "yearPct": 88,
-   "amountPct": 9,
-   "composite": 65.7,
+   "amountPct": 8,
+   "composite": 65.3,
    "latest": "2026-04",
    "constituencies": [
     {
@@ -1437,8 +1437,8 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Katete Town Council",
-   "named": 26,
-   "completed": 0,
+   "named": 27,
+   "completed": 1,
    "statusPct": 100,
    "yearPct": 96,
    "amountPct": 0,

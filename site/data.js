@@ -5782,15 +5782,15 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 764,
+        "totalProjects": 765,
         "fundingYears": {
           "2022": 139,
-          "2023": 55,
+          "2023": 56,
           "2024": 129,
           "2025": 221,
           "2026": 137
         },
-        "fundingYearKnown": 681,
+        "fundingYearKnown": 682,
         "constituencies": [
           {
             "name": "Chadiza",
@@ -17792,10 +17792,11 @@ window.CDF_DATA = {
           {
             "name": "Mkaika",
             "url": "constituencies/mkaika.html",
-            "count": 8,
+            "count": 9,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 8
+              "approved": 8,
+              "completed": 1
             },
             "projects": [
               {
@@ -17860,6 +17861,27 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4233,
+                "url": "projects/4233-construction-of-market-shelter-at-soweto-market.html",
+                "name": "Construction of Market Shelter at Soweto Market",
+                "ward": "Mphangwe",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-16 (Daily Blitz Verification Arm B; coordinator re-read both sources firsthand via live browser). Approval: Katete Town Council, '2023 Mkaika Approved CDF Community Projects', item 4 — 'Construction of Market Shelter at Soweto Market', Mphangwe ward. Completion: MLGRD (source 249), 'A New Dawn for Katete District: 40 Community Projects Commissioned' — the commissioning, led by Permanent Secretary (Technical Services) Nicholas Phiri, named 'the newly built Soweto Market' among the Katete projects 'funded through the Constituency Development Fund (CDF) from 2022 to 2024' and commissioned in July 2025. The held copy of this row (blank constituency, MLGRD source only) is closed by this landing. No amount is published in either source, so the budget is unpublished. The one-way rule is satisfied: the published completion rests on the 2023 approval.",
+                "source": {
+                  "publisher": "Katete Town Council",
+                  "title": "2023 Mkaika Approved CDF Community Projects (12 items)",
+                  "url": "https://www.katetecouncil.gov.zm/wp-content/uploads/2024/09/2023-Mkaika-Constituency-Approved-CDF-Community-Projects.pdf",
+                  "date": null
+                },
+                "fundingYear": 2023
               },
               {
                 "id": 964,
@@ -80449,15 +80471,15 @@ window.CDF_DATA = {
       {
         "name": "Luapula",
         "province": "Luapula",
-        "totalProjects": 249,
+        "totalProjects": 251,
         "fundingYears": {
-          "2022": 56,
+          "2022": 58,
           "2023": 9,
           "2024": 30,
           "2025": 57,
           "2026": 43
         },
-        "fundingYearKnown": 195,
+        "fundingYearKnown": 197,
         "constituencies": [
           {
             "name": "Bahati",
@@ -82779,10 +82801,10 @@ window.CDF_DATA = {
           {
             "name": "Mambilima",
             "url": "constituencies/mambilima.html",
-            "count": 31,
+            "count": 32,
             "budgetM": 1.83,
             "statusCounts": {
-              "completed": 27,
+              "completed": 28,
               "ongoing": 4
             },
             "projects": [
@@ -83268,6 +83290,27 @@ window.CDF_DATA = {
                   "date": "2026-04"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4235,
+                "url": "projects/4235-construction-of-a-water-scheme-at-kashiba.html",
+                "name": "Construction of a Water Scheme at Kashiba",
+                "ward": "Chansha",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-16 (Daily Blitz Verification Arm B; coordinator re-read both sources firsthand via live browser). Mwense Town Council CDF Projects Catalogue (source 53), p.27: 'Construction of a water scheme at (Kashiba) — Chansha — CDF 2022 — Status: Completed & commisioned' [sic]. The catalogue entry prints the ward only; the constituency is pinned by Mwense Town Council's own district page, which lists Chansha among Mambilima Constituency's ten wards (Nsomfi, Munwa, Mambilima, Lundashi, Musonda, Chibembe, Mpasa, Michelo, Kalanga, Chansha) — the ward-to-constituency pin method ratified in Blitz Run 9. Corroborated by the council's 2024 stakeholder minutes, which list an extension of the water scheme to Kashiba in Chansha ward under Mambilima. The held copy of this row (blank constituency) is closed by this landing. No amount is published in the catalogue entry, so the budget is unpublished.",
+                "source": {
+                  "publisher": "Mwense Town Council",
+                  "title": "Community Development Fund (CDF) Projects Catalogue",
+                  "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf",
+                  "date": "2026-04"
+                },
+                "fundingYear": 2022
               },
               {
                 "id": 261,
@@ -84780,10 +84823,10 @@ window.CDF_DATA = {
           {
             "name": "Mwense",
             "url": "constituencies/mwense.html",
-            "count": 27,
+            "count": 28,
             "budgetM": 0.51,
             "statusCounts": {
-              "completed": 27
+              "completed": 28
             },
             "projects": [
               {
@@ -84904,6 +84947,27 @@ window.CDF_DATA = {
                 "completionPct": null,
                 "photo": null,
                 "note": null,
+                "source": {
+                  "publisher": "Mwense Town Council",
+                  "title": "Community Development Fund (CDF) Projects Catalogue",
+                  "url": "http://www.mwensecouncil.gov.zm/wp-content/uploads/2026/04/Mwense-Town-Council-Catalogue-copy-1.pdf",
+                  "date": "2026-04"
+                },
+                "fundingYear": 2022
+              },
+              {
+                "id": 4234,
+                "url": "projects/4234-construction-of-a-1x3-crb-at-lukwesa-primary.html",
+                "name": "Construction of a 1x3 CRB at Lukwesa Primary",
+                "ward": "Luche",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-16 (Daily Blitz Verification Arm B; coordinator re-read both sources firsthand via live browser). Mwense Town Council CDF Projects Catalogue (source 53), p.17: 'Construction of a 1x3 CRB at Lukwesa Primary — Luche — CDF 2022 — Status: commisioned' [sic]. The catalogue entry prints the ward only; the constituency is pinned by Mwense Town Council's own district page, which lists Luche among Mwense Constituency's eleven wards (Kasengu, Katiti, Chachacha, Kapela, Pebekalesa, Luche, Nkanga, Kaombe, Kapamba, Mwense, James Chiwasha) — the ward-to-constituency pin method ratified in Blitz Run 9. The held copy of this row (blank constituency) is closed by this landing. No amount is published in the catalogue entry, so the budget is unpublished.",
                 "source": {
                   "publisher": "Mwense Town Council",
                   "title": "Community Development Fund (CDF) Projects Catalogue",
@@ -95284,17 +95348,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4162,
+    "totalProjects": 4165,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 530,
-      "2023": 454,
+      "2022": 532,
+      "2023": 455,
       "2024": 676,
       "2025": 1163,
       "2026": 445
     },
-    "fundingYearKnown": 3280
+    "fundingYearKnown": 3283
   },
   "people": {
     "bursaries": [
@@ -95380,23 +95444,23 @@ window.CDF_DATA = {
       },
       {
         "name": "Luapula",
-        "tracked": 249,
-        "completed": 124,
+        "tracked": 251,
+        "completed": 126,
         "underway": 31,
         "approved": 94,
         "other": 0,
-        "completedPct": 49.8,
+        "completedPct": 50.2,
         "ruralPct": 84.9,
         "urbanPct": 15.1
       },
       {
         "name": "Eastern",
-        "tracked": 764,
-        "completed": 111,
+        "tracked": 765,
+        "completed": 112,
         "underway": 54,
         "approved": 599,
         "other": 0,
-        "completedPct": 14.5,
+        "completedPct": 14.6,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
@@ -95540,9 +95604,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2910,
-        "completed": 870,
-        "pct": 29.9
+        "projects": 2913,
+        "completed": 873,
+        "pct": 30.0
       },
       {
         "label": "Urban provinces",
@@ -95562,14 +95626,14 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 889,
+        "ruralN": 890,
         "urbanN": 184,
-        "ruralPct": 30.5,
+        "ruralPct": 30.6,
         "urbanPct": 21.5
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 792,
+        "ruralN": 793,
         "urbanN": 183,
         "ruralPct": 27.2,
         "urbanPct": 21.4
@@ -95583,7 +95647,7 @@ window.CDF_DATA = {
       },
       {
         "cat": "Other community works",
-        "ruralN": 481,
+        "ruralN": 482,
         "urbanN": 177,
         "ruralPct": 16.5,
         "urbanPct": 20.7
@@ -95605,10 +95669,10 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4162,
+    "total": 4165,
     "statuses": {
       "approved": 2729,
-      "completed": 1065,
+      "completed": 1068,
       "funded": 10,
       "in_progress": 39,
       "ongoing": 308,
