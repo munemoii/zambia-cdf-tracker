@@ -66416,7 +66416,7 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 330,
+        "totalProjects": 396,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
@@ -66431,13 +66431,34 @@ window.CDF_DATA = {
           {
             "name": "Chavuma",
             "url": "constituencies/chavuma.html",
-            "count": 15,
+            "count": 81,
             "budgetM": 15.23,
             "statusCounts": {
-              "completed": 1,
-              "approved": 14
+              "approved": 80,
+              "completed": 1
             },
             "projects": [
+              {
+                "id": 4210,
+                "url": "projects/4210-blown-off-roof-at-mavili-primary-school-on-1x3-classroom-block.html",
+                "name": "Blown-Off Roof at Mavili Primary School on 1x3 Classroom Block",
+                "ward": "Sanjongo Mavili",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
               {
                 "id": 1489,
                 "url": "projects/1489-chivombo-maternity-annex.html",
@@ -66458,6 +66479,111 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4226,
+                "url": "projects/4226-completion-of-1x2-classroom-block-at-kakala.html",
+                "name": "Completion of 1x2 Classroom Block at Kakala",
+                "ward": "Kambuya Mukelangombe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4180,
+                "url": "projects/4180-completion-of-1x2-classroom-block-under-phase-2-at-chikundwe.html",
+                "name": "Completion of 1x2 Classroom Block under Phase 2 at Chikundwe",
+                "ward": "Kambuya Mukelangombe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4185,
+                "url": "projects/4185-completion-of-1x2-classroom-block-under-phase-2-at-kainda.html",
+                "name": "Completion of 1x2 Classroom Block under Phase 2 at Kainda",
+                "ward": "Lingundu Kainda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4197,
+                "url": "projects/4197-completion-of-1x2-classroom-block-under-phase-2-at-kakhoma.html",
+                "name": "Completion of 1x2 Classroom Block under Phase 2 at Kakhoma",
+                "ward": "Kakhoma",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4193,
+                "url": "projects/4193-completion-of-1x2-classroom-block-under-phase-2-at-lingelengenda.html",
+                "name": "Completion of 1x2 Classroom Block under Phase 2 at Lingelengenda",
+                "ward": "Lingelengenda Chinwandumba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
               },
               {
                 "id": 313,
@@ -66481,6 +66607,111 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4187,
+                "url": "projects/4187-completion-of-laboratory-at-mutwe-wakhayi-secondary-school-under-phase-2.html",
+                "name": "Completion of Laboratory at Mutwe Wakhayi Secondary School under Phase 2",
+                "ward": "Lukolwe Musunga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4223,
+                "url": "projects/4223-completion-of-a-1x3-classroom-block-at-nguvu-east.html",
+                "name": "Completion of a 1x3 Classroom Block at Nguvu East",
+                "ward": "Nguvu Mukhuku",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4175,
+                "url": "projects/4175-completion-of-a-2x3-classroom-block-at-a-secondary-school.html",
+                "name": "Completion of a 2x3 Classroom Block at a Secondary School",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4231,
+                "url": "projects/4231-construction-of-1x2-classroom-block-at-chavuma-nursing-school.html",
+                "name": "Construction of 1x2 Classroom Block at Chavuma Nursing School",
+                "ward": "Chavuma Central",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4198,
+                "url": "projects/4198-construction-of-1x2-classroom-block-at-chikhongolo.html",
+                "name": "Construction of 1x2 Classroom Block at Chikhongolo",
+                "ward": "Kalombo Kamisamba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 319,
                 "url": "projects/319-construction-of-1x2-classroom-block-at-chimuli-primary-school.html",
                 "name": "Construction of 1x2 Classroom Block at Chimuli Primary School",
@@ -66500,6 +66731,321 @@ window.CDF_DATA = {
                   "date": "2025-05-22"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4170,
+                "url": "projects/4170-construction-of-1x2-classroom-block-at-kahemba-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Kahemba Primary School",
+                "ward": "Kakhoma",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4195,
+                "url": "projects/4195-construction-of-1x2-classroom-block-at-kakhoma-east.html",
+                "name": "Construction of 1x2 Classroom Block at Kakhoma East",
+                "ward": "Kakhoma",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4209,
+                "url": "projects/4209-construction-of-1x2-classroom-block-at-kalombo-upper-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Kalombo Upper Primary School",
+                "ward": "Kalombo Kamisamba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4208,
+                "url": "projects/4208-construction-of-1x2-classroom-block-at-kamisamba-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Kamisamba Primary School",
+                "ward": "Kalombo Kamisamba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4218,
+                "url": "projects/4218-construction-of-1x2-classroom-block-at-kasamba-chambi-community-school.html",
+                "name": "Construction of 1x2 Classroom Block at Kasamba Chambi Community School",
+                "ward": "Chambi Mandalo",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4171,
+                "url": "projects/4171-construction-of-1x2-classroom-block-at-mangowa-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Mangowa Primary School",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4227,
+                "url": "projects/4227-construction-of-1x2-classroom-block-at-mavili.html",
+                "name": "Construction of 1x2 Classroom Block at Mavili",
+                "ward": "Sanjongo Mavili",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4207,
+                "url": "projects/4207-construction-of-1x2-classroom-block-at-mbalango-primary-school.html",
+                "name": "Construction of 1x2 Classroom Block at Mbalango Primary School",
+                "ward": "Chivombo Mbalango",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4228,
+                "url": "projects/4228-construction-of-1x2-classroom-block-at-mungole.html",
+                "name": "Construction of 1x2 Classroom Block at Mungole",
+                "ward": "Sewe Mungole",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4219,
+                "url": "projects/4219-construction-of-1x2-classroom-block-at-ngambela.html",
+                "name": "Construction of 1x2 Classroom Block at Ngambela",
+                "ward": "Chambi Mandalo",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4188,
+                "url": "projects/4188-construction-of-1x2-classroom-block-at-sakawa-community-school.html",
+                "name": "Construction of 1x2 Classroom Block at Sakawa Community School",
+                "ward": "Chivombo Mbalango",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4224,
+                "url": "projects/4224-construction-of-1x2-classroom-block-at-salikishi-lipinda.html",
+                "name": "Construction of 1x2 Classroom Block at Salikishi Lipinda",
+                "ward": "Nyambingila",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4229,
+                "url": "projects/4229-construction-of-1x2-classroom-block-at-sewe.html",
+                "name": "Construction of 1x2 Classroom Block at Sewe",
+                "ward": "Sewe Mungole",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4191,
+                "url": "projects/4191-construction-of-1x3-classroom-block-at-chiyeke-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Chiyeke Primary School",
+                "ward": "Chiyeke",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4184,
+                "url": "projects/4184-construction-of-1x3-classroom-block-at-kahokola.html",
+                "name": "Construction of 1x3 Classroom Block at Kahokola",
+                "ward": "Lingundu Kainda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
               },
               {
                 "id": 315,
@@ -66544,6 +67090,27 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4192,
+                "url": "projects/4192-construction-of-1x3-classroom-block-at-lingelengenda-secondary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Lingelengenda Secondary School",
+                "ward": "Lingelengenda Chinwandumba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 320,
                 "url": "projects/320-construction-of-1x3-classroom-block-at-lingundu-day-secondary-school.html",
                 "name": "Construction of 1x3 Classroom Block at Lingundu Day Secondary School",
@@ -66563,6 +67130,27 @@ window.CDF_DATA = {
                   "date": "2025-05-22"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4182,
+                "url": "projects/4182-construction-of-1x3-classroom-block-at-liwale-mayenge.html",
+                "name": "Construction of 1x3 Classroom Block at Liwale / Mayenge",
+                "ward": "Chambi Mandalo",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
               },
               {
                 "id": 316,
@@ -66586,6 +67174,48 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4179,
+                "url": "projects/4179-construction-of-1x3-classroom-block-at-mukelangombe-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mukelangombe Primary School",
+                "ward": "Kambuya Mukelangombe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4205,
+                "url": "projects/4205-construction-of-1x3-classroom-block-at-mutwe-wakhayi-secondary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mutwe Wakhayi Secondary School",
+                "ward": "Lukolwe Musunga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 314,
                 "url": "projects/314-construction-of-1x3-classroom-block-at-sewe-secondary-school.html",
                 "name": "Construction of 1x3 Classroom Block at Sewe Secondary School",
@@ -66607,6 +67237,195 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4186,
+                "url": "projects/4186-construction-of-1x4-classroom-block-at-lukolwe-secondary-school.html",
+                "name": "Construction of 1x4 Classroom Block at Lukolwe Secondary School",
+                "ward": "Lukolwe Musunga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4169,
+                "url": "projects/4169-construction-of-health-post-at-kahokola.html",
+                "name": "Construction of Health Post at Kahokola",
+                "ward": "Lingundu Kayinda",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4172,
+                "url": "projects/4172-construction-of-health-post-at-mandalo.html",
+                "name": "Construction of Health Post at Mandalo",
+                "ward": "Chambi Mandalo",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4206,
+                "url": "projects/4206-construction-of-market-shelter-in-chivombo.html",
+                "name": "Construction of Market Shelter in Chivombo",
+                "ward": "Chivombo Mbalango",
+                "component": "community",
+                "category": "markets",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4196,
+                "url": "projects/4196-construction-of-maternity-annex-at-kakhoma.html",
+                "name": "Construction of Maternity Annex at Kakhoma",
+                "ward": "Kakhoma",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4194,
+                "url": "projects/4194-construction-of-maternity-annex-at-sewe.html",
+                "name": "Construction of Maternity Annex at Sewe",
+                "ward": "Sewe Mungole",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4176,
+                "url": "projects/4176-construction-of-maternity-wing-at-likhoma.html",
+                "name": "Construction of Maternity Wing at Likhoma",
+                "ward": "Nyambingila",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4178,
+                "url": "projects/4178-construction-of-maternity-wing-in-mukhuku.html",
+                "name": "Construction of Maternity Wing in Mukhuku",
+                "ward": "Nguvu Mukhuku",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4167,
+                "url": "projects/4167-construction-of-medium-cost-staff-house-at-nyambingila-primary-school.html",
+                "name": "Construction of Medium Cost Staff House at Nyambingila Primary School",
+                "ward": "Nyambingila",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 318,
                 "url": "projects/318-construction-of-mothers-shelter.html",
                 "name": "Construction of Mothers' Shelter",
@@ -66626,6 +67445,279 @@ window.CDF_DATA = {
                   "date": "2025-05-22"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4199,
+                "url": "projects/4199-construction-of-resource-centre-1x3-classroom-block-and-workshop.html",
+                "name": "Construction of Resource Centre 1x3 Classroom Block and Workshop",
+                "ward": "Chavuma Central",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4183,
+                "url": "projects/4183-construction-of-staff-house-in-mandalo-zone.html",
+                "name": "Construction of Staff House in Mandalo Zone",
+                "ward": "Chambi Mandalo",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4174,
+                "url": "projects/4174-construction-of-staff-house-in-mangowa-zone-3.html",
+                "name": "Construction of Staff House in Mangowa Zone 3",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4177,
+                "url": "projects/4177-construction-of-staff-house-in-nguvu-west.html",
+                "name": "Construction of Staff House in Nguvu West",
+                "ward": "Nguvu Mukhuku",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4181,
+                "url": "projects/4181-construction-of-staff-house-in-sanjongo-zone.html",
+                "name": "Construction of Staff House in Sanjongo Zone",
+                "ward": "Sanjongo Mavili",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4221,
+                "url": "projects/4221-construction-of-a-1x2-classroom-block-at-nyathanda.html",
+                "name": "Construction of a 1x2 Classroom Block at Nyathanda",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4222,
+                "url": "projects/4222-construction-of-a-1x2-classroom-block-at-sachinyemba-kawelele.html",
+                "name": "Construction of a 1x2 Classroom Block at Sachinyemba Kawelele",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4217,
+                "url": "projects/4217-construction-of-a-chief-s-palace-in-kakhoma.html",
+                "name": "Construction of a Chief's Palace in Kakhoma",
+                "ward": "Kakhoma",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4230,
+                "url": "projects/4230-construction-of-a-maternity-wing-at-chinwandumba.html",
+                "name": "Construction of a Maternity Wing at Chinwandumba",
+                "ward": "Lingelengenda Chinwandumba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4232,
+                "url": "projects/4232-construction-of-a-maternity-wing-at-kalombo.html",
+                "name": "Construction of a Maternity Wing at Kalombo",
+                "ward": "Kalombo Kamisamba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4220,
+                "url": "projects/4220-construction-of-a-maternity-wing-in-musunga-zone.html",
+                "name": "Construction of a Maternity Wing in Musunga Zone",
+                "ward": "Lukolwe Musunga",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4225,
+                "url": "projects/4225-construction-of-a-staff-house-at-mangowa.html",
+                "name": "Construction of a Staff House at Mangowa",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4204,
+                "url": "projects/4204-drilling-of-a-borehole-at-sakawawa-community.html",
+                "name": "Drilling of a Borehole at Sakawawa Community",
+                "ward": "Chivombo Mbalango",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
               },
               {
                 "id": 322,
@@ -66712,6 +67804,132 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4202,
+                "url": "projects/4202-procurement-of-cdf-vehicle.html",
+                "name": "Procurement of CDF Vehicle",
+                "ward": "Chavuma Constituency",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4215,
+                "url": "projects/4215-procurement-of-desks.html",
+                "name": "Procurement of Desks",
+                "ward": "Chavuma Constituency",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4168,
+                "url": "projects/4168-procurement-of-nursing-school-equipment-and-furniture.html",
+                "name": "Procurement of Nursing School Equipment and Furniture",
+                "ward": "Chavuma Central",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4203,
+                "url": "projects/4203-procurement-of-police-vehicle.html",
+                "name": "Procurement of Police Vehicle",
+                "ward": "Chavuma Constituency",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4200,
+                "url": "projects/4200-procurement-of-vuma-radio-station-equipment.html",
+                "name": "Procurement of VUMA Radio Station Equipment",
+                "ward": "Chavuma Central",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4201,
+                "url": "projects/4201-procurement-of-a-camera-and-accessories-for-zanis.html",
+                "name": "Procurement of a Camera and Accessories for ZANIS",
+                "ward": "Chavuma Constituency",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 326,
                 "url": "projects/326-rehabilitation-of-1x2-classroom-block-at-chiyeke.html",
                 "name": "Rehabilitation of 1x2 Classroom Block at Chiyeke",
@@ -66733,6 +67951,132 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4212,
+                "url": "projects/4212-renovation-of-agriculture-fisheries-house-at-lukolwe.html",
+                "name": "Renovation of Agriculture/Fisheries House at Lukolwe",
+                "ward": "Lukolwe Musunga",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4214,
+                "url": "projects/4214-renovation-of-agriculture-fisheries-house-at-nyathanda.html",
+                "name": "Renovation of Agriculture/Fisheries House at Nyathanda",
+                "ward": "Nyathanda",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4211,
+                "url": "projects/4211-renovation-of-agriculture-fisheries-house-in-kalombo-kamisamba.html",
+                "name": "Renovation of Agriculture/Fisheries House in Kalombo Kamisamba",
+                "ward": "Kalombo Kamisamba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4213,
+                "url": "projects/4213-renovation-of-agriculture-fisheries-house-in-likhoma.html",
+                "name": "Renovation of Agriculture/Fisheries House in Likhoma",
+                "ward": "Nyambingila",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4173,
+                "url": "projects/4173-renovation-of-blown-off-roof-at-kamisamba-primary-school.html",
+                "name": "Renovation of Blown-Off Roof at Kamisamba Primary School",
+                "ward": "Kamisamba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4216,
+                "url": "projects/4216-rural-electrification.html",
+                "name": "Rural Electrification",
+                "ward": "Chavuma Constituency",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
                 "id": 321,
                 "url": "projects/321-servicing-of-cdf-monitoring-vehicle.html",
                 "name": "Servicing of CDF Monitoring Vehicle",
@@ -66750,6 +68094,48 @@ window.CDF_DATA = {
                   "title": "Notification of Approval for Community Projects for Chavuma Constituency",
                   "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/Chavuma-Community-Projects-22052025-1.pdf",
                   "date": "2025-05-22"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4189,
+                "url": "projects/4189-supply-of-furniture-and-desks-at-chavuma-boarding-school-phase-1.html",
+                "name": "Supply of Furniture and Desks at Chavuma Boarding School Phase 1",
+                "ward": "Chiyeke",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
+                },
+                "fundingYear": null
+              },
+              {
+                "id": 4190,
+                "url": "projects/4190-supply-of-furniture-and-desks-at-chavuma-boarding-school-phase-2.html",
+                "name": "Supply of Furniture and Desks at Chavuma Boarding School Phase 2",
+                "ward": "Chiyeke",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Chavuma Town Council",
+                  "title": "List of CDF Approved Projects (document states no year, no amounts and no signature; file uploaded January 2024)",
+                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2024/01/List-of-Approved-CDF-Projects.pdf",
+                  "date": "2024-01"
                 },
                 "fundingYear": null
               }
@@ -93898,7 +95284,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4096,
+    "totalProjects": 4162,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
@@ -94060,12 +95446,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 330,
+        "tracked": 396,
         "completed": 53,
         "underway": 12,
-        "approved": 263,
+        "approved": 329,
         "other": 2,
-        "completedPct": 16.1,
+        "completedPct": 13.4,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -94168,9 +95554,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 330,
+        "projects": 396,
         "completed": 53,
-        "pct": 16.1
+        "pct": 13.4
       }
     ],
     "typeMix": [
@@ -94219,9 +95605,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4096,
+    "total": 4162,
     "statuses": {
-      "approved": 2663,
+      "approved": 2729,
       "completed": 1065,
       "funded": 10,
       "in_progress": 39,
@@ -94229,8 +95615,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 26.0,
-    "approvedPct": 65.3,
+    "completedPct": 25.6,
+    "approvedPct": 65.8,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10

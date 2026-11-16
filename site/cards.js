@@ -2086,17 +2086,17 @@ window.CDF_CARDS = {
    "neverStarted": 4
   },
   "published": {
-   "named": 15,
+   "named": 81,
    "completed": 1,
    "inProgress": 0,
-   "approved": 14,
+   "approved": 80,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 5
   },
   "publishers": [
-   "Ministry of Local Government and Rural Development - Provincial Local Government Office North-Western",
-   "Chavuma Town Council"
+   "Chavuma Town Council",
+   "Ministry of Local Government and Rural Development - Provincial Local Government Office North-Western"
   ]
  },
  "ikeleng-i": {
