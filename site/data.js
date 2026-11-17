@@ -154,6 +154,14 @@ window.CDF_DATA = {
   ],
   "news": [
     {
+      "date": "17 November 2026",
+      "source": "Zambia Monitor, reporting a ZPPA media briefing",
+      "title": "ZPPA flags contract weaknesses in CDF projects: 26 projects monitored in 11 councils",
+      "text": "The Zambia Public Procurement Authority (ZPPA) has flagged irregular contract extensions and variations, inadequate documentation and contract management weaknesses in Constituency Development Fund projects it monitored across the country. ZPPA Director General Gloria Ngoma told a media briefing in Lusaka on Monday 16 November that the Authority monitored 26 CDF projects in 11 local authorities, covering education, health, water, sanitation and public infrastructure.\n\nThe monitoring assessed contract implementation, progress, quality of works, compliance with contractual obligations and adherence to public procurement requirements. The common weaknesses Ngoma listed were irregular contract extensions and variations, inadequate contract documentation and lapses in managing performance and advance payment securities. Construction defects requiring corrective action by the implementing entities were also identified, and the findings were communicated to the affected procuring entities. \"The Ministry of Local Government and Rural Development and the Ministry of Infrastructure, Housing and Urban Development were also informed of the audit findings so that remedial actions can be undertaken,\" Ngoma said.\n\nWhy it matters here: procurement is the stage where an approved CDF project becomes a contract, and it is where delays and defects enter the record this tracker publishes. The figures in this briefing are ZPPA's, as reported — the 26 monitored projects are not named in the report, so no individual project's status changes on the strength of it, and no tracker figure moves. What it adds is a named regulator's finding, on the record, that contract management — not only funding — is one of the points where CDF delivery leaks.",
+      "url": "https://www.zambiamonitor.com/zppa-flags-irregular-contract-extensions-documentation-lapses-in-cdf-projects/",
+      "page": "developments/zppa-flags-contract-weaknesses-in-cdf-projects-26-projects-monitored-in-11-councils.html"
+    },
+    {
       "date": "9 November 2026",
       "source": "Zambian Observer, reporting Zambian Watch",
       "title": "CDF bursary fees unpaid in Mambwe: 300 pupils stranded, school owed over K1 million",
