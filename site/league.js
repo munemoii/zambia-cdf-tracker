@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4213,
-  "attributed": 4022,
+  "totalProjects": 4238,
+  "attributed": 4047,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 958
@@ -408,23 +408,6 @@ window.CDF_LEAGUE = {
    "rank": 22
   },
   {
-   "council": "Mushindamo Town Council",
-   "named": 37,
-   "completed": 10,
-   "statusPct": 100,
-   "yearPct": 95,
-   "amountPct": 73,
-   "composite": 89.3,
-   "latest": "2025-06-08",
-   "constituencies": [
-    {
-     "name": "Solwezi East",
-     "slug": "solwezi-east"
-    }
-   ],
-   "rank": 23
-  },
-  {
    "council": "Chipata City Council",
    "named": 220,
    "completed": 7,
@@ -443,7 +426,7 @@ window.CDF_LEAGUE = {
      "slug": "luangeni"
     }
    ],
-   "rank": 24
+   "rank": 23
   },
   {
    "council": "Mazabuka Municipal Council",
@@ -464,7 +447,7 @@ window.CDF_LEAGUE = {
      "slug": "mazabuka-central"
     }
    ],
-   "rank": 25
+   "rank": 24
   },
   {
    "council": "Senanga Town Council",
@@ -479,6 +462,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Senanga",
      "slug": "senanga"
+    }
+   ],
+   "rank": 25
+  },
+  {
+   "council": "Mushindamo Town Council",
+   "named": 62,
+   "completed": 10,
+   "statusPct": 100,
+   "yearPct": 97,
+   "amountPct": 61,
+   "composite": 86.0,
+   "latest": "2026-06-04",
+   "constituencies": [
+    {
+     "name": "Solwezi East",
+     "slug": "solwezi-east"
     }
    ],
    "rank": 26
@@ -865,6 +865,27 @@ window.CDF_LEAGUE = {
    "rank": 47
   },
   {
+   "council": "Chibombo Town Council",
+   "named": 17,
+   "completed": 17,
+   "statusPct": 100,
+   "yearPct": 76,
+   "amountPct": 53,
+   "composite": 76.3,
+   "latest": "2023-12",
+   "constituencies": [
+    {
+     "name": "Katuba",
+     "slug": "katuba"
+    },
+    {
+     "name": "Keembe",
+     "slug": "keembe"
+    }
+   ],
+   "rank": 48
+  },
+  {
    "council": "Kabompo Town Council",
    "named": 8,
    "completed": 1,
@@ -879,7 +900,7 @@ window.CDF_LEAGUE = {
      "slug": "kabompo"
     }
    ],
-   "rank": 48
+   "rank": 49
   },
   {
    "council": "Kalabo Town Council",
@@ -898,27 +919,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Liuwa",
      "slug": "liuwa"
-    }
-   ],
-   "rank": 49
-  },
-  {
-   "council": "Chibombo Town Council",
-   "named": 17,
-   "completed": 17,
-   "statusPct": 100,
-   "yearPct": 71,
-   "amountPct": 53,
-   "composite": 74.7,
-   "latest": "2023-12",
-   "constituencies": [
-    {
-     "name": "Katuba",
-     "slug": "katuba"
-    },
-    {
-     "name": "Keembe",
-     "slug": "keembe"
     }
    ],
    "rank": 50
@@ -1529,9 +1529,9 @@ window.CDF_LEAGUE = {
    "named": 35,
    "completed": 22,
    "statusPct": 100,
-   "yearPct": 74,
+   "yearPct": 77,
    "amountPct": 9,
-   "composite": 61.0,
+   "composite": 62.0,
    "latest": "2026-02-23",
    "constituencies": [
     {

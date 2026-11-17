@@ -2266,13 +2266,13 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 38,
+   "named": 63,
    "completed": 10,
    "inProgress": 0,
-   "approved": 28,
+   "approved": 53,
    "stalled": 0,
    "notStated": 0,
-   "held": 26
+   "held": 1
   },
   "publishers": [
    "Mushindamo Town Council",
