@@ -1371,8 +1371,8 @@ window.CDF_CARDS = {
    "neverStarted": 3
   },
   "published": {
-   "named": 17,
-   "completed": 0,
+   "named": 22,
+   "completed": 5,
    "inProgress": 0,
    "approved": 17,
    "stalled": 0,
@@ -1380,7 +1380,8 @@ window.CDF_CARDS = {
    "held": 53
   },
   "publishers": [
-   "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)"
+   "Chienge Town Council (Ministry of Local Government and Rural Development, Provincial Local Government Officer)",
+   "Chienge Town Council"
   ]
  },
  "chifunabuli": {
@@ -2271,7 +2272,7 @@ window.CDF_CARDS = {
    "approved": 28,
    "stalled": 0,
    "notStated": 0,
-   "held": 1
+   "held": 26
   },
   "publishers": [
    "Mushindamo Town Council",
@@ -2451,7 +2452,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 65
   },
   "publishers": [
    "Luwingu Town Council"
@@ -2801,13 +2802,13 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 2,
+   "named": 26,
    "completed": 2,
    "inProgress": 0,
-   "approved": 0,
+   "approved": 24,
    "stalled": 0,
    "notStated": 0,
-   "held": 3
+   "held": 7
   },
   "publishers": [
    "Kalomo Town Council"
