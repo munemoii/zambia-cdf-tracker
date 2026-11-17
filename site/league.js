@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4165,
-  "attributed": 3974,
+  "totalProjects": 4177,
+  "attributed": 3986,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 946
@@ -1034,6 +1034,23 @@ window.CDF_LEAGUE = {
    "rank": 56
   },
   {
+   "council": "Lunte Town Council",
+   "named": 79,
+   "completed": 3,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 15,
+   "composite": 71.7,
+   "latest": "2026-04-07",
+   "constituencies": [
+    {
+     "name": "Lunte",
+     "slug": "lunte"
+    }
+   ],
+   "rank": 57
+  },
+  {
    "council": "Chadiza Town Council",
    "named": 45,
    "completed": 13,
@@ -1048,7 +1065,7 @@ window.CDF_LEAGUE = {
      "slug": "chadiza"
     }
    ],
-   "rank": 57
+   "rank": 58
   },
   {
    "council": "Sinda Town Council",
@@ -1069,7 +1086,7 @@ window.CDF_LEAGUE = {
      "slug": "sinda"
     }
    ],
-   "rank": 58
+   "rank": 59
   },
   {
    "council": "Mpika Town Council",
@@ -1086,7 +1103,7 @@ window.CDF_LEAGUE = {
      "slug": "mpika-central"
     }
    ],
-   "rank": 59
+   "rank": 60
   },
   {
    "council": "Zambezi Town Council",
@@ -1107,7 +1124,7 @@ window.CDF_LEAGUE = {
      "slug": "zambezi-west"
     }
    ],
-   "rank": 60
+   "rank": 61
   },
   {
    "council": "Kanchibiya Town Council",
@@ -1124,7 +1141,7 @@ window.CDF_LEAGUE = {
      "slug": "kanchibiya"
     }
    ],
-   "rank": 61
+   "rank": 62
   },
   {
    "council": "Itezhi-Tezhi Town Council",
@@ -1139,23 +1156,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Itezhi-Tezhi",
      "slug": "itezhi-tezhi"
-    }
-   ],
-   "rank": 62
-  },
-  {
-   "council": "Lunte Town Council",
-   "named": 67,
-   "completed": 3,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 4,
-   "composite": 68.0,
-   "latest": "2026-04-07",
-   "constituencies": [
-    {
-     "name": "Lunte",
-     "slug": "lunte"
     }
    ],
    "rank": 63

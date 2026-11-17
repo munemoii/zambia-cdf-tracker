@@ -2489,13 +2489,13 @@ window.CDF_CARDS = {
    "neverStarted": 4
   },
   "published": {
-   "named": 68,
+   "named": 80,
    "completed": 4,
    "inProgress": 0,
-   "approved": 64,
+   "approved": 76,
    "stalled": 0,
    "notStated": 0,
-   "held": 3
+   "held": 5
   },
   "publishers": [
    "Lunte Town Council",
