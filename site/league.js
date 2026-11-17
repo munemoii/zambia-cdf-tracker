@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4206,
-  "attributed": 4015,
+  "totalProjects": 4213,
+  "attributed": 4022,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 951
+  "councilCompleted": 958
  },
  "councils": [
   {
@@ -467,23 +467,6 @@ window.CDF_LEAGUE = {
    "rank": 25
   },
   {
-   "council": "Chienge Town Council",
-   "named": 22,
-   "completed": 5,
-   "statusPct": 100,
-   "yearPct": 77,
-   "amountPct": 86,
-   "composite": 87.7,
-   "latest": "2026-05-27",
-   "constituencies": [
-    {
-     "name": "Chiengi",
-     "slug": "chiengi"
-    }
-   ],
-   "rank": 26
-  },
-  {
    "council": "Senanga Town Council",
    "named": 56,
    "completed": 30,
@@ -498,7 +481,7 @@ window.CDF_LEAGUE = {
      "slug": "senanga"
     }
    ],
-   "rank": 27
+   "rank": 26
   },
   {
    "council": "Mafinga Town Council",
@@ -515,7 +498,7 @@ window.CDF_LEAGUE = {
      "slug": "mafinga"
     }
    ],
-   "rank": 28
+   "rank": 27
   },
   {
    "council": "Kabwe Municipal Council",
@@ -536,7 +519,7 @@ window.CDF_LEAGUE = {
      "slug": "kabwe-central"
     }
    ],
-   "rank": 29
+   "rank": 28
   },
   {
    "council": "Sikongo Town Council",
@@ -553,7 +536,7 @@ window.CDF_LEAGUE = {
      "slug": "sikongo"
     }
    ],
-   "rank": 30
+   "rank": 29
   },
   {
    "council": "Zimba Town Council",
@@ -570,7 +553,7 @@ window.CDF_LEAGUE = {
      "slug": "mapatizya"
     }
    ],
-   "rank": 31
+   "rank": 30
   },
   {
    "council": "Siavonga Town Council",
@@ -587,7 +570,7 @@ window.CDF_LEAGUE = {
      "slug": "siavonga"
     }
    ],
-   "rank": 32
+   "rank": 31
   },
   {
    "council": "Serenje Town Council",
@@ -608,7 +591,7 @@ window.CDF_LEAGUE = {
      "slug": "serenje"
     }
    ],
-   "rank": 33
+   "rank": 32
   },
   {
    "council": "Chipangali Town Council",
@@ -625,7 +608,7 @@ window.CDF_LEAGUE = {
      "slug": "chipangali"
     }
    ],
-   "rank": 34
+   "rank": 33
   },
   {
    "council": "Mungwi Town Council",
@@ -642,7 +625,7 @@ window.CDF_LEAGUE = {
      "slug": "malole"
     }
    ],
-   "rank": 35
+   "rank": 34
   },
   {
    "council": "Ndola City Council",
@@ -671,7 +654,7 @@ window.CDF_LEAGUE = {
      "slug": "ndola-central"
     }
    ],
-   "rank": 36
+   "rank": 35
   },
   {
    "council": "Lufwanyama Town Council",
@@ -686,6 +669,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Lufwanyama",
      "slug": "lufwanyama"
+    }
+   ],
+   "rank": 36
+  },
+  {
+   "council": "Chienge Town Council",
+   "named": 29,
+   "completed": 12,
+   "statusPct": 100,
+   "yearPct": 59,
+   "amountPct": 90,
+   "composite": 83.0,
+   "latest": "2026-05-27",
+   "constituencies": [
+    {
+     "name": "Chiengi",
+     "slug": "chiengi"
     }
    ],
    "rank": 37
