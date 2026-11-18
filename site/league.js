@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4285,
-  "attributed": 4094,
+  "totalProjects": 4287,
+  "attributed": 4096,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 958
+  "councilCompleted": 960
  },
  "councils": [
   {
@@ -1144,6 +1144,23 @@ window.CDF_LEAGUE = {
    "rank": 62
   },
   {
+   "council": "Mwinilunga Town Council",
+   "named": 14,
+   "completed": 5,
+   "statusPct": 100,
+   "yearPct": 100,
+   "amountPct": 7,
+   "composite": 69.0,
+   "latest": "2025-03-07",
+   "constituencies": [
+    {
+     "name": "Mwinilunga",
+     "slug": "mwinilunga"
+    }
+   ],
+   "rank": 63
+  },
+  {
    "council": "Itezhi-Tezhi Town Council",
    "named": 18,
    "completed": 3,
@@ -1158,7 +1175,7 @@ window.CDF_LEAGUE = {
      "slug": "itezhi-tezhi"
     }
    ],
-   "rank": 63
+   "rank": 64
   },
   {
    "council": "Isoka Town Council",
@@ -1175,7 +1192,7 @@ window.CDF_LEAGUE = {
      "slug": "isoka"
     }
    ],
-   "rank": 64
+   "rank": 65
   },
   {
    "council": "Nyimba Town Council",
@@ -1192,7 +1209,7 @@ window.CDF_LEAGUE = {
      "slug": "nyimba"
     }
    ],
-   "rank": 65
+   "rank": 66
   },
   {
    "council": "Kapiri Mposhi Town Council",
@@ -1209,7 +1226,7 @@ window.CDF_LEAGUE = {
      "slug": "kapiri-mposhi"
     }
    ],
-   "rank": 66
+   "rank": 67
   },
   {
    "council": "Manyinga Town Council",
@@ -1226,7 +1243,7 @@ window.CDF_LEAGUE = {
      "slug": "manyinga"
     }
    ],
-   "rank": 67
+   "rank": 68
   },
   {
    "council": "Kawambwa Town Council",
@@ -1247,7 +1264,7 @@ window.CDF_LEAGUE = {
      "slug": "pambashe"
     }
    ],
-   "rank": 68
+   "rank": 69
   },
   {
    "council": "Samfya Town Council",
@@ -1262,23 +1279,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Bangweulu",
      "slug": "bangweulu"
-    }
-   ],
-   "rank": 69
-  },
-  {
-   "council": "Mwinilunga Town Council",
-   "named": 12,
-   "completed": 3,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 0,
-   "composite": 66.7,
-   "latest": "2025-03-07",
-   "constituencies": [
-    {
-     "name": "Mwinilunga",
-     "slug": "mwinilunga"
     }
    ],
    "rank": 70

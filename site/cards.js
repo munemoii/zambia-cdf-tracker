@@ -2221,13 +2221,13 @@ window.CDF_CARDS = {
    "neverStarted": 6
   },
   "published": {
-   "named": 12,
-   "completed": 3,
+   "named": 14,
+   "completed": 5,
    "inProgress": 0,
    "approved": 9,
    "stalled": 0,
    "notStated": 0,
-   "held": 39
+   "held": 37
   },
   "publishers": [
    "Mwinilunga Town Council"

@@ -49318,17 +49318,17 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 458,
+        "totalProjects": 460,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
-          "2022": 62,
+          "2022": 64,
           "2023": 52,
           "2024": 65,
           "2025": 105,
           "2026": 41
         },
-        "fundingYearKnown": 328,
+        "fundingYearKnown": 330,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -54665,10 +54665,10 @@ window.CDF_DATA = {
           {
             "name": "Mwinilunga",
             "url": "constituencies/mwinilunga.html",
-            "count": 12,
-            "budgetM": 0,
+            "count": 14,
+            "budgetM": 0.62,
             "statusCounts": {
-              "completed": 3,
+              "completed": 5,
               "approved": 9
             },
             "projects": [
@@ -54757,6 +54757,27 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4356,
+                "url": "projects/4356-construction-of-a-1x3-classroom-block-at-kashambila-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Kashambila Primary School",
+                "ward": "Chisasa",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.6188,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (Daily Blitz): Mwinilunga Town Council's official Facebook post of 6 Jan 2025, re-read in full by the coordinator's live-browser leg, states the MP 'commissioned a newly constructed 1x3 classroom block at Kashambila Primary school in Chisasa Ward' and that 'The classroom block was built using the 2022 Constituency Development [Fund] at a cost of k618,840.61' (post body misprints the event year as 2024). This row was held from the council's 2024 shortlist; the shortlist's K776,809.88 Engineers Estimate is not carried — the budget shown is the cost stated in the handover post.",
+                "source": {
+                  "publisher": "Mwinilunga Town Council",
+                  "title": "CDF UPDATE — 1x3 Classroom Block at Kashambila Primary School Officially Handed Over (council official Facebook post, 6 Jan 2025; post body misprints the year as 2024 — 6 January was a Monday in 2025)",
+                  "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0365eTA7aPnPn6uawKzhamRG3ikvT7XEbux5Gb79aD9en5z9uAh3qpJ9yJvzBGDUf8l&id=100068675995444",
+                  "date": "2025-01-06"
+                },
+                "fundingYear": 2022
+              },
+              {
                 "id": 384,
                 "url": "projects/384-construction-of-a-clinic-in-kankang-a-area.html",
                 "name": "Construction of a Clinic in Kankang'a Area",
@@ -54776,6 +54797,27 @@ window.CDF_DATA = {
                   "date": "2025-03-07"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4357,
+                "url": "projects/4357-construction-of-a-maternity-annex-at-nsweta-health-centre.html",
+                "name": "Construction of a Maternity Annex at Nsweta Health Centre",
+                "ward": "Kapundu",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (Daily Blitz): Mwinilunga Town Council's official Facebook post of 12 Feb 2025, re-read in full by the coordinator's live-browser leg, lists 'Martenity Anex at Nsweta- Kapundu Ward' with STATUS 'Completed and waiting for Handover' and 'Source of Funding: 2022 CDF Allocation'. The post states no cost, so the budget is not published (the K485,000 on the held copy was the 2024 shortlist's Engineers Estimate and is not carried). Held as 'Completion of a Maternity Wing at Nsweta Health Centre' from the council's 2024 shortlist.",
+                "source": {
+                  "publisher": "Mwinilunga Town Council",
+                  "title": "CDF PROJECT UPDATE — Maternity Annexes at Kanyamisovu Rural Health Center and Nsweta: 'Completed and waiting for Handover', Source of Funding: 2022 CDF Allocation (council official Facebook post, 12 Feb 2025)",
+                  "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UiF57xzhT4rtuuS6McZRA8wRBjEvQEDTaaXmHJyxwS2UCU3RgVnTJxBh4nUhGiyTl&id=100068675995444",
+                  "date": "2025-02-12"
+                },
+                "fundingYear": 2022
               },
               {
                 "id": 386,
@@ -97879,17 +97921,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4285,
+    "totalProjects": 4287,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
-      "2022": 533,
+      "2022": 535,
       "2023": 478,
       "2024": 695,
       "2025": 1184,
       "2026": 493
     },
-    "fundingYearKnown": 3395
+    "fundingYearKnown": 3397
   },
   "people": {
     "bursaries": [
@@ -98041,12 +98083,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 458,
-        "completed": 53,
+        "tracked": 460,
+        "completed": 55,
         "underway": 12,
         "approved": 391,
         "other": 2,
-        "completedPct": 11.6,
+        "completedPct": 12.0,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -98149,9 +98191,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 458,
-        "completed": 53,
-        "pct": 11.6
+        "projects": 460,
+        "completed": 55,
+        "pct": 12.0
       }
     ],
     "typeMix": [
@@ -98200,10 +98242,10 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4285,
+    "total": 4287,
     "statuses": {
       "approved": 2837,
-      "completed": 1080,
+      "completed": 1082,
       "funded": 10,
       "in_progress": 39,
       "ongoing": 308,
