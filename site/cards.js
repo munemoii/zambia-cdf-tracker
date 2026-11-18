@@ -2087,13 +2087,13 @@ window.CDF_CARDS = {
    "neverStarted": 4
   },
   "published": {
-   "named": 90,
+   "named": 81,
    "completed": 1,
    "inProgress": 0,
-   "approved": 89,
+   "approved": 80,
    "stalled": 0,
    "notStated": 0,
-   "held": 5
+   "held": 14
   },
   "publishers": [
    "Chavuma Town Council",

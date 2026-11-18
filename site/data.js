@@ -49318,25 +49318,25 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 460,
+        "totalProjects": 451,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
           "2022": 64,
           "2023": 52,
           "2024": 65,
-          "2025": 105,
+          "2025": 96,
           "2026": 41
         },
-        "fundingYearKnown": 330,
+        "fundingYearKnown": 321,
         "constituencies": [
           {
             "name": "Chavuma",
             "url": "constituencies/chavuma.html",
-            "count": 90,
+            "count": 81,
             "budgetM": 15.23,
             "statusCounts": {
-              "approved": 89,
+              "approved": 80,
               "completed": 1
             },
             "projects": [
@@ -49950,27 +49950,6 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
-                "id": 4309,
-                "url": "projects/4309-construction-of-1x3-classroom-block-at-kalombo-primary-school.html",
-                "name": "Construction of 1x3 Classroom Block at Kalombo Primary School",
-                "ward": "Kalombo",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
                 "id": 315,
                 "url": "projects/315-construction-of-1x3-classroom-block-at-kamisamba-secondary-school.html",
                 "name": "Construction of 1x3 Classroom Block at Kamisamba Secondary School",
@@ -50475,90 +50454,6 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
-                "id": 4314,
-                "url": "projects/4314-construction-of-a-1x2-ablution-block-at-chikomba-primary-school.html",
-                "name": "Construction of a 1x2 Ablution Block at Chikomba Primary School",
-                "ward": "Chikomba",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 4310,
-                "url": "projects/4310-construction-of-a-1x2-ablution-block-at-kalombo-primary-school.html",
-                "name": "Construction of a 1x2 Ablution Block at Kalombo Primary School",
-                "ward": "Kalombo",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 4316,
-                "url": "projects/4316-construction-of-a-1x2-ablution-block-at-mize-primary-school.html",
-                "name": "Construction of a 1x2 Ablution Block at Mize Primary School",
-                "ward": "Mize",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 4312,
-                "url": "projects/4312-construction-of-a-1x2-ablution-block-at-nyakakebe-primary-school.html",
-                "name": "Construction of a 1x2 Ablution Block at Nyakakebe Primary School",
-                "ward": "Nyakakebe",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
                 "id": 4221,
                 "url": "projects/4221-construction-of-a-1x2-classroom-block-at-nyathanda.html",
                 "name": "Construction of a 1x2 Classroom Block at Nyathanda",
@@ -50599,90 +50494,6 @@ window.CDF_DATA = {
                   "date": "2024-01"
                 },
                 "fundingYear": null
-              },
-              {
-                "id": 4313,
-                "url": "projects/4313-construction-of-a-1x3-classroom-block-at-chikomba-primary-school.html",
-                "name": "Construction of a 1x3 Classroom Block at Chikomba Primary School",
-                "ward": "Chikomba",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 4315,
-                "url": "projects/4315-construction-of-a-1x3-classroom-block-at-mize-primary-school.html",
-                "name": "Construction of a 1x3 Classroom Block at Mize Primary School",
-                "ward": "Mize",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 4311,
-                "url": "projects/4311-construction-of-a-1x3-classroom-block-at-nyakakebe-primary-school.html",
-                "name": "Construction of a 1x3 Classroom Block at Nyakakebe Primary School",
-                "ward": "Nyakakebe",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
-              },
-              {
-                "id": 4317,
-                "url": "projects/4317-construction-of-a-1x3-classroom-block-at-sambianda-primary-school.html",
-                "name": "Construction of a 1x3 Classroom Block at Sambianda Primary School",
-                "ward": "Sambianda",
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Chavuma Town Council",
-                  "title": "List of Approved Projects (2025) — stamped 04 Sep 2025, prepared by Director Engineering, approved by Council Secretary; 10 rows, no amounts published",
-                  "url": "https://www.chavumacouncil.gov.zm/wp-content/uploads/2025/12/LIST-OF-APPROVED-PROJECTS2025.pdf",
-                  "date": "2025-09-04"
-                },
-                "fundingYear": 2025
               },
               {
                 "id": 4217,
@@ -97921,17 +97732,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4287,
+    "totalProjects": 4278,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
       "2022": 535,
       "2023": 478,
       "2024": 695,
-      "2025": 1184,
+      "2025": 1175,
       "2026": 493
     },
-    "fundingYearKnown": 3397
+    "fundingYearKnown": 3388
   },
   "people": {
     "bursaries": [
@@ -98083,12 +97894,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 460,
+        "tracked": 451,
         "completed": 55,
         "underway": 12,
-        "approved": 391,
+        "approved": 382,
         "other": 2,
-        "completedPct": 12.0,
+        "completedPct": 12.2,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -98191,9 +98002,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 460,
+        "projects": 451,
         "completed": 55,
-        "pct": 12.0
+        "pct": 12.2
       }
     ],
     "typeMix": [
@@ -98242,9 +98053,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4287,
+    "total": 4278,
     "statuses": {
-      "approved": 2837,
+      "approved": 2828,
       "completed": 1082,
       "funded": 10,
       "in_progress": 39,
@@ -98252,8 +98063,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.2,
-    "approvedPct": 66.4,
+    "completedPct": 25.3,
+    "approvedPct": 66.3,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10

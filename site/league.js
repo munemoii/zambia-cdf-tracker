@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4287,
-  "attributed": 4096,
+  "totalProjects": 4278,
+  "attributed": 4087,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 960
@@ -1947,23 +1947,6 @@ window.CDF_LEAGUE = {
    "rank": 105
   },
   {
-   "council": "Chavuma Town Council",
-   "named": 76,
-   "completed": 1,
-   "statusPct": 100,
-   "yearPct": 13,
-   "amountPct": 0,
-   "composite": 37.7,
-   "latest": "2025-09-04",
-   "constituencies": [
-    {
-     "name": "Chavuma",
-     "slug": "chavuma"
-    }
-   ],
-   "rank": 106
-  },
-  {
    "council": "Shibuyunji Town Council",
    "named": 23,
    "completed": 19,
@@ -1978,7 +1961,7 @@ window.CDF_LEAGUE = {
      "slug": "mwembeshi"
     }
    ],
-   "rank": 107
+   "rank": 106
   },
   {
    "council": "Sinazongwe Town Council",
@@ -1993,6 +1976,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Sinazongwe",
      "slug": "sinazongwe"
+    }
+   ],
+   "rank": 107
+  },
+  {
+   "council": "Chavuma Town Council",
+   "named": 67,
+   "completed": 1,
+   "statusPct": 100,
+   "yearPct": 1,
+   "amountPct": 0,
+   "composite": 33.7,
+   "latest": "2024-01",
+   "constituencies": [
+    {
+     "name": "Chavuma",
+     "slug": "chavuma"
     }
    ],
    "rank": 108
