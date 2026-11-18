@@ -817,7 +817,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 6
+   "held": 26
   },
   "publishers": [
    "Luanshya Municipal Council",
@@ -2087,10 +2087,10 @@ window.CDF_CARDS = {
    "neverStarted": 4
   },
   "published": {
-   "named": 81,
+   "named": 90,
    "completed": 1,
    "inProgress": 0,
-   "approved": 80,
+   "approved": 89,
    "stalled": 0,
    "notStated": 0,
    "held": 5
