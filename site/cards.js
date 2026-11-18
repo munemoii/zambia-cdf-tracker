@@ -696,10 +696,10 @@ window.CDF_CARDS = {
    "neverStarted": 5
   },
   "published": {
-   "named": 13,
+   "named": 23,
    "completed": 6,
    "inProgress": 7,
-   "approved": 0,
+   "approved": 10,
    "stalled": 0,
    "notStated": 0,
    "held": 6
@@ -2266,13 +2266,13 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 63,
+   "named": 91,
    "completed": 10,
    "inProgress": 0,
-   "approved": 53,
+   "approved": 81,
    "stalled": 0,
    "notStated": 0,
-   "held": 1
+   "held": 2
   },
   "publishers": [
    "Mushindamo Town Council",

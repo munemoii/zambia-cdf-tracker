@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4247,
-  "attributed": 4056,
+  "totalProjects": 4285,
+  "attributed": 4094,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 958
@@ -467,23 +467,6 @@ window.CDF_LEAGUE = {
    "rank": 25
   },
   {
-   "council": "Mushindamo Town Council",
-   "named": 62,
-   "completed": 10,
-   "statusPct": 100,
-   "yearPct": 97,
-   "amountPct": 61,
-   "composite": 86.0,
-   "latest": "2026-06-04",
-   "constituencies": [
-    {
-     "name": "Solwezi East",
-     "slug": "solwezi-east"
-    }
-   ],
-   "rank": 26
-  },
-  {
    "council": "Mafinga Town Council",
    "named": 21,
    "completed": 15,
@@ -498,7 +481,7 @@ window.CDF_LEAGUE = {
      "slug": "mafinga"
     }
    ],
-   "rank": 27
+   "rank": 26
   },
   {
    "council": "Kabwe Municipal Council",
@@ -519,7 +502,7 @@ window.CDF_LEAGUE = {
      "slug": "kabwe-central"
     }
    ],
-   "rank": 28
+   "rank": 27
   },
   {
    "council": "Sikongo Town Council",
@@ -536,7 +519,7 @@ window.CDF_LEAGUE = {
      "slug": "sikongo"
     }
    ],
-   "rank": 29
+   "rank": 28
   },
   {
    "council": "Zimba Town Council",
@@ -553,7 +536,7 @@ window.CDF_LEAGUE = {
      "slug": "mapatizya"
     }
    ],
-   "rank": 30
+   "rank": 29
   },
   {
    "council": "Siavonga Town Council",
@@ -570,7 +553,7 @@ window.CDF_LEAGUE = {
      "slug": "siavonga"
     }
    ],
-   "rank": 31
+   "rank": 30
   },
   {
    "council": "Serenje Town Council",
@@ -591,7 +574,7 @@ window.CDF_LEAGUE = {
      "slug": "serenje"
     }
    ],
-   "rank": 32
+   "rank": 31
   },
   {
    "council": "Chipangali Town Council",
@@ -608,7 +591,7 @@ window.CDF_LEAGUE = {
      "slug": "chipangali"
     }
    ],
-   "rank": 33
+   "rank": 32
   },
   {
    "council": "Mungwi Town Council",
@@ -625,7 +608,7 @@ window.CDF_LEAGUE = {
      "slug": "malole"
     }
    ],
-   "rank": 34
+   "rank": 33
   },
   {
    "council": "Ndola City Council",
@@ -654,7 +637,7 @@ window.CDF_LEAGUE = {
      "slug": "ndola-central"
     }
    ],
-   "rank": 35
+   "rank": 34
   },
   {
    "council": "Lufwanyama Town Council",
@@ -671,7 +654,7 @@ window.CDF_LEAGUE = {
      "slug": "lufwanyama"
     }
    ],
-   "rank": 36
+   "rank": 35
   },
   {
    "council": "Chienge Town Council",
@@ -688,7 +671,7 @@ window.CDF_LEAGUE = {
      "slug": "chiengi"
     }
    ],
-   "rank": 37
+   "rank": 36
   },
   {
    "council": "Lumezi Town Council",
@@ -705,7 +688,7 @@ window.CDF_LEAGUE = {
      "slug": "lumezi"
     }
    ],
-   "rank": 38
+   "rank": 37
   },
   {
    "council": "Lukulu Town Council",
@@ -720,6 +703,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Lukulu East",
      "slug": "lukulu-east"
+    }
+   ],
+   "rank": 38
+  },
+  {
+   "council": "Mushindamo Town Council",
+   "named": 90,
+   "completed": 10,
+   "statusPct": 100,
+   "yearPct": 99,
+   "amountPct": 42,
+   "composite": 80.3,
+   "latest": "2026-06-04",
+   "constituencies": [
+    {
+     "name": "Solwezi East",
+     "slug": "solwezi-east"
     }
    ],
    "rank": 39
@@ -1457,6 +1457,23 @@ window.CDF_LEAGUE = {
    "rank": 79
   },
   {
+   "council": "Mpongwe Town Council",
+   "named": 23,
+   "completed": 6,
+   "statusPct": 100,
+   "yearPct": 48,
+   "amountPct": 48,
+   "composite": 65.3,
+   "latest": "2026-08-01",
+   "constituencies": [
+    {
+     "name": "Mpongwe",
+     "slug": "mpongwe"
+    }
+   ],
+   "rank": 80
+  },
+  {
    "council": "Kalulushi Municipal Council",
    "named": 21,
    "completed": 1,
@@ -1471,7 +1488,7 @@ window.CDF_LEAGUE = {
      "slug": "kalulushi"
     }
    ],
-   "rank": 80
+   "rank": 81
   },
   {
    "council": "Chisamba Town Council",
@@ -1488,7 +1505,7 @@ window.CDF_LEAGUE = {
      "slug": "chisamba"
     }
    ],
-   "rank": 81
+   "rank": 82
   },
   {
    "council": "Senga Hill Town Council",
@@ -1505,7 +1522,7 @@ window.CDF_LEAGUE = {
      "slug": "senga-hill"
     }
    ],
-   "rank": 82
+   "rank": 83
   },
   {
    "council": "Chilubi Town Council",
@@ -1522,7 +1539,7 @@ window.CDF_LEAGUE = {
      "slug": "chilubi"
     }
    ],
-   "rank": 83
+   "rank": 84
   },
   {
    "council": "Namwala Town Council",
@@ -1539,7 +1556,7 @@ window.CDF_LEAGUE = {
      "slug": "namwala"
     }
    ],
-   "rank": 84
+   "rank": 85
   },
   {
    "council": "Chilanga Town Council",
@@ -1556,7 +1573,7 @@ window.CDF_LEAGUE = {
      "slug": "chilanga"
     }
    ],
-   "rank": 85
+   "rank": 86
   },
   {
    "council": "Chasefu Town Council",
@@ -1573,7 +1590,7 @@ window.CDF_LEAGUE = {
      "slug": "chasefu"
     }
    ],
-   "rank": 86
+   "rank": 87
   },
   {
    "council": "Chikankata Town Council",
@@ -1590,7 +1607,7 @@ window.CDF_LEAGUE = {
      "slug": "chikankata"
     }
    ],
-   "rank": 87
+   "rank": 88
   },
   {
    "council": "Lundazi Town Council",
@@ -1607,7 +1624,7 @@ window.CDF_LEAGUE = {
      "slug": "lundazi"
     }
    ],
-   "rank": 88
+   "rank": 89
   },
   {
    "council": "Mongu Municipal Council",
@@ -1628,7 +1645,7 @@ window.CDF_LEAGUE = {
      "slug": "nalikwanda"
     }
    ],
-   "rank": 89
+   "rank": 90
   },
   {
    "council": "Sesheke Town Council",
@@ -1645,7 +1662,7 @@ window.CDF_LEAGUE = {
      "slug": "sesheke"
     }
    ],
-   "rank": 90
+   "rank": 91
   },
   {
    "council": "Kaputa Town Council",
@@ -1662,7 +1679,7 @@ window.CDF_LEAGUE = {
      "slug": "kaputa"
     }
    ],
-   "rank": 91
+   "rank": 92
   },
   {
    "council": "Pemba Town Council",
@@ -1679,7 +1696,7 @@ window.CDF_LEAGUE = {
      "slug": "pemba"
     }
    ],
-   "rank": 92
+   "rank": 93
   },
   {
    "council": "Shang'ombo Town Council",
@@ -1696,7 +1713,7 @@ window.CDF_LEAGUE = {
      "slug": "shang-ombo"
     }
    ],
-   "rank": 93
+   "rank": 94
   },
   {
    "council": "Mwansabombwe Town Council",
@@ -1713,7 +1730,7 @@ window.CDF_LEAGUE = {
      "slug": "mwansabombwe"
     }
    ],
-   "rank": 94
+   "rank": 95
   },
   {
    "council": "Lusaka City Council",
@@ -1754,7 +1771,7 @@ window.CDF_LEAGUE = {
      "slug": "munali"
     }
    ],
-   "rank": 95
+   "rank": 96
   },
   {
    "council": "Chitambo Town Council",
@@ -1771,7 +1788,7 @@ window.CDF_LEAGUE = {
      "slug": "chitambo"
     }
    ],
-   "rank": 96
+   "rank": 97
   },
   {
    "council": "Rufunsa Town Council",
@@ -1788,7 +1805,7 @@ window.CDF_LEAGUE = {
      "slug": "rufunsa"
     }
    ],
-   "rank": 97
+   "rank": 98
   },
   {
    "council": "Livingstone City Council",
@@ -1805,7 +1822,7 @@ window.CDF_LEAGUE = {
      "slug": "livingstone"
     }
    ],
-   "rank": 98
+   "rank": 99
   },
   {
    "council": "Mkushi Town Council",
@@ -1822,7 +1839,7 @@ window.CDF_LEAGUE = {
      "slug": "mkushi-north"
     }
    ],
-   "rank": 99
+   "rank": 100
   },
   {
    "council": "Luwingu Town Council",
@@ -1839,7 +1856,7 @@ window.CDF_LEAGUE = {
      "slug": "lubansenshi"
     }
    ],
-   "rank": 100
+   "rank": 101
   },
   {
    "council": "Kitwe City Council",
@@ -1872,7 +1889,7 @@ window.CDF_LEAGUE = {
      "slug": "wusakile"
     }
    ],
-   "rank": 101
+   "rank": 102
   },
   {
    "council": "Kasempa Town Council",
@@ -1889,7 +1906,7 @@ window.CDF_LEAGUE = {
      "slug": "kasempa"
     }
    ],
-   "rank": 102
+   "rank": 103
   },
   {
    "council": "Sioma Town Council",
@@ -1906,7 +1923,7 @@ window.CDF_LEAGUE = {
      "slug": "sioma"
     }
    ],
-   "rank": 103
+   "rank": 104
   },
   {
    "council": "Chingola Municipal Council",
@@ -1925,23 +1942,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Nchanga",
      "slug": "nchanga"
-    }
-   ],
-   "rank": 104
-  },
-  {
-   "council": "Mpongwe Town Council",
-   "named": 13,
-   "completed": 6,
-   "statusPct": 100,
-   "yearPct": 8,
-   "amountPct": 8,
-   "composite": 38.7,
-   "latest": "2025-06-25",
-   "constituencies": [
-    {
-     "name": "Mpongwe",
-     "slug": "mpongwe"
     }
    ],
    "rank": 105

@@ -36207,15 +36207,15 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "province": "Copperbelt",
-        "totalProjects": 601,
+        "totalProjects": 611,
         "fundingYears": {
           "2022": 27,
           "2023": 143,
           "2024": 129,
           "2025": 155,
-          "2026": 59
+          "2026": 69
         },
-        "fundingYearKnown": 513,
+        "fundingYearKnown": 523,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -45598,10 +45598,11 @@ window.CDF_DATA = {
           {
             "name": "Mpongwe",
             "url": "constituencies/mpongwe.html",
-            "count": 13,
-            "budgetM": 2.8,
+            "count": 23,
+            "budgetM": 22.46,
             "statusCounts": {
               "ongoing": 7,
+              "approved": 10,
               "completed": 6
             },
             "projects": [
@@ -45625,6 +45626,132 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4351,
+                "url": "projects/4351-construction-of-1x3-crb-at-mpongwe-combined-school.html",
+                "name": "Construction of 1x3 CRB at Mpongwe Combined School",
+                "ward": "Mpongwe Central",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.32,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4346,
+                "url": "projects/4346-construction-of-1x3-classroom-block-at-nawanda-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Nawanda Primary School",
+                "ward": "Mikata",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.47,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4347,
+                "url": "projects/4347-construction-of-1x3-classroom-at-ikula.html",
+                "name": "Construction of 1x3 Classroom at Ikula",
+                "ward": "Kashiba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.47,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4350,
+                "url": "projects/4350-construction-of-maternity-annex-at-luamabwe-health-post.html",
+                "name": "Construction of Maternity Annex at Luamabwe Health Post",
+                "ward": "Kalweo",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.4,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4352,
+                "url": "projects/4352-construction-of-a-1x3-classroom-block-at-kalundu-community-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Kalundu Community Primary School",
+                "ward": "Kasonga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 1.63,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4348,
+                "url": "projects/4348-construction-of-a-staff-house-at-chawama-primary-school.html",
+                "name": "Construction of a Staff House at Chawama Primary School",
+                "ward": "Nampamba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.6,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2938,
@@ -45669,6 +45796,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4349,
+                "url": "projects/4349-extension-of-a-mortuary-at-st-theresa-hospital.html",
+                "name": "Extension of a Mortuary at St Theresa Hospital",
+                "ward": "Ibenga",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 1.1,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3144,
                 "url": "projects/3144-ipumbu-market-shelter.html",
                 "name": "Ipumbu Market Shelter",
@@ -45709,6 +45857,27 @@ window.CDF_DATA = {
                   "date": "2022-12-20"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4355,
+                "url": "projects/4355-maintenance-and-repair-of-cdf-equipment-insurance-maintenance-and-repair.html",
+                "name": "Maintenance and Repair of CDF Equipment (Insurance, Maintenance and Repair)",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.7696,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3143,
@@ -45753,6 +45922,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4354,
+                "url": "projects/4354-presidential-constituency-energy-initiative-solar-power-plant.html",
+                "name": "Presidential Constituency Energy Initiative (Solar Power Plant)",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 5.9,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant).",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3695,
                 "url": "projects/3695-procurement-of-backhoe-loader.html",
                 "name": "Procurement of Backhoe Loader",
@@ -45772,6 +45962,27 @@ window.CDF_DATA = {
                   "date": "2025-06-25"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4353,
+                "url": "projects/4353-procurement-of-excavator-20-24-tons.html",
+                "name": "Procurement of Excavator (20-24 Tons)",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 4.0,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mpongwe Town Council's Approved Community Projects 2026 list (APPROVED column amount as printed; read in full twice, concordant). This is the FY2026 approved procurement attested by this list; it is distinct from the completed-excavator claim demoted in Blitz Run 16, which rested on the council CDF page and remains unproved as a completion.",
+                "source": {
+                  "publisher": "Mpongwe Town Council",
+                  "title": "Approved Community Projects 2026 — 'MPONGWE TOWN COUNCIL-COMMUNITY PROJECTS -CDF 2026 / MPONGWE CONSTITUENCY' (council list, office-stamped, date stamp 01 AUG 2026; 10 rows with ESTIMATED COST and APPROVED columns; printed total K19,659,598.60, approved amounts sum exactly)",
+                  "url": "https://www.mpongwecouncil.gov.zm/wp-content/uploads/2026/09/Approved-Community-Projects-2026.pdf",
+                  "date": "2026-08-01"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3693,
@@ -49107,17 +49318,17 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 430,
+        "totalProjects": 458,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
           "2022": 62,
           "2023": 52,
-          "2024": 47,
-          "2025": 93,
+          "2024": 65,
+          "2025": 105,
           "2026": 41
         },
-        "fundingYearKnown": 298,
+        "fundingYearKnown": 328,
         "constituencies": [
           {
             "name": "Chavuma",
@@ -55320,11 +55531,11 @@ window.CDF_DATA = {
           {
             "name": "Solwezi East",
             "url": "constituencies/solwezi-east.html",
-            "count": 63,
+            "count": 91,
             "budgetM": 22.62,
             "statusCounts": {
               "completed": 10,
-              "approved": 53
+              "approved": 81
             },
             "projects": [
               {
@@ -55339,14 +55550,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-18 (14:45 CAT sweep): Mushindamo Town Council's CDF page 2024 set of approved CDF projects names this Yowela project (source 696); the year is the list's year, stated plainly by the page's year tab.",
                 "source": {
                   "publisher": "Mushindamo Town Council",
                   "title": "CDF Update 13.03.25 - Ablution Block and Water Reticulation at Yowela Secondary School and Mushindamo-Mututubanya Road Commissioned",
                   "url": "https://www.mushindamocouncil.gov.zm/?p=2364",
                   "date": "2025-03-13"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
               },
               {
                 "id": 4305,
@@ -55391,6 +55602,27 @@ window.CDF_DATA = {
                 "fundingYear": 2023
               },
               {
+                "id": 4321,
+                "url": "projects/4321-additional-funds-for-electrification-of-kichikwe-secondary-school-solar-2024-project.html",
+                "name": "Additional Funds for Electrification of Kichikwe Secondary School Solar (2024 Project)",
+                "ward": "Kangwena",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 4303,
                 "url": "projects/4303-allocation-for-rea.html",
                 "name": "Allocation for REA",
@@ -55410,6 +55642,27 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 4341,
+                "url": "projects/4341-clearing-and-grading-of-mikambo-kansefu-road.html",
+                "name": "Clearing and Grading of Mikambo – Kansefu Road",
+                "ward": "Kilumba",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 2602,
@@ -55559,6 +55812,48 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 4335,
+                "url": "projects/4335-completion-of-a-1x3-crb-at-kasapa-secondary-school.html",
+                "name": "Completion of a 1x3 CRB at Kasapa Secondary School",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 4345,
+                "url": "projects/4345-completion-of-a-staff-house-at-musaka.html",
+                "name": "Completion of a Staff House at Musaka",
+                "ward": "Musaka",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 2593,
                 "url": "projects/2593-construction-of-1x3-classroom-block-at-kichile.html",
                 "name": "Construction of 1x3 Classroom Block at Kichile",
@@ -55578,6 +55873,48 @@ window.CDF_DATA = {
                   "date": "2023-11-20"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4327,
+                "url": "projects/4327-construction-of-1x3-classroom-block-supply-of-120-three-seater-desks-and-mechanisation-of-borehole-equipment-at-mapanga-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block, Supply of 120 Three-Seater Desks and Mechanisation of Borehole Equipment at Mapanga Primary School",
+                "ward": "Mapunga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4329,
+                "url": "projects/4329-construction-of-1x3-classroom-block-supply-of-90-desks-and-borehole-drilling-and-equipping-at-mapanga-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block, Supply of 90 Desks and Borehole Drilling and Equipping at Mapanga Primary School",
+                "ward": "Kikola",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2583,
@@ -55696,14 +56033,35 @@ window.CDF_DATA = {
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-18 (14:45 CAT sweep): Mushindamo Town Council's CDF page 2024 set of approved CDF projects names this Kapako project (source 696); the year is the list's year, stated plainly by the page's year tab.",
                 "source": {
                   "publisher": "Ministry of Local Government and Rural Development - Provincial Local Government Office North-Western",
                   "title": "Notification of Approval for Community Projects for Solwezi East Constituency (Kapako Health Post)",
                   "url": "https://www.mushindamocouncil.gov.zm/wp-content/uploads/2024/09/Solwezi-East-Community-Projects-1.pdf",
                   "date": "2024-07-22"
                 },
-                "fundingYear": null
+                "fundingYear": 2024
+              },
+              {
+                "id": 4326,
+                "url": "projects/4326-construction-of-health-post-at-kichati-with-maternity-annex-borehole-drilling-and-mechanisation.html",
+                "name": "Construction of Health Post at Kichati with Maternity Annex, Borehole Drilling and Mechanisation",
+                "ward": "Mujimanzovu",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2584,
@@ -55725,6 +56083,48 @@ window.CDF_DATA = {
                   "date": "2023-11-20"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4324,
+                "url": "projects/4324-construction-of-health-post-with-maternity-annex-and-drilling-and-mechanisation-of-borehole-at-kibuye.html",
+                "name": "Construction of Health Post with Maternity Annex and Drilling and Mechanisation of Borehole at Kibuye",
+                "ward": "Mulonga",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4323,
+                "url": "projects/4323-construction-of-maternity-wing-procurement-of-equipment-and-mechanisation-of-borehole-at-kangwena-health-post.html",
+                "name": "Construction of Maternity Wing, Procurement of Equipment and Mechanisation of Borehole at Kangwena Health Post",
+                "ward": "Kangwena",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 2590,
@@ -55767,6 +56167,132 @@ window.CDF_DATA = {
                   "date": "2026-06-04"
                 },
                 "fundingYear": 2026
+              },
+              {
+                "id": 4318,
+                "url": "projects/4318-construction-of-staff-houses-ablution-block-and-mechanisation-of-existing-borehole-at-kingongwa-health-post.html",
+                "name": "Construction of Staff Houses, Ablution Block and Mechanisation of Existing Borehole at Kingongwa Health Post",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4325,
+                "url": "projects/4325-construction-of-two-staff-houses-at-kamisenga-rural-health-centre-and-mechanisation-of-existing-borehole.html",
+                "name": "Construction of Two Staff Houses at Kamisenga Rural Health Centre and Mechanisation of Existing Borehole",
+                "ward": "Kilumba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4338,
+                "url": "projects/4338-construction-of-a-1x2-crb-at-kamikumo-community-school.html",
+                "name": "Construction of a 1x2 CRB at Kamikumo Community School",
+                "ward": "Mulonga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 4340,
+                "url": "projects/4340-construction-of-a-1x2-crb-at-kangwena-primary-school.html",
+                "name": "Construction of a 1x2 CRB at Kangwena Primary School",
+                "ward": "Kangwena",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 4339,
+                "url": "projects/4339-construction-of-a-1x2-crb-at-mikambo-primary-school.html",
+                "name": "Construction of a 1x2 CRB at Mikambo Primary School",
+                "ward": "Kilumba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 4336,
+                "url": "projects/4336-construction-of-a-1x3-crb-at-kabunene-primary-school.html",
+                "name": "Construction of a 1x3 CRB at Kabunene Primary School",
+                "ward": "Mapunga",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 4300,
@@ -55916,6 +56442,27 @@ window.CDF_DATA = {
                 "fundingYear": 2026
               },
               {
+                "id": 4337,
+                "url": "projects/4337-construction-of-a-maternity-annex-water-supply-scheme-and-supply-of-equipment-at-mujimanzovu-rhc.html",
+                "name": "Construction of a Maternity Annex, Water Supply Scheme and Supply of Equipment at Mujimanzovu RHC",
+                "ward": "Mujimanzovu",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 4286,
                 "url": "projects/4286-construction-of-a-mortuary-at-kasapa-mini-hospital.html",
                 "name": "Construction of a Mortuary at Kasapa Mini Hospital",
@@ -55979,6 +56526,48 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 4319,
+                "url": "projects/4319-construction-of-an-ablution-block-at-kasapa-secondary-school.html",
+                "name": "Construction of an Ablution Block at Kasapa Secondary School",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4322,
+                "url": "projects/4322-construction-of-an-ablution-block-at-mikambo-primary-school.html",
+                "name": "Construction of an Ablution Block at Mikambo Primary School",
+                "ward": "Kilumba",
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
                 "id": 4295,
                 "url": "projects/4295-contribution-towards-the-presidential-constituency-energy-initiative.html",
                 "name": "Contribution towards the Presidential Constituency Energy Initiative",
@@ -56019,6 +56608,69 @@ window.CDF_DATA = {
                   "date": "2023-11-20"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4328,
+                "url": "projects/4328-drilling-of-boreholes-and-mechanisation-in-all-seven-zones-of-musaka-ward.html",
+                "name": "Drilling of Boreholes and Mechanisation in All Seven Zones of Musaka Ward",
+                "ward": "Musaka",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4320,
+                "url": "projects/4320-electrification-of-kasapa-secondary-school-rea.html",
+                "name": "Electrification of Kasapa Secondary School (REA)",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2025 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4334,
+                "url": "projects/4334-final-allocation-procurement-of-desks.html",
+                "name": "Final Allocation – Procurement of Desks",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 354,
@@ -56103,6 +56755,48 @@ window.CDF_DATA = {
                   "date": "2026-06-04"
                 },
                 "fundingYear": 2026
+              },
+              {
+                "id": 4331,
+                "url": "projects/4331-procure-ambulance-for-the-ministry-of-health.html",
+                "name": "Procure Ambulance for the Ministry of Health",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
+                "id": 4330,
+                "url": "projects/4330-procure-remaining-desks.html",
+                "name": "Procure Remaining Desks",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 4298,
@@ -56231,6 +56925,27 @@ window.CDF_DATA = {
                 "fundingYear": 2026
               },
               {
+                "id": 4343,
+                "url": "projects/4343-purchase-of-motor-bikes-for-chiefs-retainers.html",
+                "name": "Purchase of Motor Bikes for Chiefs Retainers",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 2577,
                 "url": "projects/2577-rehabilitation-of-1x2-classroom-block-and-construction-of-a-staff-house-at-musaka-primary-school.html",
                 "name": "Rehabilitation of 1x2 Classroom Block and Construction of a Staff House at Musaka Primary School",
@@ -56315,6 +57030,27 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 4344,
+                "url": "projects/4344-rehabilitation-of-building-to-be-used-as-a-radio-station.html",
+                "name": "Rehabilitation of Building to be Used as a Radio Station",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 4308,
                 "url": "projects/4308-rehabilitation-of-mujimanzovu-health-post-additional-funds.html",
                 "name": "Rehabilitation of Mujimanzovu Health Post — Additional Funds",
@@ -56378,6 +57114,27 @@ window.CDF_DATA = {
                 "fundingYear": 2023
               },
               {
+                "id": 4333,
+                "url": "projects/4333-reinforcement-of-holding-cells-mushindamo-police-station.html",
+                "name": "Reinforcement of Holding Cells – Mushindamo Police Station",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
+              },
+              {
                 "id": 2596,
                 "url": "projects/2596-repair-of-truck-at-mushindamo-girls-secondary-school.html",
                 "name": "Repair of Truck at Mushindamo Girls Secondary School",
@@ -56397,6 +57154,27 @@ window.CDF_DATA = {
                   "date": "2023-11-20"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4332,
+                "url": "projects/4332-rural-electrification-authority.html",
+                "name": "Rural Electrification Authority",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
               },
               {
                 "id": 348,
@@ -56649,6 +57427,27 @@ window.CDF_DATA = {
                   "date": "2023-11-20"
                 },
                 "fundingYear": 2022
+              },
+              {
+                "id": 4342,
+                "url": "projects/4342-water-supply-at-kingongwa-health-post.html",
+                "name": "Water Supply at Kingongwa Health Post",
+                "ward": "Kalilele",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-18 (14:45 CAT sweep): named in Mushindamo Town Council's CDF page 2024 set of approved CDF projects (name, sector and ward as printed; the page prints no amount, so the budget is not published). Readings concordant across the text layer, a live-browser tab-by-tab read and a coordinator fetch; earlier divergent tab-click transcriptions are superseded.",
+                "source": {
+                  "publisher": "Mushindamo Town Council",
+                  "title": "CDF page — Approved CDF Projects by year: 2025 and 2024 lists (council CDF page; page states it publishes 'selected approved CDF project information' for 2022–2025 and heads the sets 'Approved CDF Projects'; 2025 set 12 rows, 2024 set 19 rows, names/wards/sectors, no amounts; readings concordant across text layer, live-browser tab read and coordinator fetch — the divergent tab-click transcriptions of 2026-11-17/18 are superseded)",
+                  "url": "https://www.mushindamocouncil.gov.zm/?page_id=2832",
+                  "date": null
+                },
+                "fundingYear": 2024
               }
             ]
           },
@@ -97080,17 +97879,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4247,
+    "totalProjects": 4285,
     "fundingYears": {
       "2020": 2,
       "2021": 10,
       "2022": 533,
       "2023": 478,
-      "2024": 677,
-      "2025": 1172,
-      "2026": 483
+      "2024": 695,
+      "2025": 1184,
+      "2026": 493
     },
-    "fundingYearKnown": 3355
+    "fundingYearKnown": 3395
   },
   "people": {
     "bursaries": [
@@ -97242,12 +98041,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 430,
+        "tracked": 458,
         "completed": 53,
         "underway": 12,
-        "approved": 363,
+        "approved": 391,
         "other": 2,
-        "completedPct": 12.3,
+        "completedPct": 11.6,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -97264,12 +98063,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Copperbelt",
-        "tracked": 601,
+        "tracked": 611,
         "completed": 63,
         "underway": 47,
-        "approved": 491,
+        "approved": 501,
         "other": 0,
-        "completedPct": 10.5,
+        "completedPct": 10.3,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -97343,53 +98142,53 @@ window.CDF_DATA = {
       {
         "label": "Urban provinces",
         "provinces": 2,
-        "projects": 856,
+        "projects": 866,
         "completed": 142,
-        "pct": 16.6
+        "pct": 16.4
       },
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 430,
+        "projects": 458,
         "completed": 53,
-        "pct": 12.3
+        "pct": 11.6
       }
     ],
     "typeMix": [
       {
         "cat": "Education",
         "ruralN": 903,
-        "urbanN": 184,
+        "urbanN": 189,
         "ruralPct": 30.5,
-        "urbanPct": 21.5
+        "urbanPct": 21.8
       },
       {
         "cat": "Water & sanitation",
         "ruralN": 801,
         "urbanN": 183,
         "ruralPct": 27.1,
-        "urbanPct": 21.4
-      },
-      {
-        "cat": "Health",
-        "ruralN": 534,
-        "urbanN": 141,
-        "ruralPct": 18.0,
-        "urbanPct": 16.5
+        "urbanPct": 21.1
       },
       {
         "cat": "Other community works",
         "ruralN": 497,
-        "urbanN": 177,
+        "urbanN": 180,
         "ruralPct": 16.8,
-        "urbanPct": 20.7
+        "urbanPct": 20.8
+      },
+      {
+        "cat": "Health",
+        "ruralN": 534,
+        "urbanN": 143,
+        "ruralPct": 18.0,
+        "urbanPct": 16.5
       },
       {
         "cat": "Roads & bridges",
         "ruralN": 175,
         "urbanN": 140,
         "ruralPct": 5.9,
-        "urbanPct": 16.4
+        "urbanPct": 16.2
       },
       {
         "cat": "Police & security",
@@ -97401,9 +98200,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4247,
+    "total": 4285,
     "statuses": {
-      "approved": 2799,
+      "approved": 2837,
       "completed": 1080,
       "funded": 10,
       "in_progress": 39,
@@ -97411,8 +98210,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.4,
-    "approvedPct": 66.1,
+    "completedPct": 25.2,
+    "approvedPct": 66.4,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10
