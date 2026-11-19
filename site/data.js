@@ -13163,8 +13163,8 @@ window.CDF_DATA = {
             "count": 112,
             "budgetM": 65.12,
             "statusCounts": {
-              "approved": 108,
-              "completed": 4
+              "approved": 109,
+              "completed": 3
             },
             "projects": [
               {
@@ -14434,12 +14434,12 @@ window.CDF_DATA = {
                 "ward": "Nsingo",
                 "component": "community",
                 "category": "water",
-                "contractor": "Raj Agro Construction Ltd",
+                "contractor": null,
                 "budgetM": 0.25,
-                "status": "completed",
+                "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Status corrected 2026-11-19 (Daily Blitz audit, DB 1100 precedent): this row was carried as completed, but two consecutive Blitzes (2026-11-18 and 2026-11-19) read every document linked from the cited Chipata publications index (source 191), including the 2025 Semi Annual Performance report, and the only published proof for the Maulao Village water scheme is its approval (2024 CDF Approved Projects, K250,000, Nsingo ward). No official document states completion or handover, and none names the contractor previously shown (Raj Agro Construction Ltd), which is therefore no longer published. The proved stage is approved; if a completion source is published, the row will be re-tested.",
                 "source": {
                   "publisher": "Chipata City Council",
                   "title": "Publications page listing CDF approved and proposed project documents 2022-2025",
@@ -22120,14 +22120,14 @@ window.CDF_DATA = {
         "province": "Southern",
         "totalProjects": 657,
         "fundingYears": {
-          "2021": 1,
+          "2021": 2,
           "2022": 45,
           "2023": 53,
           "2024": 135,
           "2025": 219,
           "2026": 50
         },
-        "fundingYearKnown": 503,
+        "fundingYearKnown": 504,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -26987,14 +26987,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": 100.0,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-19 (Daily Blitz audit): the cited Kazungula Town Council update report (source 281), re-read firsthand by the coordinator, places this row in its section headed 'REPORT ON PROJECTS IN KAZUNGULA DISTRICT FUNDED FROM 2021 CDF', row 3: Vaala Primary School 1x3 CRB, 2021 CDF, K638,325.00, Geofmas Enterprises, Bombwe, 100%, 'Project completed, but not yet handed over' - every other live field matches the row verbatim.",
                 "source": {
                   "publisher": "Kazungula Town Council",
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2021
               },
               {
                 "id": 1308,
@@ -68148,15 +68148,15 @@ window.CDF_DATA = {
       {
         "name": "Western",
         "province": "Western",
-        "totalProjects": 401,
+        "totalProjects": 403,
         "fundingYears": {
           "2022": 60,
           "2023": 34,
           "2024": 71,
-          "2025": 91,
+          "2025": 93,
           "2026": 25
         },
-        "fundingYearKnown": 281,
+        "fundingYearKnown": 283,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -70813,12 +70813,54 @@ window.CDF_DATA = {
           {
             "name": "Mangango",
             "url": "constituencies/mangango.html",
-            "count": 1,
+            "count": 3,
             "budgetM": 0.07,
             "statusCounts": {
-              "completed": 1
+              "completed": 3
             },
             "projects": [
+              {
+                "id": 4358,
+                "url": "projects/4358-construction-of-a-1x3-classroom-block-at-limbotwa-secondary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Limbotwa Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-19 (Daily Blitz): Kaoma Town Council's article of 16 Jan 2026, read in full by the coordinator's live-browser leg, states the council 'has officially handed over' a one-by-three classroom block at Limbotwa Secondary School and that the projects handed over 'are among several initiatives being implemented under the 2025 Constituency Development Fund (CDF)'. The article states no amount and no ward, so neither is published. Held as 'Construction of classroom block at Limbotwa-Kasebi' from a Melo Media feature (an approved claim at K900,000, a planned figure) - that amount is not carried.",
+                "source": {
+                  "publisher": "Kaoma Town Council",
+                  "title": "Kaoma Town Council Hands Over Education and Health Infrastructure Projects in Mangango Constituency (council article, 16 Jan 2026)",
+                  "url": "https://www.kaomacouncil.gov.zm/?p=3138",
+                  "date": "2026-01-16"
+                },
+                "fundingYear": 2025
+              },
+              {
+                "id": 4359,
+                "url": "projects/4359-construction-of-a-maternity-wing-at-kasabi-health-post.html",
+                "name": "Construction of a Maternity Wing at Kasabi Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-19 (Daily Blitz): Kaoma Town Council's article of 16 Jan 2026, read in full by the coordinator's live-browser leg, states the council 'has officially handed over' a maternity wing at Kasabi Health Post and that the projects handed over 'are among several initiatives being implemented under the 2025 Constituency Development Fund (CDF)'. The article states no amount and no ward, so neither is published. Held as 'Construction of maternity wing at Kasabi Clinic' from a Melo Media feature, which framed the wing as completed in 2022/2023 at K1,200,000 - neither that year nor that amount is carried; the funding year shown is the council article's 2025 CDF.",
+                "source": {
+                  "publisher": "Kaoma Town Council",
+                  "title": "Kaoma Town Council Hands Over Education and Health Infrastructure Projects in Mangango Constituency (council article, 16 Jan 2026)",
+                  "url": "https://www.kaomacouncil.gov.zm/?p=3138",
+                  "date": "2026-01-16"
+                },
+                "fundingYear": 2025
+              },
               {
                 "id": 2892,
                 "url": "projects/2892-drilling-of-borehole-at-kaoma-primary-school.html",
@@ -97732,17 +97774,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4278,
+    "totalProjects": 4280,
     "fundingYears": {
       "2020": 2,
-      "2021": 10,
+      "2021": 11,
       "2022": 535,
       "2023": 478,
       "2024": 695,
-      "2025": 1175,
+      "2025": 1177,
       "2026": 493
     },
-    "fundingYearKnown": 3388
+    "fundingYearKnown": 3391
   },
   "people": {
     "bursaries": [
@@ -97840,22 +97882,22 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "tracked": 765,
-        "completed": 112,
+        "completed": 111,
         "underway": 54,
-        "approved": 599,
+        "approved": 600,
         "other": 0,
-        "completedPct": 14.6,
+        "completedPct": 14.5,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
       {
         "name": "Western",
-        "tracked": 401,
-        "completed": 170,
+        "tracked": 403,
+        "completed": 172,
         "underway": 54,
         "approved": 175,
         "other": 2,
-        "completedPct": 42.4,
+        "completedPct": 42.7,
         "ruralPct": 80.6,
         "urbanPct": 19.4
       },
@@ -97988,8 +98030,8 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2961,
-        "completed": 885,
+        "projects": 2963,
+        "completed": 886,
         "pct": 29.9
       },
       {
@@ -98010,7 +98052,7 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 903,
+        "ruralN": 904,
         "urbanN": 189,
         "ruralPct": 30.5,
         "urbanPct": 21.8
@@ -98019,8 +98061,15 @@ window.CDF_DATA = {
         "cat": "Water & sanitation",
         "ruralN": 801,
         "urbanN": 183,
-        "ruralPct": 27.1,
+        "ruralPct": 27.0,
         "urbanPct": 21.1
+      },
+      {
+        "cat": "Health",
+        "ruralN": 535,
+        "urbanN": 143,
+        "ruralPct": 18.1,
+        "urbanPct": 16.5
       },
       {
         "cat": "Other community works",
@@ -98028,13 +98077,6 @@ window.CDF_DATA = {
         "urbanN": 180,
         "ruralPct": 16.8,
         "urbanPct": 20.8
-      },
-      {
-        "cat": "Health",
-        "ruralN": 534,
-        "urbanN": 143,
-        "ruralPct": 18.0,
-        "urbanPct": 16.5
       },
       {
         "cat": "Roads & bridges",
@@ -98053,10 +98095,10 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4278,
+    "total": 4280,
     "statuses": {
-      "approved": 2828,
-      "completed": 1082,
+      "approved": 2829,
+      "completed": 1083,
       "funded": 10,
       "in_progress": 39,
       "ongoing": 308,

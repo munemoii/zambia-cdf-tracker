@@ -1062,9 +1062,9 @@ window.CDF_CARDS = {
   },
   "published": {
    "named": 112,
-   "completed": 4,
+   "completed": 3,
    "inProgress": 0,
-   "approved": 108,
+   "approved": 109,
    "stalled": 0,
    "notStated": 0,
    "held": 1
@@ -3228,13 +3228,13 @@ window.CDF_CARDS = {
    "neverStarted": 10
   },
   "published": {
-   "named": 1,
-   "completed": 1,
+   "named": 3,
+   "completed": 3,
    "inProgress": 0,
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 18
+   "held": 16
   },
   "publishers": [
    "Kaoma Town Council"
