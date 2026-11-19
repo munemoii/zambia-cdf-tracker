@@ -6,7 +6,7 @@ window.CDF_LEAGUE = {
   "attributed": 4089,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 961
+  "councilCompleted": 962
  },
  "councils": [
   {
@@ -1699,47 +1699,13 @@ window.CDF_LEAGUE = {
    "rank": 93
   },
   {
-   "council": "Shang'ombo Town Council",
-   "named": 6,
-   "completed": 5,
-   "statusPct": 100,
-   "yearPct": 67,
-   "amountPct": 0,
-   "composite": 55.7,
-   "latest": "2024-01",
-   "constituencies": [
-    {
-     "name": "Shang'ombo",
-     "slug": "shang-ombo"
-    }
-   ],
-   "rank": 94
-  },
-  {
-   "council": "Mwansabombwe Town Council",
-   "named": 11,
-   "completed": 7,
-   "statusPct": 100,
-   "yearPct": 9,
-   "amountPct": 55,
-   "composite": 54.7,
-   "latest": "2024-06-13",
-   "constituencies": [
-    {
-     "name": "Mwansabombwe",
-     "slug": "mwansabombwe"
-    }
-   ],
-   "rank": 95
-  },
-  {
    "council": "Lusaka City Council",
    "named": 19,
-   "completed": 15,
+   "completed": 16,
    "statusPct": 100,
    "yearPct": 26,
-   "amountPct": 37,
-   "composite": 54.3,
+   "amountPct": 42,
+   "composite": 56.0,
    "latest": "2025-12-20",
    "constituencies": [
     {
@@ -1769,6 +1735,40 @@ window.CDF_LEAGUE = {
     {
      "name": "Munali",
      "slug": "munali"
+    }
+   ],
+   "rank": 94
+  },
+  {
+   "council": "Shang'ombo Town Council",
+   "named": 6,
+   "completed": 5,
+   "statusPct": 100,
+   "yearPct": 67,
+   "amountPct": 0,
+   "composite": 55.7,
+   "latest": "2024-01",
+   "constituencies": [
+    {
+     "name": "Shang'ombo",
+     "slug": "shang-ombo"
+    }
+   ],
+   "rank": 95
+  },
+  {
+   "council": "Mwansabombwe Town Council",
+   "named": 11,
+   "completed": 7,
+   "statusPct": 100,
+   "yearPct": 9,
+   "amountPct": 55,
+   "composite": 54.7,
+   "latest": "2024-06-13",
+   "constituencies": [
+    {
+     "name": "Mwansabombwe",
+     "slug": "mwansabombwe"
     }
    ],
    "rank": 96

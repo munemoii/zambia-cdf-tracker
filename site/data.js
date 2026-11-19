@@ -3579,10 +3579,10 @@ window.CDF_DATA = {
         "name": "Kabwata",
         "url": "constituencies/kabwata.html",
         "count": 4,
-        "budgetM": 0,
+        "budgetM": 1.79,
         "statusCounts": {
-          "completed": 2,
-          "in_progress": 2
+          "completed": 3,
+          "in_progress": 1
         },
         "projects": [
           {
@@ -3634,12 +3634,12 @@ window.CDF_DATA = {
             "ward": null,
             "component": "community",
             "category": "health",
-            "contractor": null,
-            "budgetM": null,
-            "status": "in_progress",
+            "contractor": "Tecon Engineering Company Limited",
+            "budgetM": 1.7862,
+            "status": "completed",
             "completionPct": 90.0,
             "photo": null,
-            "note": null,
+            "note": "Status upgraded in_progress -> completed 2026-11-19 (22:45 CAT sweep): Lusaka City Council's completion announcement of 22 Oct 2025 (source 701) plainly states the maternity wing at Kabwata Clinic is complete, funded through CDF for the 2023-2024 financial year at a total cost of K1,786,159.79, contractor Tecon Engineering Company Limited; corroborated by ZNBC Today's 19 Nov 2026 repost. The funding year is published only as the 2023-2024 range, so funding_year stays unpublished. The '90% completion' wording on the original source 13 is LCC's 14 Apr 2025 post and is superseded.",
             "source": {
               "publisher": "Lusaka City Council",
               "title": "Construction of the new maternity annex at Kabwata Clinic has reached 90% completion",
@@ -91507,10 +91507,10 @@ window.CDF_DATA = {
             "name": "Kabwata",
             "url": "constituencies/kabwata.html",
             "count": 4,
-            "budgetM": 0,
+            "budgetM": 1.79,
             "statusCounts": {
-              "completed": 2,
-              "in_progress": 2
+              "completed": 3,
+              "in_progress": 1
             },
             "projects": [
               {
@@ -91562,12 +91562,12 @@ window.CDF_DATA = {
                 "ward": null,
                 "component": "community",
                 "category": "health",
-                "contractor": null,
-                "budgetM": null,
-                "status": "in_progress",
+                "contractor": "Tecon Engineering Company Limited",
+                "budgetM": 1.7862,
+                "status": "completed",
                 "completionPct": 90.0,
                 "photo": null,
-                "note": null,
+                "note": "Status upgraded in_progress -> completed 2026-11-19 (22:45 CAT sweep): Lusaka City Council's completion announcement of 22 Oct 2025 (source 701) plainly states the maternity wing at Kabwata Clinic is complete, funded through CDF for the 2023-2024 financial year at a total cost of K1,786,159.79, contractor Tecon Engineering Company Limited; corroborated by ZNBC Today's 19 Nov 2026 repost. The funding year is published only as the 2023-2024 range, so funding_year stays unpublished. The '90% completion' wording on the original source 13 is LCC's 14 Apr 2025 post and is superseded.",
                 "source": {
                   "publisher": "Lusaka City Council",
                   "title": "Construction of the new maternity annex at Kabwata Clinic has reached 90% completion",
@@ -97948,11 +97948,11 @@ window.CDF_DATA = {
       {
         "name": "Lusaka",
         "tracked": 255,
-        "completed": 79,
-        "underway": 37,
+        "completed": 80,
+        "underway": 36,
         "approved": 137,
         "other": 2,
-        "completedPct": 31.0,
+        "completedPct": 31.4,
         "ruralPct": 18.5,
         "urbanPct": 81.5
       },
@@ -98038,8 +98038,8 @@ window.CDF_DATA = {
         "label": "Urban provinces",
         "provinces": 2,
         "projects": 866,
-        "completed": 142,
-        "pct": 16.4
+        "completed": 143,
+        "pct": 16.5
       },
       {
         "label": "In between",
@@ -98098,9 +98098,9 @@ window.CDF_DATA = {
     "total": 4280,
     "statuses": {
       "approved": 2829,
-      "completed": 1083,
+      "completed": 1084,
       "funded": 10,
-      "in_progress": 39,
+      "in_progress": 38,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
