@@ -6,7 +6,7 @@ window.CDF_LEAGUE = {
   "attributed": 4089,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 962
+  "councilCompleted": 963
  },
  "councils": [
   {
@@ -596,7 +596,7 @@ window.CDF_LEAGUE = {
   {
    "council": "Ndola City Council",
    "named": 143,
-   "completed": 11,
+   "completed": 12,
    "statusPct": 100,
    "yearPct": 87,
    "amountPct": 62,

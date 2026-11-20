@@ -38683,9 +38683,10 @@ window.CDF_DATA = {
             "name": "Kabushi",
             "url": "constituencies/kabushi.html",
             "count": 27,
-            "budgetM": 30.64,
+            "budgetM": 33.44,
             "statusCounts": {
-              "approved": 27
+              "approved": 26,
+              "completed": 1
             },
             "projects": [
               {
@@ -38927,11 +38928,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "markets",
                 "contractor": null,
-                "budgetM": null,
-                "status": "approved",
+                "budgetM": 2.8,
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Status upgraded approved -> completed 2026-11-20 (22:45 CAT sweep): Ndola City Council's article of 20 Nov 2026 (source 703) plainly states the Lubuto Market Shelter in Lubuto Ward, Kabushi Constituency was newly constructed and officially commissioned (by Copperbelt Provincial Minister Hon. Emmanuel Kasambo, represented by Ms. Bertha Sandabunga); Mayor Cllr. Kennedy Kasaba gave its cost as K2.8 million (rounded as printed — budget carried at that published figure). The article states no funding year and no contractor, so neither is published; the project's CDF identity rests on source 311, the ZPPA e-GP CDF tender for this exact shelter. The article's accompanying drainage system (K977,000) was NOT matched to a single tracker row — two Lubuto drainage rows exist (DB 3664/3665) — so no drainage row was upgraded.",
                 "source": {
                   "publisher": "ZPPA e-GP (Ndola City Council)",
                   "title": "NCC/DES/PSU/CDF/KB/CWD/02/25-21: Tender for construction of a market shelter at Lubuto Market in Lubuto Ward — CDF Kabushi Constituency",
@@ -97967,11 +97968,11 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "tracked": 611,
-        "completed": 63,
+        "completed": 64,
         "underway": 47,
-        "approved": 501,
+        "approved": 500,
         "other": 0,
-        "completedPct": 10.3,
+        "completedPct": 10.5,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -98046,8 +98047,8 @@ window.CDF_DATA = {
         "label": "Urban provinces",
         "provinces": 2,
         "projects": 866,
-        "completed": 143,
-        "pct": 16.5
+        "completed": 144,
+        "pct": 16.6
       },
       {
         "label": "In between",
@@ -98105,15 +98106,15 @@ window.CDF_DATA = {
   "record": {
     "total": 4280,
     "statuses": {
-      "approved": 2829,
-      "completed": 1084,
+      "approved": 2828,
+      "completed": 1085,
       "funded": 10,
       "in_progress": 38,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.3,
+    "completedPct": 25.4,
     "approvedPct": 66.3,
     "withPhoto": 25,
     "constituencies": 156,
