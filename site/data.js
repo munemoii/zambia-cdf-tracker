@@ -248,12 +248,12 @@ window.CDF_DATA = {
     "totalProjects": 255,
     "fundingYears": {
       "2022": 44,
-      "2023": 23,
+      "2023": 24,
       "2024": 12,
       "2025": 62,
       "2026": 57
     },
-    "fundingYearKnown": 198,
+    "fundingYearKnown": 199,
     "constituencies": [
       {
         "name": "Chawama",
@@ -5415,14 +5415,14 @@ window.CDF_DATA = {
             "status": "completed",
             "completionPct": null,
             "photo": null,
-            "note": null,
+            "note": "Funding year pinned 2026-11-20 (Daily Blitz audit): the cited Lusaka Provincial Administration article (source 34), re-read firsthand by the coordinator, records the Minister handing over 'three educational infrastructure build under the 2023 Constituency development fund', naming 'fresh air and Chinzete primary schools built at a cost of K950,000.00 each' in Mulamba ward - the budget and ward already carried match the article.",
             "source": {
               "publisher": "Lusaka Provincial Administration",
               "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
               "url": "https://www.lsk.gov.zm/?p=3578",
               "date": null
             },
-            "fundingYear": null
+            "fundingYear": 2023
           },
           {
             "id": 2570,
@@ -22121,13 +22121,13 @@ window.CDF_DATA = {
         "totalProjects": 657,
         "fundingYears": {
           "2021": 2,
-          "2022": 45,
+          "2022": 46,
           "2023": 53,
           "2024": 135,
           "2025": 219,
           "2026": 50
         },
-        "fundingYearKnown": 504,
+        "fundingYearKnown": 505,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -34281,14 +34281,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-20 (Daily Blitz audit): the cited Namwala Town Council branded-projects table (source 272), re-read firsthand by the coordinator, row 13 reads 'Nachuumba | Outpatient Department | 2022 | Mbeza' - the ward already carried matches the table.",
                 "source": {
                   "publisher": "Namwala Town Council",
                   "title": "Namwala brands 21 CDF community projects (completed projects 2022-2024, with CDF year and ward)",
                   "url": "https://www.namwalacouncil.gov.zm/?p=3085",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1145,
@@ -67830,7 +67830,7 @@ window.CDF_DATA = {
                 "id": 3831,
                 "url": "projects/3831-rehabilitation-of-water-point-at-chilisha-community.html",
                 "name": "Rehabilitation of Water Point at Chilisha Community",
-                "ward": null,
+                "ward": "Ibolelo",
                 "component": "community",
                 "category": "water",
                 "contractor": null,
@@ -67838,7 +67838,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Ward pinned 2026-11-20 (Daily Blitz audit): the cited Serenje Town Council Minutes (July 2025), minute PWD&RE/108/06/25 'Rehabilitation of Existing Water Points', table headed 'CDF-Serenje Central' (SN | NAME | WARD | STATUS), row 2 reads 'Chilisha Community | Ibolelo | Rehabilitated' - read on the coordinator's live-browser retry leg - in a section reporting rehabilitation of water points in Serenje Constituency using the 2024 CDF allocation. Status (completed) and funding year (2024) stand as printed.",
                 "source": {
                   "publisher": "Serenje Town Council",
                   "title": "Serenje Town Council Minutes July 2025 (incl. PWD&RE/105-110/06/25 CDF updates)",
@@ -82564,13 +82564,13 @@ window.CDF_DATA = {
         "totalProjects": 259,
         "fundingYears": {
           "2021": 8,
-          "2022": 64,
+          "2022": 65,
           "2023": 43,
           "2024": 28,
           "2025": 50,
           "2026": 23
         },
-        "fundingYearKnown": 216,
+        "fundingYearKnown": 217,
         "constituencies": [
           {
             "name": "Chilubi",
@@ -84017,7 +84017,7 @@ window.CDF_DATA = {
                 "contractor": "Solar Move Africa Limited",
                 "budgetM": 0.2934,
                 "status": "completed",
-                "completionPct": null,
+                "completionPct": 100.0,
                 "photo": null,
                 "note": "Status and completion percentage as printed in Kasama Municipal Council's Q2 2024 Ordinary Council Booklet progress tables (May 2024) — the latest status the council has published for this project.",
                 "source": {
@@ -84589,7 +84589,7 @@ window.CDF_DATA = {
                 "contractor": null,
                 "budgetM": 0.8563,
                 "status": "ongoing",
-                "completionPct": null,
+                "completionPct": 93.26,
                 "photo": null,
                 "note": "Status and completion percentage as printed in Kasama Municipal Council's Q2 2024 Ordinary Council Booklet progress tables (May 2024) — the latest status the council has published for this project.",
                 "source": {
@@ -87116,14 +87116,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-20 (Daily Blitz audit): the cited Mbala Municipal Council Newsletter (Issue 1, 2023), re-read firsthand by the coordinator, reports on p.10 ('CDF Projects Handed Over to the Community') that projects 'implemented under the 2022 CDF allocation' were officially handed over, naming the 1x3 Classroom Block at Ndundundu Primary School among the three handed over (with the Musende 1x2 CRB and staff house and the Chila Deaf Primary School 1x2 CRB, at a combined K1,937,600 - the combined cost stays unsplit and unpublished).",
                 "source": {
                   "publisher": "Mbala Municipal Council",
                   "title": "Mbala Municipal Council Newsletter, Issue 1 2023",
                   "url": "https://www.mbalacouncil.gov.zm/wp-content/uploads/2023/12/MBALA-MUNICIPAL-COUNCIL-NEWSLETTER-1.pdf",
                   "date": "2023"
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 2435,
@@ -88176,12 +88176,12 @@ window.CDF_DATA = {
         "totalProjects": 255,
         "fundingYears": {
           "2022": 44,
-          "2023": 23,
+          "2023": 24,
           "2024": 12,
           "2025": 62,
           "2026": 57
         },
-        "fundingYearKnown": 198,
+        "fundingYearKnown": 199,
         "constituencies": [
           {
             "name": "Chawama",
@@ -93343,14 +93343,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-20 (Daily Blitz audit): the cited Lusaka Provincial Administration article (source 34), re-read firsthand by the coordinator, records the Minister handing over 'three educational infrastructure build under the 2023 Constituency development fund', naming 'fresh air and Chinzete primary schools built at a cost of K950,000.00 each' in Mulamba ward - the budget and ward already carried match the article.",
                 "source": {
                   "publisher": "Lusaka Provincial Administration",
                   "title": "Chief Bunda Bunda commends government for development in Rufunsa (2023 CDF handovers: Kankumba laboratory, Chinzete and Fresh Air classroom blocks)",
                   "url": "https://www.lsk.gov.zm/?p=3578",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 2570,
@@ -97778,13 +97778,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 11,
-      "2022": 535,
-      "2023": 478,
+      "2022": 537,
+      "2023": 479,
       "2024": 695,
       "2025": 1177,
       "2026": 493
     },
-    "fundingYearKnown": 3391
+    "fundingYearKnown": 3394
   },
   "people": {
     "bursaries": [

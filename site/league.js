@@ -848,6 +848,23 @@ window.CDF_LEAGUE = {
    "rank": 46
   },
   {
+   "council": "Mbala Municipal Council",
+   "named": 10,
+   "completed": 7,
+   "statusPct": 100,
+   "yearPct": 70,
+   "amountPct": 60,
+   "composite": 76.7,
+   "latest": "2023",
+   "constituencies": [
+    {
+     "name": "Mbala",
+     "slug": "mbala"
+    }
+   ],
+   "rank": 47
+  },
+  {
    "council": "Chinsali Municipal Council",
    "named": 28,
    "completed": 1,
@@ -862,7 +879,7 @@ window.CDF_LEAGUE = {
      "slug": "chinsali"
     }
    ],
-   "rank": 47
+   "rank": 48
   },
   {
    "council": "Chibombo Town Council",
@@ -883,7 +900,7 @@ window.CDF_LEAGUE = {
      "slug": "keembe"
     }
    ],
-   "rank": 48
+   "rank": 49
   },
   {
    "council": "Kazungula Town Council",
@@ -900,7 +917,7 @@ window.CDF_LEAGUE = {
      "slug": "katombola"
     }
    ],
-   "rank": 49
+   "rank": 50
   },
   {
    "council": "Kabompo Town Council",
@@ -917,7 +934,7 @@ window.CDF_LEAGUE = {
      "slug": "kabompo"
     }
    ],
-   "rank": 50
+   "rank": 51
   },
   {
    "council": "Kalabo Town Council",
@@ -938,7 +955,7 @@ window.CDF_LEAGUE = {
      "slug": "liuwa"
     }
    ],
-   "rank": 51
+   "rank": 52
   },
   {
    "council": "Limulunga Town Council",
@@ -953,23 +970,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Luena",
      "slug": "luena"
-    }
-   ],
-   "rank": 52
-  },
-  {
-   "council": "Mbala Municipal Council",
-   "named": 10,
-   "completed": 7,
-   "statusPct": 100,
-   "yearPct": 60,
-   "amountPct": 60,
-   "composite": 73.3,
-   "latest": "2023",
-   "constituencies": [
-    {
-     "name": "Mbala",
-     "slug": "mbala"
     }
    ],
    "rank": 53
@@ -1546,9 +1546,9 @@ window.CDF_LEAGUE = {
    "named": 35,
    "completed": 22,
    "statusPct": 100,
-   "yearPct": 77,
+   "yearPct": 80,
    "amountPct": 9,
-   "composite": 62.0,
+   "composite": 63.0,
    "latest": "2026-02-23",
    "constituencies": [
     {
