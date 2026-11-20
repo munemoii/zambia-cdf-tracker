@@ -154,6 +154,14 @@ window.CDF_DATA = {
   ],
   "news": [
     {
+      "date": "20 November 2026",
+      "source": "Ministry of Finance and National Planning — official Facebook post",
+      "title": "K1 billion released to the CDF in October, within K20.3 billion of monthly releases",
+      "text": "The Ministry of Finance and National Planning released K1 billion to the Constituency Development Fund in October 2026, as part of K20.3 billion released that month to sustain public services, support vulnerable households, strengthen agriculture, finance infrastructure and honour national obligations.\n\nThe CDF money sits inside a K6.4 billion category for families, education and communities, alongside K1.4 billion for Social Cash Transfers, K806.3 million for free education, K1.5 billion for grant-aided institutions, K241.5 million for local authorities, K330 million for farmer inputs and K200 million for public service pensions. The rest of the October total went to government operations and programmes (K2.7 billion), public service salaries (K7.2 billion), infrastructure (K1.3 billion) and financial obligations (K2.7 billion).\n\nThe announcement, published on the Ministry's official Facebook page on 20 November, gives no per-constituency breakdown, so no individual council's record changes on the strength of it. The Ministry also carried a paraphrased remark from Finance Minister Dr Situmbeko Musokotwane that public expenditure must be judged by results, not releases alone.\n\nWhy it matters here: releases are the second step of the CDF cascade this tracker follows — allocated, released, used, built. K1 billion in a single month is roughly a sixth of the 2026 CDF allocation of K6.24 billion (K40 million across 156 constituencies). What this tracker can check next is the step after release: what councils publish about receiving and using the money.",
+      "url": "https://www.facebook.com/zambiafinanceministry/posts/pfbid0uLiPRMF9X5tJqQk9TuZYMEPfcwML7cpC8k2PQSm5f1CxjPxoS3NDyJJWVCHHD3YEl",
+      "page": "developments/k1-billion-released-to-the-cdf-in-october-within-k20-3-billion-of-monthly-releases.html"
+    },
+    {
       "date": "17 November 2026",
       "source": "Zambia Monitor, reporting a ZPPA media briefing",
       "title": "ZPPA flags contract weaknesses in CDF projects: 26 projects monitored in 11 councils",
