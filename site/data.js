@@ -38683,10 +38683,10 @@ window.CDF_DATA = {
             "name": "Kabushi",
             "url": "constituencies/kabushi.html",
             "count": 27,
-            "budgetM": 33.44,
+            "budgetM": 34.41,
             "statusCounts": {
-              "approved": 26,
-              "completed": 1
+              "approved": 25,
+              "completed": 2
             },
             "projects": [
               {
@@ -38802,11 +38802,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "roads",
                 "contractor": null,
-                "budgetM": null,
-                "status": "approved",
+                "budgetM": 0.977,
+                "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Completed: commissioned together with the Lubuto Market Shelter on 20 November 2026 (council article, source 703); the council's Facebook post of 16 November 2026 (source 705) ties the K977,000 drainage system to the market project and mentions Lubuto Secondary School only for pupil accessibility, settling this row — the drainage through Lubuto Market — against DB 3664 (in front of the school), which stays approved. Cost K977,000 as published.",
                 "source": {
                   "publisher": "Ndola City Council",
                   "title": "2026 Proposed and Approved Project List by Ward (ZDSP)",
@@ -97989,11 +97989,11 @@ window.CDF_DATA = {
       {
         "name": "Copperbelt",
         "tracked": 611,
-        "completed": 64,
+        "completed": 65,
         "underway": 47,
-        "approved": 500,
+        "approved": 499,
         "other": 0,
-        "completedPct": 10.5,
+        "completedPct": 10.6,
         "ruralPct": 17.3,
         "urbanPct": 82.7
       }
@@ -98068,8 +98068,8 @@ window.CDF_DATA = {
         "label": "Urban provinces",
         "provinces": 2,
         "projects": 866,
-        "completed": 144,
-        "pct": 16.6
+        "completed": 145,
+        "pct": 16.7
       },
       {
         "label": "In between",
@@ -98127,15 +98127,15 @@ window.CDF_DATA = {
   "record": {
     "total": 4281,
     "statuses": {
-      "approved": 2829,
-      "completed": 1085,
+      "approved": 2828,
+      "completed": 1086,
       "funded": 10,
       "in_progress": 38,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.3,
+    "completedPct": 25.4,
     "approvedPct": 66.3,
     "withPhoto": 25,
     "constituencies": 156,

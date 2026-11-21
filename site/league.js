@@ -6,7 +6,7 @@ window.CDF_LEAGUE = {
   "attributed": 4090,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 963
+  "councilCompleted": 964
  },
  "councils": [
   {
@@ -539,6 +539,35 @@ window.CDF_LEAGUE = {
    "rank": 29
   },
   {
+   "council": "Ndola City Council",
+   "named": 143,
+   "completed": 13,
+   "statusPct": 100,
+   "yearPct": 87,
+   "amountPct": 63,
+   "composite": 83.3,
+   "latest": "2026-09-24",
+   "constituencies": [
+    {
+     "name": "Bwana Mkubwa",
+     "slug": "bwana-mkubwa"
+    },
+    {
+     "name": "Chifubu",
+     "slug": "chifubu"
+    },
+    {
+     "name": "Kabushi",
+     "slug": "kabushi"
+    },
+    {
+     "name": "Ndola Central",
+     "slug": "ndola-central"
+    }
+   ],
+   "rank": 30
+  },
+  {
    "council": "Serenje Town Council",
    "named": 112,
    "completed": 37,
@@ -557,7 +586,7 @@ window.CDF_LEAGUE = {
      "slug": "serenje"
     }
    ],
-   "rank": 30
+   "rank": 31
   },
   {
    "council": "Chipangali Town Council",
@@ -574,7 +603,7 @@ window.CDF_LEAGUE = {
      "slug": "chipangali"
     }
    ],
-   "rank": 31
+   "rank": 32
   },
   {
    "council": "Mungwi Town Council",
@@ -589,35 +618,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Malole",
      "slug": "malole"
-    }
-   ],
-   "rank": 32
-  },
-  {
-   "council": "Ndola City Council",
-   "named": 143,
-   "completed": 12,
-   "statusPct": 100,
-   "yearPct": 87,
-   "amountPct": 62,
-   "composite": 83.0,
-   "latest": "2026-09-24",
-   "constituencies": [
-    {
-     "name": "Bwana Mkubwa",
-     "slug": "bwana-mkubwa"
-    },
-    {
-     "name": "Chifubu",
-     "slug": "chifubu"
-    },
-    {
-     "name": "Kabushi",
-     "slug": "kabushi"
-    },
-    {
-     "name": "Ndola Central",
-     "slug": "ndola-central"
     }
    ],
    "rank": 33
