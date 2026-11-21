@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4280,
-  "attributed": 4089,
+  "totalProjects": 4281,
+  "attributed": 4090,
   "unattributed": 191,
   "councils": 113,
   "councilCompleted": 963
@@ -1144,6 +1144,23 @@ window.CDF_LEAGUE = {
    "rank": 62
   },
   {
+   "council": "Isoka Town Council",
+   "named": 30,
+   "completed": 11,
+   "statusPct": 100,
+   "yearPct": 87,
+   "amountPct": 20,
+   "composite": 69.0,
+   "latest": "2025-12-08",
+   "constituencies": [
+    {
+     "name": "Isoka",
+     "slug": "isoka"
+    }
+   ],
+   "rank": 63
+  },
+  {
    "council": "Mwinilunga Town Council",
    "named": 14,
    "completed": 5,
@@ -1158,7 +1175,7 @@ window.CDF_LEAGUE = {
      "slug": "mwinilunga"
     }
    ],
-   "rank": 63
+   "rank": 64
   },
   {
    "council": "Itezhi-Tezhi Town Council",
@@ -1173,23 +1190,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Itezhi-Tezhi",
      "slug": "itezhi-tezhi"
-    }
-   ],
-   "rank": 64
-  },
-  {
-   "council": "Isoka Town Council",
-   "named": 29,
-   "completed": 11,
-   "statusPct": 100,
-   "yearPct": 86,
-   "amountPct": 17,
-   "composite": 67.7,
-   "latest": "2025-12-08",
-   "constituencies": [
-    {
-     "name": "Isoka",
-     "slug": "isoka"
     }
    ],
    "rank": 65

@@ -1929,10 +1929,10 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 33,
+   "named": 34,
    "completed": 15,
    "inProgress": 0,
-   "approved": 18,
+   "approved": 19,
    "stalled": 0,
    "notStated": 0,
    "held": 2

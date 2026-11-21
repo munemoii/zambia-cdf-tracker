@@ -93725,15 +93725,15 @@ window.CDF_DATA = {
       {
         "name": "Muchinga",
         "province": "Muchinga",
-        "totalProjects": 188,
+        "totalProjects": 189,
         "fundingYears": {
           "2022": 7,
           "2023": 33,
           "2024": 40,
-          "2025": 43,
+          "2025": 44,
           "2026": 19
         },
-        "fundingYearKnown": 142,
+        "fundingYearKnown": 143,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -94381,11 +94381,11 @@ window.CDF_DATA = {
           {
             "name": "Isoka",
             "url": "constituencies/isoka.html",
-            "count": 33,
-            "budgetM": 2.22,
+            "count": 34,
+            "budgetM": 4.94,
             "statusCounts": {
               "completed": 15,
-              "approved": 18
+              "approved": 19
             },
             "projects": [
               {
@@ -94618,6 +94618,27 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4360,
+                "url": "projects/4360-construction-of-nanyuni-health-post.html",
+                "name": "Construction of Nanyuni Health Post",
+                "ward": "Mpungu",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 2.7227,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO Muchinga letter of 16 January 2025 (source 704), row 3: Mpungu ward, K2,722,678.88, funded from the addition of the 2025 national budget and balances/savings from previous CDF funding; the tracker's funding-year tag follows the letter's 2025 basis.",
+                "source": {
+                  "publisher": "Isoka Town Council",
+                  "title": "Notification of Approval for Community Projects from an Addition of 2025 National Budget and Various Balances and Savings from Previous CDF Funding — Isoka Constituency (Ref MLGRD/MP/101/S0/85, PLGO Jere Adam, 16 January 2025; 5 rows approved at K8,996,089.22 of 13 submitted at K22,908,769.45); published on Isoka Town Council's website",
+                  "url": "https://www.isokacouncil.gov.zm/wp-content/uploads/2025/12/2025-PLGO-Community-projects-approval-letter.pdf",
+                  "date": "2025-01-16"
+                },
+                "fundingYear": 2025
               },
               {
                 "id": 865,
@@ -97783,17 +97804,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4280,
+    "totalProjects": 4281,
     "fundingYears": {
       "2020": 2,
       "2021": 11,
       "2022": 537,
       "2023": 479,
       "2024": 695,
-      "2025": 1177,
+      "2025": 1178,
       "2026": 493
     },
-    "fundingYearKnown": 3394
+    "fundingYearKnown": 3395
   },
   "people": {
     "bursaries": [
@@ -97868,12 +97889,12 @@ window.CDF_DATA = {
     "provinces": [
       {
         "name": "Muchinga",
-        "tracked": 188,
+        "tracked": 189,
         "completed": 46,
         "underway": 20,
-        "approved": 122,
+        "approved": 123,
         "other": 0,
-        "completedPct": 24.5,
+        "completedPct": 24.3,
         "ruralPct": 87.0,
         "urbanPct": 13.0
       },
@@ -98039,7 +98060,7 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2963,
+        "projects": 2964,
         "completed": 886,
         "pct": 29.9
       },
@@ -98075,7 +98096,7 @@ window.CDF_DATA = {
       },
       {
         "cat": "Health",
-        "ruralN": 535,
+        "ruralN": 536,
         "urbanN": 143,
         "ruralPct": 18.1,
         "urbanPct": 16.5
@@ -98104,9 +98125,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4280,
+    "total": 4281,
     "statuses": {
-      "approved": 2828,
+      "approved": 2829,
       "completed": 1085,
       "funded": 10,
       "in_progress": 38,
@@ -98114,7 +98135,7 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.4,
+    "completedPct": 25.3,
     "approvedPct": 66.3,
     "withPhoto": 25,
     "constituencies": 156,
