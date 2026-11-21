@@ -15985,7 +15985,7 @@ window.CDF_DATA = {
                 "id": 930,
                 "url": "projects/930-construction-of-a-mother-s-shelter-and-incinerator-at-yakhobe-health-post.html",
                 "name": "Construction of a Mother's Shelter and Incinerator at Yakhobe Health Post",
-                "ward": "Chibande",
+                "ward": "Lukusuzi",
                 "component": "community",
                 "category": "health",
                 "contractor": "Slycon General Suppliers Ltd",
@@ -15993,7 +15993,7 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Ward corrected 2026-11-21 (Daily Blitz audit): the cited Lumezi Town Council article (source 218), re-read firsthand by the coordinator, states the commissioned projects as the mothers' shelter and incinerator, staff house and double VIP toilets 'all at Yakhobe Rural Health Post under Lukusuzi ward' and, separately, the 'Completion of a 1X3 Classroom Block at Milulu Primary School under Chibande ward'. The ward previously shown (Chibande) belongs to the Milulu row in the same article; this project's ward is Lukusuzi. Status, funding year 2022 and the combined three-project total (K1,149,928.44, not split per project) are unchanged.",
                 "source": {
                   "publisher": "Lumezi Town Council",
                   "title": "Govt Commissions Three CDF Projects In Lumezi (three of the 2022 CDF projects commissioned; total for the three K1,149,928.44)",
@@ -22129,13 +22129,13 @@ window.CDF_DATA = {
         "totalProjects": 657,
         "fundingYears": {
           "2021": 2,
-          "2022": 46,
+          "2022": 47,
           "2023": 53,
           "2024": 135,
           "2025": 219,
           "2026": 50
         },
-        "fundingYearKnown": 505,
+        "fundingYearKnown": 506,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -26848,14 +26848,14 @@ window.CDF_DATA = {
                 "status": "ongoing",
                 "completionPct": 90.0,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-21 (Daily Blitz audit): the cited Kazungula Town Council update report (source 281), re-read firsthand by the coordinator, places this row in its section headed 'REPORT ON PROJECTS IN KAZUNGULA DISTRICT FUNDED FROM 2022 CDF': construction of two double VIP latrines at Saala Primary School, funding column '2022 CDF (Disaster Contingency)', K154,790.00, Bright Mwiinga General Dealers, Kazungula Central, 90% - 'Project at superstructure level', which supports the ongoing status carried.",
                 "source": {
                   "publisher": "Kazungula Town Council",
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1295,
@@ -36218,12 +36218,12 @@ window.CDF_DATA = {
         "totalProjects": 611,
         "fundingYears": {
           "2022": 27,
-          "2023": 143,
+          "2023": 144,
           "2024": 129,
           "2025": 155,
           "2026": 69
         },
-        "fundingYearKnown": 523,
+        "fundingYearKnown": 524,
         "constituencies": [
           {
             "name": "Bwana Mkubwa",
@@ -44633,14 +44633,14 @@ window.CDF_DATA = {
                 "status": "ongoing",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-21 (Daily Blitz audit): the cited Kitwe City Council article (source 328, 1 Nov 2023), read in full on the coordinator's live-browser retry, reports seven contracts signed 'under the 2023 Constituency Development Fund (CDF) and Local Government Equalization Fund (LGEF)', six of them (K6,601,986.26) under the CDF, and names the construction of guard and fencing at Bulangililo Kafue Bridge in Kwacha Constituency among the CDF-funded contracts. The article states no per-project amount and no ward, so neither is published; a contract signing supports the ongoing status carried, not completion.",
                 "source": {
                   "publisher": "Kitwe City Council",
                   "title": "Kitwe City Council signs 7 contracts worth K8.7 million to boost development initiatives",
                   "url": "https://www.kitwecouncil.gov.zm/?p=1879",
                   "date": "2023-11-01"
                 },
-                "fundingYear": null
+                "fundingYear": 2023
               },
               {
                 "id": 1412,
@@ -49327,7 +49327,7 @@ window.CDF_DATA = {
       {
         "name": "North-Western",
         "province": "North-Western",
-        "totalProjects": 451,
+        "totalProjects": 452,
         "fundingYears": {
           "2020": 2,
           "2021": 1,
@@ -52590,10 +52590,11 @@ window.CDF_DATA = {
           {
             "name": "Manyinga",
             "url": "constituencies/manyinga.html",
-            "count": 30,
+            "count": 31,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 30
+              "approved": 30,
+              "completed": 1
             },
             "projects": [
               {
@@ -53183,6 +53184,27 @@ window.CDF_DATA = {
                   "date": "2025-02-28"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4361,
+                "url": "projects/4361-rehabilitation-of-township-roads-over-12-kilometres.html",
+                "name": "Rehabilitation of Township Roads (Over 12 Kilometres)",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-21 (Daily Blitz): Manyinga Town Council's article 'TOWNSHIP ROADS REHABILITATED IN MANYINGA DISTRICT UNDER CDF', read in full by the coordinator's live-browser leg, states that more than 12 kilometres of township roads were rehabilitated using the Constituency Development Fund (CDF) and names the completed routes - the World Vision Road, the Hospital Road and the Manyinga Secondary School Road; the 65-kilometre Ndunga Road is stated separately as a phase on which construction has commenced and is not part of this row. The article states no amount, no ward and no funding year, so none is published. Held since Blitz Run 6 (key manyinga-774) because the full article could not be retrieved; the claim rested on the council news-listing statement only.",
+                "source": {
+                  "publisher": "Manyinga Town Council",
+                  "title": "Township Roads Rehabilitated in Manyinga District Under CDF (council article, published 15 Sep 2026)",
+                  "url": "https://www.manyingacouncil.gov.zm/?p=5510",
+                  "date": "2026-09-15"
+                },
+                "fundingYear": null
               },
               {
                 "id": 4066,
@@ -97804,17 +97826,17 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4281,
+    "totalProjects": 4282,
     "fundingYears": {
       "2020": 2,
       "2021": 11,
-      "2022": 537,
-      "2023": 479,
+      "2022": 538,
+      "2023": 480,
       "2024": 695,
       "2025": 1178,
       "2026": 493
     },
-    "fundingYearKnown": 3395
+    "fundingYearKnown": 3397
   },
   "people": {
     "bursaries": [
@@ -97966,12 +97988,12 @@ window.CDF_DATA = {
       },
       {
         "name": "North-Western",
-        "tracked": 451,
-        "completed": 55,
+        "tracked": 452,
+        "completed": 56,
         "underway": 12,
         "approved": 382,
         "other": 2,
-        "completedPct": 12.2,
+        "completedPct": 12.4,
         "ruralPct": 58.3,
         "urbanPct": 41.7
       },
@@ -98074,9 +98096,9 @@ window.CDF_DATA = {
       {
         "label": "In between",
         "provinces": 1,
-        "projects": 451,
-        "completed": 55,
-        "pct": 12.2
+        "projects": 452,
+        "completed": 56,
+        "pct": 12.4
       }
     ],
     "typeMix": [
@@ -98125,10 +98147,10 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4281,
+    "total": 4282,
     "statuses": {
       "approved": 2828,
-      "completed": 1086,
+      "completed": 1087,
       "funded": 10,
       "in_progress": 38,
       "ongoing": 308,

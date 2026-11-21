@@ -2177,13 +2177,13 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 30,
-   "completed": 0,
+   "named": 31,
+   "completed": 1,
    "inProgress": 0,
    "approved": 30,
    "stalled": 0,
    "notStated": 0,
-   "held": 1
+   "held": 0
   },
   "publishers": [
    "Manyinga Town Council"

@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4281,
-  "attributed": 4090,
+  "totalProjects": 4282,
+  "attributed": 4091,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 964
+  "councilCompleted": 965
  },
  "councils": [
   {
@@ -907,9 +907,9 @@ window.CDF_LEAGUE = {
    "named": 40,
    "completed": 20,
    "statusPct": 100,
-   "yearPct": 45,
+   "yearPct": 48,
    "amountPct": 80,
-   "composite": 75.0,
+   "composite": 76.0,
    "latest": null,
    "constituencies": [
     {
@@ -1229,23 +1229,6 @@ window.CDF_LEAGUE = {
    "rank": 67
   },
   {
-   "council": "Manyinga Town Council",
-   "named": 30,
-   "completed": 0,
-   "statusPct": 100,
-   "yearPct": 100,
-   "amountPct": 0,
-   "composite": 66.7,
-   "latest": "2025-02-28",
-   "constituencies": [
-    {
-     "name": "Manyinga",
-     "slug": "manyinga"
-    }
-   ],
-   "rank": 68
-  },
-  {
    "council": "Kawambwa Town Council",
    "named": 23,
    "completed": 0,
@@ -1264,7 +1247,7 @@ window.CDF_LEAGUE = {
      "slug": "pambashe"
     }
    ],
-   "rank": 69
+   "rank": 68
   },
   {
    "council": "Samfya Town Council",
@@ -1281,7 +1264,7 @@ window.CDF_LEAGUE = {
      "slug": "bangweulu"
     }
    ],
-   "rank": 70
+   "rank": 69
   },
   {
    "council": "Nchelenge Town Council",
@@ -1298,7 +1281,7 @@ window.CDF_LEAGUE = {
      "slug": "nchelenge"
     }
    ],
-   "rank": 71
+   "rank": 70
   },
   {
    "council": "Chifunabuli Town Council",
@@ -1315,7 +1298,7 @@ window.CDF_LEAGUE = {
      "slug": "chifunabuli"
     }
    ],
-   "rank": 72
+   "rank": 71
   },
   {
    "council": "Ngabwe Town Council",
@@ -1332,7 +1315,7 @@ window.CDF_LEAGUE = {
      "slug": "lufubu"
     }
    ],
-   "rank": 73
+   "rank": 72
   },
   {
    "council": "Chama Town Council",
@@ -1353,7 +1336,7 @@ window.CDF_LEAGUE = {
      "slug": "chama-south"
     }
    ],
-   "rank": 74
+   "rank": 73
   },
   {
    "council": "Mporokoso Town Council",
@@ -1370,7 +1353,7 @@ window.CDF_LEAGUE = {
      "slug": "mporokoso"
     }
    ],
-   "rank": 75
+   "rank": 74
   },
   {
    "council": "Luano Town Council",
@@ -1387,7 +1370,7 @@ window.CDF_LEAGUE = {
      "slug": "mkushi-south"
     }
    ],
-   "rank": 76
+   "rank": 75
   },
   {
    "council": "Monze Town Council",
@@ -1410,6 +1393,23 @@ window.CDF_LEAGUE = {
     {
      "name": "Moomba",
      "slug": "moomba"
+    }
+   ],
+   "rank": 76
+  },
+  {
+   "council": "Manyinga Town Council",
+   "named": 31,
+   "completed": 1,
+   "statusPct": 100,
+   "yearPct": 97,
+   "amountPct": 0,
+   "composite": 65.7,
+   "latest": "2026-09-15",
+   "constituencies": [
+    {
+     "name": "Manyinga",
+     "slug": "manyinga"
     }
    ],
    "rank": 77
@@ -1825,47 +1825,13 @@ window.CDF_LEAGUE = {
    "rank": 99
   },
   {
-   "council": "Mkushi Town Council",
-   "named": 12,
-   "completed": 12,
-   "statusPct": 100,
-   "yearPct": 25,
-   "amountPct": 25,
-   "composite": 50.0,
-   "latest": "2026-08-11",
-   "constituencies": [
-    {
-     "name": "Mkushi North",
-     "slug": "mkushi-north"
-    }
-   ],
-   "rank": 100
-  },
-  {
-   "council": "Luwingu Town Council",
-   "named": 2,
-   "completed": 1,
-   "statusPct": 100,
-   "yearPct": 0,
-   "amountPct": 50,
-   "composite": 50.0,
-   "latest": null,
-   "constituencies": [
-    {
-     "name": "Lubansenshi",
-     "slug": "lubansenshi"
-    }
-   ],
-   "rank": 101
-  },
-  {
    "council": "Kitwe City Council",
    "named": 35,
    "completed": 8,
    "statusPct": 100,
-   "yearPct": 34,
+   "yearPct": 37,
    "amountPct": 14,
-   "composite": 49.3,
+   "composite": 50.3,
    "latest": "2026-08-20",
    "constituencies": [
     {
@@ -1887,6 +1853,40 @@ window.CDF_LEAGUE = {
     {
      "name": "Wusakile",
      "slug": "wusakile"
+    }
+   ],
+   "rank": 100
+  },
+  {
+   "council": "Mkushi Town Council",
+   "named": 12,
+   "completed": 12,
+   "statusPct": 100,
+   "yearPct": 25,
+   "amountPct": 25,
+   "composite": 50.0,
+   "latest": "2026-08-11",
+   "constituencies": [
+    {
+     "name": "Mkushi North",
+     "slug": "mkushi-north"
+    }
+   ],
+   "rank": 101
+  },
+  {
+   "council": "Luwingu Town Council",
+   "named": 2,
+   "completed": 1,
+   "statusPct": 100,
+   "yearPct": 0,
+   "amountPct": 50,
+   "composite": 50.0,
+   "latest": null,
+   "constituencies": [
+    {
+     "name": "Lubansenshi",
+     "slug": "lubansenshi"
     }
    ],
    "rank": 102
