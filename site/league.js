@@ -848,6 +848,23 @@ window.CDF_LEAGUE = {
    "rank": 46
   },
   {
+   "council": "Kazungula Town Council",
+   "named": 40,
+   "completed": 20,
+   "statusPct": 100,
+   "yearPct": 50,
+   "amountPct": 80,
+   "composite": 76.7,
+   "latest": null,
+   "constituencies": [
+    {
+     "name": "Katombola",
+     "slug": "katombola"
+    }
+   ],
+   "rank": 47
+  },
+  {
    "council": "Mbala Municipal Council",
    "named": 10,
    "completed": 7,
@@ -862,7 +879,7 @@ window.CDF_LEAGUE = {
      "slug": "mbala"
     }
    ],
-   "rank": 47
+   "rank": 48
   },
   {
    "council": "Chinsali Municipal Council",
@@ -879,7 +896,7 @@ window.CDF_LEAGUE = {
      "slug": "chinsali"
     }
    ],
-   "rank": 48
+   "rank": 49
   },
   {
    "council": "Chibombo Town Council",
@@ -898,23 +915,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Keembe",
      "slug": "keembe"
-    }
-   ],
-   "rank": 49
-  },
-  {
-   "council": "Kazungula Town Council",
-   "named": 40,
-   "completed": 20,
-   "statusPct": 100,
-   "yearPct": 48,
-   "amountPct": 80,
-   "composite": 76.0,
-   "latest": null,
-   "constituencies": [
-    {
-     "name": "Katombola",
-     "slug": "katombola"
     }
    ],
    "rank": 50

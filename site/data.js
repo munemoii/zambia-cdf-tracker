@@ -22129,13 +22129,13 @@ window.CDF_DATA = {
         "totalProjects": 677,
         "fundingYears": {
           "2021": 2,
-          "2022": 47,
+          "2022": 48,
           "2023": 53,
           "2024": 135,
           "2025": 219,
           "2026": 69
         },
-        "fundingYearKnown": 525,
+        "fundingYearKnown": 526,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -26890,14 +26890,14 @@ window.CDF_DATA = {
                 "status": "completed",
                 "completionPct": 100.0,
                 "photo": null,
-                "note": null,
+                "note": "Funding year pinned 2026-11-22 (Daily Blitz audit): the cited Kazungula Town Council update report (source 281), row 7, re-read firsthand by the coordinator, sits in the report's section headed 'REPORT ON PROJECTS IN KAZUNGULA DISTRICT FUNDED FROM 2022 CDF' with its funding column reading '2022 CDF': construction of a 1x2 classroom block at Chibuyu Primary School and procurement of 80 additional desks, Katapazi Ward, contract amount K624,058.00, Betclic Solutions, status 100%. The report's comment records a variation of K11,780.00 which took the contract sum to K635,838.00; the amount carried here remains the original contract amount stated in the report.",
                 "source": {
                   "publisher": "Kazungula Town Council",
                   "title": "Update on 2022 and 2023 Constituency Development Fund Projects (report on projects funded from 2021, 2022 and 2023 CDF)",
                   "url": "https://www.kazungulacouncil.gov.zm/wp-content/uploads/2024/02/UPDATE-ON-2021_2022-AND-2023-CONSTITUENCY-DEVELOPMENT-FUND-PROJECTS.pdf",
                   "date": null
                 },
-                "fundingYear": null
+                "fundingYear": 2022
               },
               {
                 "id": 1299,
@@ -98250,13 +98250,13 @@ window.CDF_DATA = {
     "fundingYears": {
       "2020": 2,
       "2021": 11,
-      "2022": 538,
+      "2022": 539,
       "2023": 480,
       "2024": 695,
       "2025": 1178,
       "2026": 512
     },
-    "fundingYearKnown": 3416
+    "fundingYearKnown": 3417
   },
   "people": {
     "bursaries": [
