@@ -2070,7 +2070,7 @@ window.CDF_CARDS = {
    "approved": 0,
    "stalled": 0,
    "notStated": 0,
-   "held": 0
+   "held": 18
   },
   "publishers": [
    "National Assembly of Zambia",
@@ -2802,8 +2802,8 @@ window.CDF_CARDS = {
    "neverStarted": 2
   },
   "published": {
-   "named": 26,
-   "completed": 2,
+   "named": 27,
+   "completed": 3,
    "inProgress": 0,
    "approved": 24,
    "stalled": 0,
@@ -2959,13 +2959,13 @@ window.CDF_CARDS = {
    "neverStarted": 0
   },
   "published": {
-   "named": 44,
+   "named": 63,
    "completed": 9,
    "inProgress": 0,
-   "approved": 35,
+   "approved": 54,
    "stalled": 0,
    "notStated": 0,
-   "held": 10
+   "held": 14
   },
   "publishers": [
    "Monze Town Council"

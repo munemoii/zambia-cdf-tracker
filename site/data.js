@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_DATA = {
   "meta": {
-    "snapshotDate": "21 November 2026",
-    "lastChecked": "21 November 2026"
+    "snapshotDate": "22 November 2026",
+    "lastChecked": "22 November 2026"
   },
   "years": [
     {
@@ -22126,16 +22126,16 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 657,
+        "totalProjects": 677,
         "fundingYears": {
           "2021": 2,
           "2022": 47,
           "2023": 53,
           "2024": 135,
           "2025": 219,
-          "2026": 50
+          "2026": 69
         },
-        "fundingYearKnown": 506,
+        "fundingYearKnown": 525,
         "constituencies": [
           {
             "name": "Bweengwa",
@@ -26055,11 +26055,11 @@ window.CDF_DATA = {
           {
             "name": "Kalomo Central",
             "url": "constituencies/kalomo-central.html",
-            "count": 26,
-            "budgetM": 25.03,
+            "count": 27,
+            "budgetM": 25.66,
             "statusCounts": {
               "approved": 24,
-              "completed": 2
+              "completed": 3
             },
             "projects": [
               {
@@ -26355,6 +26355,27 @@ window.CDF_DATA = {
                   "date": "2024-06-16"
                 },
                 "fundingYear": 2023
+              },
+              {
+                "id": 4381,
+                "url": "projects/4381-construction-of-a-1x3-classroom-block-at-nakabanga.html",
+                "name": "Construction of a 1x3 Classroom Block at Nakabanga",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.63,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned 20 Nov 2026 (Kalomo Town Council Facebook post, source 708). Funded through CDF in two tranches as published: K180,000 in 2022 under the labour-based component and K450,000 in 2025 to complete the works; budget_m carries the combined K630,000 and funding_year is left unpublished because the funding spans two years.",
+                "source": {
+                  "publisher": "Kalomo Town Council",
+                  "title": "The Minister of Education Commissions CDF-Funded Classroom Block in Nakabanga (council Facebook post)",
+                  "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02kfURRUAbztpn6BLhCeGSDa7U5uXhZuHoZXaDvJMtgu9FCSXq51GazR3SLqu4CMsgl&id=100069185200456",
+                  "date": "2026-11-20"
+                },
+                "fundingYear": null
               },
               {
                 "id": 4269,
@@ -31759,10 +31780,10 @@ window.CDF_DATA = {
           {
             "name": "Monze Central",
             "url": "constituencies/monze-central.html",
-            "count": 44,
+            "count": 63,
             "budgetM": 1.03,
             "statusCounts": {
-              "approved": 35,
+              "approved": 54,
               "completed": 9
             },
             "projects": [
@@ -31914,6 +31935,27 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4371,
+                "url": "projects/4371-construction-of-1x3-classroom-block-at-nakalumbwe-primary-school-and-a-2-bedroomed-staff-house.html",
+                "name": "Construction of 1x3 Classroom Block at Nakalumbwe Primary School and a 2 Bedroomed Staff House",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1546,
                 "url": "projects/1546-construction-of-1x3-classroom-block-at-simweendengwe-primary-school.html",
                 "name": "Construction of 1x3 Classroom Block at Simweendengwe Primary School",
@@ -31935,6 +31977,27 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4370,
+                "url": "projects/4370-construction-of-chipembele-maternity-annex.html",
+                "name": "Construction of Chipembele Maternity Annex",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1597,
                 "url": "projects/1597-construction-of-two-door-canopies-at-manungu-secondary-school.html",
                 "name": "Construction of Two Door Canopies at Manungu Secondary School",
@@ -31954,6 +32017,90 @@ window.CDF_DATA = {
                   "date": "2024"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4368,
+                "url": "projects/4368-construction-of-a-1x2-classroom-block-at-nalucha.html",
+                "name": "Construction of a 1x2 Classroom Block at Nalucha",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4372,
+                "url": "projects/4372-construction-of-a-1x3-classroom-block-at-mulumbwa-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Mulumbwa Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4373,
+                "url": "projects/4373-construction-of-a-1x3-classroom-block-at-simanasa.html",
+                "name": "Construction of a 1x3 Classroom Block at Simanasa",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4369,
+                "url": "projects/4369-construction-of-a-3-bedroomed-staff-house-at-lumba-monya.html",
+                "name": "Construction of a 3 Bedroomed Staff House at Lumba Monya",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1605,
@@ -31996,6 +32143,27 @@ window.CDF_DATA = {
                   "date": "2024"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4365,
+                "url": "projects/4365-construction-of-a-g-b-v-safe-house.html",
+                "name": "Construction of a G.B.V Safe House",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1556,
@@ -32082,6 +32250,48 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4364,
+                "url": "projects/4364-construction-of-a-science-lab-at-tagore-secondary-school.html",
+                "name": "Construction of a Science Lab at Tagore Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4363,
+                "url": "projects/4363-construction-of-a-staff-house-at-kafwefwe.html",
+                "name": "Construction of a Staff House at Kafwefwe",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1552,
                 "url": "projects/1552-construction-of-a-staff-house-at-mweene-primary-school.html",
                 "name": "Construction of a Staff House at Mweene Primary School",
@@ -32101,6 +32311,27 @@ window.CDF_DATA = {
                   "date": "2026-07-16"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4374,
+                "url": "projects/4374-construction-of-an-ablution-block-2-compartments-on-both-sides-at-salaula-market.html",
+                "name": "Construction of an Ablution Block (2 Compartments on Both Sides) at Salaula Market",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2799,
@@ -32334,6 +32565,153 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4379,
+                "url": "projects/4379-drilling-of-2-boreholes-in-chipembele.html",
+                "name": "Drilling of 2 Boreholes in Chipembele",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4376,
+                "url": "projects/4376-drilling-of-3-boreholes-in-bbombo-ward.html",
+                "name": "Drilling of 3 Boreholes in Bbombo Ward",
+                "ward": "Bbombo",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4378,
+                "url": "projects/4378-drilling-of-3-boreholes-in-ufwenuka-ward.html",
+                "name": "Drilling of 3 Boreholes in Ufwenuka Ward",
+                "ward": "Ufwenuka",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4380,
+                "url": "projects/4380-drilling-of-a-borehole-in-chisekesi.html",
+                "name": "Drilling of a Borehole in Chisekesi",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4377,
+                "url": "projects/4377-drilling-of-a-borehole-in-hatontola-ward.html",
+                "name": "Drilling of a Borehole in Hatontola Ward",
+                "ward": "Hatontola",
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4367,
+                "url": "projects/4367-electrification-of-chisekesi-secondary-school.html",
+                "name": "Electrification of Chisekesi Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4366,
+                "url": "projects/4366-insurance-and-servicing-of-equipment.html",
+                "name": "Insurance and Servicing of Equipment",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1545,
                 "url": "projects/1545-kaloba-rural-health-centre-supporting-structures-ablution-block-staff-house-and-water-reticulation-system.html",
                 "name": "Kaloba Rural Health Centre Supporting Structures (Ablution Block, Staff House and Water Reticulation System)",
@@ -32374,6 +32752,27 @@ window.CDF_DATA = {
                   "date": "2025-06"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4362,
+                "url": "projects/4362-presidential-constituency-energy-initiative-p-c-e-i.html",
+                "name": "Presidential Constituency Energy Initiative (P.C.E.I)",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1564,
@@ -32521,6 +32920,27 @@ window.CDF_DATA = {
                   "date": "2026-07-16"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4375,
+                "url": "projects/4375-rehabilitation-of-an-ablution-block-at-tagore-secondary-school.html",
+                "name": "Rehabilitation of an Ablution Block at Tagore Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "sanitation",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3565,
@@ -97826,7 +98246,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4282,
+    "totalProjects": 4302,
     "fundingYears": {
       "2020": 2,
       "2021": 11,
@@ -97834,9 +98254,9 @@ window.CDF_DATA = {
       "2023": 480,
       "2024": 695,
       "2025": 1178,
-      "2026": 493
+      "2026": 512
     },
-    "fundingYearKnown": 3397
+    "fundingYearKnown": 3416
   },
   "people": {
     "bursaries": [
@@ -97977,12 +98397,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 657,
-        "completed": 217,
+        "tracked": 677,
+        "completed": 218,
         "underway": 38,
-        "approved": 400,
+        "approved": 419,
         "other": 2,
-        "completedPct": 33.0,
+        "completedPct": 32.2,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -98082,9 +98502,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2964,
-        "completed": 886,
-        "pct": 29.9
+        "projects": 2984,
+        "completed": 887,
+        "pct": 29.7
       },
       {
         "label": "Urban provinces",
@@ -98104,31 +98524,31 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 904,
+        "ruralN": 911,
         "urbanN": 189,
         "ruralPct": 30.5,
         "urbanPct": 21.8
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 801,
+        "ruralN": 808,
         "urbanN": 183,
-        "ruralPct": 27.0,
+        "ruralPct": 27.1,
         "urbanPct": 21.1
       },
       {
-        "cat": "Health",
-        "ruralN": 536,
-        "urbanN": 143,
-        "ruralPct": 18.1,
-        "urbanPct": 16.5
-      },
-      {
         "cat": "Other community works",
-        "ruralN": 497,
+        "ruralN": 502,
         "urbanN": 180,
         "ruralPct": 16.8,
         "urbanPct": 20.8
+      },
+      {
+        "cat": "Health",
+        "ruralN": 537,
+        "urbanN": 143,
+        "ruralPct": 18.0,
+        "urbanPct": 16.5
       },
       {
         "cat": "Roads & bridges",
@@ -98147,18 +98567,18 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4282,
+    "total": 4302,
     "statuses": {
-      "approved": 2828,
-      "completed": 1087,
+      "approved": 2847,
+      "completed": 1088,
       "funded": 10,
       "in_progress": 38,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.4,
-    "approvedPct": 66.3,
+    "completedPct": 25.3,
+    "approvedPct": 66.4,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10

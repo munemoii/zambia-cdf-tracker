@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4282,
-  "attributed": 4091,
+  "totalProjects": 4302,
+  "attributed": 4111,
   "unattributed": 191,
   "councils": 113,
-  "councilCompleted": 965
+  "councilCompleted": 966
  },
  "councils": [
   {
@@ -205,27 +205,6 @@ window.CDF_LEAGUE = {
    "rank": 11
   },
   {
-   "council": "Kalomo Town Council",
-   "named": 28,
-   "completed": 4,
-   "statusPct": 100,
-   "yearPct": 96,
-   "amountPct": 100,
-   "composite": 98.7,
-   "latest": "2026-09-17",
-   "constituencies": [
-    {
-     "name": "Dundumwenzi",
-     "slug": "dundumwenzi"
-    },
-    {
-     "name": "Kalomo Central",
-     "slug": "kalomo-central"
-    }
-   ],
-   "rank": 12
-  },
-  {
    "council": "Mambwe Town Council",
    "named": 17,
    "completed": 1,
@@ -240,7 +219,7 @@ window.CDF_LEAGUE = {
      "slug": "malambo"
     }
    ],
-   "rank": 13
+   "rank": 12
   },
   {
    "council": "Kasama Municipal Council",
@@ -259,6 +238,27 @@ window.CDF_LEAGUE = {
     {
      "name": "Lukashya",
      "slug": "lukashya"
+    }
+   ],
+   "rank": 13
+  },
+  {
+   "council": "Kalomo Town Council",
+   "named": 29,
+   "completed": 5,
+   "statusPct": 100,
+   "yearPct": 93,
+   "amountPct": 100,
+   "composite": 97.7,
+   "latest": "2026-11-20",
+   "constituencies": [
+    {
+     "name": "Dundumwenzi",
+     "slug": "dundumwenzi"
+    },
+    {
+     "name": "Kalomo Central",
+     "slug": "kalomo-central"
     }
    ],
    "rank": 14
@@ -1374,12 +1374,12 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Monze Town Council",
-   "named": 147,
+   "named": 166,
    "completed": 14,
    "statusPct": 100,
-   "yearPct": 95,
+   "yearPct": 96,
    "amountPct": 2,
-   "composite": 65.7,
+   "composite": 66.0,
    "latest": "2026-07-16",
    "constituencies": [
     {
