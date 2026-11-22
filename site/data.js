@@ -154,6 +154,14 @@ window.CDF_DATA = {
   ],
   "news": [
     {
+      "date": "22 November 2026",
+      "source": "ZNBC Today",
+      "title": "Mafinga recovers K2.1 million in CDF loan repayments",
+      "text": "Mafinga Town Council in Muchinga Province has recovered K2.1 million in CDF loan repayments from beneficiaries of the Constituency Development Fund empowerment programme, collected between 2025 and 2026, ZNBC News reported on 22 November 2026.\n\nCouncil Secretary Joseph Nonde attributed the repayments to continuous sensitisation programmes and financial literacy training given to beneficiaries before and after accessing the loans. He described the CDF loans as a revolving fund: repayments are what allow the facility to keep reaching new beneficiaries.\n\nWhy it matters: loan recovery is the weak point of the national CDF loan book — the Auditor-General's figures put recovery at about 17% of loans due in 2024, and the 2026 loan component was suspended over low recovery. A council publicly reporting K2.1 million recovered is the counter-example the programme points to, and it is recorded here as a district-level figure reported by ZNBC; it does not change the national loan-book totals on the Loans & Bursaries page, which move only on national published figures.",
+      "url": "https://www.facebook.com/reel/1148288847675536",
+      "page": "developments/mafinga-recovers-k2-1-million-in-cdf-loan-repayments.html"
+    },
+    {
       "date": "20 November 2026",
       "source": "Ministry of Finance and National Planning — official Facebook post",
       "title": "K1 billion released to the CDF in October, within K20.3 billion of monthly releases",
