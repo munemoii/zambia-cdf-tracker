@@ -560,7 +560,7 @@ window.CDF_DATA = {
             "ward": "Kasupe Ward",
             "component": "community",
             "category": "security",
-            "contractor": null,
+            "contractor": "Betang Energy and Construction",
             "budgetM": 1.4863,
             "status": "completed",
             "completionPct": null,
@@ -568,7 +568,7 @@ window.CDF_DATA = {
               "url": "/photos/tubalange-police-post.jpg",
               "credit": "Chilanga Town Council"
             },
-            "note": "Commissioned 22 April 2026 per Chilanga Town Council; the amount matches the figure first collected from news coverage. Photo shows the completed post.",
+            "note": "Commissioned 22 April 2026 per Chilanga Town Council. The council's own publications give two different costs for this post, and they conflict with each other: the council's commissioning article states K1,486,295.67 (the figure shown for this project), while the council's Highlighted Projects page states K1,217,794.62 as both the CDF allocation and the contract sum, naming Betang Energy and Construction as the contractor. Both figures are stated here because the council has not corrected either one. Photo shows the completed post.",
             "source": {
               "publisher": "Chilanga Town Council",
               "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
@@ -88931,7 +88931,7 @@ window.CDF_DATA = {
                 "ward": "Kasupe Ward",
                 "component": "community",
                 "category": "security",
-                "contractor": null,
+                "contractor": "Betang Energy and Construction",
                 "budgetM": 1.4863,
                 "status": "completed",
                 "completionPct": null,
@@ -88939,7 +88939,7 @@ window.CDF_DATA = {
                   "url": "/photos/tubalange-police-post.jpg",
                   "credit": "Chilanga Town Council"
                 },
-                "note": "Commissioned 22 April 2026 per Chilanga Town Council; the amount matches the figure first collected from news coverage. Photo shows the completed post.",
+                "note": "Commissioned 22 April 2026 per Chilanga Town Council. The council's own publications give two different costs for this post, and they conflict with each other: the council's commissioning article states K1,486,295.67 (the figure shown for this project), while the council's Highlighted Projects page states K1,217,794.62 as both the CDF allocation and the contract sum, naming Betang Energy and Construction as the contractor. Both figures are stated here because the council has not corrected either one. Photo shows the completed post.",
                 "source": {
                   "publisher": "Chilanga Town Council",
                   "title": "Hon. Sipho Hlazo commissions Tubalange Police Post and Makeni GRZ Clinic Laboratory in Chilanga",
