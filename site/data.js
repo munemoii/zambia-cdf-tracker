@@ -31914,6 +31914,27 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4371,
+                "url": "projects/4371-construction-of-1x2-classroom-block-at-nakalumbwe-primary-school-and-a-2-bedroomed-staff-house.html",
+                "name": "Construction of 1x2 Classroom Block at Nakalumbwe Primary School and a 2 Bedroomed Staff House",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Corrected 2026-11-22 (Blitz Confirm pass 16): the name as first landed read '1x3 Classroom Block'; the cited Monze Town Council 2026 approved list (source 707), row 12, re-read first-hand this pass, prints '1x2 CRB at Nakalumbwe Pri. School and a 2 Bedroomed Staff House'. Name corrected to 1x2; approved status and funding year 2026 stand as the list's title proves; no amount is published in the list.",
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1553,
                 "url": "projects/1553-construction-of-1x2-classroom-block-at-namakube-community-school.html",
                 "name": "Construction of 1x2 Classroom Block at Namakube Community School",
@@ -31933,27 +31954,6 @@ window.CDF_DATA = {
                   "date": "2026-07-16"
                 },
                 "fundingYear": 2025
-              },
-              {
-                "id": 4371,
-                "url": "projects/4371-construction-of-1x3-classroom-block-at-nakalumbwe-primary-school-and-a-2-bedroomed-staff-house.html",
-                "name": "Construction of 1x3 Classroom Block at Nakalumbwe Primary School and a 2 Bedroomed Staff House",
-                "ward": null,
-                "component": "community",
-                "category": "education",
-                "contractor": null,
-                "budgetM": null,
-                "status": "approved",
-                "completionPct": null,
-                "photo": null,
-                "note": null,
-                "source": {
-                  "publisher": "Monze Town Council",
-                  "title": "2026 Approved Community Projects - Monze Central Constituency (council CDF page list; stamped 29 Apr 2026; no amounts published)",
-                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Monze-Central.pdf",
-                  "date": "2026-04-29"
-                },
-                "fundingYear": 2026
               },
               {
                 "id": 1546,
