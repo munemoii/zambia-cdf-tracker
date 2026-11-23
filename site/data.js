@@ -69535,11 +69535,11 @@ window.CDF_DATA = {
         "fundingYears": {
           "2022": 60,
           "2023": 34,
-          "2024": 71,
+          "2024": 70,
           "2025": 93,
           "2026": 25
         },
-        "fundingYearKnown": 283,
+        "fundingYearKnown": 282,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -69987,7 +69987,7 @@ window.CDF_DATA = {
             "name": "Liuwa",
             "url": "constituencies/liuwa.html",
             "count": 21,
-            "budgetM": 1.77,
+            "budgetM": 1.07,
             "statusCounts": {
               "completed": 21
             },
@@ -70227,22 +70227,22 @@ window.CDF_DATA = {
                 "id": 2335,
                 "url": "projects/2335-construction-of-health-post-at-mutunda.html",
                 "name": "Construction of Health Post at Mutunda",
-                "ward": "Mutaa",
+                "ward": null,
                 "component": "community",
                 "category": "health",
                 "contractor": null,
-                "budgetM": 0.7046,
+                "budgetM": null,
                 "status": "completed",
                 "completionPct": null,
                 "photo": null,
-                "note": "Named in the National Assembly of Zambia's News Flash (Issue No. 026, October 2025) among the facilities commissioned under 'the 2024 and part of the 2025 Constituency Development Fund (CDF) allocation' in Kalabo District. The publication gives no per-project amount, ward or single funding year, so none is published.",
+                "note": "Named in the National Assembly of Zambia's News Flash (Issue No. 026, October 2025) among the facilities commissioned under 'the 2024 and part of the 2025 Constituency Development Fund (CDF) allocation' in Kalabo District. The publication gives no per-project amount, ward or single funding year, so none is published. Correction 2026-11-23 (Daily Blitz audit): an amount of K704,558.14, ward Mutaa and funding year 2024 previously carried on this row are not stated in the cited publication (re-read firsthand by the coordinator, 2026-11-23) and have been unpublished; the publication funds the ten health posts collectively under the 2024 and part of the 2025 CDF allocation, with no per-project amount, ward or single year.",
                 "source": {
                   "publisher": "National Assembly of Zambia",
                   "title": "Two Banana Boats Handed Over to Enhance Water Transport in Lunte (Newsflash, Issue No. 026, October 2025)",
                   "url": "https://pbo.parliament.gov.zm/sites/default/files/news-letter/OCTOBER%20NEWSFLASH%202025-MUKS.pdf",
                   "date": "2025-10"
                 },
-                "fundingYear": 2024
+                "fundingYear": null
               },
               {
                 "id": 2333,
@@ -99563,11 +99563,11 @@ window.CDF_DATA = {
       "2021": 11,
       "2022": 539,
       "2023": 480,
-      "2024": 695,
+      "2024": 694,
       "2025": 1178,
       "2026": 574
     },
-    "fundingYearKnown": 3479
+    "fundingYearKnown": 3478
   },
   "people": {
     "bursaries": [
