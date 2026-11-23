@@ -2064,15 +2064,16 @@ window.CDF_CARDS = {
    "neverStarted": 13
   },
   "published": {
-   "named": 5,
+   "named": 23,
    "completed": 5,
    "inProgress": 0,
-   "approved": 0,
+   "approved": 18,
    "stalled": 0,
    "notStated": 0,
-   "held": 18
+   "held": 0
   },
   "publishers": [
+   "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
    "National Assembly of Zambia",
    "Muchinga Province Provincial Administration (ZANIS)"
   ]
@@ -2648,10 +2649,10 @@ window.CDF_CARDS = {
    "neverStarted": 3
   },
   "published": {
-   "named": 58,
+   "named": 79,
    "completed": 0,
    "inProgress": 0,
-   "approved": 58,
+   "approved": 79,
    "stalled": 0,
    "notStated": 0,
    "held": 7
@@ -2965,7 +2966,7 @@ window.CDF_CARDS = {
    "approved": 54,
    "stalled": 0,
    "notStated": 0,
-   "held": 14
+   "held": 37
   },
   "publishers": [
    "Monze Town Council"
@@ -2981,10 +2982,10 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 45,
+   "named": 68,
    "completed": 5,
    "inProgress": 0,
-   "approved": 40,
+   "approved": 63,
    "stalled": 0,
    "notStated": 0,
    "held": 9

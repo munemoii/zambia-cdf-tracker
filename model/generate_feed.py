@@ -456,6 +456,8 @@ def main():
         "Ministry of Local Government and Rural Development": "The ministry and its provincial offices",
         "Ministry of Local Government and Rural Development (PLGO Western Province) via Limulunga Town Council": "The ministry and its provincial offices",
         "Provincial Local Government Office, Southern Province (via Siavonga Town Council)": "The ministry and its provincial offices",
+        "Provincial Local Government Office, Muchinga Province (via Chinsali Municipal Council)": "The ministry and its provincial offices",
+        "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)": "The ministry and its provincial offices",
         "Eastern Province Provincial Administration (ZANIS)": "Provincial administrations and the government news agency (ZANIS)",
         "Lusaka Provincial Administration (ZANIS)": "Provincial administrations and the government news agency (ZANIS)",
         "Northern Provincial Administration": "Provincial administrations and the government news agency (ZANIS)",

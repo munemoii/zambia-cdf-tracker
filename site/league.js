@@ -2,9 +2,9 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4302,
-  "attributed": 4111,
-  "unattributed": 191,
+  "totalProjects": 4364,
+  "attributed": 4155,
+  "unattributed": 209,
   "councils": 113,
   "councilCompleted": 966
  },
@@ -1374,11 +1374,11 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Monze Town Council",
-   "named": 166,
+   "named": 210,
    "completed": 14,
    "statusPct": 100,
-   "yearPct": 96,
-   "amountPct": 2,
+   "yearPct": 97,
+   "amountPct": 1,
    "composite": 66.0,
    "latest": "2026-07-16",
    "constituencies": [
@@ -2094,7 +2094,7 @@ window.CDF_LEAGUE = {
   },
   {
    "label": "The ministry and its provincial offices",
-   "projects": 52
+   "projects": 70
   },
   {
    "label": "Provincial administrations and the government news agency (ZANIS)",

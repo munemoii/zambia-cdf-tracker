@@ -22134,24 +22134,24 @@ window.CDF_DATA = {
       {
         "name": "Southern",
         "province": "Southern",
-        "totalProjects": 677,
+        "totalProjects": 721,
         "fundingYears": {
           "2021": 2,
           "2022": 48,
           "2023": 53,
           "2024": 135,
           "2025": 219,
-          "2026": 69
+          "2026": 113
         },
-        "fundingYearKnown": 526,
+        "fundingYearKnown": 570,
         "constituencies": [
           {
             "name": "Bweengwa",
             "url": "constituencies/bweengwa.html",
-            "count": 58,
+            "count": 79,
             "budgetM": 0,
             "statusCounts": {
-              "approved": 58
+              "approved": 79
             },
             "projects": [
               {
@@ -22743,6 +22743,153 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4440,
+                "url": "projects/4440-construction-of-a-1x3-classroom-block-at-banakaila.html",
+                "name": "Construction of a 1x3 Classroom Block at Banakaila",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4434,
+                "url": "projects/4434-construction-of-a-1x3-classroom-block-at-luyaba-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Luyaba Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4437,
+                "url": "projects/4437-construction-of-a-1x3-classroom-block-at-makamba-primary-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Makamba Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4442,
+                "url": "projects/4442-construction-of-a-1x3-classroom-block-at-mundando-community-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Mundando Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4435,
+                "url": "projects/4435-construction-of-a-1x3-classroom-block-at-muntanzhi-school.html",
+                "name": "Construction of a 1x3 Classroom Block at Muntanzhi School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4439,
+                "url": "projects/4439-construction-of-a-1x3-classroom-block-at-sigubu.html",
+                "name": "Construction of a 1x3 Classroom Block at Sigubu",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4431,
+                "url": "projects/4431-construction-of-a-1x3-science-lab-at-malundu-secondary-school.html",
+                "name": "Construction of a 1x3 Science Lab at Malundu Secondary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1176,
                 "url": "projects/1176-construction-of-a-2-bedroomed-staff-house-at-mahiba.html",
                 "name": "Construction of a 2-Bedroomed Staff House at Mahiba",
@@ -22783,6 +22930,111 @@ window.CDF_DATA = {
                   "date": "2024"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4433,
+                "url": "projects/4433-construction-of-a-foot-bridge-at-chisebelele.html",
+                "name": "Construction of a Foot Bridge at Chisebelele",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4426,
+                "url": "projects/4426-construction-of-a-g-b-v-safe-house.html",
+                "name": "Construction of a G.B.V Safe House",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4441,
+                "url": "projects/4441-construction-of-a-staff-house-at-kachindu.html",
+                "name": "Construction of a Staff House at Kachindu",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4443,
+                "url": "projects/4443-construction-of-a-staff-house-at-kambanza-primary-school.html",
+                "name": "Construction of a Staff House at Kambanza Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4438,
+                "url": "projects/4438-construction-of-a-staff-house-at-makonka.html",
+                "name": "Construction of a Staff House at Makonka",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1637,
@@ -22951,6 +23203,69 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4430,
+                "url": "projects/4430-drilling-and-equipping-of-18-boreholes.html",
+                "name": "Drilling and Equipping of 18 Boreholes",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4436,
+                "url": "projects/4436-drilling-and-equipping-of-4-boreholes.html",
+                "name": "Drilling and Equipping of 4 Boreholes",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4432,
+                "url": "projects/4432-drilling-and-equipping-of-a-borehole-at-lupokola-village.html",
+                "name": "Drilling and Equipping of a Borehole at Lupokola Village",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1608,
@@ -23205,6 +23520,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4427,
+                "url": "projects/4427-extra-funding-for-chombwa-1x3-classroom-block.html",
+                "name": "Extra Funding for Chombwa 1x3 Classroom Block",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1635,
                 "url": "projects/1635-motor-bikes-for-chief-s-palaces.html",
                 "name": "Motor Bikes for Chief's Palaces",
@@ -23224,6 +23560,69 @@ window.CDF_DATA = {
                   "date": "2024"
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4425,
+                "url": "projects/4425-muntanzhi-water-reticulation-system.html",
+                "name": "Muntanzhi Water Reticulation System",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4423,
+                "url": "projects/4423-presidential-constituency-energy-initiative-p-c-e-i.html",
+                "name": "Presidential Constituency Energy Initiative (P.C.E.I)",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4429,
+                "url": "projects/4429-procurement-of-3-seater-desks.html",
+                "name": "Procurement of 3 Seater Desks",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1167,
@@ -23289,6 +23688,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4424,
+                "url": "projects/4424-rehabilitation-of-dc-s-office.html",
+                "name": "Rehabilitation of DC's Office",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1628,
                 "url": "projects/1628-rehabilitation-of-a-borehole-at-banachibwambwa-in-malundu-zone.html",
                 "name": "Rehabilitation of a Borehole at Banachibwambwa in Malundu Zone",
@@ -23329,6 +23749,27 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4428,
+                "url": "projects/4428-road-maintenance.html",
+                "name": "Road Maintenance",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Bweengwa Constituency (council Publications page list; stamped 29 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Community-Projects-Bweengwa-Constituency-1.pdf",
+                  "date": "2026-04-29"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 1630,
@@ -33123,13 +33564,34 @@ window.CDF_DATA = {
           {
             "name": "Moomba",
             "url": "constituencies/moomba.html",
-            "count": 45,
+            "count": 68,
             "budgetM": 0.75,
             "statusCounts": {
-              "approved": 40,
+              "approved": 63,
               "completed": 5
             },
             "projects": [
+              {
+                "id": 4403,
+                "url": "projects/4403-additional-funds-to-lusumpo-mechanisation.html",
+                "name": "Additional Funds to Lusumpo Mechanisation",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
               {
                 "id": 1183,
                 "url": "projects/1183-completion-of-mwila-dip-tank.html",
@@ -33320,6 +33782,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4406,
+                "url": "projects/4406-construction-of-nabukuyu-rural-health-centre-with-support-infrastructure-2-bedroom-staff-house-water-reticulation-system-ablution-block.html",
+                "name": "Construction of Nabukuyu Rural Health Centre with Support Infrastructure (2 Bedroom Staff House, Water Reticulation System, Ablution Block)",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1187,
                 "url": "projects/1187-construction-of-nkaba-rural-health-centre-phase-ii.html",
                 "name": "Construction of Nkaba Rural Health Centre Phase II",
@@ -33404,6 +33887,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4410,
+                "url": "projects/4410-construction-of-a-1x2-classroom-block-at-kanyondwe-primary-school.html",
+                "name": "Construction of a 1x2 Classroom Block at Kanyondwe Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 2795,
                 "url": "projects/2795-construction-of-a-1x2-classroom-block-at-nakalwinda.html",
                 "name": "Construction of a 1x2 Classroom Block at Nakalwinda",
@@ -33423,6 +33927,90 @@ window.CDF_DATA = {
                   "date": "2025-07"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4420,
+                "url": "projects/4420-construction-of-a-2-bedroomed-staff-house-at-kayola-primary-school.html",
+                "name": "Construction of a 2 Bedroomed Staff House at Kayola Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4415,
+                "url": "projects/4415-construction-of-a-2-bedroomed-staff-house-at-kayuni-community-school.html",
+                "name": "Construction of a 2 Bedroomed Staff House at Kayuni Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4421,
+                "url": "projects/4421-construction-of-a-2-bedroomed-staff-house-at-malimba-community-school.html",
+                "name": "Construction of a 2 Bedroomed Staff House at Malimba Community School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4411,
+                "url": "projects/4411-construction-of-a-2-bedroomed-staff-house-at-moomba-primary-school.html",
+                "name": "Construction of a 2 Bedroomed Staff House at Moomba Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2787,
@@ -33761,6 +34349,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4402,
+                "url": "projects/4402-drilling-of-2-boreholes.html",
+                "name": "Drilling of 2 Boreholes",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1199,
                 "url": "projects/1199-electrification-of-njola-mwanza-clinic-staff-house.html",
                 "name": "Electrification of Njola Mwanza Clinic Staff House",
@@ -33824,6 +34433,69 @@ window.CDF_DATA = {
                 "fundingYear": 2025
               },
               {
+                "id": 4416,
+                "url": "projects/4416-mechanisation-of-a-water-reticulation-system-at-chief-mwanza-2x5000l-tanks-tank-stand-and-solar-submersible-pump.html",
+                "name": "Mechanisation of a Water Reticulation System at Chief Mwanza (2x5000L Tanks, Tank Stand and Solar Submersible Pump)",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4417,
+                "url": "projects/4417-mechanisation-of-a-water-reticulation-system-at-samu-lyankumbula-2x5000l-tanks-tank-stand-and-solar-submersible-pump.html",
+                "name": "Mechanisation of a Water Reticulation System at Samu Lyankumbula (2x5000L Tanks, Tank Stand and Solar Submersible Pump)",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4400,
+                "url": "projects/4400-presidential-constituency-energy-initiative-p-c-e-i.html",
+                "name": "Presidential Constituency Energy Initiative (P.C.E.I)",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3562,
                 "url": "projects/3562-procurement-of-1-636-desks.html",
                 "name": "Procurement of 1,636 Desks",
@@ -33845,6 +34517,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4409,
+                "url": "projects/4409-procurement-of-dipping-chemicals.html",
+                "name": "Procurement of Dipping Chemicals",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 2796,
                 "url": "projects/2796-procurement-of-equipment-for-nateba-clinic.html",
                 "name": "Procurement of Equipment for Nateba Clinic",
@@ -33864,6 +34557,111 @@ window.CDF_DATA = {
                   "date": "2025-07"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4414,
+                "url": "projects/4414-procurement-of-medical-equipment-for-muntemba-rural-health-centre.html",
+                "name": "Procurement of Medical Equipment for Muntemba Rural Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4413,
+                "url": "projects/4413-procurement-of-medical-equipment-for-njola-rural-health-centre.html",
+                "name": "Procurement of Medical Equipment for Njola Rural Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4412,
+                "url": "projects/4412-procurement-of-medical-equipment-for-nkaba-rural-health-centre.html",
+                "name": "Procurement of Medical Equipment for Nkaba Rural Health Centre",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4419,
+                "url": "projects/4419-procurement-of-science-laboratory-stools-at-mwanza-school.html",
+                "name": "Procurement of Science Laboratory Stools at Mwanza School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4418,
+                "url": "projects/4418-procurement-of-science-laboratory-stools-at-ntambo-school.html",
+                "name": "Procurement of Science Laboratory Stools at Ntambo School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3561,
@@ -33908,6 +34706,48 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4408,
+                "url": "projects/4408-rehabilitation-of-chona-dam.html",
+                "name": "Rehabilitation of Chona Dam",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4401,
+                "url": "projects/4401-rehabilitation-of-dc-s-office.html",
+                "name": "Rehabilitation of DC's Office",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1181,
                 "url": "projects/1181-rehabilitation-of-hakabilo-dam.html",
                 "name": "Rehabilitation of Hakabilo Dam",
@@ -33950,6 +34790,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4407,
+                "url": "projects/4407-rehabilitation-of-lweeta-dam.html",
+                "name": "Rehabilitation of Lweeta Dam",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3560,
                 "url": "projects/3560-renovation-of-boarding-facility-at-kaumba-secondary-school.html",
                 "name": "Renovation of Boarding Facility at Kaumba Secondary School",
@@ -33971,6 +34832,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4422,
+                "url": "projects/4422-renovation-of-namateba-clinic-painting-and-ceiling-works.html",
+                "name": "Renovation of Namateba Clinic (Painting and Ceiling Works)",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1194,
                 "url": "projects/1194-repair-of-cat-140k-motor-grader.html",
                 "name": "Repair of CAT 140K Motor Grader",
@@ -33990,6 +34872,48 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4405,
+                "url": "projects/4405-road-maintenance.html",
+                "name": "Road Maintenance",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4404,
+                "url": "projects/4404-siting-drilling-and-equipping-of-16-boreholes.html",
+                "name": "Siting, Drilling and Equipping of 16 Boreholes",
+                "ward": null,
+                "component": "community",
+                "category": "water",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": null,
+                "source": {
+                  "publisher": "Monze Town Council",
+                  "title": "2026 Approved Community Projects - Moomba Constituency (council Publications page list; stamped 27 Apr 2026; no amounts published)",
+                  "url": "https://www.monzecouncil.gov.zm/wp-content/uploads/2026/09/2026-Approved-Communicate-Projects-Moomba-Constituency-1.pdf",
+                  "date": "2026-04-27"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2786,
@@ -94175,15 +95099,15 @@ window.CDF_DATA = {
       {
         "name": "Muchinga",
         "province": "Muchinga",
-        "totalProjects": 189,
+        "totalProjects": 207,
         "fundingYears": {
           "2022": 7,
           "2023": 33,
           "2024": 40,
           "2025": 44,
-          "2026": 19
+          "2026": 37
         },
-        "fundingYearKnown": 143,
+        "fundingYearKnown": 161,
         "constituencies": [
           {
             "name": "Chinsali",
@@ -98138,10 +99062,11 @@ window.CDF_DATA = {
           {
             "name": "Shiwa Ng'andu",
             "url": "constituencies/shiwa-ng-andu.html",
-            "count": 5,
-            "budgetM": 0.85,
+            "count": 23,
+            "budgetM": 24.24,
             "statusCounts": {
-              "completed": 5
+              "completed": 5,
+              "approved": 18
             },
             "projects": [
               {
@@ -98229,6 +99154,300 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4388,
+                "url": "projects/4388-completion-of-chabala-health-post.html",
+                "name": "Completion of Chabala Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.1,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4394,
+                "url": "projects/4394-completion-of-ilondola-secondary-school-girls-dormitory.html",
+                "name": "Completion of Ilondola Secondary School Girls Dormitory",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.116,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4393,
+                "url": "projects/4393-completion-of-katoma-health-post.html",
+                "name": "Completion of Katoma Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.195,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4395,
+                "url": "projects/4395-completion-of-lwanya-secondary-school-girls-dormitory.html",
+                "name": "Completion of Lwanya Secondary School Girls Dormitory",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.1,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4390,
+                "url": "projects/4390-completion-of-mukwikile-maternity-annex.html",
+                "name": "Completion of Mukwikile Maternity Annex",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.15,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4392,
+                "url": "projects/4392-completion-of-musonko-health-post.html",
+                "name": "Completion of Musonko Health Post",
+                "ward": null,
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": 0.195,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4391,
+                "url": "projects/4391-completion-of-a-1x3-classroom-block-at-mufolo-primary-school.html",
+                "name": "Completion of a 1x3 Classroom Block at Mufolo Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.1,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4389,
+                "url": "projects/4389-completion-of-a-1x3-classroom-block-at-mutitima-primary-school.html",
+                "name": "Completion of a 1x3 Classroom Block at Mutitima Primary School",
+                "ward": null,
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": 0.2,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4397,
+                "url": "projects/4397-completion-of-the-artificial-insemination-centre.html",
+                "name": "Completion of the Artificial Insemination Centre",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.255,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4382,
+                "url": "projects/4382-construction-of-a-solar-energy-plant-presidential-constituency-energy-initiative.html",
+                "name": "Construction of a Solar Energy Plant - Presidential Constituency Energy Initiative",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 5.9,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4396,
+                "url": "projects/4396-electricity-connection-of-20-low-cost-government-housing-units-to-the-national-grid.html",
+                "name": "Electricity Connection of 20 Low-Cost Government Housing Units to the National Grid",
+                "ward": null,
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": 0.9,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4398,
+                "url": "projects/4398-electrification-of-10-police-houses.html",
+                "name": "Electrification of 10 Police Houses",
+                "ward": null,
+                "component": "community",
+                "category": "security",
+                "contractor": null,
+                "budgetM": 0.445,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4387,
+                "url": "projects/4387-insurance-of-four-moving-equipment-grader-compactor-tlb-and-water-bowser.html",
+                "name": "Insurance of Four Moving Equipment (Grader, Compactor, TLB and Water Bowser)",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 0.34,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4383,
+                "url": "projects/4383-procurement-of-1-heavy-duty-motor-grader.html",
+                "name": "Procurement of 1 Heavy Duty Motor Grader",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 3.68,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 2575,
                 "url": "projects/2575-procurement-of-3-500-desks.html",
                 "name": "Procurement of 3,500 Desks",
@@ -98248,13 +99467,97 @@ window.CDF_DATA = {
                   "date": "2024-04-15"
                 },
                 "fundingYear": null
+              },
+              {
+                "id": 4386,
+                "url": "projects/4386-procurement-of-a-15-000-20-000-litre-water-bowser.html",
+                "name": "Procurement of a 15,000-20,000 Litre Water Bowser",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 2.2,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4384,
+                "url": "projects/4384-procurement-of-a-single-20-ton-drum-roller-compactor.html",
+                "name": "Procurement of a Single 20-ton Drum Roller Compactor",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 2.45,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4385,
+                "url": "projects/4385-procurement-of-a-tractor-loader-backhoe-tlb.html",
+                "name": "Procurement of a Tractor Loader Backhoe (TLB)",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 2.3336,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4399,
+                "url": "projects/4399-rehabilitation-of-constituency-feeder-roads-procurement-of-fuel-and-lubricants-for-rehabilitation-of-89-kilometres-of-selected-constituency-roads.html",
+                "name": "Rehabilitation of Constituency Feeder Roads (Procurement of Fuel and Lubricants for Rehabilitation of 89 Kilometres of Selected Constituency Roads)",
+                "ward": null,
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": 3.7267,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Approved by the PLGO, Muchinga Province, 22 Apr 2026 (ref MLGRD/MP/101/CHIN/92). Previously held from the council's CDFC extract minutes (Appendix 2 recommendations) pending this PLGO approval.",
+                "source": {
+                  "publisher": "Provincial Local Government Office, Muchinga Province (via Shiwa Ng'andu Town Council)",
+                  "title": "PLGO Approval of Eighteen (18) Community Projects in Shiwang'andu District — 2026 CDF (letter 22 April 2026, ref MLGRD/MP/101/CHIN/92; approved total K23,386,333.91)",
+                  "url": "https://www.shiwanganducouncil.gov.zm/wp-content/uploads/2026/09/PLGO-2026-APPROVED-COMMUNITY-PROJECTS.pdf",
+                  "date": "2026-04-22"
+                },
+                "fundingYear": 2026
               }
             ]
           }
         ]
       }
     ],
-    "totalProjects": 4302,
+    "totalProjects": 4364,
     "fundingYears": {
       "2020": 2,
       "2021": 11,
@@ -98262,9 +99565,9 @@ window.CDF_DATA = {
       "2023": 480,
       "2024": 695,
       "2025": 1178,
-      "2026": 512
+      "2026": 574
     },
-    "fundingYearKnown": 3417
+    "fundingYearKnown": 3479
   },
   "people": {
     "bursaries": [
@@ -98339,12 +99642,12 @@ window.CDF_DATA = {
     "provinces": [
       {
         "name": "Muchinga",
-        "tracked": 189,
+        "tracked": 207,
         "completed": 46,
         "underway": 20,
-        "approved": 123,
+        "approved": 141,
         "other": 0,
-        "completedPct": 24.3,
+        "completedPct": 22.2,
         "ruralPct": 87.0,
         "urbanPct": 13.0
       },
@@ -98405,12 +99708,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Southern",
-        "tracked": 677,
+        "tracked": 721,
         "completed": 218,
         "underway": 38,
-        "approved": 419,
+        "approved": 463,
         "other": 2,
-        "completedPct": 32.2,
+        "completedPct": 30.2,
         "ruralPct": 74.3,
         "urbanPct": 25.7
       },
@@ -98510,9 +99813,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 2984,
+        "projects": 3046,
         "completed": 887,
-        "pct": 29.7
+        "pct": 29.1
       },
       {
         "label": "Urban provinces",
@@ -98532,42 +99835,42 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 911,
+        "ruralN": 930,
         "urbanN": 189,
         "ruralPct": 30.5,
         "urbanPct": 21.8
       },
       {
         "cat": "Water & sanitation",
-        "ruralN": 808,
+        "ruralN": 819,
         "urbanN": 183,
-        "ruralPct": 27.1,
+        "ruralPct": 26.9,
         "urbanPct": 21.1
       },
       {
         "cat": "Other community works",
-        "ruralN": 502,
+        "ruralN": 519,
         "urbanN": 180,
-        "ruralPct": 16.8,
+        "ruralPct": 17.0,
         "urbanPct": 20.8
       },
       {
         "cat": "Health",
-        "ruralN": 537,
+        "ruralN": 547,
         "urbanN": 143,
         "ruralPct": 18.0,
         "urbanPct": 16.5
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 175,
+        "ruralN": 179,
         "urbanN": 140,
         "ruralPct": 5.9,
         "urbanPct": 16.2
       },
       {
         "cat": "Police & security",
-        "ruralN": 51,
+        "ruralN": 52,
         "urbanN": 31,
         "ruralPct": 1.7,
         "urbanPct": 3.6
@@ -98575,9 +99878,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4302,
+    "total": 4364,
     "statuses": {
-      "approved": 2847,
+      "approved": 2909,
       "completed": 1088,
       "funded": 10,
       "in_progress": 38,
@@ -98585,8 +99888,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.3,
-    "approvedPct": 66.4,
+    "completedPct": 24.9,
+    "approvedPct": 66.9,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10
