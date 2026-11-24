@@ -69531,15 +69531,15 @@ window.CDF_DATA = {
       {
         "name": "Western",
         "province": "Western",
-        "totalProjects": 403,
+        "totalProjects": 405,
         "fundingYears": {
           "2022": 60,
           "2023": 34,
           "2024": 70,
           "2025": 93,
-          "2026": 25
+          "2026": 27
         },
-        "fundingYearKnown": 282,
+        "fundingYearKnown": 284,
         "constituencies": [
           {
             "name": "Kalabo Central",
@@ -72418,10 +72418,10 @@ window.CDF_DATA = {
           {
             "name": "Mulobezi",
             "url": "constituencies/mulobezi.html",
-            "count": 47,
-            "budgetM": 22.53,
+            "count": 49,
+            "budgetM": 26.43,
             "statusCounts": {
-              "completed": 47
+              "completed": 49
             },
             "projects": [
               {
@@ -73160,6 +73160,27 @@ window.CDF_DATA = {
                 "fundingYear": 2022
               },
               {
+                "id": 4445,
+                "url": "projects/4445-procurement-of-a-20-tonne-tipper-truck.html",
+                "name": "Procurement of a 20-Tonne Tipper Truck",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 1.9985,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned and handed over by Mulobezi Town Council on 24 November 2026 under the 2026 CDF (K1,998,500).",
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Mulobezi Town Council Commissions K13.79 Million CDF, ZDSP Equipment",
+                  "url": "https://www.mulobezicouncil.gov.zm/?p=3141",
+                  "date": "2026-11-24"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 2899,
                 "url": "projects/2899-procurement-of-a-3000-litre-fuel-bowser.html",
                 "name": "Procurement of a 3000 Litre Fuel Bowser",
@@ -73179,6 +73200,27 @@ window.CDF_DATA = {
                   "date": "2025-07-11"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4444,
+                "url": "projects/4444-procurement-of-a-roller-compactor.html",
+                "name": "Procurement of a Roller Compactor",
+                "ward": null,
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": 1.8966,
+                "status": "completed",
+                "completionPct": null,
+                "photo": null,
+                "note": "Commissioned and handed over by Mulobezi Town Council on 24 November 2026 under the 2026 CDF (K1,896,551.72).",
+                "source": {
+                  "publisher": "Mulobezi Town Council",
+                  "title": "Mulobezi Town Council Commissions K13.79 Million CDF, ZDSP Equipment",
+                  "url": "https://www.mulobezicouncil.gov.zm/?p=3141",
+                  "date": "2026-11-24"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2893,
@@ -99557,7 +99599,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4364,
+    "totalProjects": 4366,
     "fundingYears": {
       "2020": 2,
       "2021": 11,
@@ -99565,9 +99607,9 @@ window.CDF_DATA = {
       "2023": 480,
       "2024": 694,
       "2025": 1178,
-      "2026": 574
+      "2026": 576
     },
-    "fundingYearKnown": 3478
+    "fundingYearKnown": 3480
   },
   "people": {
     "bursaries": [
@@ -99675,12 +99717,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Western",
-        "tracked": 403,
-        "completed": 172,
+        "tracked": 405,
+        "completed": 174,
         "underway": 54,
         "approved": 175,
         "other": 2,
-        "completedPct": 42.7,
+        "completedPct": 43.0,
         "ruralPct": 80.6,
         "urbanPct": 19.4
       },
@@ -99813,9 +99855,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 3046,
-        "completed": 887,
-        "pct": 29.1
+        "projects": 3048,
+        "completed": 889,
+        "pct": 29.2
       },
       {
         "label": "Urban provinces",
@@ -99849,16 +99891,16 @@ window.CDF_DATA = {
       },
       {
         "cat": "Other community works",
-        "ruralN": 519,
+        "ruralN": 521,
         "urbanN": 180,
-        "ruralPct": 17.0,
+        "ruralPct": 17.1,
         "urbanPct": 20.8
       },
       {
         "cat": "Health",
         "ruralN": 547,
         "urbanN": 143,
-        "ruralPct": 18.0,
+        "ruralPct": 17.9,
         "urbanPct": 16.5
       },
       {
@@ -99878,17 +99920,17 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4364,
+    "total": 4366,
     "statuses": {
       "approved": 2909,
-      "completed": 1088,
+      "completed": 1090,
       "funded": 10,
       "in_progress": 38,
       "ongoing": 308,
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 24.9,
+    "completedPct": 25.0,
     "approvedPct": 66.9,
     "withPhoto": 25,
     "constituencies": 156,

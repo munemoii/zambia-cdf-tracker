@@ -2,11 +2,11 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4364,
-  "attributed": 4155,
+  "totalProjects": 4366,
+  "attributed": 4157,
   "unattributed": 209,
   "councils": 113,
-  "councilCompleted": 966
+  "councilCompleted": 968
  },
  "councils": [
   {
@@ -282,13 +282,13 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Mulobezi Town Council",
-   "named": 47,
-   "completed": 47,
+   "named": 49,
+   "completed": 49,
    "statusPct": 100,
    "yearPct": 96,
    "amountPct": 94,
    "composite": 96.7,
-   "latest": "2025-07-11",
+   "latest": "2026-11-24",
    "constituencies": [
     {
      "name": "Mulobezi",
