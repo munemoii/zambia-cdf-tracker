@@ -5806,15 +5806,15 @@ window.CDF_DATA = {
       {
         "name": "Eastern",
         "province": "Eastern",
-        "totalProjects": 765,
+        "totalProjects": 781,
         "fundingYears": {
           "2022": 139,
           "2023": 56,
           "2024": 129,
           "2025": 221,
-          "2026": 137
+          "2026": 153
         },
-        "fundingYearKnown": 682,
+        "fundingYearKnown": 698,
         "constituencies": [
           {
             "name": "Chadiza",
@@ -18323,12 +18323,12 @@ window.CDF_DATA = {
           {
             "name": "Nyimba",
             "url": "constituencies/nyimba.html",
-            "count": 61,
+            "count": 77,
             "budgetM": 20.69,
             "statusCounts": {
               "ongoing": 11,
               "completed": 44,
-              "approved": 6
+              "approved": 22
             },
             "projects": [
               {
@@ -18416,6 +18416,69 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4452,
+                "url": "projects/4452-construction-of-1x3-classroom-block-at-kalongo-mwape-secondary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Kalongo Mwape Secondary School",
+                "ward": "Katipa",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 112.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4461,
+                "url": "projects/4461-construction-of-1x3-classroom-block-at-mwansanika.html",
+                "name": "Construction of 1x3 Classroom Block at Mwansanika",
+                "ward": "Mombe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 174.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4453,
+                "url": "projects/4453-construction-of-1x3-classroom-block-at-mwanse-primary-school.html",
+                "name": "Construction of 1x3 Classroom Block at Mwanse Primary School",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 143.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3167,
                 "url": "projects/3167-construction-of-1x3-classroom-block-at-nyimba-primary-school.html",
                 "name": "Construction of 1x3 Classroom Block at Nyimba Primary School",
@@ -18435,6 +18498,48 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4459,
+                "url": "projects/4459-construction-of-1x3-classroom-block-at-tandi-community-school.html",
+                "name": "Construction of 1x3 Classroom Block at Tandi Community School",
+                "ward": "Kaliwe",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 162. Facility named 'Tandi Community School' in the appendix.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4449,
+                "url": "projects/4449-construction-of-boys-dormitories-at-chinambi-day-secondary-school.html",
+                "name": "Construction of Boys' Dormitories at Chinambi Day Secondary School",
+                "ward": "Chinambi",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 48.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3749,
@@ -18731,6 +18836,27 @@ window.CDF_DATA = {
                 "fundingYear": null
               },
               {
+                "id": 4451,
+                "url": "projects/4451-construction-of-road-from-chibale-to-chabala.html",
+                "name": "Construction of Road from Chibale to Chabala",
+                "ward": "Mphundwe",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 80. Name follows the appendix wording ('Construction of road from Chibale to Chabala'); the held row's 'Rehabilitation' wording is not the letter's.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3743,
                 "url": "projects/3743-construction-of-two-1x2-pupils-dormitories-at-vizimumba-day-secondary-school.html",
                 "name": "Construction of Two 1x2 Pupils Dormitories at Vizimumba Day Secondary School",
@@ -19004,6 +19130,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4450,
+                "url": "projects/4450-construction-of-a-road-from-hofmeyer-via-nyelele.html",
+                "name": "Construction of a Road from Hofmeyer via Nyelele",
+                "ward": "Chiweza",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 61. Name follows the appendix wording ('Construction of a road from Hofmeyer via Nyelele'); the held row's 'Rehabilitation' wording is not the letter's.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3736,
                 "url": "projects/3736-construction-of-a-road-through-lupenga-b-and-a-up-to-mangoba-village.html",
                 "name": "Construction of a Road through Lupenga B and A up to Mangoba Village",
@@ -19086,6 +19233,27 @@ window.CDF_DATA = {
                   "date": null
                 },
                 "fundingYear": 2024
+              },
+              {
+                "id": 4454,
+                "url": "projects/4454-contribution-towards-the-construction-of-a-mothers-shelter-at-chipata-general-hospital.html",
+                "name": "Contribution towards the Construction of a Mothers' Shelter at Chipata General Hospital",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "health",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 156. Name follows the appendix wording, including its 'Contribution towards the' prefix.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 2521,
@@ -19193,6 +19361,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4447,
+                "url": "projects/4447-grading-of-chalubilo-luangwa-road.html",
+                "name": "Grading of Chalubilo-Luangwa Road",
+                "ward": "Chinambi",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 44. Ward note: the appendix and the letter's section 2 both place this project in Chinambi ward; the Chamilala ward recorded when the row was first held (2026-11-05 scan read) is corrected to Chinambi.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3737,
                 "url": "projects/3737-grading-of-ndake-road-to-the-palace.html",
                 "name": "Grading of Ndake Road to the Palace",
@@ -19212,6 +19401,27 @@ window.CDF_DATA = {
                   "date": "2026-01-14"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4446,
+                "url": "projects/4446-grading-of-simalama-chifukuzi-road.html",
+                "name": "Grading of Simalama-Chifukuzi Road",
+                "ward": "Chinambi",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 43. Ward note: the appendix and the letter's section 2 both place this project in Chinambi ward; the Chamilala ward recorded when the row was first held (2026-11-05 scan read) is corrected to Chinambi.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3165,
@@ -19319,6 +19529,48 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4456,
+                "url": "projects/4456-maintenance-of-earth-moving-equipment.html",
+                "name": "Maintenance of Earth Moving Equipment",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 170.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
+                "id": 4460,
+                "url": "projects/4460-presidential-constituency-energy-initiative.html",
+                "name": "Presidential Constituency Energy Initiative",
+                "ward": "All Wards",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 172. The appendix gives this row's ward as 'All wards'.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3216,
                 "url": "projects/3216-procurement-of-1951-desks.html",
                 "name": "Procurement of 1951 Desks",
@@ -19380,6 +19632,27 @@ window.CDF_DATA = {
                   "date": "2026-01-14"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4455,
+                "url": "projects/4455-procurement-of-land-for-a-modern-bus-station.html",
+                "name": "Procurement of Land for a Modern Bus Station",
+                "ward": "Nyimba",
+                "component": "community",
+                "category": "infrastructure",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 168.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3156,
@@ -19508,6 +19781,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4458,
+                "url": "projects/4458-procurement-of-a-banana-boat-at-malopa.html",
+                "name": "Procurement of a Banana Boat at Malopa",
+                "ward": "Luangwa",
+                "component": "community",
+                "category": "equipment",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 161.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 1006,
                 "url": "projects/1006-procurement-of-standby-power-generator-for-nyimba-district-hospital.html",
                 "name": "Procurement of standby power generator for Nyimba District Hospital",
@@ -19550,6 +19844,27 @@ window.CDF_DATA = {
                 "fundingYear": 2024
               },
               {
+                "id": 4457,
+                "url": "projects/4457-rehabilitation-of-1x2-classroom-block-at-beulani-community-school.html",
+                "name": "Rehabilitation of 1x2 Classroom Block at Beulani Community School",
+                "ward": "Luangwa",
+                "component": "community",
+                "category": "education",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 158.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
+              },
+              {
                 "id": 3735,
                 "url": "projects/3735-rehabilitation-of-mchimadzi-road-and-construction-of-mchimadzi-mvunguti-crossing-point.html",
                 "name": "Rehabilitation of Mchimadzi Road and Construction of Mchimadzi-Mvunguti Crossing Point",
@@ -19569,6 +19884,27 @@ window.CDF_DATA = {
                   "date": "2026-01-14"
                 },
                 "fundingYear": 2025
+              },
+              {
+                "id": 4448,
+                "url": "projects/4448-rehabilitation-of-t4-kansasamula-nyalungwe-road-30-km.html",
+                "name": "Rehabilitation of T4 (Kansasamula-Nyalungwe) Road, 30 km",
+                "ward": "Chamilala",
+                "component": "community",
+                "category": "roads",
+                "contractor": null,
+                "budgetM": null,
+                "status": "approved",
+                "completionPct": null,
+                "photo": null,
+                "note": "Landed 2026-11-24 (Daily Blitz): Nyimba Town Council's WDC feedback letter of 25 February 2026 (source 658), re-read in full on the coordinator's live-browser leg: the appendix marks this project 'Approved' among the 38 projects approved for implementation in 2026 (175 proposals reviewed). The letter publishes no amount for this project, so none is carried. Held since 2026-11-05 pending reconciliation against Nyimba's live record; the 2026-11-24 reconciliation found no live counterpart for this row. Appendix row 173.",
+                "source": {
+                  "publisher": "Nyimba Town Council",
+                  "title": "Community Projects Feedback to WDC Chairpersons — Council Secretary letter, 25 February 2026 (175 proposals; 38 approved for 2026; file 2026-community-projects-feedback-to-wdc-1.pdf)",
+                  "url": "https://www.nyimbacouncil.gov.zm/wp-content/uploads/2026/02/2026-community-projects-feedback-to-wdc-1.pdf",
+                  "date": "2026-02-25"
+                },
+                "fundingYear": 2026
               },
               {
                 "id": 3161,
@@ -43876,7 +44212,7 @@ window.CDF_DATA = {
             "name": "Kantanshi",
             "url": "constituencies/kantanshi.html",
             "count": 91,
-            "budgetM": 0,
+            "budgetM": 0.6,
             "statusCounts": {
               "approved": 91
             },
@@ -45590,11 +45926,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "health",
                 "contractor": null,
-                "budgetM": null,
+                "budgetM": 0.6,
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": " Budget pinned 2026-11-24 (Daily Blitz audit): the cited Kantanshi 2024 approved list (p.3, item 17, re-read on the coordinator's live-browser leg) states an amount of K600,000.00 for this project; the row previously carried no budget.",
                 "source": {
                   "publisher": "Mufulira Municipal Council",
                   "title": "Kantanshi Constituency 2024 Community Projects - Approved (Appendix A)",
@@ -99599,7 +99935,7 @@ window.CDF_DATA = {
         ]
       }
     ],
-    "totalProjects": 4366,
+    "totalProjects": 4382,
     "fundingYears": {
       "2020": 2,
       "2021": 11,
@@ -99607,9 +99943,9 @@ window.CDF_DATA = {
       "2023": 480,
       "2024": 694,
       "2025": 1178,
-      "2026": 576
+      "2026": 592
     },
-    "fundingYearKnown": 3480
+    "fundingYearKnown": 3496
   },
   "people": {
     "bursaries": [
@@ -99706,12 +100042,12 @@ window.CDF_DATA = {
       },
       {
         "name": "Eastern",
-        "tracked": 765,
+        "tracked": 781,
         "completed": 111,
         "underway": 54,
-        "approved": 600,
+        "approved": 616,
         "other": 0,
-        "completedPct": 14.5,
+        "completedPct": 14.2,
         "ruralPct": 83.2,
         "urbanPct": 16.8
       },
@@ -99855,9 +100191,9 @@ window.CDF_DATA = {
       {
         "label": "Rural provinces",
         "provinces": 7,
-        "projects": 3048,
+        "projects": 3064,
         "completed": 889,
-        "pct": 29.2
+        "pct": 29.0
       },
       {
         "label": "Urban provinces",
@@ -99877,7 +100213,7 @@ window.CDF_DATA = {
     "typeMix": [
       {
         "cat": "Education",
-        "ruralN": 930,
+        "ruralN": 936,
         "urbanN": 189,
         "ruralPct": 30.5,
         "urbanPct": 21.8
@@ -99886,28 +100222,28 @@ window.CDF_DATA = {
         "cat": "Water & sanitation",
         "ruralN": 819,
         "urbanN": 183,
-        "ruralPct": 26.9,
+        "ruralPct": 26.7,
         "urbanPct": 21.1
       },
       {
         "cat": "Other community works",
-        "ruralN": 521,
+        "ruralN": 525,
         "urbanN": 180,
         "ruralPct": 17.1,
         "urbanPct": 20.8
       },
       {
         "cat": "Health",
-        "ruralN": 547,
+        "ruralN": 548,
         "urbanN": 143,
         "ruralPct": 17.9,
         "urbanPct": 16.5
       },
       {
         "cat": "Roads & bridges",
-        "ruralN": 179,
+        "ruralN": 184,
         "urbanN": 140,
-        "ruralPct": 5.9,
+        "ruralPct": 6.0,
         "urbanPct": 16.2
       },
       {
@@ -99920,9 +100256,9 @@ window.CDF_DATA = {
     ]
   },
   "record": {
-    "total": 4366,
+    "total": 4382,
     "statuses": {
-      "approved": 2909,
+      "approved": 2925,
       "completed": 1090,
       "funded": 10,
       "in_progress": 38,
@@ -99930,8 +100266,8 @@ window.CDF_DATA = {
       "stalled": 10,
       "unknown": 1
     },
-    "completedPct": 25.0,
-    "approvedPct": 66.9,
+    "completedPct": 24.9,
+    "approvedPct": 67.0,
     "withPhoto": 25,
     "constituencies": 156,
     "provinces": 10

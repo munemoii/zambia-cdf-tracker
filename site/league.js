@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4366,
-  "attributed": 4157,
+  "totalProjects": 4382,
+  "attributed": 4173,
   "unattributed": 209,
   "councils": 113,
   "councilCompleted": 968
@@ -1196,11 +1196,11 @@ window.CDF_LEAGUE = {
   },
   {
    "council": "Nyimba Town Council",
-   "named": 61,
+   "named": 77,
    "completed": 44,
    "statusPct": 100,
-   "yearPct": 66,
-   "amountPct": 36,
+   "yearPct": 73,
+   "amountPct": 29,
    "composite": 67.3,
    "latest": "2026-09",
    "constituencies": [

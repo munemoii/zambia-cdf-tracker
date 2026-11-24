@@ -1217,13 +1217,13 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 61,
+   "named": 77,
    "completed": 44,
    "inProgress": 11,
-   "approved": 6,
+   "approved": 22,
    "stalled": 0,
    "notStated": 0,
-   "held": 37
+   "held": 21
   },
   "publishers": [
    "Nyimba Town Council"
