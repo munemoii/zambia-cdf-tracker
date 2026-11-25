@@ -1014,8 +1014,8 @@ window.CDF_LEAGUE = {
    "completed": 0,
    "statusPct": 100,
    "yearPct": 99,
-   "amountPct": 17,
-   "composite": 72.0,
+   "amountPct": 18,
+   "composite": 72.3,
    "latest": "2025-06-01",
    "constituencies": [
     {

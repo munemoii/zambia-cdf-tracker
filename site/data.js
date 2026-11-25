@@ -47792,7 +47792,7 @@ window.CDF_DATA = {
             "name": "Mufulira",
             "url": "constituencies/mufulira.html",
             "count": 92,
-            "budgetM": 0,
+            "budgetM": 0.44,
             "statusCounts": {
               "approved": 92
             },
@@ -48036,11 +48036,11 @@ window.CDF_DATA = {
                 "component": "community",
                 "category": "markets",
                 "contractor": null,
-                "budgetM": null,
+                "budgetM": 0.44,
                 "status": "approved",
                 "completionPct": null,
                 "photo": null,
-                "note": null,
+                "note": " Budget pinned 2026-11-25 (Daily Blitz audit): the cited Mufulira Central 2024 approved list (source 614, p.3, item 21, re-read on the coordinator's live-browser leg) states an amount of K440,000.00 for this project (Kawama West ward, 2 July 2024); the row previously carried no budget.",
                 "source": {
                   "publisher": "Mufulira Municipal Council",
                   "title": "Mufulira Central Constituency 2024 Community Projects - Approved (Appendix A)",
