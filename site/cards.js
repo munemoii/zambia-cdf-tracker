@@ -2447,10 +2447,10 @@ window.CDF_CARDS = {
    "neverStarted": 1
   },
   "published": {
-   "named": 2,
+   "named": 14,
    "completed": 1,
    "inProgress": 1,
-   "approved": 0,
+   "approved": 12,
    "stalled": 0,
    "notStated": 0,
    "held": 65

@@ -2,8 +2,8 @@
 // Do not edit by hand: update the database, then re-run the generator.
 window.CDF_LEAGUE = {
  "meta": {
-  "totalProjects": 4382,
-  "attributed": 4173,
+  "totalProjects": 4394,
+  "attributed": 4185,
   "unattributed": 209,
   "councils": 113,
   "councilCompleted": 968
@@ -1491,6 +1491,23 @@ window.CDF_LEAGUE = {
    "rank": 81
   },
   {
+   "council": "Luwingu Town Council",
+   "named": 14,
+   "completed": 1,
+   "statusPct": 100,
+   "yearPct": 86,
+   "amountPct": 7,
+   "composite": 64.3,
+   "latest": "2026-04-02",
+   "constituencies": [
+    {
+     "name": "Lubansenshi",
+     "slug": "lubansenshi"
+    }
+   ],
+   "rank": 82
+  },
+  {
    "council": "Chisamba Town Council",
    "named": 22,
    "completed": 4,
@@ -1505,7 +1522,7 @@ window.CDF_LEAGUE = {
      "slug": "chisamba"
     }
    ],
-   "rank": 82
+   "rank": 83
   },
   {
    "council": "Senga Hill Town Council",
@@ -1522,7 +1539,7 @@ window.CDF_LEAGUE = {
      "slug": "senga-hill"
     }
    ],
-   "rank": 83
+   "rank": 84
   },
   {
    "council": "Chilubi Town Council",
@@ -1539,7 +1556,7 @@ window.CDF_LEAGUE = {
      "slug": "chilubi"
     }
    ],
-   "rank": 84
+   "rank": 85
   },
   {
    "council": "Namwala Town Council",
@@ -1556,7 +1573,7 @@ window.CDF_LEAGUE = {
      "slug": "namwala"
     }
    ],
-   "rank": 85
+   "rank": 86
   },
   {
    "council": "Chilanga Town Council",
@@ -1573,7 +1590,7 @@ window.CDF_LEAGUE = {
      "slug": "chilanga"
     }
    ],
-   "rank": 86
+   "rank": 87
   },
   {
    "council": "Chasefu Town Council",
@@ -1590,7 +1607,7 @@ window.CDF_LEAGUE = {
      "slug": "chasefu"
     }
    ],
-   "rank": 87
+   "rank": 88
   },
   {
    "council": "Chikankata Town Council",
@@ -1607,7 +1624,7 @@ window.CDF_LEAGUE = {
      "slug": "chikankata"
     }
    ],
-   "rank": 88
+   "rank": 89
   },
   {
    "council": "Lundazi Town Council",
@@ -1624,7 +1641,7 @@ window.CDF_LEAGUE = {
      "slug": "lundazi"
     }
    ],
-   "rank": 89
+   "rank": 90
   },
   {
    "council": "Mongu Municipal Council",
@@ -1645,7 +1662,7 @@ window.CDF_LEAGUE = {
      "slug": "nalikwanda"
     }
    ],
-   "rank": 90
+   "rank": 91
   },
   {
    "council": "Sesheke Town Council",
@@ -1662,7 +1679,7 @@ window.CDF_LEAGUE = {
      "slug": "sesheke"
     }
    ],
-   "rank": 91
+   "rank": 92
   },
   {
    "council": "Kaputa Town Council",
@@ -1679,7 +1696,7 @@ window.CDF_LEAGUE = {
      "slug": "kaputa"
     }
    ],
-   "rank": 92
+   "rank": 93
   },
   {
    "council": "Pemba Town Council",
@@ -1696,7 +1713,7 @@ window.CDF_LEAGUE = {
      "slug": "pemba"
     }
    ],
-   "rank": 93
+   "rank": 94
   },
   {
    "council": "Lusaka City Council",
@@ -1737,7 +1754,7 @@ window.CDF_LEAGUE = {
      "slug": "munali"
     }
    ],
-   "rank": 94
+   "rank": 95
   },
   {
    "council": "Shang'ombo Town Council",
@@ -1754,7 +1771,7 @@ window.CDF_LEAGUE = {
      "slug": "shang-ombo"
     }
    ],
-   "rank": 95
+   "rank": 96
   },
   {
    "council": "Mwansabombwe Town Council",
@@ -1771,7 +1788,7 @@ window.CDF_LEAGUE = {
      "slug": "mwansabombwe"
     }
    ],
-   "rank": 96
+   "rank": 97
   },
   {
    "council": "Chitambo Town Council",
@@ -1788,7 +1805,7 @@ window.CDF_LEAGUE = {
      "slug": "chitambo"
     }
    ],
-   "rank": 97
+   "rank": 98
   },
   {
    "council": "Rufunsa Town Council",
@@ -1805,7 +1822,7 @@ window.CDF_LEAGUE = {
      "slug": "rufunsa"
     }
    ],
-   "rank": 98
+   "rank": 99
   },
   {
    "council": "Livingstone City Council",
@@ -1822,7 +1839,7 @@ window.CDF_LEAGUE = {
      "slug": "livingstone"
     }
    ],
-   "rank": 99
+   "rank": 100
   },
   {
    "council": "Kitwe City Council",
@@ -1855,7 +1872,7 @@ window.CDF_LEAGUE = {
      "slug": "wusakile"
     }
    ],
-   "rank": 100
+   "rank": 101
   },
   {
    "council": "Mkushi Town Council",
@@ -1870,23 +1887,6 @@ window.CDF_LEAGUE = {
     {
      "name": "Mkushi North",
      "slug": "mkushi-north"
-    }
-   ],
-   "rank": 101
-  },
-  {
-   "council": "Luwingu Town Council",
-   "named": 2,
-   "completed": 1,
-   "statusPct": 100,
-   "yearPct": 0,
-   "amountPct": 50,
-   "composite": 50.0,
-   "latest": null,
-   "constituencies": [
-    {
-     "name": "Lubansenshi",
-     "slug": "lubansenshi"
     }
    ],
    "rank": 102
